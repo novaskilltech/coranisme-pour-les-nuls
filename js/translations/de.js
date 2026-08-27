@@ -1,6 +1,6 @@
 /**
  * Pack de Langue : Allemand (DE) - Deutsch
- * Traduction Exhaustive et Intégrale (UI, Préface, Intro, 10 Arguments, Modales)
+ * Traduction Complète et Exhaustive
  */
 window.I18N_DATA = window.I18N_DATA || {};
 window.I18N_DATA['de'] = {
