@@ -1,6 +1,6 @@
 /**
  * Pack de Langue : Tamoul (TA) - தமிழ்
- * Traduction Complète et Exhaustive
+ * Traduction Intégrale et Complète (UI, Préface, Intro, 10 Arguments, Modales)
  */
 window.I18N_DATA = window.I18N_DATA || {};
 window.I18N_DATA['ta'] = {

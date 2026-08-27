@@ -1,6 +1,6 @@
 /**
  * Pack de Langue : Pachto (PS) - پښتو
- * Traduction Complète et Exhaustive
+ * Traduction Intégrale et Complète (UI, Préface, Intro, 10 Arguments, Modales)
  */
 window.I18N_DATA = window.I18N_DATA || {};
 window.I18N_DATA['ps'] = {

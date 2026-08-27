@@ -1,6 +1,6 @@
 /**
  * Pack de Langue : Français (FR) - Français
- * Traduction Complète et Exhaustive
+ * Traduction Intégrale et Complète (UI, Préface, Intro, 10 Arguments, Modales)
  */
 window.I18N_DATA = window.I18N_DATA || {};
 window.I18N_DATA['fr'] = {
