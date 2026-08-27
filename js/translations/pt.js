@@ -1,6 +1,6 @@
 /**
  * Pack de Langue : Portugais (PT) - Português
- * Traduction Intégrale Vérifiée et Approfondie
+ * Traduction Exhaustive et Intégrale (UI, Préface, Intro, 10 Arguments, Modales)
  */
 window.I18N_DATA = window.I18N_DATA || {};
 window.I18N_DATA['pt'] = {
@@ -120,7 +120,13 @@ window.I18N_DATA['pt'] = {
     "navEndManual": "Fim do Manual (Início)",
     "toastCopySuccess": "Resposta sintética de 30s copiada para a área de transferência!",
     "quizBravo": "Parabéns! Resposta correta.",
-    "quizIncorrect": "Incorreto. Tente novamente!"
+    "quizIncorrect": "Incorreto. Tente novamente!",
+    "labelSituation": "Situação:",
+    "labelLogic": "Mecanismo lógico:",
+    "labelLesson": "Ensinamento:",
+    "labelApplication": "Aplicação ao debate:",
+    "labelObjection": "Objeção",
+    "labelMethodicAnswer": "Resposta metódica:"
   },
   "arguments": [
     {
@@ -139,17 +145,20 @@ window.I18N_DATA['pt'] = {
           {
             "ref": "Sourate Al-Anʿâm, verset 38",
             "ar": "مَّا فَرَّطْنَا فِي الْكِتَابِ مِن شَيْءٍ",
-            "fr": "« Nous n'avons rien omis dans le Livre. »"
+            "fr": "« Nous n'avons rien omis dans le Livre. »",
+            "translation": "« Nous n'avons rien omis dans le Livre. »"
           },
           {
             "ref": "Sourate Al-Anʿâm, verset 114",
             "ar": "كِتَابًا مُّفَصَّلًا",
-            "fr": "« Un Livre exposé en détail. »"
+            "fr": "« Un Livre exposé en détail. »",
+            "translation": "« Un Livre exposé en détail. »"
           },
           {
             "ref": "Sourate An-Naḥl, verset 89",
             "ar": "وَنَزَّلْنَا عَلَيْكَ الْكِتَابَ تِبْيَانًا لِّكُلِّ شَيْءٍ",
-            "fr": "« Nous avons fait descendre sur toi le Livre comme clarification de toute chose. »"
+            "fr": "« Nous avons fait descendre sur toi le Livre comme clarification de toute chose. »",
+            "translation": "« Nous avons fait descendre sur toi le Livre comme clarification de toute chose. »"
           }
         ],
         "realQuestion": "Ces versets impliquent-ils que chaque détail pratique, chaque modalité et chaque explication doivent obligatoirement être écrits mot pour mot dans le texte, ou le Coran peut-il lui-même instituer une autorité prophétique chargée d'expliquer et d'incarner ses préceptes ?"
@@ -185,22 +194,26 @@ window.I18N_DATA['pt'] = {
           {
             "ref": "Sourate An-Nisâʾ, verset 59",
             "ar": "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ",
-            "fr": "« Obéissez à Allah et obéissez au Messager. »"
+            "fr": "« Obéissez à Allah et obéissez au Messager. »",
+            "translation": "« Obéissez à Allah et obéissez au Messager. »"
           },
           {
             "ref": "Sourate An-Nisâʾ, verset 65",
             "ar": "حَتَّىٰ يُحَكِّمُوكَ فِيمَا شَجَرَ بَيْنَهُمْ",
-            "fr": "« Jusqu'à ce qu'ils te prennent pour juge dans leurs différends. »"
+            "fr": "« Jusqu'à ce qu'ils te prennent pour juge dans leurs différends. »",
+            "translation": "« Jusqu'à ce qu'ils te prennent pour juge dans leurs différends. »"
           },
           {
             "ref": "Sourate An-Naḥl, verset 44",
             "ar": "لِتُبَيِّنَ لِلنَّاسِ مَا نُزِّلَ إِلَيْهِمْ",
-            "fr": "« Afin que tu exposes clairement aux gens ce qui a été révélé pour eux. »"
+            "fr": "« Afin que tu exposes clairement aux gens ce qui a été révélé pour eux. »",
+            "translation": "« Afin que tu exposes clairement aux gens ce qui a été révélé pour eux. »"
           },
           {
             "ref": "Sourate Al-Aḥzâb, verset 21",
             "ar": "لَّقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ",
-            "fr": "« Vous avez certes dans le Messager d'Allah un excellent modèle. »"
+            "fr": "« Vous avez certes dans le Messager d'Allah un excellent modèle. »",
+            "translation": "« Vous avez certes dans le Messager d'Allah un excellent modèle. »"
           }
         ],
         "consequence": "La complétude du Coran inclut, dans son propre texte, l'institution de l'autorité prophétique. Il n'y a donc nulle opposition entre la plénitude du Coran et le devoir de suivre la Sunna."
@@ -276,12 +289,14 @@ window.I18N_DATA['pt'] = {
           {
             "ref": "Sourate An-Nisâʾ, verset 59",
             "ar": "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ",
-            "fr": "« Obéissez à Allah et obéissez au Messager. »"
+            "fr": "« Obéissez à Allah et obéissez au Messager. »",
+            "translation": "« Obéissez à Allah et obéissez au Messager. »"
           },
           {
             "ref": "Sourate An-Nisâʾ, verset 80",
             "ar": "مَّن يُطِعِ الرَّسُولَ فَقَدْ أَطَاعَ اللَّهَ",
-            "fr": "« Celui qui obéit au Messager a certes obéi à Allah. »"
+            "fr": "« Celui qui obéit au Messager a certes obéi à Allah. »",
+            "translation": "« Celui qui obéit au Messager a certes obéi à Allah. »"
           }
         ],
         "realQuestion": "Être mandaté pour transmettre une révélation interdit-il de recevoir du Mandant suprême une compétence d'ordre, de jugement et d'explication contraignante ?"
@@ -317,17 +332,20 @@ window.I18N_DATA['pt'] = {
           {
             "ref": "Sourate An-Nisâʾ, verset 65",
             "ar": "فَلَا وَرَبِّكَ لَا يُؤْمِنُونَ حَتَّىٰ يُحَكِّمُوكَ فِيمَا شَجَرَ بَيْنَهُمْ ثُمَّ لَا يَجِدُوا فِي أَنفُسِهِمْ حَرَجًا مِّمَّا قَضَيْتَ وَيُسَلِّمُوا تَسْلِيمًا",
-            "fr": "« Non ! Par ton Seigneur ! Ils ne seront pas croyants tant qu'ils ne t'auront pas pris pour juge dans leurs litiges, et qu'ils n'éprouvent nulle gêne envers ce que tu as tranché, et qu'ils s'y soumettent totalement. »"
+            "fr": "« Non ! Par ton Seigneur ! Ils ne seront pas croyants tant qu'ils ne t'auront pas pris pour juge dans leurs litiges, et qu'ils n'éprouvent nulle gêne envers ce que tu as tranché, et qu'ils s'y soumettent totalement. »",
+            "translation": "« Non ! Par ton Seigneur ! Ils ne seront pas croyants tant qu'ils ne t'auront pas pris pour juge dans leurs litiges, et qu'ils n'éprouvent nulle gêne envers ce que tu as tranché, et qu'ils s'y soumettent totalement. »"
           },
           {
             "ref": "Sourate An-Nûr, verset 63",
             "ar": "فَلْيَحْذَرِ الَّذِينَ يُخَالِفُونَ عَنْ أَمْرِهِ",
-            "fr": "« Que ceux qui s'opposent à son ordre prennent garde... »"
+            "fr": "« Que ceux qui s'opposent à son ordre prennent garde... »",
+            "translation": "« Que ceux qui s'opposent à son ordre prennent garde... »"
           },
           {
             "ref": "Sourate Al-Aḥzâb, verset 36",
             "ar": "وَمَا كَانَ لِمُؤْمِنٍ وَلَا مُؤْمِنَةٍ إِذَا قَضَى اللَّهُ وَرَسُولُهُ أَمْرًا أَن يَكُونَ لَهُمُ الْخِيَرَةُ مِنْ أَمْرِهِمْ",
-            "fr": "« Il n'appartient pas à un croyant ni à une croyante, lorsqu'Allah et Son Messager ont décidé d'une affaire, d'avoir encore le choix... »"
+            "fr": "« Il n'appartient pas à un croyant ni à une croyante, lorsqu'Allah et Son Messager ont décidé d'une affaire, d'avoir encore le choix... »",
+            "translation": "« Il n'appartient pas à un croyant ni à une croyante, lorsqu'Allah et Son Messager ont décidé d'une affaire, d'avoir encore le choix... »"
           }
         ],
         "consequence": "Le Coran utilise des termes précis : juger (hukm), trancher (qadâ') et ordonner (amr), attribués directement à la personne du Prophète ﷺ."
@@ -391,17 +409,20 @@ window.I18N_DATA['pt'] = {
           {
             "ref": "Sourate Yûsuf, verset 40",
             "ar": "إِنِ الْحُكْمُ إِلَّا لِلَّهِ",
-            "fr": "« Le jugement n'appartient qu'à Allah. »"
+            "fr": "« Le jugement n'appartient qu'à Allah. »",
+            "translation": "« Le jugement n'appartient qu'à Allah. »"
           },
           {
             "ref": "Sourate Al-Anʿâm, verset 57",
             "ar": "إِنِ الْحُكْمُ إِلَّا لِلَّهِ ۖ يَقُصُّ الْحَقَّ ۖ وَهُوَ خَيْرُ الْفَاصِلِينَ",
-            "fr": "« Le jugement n'appartient qu'à Allah : Il tranche en toute vérité et Il est le meilleur des juges. »"
+            "fr": "« Le jugement n'appartient qu'à Allah : Il tranche en toute vérité et Il est le meilleur des juges. »",
+            "translation": "« Le jugement n'appartient qu'à Allah : Il tranche en toute vérité et Il est le meilleur des juges. »"
           },
           {
             "ref": "Sourate Al-Kahf, verset 26",
             "ar": "وَلَا يُشْرِكُ فِي حُكْمِهِ أَحَدًا",
-            "fr": "« Et Il n'associe personne à Son jugement. »"
+            "fr": "« Et Il n'associe personne à Son jugement. »",
+            "translation": "« Et Il n'associe personne à Son jugement. »"
           }
         ],
         "realQuestion": "Le fait qu'Allah soit l'unique Souverain L'empêche-t-il d'investir Son Messager ﷺ d'un pouvoir d'interdiction, de permission et de jugement délégué ?"
@@ -433,12 +454,14 @@ window.I18N_DATA['pt'] = {
           {
             "ref": "Sourate Al-Aʿrâf, verset 157",
             "ar": "وَيُحِلُّ لَهُمُ الطَّيِّبَاتِ وَيُحَرِّمُ عَلَيْهِمُ الْخَبَائِثَ",
-            "fr": "« Il leur rend licites les bonnes choses et leur interdit les mauvaises. »"
+            "fr": "« Il leur rend licites les bonnes choses et leur interdit les mauvaises. »",
+            "translation": "« Il leur rend licites les bonnes choses et leur interdit les mauvaises. »"
           },
           {
             "ref": "Sourate An-Nisâʾ, verset 59",
             "ar": "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ وَأُولِي الْأَمْرِ مِنكُمْ",
-            "fr": "« Obéissez à Allah, obéissez au Messager et à ceux d'entre vous qui détiennent l'autorité. »"
+            "fr": "« Obéissez à Allah, obéissez au Messager et à ceux d'entre vous qui détiennent l'autorité. »",
+            "translation": "« Obéissez à Allah, obéissez au Messager et à ceux d'entre vous qui détiennent l'autorité. »"
           }
         ],
         "consequence": "Allah عز وجل institue l'ordre hiérarchique : Allah → Messager → Détenteurs de l'autorité. Cette autorité déléguée ne fait de personne un associé à Dieu."
@@ -502,12 +525,14 @@ window.I18N_DATA['pt'] = {
           {
             "ref": "Sourate Al-Māʾidah, verset 99",
             "ar": "مَّا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ",
-            "fr": "« Il n'incombe au Messager que la transmission. »"
+            "fr": "« Il n'incombe au Messager que la transmission. »",
+            "translation": "« Il n'incombe au Messager que la transmission. »"
           },
           {
             "ref": "Sourate An-Nûr, verset 54",
             "ar": "وَإِن تُطِيعُوهُ تَهْتَدُوا ۚ وَمَا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ الْمُبِينُ",
-            "fr": "« Et si vous lui obéissez, vous serez bien guidés. Et il n'incombe au Messager que la transmission claire. »"
+            "fr": "« Et si vous lui obéissez, vous serez bien guidés. Et il n'incombe au Messager que la transmission claire. »",
+            "translation": "« Et si vous lui obéissez, vous serez bien guidés. Et il n'incombe au Messager que la transmission claire. »"
           }
         ],
         "realQuestion": "La formule du balâgh exprime-t-elle une interdiction d'expliquer et d'enseigner, ou souligne-t-elle la non-responsabilité du Prophète face au refus des incrédules de croire ?"
@@ -539,17 +564,20 @@ window.I18N_DATA['pt'] = {
           {
             "ref": "Sourate An-Naḥl, verset 44",
             "ar": "وَأَنزَلْنَا إِلَيْكَ الذِّكْرَ لِتُبَيِّنَ لِلنَّاسِ مَا نُزِّلَ إِلَيْهِمْ",
-            "fr": "« Et vers toi, Nous avons fait descendre le Rappel, afin que tu exposes clairement aux gens ce qui a été révélé pour eux. »"
+            "fr": "« Et vers toi, Nous avons fait descendre le Rappel, afin que tu exposes clairement aux gens ce qui a été révélé pour eux. »",
+            "translation": "« Et vers toi, Nous avons fait descendre le Rappel, afin que tu exposes clairement aux gens ce qui a été révélé pour eux. »"
           },
           {
             "ref": "Sourate Al-Baqarah, verset 151",
             "ar": "يَتْلُو عَلَيْكُمْ آيَاتِنَا وَيُزَكِّيكُمْ وَيُعَلِّمُكُمُ الْكِتَابَ وَالْحِكْمَةَ",
-            "fr": "« Il vous récite Nos versets, vous purifie, et vous enseigne le Livre et la Sagesse. »"
+            "fr": "« Il vous récite Nos versets, vous purifie, et vous enseigne le Livre et la Sagesse. »",
+            "translation": "« Il vous récite Nos versets, vous purifie, et vous enseigne le Livre et la Sagesse. »"
           },
           {
             "ref": "Sourate Al-Aḥzâb, verset 21",
             "ar": "لَّقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ",
-            "fr": "« Vous avez certes dans le Messager d'Allah un excellent modèle. »"
+            "fr": "« Vous avez certes dans le Messager d'Allah un excellent modèle. »",
+            "translation": "« Vous avez certes dans le Messager d'Allah un excellent modèle. »"
           }
         ],
         "consequence": "La chaîne logique révélée est : Révélation → Transmission → Explication (Bayân) → Enseignement (Ta'lîm) → Incarnation exemplaire (Uswah)."
@@ -613,7 +641,8 @@ window.I18N_DATA['pt'] = {
           {
             "ref": "Sourate Al-Ḥijr, verset 9",
             "ar": "إِنَّا نَحْنُ نَزَّلْنَا الذِّكْرَ وَإِنَّا لَهُ لَحَافِظُونَ",
-            "fr": "« En vérité, c'est Nous qui avons fait descendre le Rappel, et c'est Nous qui en sommes gardien. »"
+            "fr": "« En vérité, c'est Nous qui avons fait descendre le Rappel, et c'est Nous qui en sommes gardien. »",
+            "translation": "« En vérité, c'est Nous qui avons fait descendre le Rappel, et c'est Nous qui en sommes gardien. »"
           }
         ],
         "realQuestion": "Le fait que le Coran bénéficie d'une promesse divine unique et d'un mode de transmission incomparable entraîne-t-il automatiquement la fausseté ou l'inutilisabilité de toute transmission historique de la Sunna ?"
@@ -649,12 +678,14 @@ window.I18N_DATA['pt'] = {
           {
             "ref": "Sourate An-Nisâʾ, verset 59",
             "ar": "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ",
-            "fr": "« Obéissez à Allah et obéissez au Messager. »"
+            "fr": "« Obéissez à Allah et obéissez au Messager. »",
+            "translation": "« Obéissez à Allah et obéissez au Messager. »"
           },
           {
             "ref": "Sourate Al-Aḥzâb, verset 21",
             "ar": "لَّقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ",
-            "fr": "« Vous avez certes dans le Messager d'Allah un excellent modèle. »"
+            "fr": "« Vous avez certes dans le Messager d'Allah un excellent modèle. »",
+            "translation": "« Vous avez certes dans le Messager d'Allah un excellent modèle. »"
           }
         ],
         "consequence": "Si aucun enseignement prophétique ne pouvait subsister de manière fiable, l'ordre coranique perpétuel de suivre le Prophète ﷺ comme modèle deviendrait inapplicable pour les générations postérieures."
@@ -836,12 +867,14 @@ window.I18N_DATA['pt'] = {
           {
             "ref": "Sourate An-Nisâʾ, verset 59",
             "ar": "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ",
-            "fr": "« Obéissez à Allah et obéissez au Messager. »"
+            "fr": "« Obéissez à Allah et obéissez au Messager. »",
+            "translation": "« Obéissez à Allah et obéissez au Messager. »"
           },
           {
             "ref": "Sourate An-Nisâʾ, verset 65",
             "ar": "حَتَّىٰ يُحَكِّمُوكَ فِيمَا شَجَرَ بَيْنَهُمْ",
-            "fr": "« Jusqu'à ce qu'ils te prennent pour juge dans leurs différends. »"
+            "fr": "« Jusqu'à ce qu'ils te prennent pour juge dans leurs différends. »",
+            "translation": "« Jusqu'à ce qu'ils te prennent pour juge dans leurs différends. »"
           }
         ],
         "consequence": "La question du support d'enregistrement ne modifie en rien le commandement coranique permanent d'obéir au Messager ﷺ et de suivre ses jugements."
@@ -905,17 +938,20 @@ window.I18N_DATA['pt'] = {
           {
             "ref": "Sourate Al-Jâthiyah, verset 6",
             "ar": "تِلْكَ آيَاتُ اللَّهِ نَتْلُوهَا عَلَيْكَ بِالْحَقِّ ۖ فَبِأَيِّ حَدِيثٍ بَعْدَ اللَّهِ وَآيَاتِهِ يُؤْمِنُونَ",
-            "fr": "« Voilà les versets d'Allah que Nous te récitons en toute vérité. En quel discours (hadīth), après Allah et Ses versets, croiront-ils donc ? »"
+            "fr": "« Voilà les versets d'Allah que Nous te récitons en toute vérité. En quel discours (hadīth), après Allah et Ses versets, croiront-ils donc ? »",
+            "translation": "« Voilà les versets d'Allah que Nous te récitons en toute vérité. En quel discours (hadīth), après Allah et Ses versets, croiront-ils donc ? »"
           },
           {
             "ref": "Sourate Al-Mursalât, verset 50",
             "ar": "فَبِأَيِّ حَدِيثٍ بَعْدَهُ يُؤْمِنُونَ",
-            "fr": "« En quel discours (hadīth) après cela croiront-ils donc ? »"
+            "fr": "« En quel discours (hadīth) après cela croiront-ils donc ? »",
+            "translation": "« En quel discours (hadīth) après cela croiront-ils donc ? »"
           },
           {
             "ref": "Sourate Luqmân, verset 6",
             "ar": "وَمِنَ النَّاسِ مَن يَشْتَرِي لَهْوَ الْحَدِيثِ",
-            "fr": "« Et parmi les hommes, il en est qui achètent des discours futiles (lahw al-hadīth)... »"
+            "fr": "« Et parmi les hommes, il en est qui achètent des discours futiles (lahw al-hadīth)... »",
+            "translation": "« Et parmi les hommes, il en est qui achètent des discours futiles (lahw al-hadīth)... »"
           }
         ],
         "realQuestion": "Le terme arabe « hadīth » dans le texte coranique désigne-t-il les recueils de traditions sunnites forgés techniquement des siècles plus tard, ou possède-t-il son sens lexical courant de parole, discours, récit ou nouvelle ?"
@@ -947,7 +983,8 @@ window.I18N_DATA['pt'] = {
           {
             "ref": "Sourate Al-Jâthiyah, verset 6",
             "ar": "فَبِأَيِّ حَدِيثٍ بَعْدَ اللَّهِ وَآيَاتِهِ يُؤْمِنُونَ",
-            "fr": "« En quel discours, après Allah et Ses versets, croiront-ils donc ? »"
+            "fr": "« En quel discours, après Allah et Ses versets, croiront-ils donc ? »",
+            "translation": "« En quel discours, après Allah et Ses versets, croiront-ils donc ? »"
           }
         ],
         "consequence": "Ce verset s'adresse aux polythéistes qui refusent de croire en la parole d'Allah. Le Coran leur demande quel autre discours pourrait les convaincre s'ils rejettent la révélation divine. Il ne traite en aucun cas des sources d'explication de la loi musulmane."
@@ -1011,17 +1048,20 @@ window.I18N_DATA['pt'] = {
           {
             "ref": "Sourate ʿAbasa, versets 1-2",
             "ar": "عَبَسَ وَتَوَلَّىٰ أَن جَاءَهُ الْأَعْمَىٰ",
-            "fr": "« Il s'est renfrogné et s'est détourné parce que l'aveugle est venu à lui. »"
+            "fr": "« Il s'est renfrogné et s'est détourné parce que l'aveugle est venu à lui. »",
+            "translation": "« Il s'est renfrogné et s'est détourné parce que l'aveugle est venu à lui. »"
           },
           {
             "ref": "Sourate At-Tawbah, verset 43",
             "ar": "عَفَا اللَّهُ عَنكَ لِمَ أَذِنتَ لَهُمْ",
-            "fr": "« Qu'Allah te pardonne ! Pourquoi leur as-tu donné permission ? »"
+            "fr": "« Qu'Allah te pardonne ! Pourquoi leur as-tu donné permission ? »",
+            "translation": "« Qu'Allah te pardonne ! Pourquoi leur as-tu donné permission ? »"
           },
           {
             "ref": "Sourate At-Taḥrîm, verset 1",
             "ar": "يَا أَيُّهَا النَّبِيُّ لِمَ تُحَرِّمُ مَا أَحَلَّ اللَّهُ لَكَ",
-            "fr": "« Ô Prophète ! Pourquoi t'interdis-tu ce qu'Allah t'a rendu licite ? »"
+            "fr": "« Ô Prophète ! Pourquoi t'interdis-tu ce qu'Allah t'a rendu licite ? »",
+            "translation": "« Ô Prophète ! Pourquoi t'interdis-tu ce qu'Allah t'a rendu licite ? »"
           }
         ],
         "realQuestion": "Le fait qu'Allah عز وجل soit intervenu par révélation pour apporter une orientation ou une précision ponctuelle affaiblit-il l'autorité du Messager ﷺ, ou prouve-t-il au contraire que sa mission était sous surveillance divine constante et que ses enseignements définitifs sont pleinement agréés ?"
@@ -1057,12 +1097,14 @@ window.I18N_DATA['pt'] = {
           {
             "ref": "Sourate An-Najm, versets 3-4",
             "ar": "وَمَا يَنطِقُ عَنِ الْهَوَىٰ إِنْ هُوَ إِلَّا وَحْيٌ يُوحَىٰ",
-            "fr": "« Et il ne prononce rien sous l'effet de la passion ; ce n'est rien d'autre qu'une révélation inspirée. »"
+            "fr": "« Et il ne prononce rien sous l'effet de la passion ; ce n'est rien d'autre qu'une révélation inspirée. »",
+            "translation": "« Et il ne prononce rien sous l'effet de la passion ; ce n'est rien d'autre qu'une révélation inspirée. »"
           },
           {
             "ref": "Sourate Al-Ḥâqqah, versets 44-46",
             "ar": "وَلَوْ تَقَوَّلَ عَلَيْنَا بَعْضَ الْأَقَاوِيلِ لَأَخَذْنَا مِنْهُ بِالْيَمِينِ ثُمَّ لَقَطَعْنَا مِنْهُ الْوَتِينَ",
-            "fr": "« Et s'il avait forgé contre Nous quelques paroles, Nous l'aurions saisi de la main droite, puis Nous lui aurions tranché l'aorte. »"
+            "fr": "« Et s'il avait forgé contre Nous quelques paroles, Nous l'aurions saisi de la main droite, puis Nous lui aurions tranché l'aorte. »",
+            "translation": "« Et s'il avait forgé contre Nous quelques paroles, Nous l'aurions saisi de la main droite, puis Nous lui aurions tranché l'aorte. »"
           }
         ],
         "consequence": "Le Coran garantit que la mission du Messager ﷺ s'exerçait sous le contrôle souverain direct d'Allah. Ce qui a été validé et transmis à la communauté constitue une autorité religieuse indiscutable."
@@ -1152,12 +1194,14 @@ window.I18N_DATA['pt'] = {
           {
             "ref": "Sourate Al-Aḥzâb, verset 21",
             "ar": "لَّقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ",
-            "fr": "« Vous avez certes dans le Messager d'Allah un excellent modèle. »"
+            "fr": "« Vous avez certes dans le Messager d'Allah un excellent modèle. »",
+            "translation": "« Vous avez certes dans le Messager d'Allah un excellent modèle. »"
           },
           {
             "ref": "Sourate An-Naḥl, verset 44",
             "ar": "لِتُبَيِّنَ لِلنَّاسِ مَا نُزِّلَ إِلَيْهِمْ",
-            "fr": "« Afin que tu exposes clairement aux gens ce qui leur a été révélé. »"
+            "fr": "« Afin que tu exposes clairement aux gens ce qui leur a été révélé. »",
+            "translation": "« Afin que tu exposes clairement aux gens ce qui leur a été révélé. »"
           }
         ],
         "consequence": "Le Coran ordonne d'accomplir la prière mais n'en détaille pas la chorégraphie gestuelle, car il s'adresse à une communauté qui voyait le Prophète ﷺ l'accomplir et l'enseigner (« Priez comme vous m'avez vu prier »)."

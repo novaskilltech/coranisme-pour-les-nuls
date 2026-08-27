@@ -421,7 +421,7 @@ function renderArgumentView(arg, container) {
                     <span class="verse-ref-badge">${escapeHTML(v.ref)}</span>
                   </div>
                   <div class="verse-arabic" lang="ar" dir="rtl">${v.ar}</div>
-                  <div class="verse-translation">${v.fr || v.translation || ''}</div>
+                  <div class="verse-translation">${v.translation || v.fr || ''}</div>
                 </div>
               `).join('')}
             </div>
@@ -500,7 +500,7 @@ function renderArgumentView(arg, container) {
                     <span class="verse-ref-badge">${escapeHTML(v.ref)}</span>
                   </div>
                   <div class="verse-arabic" lang="ar" dir="rtl">${v.ar}</div>
-                  <div class="verse-translation">${v.fr || v.translation || ''}</div>
+                  <div class="verse-translation">${v.translation || v.fr || ''}</div>
                 </div>
               `).join('')}
             </div>
@@ -523,16 +523,16 @@ function renderArgumentView(arg, container) {
                   ${escapeHTML(a.title)}
                 </div>
                 <div class="analogie-scenario">
-                  <strong>Situation :</strong> ${escapeHTML(a.scenario)}
+                  <strong>${ui.labelSituation || "Situation :"}</strong> ${escapeHTML(a.scenario)}
                 </div>
                 <div class="analogie-logic-box">
-                  <strong>Mécanisme logique :</strong> ${escapeHTML(a.logic)}
+                  <strong>${ui.labelLogic || "Mécanisme logique :"}</strong> ${escapeHTML(a.logic)}
                 </div>
                 <div class="analogie-lesson">
-                  <strong>Enseignement :</strong> ${escapeHTML(a.lesson)}
+                  <strong>${ui.labelLesson || "Enseignement :"}</strong> ${escapeHTML(a.lesson)}
                 </div>
                 <div style="font-size: 0.85rem; font-weight: 700; color: var(--nuls-black); border-top: 1px solid #E5E7EB; padding-top: 0.5rem;">
-                  <strong>Application au débat :</strong> ${escapeHTML(a.application)}
+                  <strong>${ui.labelApplication || "Application au débat :"}</strong> ${escapeHTML(a.application)}
                 </div>
               </div>
             `).join('')}
@@ -574,11 +574,11 @@ function renderArgumentView(arg, container) {
             ${arg.objections.map((o, idx) => `
               <div class="objection-item">
                 <button class="objection-title-btn" data-action="toggle-objection">
-                  <span><strong>Objection ${idx + 1} :</strong> ${escapeHTML(o.obj)}</span>
+                  <span><strong>${ui.labelObjection || "Objection"} ${idx + 1} :</strong> ${escapeHTML(o.obj)}</span>
                   <span>▼</span>
                 </button>
                 <div class="objection-content">
-                  <strong>Réponse méthodique :</strong> ${escapeHTML(o.ans)}
+                  <strong>${ui.labelMethodicAnswer || "Réponse méthodique :"}</strong> ${escapeHTML(o.ans)}
                 </div>
               </div>
             `).join('')}
