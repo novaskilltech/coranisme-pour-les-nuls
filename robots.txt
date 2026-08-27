@@ -1,4 +1,19 @@
 User-agent: *
 Allow: /
 
+# Autorisation explicite pour les crawlers et outils d'analyse OpenAI (ChatGPT Search / Atlas)
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+# Autorisation explicite pour Googlebot & Bingbot
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
 Sitemap: https://anti-coranisme.novaskill.tech/sitemap.xml
+
