@@ -2,6 +2,9 @@
  * Base de données exhaustive des 10 Arguments de Réfutation du Coranisme
  * Tirée des 10 fascicules : "Comment démasquer et réfuter la secte des coranistes"
  * Manuel : "Le Coranisme pour les Nuls : Réfutation des méprisants du Coran et de la Sounnah"
+ * Par Salah Eddine Ahmed - Aumône Perpétuelle (Sadaqah Jâriyah)
+ * 
+ * Note : Conformément aux règles d'or, chaque sourate est impérativement citée par son nom propre.
  */
 
 const ARGUMENTS_DATA = [
@@ -19,17 +22,17 @@ const ARGUMENTS_DATA = [
       thesis: "Le raisonnement coraniste affirme qu'Allah décrit Son Livre comme complet, détaillé et explicatif. Si une règle religieuse indispensable devait être cherchée dans une source extérieure au Coran, cela signifierait que le Livre n'était pas réellement suffisant.",
       verses: [
         {
-          ref: "Coran 6:38",
+          ref: "Sourate Al-Anʿâm, verset 38",
           ar: "مَّا فَرَّطْنَا فِي الْكِتَابِ مِن شَيْءٍ",
           fr: "« Nous n'avons rien omis dans le Livre. »"
         },
         {
-          ref: "Coran 6:114",
+          ref: "Sourate Al-Anʿâm, verset 114",
           ar: "كِتَابًا مُّفَصَّلًا",
           fr: "« Un Livre exposé en détail. »"
         },
         {
-          ref: "Coran 16:89",
+          ref: "Sourate An-Naḥl, verset 89",
           ar: "وَنَزَّلْنَا عَلَيْكَ الْكِتَابَ تِبْيَانًا لِّكُلِّ شَيْءٍ",
           fr: "« Nous avons fait descendre sur toi le Livre comme clarification de toute chose. »"
         }
@@ -65,22 +68,22 @@ const ARGUMENTS_DATA = [
       title: "Une autorité extérieure au texte, mais instituée par le texte",
       verses: [
         {
-          ref: "Coran 4:59",
+          ref: "Sourate An-Nisâʾ, verset 59",
           ar: "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ",
           fr: "« Obéissez à Allah et obéissez au Messager. »"
         },
         {
-          ref: "Coran 4:65",
+          ref: "Sourate An-Nisâʾ, verset 65",
           ar: "حَتَّىٰ يُحَكِّمُوكَ فِيمَا شَجَرَ بَيْنَهُمْ",
           fr: "« Jusqu'à ce qu'ils te prennent pour juge dans leurs différends. »"
         },
         {
-          ref: "Coran 16:44",
+          ref: "Sourate An-Naḥl, verset 44",
           ar: "لِتُبَيِّنَ لِلنَّاسِ مَا نُزِّلَ إِلَيْهِمْ",
           fr: "« Afin que tu exposes clairement aux gens ce qui a été révélé pour eux. »"
         },
         {
-          ref: "Coran 33:21",
+          ref: "Sourate Al-Aḥzâb, verset 21",
           ar: "لَّقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ",
           fr: "« Vous avez certes dans le Messager d'Allah un excellent modèle. »"
         }
@@ -110,7 +113,7 @@ const ARGUMENTS_DATA = [
         scenario: "La formule de Pythagore (a² + b² = c²) est parfaitement complète. Pourtant, la lire ne suffit pas pour comprendre son application concrète.",
         logic: "Le professeur n'ajoute rien à la vérité de la formule : il transforme un énoncé complet en connaissance comprise et appliquée.",
         lesson: "Explication et complétude ne s'excluent pas. Une vérité complète requiert un enseignement.",
-        application: "Le verbe coranique « afin que tu exposes clairement » (16:44) décrit une fonction d'explication sans impliquer que le Coran soit incomplet."
+        application: "Le verbe coranique « afin que tu exposes clairement » (Sourate An-Naḥl, verset 44) décrit une fonction d'explication sans impliquer que le Coran soit incomplet."
       },
       {
         num: 4,
@@ -151,7 +154,7 @@ const ARGUMENTS_DATA = [
       "Votre argument porte-t-il sur la complétude du Coran ou sur la fiabilité historique des hadiths ?"
     ],
     readyResponses: {
-      quick30s: "Dire que le Coran est complet ne prouve pas qu'il doit être autonome de toute autorité extérieure à son texte. Un système complet peut intégrer une règle disant : « suivez telle autorité ». Or le Coran ordonne d'obéir au Messager, de le prendre pour juge, lui confie une fonction d'explication (16:44) et le présente comme modèle (33:21). Suivre cette autorité n'est donc pas ajouter quelque chose contre le Coran : c'est appliquer une instruction du Coran.",
+      quick30s: "Dire que le Coran est complet ne prouve pas qu'il doit être autonome de toute autorité extérieure à son texte. Un système complet peut intégrer une règle disant : « suivez telle autorité ». Or le Coran ordonne d'obéir au Messager (Sourate An-Nisâʾ, verset 59), de le prendre pour juge (Sourate An-Nisâʾ, verset 65), lui confie une fonction d'explication (Sourate An-Naḥl, verset 44) et le présente comme modèle (Sourate Al-Aḥzâb, verset 21). Suivre cette autorité n'est donc pas ajouter quelque chose contre le Coran : c'est appliquer une instruction du Coran.",
       developed: "La vraie question est la définition de la complétude. Complétude, exhaustivité littérale et autosuffisance interprétative ne sont pas synonymes. Une Constitution reste le texte suprême même si elle institue une Cour chargée de l'interpréter. Une formule mathématique reste complète même si un professeur doit la démontrer. De la même manière, si le Coran lui-même ordonne d'obéir au Messager et lui attribue des fonctions d'explication et de jugement, l'autorité prophétique fait partie intégrante de l'architecture du système coranique."
     },
     conclusion: {
@@ -178,12 +181,12 @@ const ARGUMENTS_DATA = [
       thesis: "Muhammad est appelé rasūl parce qu'il transmet une risāla. Ainsi, « obéir au Messager » signifierait uniquement « obéir au message qu'il transmet », c'est-à-dire au Coran. Toute autorité supplémentaire attribuée à sa personne serait une extension injustifiée.",
       verses: [
         {
-          ref: "Coran 4:59",
+          ref: "Sourate An-Nisâʾ, verset 59",
           ar: "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ",
           fr: "« Obéissez à Allah et obéissez au Messager. »"
         },
         {
-          ref: "Coran 4:80",
+          ref: "Sourate An-Nisâʾ, verset 80",
           ar: "مَّن يُطِعِ الرَّسُولَ فَقَدْ أَطَاعَ اللَّهَ",
           fr: "« Celui qui obéit au Messager a certes obéi à Allah. »"
         }
@@ -212,24 +215,24 @@ const ARGUMENTS_DATA = [
     centralPrinciple: {
       title: "Obéir au représentant est la manière même d'obéir au mandant",
       formalScheme: "Mandant M : détient l'autorité suprême.\nRègle : M nomme R et ordonne : « Obéissez à R dans le cadre de sa mission ».\nConséquence : Obéir à R = Obéir à M.\nMais : Les paroles de R ne sont pas matériellement identiques à celles de M.",
-      explanation: "Le verset 4:80 ne réduit pas le Messager à un simple porte-voix mécanique. Si Allah dit « prenez cet homme pour juge », accepter son jugement est une obéissance à Allah même si ce jugement n'est pas la récitation mot pour mot d'un verset.",
+      explanation: "Le verset de la Sourate An-Nisâʾ (verset 80) ne réduit pas le Messager à un simple porte-voix mécanique. Si Allah dit « prenez cet homme pour juge », accepter son jugement est une obéissance à Allah même si ce jugement n'est pas la récitation mot pour mot d'un verset.",
       logicalTest: "Si Allah ordonne de suivre un représentant, refuser ses décisions au nom de la seule lettre du mandant revient à désobéir au mandant lui-même."
     },
     quranicArchitecture: {
       title: "Le Messager doté d'une autorité personnelle de jugement et d'ordre",
       verses: [
         {
-          ref: "Coran 4:65",
+          ref: "Sourate An-Nisâʾ, verset 65",
           ar: "فَلَا وَرَبِّكَ لَا يُؤْمِنُونَ حَتَّىٰ يُحَكِّمُوكَ فِيمَا شَجَرَ بَيْنَهُمْ ثُمَّ لَا يَجِدُوا فِي أَنفُسِهِمْ حَرَجًا مِّمَّا قَضَيْتَ وَيُسَلِّمُوا تَسْلِيمًا",
           fr: "« Non, par ton Seigneur ! Ils ne seront pas croyants jusqu'à ce qu'ils te prennent pour juge dans leurs différends, puis ne ressentent nulle gêne envers ce que tu as décidé... »"
         },
         {
-          ref: "Coran 24:63",
+          ref: "Sourate An-Nûr, verset 63",
           ar: "فَلْيَحْذَرِ الَّذِينَ يُخَالِفُونَ عَنْ أَمْرِهِ",
           fr: "« Que ceux qui s'opposent à son ordre prennent garde... »"
         },
         {
-          ref: "Coran 33:36",
+          ref: "Sourate Al-Aḥzâb, verset 36",
           ar: "وَمَا كَانَ لِمُؤْمِنٍ وَلَا مُؤْمِنَةٍ إِذَا قَضَى اللَّهُ وَرَسُولُهُ أَمْرًا أَن يَكُونَ لَهُمُ الْخِيَرَةُ مِنْ أَمْرِهِمْ",
           fr: "« Il n'appartient pas à un croyant ni à une croyante, lorsqu'Allah et Son Messager ont décidé d'une affaire, d'avoir encore le choix... »"
         }
@@ -251,7 +254,7 @@ const ARGUMENTS_DATA = [
         scenario: "Une loi fondamentale stipule qu'en cas de litige, le juge compétent tranche. Une partie répond : « Je respecte la loi, mais je refuse le juge et je lirai la loi moi-même. »",
         logic: "Le jugement n'est pas une 2e loi, mais l'exercice d'une compétence conférée par la loi.",
         lesson: "Accepter une décision extérieure au texte matériel est une obligation créée par le texte.",
-        application: "Le parallèle avec 4:65 (« qu'ils te prennent pour juge ») est direct."
+        application: "Le parallèle avec la Sourate An-Nisâʾ, verset 65 (« qu'ils te prennent pour juge ») est direct."
       },
       {
         num: 3,
@@ -265,7 +268,7 @@ const ARGUMENTS_DATA = [
     objections: [
       {
         obj: "« Le Messager ne faisait qu'appliquer le Coran, ses jugements ne sont pas une autorité supplémentaire. »",
-        ans: "Coran 4:65 impose d'accepter « ce qu'il a décidé ». Même si la décision applique les principes de la révélation, elle constitue une décision prophétique contraignante."
+        ans: "La Sourate An-Nisâʾ, verset 65 impose d'accepter « ce qu'il a décidé ». Même si la décision applique les principes de la révélation, elle constitue une décision prophétique contraignante."
       },
       {
         obj: "« Son autorité ne concernait que ceux qui vivaient avec lui. »",
@@ -273,13 +276,13 @@ const ARGUMENTS_DATA = [
       }
     ],
     framingQuestions: [
-      "Lorsque 4:65 dit « qu'ils te prennent pour juge », pourquoi remplacer « toi » par « le texte seulement » ?",
+      "Lorsque la Sourate An-Nisâʾ (verset 65) dit « qu'ils te prennent pour juge », pourquoi remplacer « toi » par « le texte seulement » ?",
       "Que signifie « ce que tu as décidé » si le Prophète n'avait aucune fonction décisionnelle ?",
-      "Que signifie « son ordre » en 24:63 s'il n'avait qu'un rôle de lecteur mécanique ?",
+      "Que signifie « son ordre » dans la Sourate An-Nûr (verset 63) s'il n'avait qu'un rôle de lecteur mécanique ?",
       "Une autorité peut-elle être réelle tout en étant subordonnée à une autorité souveraine ?"
     ],
     readyResponses: {
-      quick30s: "Dire que « obéir au Messager » signifie uniquement « obéir au texte qu'il récite » est contredit par le Coran lui-même. Le Coran exige de prendre Muhammad lui-même pour juge (4:65), d'accepter « ce qu'il a décidé », met en garde contre ceux qui désobéissent à « son ordre » (24:63) et mentionne les décisions conjointes d'Allah et de Son Messager (33:36). Son autorité n'est pas concurrente d'Allah : elle est déléguée par Allah.",
+      quick30s: "Dire que « obéir au Messager » signifie uniquement « obéir au texte qu'il récite » est contredit par le Coran lui-même. Le Coran exige de prendre Muhammad lui-même pour juge (Sourate An-Nisâʾ, verset 65), d'accepter « ce qu'il a décidé », met en garde contre ceux qui désobéissent à « son ordre » (Sourate An-Nûr, verset 63) et mentionne les décisions conjointes d'Allah et de Son Messager (Sourate Al-Aḥzâb, verset 36). Son autorité n'est pas concurrente d'Allah : elle est déléguée par Allah.",
       developed: "L'erreur coraniste consiste à poser un faux dilemme : soit le Prophète serait une autorité concurrente d'Allah, soit un simple facteur sans pouvoir décisionnel. La réalité coranique est celle de l'autorité déléguée : Allah demeure l'unique Souverain, mais mandate Son Messager pour juger, ordonner et expliquer. Obéir aux décisions du délégué est précisément la manière prescrite par le Mandant pour Lui obéir."
     },
     conclusion: {
@@ -306,12 +309,17 @@ const ARGUMENTS_DATA = [
       thesis: "Allah seul possède le droit de légiférer (إِنِ الْحُكْمُ إِلَّا لِلَّهِ). Par conséquent, aucune parole humaine ne peut rendre obligatoire, interdit ou licite ce qui n'est pas dans le Coran. Reconnaître une autorité normative à la Sunna reviendrait à donner au Prophète une part du ḥukm d'Allah.",
       verses: [
         {
-          ref: "Coran 12:40",
+          ref: "Sourate Yûsuf, verset 40",
           ar: "إِنِ الْحُكْمُ إِلَّا لِلَّهِ",
           fr: "« Le jugement n'appartient qu'à Allah. »"
         },
         {
-          ref: "Coran 6:57 & 18:26",
+          ref: "Sourate Al-Anʿâm, verset 57",
+          ar: "إِنِ الْحُكْمُ إِلَّا لِلَّهِ ۖ يَقُصُّ الْحَقَّ ۖ وَهُوَ خَيْرُ الْفَاصِلِينَ",
+          fr: "« Le jugement n'appartient qu'à Allah : Il tranche en toute vérité et Il est le meilleur des juges. »"
+        },
+        {
+          ref: "Sourate Al-Kahf, verset 26",
           ar: "وَلَا يُشْرِكُ فِي حُكْمِهِ أَحَدًا",
           fr: "« Et Il n'associe personne à Son jugement. »"
         }
@@ -335,25 +343,25 @@ const ARGUMENTS_DATA = [
     },
     centralPrinciple: {
       title: "Le Coran attribue explicitement au Messager une fonction normative",
-      formalScheme: "Coran 7:157 : « Il leur rend licites les bonnes choses et leur interdit les mauvaises » (يُحِلُّ لَهُمُ الطَّيِّبَاتِ وَيُحَرِّمُ عَلَيْهِمُ الْخَبَائِثَ).\nVerbes actifs : يُحِلُّ (il rend licite) et يُحَرِّمُ (il interdit).",
-      explanation: "Le Coran répond par avance à la question : le Prophète a-t-il une fonction sur le licite et l'illicite ? Oui, car Allah la lui a confiée. Le Coran ordonne même d'obéir à des autorités humaines subordonnées (4:59 : 'ceux d'entre vous qui détiennent l'autorité').",
+      formalScheme: "Sourate Al-Aʿrâf, verset 157 : « Il leur rend licites les bonnes choses et leur interdit les mauvaises » (يُحِلُّ لَهُمُ الطَّيِّبَاتِ وَيُحَرِّمُ عَلَيْهِمُ الْخَبَائِثَ).\nVerbes actifs : يُحِلُّ (il rend licite) et يُحَرِّمُ (il interdit).",
+      explanation: "Le Coran répond par avance à la question : le Prophète a-t-il une fonction sur le licite et l'illicite ? Oui, car Allah la lui a confiée. Le Coran ordonne même d'obéir à des autorités humaines subordonnées (Sourate An-Nisâʾ, verset 59 : 'ceux d'entre vous qui détiennent l'autorité').",
       logicalTest: "Si aucune créature ne pouvait exercer d'autorité contraignante, aucun juge ne pourrait condamner un criminel, aucun tribunal ni gouvernement ne pourrait exister."
     },
     quranicArchitecture: {
       title: "Niveaux d'autorité institués dans le Coran",
       verses: [
         {
-          ref: "Coran 7:157",
+          ref: "Sourate Al-Aʿrâf, verset 157",
           ar: "وَيُحِلُّ لَهُمُ الطَّيِّبَاتِ وَيُحَرِّمُ عَلَيْهِمُ الْخَبَائِثَ",
           fr: "« Il leur rend licites les bonnes choses et leur interdit les mauvaises. »"
         },
         {
-          ref: "Coran 4:59",
+          ref: "Sourate An-Nisâʾ, verset 59",
           ar: "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ وَأُولِي الْأَمْرِ مِنكُمْ",
           fr: "« Obéissez à Allah, obéissez au Messager et à ceux d'entre vous qui détiennent l'autorité. »"
         },
         {
-          ref: "Coran 33:36",
+          ref: "Sourate Al-Aḥzâb, verset 36",
           ar: "إِذَا قَضَى اللَّهُ وَرَسُولُهُ أَمْرًا",
           fr: "« Lorsqu'Allah et Son Messager ont décidé d'une affaire... »"
         }
@@ -389,16 +397,16 @@ const ARGUMENTS_DATA = [
     objections: [
       {
         obj: "« Le Prophète ne faisait qu'appliquer ce qui était déjà écrit dans le Coran. »",
-        ans: "Le Coran 7:157 lui attribue expressément les verbes d'interdire et de rendre licite. Coran 4:65 impose de se soumettre à ses décisions personnelles de jugement."
+        ans: "La Sourate Al-Aʿrâf (verset 157) lui attribue expressément les verbes d'interdire et de rendre licite. La Sourate An-Nisâʾ (verset 65) impose de se soumettre à ses décisions personnelles de jugement."
       }
     ],
     framingQuestions: [
       "Le fait qu'Allah soit l'unique souverain L'empêche-t-il de donner une autorité à une créature ?",
       "Si aucune créature ne peut juger, comment existent les juges, tribunaux et gouvernants ?",
-      "Pourquoi 7:157 dit-il qu'il « leur rend licite et leur interdit » si toute interdiction devait être mot à mot dans le texte antérieur ?"
+      "Pourquoi la Sourate Al-Aʿrâf (verset 157) dit-elle qu'il « leur rend licite et leur interdit » si toute interdiction devait être mot à mot dans le texte antérieur ?"
     ],
     readyResponses: {
-      quick30s: "Le fait qu'Allah soit le seul Législateur souverain ne signifie pas qu'Il ne peut pas déléguer une autorité. Le Coran affirme explicitement en 7:157 que le Prophète « leur rend licites les bonnes choses et leur interdit les mauvaises », et ordonne en 4:59 d'obéir au Messager et aux gouvernants. Une autorité déléguée ne concurrence pas la souveraineté divine : elle en est l'exercice voulu par Allah.",
+      quick30s: "Le fait qu'Allah soit le seul Législateur souverain ne signifie pas qu'Il ne peut pas déléguer une autorité. Le Coran affirme explicitement dans la Sourate Al-Aʿrâf (verset 157) que le Prophète « leur rend licites les bonnes choses et leur interdit les mauvaises », et ordonne dans la Sourate An-Nisâʾ (verset 59) d'obéir au Messager et aux gouvernants. Une autorité déléguée ne concurrence pas la souveraineté divine : elle en est l'exercice voulu par Allah.",
       developed: "L'argument coraniste repose sur une confusion entre souveraineté absolue et autorité déléguée. Dans toute société, la Constitution est suprême mais mandate des juges et officiers pour rendre des décisions obligatoires. De même, le Prophète n'est pas un législateur indépendant : son autorité normative est subordonnée et mandatée par Allah Lui-même."
     },
     conclusion: {
@@ -422,15 +430,15 @@ const ARGUMENTS_DATA = [
     pdfFile: "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_4.pdf",
     theme: "Vocabulaire Coranique & Fonctions Prophétiques",
     theirArgument: {
-      thesis: "Le Coran déclare : « Il n'incombe au Messager que la transmission » (5:99, 16:35, 24:54). Donc sa fonction se limiterait strictement à remettre matériellement le Coran, sans autorité explicative, judiciaire ni normative.",
+      thesis: "Le Coran déclare : « Il n'incombe au Messager que la transmission » (Sourate Al-Māʾidah, verset 99 ; Sourate An-Naḥl, verset 35 ; Sourate An-Nûr, verset 54). Donc sa fonction se limiterait strictement à remettre matériellement le Coran, sans autorité explicative, judiciaire ni normative.",
       verses: [
         {
-          ref: "Coran 5:99",
+          ref: "Sourate Al-Māʾidah, verset 99",
           ar: "مَّا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ",
           fr: "« Il n'incombe au Messager que la transmission. »"
         },
         {
-          ref: "Coran 24:54",
+          ref: "Sourate An-Nûr, verset 54",
           ar: "وَإِن تُطِيعُوهُ تَهْتَدُوا ۚ وَمَا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ الْمُبِينُ",
           fr: "« Et si vous lui obéissez, vous serez bien guidés. Et il n'incombe au Messager que la transmission claire. »"
         }
@@ -454,7 +462,7 @@ const ARGUMENTS_DATA = [
     },
     centralPrinciple: {
       title: "Le test des six verbes coraniques",
-      formalScheme: "1. البلاغ (al-balâgh) : Transmission\n2. تلاوة (tilâwah) : Récitation des versets\n3. بيان (bayân) : Explication claire (16:44)\n4. تعليم (ta'lîm) : Enseignement du Livre et de la Sagesse (2:129, 2:151)\n5. حكم (hukm) : Jugement des litiges (4:65)\n6. أسوة (uswah) : Modèle pratique exemplaire (33:21)",
+      formalScheme: "1. البلاغ (al-balâgh) : Transmission\n2. تلاوة (tilâwah) : Récitation des versets\n3. بيان (bayân) : Explication claire (Sourate An-Naḥl, verset 44)\n4. تعليم (ta'lîm) : Enseignement du Livre et de la Sagesse (Sourate Al-Baqarah, versets 129 et 151)\n5. حكم (hukm) : Jugement des litiges (Sourate An-Nisâʾ, verset 65)\n6. أسوة (uswah) : Modèle pratique exemplaire (Sourate Al-Aḥzâb, verset 21)",
       explanation: "Pourquoi Allah utiliserait-Il six notions distinctes si chacune devait être réduite au sens unique de « réciter mécaniquement le Coran » ? Le Coran sépare explicitement la récitation (يَتْلُو) et l'enseignement (يُعَلِّمُ).",
       logicalTest: "Si un livre te dit d'écouter le professeur, refuser le professeur au nom du livre n'est pas « suivre le livre »."
     },
@@ -462,17 +470,17 @@ const ARGUMENTS_DATA = [
       title: "La mission d'explication et d'enseignement dans le Coran",
       verses: [
         {
-          ref: "Coran 16:44",
+          ref: "Sourate An-Naḥl, verset 44",
           ar: "وَأَنزَلْنَا إِلَيْكَ الذِّكْرَ لِتُبَيِّنَ لِلنَّاسِ مَا نُزِّلَ إِلَيْهِمْ",
           fr: "« Et Nous avons fait descendre vers toi le Rappel afin que tu exposes clairement (li-tubayyina) aux gens ce qui leur a été révélé. »"
         },
         {
-          ref: "Coran 2:151",
+          ref: "Sourate Al-Baqarah, verset 151",
           ar: "يَتْلُو عَلَيْكُمْ آيَاتِنَا وَيُزَكِّيكُمْ وَيُعَلِّمُكُمُ الْكِتَابَ وَالْحِكْمَةَ",
           fr: "« Il vous récite Nos versets, vous purifie, et vous enseigne le Livre et la Sagesse. »"
         },
         {
-          ref: "Coran 33:21",
+          ref: "Sourate Al-Aḥzâb, verset 21",
           ar: "لَّقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ",
           fr: "« Vous avez certes dans le Messager d'Allah un excellent modèle. »"
         }
@@ -507,17 +515,17 @@ const ARGUMENTS_DATA = [
     ],
     objections: [
       {
-        obj: "« Le verset 5:99 dit 'Il n'incombe QUE la transmission', c'est une formule de restriction absolue. »",
-        ans: "Dans son contexte coranique, cette restriction délimite la responsabilité du Prophète : il est responsable de transmettre clairement, pas de forcer la conversion des cœurs (16:35, 24:54). Elle n'annule pas les autres versets qui lui confient l'explication (16:44), l'enseignement (2:151) et le jugement (4:65)."
+        obj: "« Le verset 99 de la Sourate Al-Māʾidah dit 'Il n'incombe QUE la transmission', c'est une formule de restriction absolue. »",
+        ans: "Dans son contexte coranique, cette restriction délimite la responsabilité du Prophète : il est responsable de transmettre clairement, pas de forcer la conversion des cœurs (Sourate An-Naḥl, verset 35 ; Sourate An-Nûr, verset 54). Elle n'annule pas les autres versets qui lui confient l'explication (Sourate An-Naḥl, verset 44), l'enseignement (Sourate Al-Baqarah, verset 151) et le jugement (Sourate An-Nisâʾ, verset 65)."
       }
     ],
     framingQuestions: [
       "Pourquoi le Coran utilise-t-il les verbes 'réciter' ET 'enseigner' s'ils sont strictement synonymes ?",
-      "Que signifie 'afin que tu exposes clairement aux gens' en 16:44 si le texte était déjà auto-explicatif pour chacun sans le Prophète ?",
+      "Que signifie 'afin que tu exposes clairement aux gens' dans la Sourate An-Naḥl (verset 44) si le texte était déjà auto-explicatif pour chacun sans le Prophète ?",
       "Un modèle vivant (uswah) peut-il se limiter à une boîte aux lettres muette ?"
     ],
     readyResponses: {
-      quick30s: "Dire que « transmettre » signifie seulement « réciter » est une réduction contredite par le texte coranique. Le Coran distingue la récitation (tilâwah), l'explication (bayân en 16:44), l'enseignement du Livre et de la sagesse (ta'lîm en 2:151), le jugement (hukm en 4:65) et l'exemplarité pratique (uswah en 33:21). La restriction du balâgh indique que le Prophète ne peut contraindre les gens à croire, pas qu'il n'a pas le droit d'enseigner et d'expliquer la révélation.",
+      quick30s: "Dire que « transmettre » signifie seulement « réciter » est une réduction contredite par le texte coranique. Le Coran distingue la récitation (tilâwah), l'explication (bayân dans la Sourate An-Naḥl, verset 44), l'enseignement du Livre et de la sagesse (ta'lîm dans la Sourate Al-Baqarah, verset 151), le jugement (hukm dans la Sourate An-Nisâʾ, verset 65) et l'exemplarité pratique (uswah dans la Sourate Al-Aḥzâb, verset 21). La restriction du balâgh indique que le Prophète ne peut contraindre les gens à croire, pas qu'il n'a pas le droit d'enseigner et d'expliquer la révélation.",
       developed: "La transmission d'une doctrine ne se résume pas à distribuer un texte écrit. Tout comme un professeur transmet un programme en l'expliquant et en montrant des exemples, le Prophète a transmis la révélation par ses paroles, ses explications et sa mise en pratique. Les versets de restriction rappellent qu'il n'est pas responsable du choix final des incroyants, sans jamais annuler les fonctions explicatives et normatives que le Coran lui attribue explicitement."
     },
     conclusion: {
@@ -537,13 +545,13 @@ const ARGUMENTS_DATA = [
         explanation: "Une fonction principale n'exclut pas les fonctions complémentaires requises pour la remplir."
       },
       {
-        q: "Dans Sourate An-Nahl (16:44), quelle mission est confiée au Prophète ?",
+        q: "Dans la Sourate An-Naḥl (verset 44), quelle mission est confiée au Prophète ?",
         options: ["Cacher le sens du texte", "Exposer clairement ce qui a été révélé (Bayân)", "Refuser de répondre aux questions"],
         answer: 1,
         explanation: "Le terme 'li-tubayyina' signifie rendre clair, expliciter et rendre intelligible la révélation."
       },
       {
-        q: "Pourquoi le Coran mentionne-t-il séparément 'réciter' et 'enseigner' en 2:151 ?",
+        q: "Pourquoi la Sourate Al-Baqarah (verset 151) mentionne-t-elle séparément 'réciter' et 'enseigner' ?",
         options: ["Parce que ce sont deux fonctions distinctes", "Parce que c'est une simple répétition", "Par erreur"],
         answer: 0,
         explanation: "La récitation transmet la lettre du texte, tandis que l'enseignement transmet son sens et ses règles."
@@ -561,10 +569,10 @@ const ARGUMENTS_DATA = [
     pdfFile: "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_5.pdf",
     theme: "Authenticité & Transmission Historique",
     theirArgument: {
-      thesis: "Le Coran dit en 15:9 : « C'est Nous qui avons fait descendre le Rappel et c'est Nous qui en sommes gardien ». Aucun verset ne promet de préserver Bukhârî ou les hadiths. Les hadiths ont été transmis par des hommes faillibles ; seul le Coran est certain et préservé.",
+      thesis: "Le Coran dit dans la Sourate Al-Ḥijr (verset 9) : « C'est Nous qui avons fait descendre le Rappel et c'est Nous qui en sommes gardien ». Aucun verset ne promet de préserver Bukhârî ou les hadiths. Les hadiths ont été transmis par des hommes faillibles ; seul le Coran est certain et préservé.",
       verses: [
         {
-          ref: "Coran 15:9",
+          ref: "Sourate Al-Ḥijr, verset 9",
           ar: "إِنَّا نَحْنُ نَزَّلْنَا الذِّكْرَ وَإِنَّا لَهُ لَحَافِظُونَ",
           fr: "« C'est Nous qui avons fait descendre le Rappel et c'est Nous qui en sommes gardien. »"
         }
@@ -608,12 +616,12 @@ const ARGUMENTS_DATA = [
       title: "La contradiction interne du rejet total",
       verses: [
         {
-          ref: "Coran 4:59 & 4:80",
+          ref: "Sourate An-Nisâʾ, versets 59 et 80",
           ar: "مَّن يُطِعِ الرَّسُولَ فَقَدْ أَطَاعَ اللَّهَ",
           fr: "« Celui qui obéit au Messager a certes obéi à Allah. »"
         },
         {
-          ref: "Coran 33:21",
+          ref: "Sourate Al-Aḥzâb, verset 21",
           ar: "لَّقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ",
           fr: "« Vous avez certes dans le Messager d'Allah un excellent modèle. »"
         }
@@ -661,17 +669,17 @@ const ARGUMENTS_DATA = [
       }
     ],
     framingQuestions: [
-      "Où Sourate Al-Hijr verset 9 dit-elle que rien d'autre que le Coran ne pourra être correctement transmis ?",
+      "Où la Sourate Al-Ḥijr (verset 9) dit-elle que rien d'autre que le Coran ne pourra être correctement transmis ?",
       "L'absence de promesse explicite constitue-t-elle une preuve de falsification totale ?",
       "Comment suivez-vous le Messager comme modèle si toute information sur sa vie est rejetée ?"
     ],
     readyResponses: {
-      quick30s: "C'est vrai que le Coran possède une garantie divine unique de préservation. Mais où le verset dit-il que toute autre transmission sera corrompue ? Une protection spéciale pour le Coran ne signifie pas que tout le reste est faux. Le même Coran m'ordonne d'obéir au Messager et de le prendre pour modèle. La vraie question n'est donc pas : « Les hadiths sont-ils préservés de façon identique au Coran ? », mais : « Peut-on identifier de manière fiable les enseignements du Messager ? » Et là, il faut examiner les preuves historiques.",
+      quick30s: "C'est vrai que le Coran possède une garantie divine unique de préservation dans la Sourate Al-Ḥijr (verset 9). Mais où le verset dit-il que toute autre transmission sera corrompue ? Une protection spéciale pour le Coran ne signifie pas que tout le reste est faux. Le même Coran m'ordonne d'obéir au Messager (Sourate An-Nisâʾ, verset 59) et de le prendre pour modèle (Sourate Al-Aḥzâb, verset 21). La vraie question n'est donc pas : « Les hadiths sont-ils préservés de façon identique au Coran ? », mais : « Peut-on identifier de manière fiable les enseignements du Messager ? » Et là, il faut examiner les preuves historiques.",
       developed: "L'argument coraniste repose sur le sophisme du tout ou rien : si une chose n'a pas la garantie surnaturelle du Coran, elle serait nulle. Or, toute l'histoire humaine, la justice et même la langue arabe reposent sur la transmission historique critique. La présence de faux récits n'annule pas les vrais, tout comme la fausse monnaie n'abolit pas la vraie : elle impose simplement des sciences rigoureuses d'authentification (critique des chaînes, comparaison des variantes), ce que les savants musulmans ont développé."
     },
     conclusion: {
       steps: [
-        "Sourate 15:9 établit la protection singulière du Coran.",
+        "La Sourate Al-Ḥijr (verset 9) établit la protection singulière du Coran.",
         "Elle n'affirme nulle part que la Sunna sera anéantie ou indisponible.",
         "Le rejet systématique de la transmission humaine détruit les outils nécessaires à la compréhension même du Coran."
       ],
@@ -680,8 +688,8 @@ const ARGUMENTS_DATA = [
     },
     quiz: [
       {
-        q: "Une protection spéciale accordée à A prouve-t-elle que B est corrompu ?",
-        options: ["Oui, automatiquement", "Non, cela prouve seulement la garantie accordée à A", "Seulement pour les livres religieux"],
+        q: "Une protection spéciale accordée à la Sourate Al-Ḥijr (verset 9) prouve-t-elle que le reste est faux ?",
+        options: ["Oui, automatiquement", "Non, cela prouve seulement la garantie accordée au Coran", "Seulement pour les livres religieux"],
         answer: 1,
         explanation: "Une garantie spécifique prouve la protection de l'élément garanti, pas la falsification du reste."
       },
@@ -839,12 +847,12 @@ const ARGUMENTS_DATA = [
       title: "Écriture ≠ Autorité normative",
       verses: [
         {
-          ref: "Coran 4:59",
+          ref: "Sourate An-Nisâʾ, verset 59",
           ar: "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ",
           fr: "« Obéissez à Allah et obéissez au Messager. »"
         },
         {
-          ref: "Coran 4:65",
+          ref: "Sourate An-Nisâʾ, verset 65",
           ar: "حَتَّىٰ يُحَكِّمُوكَ فِيمَا شَجَرَ بَيْنَهُمْ",
           fr: "« Jusqu'à ce qu'ils te prennent pour juge dans leurs différends. »"
         }
@@ -890,7 +898,7 @@ const ARGUMENTS_DATA = [
         "Plusieurs hadiths établissent des ordres clairs et positifs de mise par écrit.",
         "Le dossier complet montre une réglementation contextuelle, jamais une abolition de la Sunna."
       ],
-      finalText: "Le débat sur le support matériel ne peut annuler l'obligation coranique d'obéir au Messager.",
+      finalText: "Le débat sur le support matériel ne peut annuler l'obligation coranique d'obéir au Messager (Sourate An-Nisâʾ, versets 59 et 65).",
       punchline: "Réglementer l'écriture ≠ Abolir la Sunna. Support ≠ Autorité."
     },
     quiz: [
@@ -919,20 +927,20 @@ const ARGUMENTS_DATA = [
     pdfFile: "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_8.pdf",
     theme: "Sémantique & Anachronisme Lexical",
     theirArgument: {
-      thesis: "Les coranistes prétendent que le Coran condamne nommément les hadiths dans plusieurs versets : « En quel Hadith après Allah et Ses versets croiront-ils ? » (45:6, 77:50) et dénonce « Lahw al-hadith » (31:6). Suivre les hadiths serait donc suivre ce que le Coran réprouve.",
+      thesis: "Les coranistes prétendent que le Coran condamne nommément les hadiths dans plusieurs versets : « En quel Hadith après Allah et Ses versets croiront-ils ? » (Sourate Al-Jâthiyah, verset 6 ; Sourate Al-Mursalât, verset 50) et dénonce « Lahw al-hadith » (Sourate Luqmân, verset 6). Suivre les hadiths serait donc suivre ce que le Coran réprouve.",
       verses: [
         {
-          ref: "Coran 45:6",
+          ref: "Sourate Al-Jâthiyah, verset 6",
           ar: "تِلْكَ آيَاتُ اللَّهِ نَتْلُوهَا عَلَيْكَ بِالْحَقِّ ۖ فَبِأَيِّ حَدِيثٍ بَعْدَ اللَّهِ وَآيَاتِهِ يُؤْمِنُونَ",
           fr: "« Voilà les versets d'Allah que Nous te récitons en toute vérité. Alors en quel discours (hadīth), après Allah et Ses versets, croiront-ils ? »"
         },
         {
-          ref: "Coran 77:50",
+          ref: "Sourate Al-Mursalât, verset 50",
           ar: "فَبِأَيِّ حَدِيثٍ بَعْدَهُ يُؤْمِنُونَ",
           fr: "« En quel discours (hadīth) après celui-ci croiront-ils ? »"
         },
         {
-          ref: "Coran 31:6",
+          ref: "Sourate Luqmân, verset 6",
           ar: "وَمِنَ النَّاسِ مَن يَشْتَرِي لَهْوَ الْحَدِيثِ",
           fr: "« Et parmi les hommes, il en est qui achètent des discours futiles (lahw al-hadīth)... »"
         }
@@ -956,15 +964,15 @@ const ARGUMENTS_DATA = [
     },
     centralPrinciple: {
       title: "Le Coran qualifie ses propres versets de 'Hadīth'",
-      formalScheme: "Coran 39:23 : « Allah a fait descendre le meilleur des récits (أَحْسَنَ الْحَدِيثِ) : un Livre harmonieux... »\nCoran 4:87 : « Et qui est plus véridique qu'Allah en parole (حَدِيثًا) ? »\nCoran 20:9 : « Le récit de Moïse t'est-il parvenu ? (حَدِيثُ مُوسَىٰ) »\nCoran 66:3 : « Lorsque le Prophète confia un propos secret (حَدِيثًا)... »",
+      formalScheme: "Sourate Az-Zumar, verset 23 : « Allah a fait descendre le meilleur des récits (أَحْسَنَ الْحَدِيثِ) : un Livre harmonieux... »\nSourate An-Nisâʾ, verset 87 : « Et qui est plus véridique qu'Allah en parole (حَدِيثًا) ? »\nSourate Tâ-Hâ, verset 9 : « Le récit de Moïse t'est-il parvenu ? (حَدِيثُ مُوسَىٰ) »\nSourate At-Taḥrîm, verset 3 : « Lorsque le Prophète confia un propos secret (حَدِيثًا)... »",
       explanation: "Le mot hadīth est employé de manière très positive pour la parole d'Allah et Ses récits, de manière neutre pour l'histoire des prophètes, et de manière négative quand il est qualifié de futile (lahw). C'est le qualificatif et le contexte qui déterminent sa valeur, pas le mot lui-même.",
       logicalTest: "Si tout « hadīth » était interdit après le Coran, il faudrait aussi interdire les dictionnaires arabes, les livres d'histoire, les traductions et les vidéos des coranistes qui sont tous des 'discours après le Coran'."
     },
     quranicArchitecture: {
-      title: "Contexte de Sourate Al-Jâthiyah (45:6)",
+      title: "Contexte de la Sourate Al-Jâthiyah (verset 6)",
       verses: [
         {
-          ref: "Coran 45:6",
+          ref: "Sourate Al-Jâthiyah, verset 6",
           ar: "فَبِأَيِّ حَدِيثٍ بَعْدَ اللَّهِ وَآيَاتِهِ يُؤْمِنُونَ",
           fr: "« Alors en quel discours après Allah et Ses versets croiront-ils ? »"
         }
@@ -978,7 +986,7 @@ const ARGUMENTS_DATA = [
         scenario: "Un texte médical du XIXe siècle dit « méfiez-vous des virus ». Quelqu'un affirme qu'il s'agit d'un avertissement contre les virus informatiques sur Windows.",
         logic: "C'est un anachronisme complet qui plaque un sens technique moderne sur un texte ancien.",
         lesson: "Le sens contextuel prime sur le sens technique ultérieur.",
-        application: "Plaquer le terme technique 'Hadith sunnite' sur 45:6 est exactement de même nature."
+        application: "Plaquer le terme technique 'Hadith sunnite' sur la Sourate Al-Jâthiyah (verset 6) est exactement de même nature."
       },
       {
         num: 2,
@@ -996,12 +1004,12 @@ const ARGUMENTS_DATA = [
       }
     ],
     framingQuestions: [
-      "Que signifie le mot 'hadīth' dans le verset 'Hadīthu Mûsâ' (Le récit de Moïse) en 20:9 ?",
-      "Pourquoi le Coran s'appelle-t-il lui-même 'le meilleur Hadith' en 39:23 ?",
-      "Le verset 45:6 parle-t-il des négateurs mecquois ou des recueils d'Al-Bukhârî ?"
+      "Que signifie le mot 'hadīth' dans la Sourate Tâ-Hâ (verset 9) pour 'Hadīthu Mûsâ' (Le récit de Moïse) ?",
+      "Pourquoi le Coran s'appelle-t-il lui-même 'le meilleur Hadith' dans la Sourate Az-Zumar (verset 23) ?",
+      "Le verset de la Sourate Al-Jâthiyah (verset 6) parle-t-il des négateurs mecquois ou des recueils d'Al-Bukhârî ?"
     ],
     readyResponses: {
-      quick30s: "Quand le Coran dit « En quel hadith après cela croiront-ils ? », le mot hadīth signifie en arabe 'discours', 'parole' ou 'récit', et non les recueils de Bukhârî ou Muslim. La preuve : le Coran se qualifie lui-même de « meilleur hadith » (39:23), parle du « hadith de Moïse » (20:9) et demande « Qui est plus véridique qu'Allah en hadith ? » (4:87). Le verset d'Al-Jâthiyah condamne les mécréants qui rejettent les preuves divines, il ne définit pas les sources du droit. Y voir une condamnation de la Sunna est un pur anachronisme lexical.",
+      quick30s: "Quand la Sourate Al-Jâthiyah (verset 6) dit « En quel hadith après cela croiront-ils ? », le mot hadīth signifie en arabe 'discours', 'parole' ou 'récit', et non les recueils de Bukhârî ou Muslim. La preuve : le Coran se qualifie lui-même de « meilleur hadith » (Sourate Az-Zumar, verset 23), parle du « hadith de Moïse » (Sourate Tâ-Hâ, verset 9) et demande « Qui est plus véridique qu'Allah en hadith ? » (Sourate An-Nisâʾ, verset 87). Le verset d'Al-Jâthiyah condamne les mécréants qui rejettent les preuves divines, il ne définit pas les sources du droit. Y voir une condamnation de la Sunna est un pur anachronisme lexical.",
       developed: "L'argument coraniste repose sur une équivoque grossière : confondre le sens linguistique général d'un mot avec sa définition technique forgée plus tard par les juristes. Dans le Coran, le mot hadith est polymorphe : il s'applique au Coran, aux récits des anciens prophètes ou à des confidences. Dans les versets cités par les coranistes, Allah demande avec rhétorique aux polythéistes quel discours humain pourra les guider s'ils rejettent Sa parole. Transformer cette interpellation en rejet de la Sunna détruit le sens du texte."
     },
     conclusion: {
@@ -1015,13 +1023,13 @@ const ARGUMENTS_DATA = [
     },
     quiz: [
       {
-        q: "Comment le Coran se qualifie-t-il dans la sourate Az-Zumar (39:23) ?",
+        q: "Comment le Coran se qualifie-t-il dans la Sourate Az-Zumar (verset 23) ?",
         options: ["Le meilleur Hadith (Ahsan al-Hadith)", "Un livre sans hadith", "Un hadith interdit"],
         answer: 0,
         explanation: "Le Coran s'auto-désigne expressément comme 'Ahsan al-Hadith' (le meilleur des discours)."
       },
       {
-        q: "Que signifie 'Hadith' dans 'Hadithu Mûsâ' (20:9) ?",
+        q: "Que signifie 'Hadith' dans la Sourate Tâ-Hâ (verset 9) 'Hadithu Mûsâ' ?",
         options: ["Le recueil de Bukhârî", "Le récit / l'histoire de Moïse", "Un faux hadith"],
         answer: 1,
         explanation: "Dans ce contexte coranique évident, hadith signifie simplement l'histoire ou le récit de Moïse."
@@ -1039,20 +1047,20 @@ const ARGUMENTS_DATA = [
     pdfFile: "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_9.pdf",
     theme: "Statut du Prophète & Encadrement Révélé",
     theirArgument: {
-      thesis: "Le Coran rapporte des versets où Allah adresse une remarque ou correction au Prophète (ex: Sourate 'Abasa 80:1, At-Tawbah 9:43, At-Tahrîm 66:1). Puisque le Prophète a été repris, ses paroles et décisions ne sauraient constituer une autorité religieuse obligatoire.",
+      thesis: "Le Coran rapporte des versets où Allah adresse une remarque ou correction au Prophète (Sourate ʿAbasa, versets 1-2 ; Sourate At-Tawbah, verset 43 ; Sourate At-Taḥrîm, verset 1). Puisque le Prophète a été repris, ses paroles et décisions ne sauraient constituer une autorité religieuse obligatoire.",
       verses: [
         {
-          ref: "Coran 80:1-2",
+          ref: "Sourate ʿAbasa, versets 1-2",
           ar: "عَبَسَ وَتَوَلَّىٰ أَن جَاءَهُ الْأَعْمَىٰ",
           fr: "« Il s'est renfrogné et s'est détourné parce que l'aveugle est venu à lui. »"
         },
         {
-          ref: "Coran 9:43",
+          ref: "Sourate At-Tawbah, verset 43",
           ar: "عَفَا اللَّهُ عَنكَ لِمَ أَذِنتَ لَهُمْ",
           fr: "« Qu'Allah te pardonne ! Pourquoi leur as-tu donné permission ? »"
         },
         {
-          ref: "Coran 66:1",
+          ref: "Sourate At-Taḥrîm, verset 1",
           ar: "يَا أَيُّهَا النَّبِيُّ لِمَ تُحَرِّمُ مَا أَحَلَّ اللَّهُ لَكَ",
           fr: "« Ô Prophète ! Pourquoi t'interdis-tu ce qu'Allah t'a rendu licite ? »"
         }
@@ -1076,20 +1084,20 @@ const ARGUMENTS_DATA = [
     },
     centralPrinciple: {
       title: "Allah connaissait ces situations lorsqu'Il a ordonné d'obéir",
-      formalScheme: "Dilemme pour le coraniste :\n- Allah connaissait-Il ces événements lorsqu'Il a ordonné en 4:59 « Obéissez à Allah et au Messager » et en 4:65 de le prendre pour juge ?\n- Réponse évidente : OUI. Donc ces corrections sont parfaitement compatibles avec l'autorité obligatoire du Messager.",
-      explanation: "Le sunnisme ne prétend pas que le Prophète est une divinité. Il est un être humain investi d'une autorité religieuse mandatée, protégé dans la transmission (69:44-46) et guidé par la révélation (53:3-4). Les corrections sont elles-mêmes des leçons de pédagogie divine transmises à la communauté.",
+      formalScheme: "Dilemme pour le coraniste :\n- Allah connaissait-Il ces événements lorsqu'Il a ordonné dans la Sourate An-Nisâʾ (versets 59 et 65) « Obéissez à Allah et au Messager » et de le prendre pour juge ?\n- Réponse évidente : OUI. Donc ces corrections sont parfaitement compatibles avec l'autorité obligatoire du Messager.",
+      explanation: "Le sunnisme ne prétend pas que le Prophète est une divinité. Il est un être humain investi d'une autorité religieuse mandatée, protégé dans la transmission (Sourate Al-Ḥâqqah, versets 44-46) et guidé par la révélation (Sourate An-Najm, versets 3-4). Les corrections sont elles-mêmes des leçons de pédagogie divine transmises à la communauté.",
       logicalTest: "Si un arbitre de match est encadré par la VAR ou une commission supérieure, les joueurs ont-ils le droit d'ignorer tous ses coups de sifflet sur le terrain ? Non, son autorité reste pleine et encadrée."
     },
     quranicArchitecture: {
       title: "La fidélité garantie du Messager",
       verses: [
         {
-          ref: "Coran 53:3-4",
+          ref: "Sourate An-Najm, versets 3-4",
           ar: "وَمَا يَنطِقُ عَنِ الْهَوَىٰ إِنْ هُوَ إِلَّا وَحْيٌ يُوحَىٰ",
           fr: "« Et il ne prononce rien sous l'effet de la passion ; ce n'est rien d'autre qu'une révélation inspirée. »"
         },
         {
-          ref: "Coran 69:44-46",
+          ref: "Sourate Al-Ḥâqqah, versets 44-46",
           ar: "وَلَوْ تَقَوَّلَ عَلَيْنَا بَعْضَ الْأَقَاوِيلِ لَأَخَذْنَا مِنْهُ بِالْيَمِينِ ثُمَّ لَقَطَعْنَا مِنْهُ الْوَتِينَ",
           fr: "« Et s'il avait forgé contre Nous quelques paroles, Nous l'aurions saisi de la main droite, puis Nous lui aurions tranché l'aorte. »"
         }
@@ -1121,12 +1129,12 @@ const ARGUMENTS_DATA = [
       }
     ],
     framingQuestions: [
-      "Allah connaissait-Il les sourates 'Abasa et At-Tahrîm lorsqu'Il a révélé 'Obéissez au Messager' (4:59) ?",
+      "Allah connaissait-Il la Sourate ʿAbasa et la Sourate At-Taḥrîm lorsqu'Il a révélé 'Obéissez au Messager' (Sourate An-Nisâʾ, verset 59) ?",
       "Une correction ponctuelle supprime-t-elle le pouvoir d'un juge ou d'un arbitre ?",
       "Existe-t-il un seul verset disant : « Lorsqu'Allah corrige Son Messager, cessez de lui obéir » ?"
     ],
     readyResponses: {
-      quick30s: "Oui, le Coran rapporte certaines orientations qu'Allah a adressées à Son Messager. Mais loin d'annuler son autorité, cela prouve exactement l'inverse : que la mission prophétique était sous contrôle divin permanent ! Lorsque quelque chose devait être précisé, Allah révélait la correction immédiatement du vivant du Prophète. Et malgré ces épisodes, le même Coran continue d'ordonner d'obéir au Messager, de le prendre pour juge (4:65) et le qualifie d'excellent modèle (33:21).",
+      quick30s: "Oui, le Coran rapporte certaines orientations qu'Allah a adressées à Son Messager. Mais loin d'annuler son autorité, cela prouve exactement l'inverse : que la mission prophétique était sous contrôle divin permanent ! Lorsque quelque chose devait être précisé, Allah révélait la correction immédiatement du vivant du Prophète. Et malgré ces épisodes, le même Coran continue d'ordonner d'obéir au Messager (Sourate An-Nisâʾ, verset 59), de le prendre pour juge (Sourate An-Nisâʾ, verset 65) et le qualifie d'excellent modèle (Sourate Al-Aḥzâb, verset 21).",
       developed: "L'argument des corrections divines repose sur un faux dilemme : soit le Prophète serait une divinité omnisciente et infaillible par essence, soit il n'aurait aucune autorité. La position sunnite est équilibrée : le Prophète est un être humain investi d'une autorité mandatée et protégé divinement dans sa mission de guidance. L'intervention d'Allah dans certains cas particuliers garantit que l'enseignement final reçu et perpétué par la communauté est conforme à la volonté divine."
     },
     conclusion: {
@@ -1179,12 +1187,12 @@ const ARGUMENTS_DATA = [
       title: "Le Coran présuppose un modèle vivant",
       verses: [
         {
-          ref: "Coran 33:21",
+          ref: "Sourate Al-Aḥzâb, verset 21",
           ar: "لَّقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ",
           fr: "« Vous avez certes dans le Messager d'Allah un excellent modèle. »"
         },
         {
-          ref: "Coran 16:44",
+          ref: "Sourate An-Naḥl, verset 44",
           ar: "لِتُبَيِّنَ لِلنَّاسِ مَا نُزِّلَ إِلَيْهِمْ",
           fr: "« Afin que tu exposes clairement aux gens ce qui leur a été révélé. »"
         },
@@ -1230,7 +1238,7 @@ const ARGUMENTS_DATA = [
     ],
     framingQuestions: [
       "Tous les détails de vos 5 prières figurent-ils explicitement dans le Coran ?",
-      "Où trouvez-vous textuellement dans le Coran le nombre de 4 rak'ât pour Dhuhr et 'Asr ?",
+      "Où trouvez-vous textuellement dans le Coran le nombre de 4 rak'ât pour la prière de Dhuhr et celle de ʿAsr ?",
       "Si ces détails viennent de la transmission communautaire, cette transmission est-elle une information extra-coranique ?"
     ],
     readyResponses: {
@@ -1254,10 +1262,10 @@ const ARGUMENTS_DATA = [
         explanation: "Le tawâtur 'amalî désigne la transmission massive ininterrompue d'une pratique par toute la communauté."
       },
       {
-        q: "Trouve-t-on le nombre exact de 4 rak'ât pour la prière de Dhuhr écrit dans le Coran ?",
-        options: ["Oui, mot pour mot", "Non, cela nous est parvenu par la Sunna prophétique", "Seulement dans la sourate 2"],
+        q: "Trouve-t-on le nombre exact de 4 rak'ât pour la prière de Dhuhr écrit textuellement dans le Coran ?",
+        options: ["Oui, mot pour mot", "Non, cela nous est parvenu par la Sunna prophétique transmise", "Seulement dans la sourate Al-Baqarah"],
         answer: 1,
-        explanation: "Le Coran ordonne la prière de manière générale, les modalités précises ont été enseignées par le Prophète."
+        explanation: "Le Coran ordonne la prière de manière générale, les modalités précises ont été enseignées et montrées par le Prophète."
       }
     ]
   }

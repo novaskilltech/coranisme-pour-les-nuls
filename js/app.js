@@ -601,11 +601,14 @@ function initSearchModal() {
       const matchTagline = arg.tagline.toLowerCase().includes(query);
       const matchFormula = arg.formula.toLowerCase().includes(query);
       const matchThesis = arg.theirArgument.thesis.toLowerCase().includes(query);
-      const matchVerses = arg.quranicArchitecture.verses.some(v => 
+      const matchAdverseVerses = arg.theirArgument.verses.some(v => 
+        v.ref.toLowerCase().includes(query) || v.fr.toLowerCase().includes(query) || v.ar.includes(query)
+      );
+      const matchQuranicVerses = arg.quranicArchitecture.verses.some(v => 
         v.ref.toLowerCase().includes(query) || v.fr.toLowerCase().includes(query) || v.ar.includes(query)
       );
       const match30s = arg.readyResponses.quick30s.toLowerCase().includes(query);
-      return matchTitle || matchTagline || matchFormula || matchThesis || matchVerses || match30s;
+      return matchTitle || matchTagline || matchFormula || matchThesis || matchAdverseVerses || matchQuranicVerses || match30s;
     });
 
     if (filtered.length === 0) {
