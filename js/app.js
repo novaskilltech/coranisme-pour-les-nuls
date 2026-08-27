@@ -129,9 +129,9 @@ function renderHomeView(container) {
             <a href="#arg-${arg.id}" class="btn-read-arg">
               <span>Consulter la fiche</span> ➔
             </a>
-            <a href="pdf/${arg.pdfFile}" download title="Télécharger le PDF original" class="btn-download-pdf-sm">
-              📥
-            </a>
+            <button onclick="printArgumentDirect(${arg.id})" title="Imprimer ou enregistrer la fiche en PDF" class="btn-download-pdf-sm">
+              🖨️
+            </button>
           </div>
         </article>
       `).join('')}
@@ -171,9 +171,9 @@ function renderArgumentView(arg, container) {
       <header class="arg-header-bandeau">
         <div class="arg-header-top">
           <span class="arg-badge-giant">ARGUMENT ${arg.number} / 10</span>
-          <a href="pdf/${arg.pdfFile}" download class="arg-download-badge">
-            <span>📥</span> Télécharger le PDF original (${arg.pdfFile.includes('.PDF') ? 'PDF' : 'PDF'})
-          </a>
+          <button onclick="window.print()" class="arg-download-badge btn-print-page" title="Imprimer ou enregistrer cette fiche en PDF">
+            <span>🖨️</span> Imprimer / Enregistrer en PDF
+          </button>
         </div>
         <h1 class="arg-main-title">${arg.title}</h1>
         <p class="arg-subtitle-tagline">✦ ${arg.tagline}</p>
@@ -719,11 +719,26 @@ window.closePortal = function() {
   const portal = document.getElementById('portal-gate');
   if (portal) {
     portal.classList.add('hidden');
-    // Mémoriser la visite dans la session courante si souhaité
     try {
       sessionStorage.setItem('portal_seen', 'true');
     } catch(e){}
   }
 };
+
+/**
+ * Impression et Export PDF direct d'une fiche argument
+ */
+window.printArgumentDirect = function(id) {
+  if (window.location.hash !== `#arg-${id}`) {
+    window.location.hash = `#arg-${id}`;
+    setTimeout(() => {
+      window.print();
+    }, 300);
+  } else {
+    window.print();
+  }
+};
+
+
 
 

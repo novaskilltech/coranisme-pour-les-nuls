@@ -34,8 +34,8 @@ Conçu selon les codes visuels et didactiques des célèbres guides **« Pour le
 
 - 📜 **Portail d'entrée Al-Barbahârî** : Citation solennelle des Salafs (*Sharḥ As-Sunnah*) en arabe vocalisé et français.
 - ⏱️ **Réponses express en 30 secondes** : Avec bouton de **copie en 1 clic** prêt pour les débats et les réseaux sociaux.
-- 📖 **Textes coraniques calligraphiés** : Typographie arabe *Amiri* avec diacritiques complets et traductions françaises.
-- 📥 **Téléchargement direct des 10 PDF originaux** : Accès aux fascicules d'étude complets.
+- 📖 **Textes coraniques calligraphiés** : Typographie arabe *Amiri* avec diacritiques complets et traductions françaises (toutes sourates nommées).
+- 🖨️ **Impression & Export PDF en 1 clic** : Mise en page d'impression `@media print` A4 professionnelle pour imprimer ou enregistrer chaque fiche en PDF sans dépendance de base de données.
 - 🔍 **Moteur de recherche instantané** : Recherche plein texte par mots-clés, versets et thématiques.
 - 📝 **Quiz interactifs** : Auto-évaluation avec explications et corrections instantanées.
 - 📱 **100% Mobile-First & Responsive** : Optimisé pour smartphones, tablettes et ordinateurs.

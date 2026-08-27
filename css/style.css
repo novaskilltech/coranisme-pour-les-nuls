@@ -1996,3 +1996,153 @@ img, svg {
   }
 }
 
+/* ==========================================================================
+   STYLES D'IMPRESSION & EXPORT PDF (@media print)
+   ========================================================================== */
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 15mm 15mm 15mm 15mm;
+  }
+
+  /* Masquer tous les éléments interactifs et de navigation */
+  .nuls-topbar,
+  .app-sidebar,
+  .portal-overlay,
+  .arg-sticky-bar,
+  .btn-print-page,
+  .btn-copy-fast,
+  .arg-pagination-bar,
+  .modal-backdrop,
+  .toast-notification,
+  .drawer-backdrop,
+  .nuls-footer,
+  .btn-submit-quiz,
+  .quiz-options-group,
+  .hero-actions,
+  .btn-download-pdf-sm {
+    display: none !important;
+  }
+
+  body {
+    background-color: #FFFFFF !important;
+    color: #000000 !important;
+    font-size: 11pt;
+    line-height: 1.5;
+  }
+
+  .app-container {
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 100% !important;
+    display: block !important;
+  }
+
+  .app-main {
+    padding: 0 !important;
+  }
+
+  .argument-detail-view {
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  .arg-header-bandeau {
+    background-color: var(--nuls-yellow) !important;
+    border: 2px solid #000000 !important;
+    border-radius: 4px !important;
+    padding: 1rem 1.25rem !important;
+    margin-bottom: 1rem !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+
+  .arg-main-title {
+    font-size: 18pt !important;
+    color: #000000 !important;
+  }
+
+  .formula-banner {
+    background-color: #000000 !important;
+    color: var(--nuls-yellow) !important;
+    border: 2px solid #000000 !important;
+    padding: 0.6rem 1rem !important;
+    margin-bottom: 1rem !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+
+  .arg-body-content {
+    padding: 0 !important;
+    gap: 1rem !important;
+  }
+
+  .nuls-callout {
+    border: 2px solid #333333 !important;
+    border-radius: 4px !important;
+    padding: 1rem !important;
+    margin-bottom: 1rem !important;
+    box-shadow: none !important;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .callout-header {
+    border: 1px solid #000000 !important;
+    font-size: 9pt !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .verse-item {
+    page-break-inside: avoid;
+    break-inside: avoid;
+    border: 1px solid #CCCCCC !important;
+    padding: 0.75rem !important;
+  }
+
+  .verse-arabic {
+    font-size: 16pt !important;
+    line-height: 1.8 !important;
+    color: #000000 !important;
+  }
+
+  .distinction-card,
+  .analogie-card {
+    page-break-inside: avoid;
+    break-inside: avoid;
+    box-shadow: none !important;
+    border: 1px solid #CCCCCC !important;
+    margin-bottom: 0.5rem !important;
+  }
+
+  .quick-response-text {
+    border: 2px solid #000000 !important;
+    background-color: #F9F9F9 !important;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Pied de page d'impression discret avec mention de Sadaqah Jariyah */
+  .argument-detail-view::after {
+    content: "Le Coranisme Pour les Nuls • Par Salah Eddine Ahmed • Aumône Perpétuelle (Sadaqah Jâriyah) • ideoise@gmail.com";
+    display: block;
+    text-align: center;
+    font-size: 8pt;
+    font-weight: bold;
+    color: #666666;
+    border-top: 1px solid #CCCCCC;
+    padding-top: 0.5rem;
+    margin-top: 1.5rem;
+  }
+}
+
+
