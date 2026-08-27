@@ -2629,46 +2629,20 @@ section[id^="section-"] {
   color: var(--nuls-yellow);
 }
 
-/* Drawer Mobile Lang Section */
-.drawer-lang-section {
-  padding: 1rem 1.25rem;
-  border-bottom: var(--border-thin);
-  background: #FAF9F5;
-}
+@media (max-width: 640px) {
+  .lang-dropdown-menu {
+    position: fixed;
+    top: calc(var(--header-height) + 6px);
+    right: 12px;
+    left: auto;
+    width: calc(100vw - 24px);
+    max-width: 300px;
+  }
 
-.drawer-lang-title {
-  font-size: 0.8rem;
-  font-weight: 800;
-  color: var(--text-muted);
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  margin-bottom: 0.6rem;
-}
-
-.drawer-lang-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 0.4rem;
-}
-
-.drawer-lang-btn {
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-  padding: 0.45rem 0.6rem;
-  border: 1.5px solid #D1D5DB;
-  border-radius: var(--radius-sm);
-  background: #FFFFFF;
-  font-size: 0.85rem;
-  font-weight: 700;
-  cursor: pointer;
-  transition: all 0.1s ease;
-}
-
-.drawer-lang-btn.active {
-  background: var(--nuls-yellow);
-  border-color: var(--nuls-black);
-  font-weight: 900;
+  html[dir="rtl"] .lang-dropdown-menu {
+    left: 12px;
+    right: auto;
+  }
 }
 
 /* RTL Layout Support */

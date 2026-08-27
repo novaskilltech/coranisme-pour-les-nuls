@@ -38,10 +38,9 @@ function initI18n() {
 }
 
 /**
- * Rendu des sélecteurs de langue (Topbar Desktop et Drawer Mobile)
+ * Rendu du sélecteur de langue (Topbar Header)
  */
 function renderLanguageSwitchers() {
-  // 1. Dropdown Topbar Desktop
   const topbarMenu = document.getElementById('lang-dropdown-menu');
   if (topbarMenu) {
     topbarMenu.innerHTML = I18N_LANGUAGES.map(l => `
@@ -49,17 +48,6 @@ function renderLanguageSwitchers() {
         <span class="lang-flag">${l.flag}</span>
         <span class="lang-name">${l.native}</span>
         <span class="lang-code-badge">${l.code.toUpperCase()}</span>
-      </button>
-    `).join('');
-  }
-
-  // 2. Grille Drawer Mobile
-  const drawerGrid = document.getElementById('drawer-lang-grid');
-  if (drawerGrid) {
-    drawerGrid.innerHTML = I18N_LANGUAGES.map(l => `
-      <button class="drawer-lang-btn ${l.code === window.CURRENT_LANG ? 'active' : ''}" data-lang="${l.code}">
-        <span style="font-size: 1.25rem;">${l.flag}</span>
-        <span>${l.native}</span>
       </button>
     `).join('');
   }
