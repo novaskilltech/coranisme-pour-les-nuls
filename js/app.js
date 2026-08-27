@@ -5,6 +5,9 @@
  * Par Salah Eddine Ahmed
  */
 
+const PREFACE_HTML = document.getElementById('preface')?.outerHTML || '';
+const CORANISME_INTRO_HTML = document.getElementById('coranisme-intro')?.outerHTML || '';
+
 document.addEventListener('DOMContentLoaded', () => {
   initApp();
 });
@@ -30,7 +33,19 @@ function renderSidebarNav() {
   const listContainer = document.getElementById('sidebar-nav-list');
   if (!listContainer) return;
 
-  listContainer.innerHTML = ARGUMENTS_DATA.map(arg => `
+  const introductoryChapters = [
+    { id: 'preface', icon: '✦', title: 'Préface' },
+    { id: 'coranisme-intro', icon: 'ℹ', title: 'Qui sont les coranistes ?' }
+  ];
+
+  listContainer.innerHTML = introductoryChapters.map(chapter => `
+    <li>
+      <a href="#${chapter.id}" class="sidebar-nav-item" id="nav-item-${chapter.id}">
+        <span class="sidebar-nav-num">${chapter.icon}</span>
+        <span class="sidebar-nav-title">${chapter.title}</span>
+      </a>
+    </li>
+  `).join('') + ARGUMENTS_DATA.map(arg => `
     <li>
       <a href="#arg-${arg.id}" class="sidebar-nav-item" id="nav-item-${arg.id}" data-id="${arg.id}">
         <span class="sidebar-nav-num">${arg.number}</span>
@@ -48,8 +63,32 @@ function handleRouting() {
   const mainContainer = document.getElementById('app-main-content');
   if (!mainContainer) return;
 
+  // Les liens de la barre de repères d'une fiche sont des ancres internes :
+  // conserver la fiche affichée au lieu de la remplacer par l'accueil.
+  const sectionTargetId = hash.startsWith('#section-') ? hash.slice(1) : '';
+  const sectionTarget = sectionTargetId ? document.getElementById(sectionTargetId) : null;
+  if (sectionTarget) {
+    requestAnimationFrame(() => {
+      sectionTarget.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+    return;
+  }
+
   // Mise à jour de l'état actif dans la sidebar
   document.querySelectorAll('.sidebar-nav-item').forEach(el => el.classList.remove('active'));
+
+  const introductoryChapterIds = ['preface', 'coranisme-intro'];
+  const requestedIntroChapter = hash.replace('#', '');
+  if (introductoryChapterIds.includes(requestedIntroChapter)) {
+    document.title = "Réfutation du Coranisme — Comment démasquer et réfuter la secte des coranistes";
+    renderHomeView(mainContainer);
+    const activeNav = document.getElementById(`nav-item-${requestedIntroChapter}`);
+    if (activeNav) activeNav.classList.add('active');
+    requestAnimationFrame(() => {
+      document.getElementById(requestedIntroChapter)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+    return;
+  }
 
   if (hash.startsWith('#arg-') || hash.startsWith('#/arguments/')) {
     let argId;
@@ -115,6 +154,10 @@ function renderHomeView(container) {
         </button>
       </div>
     </section>
+
+    ${PREFACE_HTML}
+
+    ${CORANISME_INTRO_HTML}
 
     <!-- SOMMAIRE DES 10 ARGUMENTS -->
     <div class="section-header-wrap">

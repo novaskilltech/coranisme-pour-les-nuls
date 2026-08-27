@@ -887,6 +887,19 @@ img, svg {
   background-color: var(--bg-card);
 }
 
+/* The introductory callouts retain the existing component while reserving
+   room for its floating label on compact screens. */
+#preface,
+#coranisme-intro,
+section[id^="section-"] {
+  scroll-margin-top: calc(var(--header-height) + 1.5rem);
+}
+
+#preface > .nuls-callout,
+#coranisme-intro > .nuls-callout {
+  padding-top: 2.5rem;
+}
+
 .callout-header {
   position: absolute;
   top: -14px;
@@ -2499,5 +2512,3 @@ img, svg {
     margin-top: 1.5rem;
   }
 }
-
-
