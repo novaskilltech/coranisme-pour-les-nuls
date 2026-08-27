@@ -105,7 +105,7 @@
       </div>
 
       <div class="portal-footer">
-        <button class="btn-enter-site" onclick="closePortal()">
+        <button class="btn-enter-site" data-action="close-portal">
           <span>📖</span> ACCÉDER AU MANUEL DE RÉFUTATION
         </button>
         <p class="portal-disclaimer">
@@ -129,22 +129,22 @@
       </div>
 
       <div class="topbar-actions">
-        <button class="btn-search-trigger" onclick="openSearchModal()" title="Rechercher (Ctrl+K)">
+        <button class="btn-search-trigger" data-action="open-search" title="Rechercher (Ctrl+K)">
           <span>🔍</span>
           <span class="desktop-only-text">Rechercher</span>
         </button>
 
-        <button class="btn-action-topbar" onclick="openPortal()" title="Relire l'avertissement d'Al-Barbahari">
+        <button class="btn-action-topbar" data-action="open-portal" title="Relire l'avertissement d'Al-Barbahari">
           <span>📜</span>
           <span class="desktop-only-text">Al-Barbahârî</span>
         </button>
 
-        <button class="btn-action-topbar" onclick="openModal('contact-modal')" title="Contacter l'auteur">
+        <button class="btn-action-topbar" data-action="open-modal" data-modal-id="contact-modal" title="Contacter l'auteur">
           <span>✉️</span>
           <span class="desktop-only-text">Contact</span>
         </button>
 
-        <button class="btn-action-topbar sadaqa-pill-btn" onclick="openModal('legal-modal')" title="Conditions de diffusion et partage">
+        <button class="btn-action-topbar sadaqa-pill-btn" data-action="open-modal" data-modal-id="legal-modal" title="Conditions de diffusion et partage">
           <span>🌿</span>
           <span class="desktop-only-text">Partage & Licence</span>
         </button>
@@ -157,7 +157,7 @@
   </header>
 
   <!-- OVERLAY TRANSPARENT POUR LE DRAWER MOBILE -->
-  <div class="drawer-backdrop" id="drawer-backdrop" onclick="toggleDrawer(false)"></div>
+  <div class="drawer-backdrop" id="drawer-backdrop" data-action="toggle-drawer" data-drawer-state="false"></div>
 
   <!-- APPLICATION WORKSPACE -->
   <div class="app-container">
@@ -168,7 +168,7 @@
         <h3>📚 Les 10 Arguments</h3>
         <div style="display: flex; align-items: center; gap: 0.5rem;">
           <span class="sidebar-count">10 / 10</span>
-          <button class="btn-close-drawer-mobile" onclick="toggleDrawer(false)" aria-label="Fermer le menu">✕</button>
+          <button class="btn-close-drawer-mobile" data-action="toggle-drawer" data-drawer-state="false" aria-label="Fermer le menu">✕</button>
         </div>
       </div>
 
@@ -189,7 +189,7 @@
         <a href="#home" class="btn-sidebar-home">
           <span>🏠</span> Sommaire
         </a>
-        <button onclick="openModal('contact-modal')" class="btn-sidebar-contact">
+        <button data-action="open-modal" data-modal-id="contact-modal" class="btn-sidebar-contact">
           <span>✉️</span> Contact
         </button>
       </div>
@@ -207,7 +207,7 @@
     <div class="modal-card">
       <div class="modal-header">
         <h3>🔍 Recherche Rapide dans le Manuel</h3>
-        <button class="btn-close-modal" onclick="closeSearchModal()">✕</button>
+        <button class="btn-close-modal" data-action="close-search">✕</button>
       </div>
       <div class="modal-body">
         <div class="search-input-wrap">
@@ -225,7 +225,7 @@
     <div class="modal-card">
       <div class="modal-header">
         <h3>✉️ Contacter l'Auteur & Retours</h3>
-        <button class="btn-close-modal" onclick="closeModal('contact-modal')">✕</button>
+        <button class="btn-close-modal" data-action="close-modal" data-modal-id="contact-modal">✕</button>
       </div>
       <div class="modal-body" style="padding: 1.5rem;">
         
@@ -264,7 +264,7 @@
     <div class="modal-card" style="max-width: 720px;">
       <div class="modal-header">
         <h3>⚖️ Conditions de Partage, Auteur & Confidentialité</h3>
-        <button class="btn-close-modal" onclick="closeModal('legal-modal')">✕</button>
+        <button class="btn-close-modal" data-action="close-modal" data-modal-id="legal-modal">✕</button>
       </div>
       <div class="modal-body" style="padding: 1.5rem; max-height: 70vh; overflow-y: auto;">
         
@@ -338,13 +338,13 @@
       <!-- FOOTER LINKS -->
       <div class="footer-middle">
         <div style="display: flex; gap: 1.25rem; flex-wrap: wrap;">
-          <button onclick="openModal('legal-modal')" class="footer-btn-link">
+          <button data-action="open-modal" data-modal-id="legal-modal" class="footer-btn-link">
             ⚖️ Partage, Licence & Confidentialité
           </button>
-          <button onclick="openModal('contact-modal')" class="footer-btn-link">
+          <button data-action="open-modal" data-modal-id="contact-modal" class="footer-btn-link">
             ✉️ Contact Auteur
           </button>
-          <button onclick="openPortal()" class="footer-btn-link">
+          <button data-action="open-portal" class="footer-btn-link">
             📜 Parole d'Al-Barbahârî
           </button>
         </div>

@@ -107,10 +107,10 @@ function renderHomeView(container) {
         <a href="#arg-1" class="btn-hero-primary">
           <span>🚀</span> Débuter par l'Argument 1
         </a>
-        <button class="btn-hero-secondary" onclick="openSearchModal()">
+        <button class="btn-hero-secondary" data-action="open-search">
           <span>🔍</span> Rechercher un sujet / verset
         </button>
-        <button class="btn-hero-secondary" onclick="openModal('contact-modal')">
+        <button class="btn-hero-secondary" data-action="open-modal" data-modal-id="contact-modal">
           <span>✉️</span> Contacter l'auteur
         </button>
       </div>
@@ -144,7 +144,7 @@ function renderHomeView(container) {
               <a href="pdf/${arg.pdfFile}" download title="Télécharger le fascicule PDF original" class="btn-download-pdf-sm">
                 📥
               </a>
-              <button onclick="printArgumentDirect(${arg.id})" title="Imprimer ou enregistrer la fiche en PDF" class="btn-download-pdf-sm">
+              <button data-action="print-arg-direct" data-arg-id="${arg.id}" title="Imprimer ou enregistrer la fiche en PDF" class="btn-download-pdf-sm">
                 🖨️
               </button>
             </div>
@@ -191,7 +191,7 @@ function renderArgumentView(arg, container) {
             <a href="pdf/${arg.pdfFile}" download class="arg-download-badge" title="Télécharger le fascicule PDF original">
               <span>📥</span> Télécharger le PDF original
             </a>
-            <button onclick="window.print()" class="arg-download-badge btn-print-page" title="Imprimer ou enregistrer cette fiche en PDF">
+            <button data-action="print-page" class="arg-download-badge btn-print-page" title="Imprimer ou enregistrer cette fiche en PDF">
               <span>🖨️</span> Imprimer / Exporter PDF
             </button>
           </div>
@@ -374,7 +374,7 @@ function renderArgumentView(arg, container) {
             <div class="quick-response-text" id="quick-text-${arg.id}">
               ${arg.readyResponses.quick30s}
             </div>
-            <button class="btn-copy-fast" onclick="copyToClipboard('${arg.id}')">
+            <button class="btn-copy-fast" data-action="copy-30s" data-arg-id="${arg.id}">
               <span>📋</span> Copier la réponse 30s en 1 clic
             </button>
 
@@ -399,7 +399,7 @@ function renderArgumentView(arg, container) {
           <div class="objections-list">
             ${arg.objections.map((o, idx) => `
               <div class="objection-item">
-                <button class="objection-title-btn" onclick="toggleObjection(this)">
+                <button class="objection-title-btn" data-action="toggle-objection">
                   <span><strong>Objection ${idx + 1} :</strong> ${o.obj}</span>
                   <span>▼</span>
                 </button>
@@ -431,7 +431,7 @@ function renderArgumentView(arg, container) {
                   <div class="quiz-question">${qIdx + 1}. ${item.q}</div>
                   <div class="quiz-options">
                     ${item.options.map((opt, oIdx) => `
-                      <button class="quiz-option-btn" onclick="handleQuizAnswer(${arg.id}, ${qIdx}, ${oIdx}, this)">
+                      <button class="quiz-option-btn" data-action="quiz-answer" data-arg-id="${arg.id}" data-q-idx="${qIdx}" data-o-idx="${oIdx}">
                         ${String.fromCharCode(65 + oIdx)}. ${opt}
                       </button>
                     `).join('')}
@@ -609,7 +609,7 @@ function initSearchModal() {
   function renderSearchResults(query) {
     if (!query) {
       resultsContainer.innerHTML = ARGUMENTS_DATA.map(arg => `
-        <div class="search-result-item" onclick="jumpToArg(${arg.id})">
+        <div class="search-result-item" data-action="jump-arg" data-arg-id="${arg.id}">
           <h4>Argument ${arg.number} : ${arg.title}</h4>
           <p>${arg.tagline}</p>
         </div>
@@ -653,7 +653,7 @@ function escapeHTML(str) {
     }
 
     resultsContainer.innerHTML = filtered.map(arg => `
-      <div class="search-result-item" onclick="jumpToArg(${arg.id})">
+      <div class="search-result-item" data-action="jump-arg" data-arg-id="${arg.id}">
         <h4>Argument ${arg.number} : ${arg.title}</h4>
         <p>${arg.formula}</p>
         <span style="font-size: 0.75rem; font-weight: 700; color: var(--nuls-black); background: var(--nuls-yellow); padding: 0.15rem 0.4rem; border-radius: 3px;">
@@ -770,3 +770,76 @@ window.printArgumentDirect = function(id) {
     window.print();
   }
 };
+
+/**
+ * Délégation globale d'événements (Architecture CSP P2 sans 'unsafe-inline')
+ */
+document.addEventListener('click', (e) => {
+  const trigger = e.target.closest('[data-action]');
+  if (!trigger) return;
+
+  const action = trigger.dataset.action;
+  switch (action) {
+    case 'open-search':
+      if (typeof window.openSearchModal === 'function') window.openSearchModal();
+      break;
+    case 'close-search':
+      if (typeof window.closeSearchModal === 'function') window.closeSearchModal();
+      break;
+    case 'open-modal':
+      if (trigger.dataset.modalId && typeof window.openModal === 'function') {
+        window.openModal(trigger.dataset.modalId);
+      }
+      break;
+    case 'close-modal':
+      if (trigger.dataset.modalId && typeof window.closeModal === 'function') {
+        window.closeModal(trigger.dataset.modalId);
+      }
+      break;
+    case 'open-portal':
+      if (typeof window.openPortal === 'function') window.openPortal();
+      break;
+    case 'close-portal':
+      if (typeof window.closePortal === 'function') window.closePortal();
+      break;
+    case 'toggle-drawer':
+      if (typeof window.toggleDrawer === 'function') {
+        window.toggleDrawer(trigger.dataset.drawerState === 'true');
+      }
+      break;
+    case 'print-page':
+      window.print();
+      break;
+    case 'print-arg-direct':
+      if (trigger.dataset.argId && typeof window.printArgumentDirect === 'function') {
+        window.printArgumentDirect(parseInt(trigger.dataset.argId, 10));
+      }
+      break;
+    case 'copy-30s':
+      if (trigger.dataset.argId && typeof copyToClipboard === 'function') {
+        copyToClipboard(trigger.dataset.argId);
+      }
+      break;
+    case 'toggle-objection':
+      if (typeof toggleObjection === 'function') {
+        toggleObjection(trigger);
+      }
+      break;
+    case 'quiz-answer':
+      if (typeof handleQuizAnswer === 'function') {
+        handleQuizAnswer(
+          parseInt(trigger.dataset.argId, 10),
+          parseInt(trigger.dataset.qIdx, 10),
+          parseInt(trigger.dataset.oIdx, 10),
+          trigger
+        );
+      }
+      break;
+    case 'jump-arg':
+      if (trigger.dataset.argId && typeof window.jumpToArg === 'function') {
+        window.jumpToArg(parseInt(trigger.dataset.argId, 10));
+      }
+      break;
+  }
+});
+

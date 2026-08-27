@@ -75,7 +75,7 @@ ARGUMENTS_DATA.forEach((arg, index) => {
           <span>📥</span>
           <span class="desktop-only-text">PDF original</span>
         </a>
-        <button class="btn-action-topbar" onclick="window.print()" title="Imprimer la fiche">
+        <button class="btn-action-topbar" data-action="print" title="Imprimer la fiche">
           <span>🖨️</span>
           <span class="desktop-only-text">Imprimer</span>
         </button>
@@ -97,7 +97,7 @@ ARGUMENTS_DATA.forEach((arg, index) => {
               <a href="../pdf/${arg.pdfFile}" download class="arg-download-badge" title="Télécharger le fascicule PDF original">
                 <span>📥</span> Télécharger le PDF original
               </a>
-              <button onclick="window.print()" class="arg-download-badge btn-print-page" title="Imprimer ou enregistrer cette fiche en PDF">
+              <button class="arg-download-badge btn-print-page" data-action="print" title="Imprimer ou enregistrer cette fiche en PDF">
                 <span>🖨️</span> Imprimer / Exporter PDF
               </button>
             </div>
