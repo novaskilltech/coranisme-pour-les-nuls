@@ -1643,141 +1643,496 @@ img, svg {
 
 @media (max-width: 768px) {
   :root {
-    --header-height: 64px;
+    --header-height: 60px;
   }
 
   .app-container {
-    padding: 1rem 0.75rem 3rem;
+    padding: 0.85rem 0.65rem 2.5rem;
+  }
+
+  /* TOPBAR HEADER */
+  .nuls-topbar {
+    border-bottom-width: 2px;
   }
 
   .topbar-container {
-    padding: 0 0.75rem;
-    gap: 0.5rem;
+    padding: 0 0.65rem;
+    gap: 0.4rem;
+    height: var(--header-height);
   }
 
   .brand-logo a {
-    gap: 0.5rem !important;
+    gap: 0.4rem !important;
   }
 
   .brand-badge {
-    font-size: 0.75rem;
-    padding: 0.2rem 0.5rem;
+    font-size: 0.7rem;
+    padding: 0.2rem 0.45rem;
+    letter-spacing: 0px;
   }
 
   .brand-title {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
+    letter-spacing: -0.3px;
   }
 
   .brand-subtitle {
     display: none;
   }
 
+  .topbar-actions {
+    gap: 0.35rem;
+  }
+
+  .btn-action-topbar,
+  .btn-search-trigger {
+    padding: 0.35rem 0.55rem;
+    font-size: 0.8rem;
+    border-width: 2px;
+  }
+
+  .btn-menu-drawer {
+    width: 36px;
+    height: 36px;
+    font-size: 1.1rem;
+  }
+
+  /* HERO SECTION */
   .hero-nuls {
-    padding: 1.5rem 1rem;
-    border-radius: var(--radius-md);
-    margin-bottom: 1.5rem;
+    padding: 1.25rem 0.85rem;
+    border-radius: var(--radius-sm);
+    margin-bottom: 1.25rem;
+    border-width: 2px;
   }
 
   .hero-title {
-    font-size: 1.65rem;
+    font-size: 1.55rem;
+    line-height: 1.15;
+    margin-bottom: 0.4rem;
+  }
+
+  .hero-tag {
+    font-size: 0.75rem;
+    padding: 0.2rem 0.5rem;
   }
 
   .hero-description {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
   }
 
   .hero-actions {
     flex-direction: column;
     width: 100%;
+    gap: 0.5rem;
   }
 
   .hero-actions .btn-hero-primary,
   .hero-actions .btn-hero-secondary {
     width: 100%;
     justify-content: center;
+    padding: 0.65rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  /* SOMMAIRE & CARTES ARGUMENTS */
+  .section-header-wrap {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .section-header-title {
+    font-size: 1.25rem;
   }
 
   .arguments-grid {
     grid-template-columns: 1fr;
-    gap: 1rem;
+    gap: 0.85rem;
   }
 
+  .argument-card {
+    padding: 1rem 0.85rem;
+    border-width: 2px;
+    border-radius: var(--radius-sm);
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+    line-height: 1.3;
+    margin-bottom: 0.4rem;
+  }
+
+  .card-tagline {
+    font-size: 0.85rem;
+    margin-bottom: 0.65rem;
+  }
+
+  .card-formula-box {
+    font-size: 0.8rem;
+    padding: 0.55rem 0.7rem;
+    line-height: 1.4;
+  }
+
+  .card-footer-actions {
+    padding-top: 0.75rem;
+    margin-top: 0.75rem;
+  }
+
+  .btn-read-arg {
+    font-size: 0.85rem;
+    padding: 0.45rem 0.75rem;
+  }
+
+  /* FICHE ARGUMENT DÉTAIL */
   .argument-detail-view {
-    border-radius: var(--radius-md);
+    border-radius: var(--radius-sm);
+    border-width: 2px;
   }
 
   .arg-header-bandeau {
-    padding: 1.5rem 1rem;
-  }
-
-  .arg-main-title {
-    font-size: 1.45rem;
-  }
-
-  .arg-subtitle-tagline {
-    font-size: 0.95rem;
-  }
-
-  .formula-banner {
-    font-size: 0.9rem;
-    padding: 0.75rem 1rem;
-    flex-direction: column;
-    gap: 0.25rem;
-  }
-
-  .arg-sticky-bar {
-    padding: 0.5rem 0.75rem;
-  }
-
-  .arg-body-content {
-    padding: 1.5rem 0.75rem;
-    gap: 1.75rem;
-  }
-
-  .nuls-callout {
     padding: 1.25rem 0.85rem;
   }
 
-  .callout-header {
+  .arg-header-top {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .arg-header-top > div {
+    width: 100%;
+    display: flex;
+    gap: 0.35rem;
+  }
+
+  .arg-badge-giant {
     font-size: 0.75rem;
-    padding: 0.25rem 0.65rem;
-    top: -12px;
-    left: 0.75rem;
+    padding: 0.25rem 0.55rem;
+  }
+
+  .arg-download-badge {
+    font-size: 0.75rem;
+    padding: 0.35rem 0.55rem;
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .arg-main-title {
+    font-size: 1.35rem;
+    line-height: 1.2;
+  }
+
+  .arg-subtitle-tagline {
+    font-size: 0.85rem;
+    margin-top: 0.35rem;
+  }
+
+  .formula-banner {
+    font-size: 0.85rem;
+    padding: 0.65rem 0.85rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.2rem;
+  }
+
+  /* BARRE STICKY HORIZONTALE SCROLLABLE */
+  .arg-sticky-bar {
+    padding: 0.4rem 0.5rem;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .arg-toc-links {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0.35rem;
+    width: max-content;
+  }
+
+  .arg-toc-link {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.55rem;
+    white-space: nowrap;
+  }
+
+  /* SECTIONS & ENCADRÉS PÉDAGOGIQUES */
+  .arg-body-content {
+    padding: 1.25rem 0.65rem;
+    gap: 1.35rem;
+  }
+
+  .nuls-callout {
+    padding: 1.15rem 0.75rem 0.85rem;
+    border-width: 2px;
+    border-radius: var(--radius-sm);
+    margin: 0.85rem 0;
+  }
+
+  .callout-header {
+    font-size: 0.7rem;
+    padding: 0.2rem 0.5rem;
+    top: -10px;
+    left: 0.65rem;
+  }
+
+  .adverse-thesis {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .distinction-grid {
+    grid-template-columns: 1fr;
+    gap: 0.6rem;
+  }
+
+  .distinction-card {
+    padding: 0.75rem 0.65rem;
+  }
+
+  .distinction-term {
+    font-size: 0.85rem;
+  }
+
+  .distinction-desc {
+    font-size: 0.8rem;
+  }
+
+  .verse-item {
+    padding: 0.75rem 0.65rem;
   }
 
   .verse-arabic {
-    font-size: 1.35rem;
-    line-height: 1.65;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    padding: 0.65rem;
   }
 
   .verse-translation {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
+    line-height: 1.45;
+  }
+
+  .analogie-card {
+    padding: 0.85rem 0.75rem;
+    gap: 0.4rem;
+  }
+
+  .analogie-title {
+    font-size: 0.95rem;
+  }
+
+  .analogie-scenario,
+  .analogie-logic-box,
+  .analogie-lesson {
+    font-size: 0.82rem;
+    line-height: 1.45;
+  }
+
+  .quick-response-container {
+    padding: 0.85rem 0.65rem;
   }
 
   .quick-response-text {
-    font-size: 0.95rem;
-    padding: 1rem;
+    font-size: 0.9rem;
+    padding: 0.75rem;
+    line-height: 1.5;
   }
 
   .btn-copy-fast {
     width: 100%;
     justify-content: center;
+    font-size: 0.85rem;
+    padding: 0.65rem;
+  }
+
+  .objection-item {
+    margin-bottom: 0.6rem;
+  }
+
+  .objection-title-btn {
+    font-size: 0.85rem;
+    padding: 0.65rem 0.75rem;
+  }
+
+  .objection-content {
+    font-size: 0.82rem;
+    padding: 0.65rem 0.75rem;
+    line-height: 1.45;
+  }
+
+  .quiz-section-wrap {
+    padding: 1.15rem 0.75rem;
+    border-width: 2px;
+  }
+
+  .quiz-header h3 {
+    font-size: 1rem;
+  }
+
+  .quiz-question {
+    font-size: 0.9rem;
+  }
+
+  .quiz-option-btn {
+    font-size: 0.82rem;
+    padding: 0.6rem 0.75rem;
   }
 
   .arg-pagination-bar {
     flex-direction: column;
-    gap: 0.75rem;
+    gap: 0.5rem;
   }
 
   .btn-pag-nav {
     width: 100%;
     justify-content: center;
+    font-size: 0.85rem;
+    padding: 0.65rem 0.75rem;
+    text-align: center;
+  }
+
+  /* FOOTER */
+  .nuls-footer {
+    padding: 1.75rem 0.85rem 1.25rem;
+    border-top-width: 2px;
+  }
+
+  .footer-container {
+    gap: 1.25rem;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+    padding-bottom: 1rem;
+  }
+
+  .footer-brand {
+    font-size: 1.2rem;
+  }
+
+  .footer-quote {
+    font-size: 0.8rem;
+    line-height: 1.45;
+    max-width: 100%;
   }
 
   .footer-middle {
     flex-direction: column;
     align-items: flex-start;
-    gap: 1rem;
+    gap: 0.75rem;
+    padding-bottom: 1rem;
+  }
+
+  .footer-middle > div:first-child {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem !important;
+    width: 100%;
+  }
+
+  .footer-btn-link {
+    font-size: 0.85rem;
+    text-align: left;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    font-size: 0.75rem;
+    line-height: 1.4;
+  }
+}
+
+/* SMARTPHONES COMPACTS (<= 420px) */
+@media (max-width: 420px) {
+  :root {
+    --header-height: 56px;
+  }
+
+  .app-container {
+    padding: 0.5rem 0.4rem 2rem;
+  }
+
+  .topbar-container {
+    padding: 0 0.45rem;
+    gap: 0.25rem;
+  }
+
+  .brand-badge {
+    font-size: 0.65rem;
+    padding: 0.15rem 0.35rem;
+  }
+
+  .brand-title {
+    font-size: 0.8rem;
+  }
+
+  .btn-action-topbar,
+  .btn-search-trigger {
+    padding: 0.3rem 0.45rem;
+    font-size: 0.75rem;
+  }
+
+  .hero-nuls {
+    padding: 1rem 0.65rem;
+  }
+
+  .hero-title {
+    font-size: 1.35rem;
+  }
+
+  .hero-description {
+    font-size: 0.85rem;
+  }
+
+  .arg-header-bandeau {
+    padding: 1rem 0.65rem;
+  }
+
+  .arg-main-title {
+    font-size: 1.2rem;
+  }
+
+  .arg-body-content {
+    padding: 1rem 0.45rem;
+    gap: 1.15rem;
+  }
+
+  .nuls-callout {
+    padding: 1rem 0.6rem 0.75rem;
+  }
+
+  .verse-arabic {
+    font-size: 1.1rem;
+    line-height: 1.55;
+    padding: 0.5rem;
+  }
+
+  .portal-card {
+    width: 96vw;
+    margin: 0.5rem auto;
+  }
+
+  .portal-header h2 {
+    font-size: 1rem;
+  }
+
+  .portal-arabic-quote {
+    font-size: 1.1rem;
+    padding: 0.55rem;
+  }
+
+  .portal-fr-quote {
+    font-size: 0.82rem;
+    padding: 0.55rem;
   }
 }
 
