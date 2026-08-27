@@ -15,7 +15,9 @@ const I18N_LANGUAGES = [
   { code: 'ur', name: 'Ourdou', native: 'اردو', flag: '🇵🇰', dir: 'rtl' },
   { code: 'ta', name: 'Tamoul', native: 'தமிழ்', flag: '🇮🇳', dir: 'ltr' },
   { code: 'ps', name: 'Pachto', native: 'پښتو', flag: '🇦🇫', dir: 'rtl' },
-  { code: 'ary', name: 'Darija', native: 'الدارجة المغربية', flag: '🇲🇦', dir: 'rtl' }
+  { code: 'ary', name: 'Darija', native: 'الدارجة المغربية', flag: '🇲🇦', dir: 'rtl' },
+  { code: 'ku', name: 'Kurde', native: 'Kurdî', flag: '☀️', dir: 'ltr' },
+  { code: 'ce', name: 'Tchétchène', native: 'Нохчийн', flag: '🟢', dir: 'ltr' }
 ];
 
 window.CURRENT_LANG = 'fr';
