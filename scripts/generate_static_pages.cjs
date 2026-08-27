@@ -38,7 +38,8 @@ ARGUMENTS_DATA.forEach((arg, index) => {
   <meta property="og:title" content="Argument ${arg.number} : ${arg.title}">
   <meta property="og:description" content="${arg.formula}">
   <meta property="og:image" content="https://raw.githubusercontent.com/novaskilltech/coranisme-pour-les-nuls/main/assets/og-image.jpg">
-  <meta property="og:locale" content="fr_FR">
+  <meta property="og:url" content="https://anti-coranisme.novaskill.tech/arguments/${arg.slug}">
+  <link rel="canonical" href="https://anti-coranisme.novaskill.tech/arguments/${arg.slug}">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
