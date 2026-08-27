@@ -1,7 +1,8 @@
 /**
- * Moteur Applicatif - Le Coranisme pour les Nuls
+ * Moteur Applicatif - Réfutation du Coranisme
  * Gestion du routage SPA, du rendu dynamique des 10 fiches,
  * de la recherche instantanée, de la copie rapide 30s et des quiz interactifs.
+ * Par Salah Eddine Ahmed
  */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -50,11 +51,20 @@ function handleRouting() {
   // Mise à jour de l'état actif dans la sidebar
   document.querySelectorAll('.sidebar-nav-item').forEach(el => el.classList.remove('active'));
 
-  if (hash.startsWith('#arg-')) {
-    const argId = parseInt(hash.replace('#arg-', ''), 10);
+  if (hash.startsWith('#arg-') || hash.startsWith('#/arguments/')) {
+    let argId;
+    if (hash.startsWith('#arg-')) {
+      argId = parseInt(hash.replace('#arg-', ''), 10);
+    } else {
+      const slug = hash.replace('#/arguments/', '');
+      const matched = ARGUMENTS_DATA.find(a => a.slug === slug || a.id.toString() === slug);
+      if (matched) argId = matched.id;
+    }
+
     const arg = ARGUMENTS_DATA.find(a => a.id === argId);
 
     if (arg) {
+      document.title = `Argument ${arg.number} : ${arg.title} — Réfutation du Coranisme`;
       const activeNav = document.getElementById(`nav-item-${arg.id}`);
       if (activeNav) activeNav.classList.add('active');
       renderArgumentView(arg, mainContainer);
@@ -64,6 +74,7 @@ function handleRouting() {
   }
 
   // Par défaut : Vue Accueil / Hub
+  document.title = "Réfutation du Coranisme — Comment démasquer et réfuter la secte des coranistes";
   renderHomeView(mainContainer);
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
@@ -73,24 +84,24 @@ function handleRouting() {
  */
 function renderHomeView(container) {
   container.innerHTML = `
-    <!-- HERO POUR LES NULS -->
+    <!-- HERO PRINCIPAL -->
     <section class="hero-nuls">
       <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem;">
         <div class="hero-tag">
-          <span>📖</span> Manuel Méthodique & Réfutation Logique
+          <span>📖</span> Manuel Pratique de Réfutation
         </div>
         <div class="hero-tag" style="background-color: #065F46; color: #ECFDF5; border: 2px solid #047857;">
-          <span>🌿</span> Aumône Perpétuelle (Sadaqah Jâriyah)
+          <span>🌿</span> Diffusion Pédagogique Ouverte
         </div>
       </div>
       <h1 class="hero-title">
-        Le Coranisme <span>Pour les Nuls</span>
+        Réfutation <span>du Coranisme</span>
       </h1>
-      <p style="font-size: 1rem; font-weight: 800; color: var(--nuls-black); margin-bottom: 0.5rem;">
-        Par <strong>Salah Eddine Ahmed</strong> — <em>Manuel de réfutation des méprisants du Coran et de la Sounnah</em>
+      <p style="font-size: 1.05rem; font-weight: 800; color: var(--nuls-black); margin-bottom: 0.5rem;">
+        Par <strong>Salah Eddine Ahmed</strong> — <em>Comment démasquer et réfuter la secte des coranistes : 10 arguments majeurs examinés et réfutés méthodiquement</em>
       </p>
       <p class="hero-description">
-        Déconstruisez pas à pas les 10 arguments clés du coranisme avec rigueur logique, analogies du quotidien, textes coraniques arabes et réponses express en 30 secondes. Ressource libre de droit : téléchargez, imprimez et partagez.
+        Déconstruisez pas à pas les sophismes du coranisme avec rigueur logique, analogies pédagogiques, versets arabes vocalisés et réponses synthétiques en 30 secondes. Partage et diffusion libres à des fins d'étude et de défense de la vérité.
       </p>
       <div class="hero-actions">
         <a href="#arg-1" class="btn-hero-primary">
@@ -129,9 +140,14 @@ function renderHomeView(container) {
             <a href="#arg-${arg.id}" class="btn-read-arg">
               <span>Consulter la fiche</span> ➔
             </a>
-            <button onclick="printArgumentDirect(${arg.id})" title="Imprimer ou enregistrer la fiche en PDF" class="btn-download-pdf-sm">
-              🖨️
-            </button>
+            <div style="display: flex; gap: 0.35rem;">
+              <a href="pdf/${arg.pdfFile}" download title="Télécharger le fascicule PDF original" class="btn-download-pdf-sm">
+                📥
+              </a>
+              <button onclick="printArgumentDirect(${arg.id})" title="Imprimer ou enregistrer la fiche en PDF" class="btn-download-pdf-sm">
+                🖨️
+              </button>
+            </div>
           </div>
         </article>
       `).join('')}
@@ -158,7 +174,7 @@ function renderHomeView(container) {
 }
 
 /**
- * Rendu de la page dédiée à un argument (Style Fiche "Pour les Nuls")
+ * Rendu de la page dédiée à un argument
  */
 function renderArgumentView(arg, container) {
   const prevArg = ARGUMENTS_DATA.find(a => a.id === arg.id - 1);
@@ -171,9 +187,14 @@ function renderArgumentView(arg, container) {
       <header class="arg-header-bandeau">
         <div class="arg-header-top">
           <span class="arg-badge-giant">ARGUMENT ${arg.number} / 10</span>
-          <button onclick="window.print()" class="arg-download-badge btn-print-page" title="Imprimer ou enregistrer cette fiche en PDF">
-            <span>🖨️</span> Imprimer / Enregistrer en PDF
-          </button>
+          <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+            <a href="pdf/${arg.pdfFile}" download class="arg-download-badge" title="Télécharger le fascicule PDF original">
+              <span>📥</span> Télécharger le PDF original
+            </a>
+            <button onclick="window.print()" class="arg-download-badge btn-print-page" title="Imprimer ou enregistrer cette fiche en PDF">
+              <span>🖨️</span> Imprimer / Exporter PDF
+            </button>
+          </div>
         </div>
         <h1 class="arg-main-title">${arg.title}</h1>
         <p class="arg-subtitle-tagline">✦ ${arg.tagline}</p>
@@ -453,7 +474,7 @@ function renderArgumentView(arg, container) {
             </a>
           ` : `
             <a href="#home" class="btn-pag-nav">
-              🏠 Retour à l'accueil
+              🏠 Retour au sommaire
             </a>
           `}
 
@@ -614,7 +635,7 @@ function initSearchModal() {
     if (filtered.length === 0) {
       resultsContainer.innerHTML = `
         <div style="text-align: center; padding: 2rem; color: var(--text-muted); font-weight: 600;">
-          Aucun résultat pour « ${query} ». Essayez un autre mot-clé (ex: prière, 16:44, transmission, autorité).
+          Aucun résultat pour « ${query} ». Essayez un autre mot-clé (ex: prière, Sourate An-Nahl verset 44, transmission, autorité).
         </div>
       `;
       return;
@@ -738,7 +759,3 @@ window.printArgumentDirect = function(id) {
     window.print();
   }
 };
-
-
-
-

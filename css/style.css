@@ -473,7 +473,7 @@ img, svg {
 }
 
 .hero-nuls::after {
-  content: "POUR LES NULS";
+  content: "MANUEL PRATIQUE";
   position: absolute;
   right: -20px;
   bottom: -20px;
@@ -2131,9 +2131,9 @@ img, svg {
     print-color-adjust: exact !important;
   }
 
-  /* Pied de page d'impression discret avec mention de Sadaqah Jariyah */
+  /* Pied de page d'impression discret */
   .argument-detail-view::after {
-    content: "Le Coranisme Pour les Nuls • Par Salah Eddine Ahmed • Aumône Perpétuelle (Sadaqah Jâriyah) • ideoise@gmail.com";
+    content: "Réfutation du Coranisme — Manuel pratique • Par Salah Eddine Ahmed • ideoise@gmail.com";
     display: block;
     text-align: center;
     font-size: 8pt;
