@@ -26,19 +26,26 @@ ARGUMENTS_DATA.forEach((arg, index) => {
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>Argument ${arg.number} : ${arg.title} — Réfutation du Coranisme</title>
   
-  <!-- SEO & Description -->
-  <meta name="description" content="Réfutation de l'Argument ${arg.number} : ${arg.title}. ${arg.tagline}. Manuel pratique par Salah Eddine Ahmed.">
+  <!-- SEO & Mots-clés stratégiques -->
+  <meta name="description" content="Réfutation méthodique de l'Argument ${arg.number} : « ${arg.title} ». Thèse coraniste, versets, distinctions conceptuelles, réponses en 30s et objections décryptées par Salah Eddine Ahmed.">
+  <meta name="keywords" content="${arg.title.toLowerCase()}, réfutation argument coranisme, ${arg.theme.toLowerCase()}, coranisme, sunna, hadith, islam, salah eddine ahmed">
   <meta name="author" content="Salah Eddine Ahmed">
-  <meta name="robots" content="index, follow">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   <meta name="theme-color" content="#FED100">
 
   <!-- Open Graph -->
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="Réfutation du Coranisme">
-  <meta property="og:title" content="Argument ${arg.number} : ${arg.title}">
+  <meta property="og:title" content="Argument ${arg.number} : ${arg.title} — Réfutation du Coranisme">
   <meta property="og:description" content="${arg.formula}">
   <meta property="og:image" content="https://raw.githubusercontent.com/novaskilltech/coranisme-pour-les-nuls/main/assets/og-image.jpg">
+  <meta property="og:image:secure_url" content="https://raw.githubusercontent.com/novaskilltech/coranisme-pour-les-nuls/main/assets/og-image.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="675">
+  <meta property="og:image:alt" content="Argument ${arg.number} : ${arg.title}">
   <meta property="og:url" content="https://anti-coranisme.novaskill.tech/arguments/${arg.slug}">
+  <meta property="og:locale" content="fr_FR">
   <link rel="canonical" href="https://anti-coranisme.novaskill.tech/arguments/${arg.slug}">
 
   <!-- Twitter Card -->
@@ -46,6 +53,60 @@ ARGUMENTS_DATA.forEach((arg, index) => {
   <meta name="twitter:title" content="Argument ${arg.number} : ${arg.title}">
   <meta name="twitter:description" content="${arg.formula}">
   <meta name="twitter:image" content="https://raw.githubusercontent.com/novaskilltech/coranisme-pour-les-nuls/main/assets/og-image.jpg">
+
+  <!-- Schema.org JSON-LD (Données Structurées Article & Breadcrumb Google) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "@id": "https://anti-coranisme.novaskill.tech/arguments/${arg.slug}#article",
+        "isPartOf": {
+          "@type": "WebPage",
+          "@id": "https://anti-coranisme.novaskill.tech/arguments/${arg.slug}"
+        },
+        "headline": "Argument ${arg.number} : ${arg.title}",
+        "description": "${arg.tagline}",
+        "author": {
+          "@type": "Person",
+          "name": "Salah Eddine Ahmed"
+        },
+        "publisher": {
+          "@type": "Person",
+          "name": "Salah Eddine Ahmed"
+        },
+        "image": "https://raw.githubusercontent.com/novaskilltech/coranisme-pour-les-nuls/main/assets/og-image.jpg",
+        "inLanguage": "fr",
+        "mainEntityOfPage": "https://anti-coranisme.novaskill.tech/arguments/${arg.slug}"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://anti-coranisme.novaskill.tech/arguments/${arg.slug}#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://anti-coranisme.novaskill.tech/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Arguments",
+            "item": "https://anti-coranisme.novaskill.tech/#arguments"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Argument ${arg.number}",
+            "item": "https://anti-coranisme.novaskill.tech/arguments/${arg.slug}"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
 
   <!-- Styles -->
   <link rel="stylesheet" href="../css/style.css">
