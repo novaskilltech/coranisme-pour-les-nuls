@@ -180,6 +180,18 @@
       </div>
 
       <div class="topbar-actions">
+        <!-- SÉLECTEUR DE LANGUE (DROPDOWN MULTILINGUE) -->
+        <div class="lang-selector-wrap" id="lang-selector-wrap">
+          <button class="btn-action-topbar btn-lang-trigger" id="btn-lang-trigger" aria-haspopup="listbox" aria-expanded="false" title="Changer de langue / Change language / تغيير اللغة">
+            <span class="lang-flag-current">🇫🇷</span>
+            <span class="desktop-only-text lang-name-current">Français</span>
+            <span class="lang-arrow">▼</span>
+          </button>
+          <div class="lang-dropdown-menu" id="lang-dropdown-menu" role="listbox">
+            <!-- Rendu dynamique des 11 langues via i18n.js -->
+          </div>
+        </div>
+
         <button class="btn-search-trigger" data-action="open-search" title="Rechercher (Ctrl+K)">
           <span>🔍</span>
           <span class="desktop-only-text">Rechercher</span>
@@ -215,6 +227,14 @@
     
     <!-- SIDEBAR NAVIGATION -->
     <aside class="app-sidebar" id="app-sidebar">
+      <!-- SECTION LANGUES MOBILE -->
+      <div class="drawer-lang-section">
+        <div class="drawer-lang-title">🌐 Langues / Languages / اللغات</div>
+        <div class="drawer-lang-grid" id="drawer-lang-grid">
+          <!-- Rendu dynamique des 11 langues -->
+        </div>
+      </div>
+
       <div class="sidebar-header">
         <h3>📚 Sommaire</h3>
         <div style="display: flex; align-items: center; gap: 0.5rem;">
@@ -1032,6 +1052,8 @@
 
   <!-- SCRIPTS -->
   <script src="js/data.js"></script>
+  <script src="js/translations/fr.js"></script>
+  <script src="js/i18n.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>

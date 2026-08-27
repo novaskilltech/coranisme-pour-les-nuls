@@ -2512,3 +2512,202 @@ section[id^="section-"] {
     margin-top: 1.5rem;
   }
 }
+
+/* ==========================================================================
+   SÉLECTEUR DE LANGUES & INTERNATIONALISATION (I18N)
+   ========================================================================== */
+.lang-selector-wrap {
+  position: relative;
+  display: inline-block;
+}
+
+.btn-lang-trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background-color: #FFFFFF;
+  border: 2px solid var(--nuls-black);
+  border-radius: var(--radius-pill);
+  padding: 0.35rem 0.75rem;
+  font-weight: 800;
+  font-size: 0.85rem;
+  box-shadow: 2px 2px 0px var(--nuls-black);
+  transition: all 0.15s ease;
+  cursor: pointer;
+}
+
+.btn-lang-trigger:hover {
+  background-color: var(--nuls-yellow-light);
+  transform: translateY(-1px);
+  box-shadow: 3px 3px 0px var(--nuls-black);
+}
+
+.lang-arrow {
+  font-size: 0.65rem;
+  transition: transform 0.2s ease;
+}
+
+.btn-lang-trigger[aria-expanded="true"] .lang-arrow {
+  transform: rotate(180deg);
+}
+
+.lang-dropdown-menu {
+  display: none;
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  min-width: 220px;
+  background: #FFFFFF;
+  border: 3px solid var(--nuls-black);
+  border-radius: var(--radius-md);
+  box-shadow: 4px 4px 0px var(--nuls-black);
+  padding: 0.5rem;
+  z-index: 1000;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.lang-dropdown-menu.open {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  animation: dropdownFade 0.15s ease-out;
+}
+
+@keyframes dropdownFade {
+  from { opacity: 0; transform: translateY(-6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.lang-dropdown-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--nuls-black);
+  background: transparent;
+  border: 1px solid transparent;
+  text-align: start;
+  width: 100%;
+  cursor: pointer;
+  transition: all 0.1s ease;
+}
+
+.lang-dropdown-item:hover {
+  background-color: var(--nuls-yellow-light);
+  border-color: var(--nuls-black);
+}
+
+.lang-dropdown-item.active {
+  background-color: var(--nuls-yellow);
+  border: 1.5px solid var(--nuls-black);
+}
+
+.lang-flag {
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
+.lang-name {
+  flex: 1;
+}
+
+.lang-code-badge {
+  font-size: 0.7rem;
+  font-weight: 900;
+  background: #E5E7EB;
+  color: #374151;
+  padding: 0.1rem 0.35rem;
+  border-radius: 4px;
+}
+
+.lang-dropdown-item.active .lang-code-badge {
+  background: var(--nuls-black);
+  color: var(--nuls-yellow);
+}
+
+/* Drawer Mobile Lang Section */
+.drawer-lang-section {
+  padding: 1rem 1.25rem;
+  border-bottom: var(--border-thin);
+  background: #FAF9F5;
+}
+
+.drawer-lang-title {
+  font-size: 0.8rem;
+  font-weight: 800;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.6rem;
+}
+
+.drawer-lang-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.4rem;
+}
+
+.drawer-lang-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.45rem 0.6rem;
+  border: 1.5px solid #D1D5DB;
+  border-radius: var(--radius-sm);
+  background: #FFFFFF;
+  font-size: 0.85rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.1s ease;
+}
+
+.drawer-lang-btn.active {
+  background: var(--nuls-yellow);
+  border-color: var(--nuls-black);
+  font-weight: 900;
+}
+
+/* RTL Layout Support */
+html[dir="rtl"] {
+  direction: rtl;
+  text-align: right;
+}
+
+html[dir="rtl"] body {
+  font-family: var(--font-arabic), var(--font-main);
+}
+
+html[dir="rtl"] .lang-dropdown-menu {
+  right: auto;
+  left: 0;
+}
+
+html[dir="rtl"] .nuls-callout {
+  border-left-width: 3px;
+  border-right-width: 6px;
+}
+
+html[dir="rtl"] .callout-cadrage {
+  border-left-color: var(--nuls-black);
+  border-right-color: var(--nuls-blue);
+}
+
+html[dir="rtl"] .callout-adverse {
+  border-left-color: var(--nuls-black);
+  border-right-color: var(--nuls-red);
+}
+
+html[dir="rtl"] .callout-retenir {
+  border-left-color: var(--nuls-black);
+  border-right-color: var(--nuls-yellow-hover);
+}
+
+html[dir="rtl"] .callout-analogie {
+  border-left-color: var(--nuls-black);
+  border-right-color: var(--nuls-green);
+}
+
