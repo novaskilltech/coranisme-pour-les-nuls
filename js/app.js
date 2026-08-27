@@ -31,8 +31,111 @@ function escapeHTML(str) {
     .replace(/'/g, '&#39;');
 }
 
-const PREFACE_HTML = document.getElementById('preface')?.outerHTML || '';
-const CORANISME_INTRO_HTML = document.getElementById('coranisme-intro')?.outerHTML || '';
+const STATIC_PREFACE_FALLBACK = document.getElementById('preface')?.outerHTML || '';
+const STATIC_INTRO_FALLBACK = document.getElementById('coranisme-intro')?.outerHTML || '';
+
+function renderPrefaceHTML() {
+  const currentLang = window.CURRENT_LANG || 'fr';
+  const data = (window.I18N_DATA && window.I18N_DATA[currentLang] && window.I18N_DATA[currentLang].preface)
+    ? window.I18N_DATA[currentLang].preface
+    : (window.I18N_DATA && window.I18N_DATA['fr'] && window.I18N_DATA['fr'].preface ? window.I18N_DATA['fr'].preface : null);
+
+  if (!data) return STATIC_PREFACE_FALLBACK;
+
+  return `
+    <section id="preface" class="nuls-callout callout-cadrage" style="margin: 2rem 0;" aria-labelledby="preface-title">
+      <div class="callout-header"><span>📝</span> ${data.badge || "OUVERTURE DE L'OUVRAGE"}</div>
+      <header class="section-header-wrap" style="margin: 0 0 1.25rem;">
+        <div>
+          <h2 class="section-header-title" id="preface-title">${data.title || "PRÉFACE"}</h2>
+          <p style="font-weight: 700; color: var(--text-muted); margin-top: 0.4rem;">${data.subtitle || "Pourquoi cet ouvrage ?"}</p>
+        </div>
+        <span class="card-number-badge">${data.introTag || "AVANT DE COMMENCER"}</span>
+      </header>
+
+      <div class="verse-item" style="margin-bottom: 1.25rem;">
+        <div class="verse-arabic" lang="ar" dir="rtl">${data.basmala || "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ"}</div>
+      </div>
+
+      ${data.sections.map(sec => `
+        <section class="nuls-callout callout-${sec.type}" style="margin-top: 1.25rem;">
+          <div class="callout-header"><span>${sec.type === 'adverse' ? '🔴' : (sec.type === 'retenir' ? '💡' : (sec.type === 'analogie' ? '📚' : (sec.type === 'cadrage' ? '📖' : '⏱️')))}</span> ${sec.header}</div>
+          <h3 style="font-family: var(--font-display); font-size: 1.35rem; font-weight: 800; margin: 1rem 0 0.75rem;">${sec.title}</h3>
+          ${sec.paragraphs.map(p => `<p style="margin-bottom: 0.75rem;">${p}</p>`).join('')}
+          ${sec.distinctions ? `
+            <div class="distinction-grid" style="margin-top: 1rem;">
+              ${sec.distinctions.map(d => `
+                <div class="distinction-card">
+                  <div class="distinction-term">${d.term}</div>
+                  <div class="distinction-desc">${d.desc}</div>
+                </div>
+              `).join('')}
+            </div>
+          ` : ''}
+          ${sec.signature ? `
+            <div style="background: #FFFFFF; border: 2px solid var(--nuls-black); border-radius: var(--radius-sm); margin-top: 1rem; padding: 1rem; text-align: center; font-family: var(--font-display); font-weight: 800; line-height: 1.6; white-space: pre-line;">
+              ${sec.signature}
+            </div>
+          ` : ''}
+        </section>
+      `).join('')}
+    </section>
+  `;
+}
+
+function renderCoranismeIntroHTML() {
+  const currentLang = window.CURRENT_LANG || 'fr';
+  const data = (window.I18N_DATA && window.I18N_DATA[currentLang] && window.I18N_DATA[currentLang].intro)
+    ? window.I18N_DATA[currentLang].intro
+    : (window.I18N_DATA && window.I18N_DATA['fr'] && window.I18N_DATA['fr'].intro ? window.I18N_DATA['fr'].intro : null);
+
+  if (!data) return STATIC_INTRO_FALLBACK;
+
+  return `
+    <section id="coranisme-intro" class="nuls-callout callout-cadrage" style="margin: 2rem 0;" aria-labelledby="coranisme-intro-title">
+      <div class="callout-header">
+        <span>📖</span> ${data.header || "CONTEXTE INTRODUCTIF"}
+      </div>
+
+      <header class="section-header-wrap" style="margin: 0 0 1.25rem;">
+        <div>
+          <h2 class="section-header-title" id="coranisme-intro-title">${data.title || "QUI SONT LES CORANISTES ?"}</h2>
+          <p style="font-weight: 700; color: var(--text-muted); margin-top: 0.4rem;">${data.subtitle || "Définition et repères"}</p>
+        </div>
+        <span class="card-number-badge">${data.badge || "REPÈRES HISTORIQUES"}</span>
+      </header>
+
+      ${data.sections.map(sec => `
+        <section class="nuls-callout callout-${sec.type}" style="margin-top: 1.25rem;">
+          <div class="callout-header"><span>${sec.type === 'adverse' ? '🔴' : (sec.type === 'retenir' ? '💡' : (sec.type === 'analogie' ? '⚖️' : '🗓️'))}</span> ${sec.header}</div>
+          <h3 style="font-family: var(--font-display); font-size: 1.35rem; font-weight: 800; margin: 1rem 0 0.75rem;">${sec.title}</h3>
+          ${sec.paragraphs ? sec.paragraphs.map(p => `<p style="margin-bottom: 0.75rem;">${p}</p>`).join('') : ''}
+          ${sec.hadiths ? `
+            <div class="verses-container" style="margin-top: 1rem;">
+              ${sec.hadiths.map(h => `
+                <div class="verse-item">
+                  <div class="verse-header-ref"><span class="verse-ref-badge">${h.ref}</span></div>
+                  <div class="verse-arabic" lang="ar" dir="rtl">${h.ar}</div>
+                  <div class="verse-translation">${h.translation}</div>
+                </div>
+              `).join('')}
+            </div>
+          ` : ''}
+          ${sec.distinctions ? `
+            <div class="distinction-grid" style="margin-top: 1rem;">
+              ${sec.distinctions.map(d => `
+                <div class="distinction-card">
+                  <div class="distinction-term">${d.term}</div>
+                  <div class="distinction-desc">${d.desc}</div>
+                </div>
+              `).join('')}
+            </div>
+          ` : ''}
+        </section>
+      `).join('')}
+    </section>
+  `;
+}
 
 document.addEventListener('DOMContentLoaded', () => {
   initApp();
@@ -188,9 +291,9 @@ function renderHomeView(container) {
       </div>
     </section>
 
-    ${PREFACE_HTML}
+    ${renderPrefaceHTML()}
 
-    ${CORANISME_INTRO_HTML}
+    ${renderCoranismeIntroHTML()}
 
     <!-- SOMMAIRE DES 10 ARGUMENTS -->
     <div class="section-header-wrap">
