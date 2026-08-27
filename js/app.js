@@ -632,10 +632,21 @@ function initSearchModal() {
       return matchTitle || matchTagline || matchFormula || matchThesis || matchAdverseVerses || matchQuranicVerses || match30s;
     });
 
+function escapeHTML(str) {
+  if (typeof str !== 'string') return '';
+  return str
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
     if (filtered.length === 0) {
+      const safeQuery = escapeHTML(query);
       resultsContainer.innerHTML = `
         <div style="text-align: center; padding: 2rem; color: var(--text-muted); font-weight: 600;">
-          Aucun résultat pour « ${query} ». Essayez un autre mot-clé (ex: prière, Sourate An-Nahl verset 44, transmission, autorité).
+          Aucun résultat pour « <strong>${safeQuery}</strong> ». Essayez un autre mot-clé (ex: prière, Sourate An-Nahl verset 44, transmission, autorité).
         </div>
       `;
       return;
