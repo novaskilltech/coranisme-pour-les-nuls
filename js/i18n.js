@@ -195,6 +195,15 @@ function updateStaticDOM(ui) {
   const searchBtnText = document.querySelector('.btn-search-trigger .desktop-only-text');
   if (searchBtnText) searchBtnText.textContent = ui.searchBtn;
 
+  const barbahariBtnText = document.querySelector('button[data-action="open-portal"] .desktop-only-text');
+  if (barbahariBtnText && ui.navBarbahari) barbahariBtnText.textContent = ui.navBarbahari;
+
+  const contactBtnText = document.querySelector('button[data-modal-id="contact-modal"] .desktop-only-text');
+  if (contactBtnText && ui.navContact) contactBtnText.textContent = ui.navContact;
+
+  const licenseBtnText = document.querySelector('button[data-modal-id="legal-modal"] .desktop-only-text');
+  if (licenseBtnText && ui.navLicense) licenseBtnText.textContent = ui.navLicense;
+
   // Sidebar
   const sidebarHeaderTitle = document.querySelector('.sidebar-header h3');
   if (sidebarHeaderTitle) sidebarHeaderTitle.textContent = `📚 ${ui.summaryTitle}`;
@@ -231,6 +240,10 @@ function updateStaticDOM(ui) {
   // Contact Modal
   const contactModalTitle = document.querySelector('#contact-modal .modal-header h3');
   if (contactModalTitle) contactModalTitle.textContent = `✉️ ${ui.contactModalTitle}`;
+
+  // Legal / License Modal
+  const legalModalTitle = document.querySelector('#legal-modal .modal-header h3');
+  if (legalModalTitle) legalModalTitle.textContent = `🌿 ${ui.legalModalTitle || 'Partage & Licence'}`;
 
   // Footer
   const footerQuote = document.querySelector('.footer-quote-text');

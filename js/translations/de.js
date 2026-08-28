@@ -126,7 +126,10 @@ window.I18N_DATA['de'] = {
     "labelLesson": "Lehre:",
     "labelApplication": "Anwendung auf die Debatte:",
     "labelObjection": "Einwand",
-    "labelMethodicAnswer": "Methodische Antwort:"
+    "labelMethodicAnswer": "Methodische Antwort:",
+    "navBarbahari": "Al-Barbahari",
+    "navContact": "Kontakt",
+    "navLicense": "Teilen & Lizenz"
   },
   "arguments": [
     {
@@ -227,7 +230,11 @@ window.I18N_DATA['de'] = {
         ],
         "finalText": "The perfection of the Quran is realized through the living embodiment of the Prophetic Sunnah.",
         "punchline": "To reject the Sunnah in the name of Quranic completeness is to reject the Quran that instituted the Sunnah!"
-      }
+      },
+      "id": 1,
+      "number": "01",
+      "slug": "1-coran-complet",
+      "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_1.pdf"
     },
     {
       "theme": "Dauerhafte Autorität",
@@ -322,7 +329,11 @@ window.I18N_DATA['de'] = {
         ],
         "finalText": "The authority of the Prophet ﷺ endures as long as the Quran endures.",
         "punchline": "The Quran never said 'Obey the Messenger only while he lives'—it made his obedience an eternal covenant of faith!"
-      }
+      },
+      "id": 2,
+      "number": "02",
+      "slug": "2-obeissance-messager",
+      "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_2.PDF"
     },
     {
       "theme": "Göttliche Souveränität",
@@ -417,7 +428,11 @@ window.I18N_DATA['de'] = {
         ],
         "finalText": "The Prophet's prohibitions are an integral part of Allah's divine law.",
         "punchline": "To claim following the Prophet's rulings is shirk is to deny the Quran: {what Allah AND His Messenger have made unlawful}!"
-      }
+      },
+      "id": 3,
+      "number": "03",
+      "slug": "3-allah-seul-legifere",
+      "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_3.PDF"
     },
     {
       "theme": "Verkündigung und Lehre",
@@ -512,7 +527,11 @@ window.I18N_DATA['de'] = {
         ],
         "finalText": "Prophetic delivery is intrinsically bound to authoritative explanation and the Sunnah.",
         "punchline": "The Prophet ﷺ was not a courier; he was an authoritative teacher, judge, and exemplar by divine decree!"
-      }
+      },
+      "id": 4,
+      "number": "04",
+      "slug": "4-mission-messager-transmettre",
+      "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_4.pdf"
     },
     {
       "theme": "Bewahrung der Offenbarung",
@@ -581,6 +600,10 @@ window.I18N_DATA['de'] = {
         {
           "obj": "Fabricated hadiths exist, so how can you say the Sunnah is preserved?",
           "ans": "The existence of counterfeit money does not abolish genuine currency; the fact that Hadith scholars identified and cataloged fabrications by name and chain is the ultimate proof of preservation!"
+        },
+        {
+          "obj": "Were there not weak narrations and human errors in transmission?",
+          "ans": "The science of Hadith terminology and biographical evaluation established the most rigorous historical verification system in human history, isolating errors and safeguarding divine guidance."
         }
       ],
       "framingQuestions": [
@@ -607,7 +630,11 @@ window.I18N_DATA['de'] = {
         ],
         "finalText": "Allah's preservation of the Dhikr encompasses the Noble Quran and its clarifying Sunnah.",
         "punchline": "If the Sunnah were lost, the Quran's commands would be paralyzed—preserving the Quran necessitates preserving its Sunnah!"
-      }
+      },
+      "id": 5,
+      "number": "05",
+      "slug": "5-preservation-coran-hadiths",
+      "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_5.pdf"
     },
     {
       "theme": "Historische Dokumentation",
@@ -687,7 +714,11 @@ window.I18N_DATA['de'] = {
         ],
         "finalText": "La démarche rationnelle consiste à évaluer chaque récit selon ses chaînes et critères d'authenticité, sans céder au rejet simpliste.",
         "punchline": "Compilation tardive ≠ Origine tardive. Riwâyat Ḥafṣ ʿan ʿĀṣim démontre la validité de la transmission."
-      }
+      },
+      "id": 6,
+      "number": "06",
+      "slug": "6-compilation-tardive-hadiths",
+      "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_6.pdf"
     },
     {
       "theme": "Kontext der Überlieferungen",
@@ -786,7 +817,11 @@ window.I18N_DATA['de'] = {
         ],
         "finalText": "Les quatre éléments du dossier rétablissent la cohérence historique et doctrinale de la transmission de la Sunna.",
         "punchline": "Quatre données à harmoniser : interdiction initiale, permission de rapporter, autorisation d'écrire et ordre pour Abû Shâh."
-      }
+      },
+      "id": 7,
+      "number": "07",
+      "slug": "7-interdiction-ecrire-paroles",
+      "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_7.pdf"
     },
     {
       "theme": "Koranische Semantik",
@@ -888,7 +923,11 @@ window.I18N_DATA['de'] = {
         ],
         "finalText": "Le Coran condamne les discours mensongers des négateurs, et non les explications du Prophète ﷺ.",
         "punchline": "Ḥadīth = discours / récit dans la langue arabe ; non le terme technique du corpus sunnite."
-      }
+      },
+      "id": 8,
+      "number": "08",
+      "slug": "8-coran-condamne-hadiths",
+      "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_8.pdf"
     },
     {
       "theme": "Unfehlbarkeit der Übermittlung",
@@ -999,7 +1038,11 @@ window.I18N_DATA['de'] = {
         ],
         "finalText": "Les corrections divines attestent de l'encadrement divin de la mission prophétique et garantissent la pureté de la Sunna transmise.",
         "punchline": "Les corrections divines n'annulent pas l'autorité du Prophète ﷺ : elles en prouvent l'encadrement permanent par Allah عز وجل."
-      }
+      },
+      "id": 9,
+      "number": "09",
+      "slug": "9-corrections-divines",
+      "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_9.pdf"
     },
     {
       "theme": "Überlieferung des Gottesdienstes",
@@ -1090,7 +1133,11 @@ window.I18N_DATA['de'] = {
         ],
         "finalText": "La transmission ininterrompue de la prière est la preuve vivante de la nécessité de la Sunna.",
         "punchline": "Pratique rituelle transmise = Sunna vivante (Tawâtur pratique)."
-      }
+      },
+      "id": 10,
+      "number": "10",
+      "slug": "10-priere-pratique-communautaire",
+      "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_10.pdf"
     }
   ],
   "preface": {

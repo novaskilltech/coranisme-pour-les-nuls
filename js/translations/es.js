@@ -1,6 +1,6 @@
 /**
  * Pack de Langue : Espagnol (ES) - Español
- * Traduction Intégrale Vérifiée (UI, Préface, Intro, 10 Arguments, Modales)
+ * Traduction Complète et Exhaustive (UI, Préface, Intro, 10 Arguments, Modales)
  */
 window.I18N_DATA = window.I18N_DATA || {};
 window.I18N_DATA['es'] = {
@@ -126,7 +126,10 @@ window.I18N_DATA['es'] = {
     "labelLesson": "Enseñanza:",
     "labelApplication": "Aplicación al debate:",
     "labelObjection": "Objeción",
-    "labelMethodicAnswer": "Respuesta metódica:"
+    "labelMethodicAnswer": "Respuesta metódica:",
+    "navBarbahari": "Al-Barbahârî",
+    "navContact": "Contacto",
+    "navLicense": "Difusión y Licencia"
   },
   "arguments": [
     {
@@ -751,6 +754,10 @@ window.I18N_DATA['es'] = {
         {
           "obj": "¿No existen hadices falsificados? ¿Cómo afirmar que están preservados?",
           "ans": "La existencia de moneda falsa no elimina el dinero auténtico; ¡el hecho de que los sabios identificaran y aislaran cada falsificación es la prueba definitiva de su preservación!"
+        },
+        {
+          "obj": "¿No hubo relatos débiles o discrepancias humanas en las transmisiones?",
+          "ans": "La ciencia del Isnad y la crítica biográfica de narradores (Ilm ar-Rijal) estableció el método histórico más riguroso jamás creado, clasificando cada grado de fiabilidad con exactitud matemática."
         }
       ],
       "framingQuestions": [

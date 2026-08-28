@@ -1,6 +1,6 @@
 /**
  * Pack de Langue : Français (FR) - Français
- * Traduction Intégrale et Complète (UI, Préface, Intro, 10 Arguments, Modales)
+ * Traduction Complète et Exhaustive (UI, Préface, Intro, 10 Arguments, Modales)
  */
 window.I18N_DATA = window.I18N_DATA || {};
 window.I18N_DATA['fr'] = {
@@ -126,7 +126,10 @@ window.I18N_DATA['fr'] = {
     "labelLesson": "Enseignement :",
     "labelApplication": "Application au débat :",
     "labelObjection": "Objection",
-    "labelMethodicAnswer": "Réponse méthodique :"
+    "labelMethodicAnswer": "Réponse méthodique :",
+    "navBarbahari": "Al-Barbahârî",
+    "navContact": "Contact",
+    "navLicense": "Partage & Licence"
   },
   "arguments": [
     {
@@ -712,6 +715,10 @@ window.I18N_DATA['fr'] = {
         {
           "obj": "« Mais les recueils de hadiths ont été rédigés par des êtres humains faillibles ! »",
           "ans": "Le sunnisme ne prétend pas que les compilateurs sont des prophètes. La valeur probante repose sur la convergence des chaînes de transmission, la mémoire collective et le recoupement critique des variantes."
+        },
+        {
+          "obj": "Were there not weak narrations and human errors in transmission?",
+          "ans": "The science of Hadith terminology and biographical evaluation established the most rigorous historical verification system in human history, isolating errors and safeguarding divine guidance."
         }
       ],
       "framingQuestions": [

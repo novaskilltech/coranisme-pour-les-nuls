@@ -1,6 +1,6 @@
 /**
  * Pack de Langue : Arabe (AR) - العربية
- * Traduction Intégrale et Complète (UI, Préface, Intro, 10 Arguments, Modales)
+ * Traduction Complète et Exhaustive (UI, Préface, Intro, 10 Arguments, Modales)
  */
 window.I18N_DATA = window.I18N_DATA || {};
 window.I18N_DATA['ar'] = {
@@ -126,7 +126,10 @@ window.I18N_DATA['ar'] = {
     "labelLesson": "العبرة المستفادة :",
     "labelApplication": "التطبيق في المناظرة :",
     "labelObjection": "الشبهة",
-    "labelMethodicAnswer": "الرد المنهجي المفصل :"
+    "labelMethodicAnswer": "الرد المنهجي المفصل :",
+    "navBarbahari": "البربهاري",
+    "navContact": "اتصل بنا",
+    "navLicense": "المشاركة والترخيص"
   },
   "arguments": [
     {
@@ -243,7 +246,11 @@ window.I18N_DATA['ar'] = {
         ],
         "finalText": "كمال القرآن يتجلى في كونه أسس السنة وجعلها بياناً تطبيقياً لازماً له.",
         "punchline": "من زعم الاكتفاء بالقرآن لرد السنة فقد رد القرآن نفسه الذي أوجب السنة !"
-      }
+      },
+      "id": 1,
+      "number": "01",
+      "slug": "1-coran-complet",
+      "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_1.pdf"
     },
     {
       "theme": "حجية طاعة الرسول ﷺ واستمرارها",
@@ -338,7 +345,11 @@ window.I18N_DATA['ar'] = {
         ],
         "finalText": "طاعة النبي ﷺ باقية ما بقي القرآن، وسنته هي تجسيد تلك الطاعة.",
         "punchline": "القرآن لم يقل 'أطيعوا الرسول في حياته فقط'، بل جعل طاعته ميثاقاً إيمانياً أبدياً !"
-      }
+      },
+      "id": 2,
+      "number": "02",
+      "slug": "2-obeissance-messager",
+      "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_2.PDF"
     },
     {
       "theme": "الحاكمية وسلطة التشريع المفوضة",
@@ -433,7 +444,11 @@ window.I18N_DATA['ar'] = {
         ],
         "finalText": "تحريم النبي وسنته هو من حكم الله تعالى وبإذنه.",
         "punchline": "من زعم أن اتباع تحريمات الرسول شرك، فقد عطل قوله تعالى : {وَمَا حَرَّمَ اللَّهُ وَرَسُولُهُ} !"
-      }
+      },
+      "id": 3,
+      "number": "03",
+      "slug": "3-allah-seul-legifere",
+      "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_3.PDF"
     },
     {
       "theme": "وظيفة الرسول : البلاغ والبيان والتزكية",
@@ -528,7 +543,11 @@ window.I18N_DATA['ar'] = {
         ],
         "finalText": "البلاغ النبوي متضمن للبيان والتعليم والسنة العملية.",
         "punchline": "النبي ﷺ لم يكن ساعي بريد، بل كان نبياً معلماً ومبيناً وقائداً بنص القرآن !"
-      }
+      },
+      "id": 4,
+      "number": "04",
+      "slug": "4-mission-messager-transmettre",
+      "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_4.pdf"
     },
     {
       "theme": "حفظ الذكر وحفظ السنة",
@@ -613,6 +632,10 @@ window.I18N_DATA['ar'] = {
         {
           "obj": "لكن هناك أحاديث مكذوبة وموضوعة، فكيف تقولون إنها محفوظة ؟",
           "ans": "وجود الأحاديث المكذوبة وكشف علماء الحديث لها بالاسم والسند هو أعظم دليل على حفظ السنة، مثل وجود العملة المزورة واكتشاف خبراء النقد لها فوراً !"
+        },
+        {
+          "obj": "ألا يزعم البعض أن تدوين الحديث شابه بعض الوهم والخطأ البشري؟",
+          "ans": "علم مصطلح الحديث ونقد الرجال وضع أدق معايير التوثيق في التاريخ، فميز بين الصحيح والضعيف بدقة متناهية تحفظ الشريعة من أي تحريف."
         }
       ],
       "framingQuestions": [
@@ -640,7 +663,11 @@ window.I18N_DATA['ar'] = {
         ],
         "finalText": "حفظ الله للذكر يشمل القرآن العظيم وسنة نبيه المبينة له.",
         "punchline": "لو ضاعت السنة لتعطلت أحكام القرآن، وحفظ القرآن يقتضي بالضرورة حفظ بيانه !"
-      }
+      },
+      "id": 5,
+      "number": "05",
+      "slug": "5-preservation-coran-hadiths",
+      "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_5.pdf"
     },
     {
       "theme": "تاريخ تدوين الحديث ومنهج الإسناد",
@@ -729,7 +756,11 @@ window.I18N_DATA['ar'] = {
         ],
         "finalText": "تدوين السنة موثق تاريخياً ومخطوطاته المبكرة تبطل دعاوى التشكيك.",
         "punchline": "البخاري لم يخترع الأحاديث بعد قرنين، بل بوّب ما تناقله الثقات بالأسانيد المكتوبة المتصلة !"
-      }
+      },
+      "id": 6,
+      "number": "06",
+      "slug": "6-compilation-tardive-hadiths",
+      "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_6.pdf"
     },
     {
       "theme": "حديث النهي عن الكتابة والجمع بين النصوص",
@@ -818,7 +849,11 @@ window.I18N_DATA['ar'] = {
         ],
         "finalText": "تدوين السنة أذن به النبي ﷺ ومارسه الصحابة برضاه.",
         "punchline": "كيف تحتج بحديث نبوي لإلغاء الأحاديث وتتجاهل أمر النبي الصريح : 'اكتبوا لأبي شاه' ؟!"
-      }
+      },
+      "id": 7,
+      "number": "07",
+      "slug": "7-interdiction-ecrire-paroles",
+      "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_7.pdf"
     },
     {
       "theme": "دلالة لفظ 'حديث' في القرآن والسياق اللغوي",
@@ -918,7 +953,11 @@ window.I18N_DATA['ar'] = {
         ],
         "finalText": "كلام النبي ﷺ وحي وهدى وليس من الأحاديث المذمومة في شيء.",
         "punchline": "القرآن سمى نفسه 'أحسن الحديث'، وذم كلام الكفار، فكيف تجعل كلام النبي المعصوم داخلاً في كلام الكفار ؟!"
-      }
+      },
+      "id": 8,
+      "number": "08",
+      "slug": "8-coran-condamne-hadiths",
+      "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_8.pdf"
     },
     {
       "theme": "العتاب القرآني للنبي وعصمة التبليغ",
@@ -1018,7 +1057,11 @@ window.I18N_DATA['ar'] = {
         ],
         "finalText": "عتاب القرآن للنبي برهان على عصمة التبليغ وصدق الرسالة.",
         "punchline": "عتاب الله لنبيه يثبت أنه لا ينطق إلا بالحق، فلو خالف الوحي لصححه القرآن فوراً !"
-      }
+      },
+      "id": 9,
+      "number": "09",
+      "slug": "9-corrections-divines",
+      "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_9.pdf"
     },
     {
       "theme": "التواتر العملي ونقل العبادات والحاجة إلى كتب الحديث",
@@ -1107,7 +1150,11 @@ window.I18N_DATA['ar'] = {
         ],
         "finalText": "التواتر العملي حجة، وكتب الحديث هي سنده الموثق وضمانة حفظه.",
         "punchline": "كيف تثق بنقل الصحابة للصلاة بأفعالهم وتكذبهم حين ينقلون أقوال النبي ﷺ بالأسانيد الصحيحة ؟!"
-      }
+      },
+      "id": 10,
+      "number": "10",
+      "slug": "10-priere-pratique-communautaire",
+      "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_10.pdf"
     }
   ],
   "preface": {
