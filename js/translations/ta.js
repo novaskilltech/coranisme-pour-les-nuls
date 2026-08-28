@@ -1,6 +1,6 @@
 /**
  * Pack de Langue : Tamoul (TA) - தமிழ்
- * Traduction Complète et Exhaustive (UI, Préface, Intro, 10 Arguments, Modales)
+ * Traduction Exhaustive et Intégrale (UI, Préface, Intro, 10 Arguments, Modales)
  */
 window.I18N_DATA = window.I18N_DATA || {};
 window.I18N_DATA['ta'] = {
@@ -135,7 +135,30 @@ window.I18N_DATA['ta'] = {
     "labelAuthor": "ஆசிரியர்:",
     "authorName": "ஸலாஹ் எத்தீன் அஹ்மத்",
     "btnSidebarHome": "பொருளடக்கம்",
-    "btnSidebarContact": "தொடர்பு"
+    "btnSidebarContact": "தொடர்பு",
+    "sidebarPreface": "Preface",
+    "sidebarIntro": "Who are the Quranists?",
+    "portalQuoteTransLabel": "Translation of the meaning:",
+    "portalQuoteText": "If you hear a man who, upon having an athar (transmitted tradition) cited to him, rejects it saying: \"Leave this and bring us the Quran\", do not doubt that he is a man steeped in heresy. Stand up and leave his gathering!",
+    "searchNoResults": "No results found for",
+    "contactAuthorHeader": "Author of the Manual",
+    "legalSharingHeader": "Sharing Conditions & Educational Distribution",
+    "legalAuthorizedUsesHeader": "Authorized Uses:",
+    "legalAuthorizedUsesList": [
+      "Downloading, printing, reading, and free sharing of the factsheets.",
+      "Use in study circles, courses, debates, and social networks.",
+      "Any commercial exploitation or distorting alteration is strictly prohibited without prior permission."
+    ],
+    "legalPrivacyHeader": "Technical Data & Privacy",
+    "legalPrivacyBullet1": "No third-party advertising cookies: Zero commercial tracking pixels.",
+    "legalPrivacyBullet2": "Fonts & resources: Secure loading of Google Fonts.",
+    "legalCreditsHeader": "Book Details:",
+    "legalCreditsBookTitle": "How to Expose and Refute the Quranist Sect",
+    "footerSubtitle": "10 major arguments examined and methodically refuted",
+    "footerBtnLegal": "⚖️ Sharing, License & Privacy",
+    "footerBtnContact": "✉️ Contact Author",
+    "footerBtnPortal": "📜 Words of Al-Barbahârî",
+    "footerContactLabel": "Contact:"
   },
   "arguments": [
     {

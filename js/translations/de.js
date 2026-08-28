@@ -1,6 +1,6 @@
 /**
  * Pack de Langue : Allemand (DE) - Deutsch
- * Traduction Complète et Exhaustive 100% Allemande (UI, Préface, Intro, 10 Arguments, Modales)
+ * Traduction Exhaustive et Intégrale (UI, Préface, Intro, 10 Arguments, Modales)
  */
 window.I18N_DATA = window.I18N_DATA || {};
 window.I18N_DATA['de'] = {
@@ -135,7 +135,30 @@ window.I18N_DATA['de'] = {
     "labelAuthor": "Autor:",
     "authorName": "Salah Eddine Ahmed",
     "btnSidebarHome": "Inhaltsverzeichnis",
-    "btnSidebarContact": "Kontakt"
+    "btnSidebarContact": "Kontakt",
+    "sidebarPreface": "Preface",
+    "sidebarIntro": "Who are the Quranists?",
+    "portalQuoteTransLabel": "Translation of the meaning:",
+    "portalQuoteText": "If you hear a man who, upon having an athar (transmitted tradition) cited to him, rejects it saying: \"Leave this and bring us the Quran\", do not doubt that he is a man steeped in heresy. Stand up and leave his gathering!",
+    "searchNoResults": "No results found for",
+    "contactAuthorHeader": "Author of the Manual",
+    "legalSharingHeader": "Sharing Conditions & Educational Distribution",
+    "legalAuthorizedUsesHeader": "Authorized Uses:",
+    "legalAuthorizedUsesList": [
+      "Downloading, printing, reading, and free sharing of the factsheets.",
+      "Use in study circles, courses, debates, and social networks.",
+      "Any commercial exploitation or distorting alteration is strictly prohibited without prior permission."
+    ],
+    "legalPrivacyHeader": "Technical Data & Privacy",
+    "legalPrivacyBullet1": "No third-party advertising cookies: Zero commercial tracking pixels.",
+    "legalPrivacyBullet2": "Fonts & resources: Secure loading of Google Fonts.",
+    "legalCreditsHeader": "Book Details:",
+    "legalCreditsBookTitle": "How to Expose and Refute the Quranist Sect",
+    "footerSubtitle": "10 major arguments examined and methodically refuted",
+    "footerBtnLegal": "⚖️ Sharing, License & Privacy",
+    "footerBtnContact": "✉️ Contact Author",
+    "footerBtnPortal": "📜 Words of Al-Barbahârî",
+    "footerContactLabel": "Contact:"
   },
   "arguments": [
     {
@@ -152,12 +175,12 @@ window.I18N_DATA['de'] = {
         "thesis": "Der Koran ist vollkommen, vollständig detailliert und lässt nichts aus. Alles, was wir brauchen, steht ausdrücklich im Buch. Zu behaupten, man brauche Hadithe, widerspricht der Vollkommenheit des Korans.",
         "verses": [
           {
-            "ref": "Al-An'am: 38",
+            "ref": "Sure Al-An'am, Vers 38",
             "ar": "مَّا فَرَّطْنَا فِي الْكِتَابِ مِن شَيْءٍ",
             "translation": "Wir haben im Buch nichts unberücksichtigt gelassen."
           },
           {
-            "ref": "An-Nahl: 89",
+            "ref": "Sure An-Nahl, Vers 89",
             "ar": "وَنَزَّلْنَا عَلَيْكَ الْكِتَابَ تِبْيَانًا لِّكُلِّ شَيْءٍ",
             "translation": "Und Wir haben dir das Buch herabgesandt als Klarstellung für alles."
           }
@@ -189,9 +212,14 @@ window.I18N_DATA['de'] = {
         "title": "Entscheidende Koranverse über den Auftrag der prophetischen Erläuterung (Bayan)",
         "verses": [
           {
-            "ref": "An-Nahl: 44",
+            "ref": "Sure An-Nahl, Vers 44",
             "ar": "وَأَنزَلْنَا إِلَيْكَ الذِّكْرَ لِتُبَيِّنَ لِلنَّاسِ مَا نُزِّلَ إِلَيْهِمْ",
             "translation": "Und Wir haben zu dir die Ermahnung herabgesandt, damit du den Menschen erklärst, was zu ihnen herabgesandt worden ist."
+          },
+          {
+            "ref": "Sure Al-Dschumu'a, Vers 2",
+            "ar": "يَتْلُو عَلَيْهِمْ آيَاتِهِ وَيُزَكِّيهِمْ وَيُعَلِّمُهُمُ الْكِتَابَ وَالْحِكْمَةَ",
+            "translation": "Er verliest ihnen Seine Verse, läutert sie und lehrt sie das Buch und die Weisheit (Sunna)."
           }
         ],
         "consequence": "Der Koran setzt den Propheten ﷺ als verbindlichen Lehrer und Ausleger ein, nicht als reinen passiven Briefträger."
@@ -230,989 +258,978 @@ window.I18N_DATA['de'] = {
         {
           "obj": "Der Koran sagt 'Klarstellung für alle Dinge', ist die Sunna also etwas außerhalb des Korans?",
           "ans": "Die Sunna ist die im Koran selbst angeordnete Erläuterung und kein fremder Zusatz. Die Auslegung ist wesentlicher Bestandteil der übermittelten Botschaft."
-        },
-        {
-          "obj": "Reicht es nicht, den Koran mit dem eigenen Verstand direkt zu verstehen?",
-          "ans": "Der Verstand ist ein Werkzeug zum Verstehen, keine Offenbarungsquelle. Ohne prophetische Erklärung führt individuelle Willkür zur Spaltung in unzählige widersprüchliche Sekten."
         }
       ],
       "framingQuestions": [
-        "Wo im Koran allein findet man die genaue Anzahl der Gebetseinheiten (Raka'at) für die fünf täglichen Pflichtgebete?"
+        "Wo findet man im Koran allein die Anzahl der Raka'at für das Mittagsgebet?",
+        "Warum befahl Allah dem Propheten zu 'erklären' (li-tubayyina), wenn der Text sich selbst ohne prophetische Praxis erschöpfen sollte?"
       ],
       "quiz": [
         {
-          "q": "Was bedeutet die Vollkommenheit des Korans in der islamischen Rechtslehre?",
+          "q": "Was bedeutet die Vollkommenheit des Korans im islamischen Rechtskontext?",
           "options": [
-            "Er listet jedes praktische Detail auf und macht den Propheten überflüssig.",
-            "Er legt den vollständigen Rahmen des Glaubens fest und gebietet die Befolgung der prophetischen Sunna.",
-            "Er ist lediglich ein poetischer Text ohne gesetzliche Bindung.",
-            "Er hebt alle früheren gottesdienstlichen Handlungen ersatzlos auf."
+            "Dass er jedes einzelne Detail ohne Erläuterung auflistet.",
+            "Dass er die Grundlagen festlegt und den Gehorsam gegenüber dem Propheten vorschreibt.",
+            "Dass er die Sunna ungültig macht.",
+            "Dass er ein reines Geschichtsbuch ist."
           ],
           "answer": 1,
-          "explanation": "Die Vollkommenheit des Korans liegt in der Begründung der göttlichen Gesetze und dem Gebot, der prophetischen Erläuterung zu folgen."
+          "explanation": "Die Vollkommenheit des Korans begründet die Verpflichtung, der Erklärung des Gesandten ﷺ zu folgen."
         }
       ],
       "conclusion": {
         "steps": [
-          "Der Koran ist die vollkommene göttliche Schrift, die das Fundament der Religion legt.",
-          "Der Koran befiehlt ausdrücklich den Gehorsam gegenüber der prophetischen Erklärung.",
-          "Es gibt keinerlei Widerspruch zwischen der Vollkommenheit des Korans und der Befolgung der Sunna."
+          "Der Koran ist ein vollständiges und vollkommenes Buch der Rechtleitung.",
+          "Der Koran selbst befiehlt den Gehorsam gegenüber dem Propheten ﷺ.",
+          "Folglich gibt es keinen Widerspruch zwischen der Vollkommenheit des Korans und der Sunna."
         ],
-        "finalText": "Die Vollkommenheit des Korans verwirklicht sich in der lebendigen Praxis der prophetischen Sunna.",
-        "punchline": "Im Namen der Vollkommenheit des Korans die Sunna abzulehnen, bedeutet den Koran abzulehnen, der die Sunna anordnet!"
+        "finalText": "Die Vollkommenheit des Korans manifestiert sich darin, dass er die Sunna als verbindliche Auslegung einsetzt.",
+        "punchline": "Wer behauptet, sich mit dem Koran zu begnügen, um die Sunna abzulehnen, lehnt den Koran selbst ab!"
       }
     },
     {
       "id": 2,
       "number": "02",
       "slug": "2-obeissance-messager",
-      "theme": "Dauerhafte Autorität des Gesandten ﷺ",
-      "title": "Der Gehorsam gegenüber dem Gesandten: Nur zu seinen Lebzeiten?",
-      "shortTitle": "Gehorsam gegenüber dem Gesandten",
-      "tagline": "Das koranische Gebot, dem Gesandten zu gehorchen, ist zeitlos und universell bis zum Tag des Gerichts.",
-      "formula": "Dem Propheten zu gehorchen ist eine dauerhafte Pflicht; seine Sunna ist die lebendige Verkörperung dieses Gehorsams!",
+      "theme": "Dauerhafte Gültigkeit des prophetischen Gehorsams",
+      "title": "Galt der Gehorsam gegenüber dem Propheten nur zu seinen Lebzeiten?",
+      "shortTitle": "Dauerhafte Autorität des Propheten",
+      "tagline": "Die koranischen Gebote zum Gehorsam gegenüber dem Gesandten sind absolut und für alle Generationen bindend.",
+      "formula": "Der Gehorsam gegenüber dem Gesandten ist eine zeitlose Pflicht; die authentische Sunna ist seine fortdauernde Verkörperung!",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_2.PDF",
       "theirArgument": {
-        "thesis": "Der Gehorsam gegenüber dem Gesandten galt nur zu seinen irdischen Lebzeiten als Führer der Gemeinschaft; nach seinem Tod bindet uns ausschließlich der geschriebene Koran.",
+        "thesis": "Der Gehorsam gegenüber dem Propheten war nur für die Gefährten zu seinen Lebzeiten als politischer Führer verpflichtend. Nach seinem Tod gilt für uns nur noch der geschriebene Koran.",
         "verses": [
           {
-            "ref": "An-Nisa: 59",
+            "ref": "Sure An-Nisa, Vers 59",
             "ar": "يَا أَيُّهَا الَّذِينَ آمَنُوا أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ",
             "translation": "O die ihr glaubt, gehorcht Allah und gehorcht dem Gesandten."
           }
         ],
-        "realQuestion": "Ist das koranische Gebot, dem Gesandten zu gehorchen, eine vorübergehende historische Anweisung oder eine ewige Säule des Glaubens?"
+        "realQuestion": "Ist das koranische Gebot zum Gehorsam gegenüber dem Gesandten zeitlich begrenzt oder ein ewiges Rechtsprinzip bis zum Tag des Gerichts?"
       },
       "logicalNode": {
-        "title": "Verwechslung zwischen sterblicher Person und dauerhafter gesetzgeberischer Autorität",
+        "title": "Verwechslung zwischen der sterblichen Person und dem bleibenden Rechtsstatus des Propheten",
         "distinctions": [
           {
-            "term": "IRDISCHE LEBENSZEIT",
-            "desc": "Die historische Epoche der ursprünglichen Offenbarung und Gemeindegründung."
+            "term": "IRDISCHE LEBENSZEIT DES PROPHETEN",
+            "desc": "Die historische Phase der Verkündigung und Gemeindegründung."
           },
           {
-            "term": "DAUERHAFTE GESETZGEBERISCHE AUTORITÄT",
-            "desc": "Verbindliche Urteile und göttliche Rechtleitung für alle Generationen bis zum Jüngsten Tag."
+            "term": "GESETZGEBERISCHE MISSION & SUNNA",
+            "desc": "Zeitlose Gebote und Normen, die für jeden Muslim bis zum Tag der Auferstehung bindend sind."
           }
         ],
-        "generalRule": "Allgemeine gesetzgeberische Gebote der Offenbarung erlöschen nicht mit dem Heimgang des übermittelnden Gesandten.",
-        "errorToAvoid": "Die prophetische Vollmacht auf ein historisches Zeitalter zu beschränken."
+        "generalRule": "Allgemeine koranische Rechtsgebote erlöschen nicht mit dem Tod der ersten Generation oder des beauftragten Gesetzgebers.",
+        "errorToAvoid": "Die prophetische Botschaft auf die physische Person zu reduzieren und seine überlieferte Sunna für spätere Epochen zu annullieren."
       },
       "centralPrinciple": {
-        "title": "Der Gehorsam gegenüber dem Gesandten ist untrennbar mit dem Gehorsam gegenüber Allah verknüpft",
-        "formalScheme": "1. Der Koran wendet sich an alle Gläubigen bis zum Jüngsten Tag: {Gehorcht Allah und gehorcht dem Gesandten}.\n2. Wäre der Gehorsam mit dem Tod des Propheten erloschen, wäre die Hälfte der Koranverse heute hinfällig.\n3. Daher wird der Gehorsam heute durch das Befolgen seiner authentischen Sunna erfüllt.",
-        "explanation": "Allah verknüpfte in über 30 Versen den Gehorsam gegenüber Seinem Gesandten mit dem Gehorsam gegenüber Sich Selbst ohne zeitliche Einschränkung.",
-        "logicalTest": "Wenn der Gehorsam mit dem Propheten ﷺ endete, warum rezitieren wir die Verse, die seinen Gehorsam gebieten, noch heute in unseren Gebeten?"
+        "title": "Der Gehorsam gegenüber dem Gesandten ist untrennbar mit dem Gehorsam gegenüber Allah verbunden",
+        "formalScheme": "1. Der Koran richtet sich an alle Muslime bis zum Tag des Gerichts mit {Gehorcht Allah und gehorcht dem Gesandten}.\n2. Gälte dies nur zu seinen Lebzeiten, wäre die Hälfte des Korans nach seinem Tod erloschen.\n3. Daher bleibt der Gehorsam bestehen und erfolgt durch das Befolgen seiner authentischen Sunna.",
+        "explanation": "Allah verknüpft in über 30 Versen Seinen Gehorsam mit dem des Gesandten in absoluter Form. Heute gehorcht man dem Propheten durch seine überlieferte Sunna.",
+        "logicalTest": "Wenn der Gehorsam mit seinem Tod endete, warum rezitieren wir diese Verse heute noch im Gebet als göttliches Gesetz?"
       },
       "quranicArchitecture": {
-        "title": "Entscheidende Verse über das Richten nach der Autorität des Propheten",
+        "title": "Entscheidende Verse über das Richteramt des Propheten ﷺ",
         "verses": [
           {
-            "ref": "An-Nisa: 65",
+            "ref": "Sure An-Nisa, Vers 65",
             "ar": "فَلَا وَرَبِّكَ لَا يُؤْمِنُونَ حَتَّىٰ يُحَكِّمُوكَ فِيمَا شَجَرَ بَيْنَهُمْ",
-            "translation": "Aber nein, bei deinem Herrn! Sie glauben nicht eher, bis sie dich zum Richter machen über das, was zwischen ihnen umstritten ist."
+            "translation": "Aber nein, bei deinem Herrn! Sie sind nicht eher gläubig, bis sie dich zum Richter machen über das, was zwischen ihnen umstritten ist."
+          },
+          {
+            "ref": "Sure An-Nur, Vers 63",
+            "ar": "فَلْيَحْذَرِ الَّذِينَ يُخَالِفُونَ عَنْ أَمْرِهِ أَن تُصِيبَهُمْ فِتْنَةٌ",
+            "translation": "So mögen diejenigen, die seinem Befehl zuwiderhandeln, sich hüten, dass sie nicht eine Prüfung oder schmerzhafte Strafe trifft."
           }
         ],
-        "consequence": "Wahrer Glaube erfordert die bedingungslose Unterwerfung unter die Urteile und die Sunna des Propheten ﷺ."
+        "consequence": "Wahrer Glaube erfordert das Akzeptieren der richterlichen Urteile und der Sunna des Propheten ﷺ."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "Das rechtliche Vermächtnis und Testament",
-          "scenario": "Ein Staatsgründer hinterlässt eine Urkunde, die künftige Generationen verpflichtet, den authentifizierten Urteilen seines Stellvertreters zu folgen.",
-          "logic": "Das Ableben des Gründers setzt die hinterlassenen rechtskräftigen Kodizes keineswegs außer Kraft.",
-          "lesson": "Authentifizierte gesetzliche Überlieferung überdauert die biologische Lebensspanne des Verfassers.",
-          "application": "Die Sunna ist das bewahrte Lehrgut des Propheten ﷺ, überliefert durch lückenlose und geprüfte Ketten."
-        },
-        {
-          "num": 2,
-          "title": "Der Botschafter eines Königs im fernen Land",
-          "scenario": "Ein König entsendet einen Bevollmächtigten. Auch nach dessen Abreise bleiben die von ihm im Namen des Königs geschlossenen Verträge bindend.",
-          "logic": "Die Gültigkeit von Vereinbarungen beruht auf der erteilten Vollmacht, nicht auf der physischen Anwesenheit.",
-          "lesson": "Verbindliche Erlasse gelten über die unmittelbare Begegnung hinaus.",
-          "application": "Die Lehren des Propheten ﷺ bleiben für alle Muslime zu allen Zeiten verbindlich."
-        },
-        {
-          "num": 3,
-          "title": "Wissenschaftliche Lehrbücher von Pionieren",
-          "scenario": "Ein bahnbrechender Wissenschaftler stirbt, aber seine mathematischen Gesetze und Erläuterungen bleiben Standard an Universitäten.",
-          "logic": "Wahrheit und bewiesene Methoden verlieren mit dem Tod des Forschers nicht ihre Gültigkeit.",
-          "lesson": "Echtes Wissen bleibt als Richtschnur für Folgegenerationen bestehen.",
-          "application": "Die authentische Sunna ist das methodische Fundament des islamischen Glaubens."
+          "title": "Das rechtliche Testament des Verfassungsgebers",
+          "scenario": "Ein Verfassungsgeber verfasst Gesetze und ordnet an, den Richtlinien seines designierten Amtes dauerhaft zu folgen.",
+          "logic": "Der Tod des Gründers setzt die dokumentierten Vorschriften nicht außer Kraft.",
+          "lesson": "Rechtsnormen bleiben durch verlässliche Überlieferung gültig.",
+          "application": "Die Sunna des Propheten ist die verlässlich überlieferte Auslegung für alle Zeitalter."
         }
       ],
       "readyResponses": {
-        "quick30s": "Der Koran verkündet: {Wer dem Gesandten gehorcht, der gehorcht Allah} (4:80). Wäre der Gehorsam mit seinem Tod erloschen, wäre der halbe Koran heute ungültig! Ihm heute zu gehorchen bedeutet, seiner authentischen Sunna zu folgen.",
-        "developed": "Der Koran enthält zeitlose Gesetze für die gesamte Menschheit. Den Gehorsam auf das 7. Jahrhundert zu beschränken, beraubt den Islam seiner Universalität. Muslime aller Epochen erfüllen diesen göttlichen Befehl durch die authentische prophetische Überlieferung."
+        "quick30s": "Der Koran verkündet: {Wer dem Gesandten gehorcht, der gehorcht Allah} (4:80). Wäre der Gehorsam mit seinem Tod erloschen, wäre der halbe Koran heute bedeutungslos! Der Gehorsam heute erfolgt durch das Befolgen seiner authentischen Sunna.",
+        "developed": "Allah hat den Gehorsam gegenüber dem Gesandten bedingungslos formuliert. Kein muslimischer Gelehrter hat je behauptet, diese Gebote seien historisch verfallen. Die Sunna ist die fortdauernde praktische Umsetzung dieses Gehorsams."
       },
       "objections": [
         {
-          "obj": "Die Gefährten konnten den Propheten direkt fragen, wir aber können das nicht!",
-          "ans": "Gefährten in fernen Provinzen wie dem Jemen handelten nach dem, was vertrauenswürdige Boten überbrachten – genau wie wir vertrauenswürdigen Überlieferungsketten folgen."
-        },
-        {
-          "obj": "Bedeutet Gehorsam gegenüber dem Gesandten nicht einfach, dem Koran zu folgen, den er brachte?",
-          "ans": "Nein, denn der Koran sagt ausdrücklich: {Gehorcht Allah UND gehorcht dem Gesandten}. Die sprachliche Wiederholung beweist eine eigenständige Autorität der prophetischen Weisung."
+          "obj": "Die Gefährten konnten den Propheten direkt fragen, wir aber nicht!",
+          "ans": "Muslime in fernen Provinzen (wie Jemen) fragten den Propheten auch nicht persönlich, sondern folgten den zuverlässigen Übermittlern. Wir folgen denselben verlässlichen Überlieferungsketten."
         }
       ],
       "framingQuestions": [
-        "Wenn der Gehorsam gegenüber dem Propheten endete, endete dann auch seine universelle Botschaft an die Menschheit?"
+        "Endete mit dem Tod des Propheten auch seine Gesandtschaft an die gesamte Menschheit?",
+        "Wie setzt man {Was der Gesandte euch gibt, das nehmt} (59:7) ohne seine Sunna um?"
       ],
       "quiz": [
         {
-          "q": "Wie wird der Gehorsam gegenüber dem Propheten ﷺ nach seinem Heimgang verwirklicht?",
+          "q": "Wie verwirklicht sich der Gehorsam gegenüber dem Propheten nach seinem Ableben?",
           "options": [
-            "Indem man alle historischen Überlieferungen verwirft.",
-            "Indem man seiner authentischen Sunna und geprüften Lehre folgt.",
-            "Indem jeder den Koran nach persönlicher Laune neu auslegt.",
-            "Indem man den Islam auf ein rein privates Gefühl reduziert."
+            "Indem man die Verse als historisch abgelaufen betrachtet.",
+            "Indem man seiner authentisch überlieferten Sunna folgt.",
+            "Indem man den Koran nach subjektiven Vorlieben auslegt.",
+            "Indem man alle historischen Berichte ablehnt."
           ],
           "answer": 1,
-          "explanation": "Der Gehorsam gegenüber dem Propheten ﷺ nach seinem Tod wird durch das Festhalten an seiner authentischen Sunna verwirklicht."
+          "explanation": "Der Gehorsam nach dem Tod des Propheten erfolgt durch das Befolgen seiner authentischen Sunna."
         }
       ],
       "conclusion": {
         "steps": [
-          "Der Koran ist eine zeitlose Botschaft für die gesamte Menschheit.",
-          "Das Gebot, dem Gesandten zu gehorchen, ist absolut und zeitlich unbegrenzt.",
-          "Der Gehorsam gegenüber dem Gesandten wird heute durch seine bewahrte Sunna gelebt."
+          "Der Koran ist eine zeitlose Botschaft für alle Epochen.",
+          "Das Gebot des Gehorsams ist uneingeschränkt und zeitlos.",
+          "Der Gehorsam heute bedeutet das Befolgen der bewahrten Sunna."
         ],
-        "finalText": "Die Autorität des Propheten ﷺ währt so lange, wie der Koran währt.",
-        "punchline": "Der Koran hat nie gesagt 'Gehorcht dem Gesandten nur zu seinen Lebzeiten' – er machte seinen Gehorsam zum ewigen Glaubensbund!"
+        "finalText": "Die Autorität des Propheten bleibt bestehen, solange der Koran besteht.",
+        "punchline": "Der Koran sagte nie 'Gehorcht dem Propheten nur zu seinen Lebzeiten', sondern machte diesen Gehorsam zum ewigen Glaubenspfeiler!"
       }
     },
     {
       "id": 3,
       "number": "03",
       "slug": "3-allah-seul-legifere",
-      "theme": "Législation & Souveraineté Divine",
-      "title": "Allah seul légifère / le jugement n’appartient qu’à Allah.",
-      "shortTitle": "Allah seul légifère / Le jugement à Allah",
-      "tagline": "Souveraineté divine absolue et délégation de compétences normatives",
-      "formula": "SOUVERAINETÉ LÉGISLATIVE EXCLUSIVE ≠ EXCLUSION D'UNE AUTORITÉ NORMATIVE DÉLÉGUÉE",
+      "theme": "Göttliche Souveränität und delegierte prophetische Gesetzgebung",
+      "title": "„Das Urteil gebührt allein Allah“: Führt prophetische Gesetzgebung zu Shirk?",
+      "shortTitle": "Göttliche Souveränität & Hukm",
+      "tagline": "Die Ausübung der von Allah verliehenen richterlichen Vollmacht steht niemals im Widerspruch zu Seiner alleinigen Souveränität.",
+      "formula": "Delegierte prophetische Gesetzgebung ist die Ausführung des göttlichen Willens; sie mit Shirk gleichzusetzen ist ein schwerer Trugschluss!",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_3.PDF",
       "theirArgument": {
-        "thesis": "Les coranistes invoquent les versets proclamant que « le jugement n'appartient qu'à Allah » (Sourate Yûsuf, verset 40 ; Sourate Al-Anʿâm, verset 57) pour affirmer qu'aucune parole humaine ne peut rendre une chose obligatoire, interdite ou licite, sous peine d'attribuer au Prophète une part de la souveraineté divine.",
+        "thesis": "Der Koran erklärt: 'Das Urteil gebührt allein Allah' (In al-hukmu illa lillah). Dem Propheten legislative Vollmacht zuzuschreiben, bedeute, ihm göttliche Eigenschaften beizugesellen (Shirk).",
         "verses": [
           {
-            "ref": "Sourate Yûsuf, verset 40",
-            "ar": "إِنِ الْحُكْمُ إِلَّا لِلَّهِ",
-            "translation": "« Le jugement n'appartient qu'à Allah. »"
+            "ref": "Sure Yusuf, Vers 40",
+            "ar": "إِنِ الْحُكْمُ إِلَّا لِلَّهِ",
+            "translation": "Das Urteil gebührt allein Allah."
           },
           {
-            "ref": "Sourate Al-Anʿâm, verset 57",
-            "ar": "إِنِ الْحُكْمُ إِلَّا لِلَّهِ ۖ يَقُصُّ الْحَقَّ ۖ وَهُوَ خَيْرُ الْفَاصِلِينَ",
-            "translation": "« Le jugement n'appartient qu'à Allah : Il tranche en toute vérité et Il est le meilleur des juges. »"
-          },
-          {
-            "ref": "Sourate Al-Kahf, verset 26",
+            "ref": "Sure Al-Kahf, Vers 26",
             "ar": "وَلَا يُشْرِكُ فِي حُكْمِهِ أَحَدًا",
-            "translation": "« Et Il n'associe personne à Son jugement. »"
+            "translation": "Und Er lässt an Seiner Herrschaft niemanden teilhaben."
           }
         ],
-        "realQuestion": "Le fait qu'Allah soit l'unique Souverain L'empêche-t-il d'investir Son Messager ﷺ d'un pouvoir d'interdiction, de permission et de jugement délégué ?"
+        "realQuestion": "Bedeutet die ausschließliche Souveränität Allahs, dass Er Seinem Gesandten kein verbindliches Richter- und Weisungsrecht verleihen kann?"
       },
       "logicalNode": {
-        "title": "Souveraineté suprême vs Compétence déléguée",
+        "title": "Verwechslung zwischen ursprünglicher Souveränität und delegierter Vollmacht",
         "distinctions": [
           {
-            "term": "SOUVERAINETÉ ABSOLUE",
-            "desc": "Appartient exclusivement à Allah عز وجل par essence et sans dépendance."
+            "term": "URSPRÜNGLICHE ABSOLUTE SOUVERÄNITÄT",
+            "desc": "Allah allein ist der Schöpfer des Gesetzes und die oberste Quelle aller Normen."
           },
           {
-            "term": "COMPÉTENCE NORMATIVE DÉLÉGUÉE",
-            "desc": "Attribuée par Allah à Son Prophète ﷺ pour guider et légiférer sous Son contrôle."
+            "term": "DELEGIERTE RECHTLICHE VOLLMACHT",
+            "desc": "Der Prophet ﷺ erlässt verbindliche Gebote im Auftrag und durch Offenbarungsleitung Allahs."
           }
         ],
-        "generalRule": "Une compétence déléguée ne s'oppose pas à la souveraineté absolue : elle en constitue l'application voulue par le Souverain.",
-        "errorToAvoid": "Conclure à tort que la souveraineté divine interdirait à Dieu de donner une autorité de commandement à Ses créatures."
+        "generalRule": "Wenn der Souverän einen Botschafter bevollmächtigt, steht dessen Anweisung im Einklang mit der Autorität des Souveräns.",
+        "errorToAvoid": "Die Kharijiten-Logik zu wiederholen: Ein wahres Wort zu nehmen, um eine falsche Schlussfolgerung zu ziehen."
       },
       "centralPrinciple": {
-        "title": "Le Coran attribue au Messager le pouvoir de rendre licite et d'interdire",
-        "formalScheme": "Sourate Al-Aʿrâf, verset 157 : « Il leur rend licites les bonnes choses et leur interdit les mauvaises » (يُحِلُّ لَهُمُ الطَّيِّبَاتِ وَيُحَرِّمُ عَلَيْهِمُ الْخَبَائِثَ).\nLes verbes actifs sont attribués au Messager sous mandat divin.",
-        "explanation": "Le Coran répond sans équivoque : le Prophète ﷺ exerce une autorité sur le licite et l'illicite parce qu'Allah la lui a conférée. De surcroît, le Coran ordonne d'obéir aux détenteurs de l'autorité (Sourate An-Nisâʾ, verset 59), ce qui prouve que l'existence d'autorités humaines subordonnées ne contredit pas la souveraineté divine.",
-        "logicalTest": "Si aucune créature ne pouvait exercer d'autorité contraignante sous mandat divin, aucun tribunal, aucun juge et aucun arbitrage humain ne seraient légitimes."
+        "title": "Der Koran selbst überträgt dem Propheten richterliche und gesetzgeberische Befugnisse",
+        "formalScheme": "1. Allah besitzt die absolute Gesetzgebung.\n2. Allah befiehlt im Koran ausdrücklich, die Urteile Seines Propheten verbindlich anzunehmen (Sure 7:157).\n3. Die prophetische Anordnung ist daher praktizierter Gehorsam gegenüber Allahs Souveränität.",
+        "explanation": "Allah beschreibt Seinen Gesandten ausdrücklich als denjenigen, der {ihnen die guten Dinge erlaubt und die schlechten Dinge verbietet} (7:157). Dies ist delegierte göttliche Autorität.",
+        "logicalTest": "Wenn niemand außer Allah richten darf, warum befiehlt der Koran in Sure 4:35, zwei menschliche Schiedsrichter bei Ehestreitigkeiten einzusetzen?"
       },
       "quranicArchitecture": {
-        "title": "Les niveaux d'autorité institués dans le Coran",
+        "title": "Verse über die prophetische Befugnis zu erlauben und zu verbieten",
         "verses": [
           {
-            "ref": "Sourate Al-Aʿrâf, verset 157",
-            "ar": "وَيُحِلُّ لَهُمُ الطَّيِّبَاتِ وَيُحَرِّمُ عَلَيْهِمُ الْخَبَائِثَ",
-            "translation": "« Il leur rend licites les bonnes choses et leur interdit les mauvaises. »"
+            "ref": "Sure Al-A'raf, Vers 157",
+            "ar": "وَيُحِلُّ لَهُمُ الطَّيِّبَاتِ وَيُحَرِّمُ عَلَيْهِمُ الْخَبَائِثَ",
+            "translation": "Der ihnen die guten Dinge erlaubt und die schlechten Dinge verbietet."
           },
           {
-            "ref": "Sourate An-Nisâʾ, verset 59",
-            "ar": "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ وَأُولِي الْأَمْرِ مِنكُمْ",
-            "translation": "« Obéissez à Allah, obéissez au Messager et à ceux d'entre vous qui détiennent l'autorité. »"
+            "ref": "Sure Al-Ahzab, Vers 36",
+            "ar": "وَمَا كَانَ لِمُؤْمِنٍ وَلَا مُؤْمِنَةٍ إِذَا قَضَى اللَّهُ وَرَسُولُهُ أَمْرًا أَن يَكُونَ لَهُمُ الْخِيَرَةُ",
+            "translation": "Und es geziemt weder einem gläubigen Mann noch einer gläubigen Frau, wenn Allah und Sein Gesandter eine Angelegenheit entschieden haben, die freie Wahl zu haben."
           }
         ],
-        "consequence": "Allah عز وجل institue l'ordre hiérarchique : Allah → Messager → Détenteurs de l'autorité. Cette autorité déléguée ne fait de personne un associé à Dieu."
+        "consequence": "Koranische Urteile stammen von Allah und Seinem Gesandten gemeinsam als Einheit göttlicher Weisung."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "La loi suprême et le magistrat au tribunal",
-          "scenario": "La loi sanctionne le crime, mais confie au juge le devoir d'instruire, de qualifier et de rendre une sentence obligatoire.",
-          "logic": "Le jugement du magistrat n'est pas une loi concurrente : c'est l'exercice d'un mandat confié par la loi.",
-          "lesson": "Sans autorité déléguée, aucune justice pratique n'est possible.",
-          "application": "L'arbitrage du Prophète ﷺ est l'application concrète mandatée par Allah."
-        },
-        {
-          "num": 2,
-          "title": "L'autorité du code et de l'agent sur la route",
-          "scenario": "Un agent de police somme un automobiliste de s'arrêter. Le conducteur réplique : « Je ne reconnais que le texte du Code de la route, pas les agents. »",
-          "logic": "C'est précisément le Code de la route qui accorde à l'agent son autorité opérationnelle.",
-          "lesson": "L'autorité de l'agent procède du texte même.",
-          "application": "L'autorité du Messager ﷺ procède de la révélation divine."
+          "title": "Der Richter und das Gesetzbuch",
+          "scenario": "Ein Staat bestimmt: Alle Rechtsmacht geht vom Volk/Staat aus. Gleichzeitig ernennt er Richter mit Urteilsvollmacht.",
+          "logic": "Das Urteil des Richters widerspricht nicht der Verfassung, sondern wendet sie an.",
+          "lesson": "Delegierte Urteilsgewalt ist die Umsetzung der obersten Souveränität.",
+          "application": "Die Urteile des Propheten sind die göttlich autorisierte Anwendung des Gesetzes."
         }
       ],
       "readyResponses": {
-        "quick30s": "Le fait qu'Allah عز وجل soit l'unique Législateur souverain ne signifie pas qu'Il ne peut pas déléguer une compétence normative. Le Coran déclare expressément dans la Sourate Al-Aʿrâf, verset 157 que le Prophète ﷺ « leur rend licites les bonnes choses et leur interdit les mauvaises », et ordonne dans la Sourate An-Nisâʾ, verset 59 d'obéir au Messager et aux détenteurs de l'autorité. Une autorité déléguée ne concurrence pas la souveraineté divine : elle en est l'exercice voulu par Allah.",
-        "developed": "L'argument coraniste repose sur une confusion entre souveraineté absolue et compétence déléguée. Dans tout ordre juridique, la loi fondamentale est suprême mais mandate des magistrats pour prononcer des décisions obligatoires. De même, le Prophète ﷺ n'est pas un souverain indépendant : son autorité normative découle d'Allah et s'exerce sous Sa surveillance constante."
+        "quick30s": "Zu sagen 'Das Urteil gebührt allein Allah', um den Propheten zu entmachten, ist die uralte Irrlehre der Kharijiten! Derselbe Koran, der sagt 'Das Urteil gebührt Allah', sagt auch: {Er erlaubt ihnen das Gute und verbietet ihnen das Schlechte} (7:157). Seine Vollmacht ist von Allah verliehen!",
+        "developed": "Göttliche Souveränität schließt die Ermächtigung des Gesandten nicht aus, sondern begründet sie. Der Koran stellt fest, dass {wenn Allah und Sein Gesandter entschieden haben} keine Wahl mehr bleibt (33:36). Wer diese Vollmacht bestreitet, widerspricht dem Urteil Allahs."
       },
       "objections": [
         {
-          "obj": "« Le Prophète ﷺ ne faisait que répéter les interdictions déjà écrites dans le Coran. »",
-          "ans": "La Sourate Al-Aʿrâf, verset 157 lui attribue personnellement les verbes « rendre licite » et « interdire ». Le Coran lui reconnaît une compétence normative active."
+          "obj": "Macht man den Propheten nicht zu einem zweiten Gesetzgeber neben Allah?",
+          "ans": "Nein, der Prophet urteilt nicht aus eigenem Antrieb, sondern auf Grundlage der göttlichen Offenbarung (Wahy). Er ist bevollmächtigter Gesandter, kein unabhängiger Rivale."
         }
       ],
       "framingQuestions": [
-        "La souveraineté d'Allah L'empêche-t-elle de déléguer une autorité normative à Son Prophète ﷺ ?",
-        "Pourquoi la Sourate Al-Aʿrâf, verset 157 dit-elle qu'il « leur rend licites les bonnes choses et leur interdit les mauvaises » ?",
-        "Si toute autorité humaine est interdite, comment justifiez-vous l'obéissance aux gouvernants dans la Sourate An-Nisâʾ, verset 59 ?"
+        "Warum sagt der Koran {wenn Allah UND Sein Gesandter entschieden haben} (33:36), wenn der Gesandte keine Urteilskraft besäße?",
+        "Wer verbietet den Verzehr von Raubtieren mit Fangzähnen oder das gleichzeitige Heiraten einer Frau und ihrer Tante, wenn nicht der Prophet ﷺ durch seine Sunna?"
+      ],
+      "quiz": [
+        {
+          "q": "Welcher historische Vers beschreibt die prophetische Vollmacht zu erlauben und zu verbieten?",
+          "options": [
+            "Sure Al-A'raf, Vers 157",
+            "Sure Al-Baqara, Vers 1",
+            "Sure Al-Ikhlas, Vers 1",
+            "Sure Al-Fatiha, Vers 4"
+          ],
+          "answer": 0,
+          "explanation": "Sure 7:157 bestätigt ausdrücklich, dass der Prophet ihnen die reinen Dinge erlaubt und die unlauteren verbietet."
+        }
       ],
       "conclusion": {
         "steps": [
-          "Souveraineté exclusive et autorité déléguée sont deux concepts complémentaires.",
-          "Le Coran attribue au Messager ﷺ des compétences normatives explicites.",
-          "Rejeter cette autorité déléguée vide le texte coranique de ses prescriptions concrètes."
+          "Allah ist die einzige oberste Quelle der Gesetzgebung.",
+          "Allah hat Seinem Gesandten die Vollmacht verliehen, bindende Urteile zu fällen.",
+          "Dem Propheten zu folgen bedeutet, sich der Souveränität Allahs zu unterwerfen."
         ],
-        "finalText": "Le Prophète ﷺ n'est pas une seconde source concurrente : il est l'autorité normative instituée par Allah.",
-        "punchline": "L'autorité déléguée ne diminue pas la souveraineté divine : elle en est la manifestation."
+        "finalText": "Die Autorität des Propheten ist kein Shirk, sondern der höchste Gehorsam gegenüber Allah.",
+        "punchline": "Ali ibn Abi Talib sagte über diesen Slogan: 'Ein wahres Wort, mit dem Falsches bezweckt wird!'"
       }
     },
     {
       "id": 4,
       "number": "04",
       "slug": "4-mission-messager-transmettre",
-      "theme": "Vocabulaire Coranique & Fonctions Prophétiques",
-      "title": "Le Messager n’a pour mission que de transmettre le Coran.",
-      "shortTitle": "Transmission = Récitation ?",
-      "tagline": "Explication, enseignement, jugement, exemplarité : l'étendue réelle de la mission prophétique",
-      "formula": "TRANSMISSION CLAIRE (BALĀGH) ≠ RÉCITATION MÉCANIQUE D'UN TEXTE BRUT",
+      "theme": "Der Umfang der Botschaft: Balagh und Bayan",
+      "title": "„Dem Gesandten obliegt nur die Verkündigung“: War er nur ein Bote?",
+      "shortTitle": "Auftrag der Verkündigung (Balagh)",
+      "tagline": "Die koranische 'Verkündigung' (Balagh) umfasst Lehre, Vorbild, Urteil und praktische Erklärung.",
+      "formula": "Die vollständige Verkündigung erfordert die Auslegung (Bayan) und das praktische Vorbild (Uswah); der Prophet war niemals ein stummer Postbote!",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_4.pdf",
       "theirArgument": {
-        "thesis": "Les coranistes invoquent les versets affirmant : « Il n'incombe au Messager que la transmission claire » (Sourate Al-Māʾidah, verset 99 ; Sourate An-Nûr, verset 54 ; Sourate An-Naḥl, verset 35) pour soutenir que son rôle se limiterait exclusivement à la récitation matérielle du Coran, sans autorité explicative ni normative.",
+        "thesis": "Der Koran sagt wiederholt: 'Dem Gesandten obliegt nur die deutliche Verkündigung' (Ma 'ala ar-rasuli illa al-balagh). Seine Rolle beschränkte sich also darauf, den Korantext abzuliefern, ohne eigene Lehren hinzuzufügen.",
         "verses": [
           {
-            "ref": "Sourate Al-Māʾidah, verset 99",
-            "ar": "مَّا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ",
-            "translation": "« Il n'incombe au Messager que la transmission. »"
+            "ref": "Sure Al-Ma'ida, Vers 99",
+            "ar": "مَّا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ",
+            "translation": "Dem Gesandten obliegt nur die Verkündigung."
           },
           {
-            "ref": "Sourate An-Nûr, verset 54",
-            "ar": "وَإِن تُطِيعُوهُ تَهْتَدُوا ۚ وَمَا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ الْمُبِينُ",
-            "translation": "« Et si vous lui obéissez, vous serez bien guidés. Et il n'incombe au Messager que la transmission claire. »"
+            "ref": "Sure An-Nur, Vers 54",
+            "ar": "وَإِن تُطِيعُوهُ تَهْتَدُوا وَمَا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ الْمُبِينُ",
+            "translation": "Und wenn ihr ihm gehorcht, seid ihr rechtgeleitet. Und dem Gesandten obliegt nur die deutliche Verkündigung."
           }
         ],
-        "realQuestion": "La formule du balâgh exprime-t-elle une interdiction d'expliquer et d'enseigner, ou souligne-t-elle la non-responsabilité du Prophète face au refus des incrédules de croire ?"
+        "realQuestion": "Bedeutet der Begriff 'Balagh' im Koran die bloße Weitergabe von Schriftzeichen oder die vollkommene pädagogische und praktische Vermittlung der Botschaft?"
       },
       "logicalNode": {
-        "title": "Fonction générale vs Fonctions complémentaires",
+        "title": "Verengung eines umfassenden religiösen Konzepts auf mechanische Übermittlung",
         "distinctions": [
           {
-            "term": "MISSION PRINCIPALE",
-            "desc": "La transmission fidèle et claire (al-balâgh) du message divin à l'humanité."
+            "term": "MECHANISCHE BOTENROLLE",
+            "desc": "Ein Bote, der einen Brief ungeöffnet überbringt, ohne seinen Sinn zu kennen oder zu lehren."
           },
           {
-            "term": "FONCTIONS OPÉRATIONNELLES",
-            "desc": "Réciter (Tilâwah), Exposer clairement (Bayân), Enseigner la Sagesse (Ta'lîm), Juger (Hukm), Être un modèle (Uswah)."
+            "term": "PROPHETISCHE GESANDTSCHAFT (BALAGH MUBIN)",
+            "desc": "Verkündigung, Erklärung (Bayan), praktische Demonstration, Richteramt und geistliche Erziehung (Tazkiyah)."
           }
         ],
-        "generalRule": "Dire « la mission de l'ambassadeur est de représenter son pays » ne signifie pas qu'il ne doit ni parler, ni négocier, ni expliquer les positions de son gouvernement.",
-        "errorToAvoid": "Transformer un rappel de non-responsabilité envers les mécréants en une interdiction d'enseigner adressée aux croyants."
+        "generalRule": "Ein Begriff im Koran muss im Licht aller Verse verstanden werden, die die Pflichten des Gesandten definieren.",
+        "errorToAvoid": "Den Gesandten Allahs auf das Niveau eines Telegrammboten zu reduzieren."
       },
       "centralPrinciple": {
-        "title": "Les six notions coraniques caractérisant la mission prophétique",
-        "formalScheme": "1. البلاغ (al-balâgh) : Transmission du message\n2. تلاوة (tilâwah) : Récitation des versets\n3. بيان (bayân) : Explication claire (Sourate An-Naḥl, verset 44)\n4. تعليم (ta'lîm) : Enseignement du Livre et de la Sagesse (Sourate Al-Baqarah, versets 129 et 151)\n5. حكم (hukm) : Jugement des litiges (Sourate An-Nisâʾ, verset 65)\n6. أسوة (uswah) : Modèle pratique exemplaire (Sourate Al-Aḥzâb, verset 21)",
-        "explanation": "Le Coran distingue explicitement la récitation textuelle (يَتْلُو) de l'enseignement explicatif (يُعَلِّمُ). Si la transmission se limitait à une récitation brute, cette distinction lexicale répétée n'aurait aucun sens.",
-        "logicalTest": "Un livre qui ordonne d'écouter les explications de l'enseignant n'est pas respecté si l'on refuse l'enseignant au nom de ce livre."
+        "title": "Der Koran definiert die Gesandtschaft als Lehre, Vorbild und Weisheit",
+        "formalScheme": "1. Der Koran definiert die Aufgaben des Propheten: Verlesen, Läutern, das Buch lehren und die Weisheit lehren (Sure 62:2).\n2. Er setzt ihn als das vollkommene Vorbild ein (Sure 33:21).\n3. Daher ist seine praktische Sunna der unverzichtbare Kern der Verkündigung.",
+        "explanation": "Die Formulierung 'ihm obliegt nur die Verkündigung' dient im Kontext dazu, klarzustellen, dass der Prophet Menschen nicht zum Glauben zwingen kann; sie schmälert nicht seine Lehrautorität.",
+        "logicalTest": "Wenn der Prophet nur Textübermittler wäre, warum befahl Allah ihm in Sure 16:44 ausdrücklich: {damit du den Menschen erklärst}?"
       },
       "quranicArchitecture": {
-        "title": "L'explication et l'enseignement dans le Coran",
+        "title": "Verse über die vielfältigen Aufgaben des Propheten ﷺ",
         "verses": [
           {
-            "ref": "Sourate An-Naḥl, verset 44",
-            "ar": "وَأَنزَلْنَا إِلَيْكَ الذِّكْرَ لِتُبَيِّنَ لِلنَّاسِ مَا نُزِّلَ إِلَيْهِمْ",
-            "translation": "« Et vers toi, Nous avons fait descendre le Rappel, afin que tu exposes clairement aux gens ce qui a été révélé pour eux. »"
+            "ref": "Sure Al-Ahzab, Vers 21",
+            "ar": "لَّقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ",
+            "translation": "Ihr habt ja im Gesandten Allahs ein schönes Vorbild."
           },
           {
-            "ref": "Sourate Al-Baqarah, verset 151",
-            "ar": "يَتْلُو عَلَيْكُمْ آيَاتِنَا وَيُزَكِّيكُمْ وَيُعَلِّمُكُمُ الْكِتَابَ وَالْحِكْمَةَ",
-            "translation": "« Il vous récite Nos versets, vous purifie, et vous enseigne le Livre et la Sagesse. »"
-          },
-          {
-            "ref": "Sourate Al-Aḥzâb, verset 21",
-            "ar": "لَّقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ",
-            "translation": "« Vous avez certes dans le Messager d'Allah un excellent modèle. »"
+            "ref": "Sure Al-Baqara, Vers 151",
+            "ar": "كَمَا أَرْسَلْنَا فِيكُمْ رَسُولًا مِّنكُمْ يَتْلُو عَلَيْكُمْ آيَاتِنَا وَيُزَكِّيكُمْ وَيُعَلِّمُكُمُ الْكِتَابَ وَالْحِكْمَةَ",
+            "translation": "So wie Wir unter euch einen Gesandten von euch gesandt haben, der euch Unsere Verse verliest, euch läutert und euch das Buch und die Weisheit lehrt."
           }
         ],
-        "consequence": "La chaîne logique révélée est : Révélation → Transmission → Explication (Bayân) → Enseignement (Ta'lîm) → Incarnation exemplaire (Uswah)."
+        "consequence": "Die 'Weisheit' (Hikmah), die neben dem Buch gelehrt wird, ist nach dem Konsens der Gelehrten die Sunna."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "L'enseignant et le manuel scolaire",
-          "scenario": "La mission de l'enseignant est de transmettre le programme officiel. Cela n'implique pas qu'il doive uniquement faire la lecture du manuel à voix haute.",
-          "logic": "Il commente, résout les difficultés, donne des exemples et corrige les copies.",
-          "lesson": "Transmettre un savoir exige son explicitation.",
-          "application": "La mission prophétique comprend la transmission du Coran et son enseignement concret."
-        },
-        {
-          "num": 2,
-          "title": "Le guide de haute montagne",
-          "scenario": "Le guide reçoit pour mission de mener les randonneurs au sommet. Il ne se borne pas à leur tendre une carte papier.",
-          "logic": "Il marche devant, montre les passages sûrs et évite les crevasses.",
-          "lesson": "Le modèle en mouvement complète la carte écrite.",
-          "application": "Le Prophète ﷺ est le modèle pratique (uswah hasanah) qui montre comment vivre le Coran."
+          "title": "Der Universitätsprofessor und das Lehrbuch",
+          "scenario": "Ein Ministerium beauftragt einen Professor mit der Vermittlung eines Curriculums und stellt Lehrbücher bereit.",
+          "logic": "Niemand würde sagen: Der Professor darf nur das Buch stumm austeilen und keine Vorlesung halten!",
+          "lesson": "Die Vermittlung erfordert die mündliche Erklärung und praktische Anleitung.",
+          "application": "Der Prophet ﷺ lehrte den Koran durch seine Worte, Taten und Bestätigungen."
         }
       ],
       "readyResponses": {
-        "quick30s": "Affirmer que transmettre se résume à réciter est en contradiction directe avec le Coran. Le Coran distingue la récitation (tilâwah), l'explication (bayân dans la Sourate An-Naḥl, verset 44), l'enseignement du Livre et de la Sagesse (ta'lîm dans la Sourate Al-Baqarah, verset 151), le jugement (hukm dans la Sourate An-Nisâʾ, verset 65) et l'exemplarité vivante (uswah dans la Sourate Al-Aḥzâb, verset 21). La formule du balâgh rappelle que le Prophète ﷺ n'est pas responsable du refus des incrédules, et non qu'il lui serait interdit d'enseigner.",
-        "developed": "La transmission d'une doctrine ne se limite jamais à la remise d'un document brut. Tout comme un professeur transmet un programme en l'expliquant et en montrant des applications, le Messager d'Allah ﷺ a transmis le message divin par ses paroles, ses explications et son comportement exemplaire. Les versets de restriction rappellent qu'il ne peut contraindre les gens à la foi, sans annuler ses devoirs d'enseignement et d'explication."
+        "quick30s": "Im Vers {Dem Gesandten obliegt nur die Verkündigung} bedeutet dies: Er zwingt niemanden zum Glauben. Aber wie verkündet er? Der Koran antwortet: Durch Verlesen, Erklären, Läutern und das Vorleben des vollkommenen Vorbilds (33:21). Ihn zum stummen Briefträger zu degradieren, widerspricht dem Koran!",
+        "developed": "Der Kontext der Verse 'Ma 'ala ar-rasuli illa al-balagh' betrifft die Verantwortung: Der Gesandte haftet nicht für den Unglauben der Menschen. Was seine Funktion betrifft, so definiert der Koran vier Dimensionen: Tilawah (Rezitieren), Tazkiyah (Läuterung), Ta'lim al-Kitab (Lehren des Buches) und Ta'lim al-Hikmah (Lehren der Sunna)."
       },
       "objections": [
         {
-          "obj": "« Le verset de la Sourate Al-Māʾidah, verset 99 utilise le terme exclusif 'illâ' (que la transmission). »",
-          "ans": "Cette restriction délimite la responsabilité du Prophète ﷺ face aux choix des mécréants : il ne peut forcer les cœurs. Elle n'annule nullement les versets qui lui confient l'explication (Sourate An-Naḥl, verset 44) et l'enseignement (Sourate Al-Baqarah, verset 151)."
+          "obj": "Bedeutet 'Weisheit' (Hikmah) im Koran nicht einfach allgemeine Klugheit?",
+          "ans": "Nein, Hikmah wird im Koran grammatikalisch gleichrangig neben das Buch gestellt ('al-Kitaba wal-Hikmah'). Etwas, das neben dem Buch gelehrt wird, ist die prophetische Weisung und Praxis."
         }
       ],
       "framingQuestions": [
-        "Pourquoi le Coran utilise-t-il les verbes 'réciter' ET 'enseigner' s'ils désignaient exactement la même chose ?",
-        "Que signifie « afin que tu exposes clairement aux gens » dans la Sourate An-Naḥl, verset 44 si le texte ne nécessitait aucune explication ?",
-        "Un modèle vivant exemplaire (uswah) peut-il être réduit à une boîte aux lettres passive ?"
+        "Wie kann der Prophet ein 'schönes Vorbild' (33:21) sein, wenn wir seine Taten und sein Verhalten nicht überliefert bekommen haben?",
+        "Warum unterscheidet der Koran zwischen 'dem Buch' und 'der Weisheit', wenn nur der Text existierte?"
+      ],
+      "quiz": [
+        {
+          "q": "Welche vier Aufgaben überträgt der Koran dem Propheten in Sure 2:151 und 62:2?",
+          "options": [
+            "Verlesen, Läutern, das Buch lehren und die Weisheit (Sunna) lehren.",
+            "Nur Texte verteilen ohne Worte.",
+            "Nur Kriege führen.",
+            "Philosophische Texte schreiben."
+          ],
+          "answer": 0,
+          "explanation": "Der Koran nennt ausdrücklich: Rezitation, Läuterung, Lehre des Buches und Lehre der Weisheit."
+        }
       ],
       "conclusion": {
         "steps": [
-          "Transmettre n'exclut ni l'explication, ni l'enseignement, ni l'exemplarité.",
-          "Le Coran emploie une diversité de termes pour qualifier la mission prophétique.",
-          "La formule générale de transmission ne supprime pas les missions spécifiques confiées au Prophète ﷺ."
+          "Verkündigung (Balagh) bedeutet vollkommene inhaltliche und praktische Übermittlung.",
+          "Der Prophet ist Lehrer, Erzieher, Richter und lebendiges Vorbild.",
+          "Die Leugnung der Sunna beraubt die Botschaft ihrer praktischen Verwirklichung."
         ],
-        "finalText": "La mission du Messager ﷺ englobe la transmission de la lettre, l'explication du sens et la démonstration pratique.",
-        "punchline": "Explication pratique et enseignement ne sont pas des ajouts au texte : ils sont l'exécution du mandat coranique."
+        "finalText": "Die Sunna ist die authentische Erklärung, wie der Prophet seinen Verkündigungsauftrag vollendete.",
+        "punchline": "Der Gesandte war der lebendige Koran in Aktion – kein passiver Bote!"
       }
     },
     {
       "id": 5,
       "number": "05",
       "slug": "5-preservation-coran-hadiths",
-      "theme": "Authenticité & Transmission Historique",
-      "title": "Allah a garanti la préservation du Coran, pas celle des hadiths.",
-      "shortTitle": "Préservation Coran vs Hadiths",
-      "tagline": "Garantie particulière du texte coranique et fiabilité méthodologique de la transmission de la Sunna",
-      "formula": "LE CORAN POSSÈDE UNE GARANTIE PARTICULIÈRE ET UN DEGRÉ DE TRANSMISSION INCOMPARABLE ; CELA NE SIGNIFIE PAS QU'AUCUNE AUTRE TRANSMISSION FIABLE NE PUISSE EXISTER",
+      "theme": "Die göttliche Bewahrung: Dhikr und Sunna",
+      "title": "„Wir haben die Ermahnung (Adh-Dhikr) herabgesandt und Wir hüten sie“: Wurde die Sunna bewahrt?",
+      "shortTitle": "Bewahrung des Dhikr",
+      "tagline": "Die göttliche Zusage zur Bewahrung des Dhikr umfasst die Botschaft und ihre notwendige Erläuterung.",
+      "formula": "Die Bewahrung des Korans erfordert logisch die Bewahrung seiner praktischen Auslegung (Sunna); sonst wäre der Text unverständlich geworden!",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_5.pdf",
       "theirArgument": {
-        "thesis": "Les coranistes s'appuient sur la Sourate Al-Ḥijr, verset 9 (« C'est Nous qui avons fait descendre le Rappel et c'est Nous qui en sommes gardien ») pour soutenir que seul le texte coranique bénéficie d'une préservation divine, et que tout le corpus des hadiths, ayant été transmis par des hommes faillibles, doit être rejeté.",
+        "thesis": "Allah versprach in Sure 15:9 nur die Bewahrung des 'Dhikr' (des Korans). Da die Hadithe nicht göttlich geschützt seien, seien sie von Menschen verfälscht worden.",
         "verses": [
           {
-            "ref": "Sourate Al-Ḥijr, verset 9",
-            "ar": "إِنَّا نَحْنُ نَزَّلْنَا الذِّكْرَ وَإِنَّا لَهُ لَحَافِظُونَ",
-            "translation": "« En vérité, c'est Nous qui avons fait descendre le Rappel, et c'est Nous qui en sommes gardien. »"
+            "ref": "Sure Al-Hidschr, Vers 9",
+            "ar": "إِنَّا نَحْنُ نَزَّلْنَا الذِّكْرَ وَإِنَّا لَهُ لَحَافِظُونَ",
+            "translation": "Gewiss, Wir Selbst haben die Ermahnung (adh-Dhikr) herabgesandt, und gewiss, Wir werden sie hüten."
           }
         ],
-        "realQuestion": "Le fait que le Coran bénéficie d'une promesse divine unique et d'un mode de transmission incomparable entraîne-t-il automatiquement la fausseté ou l'inutilisabilité de toute transmission historique de la Sunna ?"
+        "realQuestion": "Schließt der Begriff 'Dhikr' die gesamte göttliche Offenbarung und deren notwendige prophetische Erläuterung ein?"
       },
       "logicalNode": {
-        "title": "Les erreurs d'analyse sur la préservation",
+        "title": "Verengung der Bedeutung von 'Dhikr' und Trennung von Text und Sinn",
         "distinctions": [
           {
-            "term": "PRÉSERVATION MIRACULEUSE DU CORAN",
-            "desc": "Garantie divine textuelle, mot à mot, transmise par tawâtur absolu à chaque génération."
+            "term": "BUCHSTÄBLICHER TEXT DES MUSHAF",
+            "desc": "Die geschriebenen Worte des Korans von Sure 1 bis 114."
           },
           {
-            "term": "TRANSMISSION HISTORIQUE CRITIQUE",
-            "desc": "Recoupement rigoureux des chaînes, critique des transmetteurs et analyse des variantes (science du hadith)."
-          },
-          {
-            "term": "SOPHISME DU TOUT OU RIEN",
-            "desc": "Prétendre faussement que ce qui n'a pas la promesse textuelle directe de la Sourate Al-Ḥijr, verset 9 serait 100% falsifié."
+            "term": "GESAMTE OFFENBARUNG (ADH-DHIKR)",
+            "desc": "Der Korantext und seine authentische prophetische Erläuterung, ohne die der Text nicht praktiziert werden kann."
           }
         ],
-        "generalRule": "Une garantie particulière accordée à un texte suprême n'implique pas la destruction de tout autre témoignage historique fiable.",
-        "errorToAvoid": "Prétendre que les sunnites affirment que chaque hadith isolé posséderait exactement le même statut textuel que le Coran."
+        "generalRule": "Ein Versprechen, eine Botschaft für alle Völker zu bewahren, garantiert die Erhaltung ihres Sinns und ihrer praktischen Anwendbarkeit.",
+        "errorToAvoid": "Zu behaupten, Allah habe einen Text geschützt, aber seine praktische Bedeutung für Jahrhunderte verloren gehen lassen."
       },
       "centralPrinciple": {
-        "title": "Le Coran possède une garantie particulière, sans exclure la fiabilité de la Sunna",
-        "formalScheme": "Principe : Le Coran possède une garantie particulière et un degré de transmission incomparable ; cela ne signifie pas qu'aucune autre transmission fiable ne puisse exister.\nTest de cohérence : Toute la compréhension du Coran (vocabulaire arabe ancien, contexte, règles de grammaire) repose également sur la transmission humaine transmise par les générations.",
-        "explanation": "Allah عز وجل préserve Sa religion à travers les efforts critiques des savants qui ont distingué le vrai du faux. Si toute transmission historique humaine était nulle, le coraniste ne pourrait même pas attester de la signification des mots rares du Coran ni de la vocalisation du texte.",
-        "logicalTest": "Comment le coraniste sait-il prononcer et lire le Coran sans faire confiance à la chaîne de transmission humaine des maîtres de lecture ?"
+        "title": "In Sure 16:44 nennt Allah die prophetische Erklärung selbst 'Dhikr'",
+        "formalScheme": "1. Allah sagt in Sure 16:44: {Und Wir sandten zu dir den Dhikr herab, damit du den Menschen erklärst}.\n2. In Sure 15:9 verspricht Er: {Wir werden den Dhikr hüten}.\n3. Folglich ist die prophetische Erklärung Teil des geschützten Dhikr.",
+        "explanation": "Wenn die Sunna verfälscht worden wäre, wüsste kein Muslim mehr, wie man betet, fastet oder die Pilgerfahrt vollzieht. Das göttliche Versprechen wäre damit entleert.",
+        "logicalTest": "Glaubst du, dass Allah der Menschheit befohlen hat, nach einem Buch zu leben, dessen grundlegende Praxis Er 1200 Jahre lang der Fälschung überlassen hat?"
       },
       "quranicArchitecture": {
-        "title": "L'obligation permanente de suivre le modèle prophétique",
+        "title": "Verse über die Ganzheitlichkeit der Bewahrung der Religion",
         "verses": [
           {
-            "ref": "Sourate An-Nisâʾ, verset 59",
-            "ar": "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ",
-            "translation": "« Obéissez à Allah et obéissez au Messager. »"
-          },
-          {
-            "ref": "Sourate Al-Aḥzâb, verset 21",
-            "ar": "لَّقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ",
-            "translation": "« Vous avez certes dans le Messager d'Allah un excellent modèle. »"
+            "ref": "Sure Al-Qiyama, Verse 18-19",
+            "ar": "فَإِذَا قَرَأْنَاهُ فَاتَّبِعْ قُرْآنَهُ * ثُمَّ إِنَّ عَلَيْنَا بَيَانَهُ",
+            "translation": "Und wenn Wir ihn verlesen haben, dann folge seiner Verlesung. Hierauf obliegt Uns seine Erklärung."
           }
         ],
-        "consequence": "Si aucun enseignement prophétique ne pouvait subsister de manière fiable, l'ordre coranique perpétuel de suivre le Prophète ﷺ comme modèle deviendrait inapplicable pour les générations postérieures."
+        "consequence": "Allah übernimmt Selbst die Garantie für die Klarstellung und Erklärung (Bayan) des Korans."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "Le document original et les pièces du dossier",
-          "scenario": "Dans un tribunal, un acte notarié original est conservé dans un coffre ignifugé.",
-          "logic": "Cela ne rend pas tous les autres témoignages et pièces versés au dossier nuls ou falsifiés.",
-          "lesson": "Protection spéciale d'un document ≠ Invalidation de tous les autres éléments de preuve.",
-          "application": "La préservation unique du Coran ne rend pas caduque la science critique du hadith."
-        },
-        {
-          "num": 2,
-          "title": "La fausse monnaie et le contrôle bancaire",
-          "scenario": "L'existence de faux billets n'entraîne pas la destruction de la monnaie légitime.",
-          "logic": "Elle incite à mettre en place des détecteurs et des critères d'authentification infaillibles.",
-          "lesson": "La contrefaçon appelle la vérification, pas le rejet global.",
-          "application": "La fabrication de faux récits a suscité l'élaboration de la science de l'Isnâd et du Jarh wa Ta'dîl."
+          "title": "Das verschlüsselte Gesetz und der Sicherheitsschlüssel",
+          "scenario": "Ein Gesetzgeber schützt den Text eines geheimen Gesetzesdokuments, vernichtet aber vorsätzlich den einzigen Entschlüsselungscode.",
+          "logic": "Ein unentschlüsselbarer Text verliert jeden gesetzlichen Wert.",
+          "lesson": "Die Bewahrung der Substanz schließt den Schlüssel zu ihrem Verständnis ein.",
+          "application": "Die Sunna ist der von Allah bewahrte Schlüssel zum Verständnis des Korans."
         }
       ],
       "readyResponses": {
-        "quick30s": "Le Coran possède une garantie particulière et un degré de transmission incomparable dans la Sourate Al-Ḥijr, verset 9 ; mais cela ne signifie aucunement qu'aucune autre transmission fiable ne puisse exister. Le même Coran ordonne d'obéir au Messager ﷺ (Sourate An-Nisâʾ, verset 59) et de le prendre pour modèle (Sourate Al-Aḥzâb, verset 21). La question n'est donc pas de prétendre que chaque hadith est identique au Coran, mais d'appliquer les méthodes critiques de l'histoire pour identifier fidèlement les enseignements du Prophète ﷺ.",
-        "developed": "L'argument coraniste repose sur le sophisme du tout ou rien : si une source ne bénéficie pas de la promesse surnaturelle de la Sourate Al-Ḥijr, verset 9, elle serait à rejeter. Or, toute la connaissance humaine, la justice et même la langue arabe reposent sur la transmission historique méthodique. L'existence de faux hadiths n'annule pas les récits authentiques, de même que la fausse monnaie n'abolit pas la véritable monnaie : elle a suscité la mise en place de la science critique du hadith pour distinguer avec rigueur le recevable du rejeté."
+        "quick30s": "Allah nennt die dem Propheten gegebene Offenbarung selbst 'Dhikr': {Und Wir sandten zu dir den Dhikr herab, damit du erklärst} (16:44). Wenn Er verspricht, den Dhikr zu schützen (15:9), schützt Er den Text und seine authentische Praxis. Zu behaupten, die Sunna sei verloren, unterstellt Allah, Seine Religion unvollständig gelassen zu haben!",
+        "developed": "In Sure Al-Qiyama verspricht Allah: {Hierauf obliegt Uns seine Erklärung} (75:19). Die Bewahrung der Religion erfolgte historisch durch die unübertroffene Wissenschaft der Hadith-Kritik (Isnad-System), die wahre Berichte von Fälschungen trennte."
       },
       "objections": [
         {
-          "obj": "« Mais les recueils de hadiths ont été rédigés par des êtres humains faillibles ! »",
-          "ans": "Le sunnisme ne prétend pas que les compilateurs sont des prophètes. La valeur probante repose sur la convergence des chaînes de transmission, la mémoire collective et le recoupement critique des variantes."
-        },
-        {
-          "obj": "Were there not weak narrations and human errors in transmission?",
-          "ans": "The science of Hadith terminology and biographical evaluation established the most rigorous historical verification system in human history, isolating errors and safeguarding divine guidance."
+          "obj": "Es gibt doch erfundene Hadithe, beweist das nicht, dass die Sunna nicht geschützt war?",
+          "ans": "Dass Gelehrte gefälschte Hadithe aufdeckten und katalogisierten (Mawdu'at-Literatur), ist der stärkste Beweis für die Wirksamkeit des Schutzes! Fälschungen wurden sofort entlarvt."
         }
       ],
       "framingQuestions": [
-        "Où la Sourate Al-Ḥijr, verset 9 affirme-t-elle qu'aucune autre information historique ne pourra être transmise fidèlement ?",
-        "Reconnaissez-vous une différence entre certitude absolue (qat'î) et fiabilité historique probante (zannî râjih) ?",
-        "Comment comprenez-vous le vocabulaire coranique sans vous appuyer sur la transmission des dictionnaires arabes ?"
+        "Wenn die Sunna nicht bewahrt wurde, woher weißt du dann heute, wie man das Morgengebet (2 Raka'at) betet?",
+        "Hat Allah eine Milliarde Muslime jahrhundertelang im Irrtum über die Ausführung der Säulen des Islam gelassen?"
+      ],
+      "quiz": [
+        {
+          "q": "Welcher Vers beweist, dass Allah Sich Selbst für die Erklärung des Korans verbürgt?",
+          "options": [
+            "Sure Al-Qiyama, Vers 19: {Hierauf obliegt Uns seine Erklärung}",
+            "Sure Al-Baqara, Vers 2",
+            "Sure An-Nas, Vers 1",
+            "Sure Al-Falaq, Vers 1"
+          ],
+          "answer": 0,
+          "explanation": "Sure 75:19 garantiert göttlich die Bewahrung der Erklärung des Textes."
+        }
       ],
       "conclusion": {
         "steps": [
-          "La Sourate Al-Ḥijr, verset 9 établit la protection singulière du Coran.",
-          "Elle n'affirme nulle part que la Sunna sera anéantie.",
-          "La transmission de la Sunna repose sur une discipline critique d'authentification."
+          "Dhikr umfasst den Korantext und seine notwendige prophetische Erläuterung.",
+          "Allah hat die Bewahrung der gesamten Religion garantiert.",
+          "Die Hadithwissenschaft war das historische Werkzeug dieser göttlichen Bewahrung."
         ],
-        "finalText": "Le Coran possède un statut unique, et la Sunna authentique fournit l'explication et la mise en pratique voulues par Allah.",
-        "punchline": "Garantie particulière du Coran ≠ Disparition de la transmission fiable de la Sunna."
+        "finalText": "Die Bewahrung des Korans und der Sunna sind zwei Seiten derselben Medaille.",
+        "punchline": "Ein bewahrter Text mit verlorenem Sinn wäre keine vollkommene Rechtleitung!"
       }
     },
     {
       "id": 6,
       "number": "06",
       "slug": "6-compilation-tardive-hadiths",
-      "theme": "Histoire & Méthodologie de l'Isnâd",
-      "title": "Les hadiths ont été compilés trop tard et ont subi des fabrications.",
-      "shortTitle": "Compilation tardive des hadiths ?",
-      "tagline": "Distinguer la date d'une compilation écrite de la genèse historique de son contenu",
-      "formula": "COMPILATION D'UN RECUEIL ≠ NAISSANCE DU MATÉRIAU HISTORIQUE (Transmission continue)",
+      "theme": "Historiographie und Überlieferungswissenschaft",
+      "title": "Wurden die Hadithe erst 200 Jahre später aufgezeichnet und erfunden?",
+      "shortTitle": "Historische Niederschrift der Hadithe",
+      "tagline": "Die schriftliche Fixierung begann zu Lebzeiten der Gefährten; Al-Bukhari war ein kritischer Redakteur, nicht der Erfinder!",
+      "formula": "Kritische Kanonisierung ist keine Neuerfindung: Die Hadithe wurden von der ersten Generation an auswendig gelernt, schriftlich notiert und kontinuierlich tradiert!",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_6.pdf",
       "theirArgument": {
-        "thesis": "Les coranistes avancent que les recueils majeurs comme ceux d'Al-Bukhârî (m. 256 H) et de Muslim (m. 261 H) ayant été achevés plus de deux siècles après la mort du Prophète ﷺ, tout le corpus aurait été altéré par des fabrications et devrait être rejeté.",
-        "verses": [],
-        "realQuestion": "La date de publication d'une grande compilation critique équivaut-elle à la date d'apparition des enseignements qu'elle rassemble et vérifie ?"
-      },
-      "logicalNode": {
-        "title": "Date du recueil vs Date du contenu transmis",
-        "distinctions": [
+        "thesis": "Al-Bukhari starb 256 n. H., also über 200 Jahre nach dem Propheten. In zwei Jahrhunderten mündlicher Weitergabe sei alles verfälscht, erfunden und von Abbasiden-Herrschern politisch manipuliert worden.",
+        "verses": [
           {
-            "term": "COMPILATION OFFICIELLE",
-            "desc": "L'opération de recension, de vérification critique et de classement thématique dans un grand ouvrage."
-          },
-          {
-            "term": "TRANSMISSION CONTINUE",
-            "desc": "La chaîne ininterrompue d'enseignement oral, de carnets écrits (suhuf) et d'auditions directes."
+            "ref": "Sure Al-An'am, Vers 116",
+            "ar": "إِن يَتَّبِعُونَ إِلَّا الظَّنَّ",
+            "translation": "Sie folgen nur Mutmaßungen."
           }
         ],
-        "generalRule": "Un historien qui publie aujourd'hui les correspondances de la Première Guerre mondiale ne crée pas ces lettres en 2026 : le recueil est récent, les documents sont anciens et authentifiés.",
-        "errorToAvoid": "Faire d'Al-Bukhârî l'initiateur du hadith alors qu'il n'en est qu'un compilateur critique parmi des centaines de savants antérieurs."
+        "realQuestion": "Entspricht das Datum einer monumentalen Enzyklopädie dem Entstehungsdatum ihrer Quellen, oder gab es eine lückenlose schriftliche und mündliche Kette?"
+      },
+      "logicalNode": {
+        "title": "Verwechslung zwischen dem Datum einer Enzyklopädie und dem Alter der Quellen",
+        "distinctions": [
+          {
+            "term": "ENDGÜLTIGE ENZYKLOPÄDISCHE SAMMLUNG",
+            "desc": "Das Werk von Bukhari und Muslim: thematisch geordnet und streng methodisch gefiltert."
+          },
+          {
+            "term": "FRÜHE SCHRIFTLICHE AUFZEICHNUNGEN (SUHUF)",
+            "desc": "Dokumente der Gefährten (z.B. Sahifa Sadiqa von 'Amr ibn al-'As) und Nachfolger (Hammam ibn Munabbih, Muwatta Malik)."
+          }
+        ],
+        "generalRule": "Ein Historiker, der heute Briefe aus dem 18. Jahrhundert ediert, erfindet diese nicht, sondern archiviert bestehende Dokumente.",
+        "errorToAvoid": "Zu glauben, vor Al-Bukhari habe es ein zweihundertjähriges historisches Vakuum gegeben."
       },
       "centralPrinciple": {
-        "title": "Des traces écrites et orales ininterrompues antérieures à Al-Bukhârî",
-        "formalScheme": "Chronologie documentaire :\nProphète ﷺ (m. 11 H) → Compagnons (mémorisation, carnets) → Sahîfah de Hammâm ibn Munabbih (env. 100 H) → Al-Muwatta de l'imam Mâlik (m. 179 H) → Musannaf de 'Abd al-Razzâq (m. 211 H) → Sahîh Al-Bukhârî (m. 256 H).",
-        "explanation": "Il n'y a jamais eu deux siècles de vide historique. Les enseignements circulaient continuellement dans les cercles d'étude, contrôlés par la méthode de l'Isnâd (qui rapporte ? d'après qui ? avec quel degré d'intégrité et de précision ?).",
-        "logicalTest": "Le Coran lui-même a été consigné sous forme de Mushaf standardisé sous le calife 'Uthmân après la mort du Prophète ﷺ. Le coraniste admet donc déjà qu'un texte existe avant sa fixation en volume unique."
+        "title": "Die historische Kette der Dokumentation war von Tag eins an ununterbrochen",
+        "formalScheme": "1. Gefährten notierten Tausende Hadithe zu Lebzeiten des Propheten (Suhuf).\n2. Die Nachfolger (Tabi'un) lernten und schrieben systematisch bei den Gefährten.\n3. Bukhari prüfte bereits existierende Manuskripte und Überlieferungsketten mit beispielloser Kritik.",
+        "explanation": "Historische Funde (wie die Sahifa von Hammam ibn Munabbih, gest. 101 H., Schüler von Abu Huraira) beweisen, dass die Texte identisch in Al-Bukharis Werk enthalten sind.",
+        "logicalTest": "Derselbe historische Überlieferungsweg (Männerketten/Isnad), der uns die Hadithe brachte, übermittelte uns auch die Lesarten des Korans (z.B. Hafs von 'Asim)!"
       },
       "quranicArchitecture": {
-        "title": "La transmission humaine de la récitation : Riwâyat Ḥafṣ ʿan ʿĀṣim",
-        "verses": [],
-        "consequence": "Le coraniste moderne lit le Coran selon une transmission précise : رواية حفص عن عاصم — riwâyat Ḥafṣ ʿan ʿĀṣim. Ḥafṣ est un transmetteur précis de la lecture de ʿĀṣim. Il s'agit d'une chaîne de transmission humaine. Si toute chaîne de transmission humaine était intrinsèquement nulle, sur quelle base textuelle le coraniste prouverait-il la transmission de cette lecture ?"
+        "title": "Die historische Notwendigkeit verlässlicher Zeugenschaft",
+        "verses": [
+          {
+            "ref": "Sure Al-Hujurat, Vers 6",
+            "ar": "إِن جَاءَكُمْ فَاسِقٌ بِنَبَإٍ فَتَبَيَّنُوا",
+            "translation": "Wenn ein Frevler zu euch mit einer Kunde kommt, so stellt die Tatsachen fest."
+          }
+        ],
+        "consequence": "Der Koran selbst etabliert das Prinzip der kritischen Überprüfung von Berichten und Zeugen."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "L'édition des cours magistraux d'un professeur",
-          "scenario": "Un grand savant enseigne durant quarante ans. Plusieurs décennies après sa disparition, ses disciples éditent l'intégrale de ses cours d'après leurs carnets et notes d'audition.",
-          "logic": "L'édition tardive ne constitue pas l'invention du cours : elle en est la mise en forme fidèle.",
-          "lesson": "Rassembler ≠ Fabriquer.",
-          "application": "Al-Bukhârî a compilé des traditions enseignées et écrites bien avant lui."
-        },
-        {
-          "num": 2,
-          "title": "L'enquête criminelle et les témoignages concordants",
-          "scenario": "Les enquêteurs savent que des faux témoignages existent. Ils ne ferment pas l'enquête : ils recoupent les versions indépendantes et les preuves matérielles.",
-          "logic": "La convergence de témoins indépendants établit la vérité des faits.",
-          "lesson": "Le risque d'erreur appelle l'analyse critique, pas l'abandon.",
-          "application": "La science du hadith analyse la biographie de chaque transmetteur pour garantir l'authenticité."
+          "title": "Die Enzyklopädie und die Primärquellen",
+          "scenario": "Ein moderner Universitätsprofessor veröffentlicht 2024 eine kritische Edition antiker römischer Senatsdekrete.",
+          "logic": "Niemand wirft dem Herausgeber vor, die Dekrete 2024 erfunden zu haben!",
+          "lesson": "Die späte Zusammenfassung belegt die Reife der Methodik, nicht die Erfindung des Inhalts.",
+          "application": "Imam Al-Bukhari sichtete und verifizierte bereits seit Generationen tradierte Texte."
         }
       ],
       "readyResponses": {
-        "quick30s": "Le fait qu'Al-Bukhârî ait achevé son recueil au IIIe siècle ne signifie pas que les récits sont apparus au IIIe siècle. Le Coran lui-même illustre cette distinction : sa standardisation en Mushaf officiel s'est faite après la mort du Prophète ﷺ. De plus, des recueils écrits comme le Muwatta de l'imam Mâlik (179 H) ou la Sahîfah de Hammâm ibn Munabbih (100 H) prouvent une transmission écrite très précoce. Enfin, le Coran lui-même nous parvient par des chaînes humaines, comme la transmission de Ḥafṣ d'après la lecture de ʿĀṣim (riwâyat Ḥafṣ ʿan ʿĀṣim).",
-        "developed": "La critique chronologique confond la date d'une compilation encyclopédique avec l'origine de son contenu. Les enseignements prophétiques n'ont pas surgi du néant au bout de deux siècles : ils étaient mémorisés, transcrits sur des carnets, enseignés dans les mosquées et transmis de maître à élève. L'apparition de faux récits a justement stimulé la création d'une méthodologie critique rigoureuse pour filtrer et préserver l'authentique."
+        "quick30s": "Zu behaupten, Hadithe seien erst nach 200 Jahren erfunden worden, ist historische Unwissenheit! Gefährten wie Abdullah ibn 'Amr schrieben mit Erlaubnis des Propheten die 'Sahifa as-Sadiqa'. Die 'Sahifa' von Hammam ibn Munabbih (um 100 n.H.) liegt heute gedruckt vor und stimmt wortwörtlich mit Bukhari überein!",
+        "developed": "Die Hadith-Wissenschaft entwickelte das Isnad-System (Kette von vertrauenswürdigen Zeugen) und die 'Ilm ar-Rijal (Biografiekritik). Tausende Gelehrte widmeten ihr Leben der Überprüfung jedes einzelnen Übermittlers auf Ehrlichkeit, Gedächtnis und persönliche Integrität."
       },
       "objections": [
         {
-          "obj": "« Des chaînes de transmission ont pu être forgées ! »",
-          "ans": "Qu'une chaîne isolée puisse être inventée est précisément ce que la critique du hadith détectait. Mais affirmer que des milliers de chaînes indépendantes réparties entre Médine, Koufa, Bassora, Damas et l'Égypte auraient été inventées de concert est une impossibilité historique."
+          "obj": "Warum hat der Prophet die Hadithe nicht wie den Koran in einem Buch binden lassen?",
+          "ans": "Um jede Verwechslung mit dem Korantext bei der ersten Niederschrift zu vermeiden. Als der Koran gefestigt war, erlaubte und befahl er das Aufschreiben seiner Worte."
         }
       ],
       "framingQuestions": [
-        "La date de publication d'un livre d'histoire est-elle la date de naissance de son contenu ?",
-        "Connaissez-vous l'existence de recueils antérieurs comme le Muwatta de l'imam Mâlik (179 H) ou la Sahîfah de Hammâm ibn Munabbih ?",
-        "Savez-vous que vous lisez le Coran selon la riwâyat Ḥafṣ ʿan ʿĀṣim, qui est une chaîne de transmission humaine ?"
+        "Wie wurde der Koran selbst überliefert, wenn nicht durch dieselben Gefährten und Überlieferer?",
+        "Wenn alle Überlieferer unzuverlässig gewesen wären, wie kannst du dann sicher sein, dass der arabische Text des Korans authentisch ist?"
+      ],
+      "quiz": [
+        {
+          "q": "Welches frühe Hadith-Dokument aus dem 1. Jahrhundert n. H. existiert heute noch als Beweis?",
+          "options": [
+            "Die Sahifa von Hammam ibn Munabbih (von Abu Huraira).",
+            "Ein Buch aus dem 19. Jahrhundert.",
+            "Ein römisches Gesetzbuch.",
+            "Es gibt keine Dokumente."
+          ],
+          "answer": 0,
+          "explanation": "Die Sahifa von Hammam ibn Munabbih (gest. 101 H.) ist eines der ältesten erhaltenen schriftlichen Hadith-Manuskripte."
+        }
       ],
       "conclusion": {
         "steps": [
-          "La date d'un recueil ne détermine pas l'âge de son contenu.",
-          "Des sources écrites et orales continues précédaient largement Al-Bukhârî.",
-          "L'existence de faux récits justifie l'examen critique, et non le rejet global."
+          "Die Dokumentation begann zu Lebzeiten der Gefährten.",
+          "Das Isnad-System verhinderte systematisch Fälschungen.",
+          "Die Ablehnung der Hadith-Ketten zerstört auch das historische Fundament des Korans."
         ],
-        "finalText": "La démarche rationnelle consiste à évaluer chaque récit selon ses chaînes et critères d'authenticité, sans céder au rejet simpliste.",
-        "punchline": "Compilation tardive ≠ Origine tardive. Riwâyat Ḥafṣ ʿan ʿĀṣim démontre la validité de la transmission."
+        "finalText": "Die Hadith-Wissenschaft ist das anspruchsvollste historische Verifikationssystem der Antike.",
+        "punchline": "Wer Bukhari für einen Erfinder hält, leugnet die gesamte islamische Geschichtswissenschaft!"
       }
     },
     {
       "id": 7,
       "number": "07",
       "slug": "7-interdiction-ecrire-paroles",
-      "theme": "Droit des Sources & Récits sur l'Écriture",
-      "title": "Le Prophète ﷺ a lui-même interdit d’écrire ses paroles.",
-      "shortTitle": "Interdiction d'écrire les paroles prophétiques ?",
-      "tagline": "Réglementation temporaire du support écrit et ordres positifs d'écriture de la Sunna",
-      "formula": "RÉGLEMENTER LE SUPPORT ÉCRIT INITIALEMENT ≠ ABOLIR LA TRANSMISSION DE LA SUNNA",
+      "theme": "Der Kontext des Schreibverbots von Hadithen",
+      "title": "Verbot der Prophet, außer dem Koran etwas aufzuschreiben?",
+      "shortTitle": "Das angebliche Schreibverbot",
+      "tagline": "Das anfängliche Verbot verhinderte die Vermischung mit dem Koran; spätere Erlaubnisse hoben es ausdrücklich auf.",
+      "formula": "Ein vorübergehendes pädagogisches Verbot ist kein zeitloses Verbot: Der Prophet befahl später ausdrücklich: „Schreibt für Abu Schah!“",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_7.pdf",
       "theirArgument": {
-        "thesis": "Les coranistes citent le hadith consigné dans Sahîh Muslim (3004) où le Prophète ﷺ déclare : « N'écrivez rien de moi... », pour prétendre que toute mise par écrit de ses enseignements constituerait une infraction directe à son ordre.",
-        "verses": [],
-        "realQuestion": "Une directive contextuelle visant à protéger les supports coraniques initiaux de toute confusion matérielle équivaut-elle à une interdiction définitive de transmettre et de consigner la Sunna ?"
-      },
-      "logicalNode": {
-        "title": "Les quatre données indissociables du corpus",
-        "distinctions": [
-          {
-            "term": "1. L'INTERDICTION INITIALE",
-            "desc": "« N'écrivez rien de moi » (Sahîh Muslim 3004), édictée pour éviter toute confusion matérielle sur les mêmes parchemins que le Coran."
-          },
-          {
-            "term": "2. LA PERMISSION DANS LE MÊME TEXTE",
-            "desc": "« Et rapportez de moi, il n'y a pas de mal » (حَدِّثُوا عَنِّي وَلَا حَرَجَ), figurant dans la seconde moitié du même hadith !"
-          },
-          {
-            "term": "3. L'ORDRE D'ÉCRIRE",
-            "desc": "« Écris ! Par Celui qui tient mon âme dans Sa main... » (Sunan Abî Dâwûd 3646, adressé à 'Abd Allâh ibn 'Amr)."
-          },
-          {
-            "term": "4. L'ORDRE POUR ABÛ SHÂH",
-            "desc": "« Écrivez pour Abû Shâh » (Sahîh Al-Bukhârî 2434), ordre officiel de remettre par écrit le discours prophétique."
-          }
-        ],
-        "generalRule": "Pour analyser un sujet juridique et historique, il est impératif d'examiner l'ensemble des textes et leur chronologie, et non d'isoler une demi-phrase hors contexte.",
-        "errorToAvoid": "S'appuyer sur un hadith pour tenter d'annuler les hadiths, tout en coupant la seconde partie de ce même hadith qui autorise la transmission."
-      },
-      "centralPrinciple": {
-        "title": "Le paradoxe méthodologique du coranisme",
-        "formalScheme": "Dilemme pour le coraniste :\n- Si le hadith de Muslim (3004) est authentique : il prouve qu'un hadith nous informe de la pratique prophétique, et ce même hadith autorise explicitement la narration orale (« Rapportez de moi »).\n- Si le hadith n'est pas fiable : le coraniste ne peut l'utiliser pour prouver une quelconque interdiction !",
-        "explanation": "L'interdiction initiale répondait à un impératif précis : éviter que des notes personnelles ou commentaires prophétiques ne soient mêlés physiquement aux versets du Coran alors en cours de révélation. Une fois le texte coranique parfaitement mémorisé et distingué, le Prophète ﷺ a formellement ordonné et permis l'écriture.",
-        "logicalTest": "Un professeur qui demande de ne pas noter de remarques sur la feuille d'examen officielle interdit-il pour autant à ses élèves de consigner ses cours dans leurs cahiers ?"
-      },
-      "quranicArchitecture": {
-        "title": "Support matériel vs Autorité obligatoire",
+        "thesis": "Der Prophet selbst sagte im Hadith von Abu Sa'id al-Khudri: 'Schreibt nichts von mir auf außer dem Koran, und wer etwas aufgeschrieben hat, soll es löschen.' Das beweise, dass Hadithe verboten sind!",
         "verses": [
           {
-            "ref": "Sourate An-Nisâʾ, verset 59",
-            "ar": "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ",
-            "translation": "« Obéissez à Allah et obéissez au Messager. »"
-          },
-          {
-            "ref": "Sourate An-Nisâʾ, verset 65",
-            "ar": "حَتَّىٰ يُحَكِّمُوكَ فِيمَا شَجَرَ بَيْنَهُمْ",
-            "translation": "« Jusqu'à ce qu'ils te prennent pour juge dans leurs différends. »"
+            "ref": "Sure Al-Baqara, Vers 79",
+            "ar": "فَوَيْلٌ لِّلَّذِينَ يَكْتُبُونَ الْكِتَابَ بِأَيْدِيهِمْ",
+            "translation": "Wehe denjenigen, die das Buch mit ihren Händen schreiben."
           }
         ],
-        "consequence": "La question du support d'enregistrement ne modifie en rien le commandement coranique permanent d'obéir au Messager ﷺ et de suivre ses jugements."
+        "realQuestion": "Bedeutet ein anfängliches Verbot zur Vermeidung von Textvermischung, dass das Aufzeichnen der prophetischen Lehre für immer verboten war?"
+      },
+      "logicalNode": {
+        "title": "Selektive Zitierweise und Ignorieren des historischen Kontexts (Abrogation)",
+        "distinctions": [
+          {
+            "term": "FRÜHE MEKKANISCHE/FRÜH-MEDINENSISCHE PHASE",
+            "desc": "Verbot, Hadithe auf denselben Blättern wie den Koran zu notieren, um Verwechslungen bei neuen Muslimen zu verhindern."
+          },
+          {
+            "term": "SPÄTERE REIFE PHASE",
+            "desc": "Ausdrückliche Erlaubnis und Aufforderung des Propheten ﷺ, sein Wissen schriftlich festzuhalten."
+          }
+        ],
+        "generalRule": "Man kann nicht einen Hadith heranziehen, um alle Hadithe für ungültig zu erklären (Selbstwiderspruch).",
+        "errorToAvoid": "Einen Hadith als Autorität zu zitieren, während man gleichzeitig behauptet, kein Hadith habe Autorität."
+      },
+      "centralPrinciple": {
+        "title": "Der logische Selbstwiderspruch der koranistischen Argumentation",
+        "formalScheme": "1. Wenn der Hadith über das Schreibverbot wahr ist, besitzen Hadithe religiöse Beweiskraft.\n2. Wenn Hadithe keine Beweiskraft besitzen, kann dieser Hadith nicht als Beweis dienen.\n3. Die authentischen Überlieferungen belegen, dass der Prophet das Schreiben später ausdrücklich befahl.",
+        "explanation": "Der Prophet sagte am Tag der Eroberung Mekkas: {Schreibt für Abu Schah} (Bukhari & Muslim) und zu Abdullah ibn 'Amr: {Schreibe, denn bei Dem, in Dessen Hand meine Seele liegt, nichts kommt aus diesem Mund außer Wahrheit!}",
+        "logicalTest": "Wenn du alle Hadithe ablehnst, warum glaubst du dann ausgerechnet diesem einen Hadith über das Schreibverbot?"
+      },
+      "quranicArchitecture": {
+        "title": "Koranische Gebote zur Niederschrift und Dokumentation",
+        "verses": [
+          {
+            "ref": "Sure Al-Baqara, Vers 282",
+            "ar": "يَا أَيُّهَا الَّذِينَ آمَنُوا إِذَا تَدَايَنتُم بِدَيْنٍ إِلَىٰ أَجَلٍ مُّسَمًّى فَاكْتُبُوهُ",
+            "translation": "O die ihr glaubt, wenn ihr für eine festgesetzte Frist Schuldverträge eingeht, dann schreibt es auf."
+          }
+        ],
+        "consequence": "Wenn Allah das Niederschreiben von Geldschulden befiehlt, wie sollte Er das Bewahren Seiner Religion verbieten?"
       },
       "analogies": [
         {
           "num": 1,
-          "title": "Le registre d'état civil et les dossiers annexes",
-          "scenario": "Un officier d'état civil ordonne : « Sur le registre officiel des naissances, n'inscrivez aucune note de procédure ; utilisez vos dossiers de travail séparés. »",
-          "logic": "Séparer les supports physiques protège le registre sans annuler la valeur des dossiers.",
-          "lesson": "Réglementation du support ≠ Rejet du contenu.",
-          "application": "La séparation matérielle du Coran et des paroles prophétiques visait à préserver l'intégrité du Mushaf."
-        },
-        {
-          "num": 2,
-          "title": "La consigne d'atelier et la prise de notes",
-          "scenario": "Le maître d'atelier demande aux apprentis de poser leurs carnets pendant une manipulation délicate pour qu'ils soient concentrés, puis leur ordonne ensuite de consigner par écrit les réglages définitifs.",
-          "logic": "Les deux consignes répondent à des moments distincts de l'apprentissage.",
-          "lesson": "La chronologie explique l'évolution des consignes pratiques.",
-          "application": "L'interdiction initiale d'écrire a cédé la place à l'autorisation et à l'ordre d'écrire."
+          "title": "Das Diktat des Lehrers",
+          "scenario": "Ein Lehrer sagt Schülern bei der ersten Lektion: Schreibt jetzt nur den Text ab, keine Notizen an den Rand, damit nichts durcheinandergerät. Später sagt er: Nun notiert euch alle Erklärungen.",
+          "logic": "Die spätere Erlaubnis hebt die anfängliche Vorsichtsmaßnahme auf.",
+          "lesson": "Pädagogische Maßnahmen entwickeln sich mit dem Reifegrad der Lernenden.",
+          "application": "Als der Koran in den Herzen fest verankert war, ordnete der Prophet das Festhalten der Sunna an."
         }
       ],
       "readyResponses": {
-        "quick30s": "Le dossier des textes sur l'écriture comporte quatre éléments indissociables : 1° L'interdiction initiale pour éviter la confusion sur les feuillets coraniques (« N'écrivez rien de moi ») ; 2° L'autorisation dans la même phrase de transmettre oralement (« et rapportez de moi, il n'y a pas de mal ») ; 3° L'autorisation accordée à 'Abd Allâh ibn 'Amr (« Écris ! ») ; 4° L'ordre public d'écrire (« Écrivez pour Abû Shâh »). Réglementer un support à un moment précis pour protéger le Mushaf n'annule nullement l'autorité de l'enseignement prophétique.",
-        "developed": "L'argument coraniste repose sur une sélection tronquée des sources. D'une part, il est contradictoire d'utiliser un hadith pour tenter d'invalider le hadith. D'autre part, la prise en compte de l'ensemble des récits montre une progression claire : une interdiction temporaire au début de la révélation pour préserver le texte coranique de toute confusion matérielle, suivie d'autorisations et d'ordres explicites de mise par écrit une fois le Coran parfaitement identifié."
+        "quick30s": "Dieser Einwand zerstört sich selbst: Um zu behaupten, Hadithe seien verboten, musst du einen Hadith zitieren! Wenn der Hadith wahr ist, musst du auch die Hadithe akzeptieren, in denen der Prophet befahl: {Fesselt das Wissen durch Niederschrift!} und {Schreibt für Abu Schah!}. Das Verbot galt nur am Anfang für dasselbe Pergament.",
+        "developed": "Gelehrte wie Imam An-Nawawi erklärten: Das Verbot bestand zu Beginn der Offenbarung, als die Gefahr bestand, dass Notizen mit dem Korantext vermengt wurden. Als der Koran allgemein bekannt war, erlaubte der Gesandte Allahs das Aufschreiben uneingeschränkt."
       },
       "objections": [
         {
-          "obj": "« Pourquoi les autorisations d'écrire ne figurent-elles pas dans le Coran ? »",
-          "ans": "Le Coran fixe les obligations théologiques et doctrinales générales (obéissance, jugement, modèle). Les modalités matérielles d'archivage relevaient de la gestion pratique de la communauté."
+          "obj": "Warum haben Abu Bakr und Umar nicht sofort alle Hadithe in einem Buch versammelt?",
+          "ans": "Sie konzentrierten die Kräfte der gesamten Umma zunächst auf die Standardisierung des Korantextes (Mushaf von Uthman). Die Hadithe waren in den Köpfen und Notizbüchern von Tausenden Gefährten sicher bewahrt."
         }
       ],
       "framingQuestions": [
-        "Pourquoi citez-vous « N'écrivez pas » en omettant la suite immédiate : « et rapportez de moi, il n'y a pas de mal » ?",
-        "Comment conciliez-vous votre position avec l'ordre formel : « Écrivez pour Abû Shâh » (Sahîh Al-Bukhârî 2434) ?",
-        "Une consigne sur le support matériel peut-elle annuler l'obligation coranique d'obéir au Messager ﷺ ?"
+        "Merkst du den Widerspruch, wenn du einen Hadith benutzt, um zu beweisen, dass man keinen Hadithen glauben darf?",
+        "Warum ignorierst du die zehnfachen Berichte, in denen der Prophet das Aufschreiben befahl?"
+      ],
+      "quiz": [
+        {
+          "q": "Was sagte der Prophet ﷺ, als Abu Schah um eine schriftliche Kopie seiner Predigt bat?",
+          "options": [
+            "„Schreibt für Abu Schah!“",
+            "„Schreiben ist verboten.“",
+            "„Verlasst die Moschee.“",
+            "Er schwieg."
+          ],
+          "answer": 0,
+          "explanation": "Der Prophet befahl seinen Gefährten ausdrücklich in Sahih Bukhari: 'Schreibt für Abu Schah!'"
+        }
       ],
       "conclusion": {
         "steps": [
-          "Le hadith d'interdiction autorise expressément la transmission dans sa seconde moitié.",
-          "Plusieurs récits authentiques attestent de l'ordre d'écrire pour les Compagnons.",
-          "La gestion du support matériel ne remet jamais en cause l'obligation d'obéir au Messager ﷺ."
+          "Das Verbot war eine temporäre Schutzmaßnahme für den Korantext.",
+          "Zahlreiche authentische Hadithe belegen die anschließende ausdrückliche Erlaubnis.",
+          "Das Argument bricht logisch durch seinen eigenen Selbstwiderspruch zusammen."
         ],
-        "finalText": "Les quatre éléments du dossier rétablissent la cohérence historique et doctrinale de la transmission de la Sunna.",
-        "punchline": "Quatre données à harmoniser : interdiction initiale, permission de rapporter, autorisation d'écrire et ordre pour Abû Shâh."
+        "finalText": "Die Sunna wurde mit Wissen und Billigung des Gesandten Allahs aufgeschrieben.",
+        "punchline": "Einen Hadith zu nutzen, um die Hadithe abzuschaffen, ist die Krone der logischen Absurdität!"
       }
     },
     {
       "id": 8,
       "number": "08",
       "slug": "8-coran-condamne-hadiths",
-      "theme": "Sémantique & Déconstruction de l'Anachronisme",
-      "title": "Le Coran condamne les “hadiths” autres que le Coran.",
-      "shortTitle": "Le Coran condamne les Hadiths ?",
-      "tagline": "Le sens lexical arabe de 'hadīth' (discours, parole, récit) vs anachronisme terminologique",
-      "formula": "ḤADĪTH = PAROLE / DISCOURS / RÉCIT DANS LA LANGUE ARABE ≠ TERME TECHNIQUE DU CORPUS DE LA SUNNA",
+      "theme": "Semantik und koranischer Sprachgebrauch des Wortes 'Hadith'",
+      "title": "Verurteilt der Koran „Hadithe“ in Versen wie „An welchen Hadith wollen sie glauben?“",
+      "shortTitle": "Das Wort 'Hadith' im Koran",
+      "tagline": "Das arabische Wort 'Hadith' bedeutet linguistisch 'Rede/Bericht'; der Koran verurteilt falsche menschliche Götzenreden, nicht die prophetische Sunna.",
+      "formula": "Linguistischer Betrug: Ein allgemeines arabisches Wort für 'Gerede der Ungläubigen' mit dem technischen Fachbegriff der Hadith-Wissenschaft gleichzusetzen!",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_8.pdf",
       "theirArgument": {
-        "thesis": "Les coranistes prétendent que le Coran condamne explicitement les hadiths dans des versets tels que : « En quel hadith après Allah et Ses versets croiront-ils ? » (Sourate Al-Jâthiyah, verset 6 ; Sourate Al-Mursalât, verset 50) ou en fustigeant « lahw al-hadīth » (Sourate Luqmân, verset 6).",
+        "thesis": "Der Koran fragt in Sure 45:6 und 77:50: 'An welchen Hadith nach Allah und Seinen Versen wollen sie denn glauben?' Das Wort 'Hadith' werde hier im Koran ausdrücklich verurteilt!",
         "verses": [
           {
-            "ref": "Sourate Al-Jâthiyah, verset 6",
-            "ar": "تِلْكَ آيَاتُ اللَّهِ نَتْلُوهَا عَلَيْكَ بِالْحَقِّ ۖ فَبِأَيِّ حَدِيثٍ بَعْدَ اللَّهِ وَآيَاتِهِ يُؤْمِنُونَ",
-            "translation": "« Voilà les versets d'Allah que Nous te récitons en toute vérité. En quel discours (hadīth), après Allah et Ses versets, croiront-ils donc ? »"
+            "ref": "Sure Al-Dschathiya, Vers 6",
+            "ar": "تِلْكَ آيَاتُ اللَّهِ نَتْلُوهَا عَلَيْكَ بِالْحَقِّ فَبِأَيِّ حَدِيثٍ بَعْدَ اللَّهِ وَآيَاتِهِ يُؤْمِنُونَ",
+            "translation": "Das sind die Verse Allahs, die Wir dir der Wahrheit entsprechend verlesen. An welchen Bericht (Hadith) nach Allah und Seinen Versen wollen sie denn glauben?"
           },
           {
-            "ref": "Sourate Al-Mursalât, verset 50",
-            "ar": "فَبِأَيِّ حَدِيثٍ بَعْدَهُ يُؤْمِنُونَ",
-            "translation": "« En quel discours (hadīth) après cela croiront-ils donc ? »"
-          },
-          {
-            "ref": "Sourate Luqmân, verset 6",
-            "ar": "وَمِنَ النَّاسِ مَن يَشْتَرِي لَهْوَ الْحَدِيثِ",
-            "translation": "« Et parmi les hommes, il en est qui achètent des discours futiles (lahw al-hadīth)... »"
+            "ref": "Sure Luqman, Vers 6",
+            "ar": "وَمِنَ النَّاسِ مَن يَشْتَرِي لَهْوَ الْحَدِيثِ",
+            "translation": "Unter den Menschen gibt es manchen, der verlockendes Gerede (Lahw al-Hadith) erkauft."
           }
         ],
-        "realQuestion": "Le terme arabe « hadīth » dans le texte coranique désigne-t-il les recueils de traditions sunnites forgés techniquement des siècles plus tard, ou possède-t-il son sens lexical courant de parole, discours, récit ou nouvelle ?"
+        "realQuestion": "Verurteilt der Koran die Berichte über Seinen Gesandten oder das heidnische Gerede der Götzendiener, die die Offenbarung ablehnen?"
       },
       "logicalNode": {
-        "title": "L'anachronisme lexical déconstruit",
+        "title": "Semantischer Trugschluss durch Äquivokation (Gleichsetzung von Alltagssprache und Fachterminus)",
         "distinctions": [
           {
-            "term": "SENS LEXICAL COURANT",
-            "desc": "Parole, propos, discours, nouvelle, récit historique (sens commun dans la langue arabe)."
+            "term": "ALLGEMEINE ARABISCHE SPRACHE (HADITH)",
+            "desc": "Jedes gesprochene Wort, jede menschliche Erzählung oder Erdichtung der Polytheisten."
           },
           {
-            "term": "SENS TECHNIQUE SPÉCIALISÉ",
-            "desc": "Terminologie développée ultérieurement par les savants pour désigner ce qui est rapporté du Prophète ﷺ."
+            "term": "ISLAMISCHER FACHBEGRIFF (HADITH AN-NABAWI)",
+            "desc": "Die dokumentierte Überlieferung über die Aussagen, Handlungen und Eigenschaften des Gesandten Allahs ﷺ."
           }
         ],
-        "generalRule": "Plaquer le sens technique d'une discipline savante postérieure sur un mot du langage coranique originel est une erreur méthodologique majeure.",
-        "errorToAvoid": "Faire comme si le mot arabe 'hadîth' constituait une condamnation ciblée des recueils prophétiques."
+        "generalRule": "Ein Wort in der Offenbarung darf nicht mit einem Jahrhunderte später definierten Fachausdruck verwechselt werden.",
+        "errorToAvoid": "Zu behaupten, der Koran verurteile den Propheten, weil seine Worte später 'Hadithe' genannt wurden."
       },
       "centralPrinciple": {
-        "title": "Le Coran applique le mot 'hadīth' à ses propres versets et aux récits des prophètes",
-        "formalScheme": "Sourate Az-Zumar, verset 23 : « Allah a fait descendre le meilleur des récits / discours (أَحْسَنَ الْحَدِيثِ) : un Livre... »\nSourate An-Nisâʾ, verset 87 : « Et qui est plus véridique qu'Allah en parole / discours (حَدِيثًا) ? »\nSourate Tâ-Hâ, verset 9 : « Le récit de Moïse t'est-il parvenu ? (حَدِيثُ مُوسَىٰ) »\nSourate Adh-Dhâriyât, verset 24 : « T'est-il parvenu le récit des hôtes honorés d'Abraham ? (حَدِيثُ ضَيْفِ إِبْرَاهِيمَ) »",
-        "explanation": "Dans le Coran, le mot 'hadīth' est employé de façon élogieuse pour désigner la révélation divine, de façon neutre pour désigner les récits des prophètes passés, et de façon réprobatrice lorsqu'il s'agit de discours futiles ou trompeurs. C'est le qualificatif et le contexte qui déterminent sa portée.",
-        "logicalTest": "Si tout ce qui est appelé 'hadīth' était condamné après le Coran, il faudrait également interdire les livres d'histoire, les dictionnaires et les propos des coranistes eux-mêmes qui constituent tous des discours postérieurs."
+        "title": "Der Koran nennt sogar sich selbst und die Worte des Propheten 'Hadith'",
+        "formalScheme": "1. Der Koran nennt sich selbst {Ahsan al-Hadith} – die beste Botschaft (Sure 39:23).\n2. Er nennt die Worte des Propheten an seine Ehefrauen 'Hadith' (Sure 66:3).\n3. Die Verse in Sure 45:6 verurteilen die erfundenen Mythen der heidnischen Quraisch, nicht die Rechtleitung des Gesandten.",
+        "explanation": "Wer behauptet, Sure 45:6 verbiete die Sunna, müsste nach derselben Logik auch behaupten, der Koran verurteile sich selbst, da er sich 'Hadith' nennt!",
+        "logicalTest": "Wenn jedes 'Hadith' im Koran schlecht wäre, warum nennt Allah Seine eigene Offenbarung in Sure 39:23 {die schönste Botschaft / Ahsan al-Hadith}?"
       },
       "quranicArchitecture": {
-        "title": "Le contexte d'interpellation des polythéistes mecquois",
+        "title": "Verse über den positiven Gebrauch des Begriffs 'Hadith'",
         "verses": [
           {
-            "ref": "Sourate Al-Jâthiyah, verset 6",
-            "ar": "فَبِأَيِّ حَدِيثٍ بَعْدَ اللَّهِ وَآيَاتِهِ يُؤْمِنُونَ",
-            "translation": "« En quel discours, après Allah et Ses versets, croiront-ils donc ? »"
+            "ref": "Sure Az-Zumar, Vers 23",
+            "ar": "اللَّهُ نَزَّلَ أَحْسَنَ الْحَدِيثِ كِتَابًا مُّتَشَابِهًا",
+            "translation": "Allah hat die beste Botschaft (Ahsan al-Hadith) herabgesandt, ein Buch mit gleichartigen Versen."
+          },
+          {
+            "ref": "Sure Ad-Duha, Vers 11",
+            "ar": "وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ",
+            "translation": "Und was die Gnade deines Herrn angeht, so verkünde sie (Haddith)."
           }
         ],
-        "consequence": "Ce verset s'adresse aux polythéistes qui refusent de croire en la parole d'Allah. Le Coran leur demande quel autre discours pourrait les convaincre s'ils rejettent la révélation divine. Il ne traite en aucun cas des sources d'explication de la loi musulmane."
+        "consequence": "Das Wort 'Hadith' hat im Koran je nach Kontext eine edle oder eine tadelnde Bedeutung."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "Le mot « réseau » à travers les époques",
-          "scenario": "Un texte du XVIIe siècle parle de « réseau d'irrigation ». Quelqu'un affirme qu'il s'agit des réseaux sociaux sur Internet.",
-          "logic": "C'est un anachronisme manifeste qui ignore l'histoire de la langue.",
-          "lesson": "Le sens originel d'un terme ne peut être confondu avec un usage technique ultérieur.",
-          "application": "Confondre le mot 'hadîth' dans le Coran avec les recueils de Bukhârî relève du même contresens."
-        },
-        {
-          "num": 2,
-          "title": "« Le meilleur discours de l'assemblée »",
-          "scenario": "Un président d'assemblée déclare : « Le discours du fondateur est le meilleur discours. »",
-          "logic": "Cela ne signifie pas qu'il faille interdire toute prise de parole des ministres qui appliquent ce discours.",
-          "lesson": "Affirmer la supériorité absolue d'une parole n'interdit pas l'explication fidèle de cette parole.",
-          "application": "Le Coran est le meilleur des récits, sans exclure les explications du Messager ﷺ."
+          "title": "Das Gesetz gegen gefälschte Nachrichten",
+          "scenario": "Ein Staat erlässt ein Gesetz: 'Glaube keinen Falschmeldungen (Fake News)'.",
+          "logic": "Bedeutet dies, dass nun die offiziellen Regierungsnachrichten oder wissenschaftliche Berichte verboten sind?",
+          "lesson": "Die Warnung vor Lügen verbietet nicht die Wahrheit.",
+          "application": "Der Koran warnt vor den Lügenmärchen der Heiden, nicht vor den authentischen Worten des Gesandten."
         }
       ],
       "readyResponses": {
-        "quick30s": "Dans le Coran, le mot « hadīth » a son sens lexical arabe de parole, discours, récit ou nouvelle. Il ne désigne pas les recueils de la Sunna compilés des siècles plus tard. La preuve : le Coran s'auto-désigne comme « le meilleur hadīth » (Sourate Az-Zumar, verset 23), évoque le « hadīth de Moïse » (Sourate Tâ-Hâ, verset 9) et demande « Qui est plus véridique qu'Allah en hadīth ? » (Sourate An-Nisâʾ, verset 87). Dans la Sourate Al-Jâthiyah, verset 6, Allah interpelle les polythéistes qui rejettent Sa parole. Y voir une condamnation de la Sunna est un pur anachronisme lexical.",
-        "developed": "L'argument coraniste repose sur une confusion sémantique entre le sens linguistique d'un mot et sa définition terminologique tardive. Dans la langue du Coran, hadīth désigne toute parole ou tout récit. Allah l'utilise positivement pour Sa propre révélation et neutrement pour l'histoire des prophètes. Présenter ces versets comme une mise en garde contre les enseignements prophétiques dénature le texte coranique."
+        "quick30s": "Das Wort 'Hadith' bedeutet auf Arabisch schlicht 'Rede' oder 'Bericht'. Der Koran nennt sich selbst 'Ahsan al-Hadith' (39:23)! Zu behaupten, der Koran verurteile prophetische Hadithe, ist ein absurdes Wortspiel. Der Koran tadelt das Lügengefasel der Götzendiener, die Seine Verse leugnen!",
+        "developed": "In Sure Al-Jathiya Vers 6 spricht Allah über die Polytheisten, die Seine Verse ablehnten. Welchen Mythen und heidnischen Reden (Hadith) wollen sie nach Allahs Worten glauben? Dies auf die Worte Seines geliebten Gesandten zu beziehen, den Er als Barmherzigkeit für die Welten sandte, ist eine Verdrehung der Schrift."
       },
       "objections": [
         {
-          "obj": "« Mais Allah savait bien quel terme serait employé plus tard pour désigner les traditions ! »",
-          "ans": "Le Coran s'adresse aux hommes dans la langue arabe de son époque. Le mot hadîth y a son sens lexical de parole ou récit, et le Coran l'emploie pour lui-même dans la Sourate Az-Zumar, verset 23."
+          "obj": "Aber warum haben die Gelehrten die Berichte über den Propheten dann 'Hadithe' genannt?",
+          "ans": "Weil der Prophet selbst das Wort verwendete, wie im Hadith von Abu Huraira: 'Wer wird der Glücklichste durch meine Fürsprache sein? Der Prophet sagte: Ich wusste, dass niemand vor dir nach diesem Hadith (dieser Aussage) fragen würde...'"
         }
       ],
       "framingQuestions": [
-        "Que signifie « Hadīthu Mûsâ » dans la Sourate Tâ-Hâ, verset 9 : un recueil du IIIe siècle ou le récit de Moïse ?",
-        "Pourquoi le Coran se qualifie-t-il lui-même de « meilleur Hadīth » dans la Sourate Az-Zumar, verset 23 ?",
-        "Le verset de la Sourate Al-Jâthiyah, verset 6 interpelle-t-il les polythéistes mecquois ou traite-t-il de la Sunna ?"
+        "Wenn das Wort 'Hadith' im Koran immer verwerflich wäre, warum nennt Allah den Koran selbst {die schönste Rede / Hadith} (39:23)?",
+        "Glaubst du wirklich, dass die Worte des Propheten Muhammad ﷺ zu dem 'verwerflichen Gerede' der Ungläubigen gehören?"
+      ],
+      "quiz": [
+        {
+          "q": "Wie bezeichnet der Koran sich selbst in Sure Az-Zumar, Vers 23?",
+          "options": [
+            "Ahsan al-Hadith (die beste Botschaft/Rede)",
+            "Lahw al-Hadith (verlockendes Gerede)",
+            "Ein Mythos",
+            "Ein gewöhnliches Gedicht"
+          ],
+          "answer": 0,
+          "explanation": "In Sure 39:23 bezeichnet Allah den Koran selbst als 'Ahsan al-Hadith'."
+        }
       ],
       "conclusion": {
         "steps": [
-          "Le mot hadīth est un nom commun arabe signifiant parole ou récit.",
-          "Le Coran l'applique élogieusement à sa propre parole.",
-          "La condamnation de discours futiles ne vise pas l'enseignement du Messager ﷺ."
+          "'Hadith' ist ein gewöhnliches arabisches Wort für Rede oder Bericht.",
+          "Der Koran verurteilt die Verleugnungsmythen der Heiden.",
+          "Die Gleichsetzung mit der prophetischen Sunna ist intellektuelle Täuschung."
         ],
-        "finalText": "Le Coran condamne les discours mensongers des négateurs, et non les explications du Prophète ﷺ.",
-        "punchline": "Ḥadīth = discours / récit dans la langue arabe ; non le terme technique du corpus sunnite."
+        "finalText": "Die Worte des Gesandten Allahs sind die erhabenste menschliche Wahrheit nach dem Koran.",
+        "punchline": "Koranverse über heidnisches Gerede gegen den Propheten zu wenden, ist das Markenzeichen der Entstellung!"
       }
     },
     {
       "id": 9,
       "number": "09",
       "slug": "9-corrections-divines",
-      "theme": "Statut du Prophète & Encadrement Révélé",
-      "title": "Puisque le Coran rapporte des corrections divines adressées au Prophète ﷺ, ses paroles et décisions ne pourraient pas constituer une autorité religieuse.",
-      "shortTitle": "Corrections divines & Encadrement de la mission",
-      "tagline": "Les corrections qu'Allah عز وجل adresse au Prophète ﷺ démontrent l'encadrement divin actif de sa mission",
-      "formula": "LES CORRECTIONS QU'ALLAH عز وجل ADRESSE AU PROPHÈTE ﷺ NE SUPPRIMENT PAS SON AUTORITÉ. ELLES MONTRENT AU CONTRAIRE QUE SA MISSION EST DIRECTEMENT ENCADRÉE PAR ALLAH ET QUE TOUTE ORIENTATION NÉCESSAIRE INTERVIENT DURANT SA VIE.",
+      "theme": "Prophetischer Status und aktive göttliche Führung",
+      "title": "Beweisen göttliche Zurechtweisungen im Koran, dass der Prophet fehlbar war und keine Autorität hat?",
+      "shortTitle": "Göttliche Zurechtweisungen ('Abasa)",
+      "tagline": "Koranische Zurechtweisungen beweisen die aktive göttliche Aufsicht und garantieren die absolute Verlässlichkeit der Botschaft.",
+      "formula": "Dass Allah Seinen Propheten sofort korrigierte, beweist: Was er dauerhaft anordnete und lehrte, stand unter vollkommenem göttlichen Schutz!",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_9.pdf",
       "theirArgument": {
-        "thesis": "Les coranistes relèvent que le Coran rapporte des versets où Allah عز وجل a adressé une correction, une orientation ou une précision au Prophète ﷺ (Sourate ʿAbasa, versets 1-2 ; Sourate At-Tawbah, verset 43 ; Sourate At-Taḥrîm, verset 1). Ils en déduisent à tort que ses décisions ne sauraient constituer une autorité religieuse contraignante.",
+        "thesis": "Der Koran tadelt den Propheten in Sure 'Abasa (weil er sich vom Blinden abwandte) und in Sure At-Tahrim. Dies beweise, dass seine persönlichen Entscheidungen fehlerhaft waren und nicht als religiöse Quelle dienen können.",
         "verses": [
           {
-            "ref": "Sourate ʿAbasa, versets 1-2",
-            "ar": "عَبَسَ وَتَوَلَّىٰ أَن جَاءَهُ الْأَعْمَىٰ",
-            "translation": "« Il s'est renfrogné et s'est détourné parce que l'aveugle est venu à lui. »"
+            "ref": "Sure 'Abasa, Verse 1-2",
+            "ar": "عَبَسَ وَتَوَلَّىٰ * أَن جَاءَهُ الْأَعْمَىٰ",
+            "translation": "Er runzelte die Stirn und wandte sich ab, weil der Blinde zu ihm kam."
           },
           {
-            "ref": "Sourate At-Tawbah, verset 43",
-            "ar": "عَفَا اللَّهُ عَنكَ لِمَ أَذِنتَ لَهُمْ",
-            "translation": "« Qu'Allah te pardonne ! Pourquoi leur as-tu donné permission ? »"
-          },
-          {
-            "ref": "Sourate At-Taḥrîm, verset 1",
-            "ar": "يَا أَيُّهَا النَّبِيُّ لِمَ تُحَرِّمُ مَا أَحَلَّ اللَّهُ لَكَ",
-            "translation": "« Ô Prophète ! Pourquoi t'interdis-tu ce qu'Allah t'a rendu licite ? »"
+            "ref": "Sure At-Tahrim, Vers 1",
+            "ar": "يَا أَيُّهَا النَّبِيُّ لِمَ تُحَرِّمُ مَا أَحَلَّ اللَّهُ لَكَ",
+            "translation": "O Prophet, warum erklärst du für verboten, was Allah dir erlaubt hat?"
           }
         ],
-        "realQuestion": "Le fait qu'Allah عز وجل soit intervenu par révélation pour apporter une orientation ou une précision ponctuelle affaiblit-il l'autorité du Messager ﷺ, ou prouve-t-il au contraire que sa mission était sous surveillance divine constante et que ses enseignements définitifs sont pleinement agréés ?"
+        "realQuestion": "Beweisen göttliche Korrekturen im Koran die Unzuverlässigkeit des Propheten oder im Gegenteil die lückenlose göttliche Kontrolle seiner Mission?"
       },
       "logicalNode": {
-        "title": "L'encadrement divin permanent comme garantie d'authenticité",
+        "title": "Verwechslung zwischen menschlichem Ijtihad unter Aufsicht und unkontrollierter Fehlerhaftigkeit",
         "distinctions": [
           {
-            "term": "SURVEILLANCE DIVINE ACTIVE",
-            "desc": "Toute situation nécessitant un ajustement a été immédiatement rectifiée par révélation durant la vie du Prophète ﷺ."
+            "term": "MENSCHLICHER IJTIHAD DES PROPHETEN",
+            "desc": "Sein persönliches Urteil in alltäglichen Fragen, das bei Bedarf sofort von der Offenbarung korrigiert wurde."
           },
           {
-            "term": "ENSEIGNEMENT TRANSMIS VALIDÉ",
-            "desc": "Ce que le Prophète ﷺ a enseigné et pratiqué sans correction divine constitue la Sunna agréée et voulue par Allah pour la communauté."
-          },
-          {
-            "term": "VALEUR PÉDAGOGIQUE UNIVERSELLE",
-            "desc": "Ces événements permettent à la communauté d'en tirer des enseignements majeurs sur la foi et le comportement."
+            "term": "UNVERLETZLICHE GESETZGEBUNG ('ISMAH)",
+            "desc": "Alle Gebote und Normen, die er der Umma als Religion lehrte, sind durch Offenbarung vollkommen geschützt."
           }
         ],
-        "generalRule": "Un contrôle qualité continu qui apporte une précision sur une ligne de production ne prouve pas que le produit final est sans valeur : il garantit que ce qui est validé et livré est parfaitement conforme.",
-        "errorToAvoid": "Interdire toute formulation dégradante (« s'est trompé », « a commis une erreur »). Employer exclusivement les termes d'orientation, de précision et de correction divine."
+        "generalRule": "Ein Repräsentant, dessen Fehler unverzüglich vom Souverän öffentlich korrigiert werden, hinterlässt eine fehlerfreie Lehre.",
+        "errorToAvoid": "Zu übersehen, dass das Ausbleiben einer Korrektur die göttliche Billigung und Bestätigung bedeutet."
       },
       "centralPrinciple": {
-        "title": "Allah connaissait ces événements lorsqu'Il a ordonné l'obéissance",
-        "formalScheme": "Thèse doctrinale : Les corrections qu’Allah عز وجل adresse au Prophète ﷺ ne suppriment pas son autorité. Elles montrent au contraire que sa mission est directement encadrée par Allah عز وجل et que toute orientation nécessaire intervient durant sa vie.\nPreuve coranique : Malgré ces situations mentionnées dans le Coran, Allah réitère l'ordre d'obéir au Messager ﷺ (Sourate An-Nisâʾ, verset 59) et le désigne comme un excellent modèle (Sourate Al-Aḥzâb, verset 21).",
-        "explanation": "L'intervention d'Allah عز وجل pour apporter une correction ou une orientation ponctuelle de son vivant garantit à la communauté que rien d'inexact n'a subsisté dans la religion transmise. L'enseignement final du Prophète ﷺ est ainsi certifié conforme par la révélation divine.",
-        "logicalTest": "Si l'arbitre d'une rencontre est assisté par un contrôle vidéo supérieur qui valide ses décisions en direct, les joueurs doivent-ils refuser son autorité ? Non, son autorité est au contraire renforcée et sécurisée."
+        "title": "Göttliche Korrektur ist der stärkste Beweis für die Authentizität der Sunna",
+        "formalScheme": "1. Wenn der Prophet etwas tat, das nicht optimal war, griff die Offenbarung sofort ein (z.B. Sure 'Abasa).\n2. Wo die Offenbarung nicht eingriff, war sein Verhalten von Allah ausdrücklich bestätigt und gebilligt.\n3. Daher ist die überlieferte Sunna in ihrer Gesamtheit göttlich autorisiert.",
+        "explanation": "Wäre der Prophet frei gewesen, eigene Fehler in der Religion zu etablieren, hätte der Koran ihn nicht in persönlichen Momenten korrigiert und dies für die Ewigkeit festgehalten.",
+        "logicalTest": "Wenn der Prophet Verse erfinden könnte, warum hätte er Verse offenbart, die sein eigenes Verhalten tadeln?"
       },
       "quranicArchitecture": {
-        "title": "La protection divine de la transmission",
+        "title": "Verse über den Schutz der Rede des Propheten vor Irrtum in der Religion",
         "verses": [
           {
-            "ref": "Sourate An-Najm, versets 3-4",
-            "ar": "وَمَا يَنطِقُ عَنِ الْهَوَىٰ إِنْ هُوَ إِلَّا وَحْيٌ يُوحَىٰ",
-            "translation": "« Et il ne prononce rien sous l'effet de la passion ; ce n'est rien d'autre qu'une révélation inspirée. »"
+            "ref": "Sure An-Nadschm, Verse 3-4",
+            "ar": "وَمَا يَنطِقُ عَنِ الْهَوَىٰ * إِنْ هُوَ إِلَّا وَحْيٌ يُوحَىٰ",
+            "translation": "Und er redet nicht aus eigener Neigung. Es ist nur eine Offenbarung, die eingegeben wird."
           },
           {
-            "ref": "Sourate Al-Ḥâqqah, versets 44-46",
-            "ar": "وَلَوْ تَقَوَّلَ عَلَيْنَا بَعْضَ الْأَقَاوِيلِ لَأَخَذْنَا مِنْهُ بِالْيَمِينِ ثُمَّ لَقَطَعْنَا مِنْهُ الْوَتِينَ",
-            "translation": "« Et s'il avait forgé contre Nous quelques paroles, Nous l'aurions saisi de la main droite, puis Nous lui aurions tranché l'aorte. »"
+            "ref": "Sure Al-Haqqa, Verse 44-46",
+            "ar": "وَلَوْ تَقَوَّلَ عَلَيْنَا بَعْضَ الْأَقَاوِيلِ * لَأَخَذْنَا مِنْهُ بِالْيَمِينِ * ثُمَّ لَقَطَعْنَا مِنْهُ الْوَتِينَ",
+            "translation": "Und wenn er sich gegen Uns einige Aussprüche selbst erdichtet hätte, hätten Wir ihn gewiss an der Rechten gefasst und ihm die Lebensader durchschnitten."
           }
         ],
-        "consequence": "Le Coran garantit que la mission du Messager ﷺ s'exerçait sous le contrôle souverain direct d'Allah. Ce qui a été validé et transmis à la communauté constitue une autorité religieuse indiscutable."
+        "consequence": "Allah garantiert mit Seiner Allmacht, dass der Prophet in der Übermittlung der Religion unfehlbar ist."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "L'architecte en chef et l'ingénieur de chantier",
-          "scenario": "Le maître d'œuvre confie la réalisation d'un pont à son ingénieur en disant aux équipes : « Suivez ses directives. » Durant les travaux, le maître d'œuvre apporte une précision technique sur un ancrage.",
-          "logic": "Les ouvriers ne peuvent pas en déduire qu'il faut ignorer tous les plans et instructions de l'ingénieur.",
-          "lesson": "L'ajustement du supérieur encadre le délégué sans annuler son mandat.",
-          "application": "Les orientations divines adressées au Prophète ﷺ encadrent sa mission sans annuler l'obligation de lui obéir."
-        },
-        {
-          "num": 2,
-          "title": "Le protocole de validation scientifique",
-          "scenario": "Dans un laboratoire de pointe, chaque mesure est soumise à une double vérification immédiate avant publication finale.",
-          "logic": "La relecture garantit la fiabilité absolue du résultat publié.",
-          "lesson": "Contrôle en direct = Garantie de conformité.",
-          "application": "La communauté reçoit un enseignement épuré, validé et scellé par la révélation."
+          "title": "Der Flugkapitän und die Flugüberwachung",
+          "scenario": "Ein Pilot steuert das Flugzeug. Die Flugüberwachung beobachtet jeden Meter und korrigiert jede Kursabweichung sofort per Funk.",
+          "logic": "Die Passagiere wissen: Solange kein Alarm kommt, ist der Kurs zu 100% sicher und vom Kontrollturm bestätigt.",
+          "lesson": "Permanente Überwachung garantiert absolute Sicherheit des Gesamtkurses.",
+          "application": "Die göttliche Aufsicht garantierte, dass die prophetische Praxis fehlerfrei blieb."
         }
       ],
       "readyResponses": {
-        "quick30s": "Les corrections qu'Allah عز وجل a adressées au Prophète ﷺ ne suppriment aucunement son autorité. Elles démontrent au contraire que sa mission était directement encadrée par Allah et que toute orientation ou précision nécessaire est intervenue par révélation durant sa vie. Ces événements permettent également à la communauté d'en tirer des enseignements majeurs. Et malgré ces passages, le même Coran ordonne d'obéir au Messager ﷺ (Sourate An-Nisâʾ, verset 59) et le qualifie d'excellent modèle (Sourate Al-Aḥzâb, verset 21).",
-        "developed": "L'argument coraniste repose sur une mécompréhension du statut prophétique. Le Prophète ﷺ est un serviteur et un messager d'Allah dont la mission s'exerçait sous la garde vigilante de la révélation. L'intervention d'Allah عز وجل pour apporter une orientation sur une situation donnée garantit que l'ensemble de la Sunna validée et transmise à la communauté est pleinement conforme à la volonté divine."
+        "quick30s": "Dass der Koran Zurechtweisungen wie in Sure 'Abasa enthält, ist der größte Beweis für die Wahrhaftigkeit des Propheten! Wenn er ein Wort aus eigenem Antrieb hinzugefügt hätte, hätte Allah {ihm die Lebensader durchschnitten} (69:46). Seine dauerhafte Sunna ist durch das Schweigen und Bestätigen der Offenbarung göttlich sanktioniert!",
+        "developed": "Göttliche Zurechtweisungen betrafen stets menschliche Vorlieben in weltlichen Angelegenheiten oder die Priorisierung von Adressaten, niemals die Verfälschung von Gesetzen. Dass Allah diese Momente im Koran verewigte, beweist, dass der Prophet keine eigene Macht beanspruchte, sondern unter vollständiger göttlicher Vormundschaft stand."
       },
       "objections": [
         {
-          "obj": "« Si Allah lui a adressé une correction, cela montre qu'il n'était pas parfait dans chaque initiative personnelle. »",
-          "ans": "Le Prophète ﷺ est un être humain investi d'une mission prophétique divinement guidée. Le fait que toute orientation nécessaire soit intervenue par révélation durant sa vie prouve que la religion transmise est exempte de tout défaut."
+          "obj": "Zeigt Sure At-Tahrim nicht, dass er eigenmächtig Dinge verboten hat?",
+          "ans": "Der Prophet hatte sich lediglich selbst honigartigen Trank versagt, um seine Frauen zu beruhigen; er hatte kein allgemeines Verbot für die Muslime erlassen. Allah erinnerte ihn an seine Vorbildrolle."
         }
       ],
       "framingQuestions": [
-        "Allah عز وجل connaissait-Il la Sourate ʿAbasa et la Sourate At-Taḥrîm lorsqu'Il a ordonné d'obéir au Messager ﷺ dans la Sourate An-Nisâʾ, verset 59 ?",
-        "Une orientation apportée par une autorité supérieure supprime-t-elle le mandat du représentant désigné ?",
-        "Existe-t-il un seul verset affirmant que les corrections divines annuleraient le devoir d'obéissance au Prophète ﷺ ?"
+        "Wenn der Prophet unehrlich gewesen wäre, warum hätte er Suren wie 'Abasa im Koran verewigen sollen, die ihn selbst tadeln?",
+        "Beweist das sofortige Eingreifen Allahs nicht, dass alles andere, was er lehrte, von Allah gewollt und gebilligt war?"
+      ],
+      "quiz": [
+        {
+          "q": "Was beweisen Verse wie Sure 'Abasa über die Mission des Propheten?",
+          "options": [
+            "Dass seine Botschaft unter aktiver und strenger göttlicher Aufsicht stand.",
+            "Dass man ihm nicht mehr gehorchen muss.",
+            "Dass er den Koran selbst geschrieben hat.",
+            "Dass der Koran unvollständig ist."
+          ],
+          "answer": 0,
+          "explanation": "Sie beweisen, dass der Prophet unter direkter göttlicher Leitung stand und nichts verbarg."
+        }
       ],
       "conclusion": {
         "steps": [
-          "Allah عز وجل a apporté des orientations et précisions au Prophète ﷺ durant sa vie.",
-          "Ces interventions attestent de la surveillance divine active et de la perfection du message final.",
-          "L'obligation coranique d'obéissance au Messager ﷺ demeure universelle et intangible."
+          "Der Prophet unterlag der lückenlosen göttlichen Aufsicht.",
+          "Korrekturen erfolgten sofort und öffentlich durch den Koran.",
+          "Die unkorrigierte Sunna ist somit zu 100% von Allah bestätigt."
         ],
-        "finalText": "Les corrections divines attestent de l'encadrement divin de la mission prophétique et garantissent la pureté de la Sunna transmise.",
-        "punchline": "Les corrections divines n'annulent pas l'autorité du Prophète ﷺ : elles en prouvent l'encadrement permanent par Allah عز وجل."
+        "finalText": "Die göttlichen Zurechtweisungen untermauern die Unfehlbarkeit der überlieferten Religion.",
+        "punchline": "Korrekturen schwächen die Autorität des Propheten nicht – sie beweisen seine göttliche Beglaubigung!"
       }
     },
     {
       "id": 10,
       "number": "10",
       "slug": "10-priere-pratique-communautaire",
-      "theme": "Pratique Cultuelle & Tawâtur 'Amalî",
-      "title": "La prière et les rites se transmettent par la pratique communautaire, pas par les hadiths.",
-      "shortTitle": "La prière sans les hadiths ?",
-      "tagline": "Pratique prophétique transmise de génération en génération = définition exacte de la Sunna vivante (Tawâtur 'Amalî)",
-      "formula": "PRATIQUE RITUELLE TRANSMISE PAR LA COMMUNAUTÉ DEPUIS LE PROPHÈTE = SUNNA VIVANTE (TAWÂTUR PRATIQUE)",
+      "theme": "Ritueller Gottesdienst und lebendiges Tawatur",
+      "title": "Werden Gebet und Riten durch Gemeinschaftspraxis tradiert und nicht durch Hadithe?",
+      "shortTitle": "Gebet & Tawâtur 'Amalî",
+      "tagline": "Die von Generation zu Generation praktizierte prophetische Gebetspraxis ist die exakte Definition der lebendigen Sunna (Tawâtur 'Amalî).",
+      "formula": "Die durch die Gemeinschaft tradierte rituelle Praxis IST die lebendige Sunna; sie von den Hadithen zu trennen, ist ein künstliches Konstrukt!",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_10.pdf",
       "theirArgument": {
-        "thesis": "Certains coranistes reconnaissent que le Coran ne détaille pas le nombre de prières quotidiennes ni le nombre de génuflexions (rak'ât), mais affirment : « Nous n'avons pas besoin de Bukhârî : la prière nous a été transmise de génération en génération par la pratique vivante collective de la communauté musulmane, et non par des textes de hadiths. »",
-        "verses": [],
-        "realQuestion": "Reconnaître qu'une pratique cultuelle obligatoire provient de l'enseignement du Prophète ﷺ et nous parvient hors du texte coranique par transmission historique est-il compatible avec le dogme du « Coran seul » ?"
-      },
-      "logicalNode": {
-        "title": "L'aveu involontaire du coraniste",
-        "distinctions": [
-          {
-            "term": "LE CORAN SEUL (THÉORIE)",
-            "desc": "Affirmer que seule la lettre du texte coranique est source de religion."
-          },
-          {
-            "term": "LA SUNNA VIVANTE (RÉALITÉ)",
-            "desc": "Admettre que l'on accomplit des gestes et des rituels transmis fidèlement depuis le Prophète ﷺ."
-          }
-        ],
-        "generalRule": "Une pratique religieuse obligatoire issue du Prophète ﷺ et transmise de génération en génération par la communauté constitue la définition théologique exacte de la Sunna vivante (Tawâtur 'amalî). Refuser le terme ne supprime pas la réalité.",
-        "errorToAvoid": "Croire que les musulmans auraient attendu la rédaction des recueils de hadiths au IIIe siècle pour savoir comment accomplir la prière quotidienne."
-      },
-      "centralPrinciple": {
-        "title": "La démonstration logique de la Sunna vivante",
-        "formalScheme": "Questionnement méthodique :\n- « D'où tenez-vous qu'il faut accomplir 4 rak'ât à Dhuhr ? » → « De la pratique transmise par la communauté. »\n- « D'où la communauté des générations précédentes le tenait-elle ? » → « Des Compagnons. »\n- « Et d'où les Compagnons le tenaient-ils ? » → « DU PROPHÈTE ﷺ. »\nConclusion : Le coraniste reconnaît une autorité normative prophétique extra-coranique !",
-        "explanation": "Les recueils de hadiths n'ont pas créé la prière : ils documentent par écrit ce qui était déjà enseigné et pratiqué massivement. Par ailleurs, la seule observation visuelle d'un geste rituel ne peut expliciter son statut légal (wâjib, sunna, recommandé), ni les règles applicables en cas d'oubli (sujûd as-sahw), de voyage ou de maladie, qui requièrent les explications verbales de la Sunna.",
-        "logicalTest": "Si deux groupes de musulmans prient différemment, quel critère permet de trancher sans recourir aux données historiques de la Sunna ?"
-      },
-      "quranicArchitecture": {
-        "title": "Le Coran renvoie à la démonstration pratique du Prophète ﷺ",
+        "thesis": "Wir brauchen keine Hadith-Bücher, um zu beten! Das Gebet wurde durch die lebendige Praxis der Gemeinschaft von Generation zu Generation weitergegeben, nicht durch Buchüberlieferungen.",
         "verses": [
           {
-            "ref": "Sourate Al-Aḥzâb, verset 21",
-            "ar": "لَّقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ",
-            "translation": "« Vous avez certes dans le Messager d'Allah un excellent modèle. »"
-          },
-          {
-            "ref": "Sourate An-Naḥl, verset 44",
-            "ar": "لِتُبَيِّنَ لِلنَّاسِ مَا نُزِّلَ إِلَيْهِمْ",
-            "translation": "« Afin que tu exposes clairement aux gens ce qui leur a été révélé. »"
+            "ref": "Sure Al-Baqara, Vers 43",
+            "ar": "وَأَقِيمُوا الصَّلَاةَ وَآتُوا الزَّكَاةَ وَارْكَعُوا مَعَ الرَّاكِعِينَ",
+            "translation": "Und verrichtet das Gebet und entrichtet die Abgabe und verbeugt euch mit den sich Verbeugenden."
           }
         ],
-        "consequence": "Le Coran ordonne d'accomplir la prière mais n'en détaille pas la chorégraphie gestuelle, car il s'adresse à une communauté qui voyait le Prophète ﷺ l'accomplir et l'enseigner (« Priez comme vous m'avez vu prier »)."
+        "realQuestion": "Ist die ununterbrochene rituelle Gemeinschaftspraxis (Tawatur 'Amali) etwas anderes als die Sunna des Propheten selbst?"
+      },
+      "logicalNode": {
+        "title": "Künstliche Spaltung zwischen lebendiger Sunna und dokumentiertem Hadith",
+        "distinctions": [
+          {
+            "term": "LEBENDIGE PRAXIS (TAWÂTUR 'AMALÎ)",
+            "desc": "Massenhaft praktizierte Handlungen (5 Gebete, Gebetszeiten, Raka'at), die von Millionen Muslimen ununterbrochen weitergegeben wurden."
+          },
+          {
+            "term": "SCHRIFTLICHE DOKUMENTATION (HADITH)",
+            "desc": "Die schriftliche Bestätigung, Verfeinerung und Kodifizierung derselben lebendigen Praxis durch Textberichte."
+          }
+        ],
+        "generalRule": "Man kann die praktische Ausführung einer Norm nicht anerkennen, während man die autoritative Rechtsquelle ablehnt, die sie begründet.",
+        "errorToAvoid": "Zu glauben, die Anerkennung der Gemeinschaftstradition sei kein Bekenntnis zur prophetischen Sunna."
+      },
+      "centralPrinciple": {
+        "title": "Das Eingeständnis der Gemeinschaftstradition zerstört die koranistische Grundthese",
+        "formalScheme": "1. Der Koran erwähnt weder die 5 Gebetszeiten noch die Anzahl der Raka'at (2, 4, 4, 3, 4).\n2. Der Koronist gibt zu, dass er diese Praxis von der muslimischen Gemeinschaftstradition übernimmt.\n3. Diese Tradition geht ausschließlich auf das Vorbild des Propheten {Betet, wie ihr mich habt beten sehen} zurück.\n4. Daher gibt der Koranist zu, dass der Koran allein zur Religionsausübung nicht genügt!",
+        "explanation": "Indem der Koranist die historische Überlieferung der Praxis akzeptiert, hebt er sein eigenes Dogma auf, dass nur der Korantext bindend sei.",
+        "logicalTest": "Beweise die genaue Abfolge des Gebets (Fatiha, Ruku', zwei Sujud, Tashahhud) ausschließlich anhand von Surenversen ohne Bezug zur Tradition!"
+      },
+      "quranicArchitecture": {
+        "title": "Verse über das Gebet als prophetisch übermittelte Pflicht",
+        "verses": [
+          {
+            "ref": "Sure An-Nisa, Vers 103",
+            "ar": "إِنَّ الصَّلَاةَ كَانَتْ عَلَى الْمُؤْمِنِينَ كِتَابًا مَّوْقُوتًا",
+            "translation": "Das Gebet ist den Gläubigen zu bestimmten Zeiten vorgeschrieben."
+          }
+        ],
+        "consequence": "Die Festlegung dieser 'bestimmten Zeiten' und Formen erfolgte durch die Sunna des Gesandten."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "L'apprentissage des gestes familiaux",
-          "scenario": "Un enfant apprend à nouer ses lacets en regardant son père. Devenu grand, il déclare : « Je ne crois pas à l'enseignement de mon père, je fais mes lacets parce que toute la famille fait ainsi. »",
-          "logic": "Mais qui a initié et enseigné ce geste à la famille ? C'est le père.",
-          "lesson": "La pratique héritée procède de l'initiateur premier.",
-          "application": "La prière de la communauté musulmane découle directement de l'enseignement du Prophète ﷺ."
-        },
-        {
-          "num": 2,
-          "title": "La langue vivante et le dictionnaire de référence",
-          "scenario": "On apprend à parler sa langue maternelle au sein de sa famille sans ouvrir de dictionnaire.",
-          "logic": "Cela ne prouve pas que le dictionnaire et la grammaire soient inutiles : ils fixent les règles et résolvent les ambiguïtés.",
-          "lesson": "Pratique vivante et documentation écrite se complètent mutuellement.",
-          "application": "La pratique collective de la prière et les recueils de hadiths constituent les deux piliers de la transmission."
+          "title": "Das Erlernen der Muttersprache",
+          "scenario": "Ein Kind lernt sprechen durch das lebendige Vorbild seiner Eltern und der Gesellschaft, später liest es Grammatikbücher.",
+          "logic": "Zu behaupten, die Grammatikbücher seien falsch, weil man bereits sprechen könne, ignoriert, dass beide dieselbe Sprachrealität abbilden.",
+          "lesson": "Praxis und schriftliche Kodifizierung bestätigen sich gegenseitig.",
+          "application": "Die Hadithe dokumentieren und sichern exakt die Gebetspraxis, die die Gemeinde vorlebte."
         }
       ],
       "readyResponses": {
-        "quick30s": "Dire que vous n'avez pas appris la prière dans Sahîh Al-Bukhârî ne réfute pas la Sunna : cela la confirme pleinement ! Si vous affirmez que la prière a été transmise de génération en génération depuis le Prophète ﷺ, vous reconnaissez précisément une pratique prophétique extra-coranique transmise par la communauté, c'est-à-dire une Sunna vivante (Tawâtur pratique). Les hadiths n'ont pas inventé la prière : ils documentent par écrit son enseignement et ses règles.",
-        "developed": "Le coraniste qui justifie ses pratiques cultuelles par la tradition communautaire abandonne de fait son dogme du 'Coran seul'. Il admet qu'une information extra-coranique issue du Prophète ﷺ est à la fois indispensable et fiable. De plus, la simple observation visuelle d'un rite ne peut expliquer les règles relatives aux oublis, aux voyages ou aux dispenses, qui nécessitent les explications verbales consignées dans les hadiths."
+        "quick30s": "Wenn du sagst 'Wir beten durch Gemeinschaftspraxis und nicht durch Hadithe', hast du den Coranismus bereits aufgegeben! Du gibst zu, dass der Koran allein nicht reicht und du eine außer-koranische historische Quelle brauchst. Diese Praxis ist nichts anderes als die lebendige Sunna (Tawâtur 'Amalî)!",
+        "developed": "Tawâtur 'Amalî ist die höchste Kategorie der Sunna in der islamischen Rechtswissenschaft. Die Hadithe kamen hinzu, um Feinheiten (z.B. Du'as im Sujud, Vergesslichkeitssajdah, Bedingungen) zu präzisieren. Wer die Hadithe ablehnt, endet bei Sekten, die behaupten, es gäbe nur 2 oder 3 Gebete."
       },
       "objections": [
         {
-          "obj": "« Mais les coranistes peuvent prier selon leur propre interprétation des versets ! »",
-          "ans": "Dans ce cas, certains coranistes prient 2 fois par jour, d'autres 3, d'autres 5, sans aucune règle commune. Le recours à la Sunna vivante préserve l'unité et la continuité du culte musulman."
+          "obj": "Haben wir das Gebet nicht von Abraham geerbt, wie der Koran sagt?",
+          "ans": "Abraham begründete das Prinzip des Monotheismus und der Kaaba. Die konkrete Form des islamischen Gebets mit seinen Zeiten und Rezitationen lehrte Muhammad ﷺ: {Betet, wie ihr mich habt beten sehen} (Sahih Bukhari)."
         }
       ],
       "framingQuestions": [
-        "Trouvez-vous le nombre exact de 4 rak'ât pour la prière de Dhuhr écrit textuellement dans le Coran ?",
-        "Si ces détails proviennent de la pratique transmise depuis le Prophète ﷺ, cette transmission n'est-elle pas une information extra-coranique ?",
-        "Comment la transmission collective de la prière pourrait-elle être valide si vous rejetez toute transmission historique ?"
+        "Wenn du nur dem Koran folgst, warum betest du dann 4 Raka'at am Mittag, obwohl das Wort 'vier' im Zusammenhang mit Gebetseinheiten im Koran nicht vorkommt?",
+        "Erkennst du, dass du durch das Befolgen der Gebetstradition beweist, dass die Sunna unverzichtbar ist?"
+      ],
+      "quiz": [
+        {
+          "q": "Was beweist die Tatsache, dass Muslime weltweit 5 tägliche Gebete auf dieselbe Weise verrichten?",
+          "options": [
+            "Die Authentizität und lückenlose Bewahrung der prophetischen Sunna (Tawâtur 'Amalî).",
+            "Dass der Koran alle Details enthält.",
+            "Dass jeder nach Belieben beten kann.",
+            "Einen Zufall."
+          ],
+          "answer": 0,
+          "explanation": "Es ist der unumstößliche Beweis für das Tawâtur 'Amalî der lebendigen Sunna."
+        }
       ],
       "conclusion": {
         "steps": [
-          "La prière quotidienne découle directement de l'enseignement du Prophète ﷺ.",
-          "Sa transmission par la communauté prouve la réalité de la transmission extra-coranique.",
-          "Pratique vivante et hadiths écrits forment un ensemble cohérent et complémentaire."
+          "Das Gebet ist das Herzstück des praktischen Islam.",
+          "Seine Form ist im Koran nicht detailliert, sondern durch die Sunna festgelegt.",
+          "Die Berufung auf die Praxis widerlegt das Alleinvertretungsdogma des Korans."
         ],
-        "finalText": "La transmission ininterrompue de la prière est la preuve vivante de la nécessité de la Sunna.",
-        "punchline": "Pratique rituelle transmise = Sunna vivante (Tawâtur pratique)."
+        "finalText": "Die lebendige Praxis des Gebets ist der tägliche, sichtbare Beweis für die Notwendigkeit der Sunna.",
+        "punchline": "Wer nach der Sunna betet, während er die Sunna verleugnet, widerlegt sich bei jeder Verbeugung selbst!"
       }
     }
   ],

@@ -163,10 +163,11 @@ function renderSidebarNav() {
   if (!listContainer) return;
 
   const currentArgs = getActiveArgumentsData();
+  const ui = getActiveUI();
 
   const introductoryChapters = [
-    { id: 'preface', icon: '✦', title: window.CURRENT_LANG === 'ar' || window.CURRENT_LANG === 'ary' ? 'المقدمة' : (window.CURRENT_LANG === 'en' ? 'Preface' : 'Préface') },
-    { id: 'coranisme-intro', icon: 'ℹ', title: window.CURRENT_LANG === 'ar' || window.CURRENT_LANG === 'ary' ? 'من هم القرآنيون ؟' : (window.CURRENT_LANG === 'en' ? 'Who are the Quranists?' : 'Qui sont les coranistes ?') }
+    { id: 'preface', icon: '✦', title: ui.sidebarPreface || 'Préface' },
+    { id: 'coranisme-intro', icon: 'ℹ', title: ui.sidebarIntro || 'Qui sont les coranistes ?' }
   ];
 
   listContainer.innerHTML = introductoryChapters.map(chapter => `
@@ -796,16 +797,17 @@ function initSearchModal() {
       return;
     }
 
+    const ui = getActiveUI();
     const filtered = currentArgs.filter(arg => {
       const matchTitle = (arg.title || '').toLowerCase().includes(query);
       const matchTagline = (arg.tagline || '').toLowerCase().includes(query);
       const matchFormula = (arg.formula || '').toLowerCase().includes(query);
       const matchThesis = (arg.theirArgument?.thesis || '').toLowerCase().includes(query);
       const matchAdverseVerses = arg.theirArgument?.verses?.some(v => 
-        (v.ref || '').toLowerCase().includes(query) || (v.fr || '').toLowerCase().includes(query) || (v.ar || '').includes(query)
+        (v.ref || '').toLowerCase().includes(query) || (v.translation || v.fr || '').toLowerCase().includes(query) || (v.ar || '').includes(query)
       );
       const matchQuranicVerses = arg.quranicArchitecture?.verses?.some(v => 
-        (v.ref || '').toLowerCase().includes(query) || (v.fr || '').toLowerCase().includes(query) || (v.ar || '').includes(query)
+        (v.ref || '').toLowerCase().includes(query) || (v.translation || v.fr || '').toLowerCase().includes(query) || (v.ar || '').includes(query)
       );
       const match30s = (arg.readyResponses?.quick30s || '').toLowerCase().includes(query);
       return matchTitle || matchTagline || matchFormula || matchThesis || matchAdverseVerses || matchQuranicVerses || match30s;
@@ -813,9 +815,10 @@ function initSearchModal() {
 
     if (filtered.length === 0) {
       const safeQuery = escapeHTML(query);
+      const noResultsText = ui.searchNoResults || 'Aucun résultat pour';
       resultsContainer.innerHTML = `
         <div style="text-align: center; padding: 2rem; color: var(--text-muted); font-weight: 600;">
-          Aucun résultat pour « <strong>${safeQuery}</strong> ».
+          ${escapeHTML(noResultsText)} « <strong>${safeQuery}</strong> ».
         </div>
       `;
       return;

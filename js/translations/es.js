@@ -1,6 +1,6 @@
 /**
  * Pack de Langue : Espagnol (ES) - Español
- * Traduction Complète et Exhaustive (UI, Préface, Intro, 10 Arguments, Modales)
+ * Traduction Exhaustive et Intégrale (UI, Préface, Intro, 10 Arguments, Modales)
  */
 window.I18N_DATA = window.I18N_DATA || {};
 window.I18N_DATA['es'] = {
@@ -135,1247 +135,1085 @@ window.I18N_DATA['es'] = {
     "labelAuthor": "Autor:",
     "authorName": "Salah Eddine Ahmed",
     "btnSidebarHome": "Sumario",
-    "btnSidebarContact": "Contacto"
+    "btnSidebarContact": "Contacto",
+    "sidebarPreface": "Preface",
+    "sidebarIntro": "Who are the Quranists?",
+    "portalQuoteTransLabel": "Translation of the meaning:",
+    "portalQuoteText": "If you hear a man who, upon having an athar (transmitted tradition) cited to him, rejects it saying: \"Leave this and bring us the Quran\", do not doubt that he is a man steeped in heresy. Stand up and leave his gathering!",
+    "searchNoResults": "No results found for",
+    "contactAuthorHeader": "Author of the Manual",
+    "legalSharingHeader": "Sharing Conditions & Educational Distribution",
+    "legalAuthorizedUsesHeader": "Authorized Uses:",
+    "legalAuthorizedUsesList": [
+      "Downloading, printing, reading, and free sharing of the factsheets.",
+      "Use in study circles, courses, debates, and social networks.",
+      "Any commercial exploitation or distorting alteration is strictly prohibited without prior permission."
+    ],
+    "legalPrivacyHeader": "Technical Data & Privacy",
+    "legalPrivacyBullet1": "No third-party advertising cookies: Zero commercial tracking pixels.",
+    "legalPrivacyBullet2": "Fonts & resources: Secure loading of Google Fonts.",
+    "legalCreditsHeader": "Book Details:",
+    "legalCreditsBookTitle": "How to Expose and Refute the Quranist Sect",
+    "footerSubtitle": "10 major arguments examined and methodically refuted",
+    "footerBtnLegal": "⚖️ Sharing, License & Privacy",
+    "footerBtnContact": "✉️ Contact Author",
+    "footerBtnPortal": "📜 Words of Al-Barbahârî",
+    "footerContactLabel": "Contact:"
   },
   "arguments": [
     {
       "id": 1,
       "number": "01",
       "slug": "1-coran-complet",
-      "theme": "Completitud y Clarificación",
-      "title": "El Corán es completo y detallado: ¿por qué necesitaríamos la Sunna?",
+      "theme": "Completitud y Clarificación Profética",
+      "title": "El Corán es completo: ¿por qué necesitaríamos la Sunna?",
       "shortTitle": "Perfección del Corán",
-      "tagline": "El Corán es completo en sus fundamentos, y parte de su completitud es ordenar obedecer al Profeta ﷺ.",
-      "formula": "¡La completitud legislativa del Corán incluye el mandato de la clarificación profética; rechazar la Sunna es rechazar el Corán!",
+      "tagline": "El Corán es completo en sus fundamentos, y parte de su perfección es ordenar la obediencia al Profeta ﷺ.",
+      "formula": "La completitud legislativa del Corán incluye el mandato de clarificación profética (Bayan); ¡rechazar la Sunna es rechazar el Corán!",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_1.pdf",
       "theirArgument": {
-        "thesis": "El Corán es completo, detallado y no omite nada. Todo lo que el creyente necesita está explícitamente en el Libro; sostener que se necesita la Sunna contradice la perfección del Corán.",
+        "thesis": "El Corán es completo, fully detailed, and omits nothing. Everything we need is explicitly in the Book; claiming a need for Hadiths contradicts the perfection of the Quran.",
         "verses": [
           {
-            "ref": "Sourate Al-Anʿâm, verset 38",
-            "ar": "مَّا فَرَّطْنَا فِي الْكِتَابِ مِن شَيْءٍ",
-            "translation": "No hemos omitido nada en el Libro."
+            "ref": "Sura Al-An'am, versículo 38",
+            "ar": "مَّا فَرَّطْنَا فِي الْكِتَابِ مِن شَيْءٍ",
+            "translation": "No hemos descuidado anything in the Book."
           },
           {
-            "ref": "Sourate Al-Anʿâm, verset 114",
-            "ar": "كِتَابًا مُّفَصَّلًا",
-            "translation": "No hemos omitido nada en el Libro."
-          },
-          {
-            "ref": "Sourate An-Naḥl, verset 89",
-            "ar": "وَنَزَّلْنَا عَلَيْكَ الْكِتَابَ تِبْيَانًا لِّكُلِّ شَيْءٍ",
-            "translation": "No hemos omitido nada en el Libro."
+            "ref": "Sura An-Nahl, versículo 89",
+            "ar": "وَنَزَّلْنَا عَلَيْكَ الْكِتَابَ تِبْيَانًا لِّكُلِّ شَيْءٍ",
+            "translation": "Y te hemos revelado to you the Book as clarification for all things."
           }
         ],
-        "realQuestion": "¿La completitud del Corán como marco legislativo excluye la clarificación profética que el propio Corán impone?"
+        "realQuestion": "¿Acaso la structural completeness of the Quran as a foundational framework preclude the prophetic explanation that it explicitly mandates?"
       },
       "logicalNode": {
-        "title": "Confusión entre completitud del sistema y autosuficiencia interpretativa",
+        "title": "Confusión between systemic completeness and interpretative self-sufficiency",
         "distinctions": [
           {
-            "term": "COMPLETITUD LEGISLATIVA",
-            "desc": "El Corán es completo porque establece todos los principios y funda la autoridad del Profeta."
+            "term": "SISTÉMICA LEGISLATIVE COMPLETENESS",
+            "desc": "El Corán is complete because it establishes all foundational principles and institutes the legal authority of the Prophet ﷺ."
           },
           {
-            "term": "EXHAUSTIVIDAD DETALLADA",
-            "desc": "Una premisa falsa: el Corán ordena rezar sin detallar las unidades ni posturas, delegándolas al Profeta."
+            "term": "LITERAL OPERATIONAL EXHAUSTION",
+            "desc": "A false assumption: the Quran commands prayer, zakah, and fasting without specifying practical details, delegating them to the Prophet ﷺ."
           }
         ],
-        "generalRule": "Un texto fundacional que delega la clarificación autorizada no es deficiente; su perfección incluye esa delegación.",
-        "errorToAvoid": "Confundir la universalidad de los principios con los procedimientos prácticos del culto."
+        "generalRule": "Un texto fundamental text that formally delegates binding interpretation to an authorized messenger is not deficient; its completeness includes that delegated authority.",
+        "errorToAvoid": "Confundir fundamental legislative completeness with procedural execution details."
       },
       "centralPrinciple": {
-        "title": "La completitud del Corán incluye la obligación de seguir la Sunna",
-        "formalScheme": "1. El Corán es completo al fundar las bases del Islam.\n2. Parte de su completitud es ordenar: {Para que aclares a los hombres lo que se les ha revelado}.\n3. Por tanto: obedecer la Sunna es cumplir la completitud del Corán.",
-        "explanation": "El Corán funda la autoridad de la Sunna; rechazar la Sunna es violar los propios versículos coránicos que ordenan seguirla.",
-        "logicalTest": "Si el Corán fuera autosuficiente sin Hadith, ¡deduce únicamente del texto coránico el número de rezos diarios y sus ciclos (rak'at)!"
+        "title": "La completitud of the Quran includes the obligation of following the Prophet's authority",
+        "formalScheme": "1. El Corán is complete in laying down divine guidance.\n2. Part of this completeness is the explicit command to obey the Prophet ﷺ and follow his explanation (Bayan).\n3. Por lo tanto, following the Sunnah is the direct fulfillment of the Quran's completeness.",
+        "explanation": "El Corán mismo establishes the authority of the Sunnah. Rejecting the Sunnah violates the very Quranic verses that command obedience to the Messenger ﷺ.",
+        "logicalTest": "Si el Corán was intended as an operational manual without Hadith, derive solely from the Quranic text the number of daily prayers, units (rak'at), and exact zakah percentages!"
       },
       "quranicArchitecture": {
-        "title": "Versículos coránicos decisivos",
+        "title": "Versículos decisivos Quranic verses on the mission of prophetic clarification (Bayan)",
         "verses": [
           {
-            "ref": "Sourate An-Nisâʾ, verset 59",
-            "ar": "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ",
-            "translation": "Y te hemos revelado el Mensaje para que expliques a los hombres lo que se les hizo descender."
+            "ref": "Sura An-Nahl, versículo 44",
+            "ar": "وَأَنزَلْنَا إِلَيْكَ الذِّكْرَ لِتُبَيِّنَ لِلنَّاسِ مَا نُزِّلَ إِلَيْهِمْ",
+            "translation": "Y te hemos revelado to you the Message so that you may clarify to the people what was revealed to them."
           },
           {
-            "ref": "Sourate An-Nisâʾ, verset 65",
-            "ar": "حَتَّىٰ يُحَكِّمُوكَ فِيمَا شَجَرَ بَيْنَهُمْ",
-            "translation": "Y te hemos revelado el Mensaje para que expliques a los hombres lo que se les hizo descender."
-          },
-          {
-            "ref": "Sourate An-Naḥl, verset 44",
-            "ar": "لِتُبَيِّنَ لِلنَّاسِ مَا نُزِّلَ إِلَيْهِمْ",
-            "translation": "Y te hemos revelado el Mensaje para que expliques a los hombres lo que se les hizo descender."
-          },
-          {
-            "ref": "Sourate Al-Aḥzâb, verset 21",
-            "ar": "لَّقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ",
-            "translation": "Y te hemos revelado el Mensaje para que expliques a los hombres lo que se les hizo descender."
+            "ref": "Sura Al-Jumu'ah, versículo 2",
+            "ar": "يَتْلُو عَلَيْهِمْ آيَاتِهِ وَيُزَكِّيهِمْ وَيُعَلِّمُهُمُ الْكِتَابَ وَالْحِكْمَةَ",
+            "translation": "Recitándoles His verses, purifying them, and teaching them the Book and Wisdom (the Sunnah)."
           }
         ],
-        "consequence": "El Corán confirma la autoridad normativa y vinculante del Profeta ﷺ."
+        "consequence": "El Corán establishes the Prophet ﷺ as an authoritative teacher and interpreter, not a passive messenger."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "La Constitución y los Reglamentos",
-          "scenario": "Una constitución fija los derechos y crea un Tribunal Supremo para interpretar y aplicar las leyes.",
-          "logic": "La constitución es completa al instituir los órganos de aplicación; no necesita detallar cada señal de tráfico.",
-          "lesson": "La completitud del marco incluye las autoridades delegadas que instituye.",
-          "application": "El Corán es la constitución que ordena acudir a la Sunna profética como aplicación vinculante."
-        },
-        {
-          "num": 2,
-          "title": "El Plano del Arquitecto y el Constructor",
-          "scenario": "Un arquitecto diseña el plano de un edificio y encomienda la dirección de obra a un ingeniero cualificado.",
-          "logic": "Si los obreros rechazan las órdenes del ingeniero alegando que el plano ya está completo, el edificio se derrumbará.",
-          "lesson": "El diseño teórico se completa con la ejecución del responsable acreditado.",
-          "application": "El Corán estableció las bases del culto y encomendó al Profeta su aplicación práctica."
-        },
-        {
-          "num": 3,
-          "title": "La Receta Médica y el Farmacéutico",
-          "scenario": "Un médico prescribe un tratamiento y ordena al paciente seguir las pautas de posología del farmacéutico.",
-          "logic": "Rechazar las indicaciones del farmacéutico alegando que la receta está completa conduce al desastre.",
-          "lesson": "La remisión del origen a la explicación forma parte del plan terapéutico.",
-          "application": "Al-lah ordenó la oración y remitió sus modalidades prácticas a su Mensajero ﷺ."
+          "title": "La Constitución and Executive Regulations",
+          "scenario": "La constitución de una nación constitution establishes fundamental rights and creates a Supreme Court authorized to interpret and apply laws.",
+          "logic": "La constitución is complete by creating executive bodies; it does not need to list every local traffic ordinance!",
+          "lesson": "La completitud of a foundational text includes the institutions it creates.",
+          "application": "El Corán is the supreme constitution that mandates following the prophetic Sunnah as its authoritative application."
         }
       ],
       "readyResponses": {
-        "quick30s": "La completitud del Corán significa que fijó todos los principios fundamentales, y entre sus mandatos supremos está: {Y te revelamos el Mensaje para que expliques a los hombres} (16:44). ¡Rechazar la Sunna viola el propio Corán!",
-        "developed": "Cuando el Corán afirma {No hemos omitido nada en el Libro} (6:38), se refiere a la completitud de la guía y los principios de la fe. Entre los mayores principios está la sumisión a la autoridad del Mensajero ﷺ. Quien rechaza la Sunna cae en contradicción al anular decenas de versículos que ordenan seguir la explicación profética."
+        "quick30s": "La completitud of the Quran means that it establishes all core principles of faith, and among its supreme commands is: {And We revealed to you the Message that you may clarify to the people} (16:44). Rejecting the Sunnah violates the Quran itself!",
+        "developed": "Cuando el Corán declares {We have not neglected anything in the Book} (6:38), it refers to the fullness of divine guidance. One of its greatest principles is submission to the authority of the Messenger ﷺ. Anyone who rejects his Sunnah nullifies the Quran's commands."
       },
       "objections": [
         {
-          "obj": "El Corán dice 'clarificación de todas las cosas', ¿es la Sunna algo fuera del Corán?",
-          "ans": "La Sunna es la clarificación interna ordenada por el propio Corán, no un añadido ajeno. La explicación forma parte integral del mensaje."
+          "obj": "El Corán says 'clarification for all things', is the Sunnah something outside the Quran?",
+          "ans": "La Sunna is the internal clarification commanded by the Quran itself, not an external addition. The explanation is an integral part of the message."
         }
       ],
       "framingQuestions": [
-        "¿Dónde se encuentra en el Corán solo el número de ciclos (rak'at) de las cinco oraciones diarias?"
+        "¿Dónde en the Quran alone can one find the number of rak'at for the noon prayer?",
+        "¿Por qué did Allah command the Prophet to 'clarify' (li-tubayyina) if the text was self-sufficient without prophetic practice?"
       ],
       "quiz": [
         {
-          "q": "¿Qué significa la completitud del Corán en la legislación islámica?",
+          "q": "¿Qué significa the completeness of the Quran mean in the Islamic legislative context?",
           "options": [
-            "Menciona cada detalle procedimental haciendo innecesario al Profeta.",
-            "Establece el marco completo de la fe y ordena acudir a la Sunna profética.",
-            "Es solo un texto poético.",
-            "No tiene ninguna relevancia legal."
+            "Que enumera lists every practical detail without need for explanation.",
+            "Que enumera establishes the foundations and obligates obedience to the Prophet ﷺ.",
+            "Que enumera abrogates the Sunnah.",
+            "Que enumera is merely a history book."
           ],
           "answer": 1,
-          "explanation": "La perfección del Corán radica en asentar los fundamentos divinos y ordenar la sumisión a la clarificación del Mensajero."
+          "explanation": "La completitud of the Quran establishes the obligation to follow the Prophet's authorized explanation."
         }
       ],
       "conclusion": {
         "steps": [
-          "El Corán es el libro fundacional perfecto que estableció las bases de la religión.",
-          "El Corán impone expresamente obedecer al Profeta y seguir su clarificación viva.",
-          "No existe contradicción alguna entre la perfección del Corán y el deber de seguir la Sunna."
+          "El Corán is a complete and perfect book of divine guidance.",
+          "El Corán itself commands obedience to the Prophet ﷺ.",
+          "There is no contradiction between the completeness of the Quran and the Sunnah."
         ],
-        "finalText": "La perfección del Corán se manifiesta en haber ordenado la Sunna como su explicación indispensable.",
-        "punchline": "¡Pretender prescindir de la Sunna en nombre del Corán es rechazar el propio Corán que ordenó seguir la Sunna!"
+        "finalText": "La completitud of the Quran is demonstrated by instituting the Sunnah as its binding practical explanation.",
+        "punchline": "Quien pretende to suffice with the Quran in order to reject the Sunnah is rejecting the Quran itself!"
       }
     },
     {
       "id": 2,
       "number": "02",
       "slug": "2-obeissance-messager",
-      "theme": "Autoridad de la Obediencia",
-      "title": "La obediencia al Mensajero: ¿estaba limitada a su vida terrenal?",
-      "shortTitle": "Obediencia al Mensajero",
-      "tagline": "La orden coránica de obedecer al Mensajero es absoluta, universal y eterna.",
-      "formula": "¡La obediencia al Profeta es una obligación permanente; su Sunna es la encarnación viva de esa obediencia!",
+      "theme": "Validez Perpetua de la Obediencia Profética",
+      "title": "¿La obediencia al Profeta solo era válida durante su vida?",
+      "shortTitle": "Autoridad perpetua del Profeta",
+      "tagline": "Los mandatos coránicos de obedecer al Mensajero son absolutos y vinculantes para todas las generaciones.",
+      "formula": "La obediencia al Mensajero es una obligación intemporal; ¡la Sunna auténtica es su encarnación viva!",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_2.PDF",
       "theirArgument": {
-        "thesis": "La obediencia al Mensajero era obligatoria solo para los Compañeros durante su vida como líder; tras su muerte, solo el Corán escrito tiene autoridad sobre nosotros.",
+        "thesis": "Obedience to the Prophet was only mandatory for his companions during his lifetime as a community leader. After his death, no authority remains over us except the written text of the Quran.",
         "verses": [
           {
-            "ref": "Sourate An-Nisâʾ, verset 59",
-            "ar": "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ",
-            "translation": "¡Oh creyentes! Obedeced a Al-lah y obedeced al Mensajero."
-          },
-          {
-            "ref": "Sourate An-Nisâʾ, verset 80",
-            "ar": "مَّن يُطِعِ الرَّسُولَ فَقَدْ أَطَاعَ اللَّهَ",
-            "translation": "¡Oh creyentes! Obedeced a Al-lah y obedeced al Mensajero."
+            "ref": "Sura An-Nisa, versículo 59",
+            "ar": "يَا أَيُّهَا الَّذِينَ آمَنُوا أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ",
+            "translation": "¡Oh, creyentes!, obedeced a Allah and obey the Messenger."
           }
         ],
-        "realQuestion": "¿Es la orden de obedecer al Mensajero una instrucción histórica temporal o un pilar permanente de la fe?"
+        "realQuestion": "¿Es el Quranic command to obey the Messenger a temporary historical rule or an eternal legal principle for the Ummah until the Day of Judgment?"
       },
       "logicalNode": {
-        "title": "Confusión entre la persona mortal del Profeta y su autoridad legislativa permanente",
+        "title": "Confusión between the mortal person and the perpetual legislative status of the Prophet",
         "distinctions": [
           {
-            "term": "VIDA TERRENAL",
-            "desc": "Período histórico de revelación y fundación."
+            "term": "VIDA TERRENAL LIFETIME OF THE PROPHET",
+            "desc": "La fase histórica phase of receiving revelation and establishing the community."
           },
           {
-            "term": "ESTATUS LEGISLATIVO PERMANENTE",
-            "desc": "Mandatos y normas válidos para todas las generaciones hasta el Fin del Mundo."
+            "term": "LEGISLATIVE MISSION & SUNNAH",
+            "desc": "Timeless rulings and principles binding upon every Muslim until the Day of Resurrection."
           }
         ],
-        "generalRule": "Las leyes generales de la revelación no caducan con la muerte del Mensajero que las transmitió.",
-        "errorToAvoid": "Limitar la autoridad del Profeta a su época histórica privando al Corán de su universalidad."
+        "generalRule": "Los mandatos generales legal commands do not expire with the death of the first generation or the authorized lawmaker.",
+        "errorToAvoid": "Reducir the prophetic mission to the physical person, thus nullifying the Sunnah for subsequent generations."
       },
       "centralPrinciple": {
-        "title": "Obedecer al Mensajero está directamente unido a obedecer a Al-lah",
-        "formalScheme": "1. El Corán se dirige a todos los creyentes: {Obedeced a Al-lah y al Mensajero}.\n2. Si la obediencia murió con él, la mitad del Corán estaría abrogada hoy.\n3. Por tanto: obedecer al Profeta hoy se cumple siguiendo su Sunna auténtica.",
-        "explanation": "Al-lah vinculó la obediencia al Profeta con la obediencia a Sí mismo en más de 30 versículos sin límite temporal.",
-        "logicalTest": "Si la obediencia al Profeta expiró con su muerte, ¿por qué recitamos hoy los versículos que ordenan obedecerle en nuestras oraciones?"
+        "title": "La obediencia to the Messenger is inextricably linked to obedience to Allah",
+        "formalScheme": "1. El Corán addresses all Muslims until the Day of Judgment: {Obedeced Allah and obey the Messenger}.\n2. If this applied only to his lifetime, half of the Quran would have expired upon his death.\n3. Por lo tanto, obedience persists and is fulfilled through his authentic Sunnah.",
+        "explanation": "Allah une His obedience to that of the Messenger in over 30 verses in absolute imperative form. Today, obeying the Prophet means following his verified Sunnah.",
+        "logicalTest": "Si la obediencia ceased upon his death, why do we still recite these verses in our daily prayers as binding divine law?"
       },
       "quranicArchitecture": {
-        "title": "Versículos coránicos decisivos",
+        "title": "Versículos decisivos verses on the binding judicial authority of the Prophet ﷺ",
         "verses": [
           {
-            "ref": "Sourate An-Nisâʾ, verset 65",
-            "ar": "فَلَا وَرَبِّكَ لَا يُؤْمِنُونَ حَتَّىٰ يُحَكِّمُوكَ فِيمَا شَجَرَ بَيْنَهُمْ ثُمَّ لَا يَجِدُوا فِي أَنفُسِهِمْ حَرَجًا مِّمَّا قَضَيْتَ وَيُسَلِّمُوا تَسْلِيمًا",
-            "translation": "Quien obedece al Mensajero, ciertamente obedece a Al-lah."
+            "ref": "Sura An-Nisa, versículo 65",
+            "ar": "فَلَا وَرَبِّكَ لَا يُؤْمِنُونَ حَتَّىٰ يُحَكِّمُوكَ فِيمَا شَجَرَ بَيْنَهُمْ",
+            "translation": "Pero no, por tu Señor, they will not believe until they make you judge concerning that over which they dispute among themselves."
           },
           {
-            "ref": "Sourate An-Nûr, verset 63",
-            "ar": "فَلْيَحْذَرِ الَّذِينَ يُخَالِفُونَ عَنْ أَمْرِهِ",
-            "translation": "Quien obedece al Mensajero, ciertamente obedece a Al-lah."
-          },
-          {
-            "ref": "Sourate Al-Aḥzâb, verset 36",
-            "ar": "وَمَا كَانَ لِمُؤْمِنٍ وَلَا مُؤْمِنَةٍ إِذَا قَضَى اللَّهُ وَرَسُولُهُ أَمْرًا أَن يَكُونَ لَهُمُ الْخِيَرَةُ مِنْ أَمْرِهِمْ",
-            "translation": "Quien obedece al Mensajero, ciertamente obedece a Al-lah."
+            "ref": "Sura An-Nur, versículo 63",
+            "ar": "فَلْيَحْذَرِ الَّذِينَ يُخَالِفُونَ عَنْ أَمْرِهِ أَن تُصِيبَهُمْ فِتْنَةٌ",
+            "translation": "So let those who oppose his command beware, lest a trial or a painful punishment strike them."
           }
         ],
-        "consequence": "El Corán confirma la autoridad normativa y vinculante del Profeta ﷺ."
+        "consequence": "La fe auténtica requires submitting to the rulings and Sunnah of the Prophet ﷺ."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "El Marco Legal y la Aplicación",
-          "scenario": "Un código legal respaldado por jurisprudencia continua.",
-          "logic": "El texto exige su clave interpretativa.",
-          "lesson": "La aplicación práctica es indispensable.",
-          "application": "La Sunna materializa los mandatos coránicos."
-        },
-        {
-          "num": 2,
-          "title": "El Plano del Arquitecto y el Constructor",
-          "scenario": "Un arquitecto diseña el plano de un edificio y encomienda la dirección de obra a un ingeniero cualificado.",
-          "logic": "Si los obreros rechazan las órdenes del ingeniero alegando que el plano ya está completo, el edificio se derrumbará.",
-          "lesson": "El diseño teórico se completa con la ejecución del responsable acreditado.",
-          "application": "El Corán estableció las bases del culto y encomendó al Profeta su aplicación práctica."
-        },
-        {
-          "num": 3,
-          "title": "La Receta Médica y el Farmacéutico",
-          "scenario": "Un médico prescribe un tratamiento y ordena al paciente seguir las pautas de posología del farmacéutico.",
-          "logic": "Rechazar las indicaciones del farmacéutico alegando que la receta está completa conduce al desastre.",
-          "lesson": "La remisión del origen a la explicación forma parte del plan terapéutico.",
-          "application": "Al-lah ordenó la oración y remitió sus modalidades prácticas a su Mensajero ﷺ."
+          "title": "El testamento legal of the Founder",
+          "scenario": "El fundador of a nation writes laws and mandates following the directives of his designated office perpetually.",
+          "logic": "La muerte of the founder does not invalidate the documented regulations.",
+          "lesson": "Las normas legales remain in force through reliable transmission.",
+          "application": "La Sunna of the Prophet is the authoritative documented explanation for all ages."
         }
       ],
       "readyResponses": {
-        "quick30s": "El Corán proclama: {Quien obedece al Mensajero obedece a Al-lah} (4:80). Si la obediencia hubiera muerto con él, ¡la mitad del Corán estaría inservible hoy! Obedecerle hoy es seguir su Sunna auténtica.",
-        "developed": "Al-lah ordenó obedecer al Mensajero en más de 30 lugares del Corán con mandatos absolutos. Los musulmanes de todas las épocas están sujetos al mismo Corán; la obediencia al Profeta tras su muerte se realiza mediante el estudio y seguimiento de sus enseñanzas auténticas transmitidas por cadenas rigurosas."
+        "quick30s": "El Corán declares: {He who obeys the Messenger has obeyed Allah} (4:80). If obedience died with him, half the Quran would be obsolete today! Obedience today is achieved by following his authentic Sunnah.",
+        "developed": "Allah formuló obedience to the Messenger unconditionally. No Muslim scholar has ever claimed that these commands historically expired. The Sunnah is the living application of this divine imperative."
       },
       "objections": [
         {
-          "obj": "¿No basta el texto coránico sin relatos históricos?",
-          "ans": "El propio Corán ordena tomar todo lo que el Mensajero manda y enseña."
+          "obj": "Los Compañeros could question the Prophet directly, whereas we cannot!",
+          "ans": "Los musulmanes in distant lands (such as Yemen) could not ask the Prophet directly either; they followed reliable transmitters. We follow the very same verified chains of transmission."
         }
       ],
       "framingQuestions": [
-        "¿Por qué aceptar la transmisión de los sabios para el texto del Corán y rechazarla para la Sunna?"
+        "¿Acaso la universal mission of the Prophet to all mankind end with his death?",
+        "¿Cómo can one apply {Whatever the Messenger gives you, take it} (59:7) without his Sunnah?"
       ],
       "quiz": [
         {
-          "q": "¿Cuál es el papel de la Sunna frente al Corán?",
+          "q": "¿Cómo se realiza obedience to the Messenger ﷺ realized after his passing?",
           "options": [
-            "El texto en papel sin ningún significado práctico.",
-            "La revelación divina que abarca el Corán y la guía profética necesaria para su aplicación.",
-            "Es solo un texto poético.",
-            "No tiene ninguna relevancia legal."
+            "By considering the verses as historically obsolete.",
+            "Siguiendo his authentic Sunnah and documented teachings.",
+            "By interpreting the Quran according to personal subjective whims.",
+            "By rejecting all historical accounts."
           ],
           "answer": 1,
-          "explanation": "La perfección del Corán radica en asentar los fundamentos divinos y ordenar la sumisión a la clarificación del Mensajero."
+          "explanation": "La obediencia to the Prophet after his death is fulfilled by following his authentic Sunnah."
         }
       ],
       "conclusion": {
         "steps": [
-          "El Corán es el libro fundacional perfecto que estableció las bases de la religión.",
-          "El Corán impone expresamente obedecer al Profeta y seguir su clarificación viva.",
-          "No existe contradicción alguna entre la perfección del Corán y el deber de seguir la Sunna."
+          "El Corán is a universal and timeless message for all eras.",
+          "El mandato to obey the Messenger is absolute and everlasting.",
+          "Obeying the Prophet today means adhering to the preserved Sunnah."
         ],
-        "finalText": "La perfección del Corán se manifiesta en haber ordenado la Sunna como su explicación indispensable.",
-        "punchline": "¡Pretender prescindir de la Sunna en nombre del Corán es rechazar el propio Corán que ordenó seguir la Sunna!"
+        "finalText": "La autoridad of the Prophet endures as long as the Quran endures.",
+        "punchline": "El Corán never said 'obey the Messenger only while he lives', but made his obedience an eternal pillar of faith!"
       }
     },
     {
       "id": 3,
       "number": "03",
       "slug": "3-allah-seul-legifere",
-      "theme": "Soberanía Divina",
-      "title": "«El juicio pertenece solo a Al-lah»: ¿legisló el Profeta por su cuenta?",
-      "shortTitle": "Soberanía y Legislación",
-      "tagline": "Las leyes del Profeta derivan de la revelación divina y de la autorización de Al-lah.",
-      "formula": "¡La soberanía absoluta de Al-lah incluye delegar la legislación al Mensajero por revelación!",
+      "theme": "Soberanía Divina y Legislación Profética Delegada",
+      "title": "«El juicio pertenece solo a Allah»: ¿atribuir poder legislativo al Profeta sería shirk?",
+      "shortTitle": "Soberanía Divina & Hukm",
+      "tagline": "El ejercicio de la autoridad judicial conferida por Allah nunca rivaliza con Su soberanía absoluta.",
+      "formula": "La autoridad delegada al Profeta es la ejecución de la voluntad divina; ¡confundirla con shirk es una falacia gravísima!",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_3.PDF",
       "theirArgument": {
-        "thesis": "El juicio y la legislación pertenecen exclusivamente a Al-lah en el Corán; el Profeta no tiene autoridad para declarar nada lícito o ilícito que no esté en el Libro.",
+        "thesis": "El Corán declares: 'Judgment belongs only to Allah' (In al-hukmu illa lillah). Attributing legislative authority to the Prophet means associating partners with Allah (Shirk).",
         "verses": [
           {
-            "ref": "Sourate Yûsuf, verset 40",
-            "ar": "إِنِ الْحُكْمُ إِلَّا لِلَّهِ",
-            "translation": "« Le jugement n'appartient qu'à Allah. »"
+            "ref": "Sura Yusuf, versículo 40",
+            "ar": "إِنِ الْحُكْمُ إِلَّا لِلَّهِ",
+            "translation": "El juicio pertenece solo to Allah."
           },
           {
-            "ref": "Sourate Al-Anʿâm, verset 57",
-            "ar": "إِنِ الْحُكْمُ إِلَّا لِلَّهِ ۖ يَقُصُّ الْحَقَّ ۖ وَهُوَ خَيْرُ الْفَاصِلِينَ",
-            "translation": "« Le jugement n'appartient qu'à Allah : Il tranche en toute vérité et Il est le meilleur des juges. »"
-          },
-          {
-            "ref": "Sourate Al-Kahf, verset 26",
+            "ref": "Sura Al-Kahf, versículo 26",
             "ar": "وَلَا يُشْرِكُ فِي حُكْمِهِ أَحَدًا",
-            "translation": "« Et Il n'associe personne à Son jugement. »"
+            "translation": "And He associates no one in His judgment."
           }
         ],
-        "realQuestion": "¿La soberanía exclusiva de Al-lah le impide delegar autoridad legislativa a su Mensajero mediante revelación no recitada?"
+        "realQuestion": "¿Acaso la exclusive sovereignty of Allah preclude Him from granting His Messenger binding judicial and legislative authority?"
       },
       "logicalNode": {
-        "title": "Confusión entre soberanía originaria y autoridad legislativa delegada",
+        "title": "Confusión between original sovereignty and delegated authority",
         "distinctions": [
           {
-            "term": "PRINCIPIO FUNDAMENTAL",
-            "desc": "Distinción analítica esencial."
+            "term": "SOBERANÍA ABSOLUTE SOVEREIGNTY",
+            "desc": "Allah solo is the Creator of the law and the supreme source of all norms."
           },
           {
-            "term": "APLICACIÓN PRÁCTICA",
-            "desc": "Norma operativa verificada."
+            "term": "DELEGATED LEGISLATIVE AUTHORITY",
+            "desc": "The Prophet ﷺ establishes binding rulings under divine mandate and revelation."
           }
         ],
-        "generalRule": "La coherencia lógica exige no usar dos varas de medir distintas ante la misma cadena de transmisión.",
-        "errorToAvoid": "Rechazar la cadena de transmisión que nos trajo el propio Corán."
+        "generalRule": "Cuando un Soberano authorizes an ambassador, the ambassador's commands emanate from the Sovereign's authority.",
+        "errorToAvoid": "Repetir the Kharijite fallacy: using a true statement to draw a false conclusion."
       },
       "centralPrinciple": {
-        "title": "Principio rector de coherencia y autoridad",
-        "formalScheme": "1. La revelación divina es una totalidad coherente.\n2. El texto y su explicación provienen de la misma fuente.\n3. Seguir la Sunna es salvaguardar el mensaje.",
-        "explanation": "La tradición islámica desarrolló el método de verificación crítica más estricto de la historia humana.",
-        "logicalTest": "¿Por qué aceptas la transmisión de los sabios para el texto del Corán pero la rechazas para las enseñanzas del Profeta?"
+        "title": "El Corán explicitly grants the Prophet legislative and judicial powers",
+        "formalScheme": "1. Allah possesses absolute sovereignty.\n2. Allah commands in the Quran to accept the Prophet's rulings as binding (Surah 7:157).\n3. Obedeceding the Prophet's decisions is submission to Allah's sovereignty.",
+        "explanation": "Allah describes the Messenger as he who {makes lawful for them the good things and prohibits for them the evil} (7:157). This is delegated divine authority.",
+        "logicalTest": "If only Allah can judge, why does the Quran in Surah 4:35 command appointing two human arbitrators in marital disputes?"
       },
       "quranicArchitecture": {
-        "title": "Versículos coránicos decisivos",
+        "title": "Versículos on the prophetic authority to make lawful and unlawful",
         "verses": [
           {
-            "ref": "Sourate Al-Aʿrâf, verset 157",
-            "ar": "وَيُحِلُّ لَهُمُ الطَّيِّبَاتِ وَيُحَرِّمُ عَلَيْهِمُ الْخَبَائِثَ",
-            "translation": "« Il leur rend licites les bonnes choses et leur interdit les mauvaises. »"
+            "ref": "Sura Al-A'raf, versículo 157",
+            "ar": "وَيُحِلُّ لَهُمُ الطَّيِّبَاتِ وَيُحَرِّمُ عَلَيْهِمُ الْخَبَائِثَ",
+            "translation": "Les declara lícitas for them the good things and prohibits for them the evil."
           },
           {
-            "ref": "Sourate An-Nisâʾ, verset 59",
-            "ar": "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ وَأُولِي الْأَمْرِ مِنكُمْ",
-            "translation": "« Obéissez à Allah, obéissez au Messager et à ceux d'entre vous qui détiennent l'autorité. »"
+            "ref": "Sura Al-Ahzab, versículo 36",
+            "ar": "وَمَا كَانَ لِمُؤْمِنٍ وَلَا مُؤْمِنَةٍ إِذَا قَضَى اللَّهُ وَرَسُولُهُ أَمْرًا أَن يَكُونَ لَهُمُ الْخِيَرَةُ",
+            "translation": "It is not for a believing man or a believing woman, when Allah and His Messenger have decided a matter, to have any choice."
           }
         ],
-        "consequence": "El Corán confirma la autoridad normativa y vinculante del Profeta ﷺ."
+        "consequence": "In the Quran, decisions originate jointly from Allah and His Messenger."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "El Marco Legal y la Aplicación",
-          "scenario": "Un código legal respaldado por jurisprudencia continua.",
-          "logic": "El texto exige su clave interpretativa.",
-          "lesson": "La aplicación práctica es indispensable.",
-          "application": "La Sunna materializa los mandatos coránicos."
-        },
-        {
-          "num": 2,
-          "title": "El Plano del Arquitecto y el Constructor",
-          "scenario": "Un arquitecto diseña el plano de un edificio y encomienda la dirección de obra a un ingeniero cualificado.",
-          "logic": "Si los obreros rechazan las órdenes del ingeniero alegando que el plano ya está completo, el edificio se derrumbará.",
-          "lesson": "El diseño teórico se completa con la ejecución del responsable acreditado.",
-          "application": "El Corán estableció las bases del culto y encomendó al Profeta su aplicación práctica."
-        },
-        {
-          "num": 3,
-          "title": "La Receta Médica y el Farmacéutico",
-          "scenario": "Un médico prescribe un tratamiento y ordena al paciente seguir las pautas de posología del farmacéutico.",
-          "logic": "Rechazar las indicaciones del farmacéutico alegando que la receta está completa conduce al desastre.",
-          "lesson": "La remisión del origen a la explicación forma parte del plan terapéutico.",
-          "application": "Al-lah ordenó la oración y remitió sus modalidades prácticas a su Mensajero ﷺ."
+          "title": "El Juez and the Constitution",
+          "scenario": "Un estado declares: all judicial power originates from the people/constitution. Simultaneously, it appoints judges with binding authority.",
+          "logic": "A judge's verdict does not violate the constitution; it applies it.",
+          "lesson": "Delegated authority fulfills original sovereignty.",
+          "application": "The rulings of the Prophet are the authorized application of divine law."
         }
       ],
       "readyResponses": {
-        "quick30s": "La Sunna es el pilar indispensable que da vida y precisión a los mandatos coránicos universales.",
-        "developed": "Los fundamentos del Islam se basan en la complementariedad indestructible entre el Libro de Al-lah y la Sunna de su Mensajero ﷺ."
+        "quick30s": "Usar 'Judgment belongs only to Allah' to strip the Prophet of authority is the ancient heresy of the Kharijites! The same Quran says: {He makes lawful for them the good and prohibits the evil} (7:157). His authority is granted directly by Allah!",
+        "developed": "La soberanía divina does not exclude the authority of the Messenger; it institutes it. The Quran establishes that when {Allah AND His Messenger have decided a matter}, no choice remains (33:36). Whoever challenges this authority challenges the Quran."
       },
       "objections": [
         {
-          "obj": "¿No basta el texto coránico sin relatos históricos?",
-          "ans": "El propio Corán ordena tomar todo lo que el Mensajero manda y enseña."
+          "obj": "Doesn't this make the Prophet a second legislator alongside Allah?",
+          "ans": "No, the Prophet does not legislate of his own whim, but through divine inspiration (Wahy). He is an authorized executor, not an independent rival."
         }
       ],
       "framingQuestions": [
-        "¿Por qué aceptar la transmisión de los sabios para el texto del Corán y rechazarla para la Sunna?"
+        "¿Por qué does the Quran say {when Allah AND His Messenger have decided} (33:36) if the Messenger had no decision-making power?",
+        "Who prohibits the consumption of fanged beasts or marrying a woman and her maternal aunt simultaneously, if not the Prophet ﷺ through his Sunnah?"
       ],
       "quiz": [
         {
-          "q": "¿Cuál es el papel de la Sunna frente al Corán?",
+          "q": "¿Qué versículo states that the Prophet makes lawful the good things and prohibits the evil?",
           "options": [
-            "El texto en papel sin ningún significado práctico.",
-            "La revelación divina que abarca el Corán y la guía profética necesaria para su aplicación.",
-            "Es solo un texto poético.",
-            "No tiene ninguna relevancia legal."
+            "Sura Al-A'raf, verse 157",
+            "Sura Al-Baqarah, verse 1",
+            "Sura Al-Fatihah, verse 1",
+            "Sura An-Nas, verse 1"
           ],
-          "answer": 1,
-          "explanation": "La perfección del Corán radica en asentar los fundamentos divinos y ordenar la sumisión a la clarificación del Mensajero."
+          "answer": 0,
+          "explanation": "La Sura 7:157 explicitly confirms this legislative mandate of the Messenger."
         }
       ],
       "conclusion": {
         "steps": [
-          "El Corán es el libro fundacional perfecto que estableció las bases de la religión.",
-          "El Corán impone expresamente obedecer al Profeta y seguir su clarificación viva.",
-          "No existe contradicción alguna entre la perfección del Corán y el deber de seguir la Sunna."
+          "Allah es the sole supreme source of law.",
+          "Allah has granted His Messenger authority to issue binding judgments.",
+          "Following the Prophet means fully submitting to Allah's sovereignty."
         ],
-        "finalText": "La perfección del Corán se manifiesta en haber ordenado la Sunna como su explicación indispensable.",
-        "punchline": "¡Pretender prescindir de la Sunna en nombre del Corán es rechazar el propio Corán que ordenó seguir la Sunna!"
+        "finalText": "La autoridad of the Prophet is not shirk, but the purest expression of monotheism and obedience to Allah.",
+        "punchline": "Ali ibn Abi Talib said of this slogan: 'A word of truth used to promote falsehood!'"
       }
     },
     {
       "id": 4,
       "number": "04",
       "slug": "4-mission-messager-transmettre",
-      "theme": "Transmisión y Clarificación",
+      "theme": "El Alcance del Mensaje: Balagh y Bayan",
       "title": "«Al Mensajero solo le corresponde la transmisión»: ¿era solo un cartero?",
-      "shortTitle": "La Misión del Mensajero",
-      "tagline": "La transmisión clara (Balagh Mubin) incluye enseñanza, clarificación y aplicación viva.",
-      "formula": "¡La misión profética no es una entrega pasiva de cartas, sino una enseñanza viva y clarificación autorizada!",
+      "shortTitle": "Misión de transmisión (Balagh)",
+      "tagline": "La 'transmisión' coránica (Balagh) abarca enseñanza, ejemplo práctico, juicio y explicación detallada.",
+      "formula": "La transmisión perfecta exige la clarificación (Bayan) y el modelo vivo (Uswah); ¡el Profeta nunca fue un mero mensajero pasivo!",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_4.pdf",
       "theirArgument": {
-        "thesis": "La función del Profeta se limitaba a entregar el Corán como un mensajero postal, sin autoridad para interpretar o imponer prácticas normativas.",
+        "thesis": "El Corán repeatedly states: 'The duty of the Messenger is only clear transmission' (Ma 'ala ar-rasuli illa al-balagh). His role was merely to deliver the Quranic text, without adding any teachings.",
         "verses": [
           {
-            "ref": "Sourate Al-Māʾidah, verset 99",
-            "ar": "مَّا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ",
-            "translation": "« Il n'incombe au Messager que la transmission. »"
+            "ref": "Sura Al-Ma'idah, versículo 99",
+            "ar": "مَّا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ",
+            "translation": "Al Mensajero solo le corresponde is only transmission."
           },
           {
-            "ref": "Sourate An-Nûr, verset 54",
-            "ar": "وَإِن تُطِيعُوهُ تَهْتَدُوا ۚ وَمَا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ الْمُبِينُ",
-            "translation": "« Et si vous lui obéissez, vous serez bien guidés. Et il n'incombe au Messager que la transmission claire. »"
+            "ref": "Sura An-Nur, versículo 54",
+            "ar": "وَإِن تُطِيعُوهُ تَهْتَدُوا وَمَا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ الْمُبِينُ",
+            "translation": "And if you obey him, you will be guided. And upon the Messenger is only clear transmission."
           }
         ],
-        "realQuestion": "¿Definir la misión como 'transmisión' reduce al Profeta a un cartero pasivo o abarca la enseñanza viva y la aplicación?"
+        "realQuestion": "¿Acaso la term 'Balagh' in the Quran imply the mere mechanical delivery of text or the comprehensive educational and practical conveyance of the message?"
       },
       "logicalNode": {
-        "title": "Falacia de reducción: aislar la 'entrega' de las múltiples funciones proféticas",
+        "title": "Reducción of a comprehensive religious concept to a mechanical function",
         "distinctions": [
           {
-            "term": "PRINCIPIO FUNDAMENTAL",
-            "desc": "Distinción analítica esencial."
+            "term": "MECHANICAL DELIVERY OF A PARCEL",
+            "desc": "A courier who delivers a letter without understanding or explaining its content."
           },
           {
-            "term": "APLICACIÓN PRÁCTICA",
-            "desc": "Norma operativa verificada."
+            "term": "PROPHETIC MESSENGERHOOD (BALAGH MUBIN)",
+            "desc": "Proclamation, clarification (Bayan), practical demonstration, spiritual purification (Tazkiyah), and leadership."
           }
         ],
-        "generalRule": "La coherencia lógica exige no usar dos varas de medir distintas ante la misma cadena de transmisión.",
-        "errorToAvoid": "Rechazar la cadena de transmisión que nos trajo el propio Corán."
+        "generalRule": "Quranic terms must be understood in light of all verses defining prophetic duties.",
+        "errorToAvoid": "Demoting the Messenger of Allah to the level of a silent postal clerk."
       },
       "centralPrinciple": {
-        "title": "Principio rector de coherencia y autoridad",
-        "formalScheme": "1. La revelación divina es una totalidad coherente.\n2. El texto y su explicación provienen de la misma fuente.\n3. Seguir la Sunna es salvaguardar el mensaje.",
-        "explanation": "La tradición islámica desarrolló el método de verificación crítica más estricto de la historia humana.",
-        "logicalTest": "¿Por qué aceptas la transmisión de los sabios para el texto del Corán pero la rechazas para las enseñanzas del Profeta?"
+        "title": "El Corán defines prophethood as teaching, exemplification, and wisdom",
+        "formalScheme": "1. El Corán defines the Prophet's duties: reciting, purifying, teaching the Book, and teaching Wisdom (Surah 62:2).\n2. It establishes him as the supreme role model (Surah 33:21).\n3. Por lo tanto, his practical Sunnah is the inseparable core of transmission.",
+        "explanation": "The phrase 'his duty is only transmission' indicates that he cannot compel hearts to faith, not that he is forbidden from explaining the religion.",
+        "logicalTest": "If the Prophet was only a courier, why did Allah command him in Surah 16:44: {that you may clarify to the people what was revealed to them}?"
       },
       "quranicArchitecture": {
-        "title": "Versículos coránicos decisivos",
+        "title": "Versículos on the multifaceted duties assigned to the Prophet ﷺ",
         "verses": [
           {
-            "ref": "Sourate An-Naḥl, verset 44",
-            "ar": "وَأَنزَلْنَا إِلَيْكَ الذِّكْرَ لِتُبَيِّنَ لِلنَّاسِ مَا نُزِّلَ إِلَيْهِمْ",
-            "translation": "« Et vers toi, Nous avons fait descendre le Rappel, afin que tu exposes clairement aux gens ce qui a été révélé pour eux. »"
+            "ref": "Sura Al-Ahzab, versículo 21",
+            "ar": "لَّقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ",
+            "translation": "Tenéis ciertamente in the Messenger of Allah an excellent example."
           },
           {
-            "ref": "Sourate Al-Baqarah, verset 151",
-            "ar": "يَتْلُو عَلَيْكُمْ آيَاتِنَا وَيُزَكِّيكُمْ وَيُعَلِّمُكُمُ الْكِتَابَ وَالْحِكْمَةَ",
-            "translation": "« Il vous récite Nos versets, vous purifie, et vous enseigne le Livre et la Sagesse. »"
-          },
-          {
-            "ref": "Sourate Al-Aḥzâb, verset 21",
-            "ar": "لَّقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ",
-            "translation": "« Vous avez certes dans le Messager d'Allah un excellent modèle. »"
+            "ref": "Sura Al-Baqarah, versículo 151",
+            "ar": "كَمَا أَرْسَلْنَا فِيكُمْ رَسُولًا مِّنكُمْ يَتْلُو عَلَيْكُمْ آيَاتِنَا وَيُزَكِّيكُمْ وَيُعَلِّمُكُمُ الْكِتَابَ وَالْحِكْمَةَ",
+            "translation": "Just as We have sent among you a messenger from yourselves reciting to you Our verses, purifying you, and teaching you the Book and Wisdom."
           }
         ],
-        "consequence": "El Corán confirma la autoridad normativa y vinculante del Profeta ﷺ."
+        "consequence": "The 'Wisdom' (Hikmah) taught alongside the Book is unanimously identified with the prophetic Sunnah."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "El Marco Legal y la Aplicación",
-          "scenario": "Un código legal respaldado por jurisprudencia continua.",
-          "logic": "El texto exige su clave interpretativa.",
-          "lesson": "La aplicación práctica es indispensable.",
-          "application": "La Sunna materializa los mandatos coránicos."
-        },
-        {
-          "num": 2,
-          "title": "El Plano del Arquitecto y el Constructor",
-          "scenario": "Un arquitecto diseña el plano de un edificio y encomienda la dirección de obra a un ingeniero cualificado.",
-          "logic": "Si los obreros rechazan las órdenes del ingeniero alegando que el plano ya está completo, el edificio se derrumbará.",
-          "lesson": "El diseño teórico se completa con la ejecución del responsable acreditado.",
-          "application": "El Corán estableció las bases del culto y encomendó al Profeta su aplicación práctica."
-        },
-        {
-          "num": 3,
-          "title": "La Receta Médica y el Farmacéutico",
-          "scenario": "Un médico prescribe un tratamiento y ordena al paciente seguir las pautas de posología del farmacéutico.",
-          "logic": "Rechazar las indicaciones del farmacéutico alegando que la receta está completa conduce al desastre.",
-          "lesson": "La remisión del origen a la explicación forma parte del plan terapéutico.",
-          "application": "Al-lah ordenó la oración y remitió sus modalidades prácticas a su Mensajero ﷺ."
+          "title": "El Profesor Professor and the Textbook",
+          "scenario": "A university dean assigns a professor to teach a curriculum and provides textbooks to students.",
+          "logic": "No one would claim the professor must only hand out books silently without lecturing!",
+          "lesson": "Education requires oral explanation and practical guidance.",
+          "application": "The Prophet ﷺ taught the Quran through his words, deeds, and tacit approvals."
         }
       ],
       "readyResponses": {
-        "quick30s": "La Sunna es el pilar indispensable que da vida y precisión a los mandatos coránicos universales.",
-        "developed": "Los fundamentos del Islam se basan en la complementariedad indestructible entre el Libro de Al-lah y la Sunna de su Mensajero ﷺ."
+        "quick30s": "En {Al Mensajero's duty is only transmission}, the meaning is: he cannot force faith upon hearts. But how does he transmit? El Corán answers: by reciting, purifying, teaching the Book and Wisdom (62:2), and providing the perfect example (33:21). Calling him a mere mailman contradicts the Quran!",
+        "developed": "The context of verses on Balagh concerns ultimate responsibility: the Messenger is not held accountable for the disbelief of others. Regarding his function, the Quran details four dimensions: Tilawah, Tazkiyah, Ta'lim al-Kitab, and Ta'lim al-Hikmah."
       },
       "objections": [
         {
-          "obj": "¿No basta el texto coránico sin relatos históricos?",
-          "ans": "El propio Corán ordena tomar todo lo que el Mensajero manda y enseña."
+          "obj": "Doesn't Wisdom (Hikmah) in the Quran simply mean general intelligence?",
+          "ans": "No, grammatically Hikmah is paired alongside the Book as a distinct entity ('al-Kitaba wal-Hikmah'). Teaching something alongside the Book refers to prophetic guidance."
         }
       ],
       "framingQuestions": [
-        "¿Por qué aceptar la transmisión de los sabios para el texto del Corán y rechazarla para la Sunna?"
+        "¿Cómo can the Prophet be an 'excellent example' (33:21) if we have no historical record of his actions?",
+        "¿Por qué does the Quran consistently distinguish between 'the Book' and 'the Wisdom'?"
       ],
       "quiz": [
         {
-          "q": "¿Cuál es el papel de la Sunna frente al Corán?",
+          "q": "¿Qué cuatro tareas duties does the Quran assign to the Prophet in Surah 2:151 and 62:2?",
           "options": [
-            "El texto en papel sin ningún significado práctico.",
-            "La revelación divina que abarca el Corán y la guía profética necesaria para su aplicación.",
-            "Es solo un texto poético.",
-            "No tiene ninguna relevancia legal."
+            "Recitación, purifying, teaching the Book, and teaching Wisdom (Sunnah).",
+            "Only handing out written pages.",
+            "Only leading military campaigns.",
+            "No teaching duties."
           ],
-          "answer": 1,
-          "explanation": "La perfección del Corán radica en asentar los fundamentos divinos y ordenar la sumisión a la clarificación del Mensajero."
+          "answer": 0,
+          "explanation": "El Corán explicitly lists: recitation, spiritual purification, and teaching both the Book and Wisdom."
         }
       ],
       "conclusion": {
         "steps": [
-          "El Corán es el libro fundacional perfecto que estableció las bases de la religión.",
-          "El Corán impone expresamente obedecer al Profeta y seguir su clarificación viva.",
-          "No existe contradicción alguna entre la perfección del Corán y el deber de seguir la Sunna."
+          "La transmisión (Balagh) includes doctrinal and practical explanation.",
+          "The Prophet is a teacher, spiritual guide, judge, and living role model.",
+          "Denying the Sunnah strips revelation of its practical fulfillment."
         ],
-        "finalText": "La perfección del Corán se manifiesta en haber ordenado la Sunna como su explicación indispensable.",
-        "punchline": "¡Pretender prescindir de la Sunna en nombre del Corán es rechazar el propio Corán que ordenó seguir la Sunna!"
+        "finalText": "La Sunna is the authentic record of how the Prophet fulfilled his duty of transmission.",
+        "punchline": "The Messenger was the living Quran in action – not a passive courier!"
       }
     },
     {
       "id": 5,
       "number": "05",
       "slug": "5-preservation-coran-hadiths",
-      "theme": "Preservación de la Revelación",
-      "title": "«Nosotros hemos revelado el Dhikr y lo preservaremos»: ¿es el Dhikr solo el Corán?",
+      "theme": "Preservación Divina: Dhikr y Sunna",
+      "title": "«Nosotros revelamos el Mensaje (Adh-Dhikr) y Nosotros lo preservaremos»: ¿se preservó la Sunna?",
       "shortTitle": "Preservación del Dhikr",
-      "tagline": "Preservar el texto del Corán exige lógica y divinamente preservar su explicación práctica.",
-      "formula": "¡El Dhikr abarca toda la revelación; preservar el Corán exige preservar su llave explicativa!",
+      "tagline": "La promesa divina de guardar el Dhikr incluye la revelación y su indispensable clarificación profética.",
+      "formula": "Preservar el Corán exige preservar su explicación práctica (Sunna); ¡de lo contrario el texto sería inaplicable!",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_5.pdf",
       "theirArgument": {
-        "thesis": "Al-lah prometió preservar únicamente el Corán en 'Nosotros lo preservaremos', sin garantizar los hadices; por tanto, todo lo ajeno al Corán carece de preservación y no es de fiar.",
+        "thesis": "Allah promised in Surah 15:9 to preserve only the 'Dhikr' (the Quran). Because Hadiths enjoy no divine guarantee, they have been corrupted by men.",
         "verses": [
           {
-            "ref": "Sourate Al-Ḥijr, verset 9",
-            "ar": "إِنَّا نَحْنُ نَزَّلْنَا الذِّكْرَ وَإِنَّا لَهُ لَحَافِظُونَ",
-            "translation": "Ciertamente Nosotros hemos revelado el Recuerdo (Dhikr) y Nosotros somos sus custodios."
+            "ref": "Sura Al-Hijr, versículo 9",
+            "ar": "إِنَّا نَحْنُ نَزَّلْنَا الذِّكْرَ وَإِنَّا لَهُ لَحَافِظُونَ",
+            "translation": "Ciertamente, Nosotros who sent down the Reminder (adh-Dhikr) and indeed, We will be its guardian."
           }
         ],
-        "realQuestion": "¿Se limita el 'Dhikr' al texto literal del Corán, y puede preservarse el mensaje si se pierde su explicación obligatoria?"
+        "realQuestion": "¿Acaso la term 'Dhikr' include the overall divine revelation and the essential prophetic clarification that enables its practice?"
       },
       "logicalNode": {
-        "title": "Inseparabilidad lógica entre preservar la ley y preservar su aplicación",
+        "title": "Restricción indebida of the term 'Dhikr' and separation between text and meaning",
         "distinctions": [
           {
-            "term": "EL DHIKR COMO REVELACIÓN",
-            "desc": "Término coránico que abarca el Corán y la Sunna explicativa."
+            "term": "LITERAL TEXT OF THE MUSHAF",
+            "desc": "The written words of the Quran from Surah 1 to Surah 114."
           },
           {
-            "term": "INSEPARABILIDAD DEL CULTO",
-            "desc": "Sin la Sunna, los mandatos de la oración y el azaque serían inaplicables."
+            "term": "OVERALL REVELATION (ADH-DHIKR)",
+            "desc": "El Coránic text together with its authentic prophetic explanation necessary for religious practice."
           }
         ],
-        "generalRule": "Preservar el objetivo de un mandato exige necesariamente preservar los medios indispensables para cumplirlo.",
-        "errorToAvoid": "Restringir el término 'Dhikr' al papel físico olvidando que la explicación profética también es revelación."
+        "generalRule": "A promise to preserve guidance for humanity implies preserving its operational meaning.",
+        "errorToAvoid": "Claiming that Allah preserved the letters of a book while letting its practical meaning be lost for centuries."
       },
       "centralPrinciple": {
-        "title": "La Sunna es revelación preservada bajo la promesa divina",
-        "formalScheme": "1. Al-lah garantizó preservar el Dhikr como prueba viva.\n2. El Corán ordena el rezo y delega sus detalles a la Sunna.\n3. Si la Sunna se hubiera perdido, los mandatos coránicos serían inútiles.\n4. Por tanto: Al-lah preservó la Sunna mediante la ciencia del Hadith.",
-        "explanation": "Al-lah dispuso generaciones de sabios rigurosos que examinaron cada narración protegiendo la Sunna de toda alteración.",
-        "logicalTest": "Si la Sunna no está preservada, ¿cómo cumples hoy el mandato coránico de realizar la oración sin adivinar ni inventar?"
+        "title": "In Surah 16:44 Allah explicitly terms the prophetic explanation 'Dhikr'",
+        "formalScheme": "1. Allah states in Surah 16:44: {And We revealed to you the Dhikr that you may clarify to the people}.\n2. In Surah 15:9 He promises: {We will guard the Dhikr}.\n3. The prophetic explanation is an integral part of the protected Dhikr.",
+        "explanation": "If the Sunnah had been lost, no Muslim would know how to pray, fast, or perform Hajj. The promise of perpetual guidance would be rendered void.",
+        "logicalTest": "Do you believe Allah commanded humanity to practice a religion while leaving its foundational rituals corrupted for 1400 years?"
       },
       "quranicArchitecture": {
-        "title": "Versículos coránicos decisivos",
+        "title": "Versículos on the divine guarantee of the explanation of the text",
         "verses": [
           {
-            "ref": "Sourate An-Nisâʾ, verset 59",
-            "ar": "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ",
-            "translation": "« Obéissez à Allah et obéissez au Messager. »"
-          },
-          {
-            "ref": "Sourate Al-Aḥzâb, verset 21",
-            "ar": "لَّقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ",
-            "translation": "« Vous avez certes dans le Messager d'Allah un excellent modèle. »"
+            "ref": "Sura Al-Qiyamah, versículos 18-19",
+            "ar": "فَإِذَا قَرَأْنَاهُ فَاتَّبِعْ قُرْآنَهُ * ثُمَّ إِنَّ عَلَيْنَا بَيَانَهُ",
+            "translation": "Cuando lo hayamos recitado it, follow its recitation. Then upon Us is its explanation."
           }
         ],
-        "consequence": "El Corán confirma la autoridad normativa y vinculante del Profeta ﷺ."
+        "consequence": "Allah takes upon Himself the explanation (Bayan) and preservation of the authentic meaning of His Book."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "La Bóveda de Seguridad y la Llave Maestra",
-          "scenario": "Una empresa guarda sus estatutos en una caja fuerte y custodia la llave en un lugar seguro.",
-          "logic": "Preservar la caja fuerte destruyendo la llave inutiliza completamente su contenido.",
-          "lesson": "Preservar la ley exige preservar su clave de comprensión.",
-          "application": "La Sunna es la llave imprescindible para comprender y aplicar el Corán."
-        },
-        {
-          "num": 2,
-          "title": "El Plano del Arquitecto y el Constructor",
-          "scenario": "Un arquitecto diseña el plano de un edificio y encomienda la dirección de obra a un ingeniero cualificado.",
-          "logic": "Si los obreros rechazan las órdenes del ingeniero alegando que el plano ya está completo, el edificio se derrumbará.",
-          "lesson": "El diseño teórico se completa con la ejecución del responsable acreditado.",
-          "application": "El Corán estableció las bases del culto y encomendó al Profeta su aplicación práctica."
-        },
-        {
-          "num": 3,
-          "title": "La Receta Médica y el Farmacéutico",
-          "scenario": "Un médico prescribe un tratamiento y ordena al paciente seguir las pautas de posología del farmacéutico.",
-          "logic": "Rechazar las indicaciones del farmacéutico alegando que la receta está completa conduce al desastre.",
-          "lesson": "La remisión del origen a la explicación forma parte del plan terapéutico.",
-          "application": "Al-lah ordenó la oración y remitió sus modalidades prácticas a su Mensajero ﷺ."
+          "title": "El Código Secreto and the Decryption Key",
+          "scenario": "A government safeguards a crucial security code but intentionally destroys the only decryption key.",
+          "logic": "An indecipherable text loses all practical value.",
+          "lesson": "Preserving the substance includes preserving the key to understanding.",
+          "application": "La Sunna is the key provided and preserved by Allah to understand and implement the Quran."
         }
       ],
       "readyResponses": {
-        "quick30s": "Al-lah llamó 'Dhikr' a la explicación profética: {Y te revelamos el Dhikr para que expliques a la gente} (16:44). ¡La promesa divina de preservar el Dhikr cubre tanto el Corán como su Sunna auténtica!",
-        "developed": "El Corán nos ordena rezar, pagar el azaque y peregrinar. Todos los detalles proceden de la Sunna profética. Si la Sunna no estuviera preservada, ¡el Corán nos exigiría un imposible! La preservación del Corán implica necesariamente la preservación de su Sunna."
+        "quick30s": "Allah llama the explanation given to the Prophet 'Dhikr': {We revealed to you the Dhikr that you may clarify} (16:44). When He promises to guard the Dhikr (15:9), He protects the text and its authentic practice. Saying the Sunnah is lost insults Allah's wisdom!",
+        "developed": "In Surah Al-Qiyamah Allah guarantees: {Upon Us is its explanation} (75:19). Historically, this divine protection manifested through the extraordinary science of Isnad (chains of narration), which isolated every fabrication with unprecedented precision."
       },
       "objections": [
         {
-          "obj": "¿No existen hadices falsificados? ¿Cómo afirmar que están preservados?",
-          "ans": "La existencia de moneda falsa no elimina el dinero auténtico; ¡el hecho de que los sabios identificaran y aislaran cada falsificación es la prueba definitiva de su preservación!"
-        },
-        {
-          "obj": "¿No hubo relatos débiles o discrepancias humanas en las transmisiones?",
-          "ans": "La ciencia del Isnad y la crítica biográfica de narradores (Ilm ar-Rijal) estableció el método histórico más riguroso jamás creado, clasificando cada grado de fiabilidad con exactitud matemática."
+          "obj": "There are weak and fabricated Hadiths, doesn't that prove the Sunnah was not preserved?",
+          "ans": "The fact that scholars identified, exposed, and cataloged every weak or forged Hadith proves the perfect efficacy of preservation!"
         }
       ],
       "framingQuestions": [
-        "Si la Sunna no estuviera preservada, ¿nos ordenaría Al-lah seguir a un Profeta cuyas enseñanzas se habrían perdido?"
+        "¿Si la Sunnah was not preserved, how do you know today that the Dawn prayer is 2 rak'at?",
+        "Would Allah leave billions of believers in error regarding how to worship Him?"
       ],
       "quiz": [
         {
-          "q": "¿Qué abarca el término 'Dhikr' en el versículo 15:9?",
+          "q": "¿Qué versículo establishes the divine commitment to provide the explanation of the Quran?",
           "options": [
-            "El texto en papel sin ningún significado práctico.",
-            "La revelación divina que abarca el Corán y la guía profética necesaria para su aplicación.",
-            "Es solo un texto poético.",
-            "No tiene ninguna relevancia legal."
+            "Sura Al-Qiyamah, verse 19: {Then upon Us is its explanation}",
+            "Sura Al-Baqarah, verse 2",
+            "Sura Al-Ikhlas, verse 1",
+            "Sura An-Nas, verse 1"
           ],
-          "answer": 1,
-          "explanation": "La perfección del Corán radica en asentar los fundamentos divinos y ordenar la sumisión a la clarificación del Mensajero."
+          "answer": 0,
+          "explanation": "La Sura 75:19 affirms the divine guarantee to preserve the explanation of the text."
         }
       ],
       "conclusion": {
         "steps": [
-          "El Corán es el libro fundacional perfecto que estableció las bases de la religión.",
-          "El Corán impone expresamente obedecer al Profeta y seguir su clarificación viva.",
-          "No existe contradicción alguna entre la perfección del Corán y el deber de seguir la Sunna."
+          "Dhikr encompasses the Quranic text and its necessary prophetic explanation.",
+          "Allah has guaranteed the complete preservation of the religion.",
+          "Hadith science was the historical instrument of this divine protection."
         ],
-        "finalText": "La perfección del Corán se manifiesta en haber ordenado la Sunna como su explicación indispensable.",
-        "punchline": "¡Pretender prescindir de la Sunna en nombre del Corán es rechazar el propio Corán que ordenó seguir la Sunna!"
+        "finalText": "The text and the Sunnah are two inseparable dimensions of the single revealed guidance.",
+        "punchline": "A text preserved in lettering but lost in practical meaning would be no guidance at all!"
       }
     },
     {
       "id": 6,
       "number": "06",
       "slug": "6-compilation-tardive-hadiths",
-      "theme": "Documentación Histórica",
-      "title": "«Los hadices se escribieron 200 años después»: la verdad histórica del Isnad",
-      "shortTitle": "Historia de la Compilación",
-      "tagline": "La escritura comenzó en vida del Profeta; las grandes obras culminaron dos siglos de transmisión continua.",
-      "formula": "¡Confundir la compilación temática final con el inicio de la escritura es una falacia histórica!",
+      "theme": "Historiografía y Ciencia de la Transmisión",
+      "title": "¿Los hadices fueron compilados dos siglos después y fueron inventados?",
+      "shortTitle": "Compilación histórica de los Hadices",
+      "tagline": "El registro escrito comenzó en vida de los Compañeros; ¡Al-Bujari fue un compilador crítico, no el inventor!",
+      "formula": "La compilación crítica no es invención: ¡los hadices fueron memorizados, registrados y transmitidos desde la primera generación!",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_6.pdf",
       "theirArgument": {
-        "thesis": "Los hadices no se recopilaron hasta la época de Al-Bujari, más de doscientos años después del Profeta; ¿cómo confiar en relatos orales tras dos siglos?",
-        "verses": [],
-        "realQuestion": "¿Comenzó la escritura del Hadith en el siglo III o existieron cuadernos escritos desde la época de los Compañeros?"
-      },
-      "logicalNode": {
-        "title": "Falacia histórica entre la compilación final clasificada y el inicio de la escritura",
-        "distinctions": [
+        "thesis": "Al-Bujari murió in 256 AH, over 200 years after the Prophet. In two centuries of oral transmission, everything was corrupted, fabricated, and politically manipulated.",
+        "verses": [
           {
-            "term": "PRINCIPIO FUNDAMENTAL",
-            "desc": "Distinción analítica esencial."
-          },
-          {
-            "term": "APLICACIÓN PRÁCTICA",
-            "desc": "Norma operativa verificada."
+            "ref": "Sura Al-An'am, versículo 116",
+            "ar": "إِن يَتَّبِعُونَ إِلَّا الظَّنَّ",
+            "translation": "No siguen sino except assumption."
           }
         ],
-        "generalRule": "La coherencia lógica exige no usar dos varas de medir distintas ante la misma cadena de transmisión.",
-        "errorToAvoid": "Rechazar la cadena de transmisión que nos trajo el propio Corán."
+        "realQuestion": "¿Acaso la publication date of a monumental critical encyclopedia equal the origin date of its sources, or was there an unbroken written and oral chain?"
+      },
+      "logicalNode": {
+        "title": "Confusión between the date of an encyclopedia and the age of original documents",
+        "distinctions": [
+          {
+            "term": "CRITICAL ENCYCLOPEDIC COMPILATION",
+            "desc": "The collections of Bukhari and Muslim, organized by legal chapters and filtered rigorously."
+          },
+          {
+            "term": "EARLY WRITTEN RECORDS (SUHUF)",
+            "desc": "Manuscripts of the Companions (Sahifah Sadiqah) and Successors (Sahifah of Hammam ibn Munabbih, Muwatta Malik)."
+          }
+        ],
+        "generalRule": "A historian who publishes eighteenth-century letters today does not invent them; he archives existing records.",
+        "errorToAvoid": "Believing there was a two-hundred-year historical vacuum prior to Al-Bukhari."
       },
       "centralPrinciple": {
-        "title": "Principio rector de coherencia y autoridad",
-        "formalScheme": "1. La revelación divina es una totalidad coherente.\n2. El texto y su explicación provienen de la misma fuente.\n3. Seguir la Sunna es salvaguardar el mensaje.",
-        "explanation": "La tradición islámica desarrolló el método de verificación crítica más estricto de la historia humana.",
-        "logicalTest": "¿Por qué aceptas la transmisión de los sabios para el texto del Corán pero la rechazas para las enseñanzas del Profeta?"
+        "title": "Documentary continuity is attested from the very first century of the Hijrah",
+        "formalScheme": "1. The Companions wrote thousands of Hadiths with the Prophet's consent (Suhuf).\n2. The Successors (Tabi'un) systematically studied and transcribed these sources.\n3. Al-Bukhari verified pre-existing manuscripts and oral chains with unmatched rigor.",
+        "explanation": "The discovery of the manuscript of the Sahifah of Hammam ibn Munabbih (d. 101 AH, student of Abu Hurairah) proved that the texts match Al-Bukhari word for word.",
+        "logicalTest": "The very same historical chain of transmitters (Isnad) that conveyed Hadiths also transmitted the recitations of the Quran (e.g., Hafs from 'Asim)!"
       },
       "quranicArchitecture": {
-        "title": "Versículos coránicos decisivos",
-        "verses": [],
-        "consequence": "El Corán confirma la autoridad normativa y vinculante del Profeta ﷺ."
+        "title": "The Quranic imperative to rigorously verify reports",
+        "verses": [
+          {
+            "ref": "Sura Al-Hujurat, versículo 6",
+            "ar": "إِن جَاءَكُمْ فَاسِقٌ بِنَبَإٍ فَتَبَيَّنُوا",
+            "translation": "Si un desobediente to you a disobedient person with information, investigate."
+          }
+        ],
+        "consequence": "El Corán itself institutes the principle of critical testimonial verification."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "El Marco Legal y la Aplicación",
-          "scenario": "Un código legal respaldado por jurisprudencia continua.",
-          "logic": "El texto exige su clave interpretativa.",
-          "lesson": "La aplicación práctica es indispensable.",
-          "application": "La Sunna materializa los mandatos coránicos."
-        },
-        {
-          "num": 2,
-          "title": "El Plano del Arquitecto y el Constructor",
-          "scenario": "Un arquitecto diseña el plano de un edificio y encomienda la dirección de obra a un ingeniero cualificado.",
-          "logic": "Si los obreros rechazan las órdenes del ingeniero alegando que el plano ya está completo, el edificio se derrumbará.",
-          "lesson": "El diseño teórico se completa con la ejecución del responsable acreditado.",
-          "application": "El Corán estableció las bases del culto y encomendó al Profeta su aplicación práctica."
-        },
-        {
-          "num": 3,
-          "title": "La Receta Médica y el Farmacéutico",
-          "scenario": "Un médico prescribe un tratamiento y ordena al paciente seguir las pautas de posología del farmacéutico.",
-          "logic": "Rechazar las indicaciones del farmacéutico alegando que la receta está completa conduce al desastre.",
-          "lesson": "La remisión del origen a la explicación forma parte del plan terapéutico.",
-          "application": "Al-lah ordenó la oración y remitió sus modalidades prácticas a su Mensajero ﷺ."
+          "title": "La Enciclopedia Encyclopedia and Primary Archives",
+          "scenario": "A historian publishes a critical edition of ancient Roman Senate decrees in 2024.",
+          "logic": "No one accuses the historian of having fabricated the Roman decrees in 2024!",
+          "lesson": "Late encyclopedic compilation demonstrates methodological maturity, not invention of content.",
+          "application": "Imam Al-Bukhari examined and preserved traditions transmitted continuously across generations."
         }
       ],
       "readyResponses": {
-        "quick30s": "La Sunna es el pilar indispensable que da vida y precisión a los mandatos coránicos universales.",
-        "developed": "Los fundamentos del Islam se basan en la complementariedad indestructible entre el Libro de Al-lah y la Sunna de su Mensajero ﷺ."
+        "quick30s": "Afirmar que Hadiths were invented after 200 years is historical ignorance! Companions like Abdullah ibn 'Amr wrote the 'Sahifah as-Sadiqah'. The manuscript of Hammam ibn Munabbih (c. 100 AH) exists today and is identical to Bukhari!",
+        "developed": "Islamic civilization developed the science of Isnad and biographical evaluation ('Ilm ar-Rijal). Thousands of scholars dedicated their lives to verifying every narrator for integrity, memory, and contemporaneous transmission."
       },
       "objections": [
         {
-          "obj": "¿No basta el texto coránico sin relatos históricos?",
-          "ans": "El propio Corán ordena tomar todo lo que el Mensajero manda y enseña."
+          "obj": "¿Por qué didn't the Prophet have the Hadiths compiled into a single bound book like the Quran?",
+          "ans": "To prevent any material confusion with the Quranic text during the initial phase of revelation."
         }
       ],
       "framingQuestions": [
-        "¿Por qué aceptar la transmisión de los sabios para el texto del Corán y rechazarla para la Sunna?"
+        "¿Cómo did the Quran reach us if not through the very same Companions and transmitters?",
+        "¿Si la transmitters were unreliable, how can you be certain of the authenticity of the Arabic text of the Quran?"
       ],
       "quiz": [
         {
-          "q": "¿Cuál es el papel de la Sunna frente al Corán?",
+          "q": "¿Qué célebre 1st-century AH Hadith manuscript survives today as historical proof?",
           "options": [
-            "El texto en papel sin ningún significado práctico.",
-            "La revelación divina que abarca el Corán y la guía profética necesaria para su aplicación.",
-            "Es solo un texto poético.",
-            "No tiene ninguna relevancia legal."
+            "La Sahifah of Hammam ibn Munabbih (from Abu Hurairah).",
+            "A 19th-century book.",
+            "A Roman legal code.",
+            "No manuscripts exist."
           ],
-          "answer": 1,
-          "explanation": "La perfección del Corán radica en asentar los fundamentos divinos y ordenar la sumisión a la clarificación del Mensajero."
+          "answer": 0,
+          "explanation": "The Sahifah of Hammam ibn Munabbih (d. 101 AH) is one of the oldest surviving written Hadith manuscripts."
         }
       ],
       "conclusion": {
         "steps": [
-          "El Corán es el libro fundacional perfecto que estableció las bases de la religión.",
-          "El Corán impone expresamente obedecer al Profeta y seguir su clarificación viva.",
-          "No existe contradicción alguna entre la perfección del Corán y el deber de seguir la Sunna."
+          "La documentación began during the lifetime of the Companions.",
+          "The Isnad method systematically prevented fabrication.",
+          "Rejecting the historical transmission of Hadiths undermines the historical transmission of the Quran."
         ],
-        "finalText": "La perfección del Corán se manifiesta en haber ordenado la Sunna como su explicación indispensable.",
-        "punchline": "¡Pretender prescindir de la Sunna en nombre del Corán es rechazar el propio Corán que ordenó seguir la Sunna!"
+        "finalText": "Hadith criticism is the most rigorous historical verification system of the ancient world.",
+        "punchline": "Treating Bukhari as an inventor is equivalent to denying the entire edifice of Islamic historiography!"
       }
     },
     {
       "id": 7,
       "number": "07",
       "slug": "7-interdiction-ecrire-paroles",
-      "theme": "Contexto de los Textos",
-      "title": "«No escribáis nada de mí»: ¿prohibió el Profeta escribir sus hadices?",
-      "shortTitle": "Prohibición de Escritura",
-      "tagline": "La prohibición fue temporal al inicio para evitar mezclas con el Corán, seguida de permiso explícito.",
-      "formula": "¡La prohibición temporal cesó al desaparecer la causa, sucedida por la orden de escribir la Sunna!",
+      "theme": "El Contexto de la Prohibición Temporal de Escritura",
+      "title": "¿El Profeta prohibió escribir cualquier cosa aparte del Corán?",
+      "shortTitle": "La supuesta prohibición de escribir",
+      "tagline": "La prohibición inicial evitó la mezcla con el Corán; autorizaciones posteriores la revocaron expresamente.",
+      "formula": "Una prohibición pedagógica temporal no es un veto eterno: el Profeta ordenó expresamente más tarde: «¡Escriban para Abu Shah!»",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_7.pdf",
       "theirArgument": {
-        "thesis": "El Profeta prohibió escribir sus palabras diciendo 'No escribáis nada de mí excepto el Corán'; compilar la Sunna es desobedecer su orden directa.",
-        "verses": [],
-        "realQuestion": "¿Fue la prohibición una regla eterna o una medida temporal inicial seguida de permiso explícito?"
-      },
-      "logicalNode": {
-        "title": "Aislamiento de textos y desconocimiento de las etapas de abrogación y permiso",
-        "distinctions": [
-          {
-            "term": "PRINCIPIO FUNDAMENTAL",
-            "desc": "Distinción analítica esencial."
-          },
-          {
-            "term": "APLICACIÓN PRÁCTICA",
-            "desc": "Norma operativa verificada."
-          }
-        ],
-        "generalRule": "La coherencia lógica exige no usar dos varas de medir distintas ante la misma cadena de transmisión.",
-        "errorToAvoid": "Rechazar la cadena de transmisión que nos trajo el propio Corán."
-      },
-      "centralPrinciple": {
-        "title": "Principio rector de coherencia y autoridad",
-        "formalScheme": "1. La revelación divina es una totalidad coherente.\n2. El texto y su explicación provienen de la misma fuente.\n3. Seguir la Sunna es salvaguardar el mensaje.",
-        "explanation": "La tradición islámica desarrolló el método de verificación crítica más estricto de la historia humana.",
-        "logicalTest": "¿Por qué aceptas la transmisión de los sabios para el texto del Corán pero la rechazas para las enseñanzas del Profeta?"
-      },
-      "quranicArchitecture": {
-        "title": "Versículos coránicos decisivos",
+        "thesis": "En el famoso Hadith of Abu Sa'id al-Khudri, the Prophet said: 'Do not write anything from me except the Quran, and whoever has written should erase it.' This proves Hadiths are forbidden!",
         "verses": [
           {
-            "ref": "Sourate An-Nisâʾ, verset 59",
-            "ar": "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ",
-            "translation": "« Obéissez à Allah et obéissez au Messager. »"
-          },
-          {
-            "ref": "Sourate An-Nisâʾ, verset 65",
-            "ar": "حَتَّىٰ يُحَكِّمُوكَ فِيمَا شَجَرَ بَيْنَهُمْ",
-            "translation": "« Jusqu'à ce qu'ils te prennent pour juge dans leurs différends. »"
+            "ref": "Sura Al-Baqarah, versículo 79",
+            "ar": "فَوَيْلٌ لِّلَّذِينَ يَكْتُبُونَ الْكِتَابَ بِأَيْدِيهِمْ",
+            "translation": "¡Ay de aquellos who write the book with their hands."
           }
         ],
-        "consequence": "El Corán confirma la autoridad normativa y vinculante del Profeta ﷺ."
+        "realQuestion": "Does an initial precautionary ban to prevent mixing with the Quran constitute a permanent prohibition on recording prophetic guidance?"
+      },
+      "logicalNode": {
+        "title": "Citación selectiva and refusal of historical context (Abrogation)",
+        "distinctions": [
+          {
+            "term": "EARLY MECCAN AND EARLY MEDINAN PHASE",
+            "desc": "Prohibition against writing Hadiths on the same parchment as the Quran to prevent confusion among new converts."
+          },
+          {
+            "term": "MATURE PHASE OF THE COMMUNITY",
+            "desc": "Explicit permission and command of the Prophet ﷺ to record knowledge in writing."
+          }
+        ],
+        "generalRule": "One cannot use a Hadith to invalidate the authority of all Hadiths (logical paradox).",
+        "errorToAvoid": "Citing a Hadith as absolute authority while simultaneously claiming no Hadith has authority."
+      },
+      "centralPrinciple": {
+        "title": "The logical self-contradiction of the Quranist argument",
+        "formalScheme": "1. If the Hadith prohibiting writing is authentic, then Hadiths hold evidentiary value.\n2. If Hadiths have no value, this Hadith proves nothing.\n3. Authentic sources prove that the Prophet subsequently authorized and commanded writing.",
+        "explanation": "The Prophet said on the day of the Conquest of Makkah: {Write for Abu Shah} (Bukhari & Muslim) and said to Abdullah ibn 'Amr: {Write, for by Him in whose hand is my soul, nothing comes out of this mouth except truth!}",
+        "logicalTest": "If you reject all Hadiths, why do you firmly believe in this single Hadith regarding the prohibition of writing?"
+      },
+      "quranicArchitecture": {
+        "title": "Quranic commands for written documentation",
+        "verses": [
+          {
+            "ref": "Sura Al-Baqarah, versículo 282",
+            "ar": "يَا أَيُّهَا الَّذِينَ آمَنُوا إِذَا تَدَايَنتُم بِدَيْنٍ إِلَىٰ أَجَلٍ مُّسَمًّى فَاكْتُبُوهُ",
+            "translation": "¡Oh, creyentes!! When you contract a debt for a specified term, write it down."
+          }
+        ],
+        "consequence": "If Allah commands writing financial debts, how would He forbid documenting the Sunnah of His religion?"
       },
       "analogies": [
         {
           "num": 1,
-          "title": "El Marco Legal y la Aplicación",
-          "scenario": "Un código legal respaldado por jurisprudencia continua.",
-          "logic": "El texto exige su clave interpretativa.",
-          "lesson": "La aplicación práctica es indispensable.",
-          "application": "La Sunna materializa los mandatos coránicos."
-        },
-        {
-          "num": 2,
-          "title": "El Plano del Arquitecto y el Constructor",
-          "scenario": "Un arquitecto diseña el plano de un edificio y encomienda la dirección de obra a un ingeniero cualificado.",
-          "logic": "Si los obreros rechazan las órdenes del ingeniero alegando que el plano ya está completo, el edificio se derrumbará.",
-          "lesson": "El diseño teórico se completa con la ejecución del responsable acreditado.",
-          "application": "El Corán estableció las bases del culto y encomendó al Profeta su aplicación práctica."
-        },
-        {
-          "num": 3,
-          "title": "La Receta Médica y el Farmacéutico",
-          "scenario": "Un médico prescribe un tratamiento y ordena al paciente seguir las pautas de posología del farmacéutico.",
-          "logic": "Rechazar las indicaciones del farmacéutico alegando que la receta está completa conduce al desastre.",
-          "lesson": "La remisión del origen a la explicación forma parte del plan terapéutico.",
-          "application": "Al-lah ordenó la oración y remitió sus modalidades prácticas a su Mensajero ﷺ."
+          "title": "El Dictado Dictation",
+          "scenario": "A teacher tells beginners: 'Only copy the main text now, do not write margin notes so nothing gets mixed up'. Later, he says: 'Now take comprehensive notes'.",
+          "logic": "Subsequent permission supersedes initial precaution.",
+          "lesson": "Pedagogical measures evolve with the maturity of learners.",
+          "application": "Once the Quran was memorized and established, recording the Sunnah became widespread."
         }
       ],
       "readyResponses": {
-        "quick30s": "La Sunna es el pilar indispensable que da vida y precisión a los mandatos coránicos universales.",
-        "developed": "Los fundamentos del Islam se basan en la complementariedad indestructible entre el Libro de Al-lah y la Sunna de su Mensajero ﷺ."
+        "quick30s": "Esta objeción self-destructs: to claim Hadiths are forbidden, you must cite a Hadith! But if you accept authentic Hadiths, you must also accept those where the Prophet commands: {Bind knowledge by writing!} and {Write for Abu Shah!}. The ban was only initial for the same parchment.",
+        "developed": "Scholars like Imam An-Nawawi explained that the initial prohibition prevented intermingling between the sacred text and prophetic speech. Cuando el Corán was fully distinguished, the Prophet unrestricted writing."
       },
       "objections": [
         {
-          "obj": "¿No basta el texto coránico sin relatos históricos?",
-          "ans": "El propio Corán ordena tomar todo lo que el Mensajero manda y enseña."
+          "obj": "¿Por qué didn't Abu Bakr and Umar compile a single book of Hadiths like the Quran?",
+          "ans": "They prioritized standardizing the Quranic text (the Mushaf of Uthman). La Sunna was already preserved in the memories and notebooks of thousands of Companions."
         }
       ],
       "framingQuestions": [
-        "¿Por qué aceptar la transmisión de los sabios para el texto del Corán y rechazarla para la Sunna?"
+        "Do you see the contradiction in using a Hadith to argue that one must not believe in Hadiths?",
+        "¿Por qué do you ignore dozens of reports where the Prophet ordered writing?"
       ],
       "quiz": [
         {
-          "q": "¿Cuál es el papel de la Sunna frente al Corán?",
+          "q": "¿Qué respondió the Prophet ﷺ command when Abu Shah requested a written copy of his sermon?",
           "options": [
-            "El texto en papel sin ningún significado práctico.",
-            "La revelación divina que abarca el Corán y la guía profética necesaria para su aplicación.",
-            "Es solo un texto poético.",
-            "No tiene ninguna relevancia legal."
+            "“Write for Abu Shah!”",
+            "“Writing is forbidden.”",
+            "“Leave the mosque.”",
+            "He did not reply."
           ],
-          "answer": 1,
-          "explanation": "La perfección del Corán radica en asentar los fundamentos divinos y ordenar la sumisión a la clarificación del Mensajero."
+          "answer": 0,
+          "explanation": "The Prophet explicitly commanded in Sahih Bukhari: 'Write for Abu Shah!'"
         }
       ],
       "conclusion": {
         "steps": [
-          "El Corán es el libro fundacional perfecto que estableció las bases de la religión.",
-          "El Corán impone expresamente obedecer al Profeta y seguir su clarificación viva.",
-          "No existe contradicción alguna entre la perfección del Corán y el deber de seguir la Sunna."
+          "La prohibición was a temporary precautionary measure.",
+          "Numerous authentic sources attest to subsequent authorization.",
+          "The argument collapses under its own logical contradiction."
         ],
-        "finalText": "La perfección del Corán se manifiesta en haber ordenado la Sunna como su explicación indispensable.",
-        "punchline": "¡Pretender prescindir de la Sunna en nombre del Corán es rechazar el propio Corán que ordenó seguir la Sunna!"
+        "finalText": "La Sunna was recorded with the full approval of the Messenger of Allah.",
+        "punchline": "Using a Hadith to abolish Hadiths is the pinnacle of logical absurdity!"
       }
     },
     {
       "id": 8,
       "number": "08",
       "slug": "8-coran-condamne-hadiths",
-      "theme": "Semántica Coránica",
-      "title": "«¿En qué Hadith creerán después de este?»: ¿condena el Corán el término?",
-      "shortTitle": "El Término 'Hadith'",
-      "tagline": "El Corán usó 'Hadith' en su sentido lingüístico de discurso humano y condenó las mentiras del paganismo.",
-      "formula": "¡Confundir el sentido lingüístico general con la terminología de las palabras del Profeta es un engaño!",
+      "theme": "Semántica y Uso Coránico de la Palabra 'Hadith'",
+      "title": "¿El Corán condena los «hadices» en versículos como «¿En qué hadiz creerán después de Allah?»?",
+      "shortTitle": "La palabra 'Hadith' en el Corán",
+      "tagline": "La palabra árabe 'Hadith' significa discurso; el Corán condena los mitos paganos, no la Sunna profética.",
+      "formula": "Fraude semántico: ¡confundir una palabra del lenguaje común con el término técnico de la ciencia del Hadiz!",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_8.pdf",
       "theirArgument": {
-        "thesis": "El Corán condena el término 'Hadith' en varios versículos como '¿En qué Hadith creerán después de este?', advirtiendo contra los libros de hadices.",
+        "thesis": "El Corán asks in Surah 45:6 and 77:50: 'In which Hadith after Allah and His verses will they believe?' The word 'Hadith' is therefore condemned by the Quran itself!",
         "verses": [
           {
-            "ref": "Sourate Al-Jâthiyah, verset 6",
-            "ar": "تِلْكَ آيَاتُ اللَّهِ نَتْلُوهَا عَلَيْكَ بِالْحَقِّ ۖ فَبِأَيِّ حَدِيثٍ بَعْدَ اللَّهِ وَآيَاتِهِ يُؤْمِنُونَ",
-            "translation": "« Voilà les versets d'Allah que Nous te récitons en toute vérité. En quel discours (hadīth), après Allah et Ses versets, croiront-ils donc ? »"
+            "ref": "Sura Al-Jathiyah, versículo 6",
+            "ar": "تِلْكَ آيَاتُ اللَّهِ نَتْلُوهَا عَلَيْكَ بِالْحَقِّ فَبِأَيِّ حَدِيثٍ بَعْدَ اللَّهِ وَآيَاتِهِ يُؤْمِنُونَ",
+            "translation": "These are the verses of Allah which We recite to you in truth. Then in what statement (hadith) after Allah and His verses will they believe?"
           },
           {
-            "ref": "Sourate Al-Mursalât, verset 50",
-            "ar": "فَبِأَيِّ حَدِيثٍ بَعْدَهُ يُؤْمِنُونَ",
-            "translation": "« En quel discours (hadīth) après cela croiront-ils donc ? »"
-          },
-          {
-            "ref": "Sourate Luqmân, verset 6",
-            "ar": "وَمِنَ النَّاسِ مَن يَشْتَرِي لَهْوَ الْحَدِيثِ",
-            "translation": "« Et parmi les hommes, il en est qui achètent des discours futiles (lahw al-hadīth)... »"
+            "ref": "Sura Luqman, versículo 6",
+            "ar": "وَمِنَ النَّاسِ مَن يَشْتَرِي لَهْوَ الْحَدِيثِ",
+            "translation": "And of the people is he who buys idle speech (Lahw al-Hadith)."
           }
         ],
-        "realQuestion": "¿Condenó el Corán las palabras del Profeta o los discursos falsos del paganismo que se oponen a la verdad?"
+        "realQuestion": "¿Acaso la Quran condemn the speech of its chosen Messenger or the vain myths and lies of the polytheists?"
       },
       "logicalNode": {
-        "title": "Falacia de homonimia: confundir el sentido léxico general con el término técnico",
+        "title": "Falacia semántica of equivocation between common speech and technical terminology",
         "distinctions": [
           {
-            "term": "PRINCIPIO FUNDAMENTAL",
-            "desc": "Distinción analítica esencial."
+            "term": "COMMON ARABIC USAGE (HADITH)",
+            "desc": "Any human speech, worldly narrative, or polytheistic fable."
           },
           {
-            "term": "APLICACIÓN PRÁCTICA",
-            "desc": "Norma operativa verificada."
+            "term": "ISLAMIC TECHNICAL TERM (HADITH NABAWI)",
+            "desc": "The documented testimony regarding the statements, actions, and approvals of the Prophet ﷺ."
           }
         ],
-        "generalRule": "La coherencia lógica exige no usar dos varas de medir distintas ante la misma cadena de transmisión.",
-        "errorToAvoid": "Rechazar la cadena de transmisión que nos trajo el propio Corán."
+        "generalRule": "A Quranic word must not be confused with a technical term formalized centuries later.",
+        "errorToAvoid": "Claiming the Quran condemns the Prophet because his sayings were later termed 'Hadiths'."
       },
       "centralPrinciple": {
-        "title": "Principio rector de coherencia y autoridad",
-        "formalScheme": "1. La revelación divina es una totalidad coherente.\n2. El texto y su explicación provienen de la misma fuente.\n3. Seguir la Sunna es salvaguardar el mensaje.",
-        "explanation": "La tradición islámica desarrolló el método de verificación crítica más estricto de la historia humana.",
-        "logicalTest": "¿Por qué aceptas la transmisión de los sabios para el texto del Corán pero la rechazas para las enseñanzas del Profeta?"
+        "title": "El Corán even describes itself as 'Hadith'",
+        "formalScheme": "1. El Corán calls itself {Ahsan al-Hadith} – the best statement (Surah 39:23).\n2. It refers to the Prophet's words as 'hadith' (Surah 66:3).\n3. Surah 45:6 condemns pagan fabrications, not the Prophet's guidance.",
+        "explanation": "Whoever claims Surah 45:6 forbids the Sunnah would logically have to claim the Quran condemns itself, since it calls itself 'Hadith'!",
+        "logicalTest": "If every 'Hadith' in the Quran was evil, why does Allah call His own revelation {the best statement / Ahsan al-Hadith} (39:23)?"
       },
       "quranicArchitecture": {
-        "title": "Versículos coránicos decisivos",
+        "title": "Versículos on the noble and positive usage of the term 'Hadith'",
         "verses": [
           {
-            "ref": "Sourate Al-Jâthiyah, verset 6",
-            "ar": "فَبِأَيِّ حَدِيثٍ بَعْدَ اللَّهِ وَآيَاتِهِ يُؤْمِنُونَ",
-            "translation": "« En quel discours, après Allah et Ses versets, croiront-ils donc ? »"
+            "ref": "Sura Az-Zumar, versículo 23",
+            "ar": "اللَّهُ نَزَّلَ أَحْسَنَ الْحَدِيثِ كِتَابًا مُّتَشَابِهًا",
+            "translation": "Allah ha hecho descender the best statement (Ahsan al-Hadith): a consistent Book."
+          },
+          {
+            "ref": "Sura Ad-Duha, versículo 11",
+            "ar": "وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ",
+            "translation": "And as for the favor of your Lord, proclaim it (Haddith)."
           }
         ],
-        "consequence": "El Corán confirma la autoridad normativa y vinculante del Profeta ﷺ."
+        "consequence": "The word 'hadith' takes positive or negative meaning depending entirely on context."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "El Marco Legal y la Aplicación",
-          "scenario": "Un código legal respaldado por jurisprudencia continua.",
-          "logic": "El texto exige su clave interpretativa.",
-          "lesson": "La aplicación práctica es indispensable.",
-          "application": "La Sunna materializa los mandatos coránicos."
-        },
-        {
-          "num": 2,
-          "title": "El Plano del Arquitecto y el Constructor",
-          "scenario": "Un arquitecto diseña el plano de un edificio y encomienda la dirección de obra a un ingeniero cualificado.",
-          "logic": "Si los obreros rechazan las órdenes del ingeniero alegando que el plano ya está completo, el edificio se derrumbará.",
-          "lesson": "El diseño teórico se completa con la ejecución del responsable acreditado.",
-          "application": "El Corán estableció las bases del culto y encomendó al Profeta su aplicación práctica."
-        },
-        {
-          "num": 3,
-          "title": "La Receta Médica y el Farmacéutico",
-          "scenario": "Un médico prescribe un tratamiento y ordena al paciente seguir las pautas de posología del farmacéutico.",
-          "logic": "Rechazar las indicaciones del farmacéutico alegando que la receta está completa conduce al desastre.",
-          "lesson": "La remisión del origen a la explicación forma parte del plan terapéutico.",
-          "application": "Al-lah ordenó la oración y remitió sus modalidades prácticas a su Mensajero ﷺ."
+          "title": "La Ley against Fake News",
+          "scenario": "A government passes a law: 'Do not believe fake news'.",
+          "logic": "Does this mean official government announcements or scientific reports are banned?",
+          "lesson": "Condemning falsehood does not condemn truth.",
+          "application": "El Corán warns against pagan falsehoods, not the truthful words of the Messenger."
         }
       ],
       "readyResponses": {
-        "quick30s": "La Sunna es el pilar indispensable que da vida y precisión a los mandatos coránicos universales.",
-        "developed": "Los fundamentos del Islam se basan en la complementariedad indestructible entre el Libro de Al-lah y la Sunna de su Mensajero ﷺ."
+        "quick30s": "La palabra 'Hadith' in Arabic simply means 'speech' or 'statement'. El Corán calls itself 'Ahsan al-Hadith' (39:23)! Afirmar que the Quran condemns prophetic Hadiths is childish wordplay. El Corán condemns the fabrications of idolaters!",
+        "developed": "In Surah Al-Jathiyah Allah addresses polytheists who rejected His verses. What myths (hadith) will they believe in after rejecting God? Applying this to the words of His beloved Messenger is a total distortion of scripture."
       },
       "objections": [
         {
-          "obj": "¿No basta el texto coránico sin relatos históricos?",
-          "ans": "El propio Corán ordena tomar todo lo que el Mensajero manda y enseña."
+          "obj": "¿Por qué did scholars call the Prophet's teachings 'Hadiths' then?",
+          "ans": "Because the Prophet himself used the term, as in the famous Hadith where he answers Abu Hurairah about who will be happiest with his intercession."
         }
       ],
       "framingQuestions": [
-        "¿Por qué aceptar la transmisión de los sabios para el texto del Corán y rechazarla para la Sunna?"
+        "¿Si la word 'hadith' was always derogatory, why does Allah call the Quran {the best speech} (39:23)?",
+        "Do you genuinely believe the sayings of Prophet Muhammad ﷺ belong to the 'idle speech' of the pagans?"
       ],
       "quiz": [
         {
-          "q": "¿Cuál es el papel de la Sunna frente al Corán?",
+          "q": "¿Cómo describe the Quran describe itself in Surah Az-Zumar, verse 23?",
           "options": [
-            "El texto en papel sin ningún significado práctico.",
-            "La revelación divina que abarca el Corán y la guía profética necesaria para su aplicación.",
-            "Es solo un texto poético.",
-            "No tiene ninguna relevancia legal."
+            "Ahsan al-Hadith (the best statement)",
+            "Lahw al-Hadith (idle speech)",
+            "A myth",
+            "Ordinary poetry"
           ],
-          "answer": 1,
-          "explanation": "La perfección del Corán radica en asentar los fundamentos divinos y ordenar la sumisión a la clarificación del Mensajero."
+          "answer": 0,
+          "explanation": "In La Sura 39:23 Allah qualifies the Quran as 'Ahsan al-Hadith'."
         }
       ],
       "conclusion": {
         "steps": [
-          "El Corán es el libro fundacional perfecto que estableció las bases de la religión.",
-          "El Corán impone expresamente obedecer al Profeta y seguir su clarificación viva.",
-          "No existe contradicción alguna entre la perfección del Corán y el deber de seguir la Sunna."
+          "'Hadith' is an ordinary Arabic word meaning speech or account.",
+          "El Corán condemns the deceitful speech of polytheists.",
+          "Confusing this with the Sunnah is intellectual deception."
         ],
-        "finalText": "La perfección del Corán se manifiesta en haber ordenado la Sunna como su explicación indispensable.",
-        "punchline": "¡Pretender prescindir de la Sunna en nombre del Corán es rechazar el propio Corán que ordenó seguir la Sunna!"
+        "finalText": "The sayings of the Messenger of Allah are the highest human truth after the Quran.",
+        "punchline": "Turning Quranic verses about pagan myths against the Prophet is the hallmark of distortion!"
       }
     },
     {
       "id": 9,
       "number": "09",
       "slug": "9-corrections-divines",
-      "theme": "Infalibilidad de la Transmisión",
-      "title": "«Frunció el ceño y se desentendió»: ¿anulan los reproches la autoridad profética?",
-      "shortTitle": "Reproches Divinos e Infalibilidad",
-      "tagline": "El reproche divino en el Corán es la mayor prueba de su sinceridad e infalibilidad legislativa.",
-      "formula": "¡Los reproches demuestran que el Profeta estaba bajo supervisión divina constante; lo aprobado es ley infalible!",
+      "theme": "Estatus Profético y Supervisión Divina Activa",
+      "title": "¿Las correcciones divinas al Profeta en el Corán prueban que no tiene autoridad religiosa?",
+      "shortTitle": "Reprensiones divinas ('Abasa)",
+      "tagline": "Las reprensiones coránicas demuestran la supervisión divina activa y garantizan la infalibilidad del mensaje.",
+      "formula": "El hecho de que Allah haya corregido a Su Profeta de inmediato garantiza que todo lo que enseñó permanentemente tenía aprobación divina.",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_9.pdf",
       "theirArgument": {
-        "thesis": "El Corán reprochó al Profeta en varios episodios como 'Frunció el ceño y se desentendió', probando que es un ser humano falible sin autoridad infalible.",
+        "thesis": "El Corán reprimands the Prophet in Surah 'Abasa (for turning away from the blind man) and in Surah At-Tahrim. This supposedly proves his decisions were fallible and cannot serve as a source of religion.",
         "verses": [
           {
-            "ref": "Sourate ʿAbasa, versets 1-2",
-            "ar": "عَبَسَ وَتَوَلَّىٰ أَن جَاءَهُ الْأَعْمَىٰ",
-            "translation": "« Il s'est renfrogné et s'est détourné parce que l'aveugle est venu à lui. »"
+            "ref": "Sura 'Abasa, versículos 1-2",
+            "ar": "عَبَسَ وَتَوَلَّىٰ * أَن جَاءَهُ الْأَعْمَىٰ",
+            "translation": "Frunció el ceño and turned away, because there came to him the blind man."
           },
           {
-            "ref": "Sourate At-Tawbah, verset 43",
-            "ar": "عَفَا اللَّهُ عَنكَ لِمَ أَذِنتَ لَهُمْ",
-            "translation": "« Qu'Allah te pardonne ! Pourquoi leur as-tu donné permission ? »"
-          },
-          {
-            "ref": "Sourate At-Taḥrîm, verset 1",
-            "ar": "يَا أَيُّهَا النَّبِيُّ لِمَ تُحَرِّمُ مَا أَحَلَّ اللَّهُ لَكَ",
-            "translation": "« Ô Prophète ! Pourquoi t'interdis-tu ce qu'Allah t'a rendu licite ? »"
+            "ref": "Sura At-Tahrim, versículo 1",
+            "ar": "يَا أَيُّهَا النَّبِيُّ لِمَ تُحَرِّمُ مَا أَحَلَّ اللَّهُ لَكَ",
+            "translation": "O Prophet, why do you prohibit that which Allah has made lawful for you?"
           }
         ],
-        "realQuestion": "¿El reproche en cuestiones de juicio personal anula la autoridad e infalibilidad en la transmisión del mensaje?"
+        "realQuestion": "Do divine corrections in the Quran prove the Prophet's unreliability or, on the contrary, the flawless divine control over his mission?"
       },
       "logicalNode": {
-        "title": "Confusión entre el juicio personal en asuntos mundanos y la infalibilidad en la ley",
+        "title": "Confusión between human judgment under supervision and uncontrolled doctrinal fallibility",
         "distinctions": [
           {
-            "term": "PRINCIPIO FUNDAMENTAL",
-            "desc": "Distinción analítica esencial."
+            "term": "HUMAN JUDGMENT OF THE PROPHET (IJTIHAD)",
+            "desc": "His day-to-day choices in worldly affairs, immediately corrected by revelation when necessary."
           },
           {
-            "term": "APLICACIÓN PRÁCTICA",
-            "desc": "Norma operativa verificada."
+            "term": "DOCTRINAL INFALLIBILITY ('ISMAH)",
+            "desc": "All legal and spiritual teachings delivered to the Ummah are divinely protected from error."
           }
         ],
-        "generalRule": "La coherencia lógica exige no usar dos varas de medir distintas ante la misma cadena de transmisión.",
-        "errorToAvoid": "Rechazar la cadena de transmisión que nos trajo el propio Corán."
+        "generalRule": "A representative whose deviations are instantly corrected by the Sovereign delivers a flawless law.",
+        "errorToAvoid": "Failing to see that the absence of correction equals formal divine approval."
       },
       "centralPrinciple": {
-        "title": "Principio rector de coherencia y autoridad",
-        "formalScheme": "1. La revelación divina es una totalidad coherente.\n2. El texto y su explicación provienen de la misma fuente.\n3. Seguir la Sunna es salvaguardar el mensaje.",
-        "explanation": "La tradición islámica desarrolló el método de verificación crítica más estricto de la historia humana.",
-        "logicalTest": "¿Por qué aceptas la transmisión de los sabios para el texto del Corán pero la rechazas para las enseñanzas del Profeta?"
+        "title": "Divine correction is the strongest proof of the Sunnah's authenticity",
+        "formalScheme": "1. If the Prophet made a non-optimal choice, revelation intervened immediately (e.g., Surah 'Abasa).\n2. Where revelation did not intervene, his conduct was fully confirmed by Allah.\n3. Por lo tanto, the transmitted Sunnah in its entirety is divinely authorized.",
+        "explanation": "Had the Prophet been free to introduce errors into religion, the Quran would not have recorded his personal corrections for eternity.",
+        "logicalTest": "If the Prophet could invent verses, why would he reveal verses reprimanding his own behavior?"
       },
       "quranicArchitecture": {
-        "title": "Versículos coránicos decisivos",
+        "title": "Versículos on the infallible protection of the Prophet's speech in religion",
         "verses": [
           {
-            "ref": "Sourate An-Najm, versets 3-4",
-            "ar": "وَمَا يَنطِقُ عَنِ الْهَوَىٰ إِنْ هُوَ إِلَّا وَحْيٌ يُوحَىٰ",
-            "translation": "« Et il ne prononce rien sous l'effet de la passion ; ce n'est rien d'autre qu'une révélation inspirée. »"
+            "ref": "Sura An-Najm, versículos 3-4",
+            "ar": "وَمَا يَنطِقُ عَنِ الْهَوَىٰ * إِنْ هُوَ إِلَّا وَحْيٌ يُوحَىٰ",
+            "translation": "Y no habla por su propio deseo from his own desire. It is not but a revelation revealed."
           },
           {
-            "ref": "Sourate Al-Ḥâqqah, versets 44-46",
-            "ar": "وَلَوْ تَقَوَّلَ عَلَيْنَا بَعْضَ الْأَقَاوِيلِ لَأَخَذْنَا مِنْهُ بِالْيَمِينِ ثُمَّ لَقَطَعْنَا مِنْهُ الْوَتِينَ",
-            "translation": "« Et s'il avait forgé contre Nous quelques paroles, Nous l'aurions saisi de la main droite, puis Nous lui aurions tranché l'aorte. »"
+            "ref": "Sura Al-Haqqah, versículos 44-46",
+            "ar": "وَلَوْ تَقَوَّلَ عَلَيْنَا بَعْضَ الْأَقَاوِيلِ * لَأَخَذْنَا مِنْهُ بِالْيَمِينِ * ثُمَّ لَقَطَعْنَا مِنْهُ الْوَتِينَ",
+            "translation": "And if he had fabricated some sayings against Us, We would have seized him by the right hand, then We would have cut from him the aorta."
           }
         ],
-        "consequence": "El Corán confirma la autoridad normativa y vinculante del Profeta ﷺ."
+        "consequence": "Allah guarantees with His omnipotence that the Prophet is infallible in transmitting the religion."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "El Marco Legal y la Aplicación",
-          "scenario": "Un código legal respaldado por jurisprudencia continua.",
-          "logic": "El texto exige su clave interpretativa.",
-          "lesson": "La aplicación práctica es indispensable.",
-          "application": "La Sunna materializa los mandatos coránicos."
-        },
-        {
-          "num": 2,
-          "title": "El Plano del Arquitecto y el Constructor",
-          "scenario": "Un arquitecto diseña el plano de un edificio y encomienda la dirección de obra a un ingeniero cualificado.",
-          "logic": "Si los obreros rechazan las órdenes del ingeniero alegando que el plano ya está completo, el edificio se derrumbará.",
-          "lesson": "El diseño teórico se completa con la ejecución del responsable acreditado.",
-          "application": "El Corán estableció las bases del culto y encomendó al Profeta su aplicación práctica."
-        },
-        {
-          "num": 3,
-          "title": "La Receta Médica y el Farmacéutico",
-          "scenario": "Un médico prescribe un tratamiento y ordena al paciente seguir las pautas de posología del farmacéutico.",
-          "logic": "Rechazar las indicaciones del farmacéutico alegando que la receta está completa conduce al desastre.",
-          "lesson": "La remisión del origen a la explicación forma parte del plan terapéutico.",
-          "application": "Al-lah ordenó la oración y remitió sus modalidades prácticas a su Mensajero ﷺ."
+          "title": "El Capitán Captain and Air Traffic Control",
+          "scenario": "A pilot flies an aircraft while air traffic control monitors every meter, immediately correcting any deviation via radio.",
+          "logic": "Passengers know that the silence of control confirms the flight path is 100% safe and verified.",
+          "lesson": "Constant monitoring guarantees flawless adherence to the course.",
+          "application": "Divine oversight ensured that prophetic practice remained completely free of doctrinal error."
         }
       ],
       "readyResponses": {
-        "quick30s": "La Sunna es el pilar indispensable que da vida y precisión a los mandatos coránicos universales.",
-        "developed": "Los fundamentos del Islam se basan en la complementariedad indestructible entre el Libro de Al-lah y la Sunna de su Mensajero ﷺ."
+        "quick30s": "La presencia of reprimands like in Surah 'Abasa is the brightest proof of the Prophet's sincerity! Had he added anything of his own whim, Allah {would have cut his aorta} (69:46). His established Sunnah enjoys full divine endorsement!",
+        "developed": "Divine corrections always concerned personal priorities in worldly affairs, never the corruption of doctrine. That Allah immortalized these moments proves the Prophet claimed no personal power and operated under direct divine guardianship."
       },
       "objections": [
         {
-          "obj": "¿No basta el texto coránico sin relatos históricos?",
-          "ans": "El propio Corán ordena tomar todo lo que el Mensajero manda y enseña."
+          "obj": "Doesn't Surah At-Tahrim show that he prohibited things on his own?",
+          "ans": "The Prophet merely imposed a private abstention from a drink upon himself to please his wives; he did not issue a general prohibition for the community."
         }
       ],
       "framingQuestions": [
-        "¿Por qué aceptar la transmisión de los sabios para el texto del Corán y rechazarla para la Sunna?"
+        "¿Si la Prophet was an impostor, why would he preserve Surahs like 'Abasa that reprimand himself?",
+        "Doesn't Allah's immediate intervention prove that everything else he taught was approved by God?"
       ],
       "quiz": [
         {
-          "q": "¿Cuál es el papel de la Sunna frente al Corán?",
+          "q": "¿Qué demuestran verses like Surah 'Abasa prove about the prophetic mission?",
           "options": [
-            "El texto en papel sin ningún significado práctico.",
-            "La revelación divina que abarca el Corán y la guía profética necesaria para su aplicación.",
-            "Es solo un texto poético.",
-            "No tiene ninguna relevancia legal."
+            "That his mission was under active and strict divine supervision.",
+            "That one should no longer obey him.",
+            "That he wrote the Quran himself.",
+            "That the Quran is incomplete."
           ],
-          "answer": 1,
-          "explanation": "La perfección del Corán radica en asentar los fundamentos divinos y ordenar la sumisión a la clarificación del Mensajero."
+          "answer": 0,
+          "explanation": "They prove that the Prophet was under constant divine guidance and concealed nothing."
         }
       ],
       "conclusion": {
         "steps": [
-          "El Corán es el libro fundacional perfecto que estableció las bases de la religión.",
-          "El Corán impone expresamente obedecer al Profeta y seguir su clarificación viva.",
-          "No existe contradicción alguna entre la perfección del Corán y el deber de seguir la Sunna."
+          "The Prophet was under continuous divine oversight.",
+          "Corrections were made publicly and immediately.",
+          "The confirmed Sunnah is 100% approved by Allah."
         ],
-        "finalText": "La perfección del Corán se manifiesta en haber ordenado la Sunna como su explicación indispensable.",
-        "punchline": "¡Pretender prescindir de la Sunna en nombre del Corán es rechazar el propio Corán que ordenó seguir la Sunna!"
+        "finalText": "Divine reprimands reinforce the infallibility of the revealed religion.",
+        "punchline": "Corrections do not weaken the Prophet's authority: they are the seal of his divine endorsement!"
       }
     },
     {
       "id": 10,
       "number": "10",
       "slug": "10-priere-pratique-communautaire",
-      "theme": "Transmisión de la Práctica",
-      "title": "«La práctica viva (Tawâtur) es suficiente»: ¿podemos prescindir de los libros de Hadith?",
-      "shortTitle": "Tawâtur y Libros de Hadith",
-      "tagline": "La práctica viva y los libros de hadices son dos vías inseparables transmitidas por los mismos sabios.",
-      "formula": "¡Aceptar la práctica viva transmitida por los Compañeros y rechazar sus narraciones es una contradicción total!",
+      "theme": "Práctica Ritual y Tawâtur Vivo",
+      "title": "¿La oración y los ritos se transmiten por práctica comunitaria y no por los hadices?",
+      "shortTitle": "Oración & Tawâtur 'Amalî",
+      "tagline": "La práctica profética de la oración transmitida de generación en generación es la definición exacta de la Sunna viva (Tawâtur 'Amalî).",
+      "formula": "La práctica ritual transmitida por la comunidad ES la Sunna viva; ¡separarla de los Hadices es un artificio insostenible!",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_10.pdf",
       "theirArgument": {
-        "thesis": "Rezar y ayunar se heredó por práctica masiva continua de padres a hijos; no necesitamos los libros de Bujari ni cadenas de transmisión para practicar el culto.",
-        "verses": [],
-        "realQuestion": "¿Puede la simple costumbre popular sin textos verificados preservar los detalles exactos del culto frente a desviaciones?"
-      },
-      "logicalNode": {
-        "title": "Contradicción entre aceptar la transmisión práctica y rechazar las cadenas escritas",
-        "distinctions": [
-          {
-            "term": "PRINCIPIO FUNDAMENTAL",
-            "desc": "Distinción analítica esencial."
-          },
-          {
-            "term": "APLICACIÓN PRÁCTICA",
-            "desc": "Norma operativa verificada."
-          }
-        ],
-        "generalRule": "La coherencia lógica exige no usar dos varas de medir distintas ante la misma cadena de transmisión.",
-        "errorToAvoid": "Rechazar la cadena de transmisión que nos trajo el propio Corán."
-      },
-      "centralPrinciple": {
-        "title": "Principio rector de coherencia y autoridad",
-        "formalScheme": "1. La revelación divina es una totalidad coherente.\n2. El texto y su explicación provienen de la misma fuente.\n3. Seguir la Sunna es salvaguardar el mensaje.",
-        "explanation": "La tradición islámica desarrolló el método de verificación crítica más estricto de la historia humana.",
-        "logicalTest": "¿Por qué aceptas la transmisión de los sabios para el texto del Corán pero la rechazas para las enseñanzas del Profeta?"
-      },
-      "quranicArchitecture": {
-        "title": "Versículos coránicos decisivos",
+        "thesis": "¡No necesitamos Hadith books to pray! Prayer was transmitted by the living practice of the community from generation to generation, not by written reports.",
         "verses": [
           {
-            "ref": "Sourate Al-Aḥzâb, verset 21",
-            "ar": "لَّقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ",
-            "translation": "« Vous avez certes dans le Messager d'Allah un excellent modèle. »"
-          },
-          {
-            "ref": "Sourate An-Naḥl, verset 44",
-            "ar": "لِتُبَيِّنَ لِلنَّاسِ مَا نُزِّلَ إِلَيْهِمْ",
-            "translation": "« Afin que tu exposes clairement aux gens ce qui leur a été révélé. »"
+            "ref": "Sura Al-Baqarah, versículo 43",
+            "ar": "وَأَقِيمُوا الصَّلَاةَ وَآتُوا الزَّكَاةَ وَارْكَعُوا مَعَ الرَّاكِعِينَ",
+            "translation": "Y estableced la oración and give zakah and bow with those who bow."
           }
         ],
-        "consequence": "El Corán confirma la autoridad normativa y vinculante del Profeta ﷺ."
+        "realQuestion": "Is uninterrupted community practice (Tawatur 'Amali) anything other than the Sunnah of the Prophet itself?"
+      },
+      "logicalNode": {
+        "title": "División artificial between living Sunnah and documented Hadith",
+        "distinctions": [
+          {
+            "term": "PRÁCTICA VIVA (TAWÂTUR 'AMALÎ)",
+            "desc": "Ritual actions (5 prayers, timings, rak'at) practiced and transmitted continuously by millions of believers."
+          },
+          {
+            "term": "WRITTEN DOCUMENTATION (HADITH)",
+            "desc": "The textual confirmation, precision, and codification of that very same living practice."
+          }
+        ],
+        "generalRule": "One cannot validate a ritual practice while rejecting the authoritative source that established its norms.",
+        "errorToAvoid": "Believing that relying on community tradition is not relying on the prophetic Sunnah."
+      },
+      "centralPrinciple": {
+        "title": "Admitting community transmission destroys the Quranist premise",
+        "formalScheme": "1. El Corán mentions neither the 5 prayer times nor the number of rak'at (2, 4, 4, 3, 4).\n2. El Coránist admits receiving this practice from community tradition.\n3. This tradition traces back exclusively to the Prophet's command: {Pray as you have seen me pray}.\n4. Thus, the Quranist admits the Quranic text alone does not suffice for religious practice!",
+        "explanation": "By accepting the transmission of practice, the Quranist refutes his own dogma that only the Quranic text is binding.",
+        "logicalTest": "Demonstrate the exact sequence of prayer (Fatihah, Ruku', two Sujud, Tashahhud) based solely on Quranic verses without appealing to tradition!"
+      },
+      "quranicArchitecture": {
+        "title": "Versículos on prayer as a duty at fixed times",
+        "verses": [
+          {
+            "ref": "Sura An-Nisa, versículo 103",
+            "ar": "إِنَّ الصَّلَاةَ كَانَتْ عَلَى الْمُؤْمِنِينَ كِتَابًا مَّوْقُوتًا",
+            "translation": "Ciertamente, la oración has been decreed upon the believers a decree of specified times."
+          }
+        ],
+        "consequence": "The determination of these specified times and forms occurred through the Sunnah of the Messenger."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "El Marco Legal y la Aplicación",
-          "scenario": "Un código legal respaldado por jurisprudencia continua.",
-          "logic": "El texto exige su clave interpretativa.",
-          "lesson": "La aplicación práctica es indispensable.",
-          "application": "La Sunna materializa los mandatos coránicos."
-        },
-        {
-          "num": 2,
-          "title": "El Plano del Arquitecto y el Constructor",
-          "scenario": "Un arquitecto diseña el plano de un edificio y encomienda la dirección de obra a un ingeniero cualificado.",
-          "logic": "Si los obreros rechazan las órdenes del ingeniero alegando que el plano ya está completo, el edificio se derrumbará.",
-          "lesson": "El diseño teórico se completa con la ejecución del responsable acreditado.",
-          "application": "El Corán estableció las bases del culto y encomendó al Profeta su aplicación práctica."
-        },
-        {
-          "num": 3,
-          "title": "La Receta Médica y el Farmacéutico",
-          "scenario": "Un médico prescribe un tratamiento y ordena al paciente seguir las pautas de posología del farmacéutico.",
-          "logic": "Rechazar las indicaciones del farmacéutico alegando que la receta está completa conduce al desastre.",
-          "lesson": "La remisión del origen a la explicación forma parte del plan terapéutico.",
-          "application": "Al-lah ordenó la oración y remitió sus modalidades prácticas a su Mensajero ﷺ."
+          "title": "El Aprendizaje the Mother Tongue",
+          "scenario": "A child learns spoken language from parents and society, and later studies grammar books.",
+          "logic": "Claiming grammar books are false because one already speaks ignores that both reflect the same reality.",
+          "lesson": "Living practice and written codification confirm one another.",
+          "application": "Hadiths document and preserve the prayer practice lived by the community."
         }
       ],
       "readyResponses": {
-        "quick30s": "La Sunna es el pilar indispensable que da vida y precisión a los mandatos coránicos universales.",
-        "developed": "Los fundamentos del Islam se basan en la complementariedad indestructible entre el Libro de Al-lah y la Sunna de su Mensajero ﷺ."
+        "quick30s": "Cuando dices 'We pray by community practice and not through Hadiths', you have already conceded that Quranism is false! You admit the Quran alone does not suffice and that you need external historical transmission. That practice is precisely the living Sunnah (Tawâtur 'Amalî)!",
+        "developed": "Tawâtur 'Amalî is the highest category of Sunnah in Islamic jurisprudence. Hadiths were recorded to clarify subtleties and supplications. Rejecting Hadiths inevitably leads to sects claiming there are only 2 or 3 prayers."
       },
       "objections": [
         {
-          "obj": "¿No basta el texto coránico sin relatos históricos?",
-          "ans": "El propio Corán ordena tomar todo lo que el Mensajero manda y enseña."
+          "obj": "Didn't we inherit prayer from Abraham as the Quran says?",
+          "ans": "Abraham established monotheism and the Sacred House. The specific form of Islamic prayer with its timings and recitations was taught by Muhammad ﷺ: {Pray as you have seen me pray} (Sahih Bukhari)."
         }
       ],
       "framingQuestions": [
-        "¿Por qué aceptar la transmisión de los sabios para el texto del Corán y rechazarla para la Sunna?"
+        "If you follow only the Quran, why do you pray 4 rak'at at noon when the word 'four' does not appear in the Quran regarding prayer units?",
+        "Do you recognize that praying as you do is living proof that the Sunnah is indispensable?"
       ],
       "quiz": [
         {
-          "q": "¿Cuál es el papel de la Sunna frente al Corán?",
+          "q": "¿Qué significa the fact that Muslims worldwide pray 5 times daily in the same manner prove?",
           "options": [
-            "El texto en papel sin ningún significado práctico.",
-            "La revelación divina que abarca el Corán y la guía profética necesaria para su aplicación.",
-            "Es solo un texto poético.",
-            "No tiene ninguna relevancia legal."
+            "La autenticidad and flawless preservation of the living Sunnah (Tawâtur 'Amalî).",
+            "That the Quran lists all rak'at.",
+            "That anyone can pray however they wish.",
+            "A mere coincidence."
           ],
-          "answer": 1,
-          "explanation": "La perfección del Corán radica en asentar los fundamentos divinos y ordenar la sumisión a la clarificación del Mensajero."
+          "answer": 0,
+          "explanation": "It is the undeniable proof of the preservation of the living Sunnah."
         }
       ],
       "conclusion": {
         "steps": [
-          "El Corán es el libro fundacional perfecto que estableció las bases de la religión.",
-          "El Corán impone expresamente obedecer al Profeta y seguir su clarificación viva.",
-          "No existe contradicción alguna entre la perfección del Corán y el deber de seguir la Sunna."
+          "La oración is the practical core of Islam.",
+          "Its modalities are established by the prophetic Sunnah.",
+          "Appealing to community practice refutes the self-sufficiency dogma of the Quran."
         ],
-        "finalText": "La perfección del Corán se manifiesta en haber ordenado la Sunna como su explicación indispensable.",
-        "punchline": "¡Pretender prescindir de la Sunna en nombre del Corán es rechazar el propio Corán que ordenó seguir la Sunna!"
+        "finalText": "The daily practice of prayer is the permanent testimony to the necessity of the Sunnah.",
+        "punchline": "Praying according to the Sunnah while denying the Sunnah is a contradiction in every bow!"
       }
     }
   ],

@@ -1,6 +1,6 @@
 /**
  * Pack de Langue : Français (FR) - Français
- * Traduction Complète et Exhaustive (UI, Préface, Intro, 10 Arguments, Modales)
+ * Traduction Exhaustive et Intégrale (UI, Préface, Intro, 10 Arguments, Modales)
  */
 window.I18N_DATA = window.I18N_DATA || {};
 window.I18N_DATA['fr'] = {
@@ -23,8 +23,8 @@ window.I18N_DATA['fr'] = {
     "heroTag2": "Diffusion Pédagogique Ouverte",
     "heroTitleMain": "Réfutation",
     "heroTitleSpan": "du Coranisme",
-    "heroAuthor": "Par Salah Eddine Ahmed — Comment démasquer et réfuter la secte des coranistes : 10 arguments majeurs examinés et réfutés méthodiquement",
-    "heroDesc": "Déconstruisez pas à pas les sophismes du coranisme avec rigueur logique, analogies pédagogiques, versets arabes vocalisés et réponses synthétiques en 30 secondes. Partage et diffusion libres à des fins d'étude et de défense de la vérité.",
+    "heroAuthor": "Par Salah Eddine Ahmed",
+    "heroDesc": "Déconstruisez pas à pas les sophismes du coranisme avec rigueur logique, analogies pédagogiques, versets coraniques et réponses prêtes en 30 secondes.",
     "btnStartArg1": "Débuter par l'Argument 1",
     "btnSearchModal": "Rechercher un sujet / verset",
     "btnContactAuthor": "Contacter l'auteur",
@@ -35,7 +35,7 @@ window.I18N_DATA['fr'] = {
     "btnPrintCard": "Imprimer ou enregistrer la fiche en PDF",
     "goldenRuleHeader": "Règle d'or pour débattre avec un coraniste",
     "goldenRuleTitle": "Ne jamais laisser l'interlocuteur déplacer le sujet",
-    "goldenRuleDesc": "La plupart des arguments coranistes reposent sur des glissements : confondre le principe de la Sunna (instituée par le Coran) avec la question de la transmission historique des recueils postérieurs.",
+    "goldenRuleDesc": "La plupart des arguments coranistes reposent sur des glissements : confondre le principe de la Sunna (instituée par le Coran) avec la transmission historique des recueils postérieurs.",
     "goldenRuleStep1": "1. Établir d'abord ce que le Coran ordonne (Obéissance, Jugement, Bayân, Exemplarité).",
     "goldenRuleStep2": "2. Démontrer ensuite qu'une autorité déléguée ne concurrence jamais la souveraineté divine.",
     "goldenRuleStep3": "3. Traiter ensuite méthodiquement la chaîne de transmission historique.",
@@ -44,17 +44,17 @@ window.I18N_DATA['fr'] = {
     "contactModalTitle": "Contacter l'Auteur & Retours",
     "contactAuthorBio": "Auteur de l'ouvrage « Comment démasquer et réfuter la secte des coranistes — Méthode, arguments, objections et réponses ».",
     "contactEmailBoxTitle": "Boîte Mail de Contact Officielle :",
-    "contactSuggestions": "Vous pouvez envoyer vos retours, suggestions d'amélioration ou questions par e-mail à idoise@gmail.com.",
+    "contactSuggestions": "Vous pouvez envoyer vos retours, suggestions d'amélioration ou questions par e-mail à ideoise@gmail.com.",
     "legalModalTitle": "Conditions de Partage, Auteur & Confidentialité",
-    "legalSharingTitle": "Conditions de Partage & Diffusion Pédagogique",
+    "legalSharingTitle": "Diffusion et Partage Pédagogique Ouverts",
     "legalSharingSubtitle": "Diffusion et Partage Pédagogique Ouverts",
-    "legalSharingMainText": "Ce contenu peut être partagé gratuitement et reproduit à des fins personnelles, pédagogiques et non commerciales, à condition de conserver la source et l’auteur.",
+    "legalSharingMainText": "Ce contenu peut être partagé gratuitement et reproduit à des fins personnelles, pédagogiques et non commerciales, à condition de conserver la source et l'auteur.",
     "legalAuthorizedUses": "Usages autorisés : Téléchargement, impression, lecture et partage gratuit des fiches. Utilisation dans les cours, cercles d'études, débats et réseaux sociaux.",
-    "legalPrivacyTitle": "Données Techniques & Confidentialité",
+    "legalPrivacyTitle": "Politique de Confidentialité Conforme aux Fonctionnalités Réelles",
     "legalPrivacySubtitle": "Politique de Confidentialité Conforme aux Fonctionnalités Réelles",
-    "legalPrivacyText": "Le site ne demande aucune création de compte et ne collecte volontairement aucune donnée personnelle via un formulaire.",
-    "footerQuote": "« Si tu entends un homme à qui l'on cite un athar le rejeter en disant : Laisse cela et apporte-nous le Coran, ne doute pas qu'il s'agit d'un homme imprégné d'hérésie. »",
-    "footerAuthorRef": "— Imam Al-Barbahârî (Sharḥ As-Sunnah, pt 135)",
+    "legalPrivacyText": "Le site ne demande aucune création de compte et ne collecte volontairement aucune donnée personnelle via un formulaire. Les données techniques éventuellement traitées par l'hébergeur restent soumises à sa propre infrastructure.",
+    "footerQuote": "« Refuser l’autorité que le texte lui-même désigne au nom de la complétude du texte, c’est transformer la complétude en un principe que le texte n’a jamais énoncé. »",
+    "footerAuthorRef": "— Salah Eddine Ahmed",
     "footerNotice": "Manuel de réfutation méthodique — Basé sur l'ouvrage de référence de Salah Eddine Ahmed.",
     "footerNotice2": "Ce contenu peut être partagé gratuitement à des fins personnelles et pédagogiques avec mention de la source.",
     "portalWarningBadge": "MISE EN GARDE DES ANCIENS SUR LES DÉTRACTEURS DE LA TRANSMISSION",
@@ -62,39 +62,39 @@ window.I18N_DATA['fr'] = {
     "portalEnterBtn": "ACCÉDER AU MANUEL DE RÉFUTATION",
     "portalAuthorBadge": "✍️ Imam Al-Barbahârî (mort en 329 H)",
     "portalSourceRef": "📖 Source : Sharḥ As-Sunnah (Point 135)",
-    "portalDisclaimer": "Comment démasquer et réfuter la secte des coranistes • Par Salah Eddine Ahmed • Usage pédagogique libre",
+    "portalDisclaimer": "Comment démasquer et réfuter la secte des coranistes • Par Salah Eddine Ahmed • Usage pédagogique libre avec mention de la source",
     "argBadgeGiant": "ARGUMENT",
     "btnDownloadOriginalPdf": "Télécharger le PDF original",
     "btnPrintPage": "Imprimer / Exporter PDF",
     "formulaRetenir": "FORMULE À RETENIR :",
     "tocTitle": "Repères de la fiche",
-    "tocThesis": "Leur thèse",
-    "tocLogical": "Nœud logique",
-    "tocPrinciple": "Principe central",
-    "tocQuranic": "Architecture coranique",
+    "tocThesis": "Leur Thèse",
+    "tocLogical": "Nœud Logique",
+    "tocPrinciple": "Principe Central",
+    "tocQuranic": "Architecture Coranique",
     "tocAnalogies": "Analogies",
-    "tocResponses": "Réponses prêtes",
-    "tocObjections": "Objections décryptées",
+    "tocResponses": "Réponses Prêtes",
+    "tocObjections": "Objections",
     "tocQuiz": "Quiz",
     "tocConclusion": "Conclusion",
     "sec1Header": "1. LEUR THÈSE & LES VERSETS QU'ILS DÉTOURNENT",
     "sec1Sub": "La position coraniste et sa déconstruction",
     "sec1CoranistTitle": "La Thèse Coraniste Démasquée",
     "sec1VersesTitle": "Les Versets Invoqués par les Coranistes",
-    "sec1QuestionTitle": "La Véritable Question Doctrinale",
+    "sec1QuestionTitle": "La question réelle à poser :",
     "sec2Header": "2. LE NŒUD LOGIQUE DU PROBLÈME",
     "sec2Sub": "Démantèlement des confusions conceptuelles",
-    "sec2GeneralRule": "Règle générale de logique :",
-    "sec2ErrorAvoid": "L'erreur à ne jamais commettre :",
+    "sec2GeneralRule": "RÈGLE GÉNÉRALE :",
+    "sec2ErrorAvoid": "Erreur & Sophisme à Éviter",
     "sec3Header": "3. LE PRINCIPE CENTRAL DE RÉFUTATION",
     "sec3Sub": "L'argument massue à retenir",
     "sec3FormalScheme": "SCHÉMA FORMEL DÉMONSTRATIF",
     "sec3Explanation": "Démonstration Théologique & Rationnelle",
-    "sec3LogicalTest": "Test Logique Imparable :",
+    "sec3LogicalTest": "TEST LOGIQUE :",
     "sec4Header": "4. L'ARCHITECTURE CORANIQUE COMPLÈTE",
     "sec4Sub": "Les versets décisifs qui réfutent la position coraniste",
     "sec4VersesRef": "Versets Coraniques Réfutatoires",
-    "sec4Consequence": "Conséquence Doctrinale Inéluctable :",
+    "sec4Consequence": "CONSÉQUENCE :",
     "sec5Header": "5. LES ANALOGIES PÉDAGOGIQUES",
     "sec5Sub": "Pour faire comprendre le raisonnement en 30 secondes",
     "sec6Header": "6. RÉPONSES PRÊTES À L'EMPLOI",
@@ -107,7 +107,7 @@ window.I18N_DATA['fr'] = {
     "sec7ClickToggle": "Cliquez sur une objection pour afficher la réponse méthodique :",
     "sec7DirectQuestions": "Questions de cadrage directes :",
     "sec8Header": "8. TESTEZ VOTRE COMPRÉHENSION",
-    "sec8Sub": "Quiz interactif sur l'Argument",
+    "sec8Sub": "Quiz Interactif",
     "sec8ValidateBtn": "Valider ma réponse",
     "sec9Header": "9. CONCLUSION EN CHAÎNE LOGIQUE",
     "sec9Sub": "Le récapitulatif méthodique pour conclure le débat",
@@ -117,10 +117,10 @@ window.I18N_DATA['fr'] = {
     "navPrevArg": "Argument précédent",
     "navNextArg": "Argument suivant",
     "navBackSummary": "Retour au sommaire",
-    "navEndManual": "Fin du Manuel (Retour Accueil)",
-    "toastCopySuccess": "Réponse synthétique 30s copiée dans le presse-papier !",
-    "quizBravo": "Bravo ! Bonne réponse.",
-    "quizIncorrect": "Incorrect. Réessayez !",
+    "navEndManual": "Fin du Manuel",
+    "toastCopySuccess": "✅ Réponse 30s copiée dans le presse-papier !",
+    "quizBravo": "Bravo !",
+    "quizIncorrect": "Incorrect.",
     "labelSituation": "Situation :",
     "labelLogic": "Mécanisme logique :",
     "labelLesson": "Enseignement :",
@@ -130,12 +130,35 @@ window.I18N_DATA['fr'] = {
     "navBarbahari": "Al-Barbahârî",
     "navContact": "Contact",
     "navLicense": "Partage & Licence",
-    "sidebarSadaqaHeader": "DIFFUSION PÉDAGOGIQUE",
-    "sidebarSadaqaText": "Ce contenu peut être partagé gratuitement et reproduit à des fins personnelles et pédagogiques en mentionnant l'auteur.",
+    "sidebarSadaqaHeader": "Diffusion Pédagogique",
+    "sidebarSadaqaText": "Ce manuel est mis à disposition librement pour l'étude et la défense de la Sunna.",
     "labelAuthor": "Auteur :",
     "authorName": "Salah Eddine Ahmed",
-    "btnSidebarHome": "Sommaire",
-    "btnSidebarContact": "Contact"
+    "btnSidebarHome": "Accueil du Manuel",
+    "btnSidebarContact": "Contacter l'auteur",
+    "sidebarPreface": "Préface",
+    "sidebarIntro": "Qui sont les coranistes ?",
+    "portalQuoteTransLabel": "Traduction du sens :",
+    "portalQuoteText": "Si tu entends un homme à qui l'on cite un athar (récit transmis / tradition) le rejeter en disant : \"Laisse cela et apporte-nous le Coran\", ne doute pas alors qu'il s'agit d'un homme imprégné d'hérésie. Lève-toi de son assemblée et délaisse-le !",
+    "searchNoResults": "Aucun résultat pour",
+    "contactAuthorHeader": "Auteur de l'Ouvrage",
+    "legalSharingHeader": "Conditions de Partage & Diffusion Pédagogique",
+    "legalAuthorizedUsesHeader": "Usages autorisés :",
+    "legalAuthorizedUsesList": [
+      "Téléchargement, impression, lecture et partage gratuit des fiches.",
+      "Utilisation dans les cours, cercles d'études, débats et réseaux sociaux.",
+      "Toute exploitation commerciale ou altération dénaturante du texte est strictement interdite sans accord préalable."
+    ],
+    "legalPrivacyHeader": "Données Techniques & Confidentialité",
+    "legalPrivacyBullet1": "Aucun cookie publicitaire tiers : Zéro pixel de tracking commercial.",
+    "legalPrivacyBullet2": "Polices et ressources : Chargement sécurisé des polices Google Fonts.",
+    "legalCreditsHeader": "Mentions de l'ouvrage :",
+    "legalCreditsBookTitle": "Comment démasquer et réfuter la secte des coranistes",
+    "footerSubtitle": "10 arguments majeurs examinés et réfutés méthodiquement",
+    "footerBtnLegal": "⚖️ Partage, Licence & Confidentialité",
+    "footerBtnContact": "✉️ Contact Auteur",
+    "footerBtnPortal": "📜 Parole d'Al-Barbahârî",
+    "footerContactLabel": "Contact :"
   },
   "arguments": [
     {
@@ -280,7 +303,20 @@ window.I18N_DATA['fr'] = {
         ],
         "finalText": "Il n'existe aucune contradiction entre la complétude du Coran et le devoir de suivre l'autorité prophétique que le Coran institue.",
         "punchline": "Refuser l'autorité que le texte désigne au nom de la complétude du texte revient à désobéir au texte lui-même."
-      }
+      },
+      "quiz": [
+        {
+          "q": "Que signifie la complétude du Coran dans le cadre législatif islamique ?",
+          "options": [
+            "Qu'il détaille chaque modalité pratique sans besoin d'explication prophétique.",
+            "Qu'il pose les fondements et institue l'obligation d'obéir aux clarifications du Prophète ﷺ.",
+            "Qu'il rend la Sunna obsolète.",
+            "Qu'il est un simple livre d'histoire."
+          ],
+          "answer": 1,
+          "explanation": "La complétude du Coran inclut l'ordre formel de suivre l'explication et les jugements du Prophète ﷺ."
+        }
+      ]
     },
     {
       "id": 2,
@@ -400,7 +436,20 @@ window.I18N_DATA['fr'] = {
         ],
         "finalText": "Obéir au Messager ﷺ dépasse la simple écoute d'une récitation : c'est suivre les directives et arbitrages qu'Allah lui a ordonné de rendre.",
         "punchline": "Refuser l'autorité du délégué au nom du souverain devient une désobéissance au souverain qui a ordonné de suivre ce délégué."
-      }
+      },
+      "quiz": [
+        {
+          "q": "Comment s'accomplit l'obéissance au Messager ﷺ après sa mort ?",
+          "options": [
+            "En considérant les versets d'obéissance comme historiquement caducs.",
+            "En se conformant à sa Sunna authentique et à ses enseignements préservés.",
+            "En interprétant le Coran selon ses opinions subjectives.",
+            "En rejetant tout récit historique."
+          ],
+          "answer": 1,
+          "explanation": "L'obéissance au Messager après sa mort s'exerce par la fidélité à sa Sunna authentique."
+        }
+      ]
     },
     {
       "id": 3,
@@ -516,7 +565,20 @@ window.I18N_DATA['fr'] = {
         ],
         "finalText": "Le Prophète ﷺ n'est pas une seconde source concurrente : il est l'autorité normative instituée par Allah.",
         "punchline": "L'autorité déléguée ne diminue pas la souveraineté divine : elle en est la manifestation."
-      }
+      },
+      "quiz": [
+        {
+          "q": "Quel verset établit que le Prophète rend licites les bonnes choses et illicites les impures ?",
+          "options": [
+            "Sourate Al-A'râf, verset 157",
+            "Sourate Al-Baqarah, verset 1",
+            "Sourate Al-Ikhlâs, verset 1",
+            "Sourate An-Nâs, verset 1"
+          ],
+          "answer": 0,
+          "explanation": "La Sourate 7:157 confirme explicitement ce mandat législatif délégué au Messager."
+        }
+      ]
     },
     {
       "id": 4,
@@ -632,7 +694,20 @@ window.I18N_DATA['fr'] = {
         ],
         "finalText": "La mission du Messager ﷺ englobe la transmission de la lettre, l'explication du sens et la démonstration pratique.",
         "punchline": "Explication pratique et enseignement ne sont pas des ajouts au texte : ils sont l'exécution du mandat coranique."
-      }
+      },
+      "quiz": [
+        {
+          "q": "Quelles missions le Coran assigne-t-il au Prophète en Sourate 2:151 et 62:2 ?",
+          "options": [
+            "Réciter les versets, purifier les croyants, enseigner le Livre et la Sagesse (Sunna).",
+            "Se contenter de distribuer des feuilles écrites.",
+            "Diriger uniquement des armées sans enseignement religieux.",
+            "Aucune mission d'enseignement."
+          ],
+          "answer": 0,
+          "explanation": "Le Coran détaille la transmission comme récitation, purification et enseignement du Livre et de la Sagesse."
+        }
+      ]
     },
     {
       "id": 5,
@@ -744,7 +819,20 @@ window.I18N_DATA['fr'] = {
         ],
         "finalText": "Le Coran possède un statut unique, et la Sunna authentique fournit l'explication et la mise en pratique voulues par Allah.",
         "punchline": "Garantie particulière du Coran ≠ Disparition de la transmission fiable de la Sunna."
-      }
+      },
+      "quiz": [
+        {
+          "q": "Quel verset affirme l'engagement divin d'assurer l'explication du Coran ?",
+          "options": [
+            "Sourate Al-Qiyâmah, verset 19 : « Puis, c'est à Nous qu'incombe son explication »",
+            "Sourate Al-Baqarah, verset 2",
+            "Sourate Al-Fâtihah, verset 1",
+            "Sourate Al-Falaq, verset 1"
+          ],
+          "answer": 0,
+          "explanation": "La Sourate 75:19 garantit l'explication (Bayân) du Coran par Allah à travers Son Messager."
+        }
+      ]
     },
     {
       "id": 6,
@@ -828,7 +916,20 @@ window.I18N_DATA['fr'] = {
         ],
         "finalText": "La démarche rationnelle consiste à évaluer chaque récit selon ses chaînes et critères d'authenticité, sans céder au rejet simpliste.",
         "punchline": "Compilation tardive ≠ Origine tardive. Riwâyat Ḥafṣ ʿan ʿĀṣim démontre la validité de la transmission."
-      }
+      },
+      "quiz": [
+        {
+          "q": "Quel manuscrit de hadiths du 1er siècle de l'Hégire subsiste aujourd'hui comme preuve historique ?",
+          "options": [
+            "La Sahîfah de Hammâm ibn Munabbih (élève d'Abû Hurayrah).",
+            "Un recueil du XIXe siècle.",
+            "Un code de lois romain.",
+            "Aucun manuscrit n'existe."
+          ],
+          "answer": 0,
+          "explanation": "La Sahîfah de Hammâm ibn Munabbih (mort vers 101 H) est conservée et correspond mot à mot aux recueils postérieurs."
+        }
+      ]
     },
     {
       "id": 7,
@@ -933,7 +1034,20 @@ window.I18N_DATA['fr'] = {
         ],
         "finalText": "Les quatre éléments du dossier rétablissent la cohérence historique et doctrinale de la transmission de la Sunna.",
         "punchline": "Quatre données à harmoniser : interdiction initiale, permission de rapporter, autorisation d'écrire et ordre pour Abû Shâh."
-      }
+      },
+      "quiz": [
+        {
+          "q": "Qu'a ordonné le Prophète ﷺ lorsqu'Abû Shâh a demandé une copie écrite de son sermon ?",
+          "options": [
+            "« Écrivez pour Abû Shâh ! »",
+            "« L'écriture est strictement interdite. »",
+            "« Quittez la mosquée. »",
+            "Il n'a pas répondu."
+          ],
+          "answer": 0,
+          "explanation": "Le Prophète a explicitement ordonné dans le Sahîh Al-Bukhârî : « Écrivez pour Abû Shâh ! »"
+        }
+      ]
     },
     {
       "id": 8,
@@ -1043,7 +1157,20 @@ window.I18N_DATA['fr'] = {
         ],
         "finalText": "Le Coran condamne les discours mensongers des négateurs, et non les explications du Prophète ﷺ.",
         "punchline": "Ḥadīth = discours / récit dans la langue arabe ; non le terme technique du corpus sunnite."
-      }
+      },
+      "quiz": [
+        {
+          "q": "Comment le Coran qualifie-t-il sa propre révélation dans la Sourate Az-Zumar, verset 23 ?",
+          "options": [
+            "Ahsan al-Hadîth (Le meilleur des récits / de la parole)",
+            "Lahw al-Hadîth (Distraction)",
+            "Une fable",
+            "Une poésie ordinaire"
+          ],
+          "answer": 0,
+          "explanation": "Dans la Sourate 39:23, Allah qualifie le Coran lui-même de 'Ahsan al-Hadîth'."
+        }
+      ]
     },
     {
       "id": 9,
@@ -1163,7 +1290,20 @@ window.I18N_DATA['fr'] = {
         ],
         "finalText": "Les corrections divines attestent de l'encadrement divin de la mission prophétique et garantissent la pureté de la Sunna transmise.",
         "punchline": "Les corrections divines n'annulent pas l'autorité du Prophète ﷺ : elles en prouvent l'encadrement permanent par Allah عز وجل."
-      }
+      },
+      "quiz": [
+        {
+          "q": "Que prouvent les versets d'orientation divine comme la Sourate 'Abasa ?",
+          "options": [
+            "Que la mission prophétique était sous une vigilance divine directe et permanente.",
+            "Qu'il ne faut plus obéir au Prophète.",
+            "Que le Prophète a écrit le Coran.",
+            "Que le Coran est incomplet."
+          ],
+          "answer": 0,
+          "explanation": "Ces versets attestent que tout ce qui a été maintenu et enseigné par le Prophète jouit de l'approbation divine infaillible."
+        }
+      ]
     },
     {
       "id": 10,
@@ -1260,7 +1400,20 @@ window.I18N_DATA['fr'] = {
         ],
         "finalText": "La transmission ininterrompue de la prière est la preuve vivante de la nécessité de la Sunna.",
         "punchline": "Pratique rituelle transmise = Sunna vivante (Tawâtur pratique)."
-      }
+      },
+      "quiz": [
+        {
+          "q": "Que prouve le fait que les musulmans du monde entier prient 5 fois par jour de manière identique ?",
+          "options": [
+            "La préservation parfaite et vivante de la Sunna pratique (Tawâtur 'Amalî).",
+            "Que le Coran mentionne le nombre exact de chaque rak'ah.",
+            "Que chacun peut prier selon son inspiration individuelle.",
+            "Une simple coïncidence."
+          ],
+          "answer": 0,
+          "explanation": "C'est la preuve éclatante de la transmission ininterrompue de la Sunna vivante."
+        }
+      ]
     }
   ],
   "preface": {
