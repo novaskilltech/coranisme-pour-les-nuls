@@ -130,9 +130,9 @@ window.I18N_DATA['it'] = {
   },
   "arguments": [
     {
-      "theme": "Completeness of the Quran and Prophetic Clarification",
-      "title": "The Quran is Complete: Why Would We Need the Sunnah?",
-      "shortTitle": "Completeness of the Quran",
+      "theme": "Completezza e Chiarimento",
+      "title": "Il Corano è completo e dettagliato: perché servirebbe la Sunna?",
+      "shortTitle": "Perfezione del Corano",
       "tagline": "The Quran is foundational and complete, and part of its completeness is commanding obedience to the Prophet ﷺ.",
       "formula": "The Quran's legislative completeness includes the mandate of Prophetic Bayan; rejecting the Sunnah rejects the Quran!",
       "theirArgument": {
@@ -230,9 +230,9 @@ window.I18N_DATA['it'] = {
       }
     },
     {
-      "theme": "Obligation of Obeying the Messenger ﷺ",
-      "title": "Obedience to the Messenger: Was it Only During His Lifetime?",
-      "shortTitle": "Obedience to the Messenger",
+      "theme": "Autorità Permanente",
+      "title": "L'obbedienza al Messaggero era limitata alla sua vita terrena?",
+      "shortTitle": "Obbedienza al Messaggero",
       "tagline": "The Quranic command to obey the Messenger is timeless and universal until the Day of Judgment.",
       "formula": "Obeying the Prophet is a permanent obligation; his Sunnah is the living manifestation of that obedience!",
       "theirArgument": {
@@ -325,9 +325,9 @@ window.I18N_DATA['it'] = {
       }
     },
     {
-      "theme": "Divine Sovereignty and Delegated Legislation",
-      "title": "« Judgment Belongs Only to Allah »: Did the Prophet Legislate?",
-      "shortTitle": "Divine Sovereignty and Legislation",
+      "theme": "Sovranità Divina",
+      "title": "«Il giudizio appartiene solo ad Allah»: il Profeta ha legiferato?",
+      "shortTitle": "Sovranità e Legislazione",
       "tagline": "The Prophet's legal rulings derive directly from Allah's revelation and divine authorization.",
       "formula": "Allah's absolute sovereignty includes delegating authoritative legislation to His Messenger by revelation!",
       "theirArgument": {
@@ -420,9 +420,9 @@ window.I18N_DATA['it'] = {
       }
     },
     {
-      "theme": "The Prophetic Mission: Delivery, Clarification, and Purification",
-      "title": "« The Duty of the Messenger is Only Delivery »: Was He Just a Courier?",
-      "shortTitle": "The Prophetic Mission",
+      "theme": "Trasmissione e Insegnamento",
+      "title": "«Al Messaggero spetta solo la trasmissione»: era solo un postino?",
+      "shortTitle": "La Missione del Messaggero",
       "tagline": "The 'clear delivery' (Balagh Mubin) includes authoritative teaching, explanation, and practical implementation.",
       "formula": "Prophetic delivery is not a passive courier delivery; it is active teaching, purification, and authoritative explanation!",
       "theirArgument": {
@@ -515,9 +515,9 @@ window.I18N_DATA['it'] = {
       }
     },
     {
-      "theme": "Preservation of the Dhikr and the Sunnah",
-      "title": "« We Have Sent Down the Dhikr and We Will Preserve It »: Is Dhikr Only the Quran?",
-      "shortTitle": "Preservation of the Dhikr",
+      "theme": "Preservazione della Rivelazione",
+      "title": "«Noi abbiamo fatto scendere il Dhikr e lo custodiremo»: solo il Corano?",
+      "shortTitle": "Preservazione del Dhikr",
       "tagline": "Preserving the concise text of the Quran logically and divinely necessitates preserving its authoritative explanation.",
       "formula": "Dhikr in the Quran encompasses all divine revelation; preserving the foundational text requires preserving its explanatory key!",
       "theirArgument": {
@@ -610,9 +610,9 @@ window.I18N_DATA['it'] = {
       }
     },
     {
-      "theme": "Histoire & Méthodologie de l'Isnâd",
-      "title": "Les hadiths ont été compilés trop tard et ont subi des fabrications.",
-      "shortTitle": "Compilation tardive des hadiths ?",
+      "theme": "Documentazione Storica",
+      "title": "«Gli ahadith sono stati scritti 200 anni dopo»: la verità storica",
+      "shortTitle": "Storia della Compilazione",
       "tagline": "Distinguer la date d'une compilation écrite de la genèse historique de son contenu",
       "formula": "COMPILATION D'UN RECUEIL ≠ NAISSANCE DU MATÉRIAU HISTORIQUE (Transmission continue)",
       "theirArgument": {
@@ -690,9 +690,9 @@ window.I18N_DATA['it'] = {
       }
     },
     {
-      "theme": "Droit des Sources & Récits sur l'Écriture",
-      "title": "Le Prophète ﷺ a lui-même interdit d’écrire ses paroles.",
-      "shortTitle": "Interdiction d'écrire les paroles prophétiques ?",
+      "theme": "Contesto dei Testi",
+      "title": "«Non scrivete nulla da me»: il Profeta ha vietato la scrittura?",
+      "shortTitle": "Divieto di Scrittura",
       "tagline": "Réglementation temporaire du support écrit et ordres positifs d'écriture de la Sunna",
       "formula": "RÉGLEMENTER LE SUPPORT ÉCRIT INITIALEMENT ≠ ABOLIR LA TRANSMISSION DE LA SUNNA",
       "theirArgument": {
@@ -789,9 +789,9 @@ window.I18N_DATA['it'] = {
       }
     },
     {
-      "theme": "Sémantique & Déconstruction de l'Anachronisme",
-      "title": "Le Coran condamne les “hadiths” autres que le Coran.",
-      "shortTitle": "Le Coran condamne les Hadiths ?",
+      "theme": "Semantica Coranica",
+      "title": "«A quale Hadith dopo questo crederanno?»: il Corano condanna il termine?",
+      "shortTitle": "Il Termine 'Hadith'",
       "tagline": "Le sens lexical arabe de 'hadīth' (discours, parole, récit) vs anachronisme terminologique",
       "formula": "ḤADĪTH = PAROLE / DISCOURS / RÉCIT DANS LA LANGUE ARABE ≠ TERME TECHNIQUE DU CORPUS DE LA SUNNA",
       "theirArgument": {
@@ -891,9 +891,9 @@ window.I18N_DATA['it'] = {
       }
     },
     {
-      "theme": "Statut du Prophète & Encadrement Révélé",
-      "title": "Puisque le Coran rapporte des corrections divines adressées au Prophète ﷺ, ses paroles et décisions ne pourraient pas constituer une autorité religieuse.",
-      "shortTitle": "Corrections divines & Encadrement de la mission",
+      "theme": "Infallibilità della Trasmissione",
+      "title": "«Si accigliò e volse le spalle»: i rimproveri annullano l'autorità profetica?",
+      "shortTitle": "Rimproveri Divini",
       "tagline": "Les corrections qu'Allah عز وجل adresse au Prophète ﷺ démontrent l'encadrement divin actif de sa mission",
       "formula": "LES CORRECTIONS QU'ALLAH عز وجل ADRESSE AU PROPHÈTE ﷺ NE SUPPRIMENT PAS SON AUTORITÉ. ELLES MONTRENT AU CONTRAIRE QUE SA MISSION EST DIRECTEMENT ENCADRÉE PAR ALLAH ET QUE TOUTE ORIENTATION NÉCESSAIRE INTERVIENT DURANT SA VIE.",
       "theirArgument": {
@@ -1002,9 +1002,9 @@ window.I18N_DATA['it'] = {
       }
     },
     {
-      "theme": "Pratique Cultuelle & Tawâtur 'Amalî",
-      "title": "La prière et les rites se transmettent par la pratique communautaire, pas par les hadiths.",
-      "shortTitle": "La prière sans les hadiths ?",
+      "theme": "Trasmissione del Culto",
+      "title": "«La pratica viva (Tawâtur) basta»: abbiamo bisogno dei libri di Hadith?",
+      "shortTitle": "Pratica Viva e Hadith",
       "tagline": "Pratique prophétique transmise de génération en génération = définition exacte de la Sunna vivante (Tawâtur 'Amalî)",
       "formula": "PRATIQUE RITUELLE TRANSMISE PAR LA COMMUNAUTÉ DEPUIS LE PROPHÈTE = SUNNA VIVANTE (TAWÂTUR PRATIQUE)",
       "theirArgument": {
