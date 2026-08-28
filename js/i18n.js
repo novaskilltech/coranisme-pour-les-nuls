@@ -311,45 +311,57 @@ function updateStaticDOM(ui) {
   if (searchBtnText && ui.searchBtn) searchBtnText.textContent = ui.searchBtn;
 
   const barbahariBtnText = document.querySelector('button[data-action="open-portal"] .desktop-only-text');
-  if (barbahariBtnText && ui.barbahariBtn) barbahariBtnText.textContent = ui.barbahariBtn;
+  if (barbahariBtnText && (ui.barbahariBtn || ui.topbarBarbahari || ui.footerBtnPortal)) {
+    barbahariBtnText.textContent = ui.barbahariBtn || ui.topbarBarbahari || ui.footerBtnPortal;
+  }
 
   const contactBtnText = document.querySelector('button[data-modal-id="contact-modal"] .desktop-only-text');
-  if (contactBtnText && ui.contactBtn) contactBtnText.textContent = ui.contactBtn;
+  if (contactBtnText && (ui.contactBtn || ui.topbarContact || ui.footerBtnContact)) {
+    contactBtnText.textContent = ui.contactBtn || ui.topbarContact || ui.footerBtnContact;
+  }
 
   const licenseBtnText = document.querySelector('button[data-modal-id="legal-modal"] .desktop-only-text');
-  if (licenseBtnText && (ui.legalBtn || ui.navLicense)) licenseBtnText.textContent = ui.legalBtn || ui.navLicense;
+  if (licenseBtnText && (ui.legalBtn || ui.navLicense || ui.topbarLegal || ui.footerBtnLegal)) {
+    licenseBtnText.textContent = ui.legalBtn || ui.navLicense || ui.topbarLegal || ui.footerBtnLegal;
+  }
 
   // Sidebar
   const sidebarHeaderTitle = document.querySelector('.sidebar-header h3');
-  if (sidebarHeaderTitle && ui.summaryTitle) sidebarHeaderTitle.textContent = `📚 ${ui.summaryTitle}`;
+  if (sidebarHeaderTitle && (ui.summaryTitle || ui.sidebarTitle)) {
+    sidebarHeaderTitle.textContent = ui.sidebarTitle || `📚 ${ui.summaryTitle}`;
+  }
 
   const sidebarCount = document.querySelector('.sidebar-count');
-  if (sidebarCount && ui.rubriquesCount) sidebarCount.textContent = ui.rubriquesCount;
+  if (sidebarCount && (ui.rubriquesCount || ui.sidebarCount)) {
+    sidebarCount.textContent = ui.sidebarCount || ui.rubriquesCount;
+  }
 
   // Encart Diffusion Pédagogique dans la Sidebar
   const sadaqaHeader = document.querySelector('.sidebar-sadaqa-box .sadaqa-header');
-  if (sadaqaHeader && ui.sidebarSadaqaHeader) {
-    sadaqaHeader.innerHTML = `<span>🌿</span> ${ui.sidebarSadaqaHeader}`;
+  if (sadaqaHeader && (ui.sidebarSadaqaHeader || ui.heroTag2 || ui.legalSharingHeader)) {
+    sadaqaHeader.innerHTML = `<span>🌿</span> ${ui.sidebarSadaqaHeader || ui.heroTag2 || ui.legalSharingHeader}`;
   }
 
   const sadaqaText = document.querySelector('.sidebar-sadaqa-box p');
-  if (sadaqaText && ui.sidebarSadaqaText) {
-    sadaqaText.textContent = ui.sidebarSadaqaText;
+  if (sadaqaText && (ui.sidebarSadaqaText || ui.legalSharingP1 || ui.heroDesc)) {
+    sadaqaText.textContent = ui.sidebarSadaqaText || ui.legalSharingP1 || ui.heroDesc;
   }
 
   const authorTag = document.querySelector('.sidebar-sadaqa-box .author-tag');
-  if (authorTag && ui.labelAuthor) {
-    authorTag.innerHTML = `${ui.labelAuthor} <strong>${ui.authorName || 'Salah Eddine Ahmed (Abou Soulaymane)'}</strong>`;
+  if (authorTag) {
+    const authorPrefix = ui.labelAuthor || ui.contactAuthorHeader || 'Auteur :';
+    const authorVal = ui.authorName || 'Salah Eddine Ahmed (Abou Soulaymane)';
+    authorTag.innerHTML = `${authorPrefix} <strong>${authorVal}</strong>`;
   }
 
   const btnSidebarHome = document.querySelector('.btn-sidebar-home');
-  if (btnSidebarHome && ui.btnSidebarHome) {
-    btnSidebarHome.innerHTML = `<span>🏠</span> ${ui.btnSidebarHome}`;
+  if (btnSidebarHome && (ui.btnSidebarHome || ui.sidebarHome || ui.navBackSummary)) {
+    btnSidebarHome.innerHTML = `<span>🏠</span> ${ui.btnSidebarHome || ui.sidebarHome || ui.navBackSummary}`;
   }
 
   const btnSidebarContact = document.querySelector('.btn-sidebar-contact');
-  if (btnSidebarContact && ui.btnSidebarContact) {
-    btnSidebarContact.innerHTML = `<span>✉️</span> ${ui.btnSidebarContact}`;
+  if (btnSidebarContact && (ui.btnSidebarContact || ui.sidebarContact || ui.topbarContact || ui.footerBtnContact)) {
+    btnSidebarContact.innerHTML = `<span>✉️</span> ${ui.btnSidebarContact || ui.sidebarContact || ui.topbarContact || ui.footerBtnContact}`;
   }
 
   // Liens de navigation dans la Sidebar
