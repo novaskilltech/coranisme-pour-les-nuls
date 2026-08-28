@@ -169,8 +169,8 @@ window.I18N_DATA['fr'] = {
     "shareCardDesc": "Diffusez cette fiche pour l'étude et la défense de la Sunna sur WhatsApp, Telegram ou les réseaux.",
     "toastSectionCopied": "✅ Section copiée dans le presse-papier !",
     "toastLinkCopied": "✅ Lien copié dans le presse-papier !",
-    "navFallacies": "Boîte à outils — Les Sophismes",
-    "fallaciesTitle": "Boîte à outils : Déjouer les Sophismes",
+    "navFallacies": "BOÎTE À OUTILS — Reconnaître",
+    "fallaciesTitle": "BOÎTE À OUTILS",
     "fallaciesBadgeTitle": "SOPHISMES REPÉRÉS DANS CET ARGUMENT :",
     "viewFallacyDetail": "Voir l’analyse détaillée ▼",
     "hideFallacyDetail": "Masquer l’analyse ▲",
@@ -1636,11 +1636,21 @@ window.I18N_DATA['fr'] = {
     "reflexPurpose": "Le but n’est pas d’apprendre du vocabulaire compliqué. Le but est d’apprendre à voir exactement où un raisonnement cesse d’être solide.",
     "pdfDownloadBtn": "Télécharger la Boîte à Outils (PDF)",
     "pdfFileName": "Boite_a_outils_Sophismes_Coranisme.pdf",
-    "goldenRuleTitle": "LA RÈGLE D'OR",
+    "goldenRuleTitle": "LA RÈGLE D'OR MÉTHODOLOGIQUE",
     "goldenRuleStatement": "REPÉRER UN SOPHISME ≠ PROUVER QUE LA CONCLUSION EST FAUSSE",
     "goldenRuleMeaning": "Identifier une faille dans un raisonnement signifie seulement que l’argument présenté ne suffit pas à établir la conclusion.",
     "goldenRuleExample": "Quelqu’un dit : « Tous les cygnes sont blancs parce que j’en ai vu dix et qu’ils étaient tous blancs. » Le raisonnement est insuffisant (dix observations ne permettent pas d’établir une règle universelle). Mais détecter cette généralisation ne prouve pas, à lui seul, qu’il existe forcément un cygne non blanc.",
     "goldenRuleGoal": "Ne pas remplacer un mauvais raisonnement par un autre. Nous voulons identifier précisément la faille, puis examiner les preuves réelles. En débat, dire seulement « c’est un sophisme » n’est pas suffisant : il faut expliquer quelle étape logique manque ou quel terme a changé de sens.",
+    "sectionTitle10Cards": "📚 Les 10 Sophismes Fréquents en 10 Cartes Interactives",
+    "btnDetails": "Détails",
+    "btnHide": "Masquer",
+    "labelDefinition": "📖 Définition",
+    "labelGeneralExample": "🌍 Exemple Général",
+    "labelQuranicApp": "🕌 Application au Débat sur le Coranisme",
+    "labelQuestionToAsk": "❓ Question réflexe à poser :",
+    "labelShortAnswer": "💬 Réponse courte :",
+    "cardMemoBadge": "CARTE MÉMO",
+    "trainingBadge": "ENTRAÎNEMENT",
     "items": [
       {
         "id": "homme-de-paille",
@@ -1673,7 +1683,7 @@ window.I18N_DATA['fr'] = {
         "shortDef": "Passer de quelques cas particuliers à une règle générale pour toute une catégorie.",
         "definition": "Passer de quelques cas particuliers à une conclusion concernant toute une catégorie.",
         "generalExample": "« Deux médecins m’ont mal diagnostiqué, donc les médecins sont inutiles. »",
-        "quranicApplication": "« Il existe des hadiths fabriqués, donc les hadiths ne sont pas fiables. »\nL’existence de récits faux impose un tri critique ; elle ne démontre pas que tout le corpus est faux. (Analogie des faux billets : l'existence de faux billets ne supprime pas la monnaie, elle développe l'expertise d'authentification).",
+        "quranicApplication": "« Il existe des hadiths fabriqués, donc les hadiths ne sont pas fiables. »\nL’existence de récits faux impose un tri critique ; elle ne démontre pas que tout le corpus est faux (Analogie des faux billets).",
         "questionToAsk": "« Comment passes-tu de certains à tous ? »",
         "shortAnswer": "« Montrer qu’un élément est faux ne démontre pas que toute la catégorie est fausse. »",
         "icon": "🔍"
@@ -1685,7 +1695,7 @@ window.I18N_DATA['fr'] = {
         "shortDef": "La conclusion ne découle pas logiquement de la prémisse énoncée.",
         "definition": "Non sequitur signifie : « cela ne suit pas ». La prémisse peut être vraie, mais la conclusion ne découle pas de cette prémisse.",
         "generalExample": "« Il pleut dehors, donc le match de basket en salle est annulé. »",
-        "quranicApplication": "• « Le Coran est complet. Donc la Sunna est inutile. » (La complétude du texte n'exclut pas l'autorité extérieure qu'il institue).\n• « Allah a préservé le Coran. Donc aucun hadith ne peut être fiable. » (La préservation divine du Coran n'implique pas l'impossibilité de transmission fiable).\n• « Al-Bukhârî a vécu deux siècles après. Donc les traditions sont nées deux siècles après. » (Date du compilateur ≠ date du matériau compilé).",
+        "quranicApplication": "• « Le Coran est complet. Donc la Sunna est inutile. » (La complétude n'exclut pas l'autorité extérieure instituée).\n• « Allah a préservé le Coran. Donc aucun hadith ne peut être fiable. »\n• « Al-Bukhârî a vécu deux siècles après. Donc les traditions sont nées deux siècles après. »",
         "questionToAsk": "« Quelle étape logique relie exactement ta prémisse à ta conclusion ? »",
         "shortAnswer": "« Ta première phrase peut être vraie sans prouver la seconde. »",
         "icon": "⚡"
@@ -1696,8 +1706,8 @@ window.I18N_DATA['fr'] = {
         "name": "Le Cherry-picking (Sélection des preuves)",
         "shortDef": "Sélectionner uniquement les données favorables et ignorer les autres.",
         "definition": "Sélectionner uniquement les preuves favorables à une conclusion et ignorer les données qui la compliquent ou la précisent.",
-        "generalExample": "Citer 3 avis favorables et cacher les 50 études scientifiques contraires.",
-        "quranicApplication": "• Citer « le Messager transmet » (Al-Balâgh) en omettant : « Obéissez au Messager », « Prenez-le pour juge », « Acceptez ce qu’il a décidé », « modèle excellent ».\n• Citer « N’écrivez pas de moi... » en omettant la fin du récit « Rapportez de moi, pas de mal » et les traditions « Écris » ou « Écrivez pour Abû Shâh ».",
+        "generalExample": "Citer 3 études favorables et cacher les 50 études scientifiques contraires.",
+        "quranicApplication": "• Citer « le Messager transmet » (Al-Balâgh) en omettant : « Obéissez au Messager », « Prenez-le pour juge », « modèle excellent ».\n• Citer « N’écrivez pas de moi... » en omettant la fin « Rapportez de moi, pas de mal » et les récits « Écris ».",
         "questionToAsk": "« Existe-t-il d’autres textes sur le même sujet que tu n’as pas cités ? »",
         "shortAnswer": "« Une preuve ne se lit pas seule lorsque d’autres textes la complètent ou la précisent. »",
         "icon": "🍒"
@@ -1709,7 +1719,7 @@ window.I18N_DATA['fr'] = {
         "shortDef": "Appliquer un critère sévère à l'adversaire et souple quand cela arrange.",
         "definition": "Appliquer un critère très sévère aux preuves adverses et un critère beaucoup plus souple lorsqu’une preuve favorise sa propre conclusion.",
         "generalExample": "Exiger un dossier sans faille pour les uns et accepter un simple ouï-dire pour les autres.",
-        "quranicApplication": "• Quand le hadith établit une obligation : « Récit tardif transmis par des hommes, impossible d'être certain ! » / Quand le même hadith sert une polémique : « Bukhârî prouve avec certitude l'âge de ʿÂ’ishah رضي الله عنها ! »\n• Accepter la transmission humaine des lectures du Coran (Ḥafṣ d’après ʿĀṣim) et rejeter par principe la transmission humaine des hadiths.",
+        "quranicApplication": "• Quand le hadith établit une règle : « Transmis par des hommes, incertain ! » / Quand le hadith sert une polémique : « Bukhârî prouve avec certitude l'âge de ʿÂ’ishah رضي الله عنها ! »\n• Accepter la transmission humaine du Coran (Ḥafṣ d’après ʿĀṣim) et rejeter celle des hadiths.",
         "questionToAsk": "« Appliquerais-tu exactement le même critère si cette preuve allait dans mon sens ? »",
         "shortAnswer": "« Le standard de preuve doit rester le même quand la conclusion t'arrange et quand elle te dérange. »",
         "icon": "🔄"
@@ -1721,7 +1731,7 @@ window.I18N_DATA['fr'] = {
         "shortDef": "Utiliser le même mot avec deux sens différents sans le préciser.",
         "definition": "Utiliser le même mot avec deux sens différents au cours du raisonnement sans signaler le changement.",
         "generalExample": "« La gravité est une loi. Les lois sont votées par le parlement. Donc la gravité a été votée par le parlement. »",
-        "quranicApplication": "Dans le Coran, ḥadīth peut signifier « parole, discours, récit, conversation ou nouvelle ». Le sophisme consiste à lire « En quel ḥadīth après celui-ci croiront-ils ? » puis à remplacer discrètement le sens lexical (« discours ») par le sens technique (« corpus des traditions prophétiques »).",
+        "quranicApplication": "Dans le Coran, ḥadīth signifie « parole, discours, récit ou nouvelle ». Le sophisme consiste à lire « En quel ḥadīth après celui-ci croiront-ils ? » puis à remplacer discrètement le sens lexical (« discours ») par le sens technique (« recueils de traditions »).",
         "questionToAsk": "« Quel sens précis donnes-tu à ce mot dans ce verset, et comment le démontres-tu par le contexte ? »",
         "shortAnswer": "« Fixons d’abord le sens du mot avant d’en tirer une conclusion. »",
         "icon": "🔀"
@@ -1731,9 +1741,9 @@ window.I18N_DATA['fr'] = {
         "num": 8,
         "name": "L'Argument de possibilité",
         "shortDef": "Transformer « cela pourrait être faux » en « cela est faux ».",
-        "definition": "Transformer « cela pourrait être faux » en « cela est faux » ou « cela ne peut rien prouver ».",
+        "definition": "Transformer « cela pourrait être faux » en « cela est faux » ou « cela ne peut rien prouver » sans examen.",
         "generalExample": "« Un témoin peut mentir. Donc son témoignage est nécessairement faux. » (Non : cela impose de vérifier, pas de rejeter sans examen).",
-        "quranicApplication": "« Une chaîne de transmission peut être inventée. Donc les isnâds ne prouvent rien. »\nLa possibilité de fabrication impose d’examiner la chaîne, les variantes, les transmetteurs, les voies parallèles et les sources anciennes, non de tout rejeter en bloc.",
+        "quranicApplication": "« Une chaîne de transmission peut être inventée. Donc les isnâds ne prouvent rien. »\nLa possibilité de fabrication impose d’examiner la chaîne, les variantes et les sources anciennes, non de tout rejeter en bloc.",
         "questionToAsk": "« As-tu démontré que cela s’est produit, ou seulement que cela aurait pu se produire ? »",
         "shortAnswer": "« Une possibilité théorique n’est pas une preuve. »",
         "icon": "🎲"
@@ -1745,7 +1755,7 @@ window.I18N_DATA['fr'] = {
         "shortDef": "Affirmer sans preuve et exiger que l'adversaire prouve le contraire.",
         "definition": "Celui qui formule une affirmation doit apporter les raisons de l’accepter. Le déplacement consiste à affirmer quelque chose puis à exiger que l’adversaire prouve le contraire.",
         "generalExample": "« Il existe une civilisation secrète sous Mars. Prouve-moi que c'est faux. »",
-        "quranicApplication": "« Aucune tradition prophétique n'est suffisamment fiable pour constituer une preuve religieuse. »\nC'est une affirmation universelle portant sur des milliers de récits et chaînes de transmission : elle exige elle-même une démonstration méthodique.",
+        "quranicApplication": "« Aucune tradition prophétique n'est suffisamment fiable pour constituer une preuve religieuse. »\nC'est une affirmation universelle portant sur des milliers de récits : elle exige elle-même une démonstration méthodique.",
         "questionToAsk": "« Qui formule ici l’affirmation qui doit être démontrée ? »",
         "shortAnswer": "« Celui qui affirme que rien n'est fiable doit aussi apporter une preuve à cette affirmation générale. »",
         "icon": "⚖️"
@@ -1757,7 +1767,7 @@ window.I18N_DATA['fr'] = {
         "shortDef": "Remplacer l'analyse par le choc, l'indignation ou la dérision.",
         "definition": "Remplacer ou court-circuiter l’analyse par le choc, le rire, le dégoût, l’indignation ou le ridicule.",
         "generalExample": "Ricaner ou s'indigner d'un sujet complexe au lieu d'en examiner les arguments.",
-        "quranicApplication": "« Vous buvez de l'urine ! », « Vous croyez au hadith de la mouche ? », etc.\nUne réaction émotionnelle ne répond pas aux questions de fond : Quel est le texte exact ? Quel est son degré d’authenticité ? Quel est le contexte ? Quel sens lui donnent les spécialistes ?",
+        "quranicApplication": "« Vous croyez au hadith de la mouche ? », etc.\nUne réaction émotionnelle ne répond pas aux questions de fond : Quel est le texte exact ? Son degré d’authenticité ? Le contexte ? Le sens chez les spécialistes ?",
         "questionToAsk": "« Quelle est la preuve, indépendamment du fait que ce récit te choque ou te fasse rire ? »",
         "shortAnswer": "« Le dégoût et le ridicule ne sont pas des démonstrations. »",
         "icon": "🎭"
@@ -1791,7 +1801,7 @@ window.I18N_DATA['fr'] = {
       ]
     },
     "quiz": {
-      "title": "TEST RAPIDE",
+      "title": "TEST RAPIDE : IDENTIFIE LE SOPHISME",
       "subtitle": "Identifie le sophisme dans chaque affirmation :",
       "items": [
         {

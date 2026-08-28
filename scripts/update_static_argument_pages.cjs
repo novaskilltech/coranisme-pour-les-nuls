@@ -1,6 +1,6 @@
 /**
  * Script de mise à jour des pages statiques d'arguments dans arguments/*.html
- * Ajout des blocs de sophismes repérés, des badges cliquables, de la modale et du lien sidebar
+ * Ajout des blocs de sophismes repérés, des badges cliquables, de la modale et des scripts
  */
 
 const fs = require('fs');
@@ -103,8 +103,18 @@ files.forEach(filename => {
     content = content.replace('</body>', `${modalHTML}\n</body>`);
   }
 
+  // 4. Scripts JS
+  if (!content.includes('src="../js/app.js"')) {
+    const scriptsHTML = `
+  <script src="../js/data.js"></script>
+  <script src="../js/translations/fr.js"></script>
+  <script src="../js/app.js"></script>
+`;
+    content = content.replace('</body>', `${scriptsHTML}\n</body>`);
+  }
+
   fs.writeFileSync(filePath, content, 'utf8');
-  console.log(`✅ Page statique arguments/${filename} mise à jour avec succès.`);
+  console.log(`✅ Page statique arguments/${filename} synchronisée.`);
 });
 
 console.log('🎉 Toutes les pages statiques ont été synchronisées !');

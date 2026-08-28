@@ -1,7 +1,7 @@
 /**
  * Moteur Applicatif - Réfutation du Coranisme
  * Gestion du routage SPA, du rendu dynamique des 10 fiches,
- * de la Boîte à Outils des Sophismes (source PDF),
+ * de la Boîte à Outils des Sophismes (source PDF) en 13 langues (i18n),
  * de la recherche instantanée, de la copie rapide 30s et par section,
  * du partage natif / réseaux sociaux (WhatsApp, Telegram, X, Facebook, etc.),
  * des quiz interactifs et du support multi-langues (i18n).
@@ -155,7 +155,7 @@ function renderCoranismeIntroHTML() {
 }
 
 /**
- * Rendu de la Boîte à Outils des Sophismes (Source PDF)
+ * Rendu de la Boîte à Outils des Sophismes (Entièrement localisée selon la langue active)
  */
 function renderFallaciesToolboxHTML() {
   const currentLang = window.CURRENT_LANG || 'fr';
@@ -186,7 +186,7 @@ function renderFallaciesToolboxHTML() {
         </div>
       </header>
 
-      <!-- INTRODUCTION COURTE DU PDF -->
+      <!-- INTRODUCTION DU PDF -->
       <div style="background: #FFFFFF; border: 2px solid var(--nuls-black); border-radius: var(--radius-sm); padding: 1.25rem; margin-bottom: 1.5rem;">
         <h4 style="font-family: var(--font-display); font-size: 1.05rem; font-weight: 900; color: var(--nuls-black); margin-bottom: 0.5rem;">
           ${data.introTitle || "POURQUOI CETTE BOÎTE À OUTILS ?"}
@@ -217,7 +217,7 @@ function renderFallaciesToolboxHTML() {
           ${data.goldenRuleMeaning}
         </p>
         <div style="background: #FFFFFF; border: 2px solid var(--nuls-black); border-radius: var(--radius-sm); padding: 0.85rem 1rem; font-size: 0.9rem; line-height: 1.5; margin-bottom: 0.75rem;">
-          💡 <strong>Exemple des cygnes :</strong> ${data.goldenRuleExample}
+          💡 <strong>${data.goldenRuleExample}</strong>
         </div>
         <p style="font-size: 0.88rem; color: #374151; line-height: 1.5;">
           ${data.goldenRuleGoal}
@@ -226,7 +226,7 @@ function renderFallaciesToolboxHTML() {
 
       <!-- GRILLE DES 10 CARTES DE SOPHISMES -->
       <h3 style="font-family: var(--font-display); font-size: 1.25rem; font-weight: 900; margin: 1.5rem 0 1rem;">
-        📚 Les 10 Sophismes Fréquents en 10 Cartes Interactives
+        ${data.sectionTitle10Cards || "📚 Les 10 Sophismes Fréquents en 10 Cartes Interactives"}
       </h3>
 
       <div class="fallacies-grid">
@@ -238,7 +238,7 @@ function renderFallaciesToolboxHTML() {
                   <span>${f.icon || '⚡'}</span> ${f.num}. ${escapeHTML(f.name)}
                 </span>
                 <button class="btn-toggle-fallacy" aria-expanded="false" aria-controls="fallacy-body-${f.id}">
-                  <span>Détails</span> <span>▼</span>
+                  <span>${data.btnDetails || "Détails"}</span> <span>▼</span>
                 </button>
               </div>
               <p class="fallacy-card-shortdef">${escapeHTML(f.shortDef)}</p>
@@ -246,27 +246,27 @@ function renderFallaciesToolboxHTML() {
             
             <div class="fallacy-card-body" id="fallacy-body-${f.id}">
               <div class="fallacy-detail-block">
-                <div class="fallacy-detail-label">📖 Définition</div>
+                <div class="fallacy-detail-label">${data.labelDefinition || "📖 Définition"}</div>
                 <p>${escapeHTML(f.definition)}</p>
               </div>
               
               <div class="fallacy-detail-block" style="background-color: #FFFFFF;">
-                <div class="fallacy-detail-label">🌍 Exemple Général</div>
+                <div class="fallacy-detail-label">${data.labelGeneralExample || "🌍 Exemple Général"}</div>
                 <p>${escapeHTML(f.generalExample)}</p>
               </div>
 
               <div class="fallacy-detail-block" style="background-color: var(--nuls-yellow-tint); border-color: var(--nuls-black);">
-                <div class="fallacy-detail-label">🕌 Application au Débat sur le Coranisme</div>
+                <div class="fallacy-detail-label">${data.labelQuranicApp || "🕌 Application au Débat sur le Coranisme"}</div>
                 <p style="white-space: pre-line; font-weight: 600;">${escapeHTML(f.quranicApplication)}</p>
               </div>
 
               <div style="display: flex; flex-direction: column; gap: 0.5rem;">
                 <div style="background: #FFFFFF; border: 2px solid var(--nuls-blue); padding: 0.65rem 0.85rem; border-radius: var(--radius-sm); font-size: 0.88rem;">
-                  <strong style="color: var(--nuls-blue);">❓ Question réflexe à poser :</strong><br>
+                  <strong style="color: var(--nuls-blue);">${data.labelQuestionToAsk || "❓ Question réflexe à poser :"}</strong><br>
                   ${escapeHTML(f.questionToAsk)}
                 </div>
                 <div style="background: #FFFFFF; border: 2px solid var(--nuls-green); padding: 0.65rem 0.85rem; border-radius: var(--radius-sm); font-size: 0.88rem;">
-                  <strong style="color: var(--nuls-green);">💬 Réponse courte :</strong><br>
+                  <strong style="color: var(--nuls-green);">${data.labelShortAnswer || "💬 Réponse courte :"}</strong><br>
                   ${escapeHTML(f.shortAnswer)}
                 </div>
               </div>
@@ -281,7 +281,7 @@ function renderFallaciesToolboxHTML() {
           <h4 style="font-family: var(--font-display); font-size: 1.15rem; font-weight: 900; color: var(--nuls-black);">
             🎯 ${data.reflexQuestions.title}
           </h4>
-          <span class="card-number-badge">CARTE MÉMO</span>
+          <span class="card-number-badge">${data.cardMemoBadge || "CARTE MÉMO"}</span>
         </div>
         <p style="font-size: 0.92rem; color: #4B5563; font-weight: 700; margin-bottom: 1rem;">
           ${data.reflexQuestions.subtitle} — ${data.reflexQuestions.summaryNotice}
@@ -300,7 +300,7 @@ function renderFallaciesToolboxHTML() {
       <div class="quiz-section-wrap" style="margin: 2rem 0;">
         <div class="quiz-header">
           <h3>📝 ${data.quiz.title}</h3>
-          <span class="card-number-badge">ENTRAÎNEMENT</span>
+          <span class="card-number-badge">${data.trainingBadge || "ENTRAÎNEMENT"}</span>
         </div>
         <p style="font-size: 0.95rem; font-weight: 700; color: var(--text-muted); margin-bottom: 1.25rem;">
           ${data.quiz.subtitle}
@@ -592,6 +592,9 @@ function renderHomeView(container) {
 function renderArgumentView(arg, container) {
   const currentArgs = getActiveArgumentsData();
   const ui = getActiveUI();
+  const currentLang = window.CURRENT_LANG || 'fr';
+  const pack = (window.I18N_DATA && window.I18N_DATA[currentLang]) ? window.I18N_DATA[currentLang] : (window.I18N_DATA ? window.I18N_DATA['fr'] : null);
+  const fallaciesItems = (pack && pack.fallaciesToolbox && pack.fallaciesToolbox.items) ? pack.fallaciesToolbox.items : (window.FALLACIES_DATA || []);
 
   const prevArg = currentArgs.find(a => a.id === arg.id - 1);
   const nextArg = currentArgs.find(a => a.id === arg.id + 1);
@@ -675,7 +678,7 @@ function renderArgumentView(arg, container) {
           </div>
         </section>
 
-        <!-- BLOC SOPHISMES REPÉRÉS (ENTRE LEUR ARGUMENT ET LE NŒUD LOGIQUE) -->
+        <!-- BLOC SOPHISMES REPÉRÉS (LOCALISÉ SELON LA LANGUE ACTIVE) -->
         ${arg.fallacies && arg.fallacies.length > 0 ? `
           <div class="arg-fallacies-box">
             <div class="arg-fallacies-header">
@@ -683,9 +686,9 @@ function renderArgumentView(arg, container) {
             </div>
             <div class="arg-fallacies-badges">
               ${arg.fallacies.map(fId => {
-                const fObj = (window.FALLACIES_DATA || []).find(f => f.id === fId) || { name: fId, icon: "⚡" };
+                const fObj = fallaciesItems.find(f => f.id === fId) || { name: fId, icon: "⚡" };
                 return `
-                  <button class="fallacy-badge" data-action="open-fallacy" data-fallacy-id="${fId}" aria-label="Voir la définition du sophisme ${escapeHTML(fObj.name)}">
+                  <button class="fallacy-badge" data-action="open-fallacy" data-fallacy-id="${fId}" aria-label="${escapeHTML(fObj.name)}">
                     <span>${fObj.icon || "⚡"}</span> <span>${escapeHTML(fObj.name)}</span>
                   </button>
                 `;
@@ -810,7 +813,7 @@ function renderArgumentView(arg, container) {
           </div>
         </section>
 
-        <!-- SECTION 6 : RÉPONSE PRÊTE EN 30 SECONDES (AVEC BOUTON COPIER) -->
+        <!-- SECTION 6 : RÉPONSE PRÊTE EN 30 SECONDES -->
         <section id="section-30s" class="nuls-callout callout-chrono">
           <div class="callout-header">
             <span>⏱️</span> ${ui.sec6Header || "6. RÉPONSES PRÊTES À L'EMPLOI"}
@@ -869,7 +872,7 @@ function renderArgumentView(arg, container) {
           </ul>
         </section>
 
-        <!-- SECTION 8 : QUIZ INTERACTIF (SI DISPONIBLE) -->
+        <!-- SECTION 8 : QUIZ INTERACTIF -->
         ${arg.quiz ? `
           <section id="section-quiz" class="quiz-section-wrap">
             <div class="quiz-header">
@@ -894,7 +897,7 @@ function renderArgumentView(arg, container) {
           </section>
         ` : ''}
 
-        <!-- SECTION 9 : CONCLUSION & CHAÎNE LOGIQUE -->
+        <!-- SECTION 9 : CONCLUSION EN CHAÎNE LOGIQUE -->
         <section id="section-conclusion" class="nuls-callout callout-retenir">
           <div class="callout-header">
             <span>🏁</span> ${ui.sec9Header || "9. CONCLUSION EN CHAÎNE LOGIQUE"}
@@ -968,9 +971,10 @@ function renderArgumentView(arg, container) {
 }
 
 /**
- * Modale de consultation rapide d'un sophisme
+ * Modale de consultation rapide d'un sophisme (Entièrement localisée selon la langue active)
  */
 window.openFallacyModal = function(fallacyId) {
+  window.LAST_OPENED_FALLACY_ID = fallacyId;
   const currentLang = window.CURRENT_LANG || 'fr';
   const pack = (window.I18N_DATA && window.I18N_DATA[currentLang]) ? window.I18N_DATA[currentLang] : (window.I18N_DATA ? window.I18N_DATA['fr'] : null);
   const data = (pack && pack.fallaciesToolbox) ? pack.fallaciesToolbox : null;
@@ -987,21 +991,21 @@ window.openFallacyModal = function(fallacyId) {
   if (bodyEl) {
     bodyEl.innerHTML = `
       <div class="nuls-callout callout-retenir" style="margin-bottom: 1.25rem;">
-        <div class="callout-header"><span>📖</span> Définition</div>
+        <div class="callout-header"><span>📖</span> ${data?.labelDefinition || "Définition"}</div>
         <p style="font-size: 1rem; font-weight: 700; color: var(--nuls-black); line-height: 1.5;">
           ${escapeHTML(f.definition)}
         </p>
       </div>
 
       <div class="fallacy-detail-block" style="margin-bottom: 1rem; background-color: #FFFFFF;">
-        <div class="fallacy-detail-label">🌍 Exemple Général</div>
+        <div class="fallacy-detail-label">${data?.labelGeneralExample || "🌍 Exemple Général"}</div>
         <p style="font-size: 0.95rem; color: #374151; line-height: 1.5;">
           ${escapeHTML(f.generalExample)}
         </p>
       </div>
 
       <div class="fallacy-detail-block" style="margin-bottom: 1rem; background-color: var(--nuls-yellow-tint); border: 2px solid var(--nuls-black);">
-        <div class="fallacy-detail-label">🕌 Application au Débat sur le Coranisme</div>
+        <div class="fallacy-detail-label">${data?.labelQuranicApp || "🕌 Application au Débat"}</div>
         <p style="font-size: 0.95rem; color: #111827; line-height: 1.6; white-space: pre-line; font-weight: 600;">
           ${escapeHTML(f.quranicApplication)}
         </p>
@@ -1009,11 +1013,11 @@ window.openFallacyModal = function(fallacyId) {
 
       <div style="display: flex; flex-direction: column; gap: 0.65rem; margin-bottom: 1.25rem;">
         <div style="background: #FFFFFF; border: 2px solid var(--nuls-blue); padding: 0.75rem 1rem; border-radius: var(--radius-sm); font-size: 0.9rem;">
-          <strong style="color: var(--nuls-blue);">❓ Question réflexe à poser :</strong><br>
+          <strong style="color: var(--nuls-blue);">${data?.labelQuestionToAsk || "❓ Question réflexe à poser :"}</strong><br>
           ${escapeHTML(f.questionToAsk)}
         </div>
         <div style="background: #FFFFFF; border: 2px solid var(--nuls-green); padding: 0.75rem 1rem; border-radius: var(--radius-sm); font-size: 0.9rem;">
-          <strong style="color: var(--nuls-green);">💬 Réponse courte recommandée :</strong><br>
+          <strong style="color: var(--nuls-green);">${data?.labelShortAnswer || "💬 Réponse courte :"}</strong><br>
           ${escapeHTML(f.shortAnswer)}
         </div>
       </div>
@@ -1039,10 +1043,16 @@ function toggleFallacyCard(triggerElement) {
   const btn = card.querySelector('.btn-toggle-fallacy');
   if (!body) return;
 
+  const currentLang = window.CURRENT_LANG || 'fr';
+  const pack = (window.I18N_DATA && window.I18N_DATA[currentLang]) ? window.I18N_DATA[currentLang] : (window.I18N_DATA ? window.I18N_DATA['fr'] : null);
+  const data = (pack && pack.fallaciesToolbox) ? pack.fallaciesToolbox : null;
+  const btnDetailsText = (data && data.btnDetails) ? data.btnDetails : "Détails";
+  const btnHideText = (data && data.btnHide) ? data.btnHide : "Masquer";
+
   const isOpen = body.classList.toggle('open');
   if (btn) {
     btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
-    btn.innerHTML = isOpen ? `<span>Masquer</span> <span>▲</span>` : `<span>Détails</span> <span>▼</span>`;
+    btn.innerHTML = isOpen ? `<span>${escapeHTML(btnHideText)}</span> <span>▲</span>` : `<span>${escapeHTML(btnDetailsText)}</span> <span>▼</span>`;
   }
 }
 

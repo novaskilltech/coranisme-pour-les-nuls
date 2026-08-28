@@ -249,6 +249,12 @@ function applyLanguage(langConfig, notify) {
     handleRouting();
   }
 
+  // Si la modale des sophismes est ouverte, rafraîchir son contenu avec la nouvelle langue
+  const fallacyModal = document.getElementById('fallacy-modal');
+  if (fallacyModal && fallacyModal.classList.contains('open') && window.LAST_OPENED_FALLACY_ID && typeof window.openFallacyModal === 'function') {
+    window.openFallacyModal(window.LAST_OPENED_FALLACY_ID);
+  }
+
   // Notification Toast facultative
   if (notify && typeof showToast === 'function') {
     showToast(`${langConfig.native}`);
