@@ -1,0 +1,701 @@
+/**
+ * GÉNÉRATEUR DES ARGUMENTS 5 À 10 EN ESPAGNOL PUR (ESPAÑOL)
+ */
+
+const esArguments5to10 = [
+  {
+    id: 5,
+    number: "05",
+    slug: "5-inna-nahnu-nazzalna-dhikr",
+    theme: "La Preservación del Dhikr (Corán y Sunna)",
+    title: "«Nosotros hemos revelado el Recuerdo y somos sus custodios»: ¿es el Dhikr solo el Corán?",
+    shortTitle: "Preservación del Dhikr",
+    tagline: "El término coránico 'Dhikr' abarca toda la revelación divina: el Corán y la Sunna explicativa que lo acompaña.",
+    formula: "¡Preservar un texto ordenando su explicación sin preservar esa explicación haría imposible su aplicación!",
+    pdfFile: "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_5.pdf",
+    theirArgument: {
+      thesis: "Allah prometió preservar únicamente el Corán en la Sura 15:9 ('Inna nahnu nazzalna adh-dhikra wa inna lahu lahafidhun'). Los Hadices, en cambio, no gozan de ninguna promesa divina de preservación y son obras humanas falibles.",
+      verses: [
+        {
+          ref: "Sura Al-Hijr, versículo 9",
+          ar: "إِنَّا نَحْنُ نَزَّلْنَا الذِّكْرَ وَإِنَّا لَهُ لَحَافِظُونَ",
+          translation: "Ciertamente Nosotros hemos hecho descender el Recuerdo (Adh-Dhikr) y ciertamente Nosotros somos sus custodios."
+        }
+      ],
+      realQuestion: "¿Qué designa el término 'Adh-Dhikr' en el uso coránico y cómo se preserva una revelación cuyo sentido práctico fue confiado al Profeta ﷺ?"
+    },
+    logicalNode: {
+      title: "Restricción injustificada del término 'Dhikr' y contradicción teológica en la preservación",
+      distinctions: [
+        {
+          term: "ADH-DHIKR EN SENTIDO CORÁNICO GLOBAL",
+          desc: "El Mensaje revelado en su totalidad: las palabras sagradas del Corán y la Sunna que clarifica su contenido."
+        },
+        {
+          term: "CONFUSIÓN ENTRE TEXTO BRUTO Y MENSAJE VIVO",
+          desc: "Creer que Allah preservaría las palabras de un mandato (ej. 'Estableced la oración') permitiendo que se pierda totalmente el significado de cómo ejecutarlo."
+        }
+      ],
+      generalRule: "La preservación de un mensaje divino implica necesariamente la preservación de su significado práctico y operativo.",
+      errorToAvoid: "Separar la preservación de la letra de la preservación del sentido que la hace aplicable."
+    },
+    centralPrinciple: {
+      title: "La preservación del Corán exige la preservación de la Sunna explicativa",
+      formalScheme: "1. Allah garantizó la salvaguarda del Dhikr (15:9).\n2. El Corán llama 'Dhikr' tanto al texto revelado como a la misión clarificadora del Profeta ﷺ (16:44).\n3. Por lo tanto, la providencia divina ha suscitado la ciencia del Hadiz para preservar la Sunna auténtica.",
+      explanation: "Si la Sunna se hubiera corrompido irremediablemente, versículos enteros del Corán que ordenan rezar, pagar el zakat o imitar al Mensajero se habrían vuelto impracticables. La preservación del Corán incluye la protección providencial de la Sunna mediante los esfuerzos de los sabios del Hadiz.",
+      logicalTest: "Si solo el texto escrito está preservado y toda la Sunna es dudosa, ¿cómo sabemos con certeza absoluta qué significa la palabra 'Salât' en el Corán y cómo se ejecuta?"
+    },
+    quranicArchitecture: {
+      title: "Versículos decisivos sobre el uso del vocablo 'Dhikr'",
+      verses: [
+        {
+          ref: "Sura An-Nahl, versículo 44",
+          ar: "وَأَنزَلْنَا إِلَيْكَ الذِّكْرَ لِتُبَيِّنَ لِلنَّاسِ مَا نُزِّلَ إِلَيْهِمْ",
+          translation: "Y te hemos revelado a ti el Dhikr (el Mensaje/la Sabiduría) para que expliques a los hombres lo que se les hizo descender."
+        },
+        {
+          ref: "Sura At-Talaq, versículo 10-11",
+          ar: "قَدْ أَنزَلَ اللَّهُ إِلَيْكُمْ ذِكْرًا • رَّسُولًا يَتْلُو عَلَيْكُمْ آيَاتِ اللَّهِ مُبَيِّنَاتٍ",
+          translation: "Allah os ha revelado un Dhikr: un Mensajero que os recita los versículos claros de Allah."
+        }
+      ],
+      consequence: "El Corán llama explícitamente 'Dhikr' a la enseñanza del Profeta ﷺ e incluso a la persona misma del Mensajero."
+    },
+    analogies: [
+      {
+        num: 1,
+        title: "La Caja Fuerte y la Llave Maestra",
+        scenario: "Un fabricante diseña una caja fuerte indestructible para proteger un tesoro y entrega la única llave que permite abrirla. Si destruye la llave, el tesoro se vuelve inútil e inaccesible.",
+        logicBox: "Caja fuerte = Corán preservado | Llave = Sunna explicativa igualmente preservada.",
+        lesson: "Proteger el recipiente sin proteger la llave que permite utilizarlo contradice la sabiduría del Creador."
+      },
+      {
+        num: 2,
+        title: "La Señal de Tráfico y el Código de Circulación",
+        scenario: "Un gobierno preserva los postes y las señales viales en las carreteras pero quema todos los manuales que explican qué significa el color rojo o una flecha triangular.",
+        logicBox: "Señal = Orden coránica | Manual interpretativo = Práctica profética transmitida.",
+        lesson: "Un símbolo normativo sin su código explicativo compartido genera el caos y pierde toda función de guía."
+      }
+    ],
+    readyResponses: {
+      quick30s: "En árabe coránico, 'Adh-Dhikr' no designa únicamente las páginas del Corán. En la Sura 16:44, Allah dice al Profeta: 'Te hemos revelado el Dhikr para que expliques a la gente lo que se les hizo descender'. El Dhikr es el Mensaje divino global. Preservar el Corán haciendo imposible saber cómo rezar sería una contradicción que no corresponde a la Sabiduría de Allah.",
+      developed: "El argumento de los coranistas presupone que la preservación divina fue un milagro pasivo para el libro encuadernado, pero que Allah abandonó la Sunna al olvido. La realidad histórica demuestra lo contrario: Allah dispuso para la Sunna una disciplina científica inédita en la historia universal —la ciencia de las cadenas de transmisión y la crítica biográfica— que permitió filtrar con rigor implacable lo auténtico de lo espurio. La Sunna está preservada en su esencia normativa exactamente como el Corán."
+    },
+    objections: [
+      {
+        obj: "Existen hadices falsificados, luego la Sunna no fue preservada.",
+        ans: "El hecho de que los sabios hayan identificado, catalogado y aislado cada hadiz inventado demuestra con creces que la Sunna auténtica ha sido plenamente preservada de toda alteración."
+      },
+      {
+        obj: "La palabra 'Dhikr' en 15:9 se refiere únicamente al Corán según los exegetas.",
+        ans: "Incluso si se refiriese al Corán en sentido estricto, la preservación del Corán exige la preservación de su comprensión, pues un texto cuyo sentido se pierde ya no está verdaderamente preservado."
+      }
+    ],
+    framingQuestions: [
+      "¿Cómo puede Allah ordenar 'Estableced la oración' en un texto preservado si la forma misma de la oración se hubiera perdido en la historia?",
+      "¿Por qué el versículo 16:44 llama 'Dhikr' a lo que fue revelado al Profeta para explicar el Corán?"
+    ],
+    quiz: [
+      {
+        q: "¿Qué abarca el término coránico 'Adh-Dhikr' en relación con la preservación divina?",
+        options: [
+          "Únicamente el papel y la tinta física del ejemplar coránico.",
+          "El Mensaje divino integral, que incluye el Corán y la Sunna explicativa que lo hace comprensible.",
+          "Los relatos de los filósofos antiguos.",
+          "Una promesa que caducó en el siglo IX."
+        ],
+        answer: 1,
+        explanation: "Adh-Dhikr es la revelación divina en su totalidad: el texto sagrado y la enseñanza profética que garantiza su correcta aplicación."
+      }
+    ],
+    conclusion: {
+      steps: [
+        "Allah se comprometió a salvaguardar el Dhikr.",
+        "El Dhikr coránico comprende la revelación y su manifestación profética.",
+        "La ciencia del Hadiz es la manifestación histórica de esta salvaguarda divina."
+      ],
+      finalText: "Preservar el texto sagrado es también preservar el modo de vivirlo.",
+      punchline: "¡Quien dice que la Sunna se perdió afirma en realidad que el Corán se volvió impracticable!"
+    },
+    fallacies: [
+      "equivoque-lexicale",
+      "non-sequitur",
+      "argument-de-possibilite"
+    ]
+  },
+  {
+    id: 6,
+    number: "06",
+    slug: "6-hadiths-ecrits-200-ans-plus-tard",
+    theme: "Historia de la Transmisión y Registro Escrito",
+    title: "«Los Hadices se escribieron 200 años después»: ¿mito o realidad histórica?",
+    shortTitle: "Historia de la Redacción del Hadiz",
+    tagline: "El registro escrito y la transmisión oral del Hadiz comenzaron en vida del Profeta ﷺ y continuaron sin interrupción.",
+    formula: "¡Confundir la compilación enciclopédica tardía (Bujari) con el nacimiento de la transmisión es un error histórico colosal!",
+    pdfFile: "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_6.pdf",
+    theirArgument: {
+      thesis: "Los Hadices no existían por escrito durante los primeros dos siglos del Islam. Eran simples leyendas orales transmitidas como el juego del teléfono descompuesto hasta que Al-Bujari y Muslim decidieron escribirlos 200 años después.",
+      verses: [],
+      realQuestion: "¿Cuándo comenzó verdaderamente la fijación por escrito de los Hadices y cómo funcionaba la transmisión combinada oral-escrita en los siglos I y II de la Hégira?"
+    },
+    logicalNode: {
+      title: "Confusión entre recopilación temática mayor y registro original de los textos",
+      distinctions: [
+        {
+          term: "REGISTRO Y ESCRITURA INICIAL (SIGLO I H)",
+          desc: "Cuadernos de notas (Suhuf) redactados por los propios Compañeros (como Abdullah ibn 'Amr, 'Ali ibn Abi Talib, Anas ibn Malik)."
+        },
+        {
+          term: "GRAN COMPILACIÓN CRÍTICA CLASIFICADA (SIGLO III H)",
+          desc: "Las obras canónicas (Bujari, Muslim) que recopilaron, ordenaron por temas jurídicos y verificaron cadenas ya registradas en obras anteriores."
+        }
+      ],
+      generalRule: "Que una enciclopedia se publique en el siglo XXI no significa que los acontecimientos históricos que documenta con archivos hayan nacido en el siglo XXI.",
+      errorToAvoid: "Asimilar la fecha de fallecimiento de un recopilador a la fecha de creación de los documentos que recopiló."
+    },
+    centralPrinciple: {
+      title: "La transmisión del Hadiz fue continua, doblemente verificada y documentada desde la época profética",
+      formalScheme: "1. Los Compañeros registraron Hadices por escrito y los memorizaron con exactitud en vida del Profeta ﷺ.\n2. La generación siguiente (los Tabi'un) recopiló estos escritos en obras tempranas (como el Muwatta' de Malik y la Sahifa de Hammam ibn Munabbih).\n3. Bujari y Muslim no inventaron nada: verificaron y clasificaron cadenas de transmisión preexistentes y universalmente conocidas.",
+      explanation: "El descubrimiento en el siglo XX de la Sahifa de Hammam ibn Munabbih (manuscrito del siglo I de la Hégira, transmitido por Abu Hurayrah) demostró empíricamente que los Hadices registrados por Bujari coinciden palabra por palabra con los cuadernos escritos casi dos siglos antes.",
+      logicalTest: "¿Cómo explican los coranistas que el Corán, recopilado en Mushafs oficiales bajo 'Uthman (20 años tras la muerte del Profeta), sea aceptado por ellos si rechazan la transmisión de la misma generación?"
+    },
+    quranicArchitecture: {
+      title: "El testimonio histórico sobre la fiabilidad de la primera generación",
+      verses: [
+        {
+          ref: "Sura At-Tawbah, versículo 100",
+          ar: "وَالسَّابِقُونَ الْأَوَّلُونَ مِنَ الْمُهَاجِرِينَ وَالْأَنصَارِ وَالَّذِينَ اتَّبَعُوهُم بِإِحْسَانٍ رَّضِيَ اللَّهُ عَنْهُمْ وَرَضُوا عَنْهُ",
+          translation: "Los primeros precursores de entre los Emigrados y los Auxiliares, y quienes les siguieron en el bien: Allah está complacido con ellos y ellos con Él."
+        }
+      ],
+      consequence: "Allah atestigua la rectitud y la fidelidad de la generación que transmitió simultáneamente el Corán y la Sunna."
+    },
+    analogies: [
+      {
+        num: 1,
+        title: "La Tesis Doctoral y las Fuentes de Archivo",
+        scenario: "Un historiador publica un libro en 2024 sobre la Segunda Guerra Mundial utilizando cartas de soldados, diarios de 1940 y actas oficiales. Nadie afirma '¡La guerra se inventó en 2024!'.",
+        logicBox: "Bujari (siglo IX) = Historiador riguroso | Isnâds y cuadernos (siglo VII-VIII) = Documentos de archivo verificados.",
+        lesson: "La fecha de publicación de una recopilación no determina la antigüedad de sus fuentes documentales."
+      },
+      {
+        num: 2,
+        title: "La Partitura Musical Clásica",
+        scenario: "Una editorial publica hoy una edición crítica de una sinfonía de Mozart con cotejo de manuscritos originales. La obra no nació con la imprenta moderna.",
+        logicBox: "Edición crítica = Sahih Bujari | Partitura viva = Transmisión oral y escrita de los discípulos.",
+        lesson: "El trabajo editorial clasifica y preserva una realidad ya existente y consolidada."
+      }
+    ],
+    readyResponses: {
+      quick30s: "Decir que los Hadices se escribieron 200 años después es un error histórico flagrante. El registro comenzó en vida del Profeta ﷺ con los cuadernos de Compañeros como 'Abdullah ibn 'Amr (As-Sâdiqah). Bujari (nacido en 194 H) no inventó las tradiciones: compiló con un rigor metodológico extremo colecciones escritas que ya circulaban desde el primer siglo.",
+      developed: "La afirmación coranista ignora por completo la literatura islámica previa a Bujari. Antes de Bujari existieron el Muwatta' del Imam Malik (m. 179 H), el Musannaf de 'Abd ar-Razzaq (m. 211 H), el Musnad de Ahmad ibn Hanbal (m. 241 H) y decenas de colecciones de los Tabi'un. La ciencia del Hadiz combinó siempre el soporte escrito con el control oral directo ante maestros acreditados (Sama'), creando el sistema de verificación más estricto del mundo antiguo."
+    },
+    objections: [
+      {
+        obj: "¿Por qué no se reunió la Sunna en un solo libro oficial como el Corán en la época de Abu Bakr?",
+        ans: "El Corán requería una fijación textual cerrada porque es la Palabra literal de Allah recitada en el culto. La Sunna, al ser vasta, viva y aplicada en todos los actos cotidianos, se transmitió de forma práctica y descentralizada por miles de Compañeros en todo el mundo musulmán."
+      },
+      {
+        obj: "La memoria humana no es infalible a lo largo de varias generaciones.",
+        ans: "Por eso los sabios no se fiaron de la simple memoria aislada: exigieron la concordancia de múltiples cadenas independientes (Tawâtur / Istifâdah) y el cotejo riguroso con los cuadernos manuscritos originales."
+      }
+    ],
+    framingQuestions: [
+      "¿Sabías que la 'Sahifa de Hammam ibn Munabbih', escrita en el siglo I por un discípulo directo de Abu Hurayrah, se conserva hoy y contiene exactamente los mismos hadices que Bujari?",
+      "Si la transmisión de los Compañeros no es fiable para los Hadices, ¿por qué medio humano crees que te llegó el texto del Corán?"
+    ],
+    quiz: [
+      {
+        q: "¿Cuándo comenzó la escritura y el registro de los Hadices proféticos?",
+        options: [
+          "En el siglo III de la Hégira con el nacimiento del Imam Al-Bujari.",
+          "En vida del propio Profeta ﷺ y en el siglo I de la Hégira con los cuadernos de los Compañeros y sus discípulos.",
+          "Durante la época de las Cruzadas.",
+          "Únicamente tras la caída del Califato Abasí."
+        ],
+        answer: 1,
+        explanation: "La redacción del Hadiz comenzó en vida del Profeta ﷺ mediante cuadernos personales (Suhuf) y continuó de forma ininterrumpida hasta las grandes recopilaciones canónicas."
+      }
+    ],
+    conclusion: {
+      steps: [
+        "El registro del Hadiz comenzó desde la primera generación.",
+        "Las grandes obras canónicas son la culminación de un proceso documental riguroso.",
+        "El mito de los 200 años de vacío es una falsedad histórica desmentida por los manuscritos."
+      ],
+      finalText: "La Sunna fue preservada por la memoria, la escritura y la práctica ininterrumpida.",
+      punchline: "¡Decir que los Hadices nacieron con Bujari es tan absurdo como decir que la historia nació con los libros de historia!"
+    },
+    fallacies: [
+      "non-sequitur",
+      "generalisation-abusive",
+      "deplacement-charge-preuve"
+    ]
+  },
+  {
+    id: 7,
+    number: "07",
+    slug: "7-la-taktubu-anni",
+    theme: "La Prohibición Inicial de Escritura y su Autorización Posterior",
+    title: "«No escribáis de mí nada salvo el Corán»: ¿prohibió el Profeta ﷺ escribir su Sunna?",
+    shortTitle: "El Hadiz de la Escritura",
+    tagline: "La prohibición temporal al inicio de la revelación evitó la mezcla con el Corán, antes de ser expresamente abrogada por la orden general de escribir.",
+    formula: "¡Citar la prohibición provisional ocultando la autorización definitiva posterior es el ejemplo supremo de 'Cherry-Picking'!",
+    pdfFile: "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_7.pdf",
+    theirArgument: {
+      thesis: "El Profeta ﷺ ordenó taxativamente: 'No escribáis nada de mí salvo el Corán; y quien haya escrito algo que lo borre' (Hadiz de Abu Sa'id al-Judri en Sahih Muslim). Por lo tanto, toda la literatura del Hadiz es una desobediencia directa a una orden profética formal.",
+      verses: [],
+      realQuestion: "¿Cuál fue el contexto histórico de este hadiz y por qué el mismo corpus de Hadices registra numerosas órdenes posteriores del Profeta ﷺ que mandaban escribir sus palabras?"
+    },
+    logicalNode: {
+      title: "Ocultación deliberada de la cronología y de los textos de autorización (Cherry-Picking)",
+      distinctions: [
+        {
+          term: "PROHIBICIÓN TEMPORAL Y CIRCUNSTANCIAL",
+          desc: "Al inicio de la revelación en La Meca y primeros momentos de Medina, para evitar que los fieles mezclaran notas proféticas en las mismas hojas del texto coránico recién revelado."
+        },
+        {
+          term: "AUTORIZACIÓN GENERAL Y PERMANENTE",
+          desc: "Una vez que el estilo coránico fue perfectamente conocido y asimilado, el Profeta ﷺ ordenó explícitamente a sus Compañeros escribir sus enseñanzas (ej. 'Escribe para Abu Shah', 'Registrad el conocimiento mediante la escritura')."
+        }
+      ],
+      generalRule: "Un mandato prohibitivo inicial motivado por una causa circunstancial queda sin efecto cuando la causa desaparece y sobreviene una orden permisiva posterior.",
+      errorToAvoid: "Utilizar un hadiz extraído de Sahih Muslim para rechazar a Sahih Muslim, cometiendo una flagrante contradicción interna."
+    },
+    centralPrinciple: {
+      title: "La autorización profética expresa para fijar la Sunna por escrito",
+      formalScheme: "1. La prohibición inicial fue preventiva (evitar la confusión material con el Corán).\n2. Numerosos relatos auténticos posteriores establecen la orden expresa de redactar Hadices.\n3. Quien utiliza el hadiz de la prohibición para anular el Hadiz se destruye a sí mismo: si el hadiz es auténtico, debe aceptar también los hadices de autorización.",
+      explanation: "El Compañero 'Abdullah ibn 'Amr ibn al-'As acudió al Profeta ﷺ y le dijo: 'Los coraichitas me dicen: ¿Escribes todo lo que dice el Mensajero siendo él un ser humano que habla en estado de agrado y de enojo?'. El Profeta ﷺ señaló su noble boca con el dedo y dijo: '¡Escribe! Pues por Aquel en cuyas Manos está mi alma, de ella no sale sino la verdad' (Autenticado por Abu Dawud, Ahmad y Al-Hakim).",
+      logicalTest: "Si el hadiz 'No escribáis de mí' demuestra que no hay que seguir los Hadices, ¿por qué el coranista cree en ese hadiz que fue transmitido y escrito por los mismos sabios del Hadiz?"
+    },
+    quranicArchitecture: {
+      title: "El mandato coránico de preservar la ciencia y la sabiduría",
+      verses: [
+        {
+          ref: "Sura Al-Baqarah, versículo 282",
+          ar: "يَا أَيُّهَا الَّذِينَ آمَنُوا إِذَا تَدَايَنتُم بِدَيْنٍ إِلَىٰ أَجَلٍ مُّسَمًّى فَاكْتُبُوهُ",
+          translation: "¡Oh creyentes! Cuando contraigáis una deuda por un plazo determinado, ponedla por escrito."
+        }
+      ],
+      consequence: "Si el Corán ordena escribir las transacciones financieras materiales, con mayor razón la sabiduría profética de salvación eterna merece ser fijada y transmitida."
+    },
+    analogies: [
+      {
+        num: 1,
+        title: "El Aprendizaje de la Conducción: Prohibición Provisional",
+        scenario: "Un instructor de autoescuela prohíbe terminantemente al alumno novel mirar la pantalla del navegador durante las tres primeras clases para que fije la vista en la carretera. En la clase diez, le enseña a utilizar el GPS.",
+        logicBox: "Prohibición inicial = Seguridad del principiante | Autorización posterior = Madurez y dominio.",
+        lesson: "Una directriz pedagógica inicial evoluciona legítimamente hacia la autorización cuando el peligro de confusión desaparece."
+      },
+      {
+        num: 2,
+        title: "El Envenenador que Invoca el Antídoto",
+        scenario: "Una persona afirma que todos los medicamentos de una farmacia son venenos mortales basándose en el prospecto de un medicamento que leyó en esa misma farmacia.",
+        logicBox: "Si la farmacia solo vende falsedades, el prospecto que cita carece de toda validez probatoria.",
+        lesson: "La contradicción del coranista es insalvable: si los libros de Hadices no son fiables, el hadiz 'No escribáis' no puede ser utilizado como prueba."
+      }
+    ],
+    readyResponses: {
+      quick30s: "Este argumento encierra una contradicción cómica: ¡utilizáis un Hadiz de Sahih Muslim para intentar demostrar que los Hadices de Sahih Muslim no son fiables! Si ese relato es verdad, debéis aceptar también el relato de Sahih Bujari donde el Profeta dice durante la conquista de La Meca: 'Escribid para Abu Shah', y donde dice a 'Abdullah ibn 'Amr: '¡Escribe, pues de mi boca no sale sino la verdad!'. La prohibición fue temporal al inicio para no mezclar páginas.",
+      developed: "Los mayores sabios del Islam, comenzando por el Imam An-Nawawi e Ibn Hajar, explicaron la armonización perfecta de estos textos: la prohibición de escribir regía al inicio de la misión cuando el Corán se revelaba en fragmentos y existía el riesgo material de que los fieles anotaran palabras explicativas del Profeta en los mismos pergaminos del Corán. Una vez que el Corán estuvo consolidado y memorizado masivamente, el Profeta ﷺ autorizó e impulsó el registro escrito de su Sunna."
+    },
+    objections: [
+      {
+        obj: "Abu Bakr y 'Umar quemaron cuadernos de hadices según algunas crónicas históricas.",
+        ans: "Esos relatos son históricamente débiles o fueron sacados de contexto: 'Umar consultó a los Compañeros y renunció a imponer un libro oficial único para evitar que la gente descuidara el Corán, no porque considerase que la Sunna fuera falsa o prescindible."
+      },
+      {
+        obj: "¿Por qué el Profeta no dictó la Sunna escriba por escriba como hizo con el Corán?",
+        ans: "Porque el Corán es la Palabra literal de Allah inmutable; la Sunna es una guía viva en actos, gestos, silencios y respuestas cotidianas a lo largo de 23 años."
+      }
+    ],
+    framingQuestions: [
+      "¿Te das cuenta de que para citarme 'No escribáis de mí', estás reconociendo que este Hadiz llegó hasta ti con autenticidad a través de los sabios del Hadiz?",
+      "¿Por qué ocultas los relatos donde el Profeta ﷺ ordena expresamente: 'Escribid para Abu Shah'?"
+    ],
+    quiz: [
+      {
+        q: "¿Por qué prohibió inicialmente el Profeta ﷺ escribir sus palabras antes de autorizarlo más tarde?",
+        options: [
+          "Para que la Sunna desapareciera para siempre de la faz de la tierra.",
+          "Para evitar provisionalmente que se mezclaran anotaciones proféticas con el texto del Corán en los mismos pergaminos.",
+          "Porque estaba prohibido hablar de religión.",
+          "Porque nadie sabía escribir en Medina."
+        ],
+        answer: 1,
+        explanation: "La prohibición inicial fue una medida preventiva para evitar toda confusión material con el texto coránico en los primeros compases de la revelación."
+      }
+    ],
+    conclusion: {
+      steps: [
+        "La prohibición inicial fue circunstancial y preventiva.",
+        "El Profeta ﷺ autorizó y ordenó formalmente escribir su Sunna con posterioridad.",
+        "Utilizar un hadiz para anular todos los hadices es una contradicción lógica insostenible."
+      ],
+      finalText: "La Sunna fue registrada con el aval y la bendición del propio Mensajero ﷺ.",
+      punchline: "¡Quien usa un Hadiz para destruir el Hadiz se dispara en su propio pie argumental!"
+    },
+    fallacies: [
+      "cherry-picking",
+      "double-standard",
+      "fausse-dichotomie"
+    ]
+  },
+  {
+    id: 8,
+    number: "08",
+    slug: "8-divergences-et-contradictions",
+    theme: "Divergencias Jurisprudenciales y Variantes del Hadiz",
+    title: "«Existen divergencias entre sabios y hadices contradictorios»: ¿invalida esto la Sunna?",
+    shortTitle: "Divergencias y Contradicciones Aparentes",
+    tagline: "Las discrepancias de interpretación jurídica humana y las contradicciones aparentes resueltas por las ciencias del Hadiz confirman su autenticidad.",
+    formula: "¡Si la existencia de divergencias entre intérpretes invalidara una fuente, habría que rechazar también el Corán, la medicina y el derecho universal!",
+    pdfFile: "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_8.pdf",
+    theirArgument: {
+      thesis: "Los sabios del Islam discrepan en mil asuntos y existen Hadices que parecen contradecirse entre sí. Si la Sunna viniera verdaderamente de Allah, no contendría ninguna discrepancia ('Si viniera de otro que Allah, encontrarían en él muchas contradicciones', Sura 4:82).",
+      verses: [
+        {
+          ref: "Sura An-Nisa, versículo 82",
+          ar: "أَفَلَا يَتَدَبَّرُونَ الْقُرْآنَ وَلَوْ كَانَ مِنْ عِندِ غَيْرِ اللَّهِ لَوَجَدُوا فِيهِ اخْتِلَافًا كَثِيرًا",
+          translation: "¿Acaso no meditan en el Corán? Si procediera de otro que Allah, encontrarían en él muchas contradicciones."
+        }
+      ],
+      realQuestion: "¿Acaso las divergencias de comprensión de los juristas humanos (Fiqh) o los casos de abrogación legal (Nasj) constituyen contradicciones en la fuente divina misma?"
+    },
+    logicalNode: {
+      title: "Confusión entre contradicción ontológica del texto y diversidad interpretativa humana",
+      distinctions: [
+        {
+          term: "CONTRADICCIÓN INTERNA REAL (DESACREDITACIÓN)",
+          desc: "Dos afirmaciones lógicamente incompatibles sobre un mismo hecho en el mismo momento y bajo la misma relación sin posibilidad de armonización."
+        },
+        {
+          term: "DIVERGENCIA DE COMPRENSIÓN HUMANA O CASO DE ABROGACIÓN",
+          desc: "Diferentes aplicaciones según el contexto, evolución legislativa progresiva o diversidad legítima de opiniones de los juristas (Ijtihâd)."
+        }
+      ],
+      generalRule: "La existencia de divergencias entre lectores de un texto no demuestra que el texto sea defectuoso, sino que la inteligencia humana opera con matices y perspectivas.",
+      errorToAvoid: "Aplicar un versículo sobre la perfección del Corán (4:82) para negar la legitimidad de las ciencias metodológicas del derecho (Usûl al-Fiqh)."
+    },
+    centralPrinciple: {
+      title: "La ciencia del Hadiz dispone de reglas precisas para armonizar aparentes divergencias",
+      formalScheme: "1. Todo texto normativo extenso presenta aparentes contradicciones a quien no conoce el contexto ni la cronología.\n2. Los sabios desarrollaron disciplinas especializadas: Mukhtalif al-Hadîth (armonización), An-Nâsij wal-Mansûj (abrogación) y Asbâb al-Wurûd (contexto).\n3. Los propios coranistas discrepan radicalmente entre sí sobre cómo rezar o ayunar, probando que su método engendra un caos infinitamente mayor.",
+      explanation: "No existe ninguna contradicción real e insoluble entre dos hadices auténticos. Cuando dos textos parecen diferir, o bien uno abroga al otro cronológicamente, o bien uno trata de una situación particular y el otro de una regla general, o bien uno de los dos relatos carece de autenticidad estricta.",
+      logicalTest: "Si las divergencias invalidan una fuente, ¿por qué los propios coranistas no logran ponerse de acuerdo sobre el número de rezos diarios (unos dicen 3, otros 2, otros 5, otros que es solo meditación)?"
+    },
+    quranicArchitecture: {
+      title: "El reconocimiento coránico de la diversidad de comprensión",
+      verses: [
+        {
+          ref: "Sura Al-Anbiya, versículo 78-79",
+          ar: "وَدَاوُودَ وَسُلَيْمَانَ إِذْ يَحْكُمَانِ فِي الْحَرْثِ... فَفَهَّمْنَاهَا سُلَيْمَانَ وَكُلًّا آتَيْنَا حُكْمًا وَعِلْمًا",
+          translation: "Y recuerda a David y a Salomón cuando juzgaron sobre el sembrado... e hicimos que Salomón lo comprendiera; y a ambos les dimos juicio y ciencia."
+        }
+      ],
+      consequence: "Allah muestra en el Corán que dos profetas justos pueden tener juicios jurídicos diferentes ante un mismo caso sin que ninguno sea calificado de hereje."
+    },
+    analogies: [
+      {
+        num: 1,
+        title: "Los Magistrados del Tribunal Constitucional",
+        scenario: "Nueve magistrados de la Corte Suprema leen el mismo artículo de la Constitución y emiten votos particulares y opiniones divergentes con argumentos jurídicos respetables.",
+        logicBox: "Divergencia de magistrados ≠ Falsedad de la Constitución.",
+        lesson: "La pluralidad de interpretaciones jurídicas es el reflejo de la riqueza del derecho, no una prueba de su invalidez."
+      },
+      {
+        num: 2,
+        title: "El Consejo Médico ante un Diagnóstico Complejo",
+        scenario: "Tres eminentes cirujanos discrepan sobre el momento exacto para operar a un paciente tras consultar las mismas pruebas clínicas y radiografías.",
+        logicBox: "Debate clínico = Ijtihâd de los sabios ante textos de matiz.",
+        lesson: "Nadie en su sano juicio quema todos los libros de medicina porque los médicos deliberen y difieran en sus diagnósticos."
+      }
+    ],
+    readyResponses: {
+      quick30s: "Las divergencias entre sabios no son contradicciones de la Sunna: son la manifestación natural de la reflexión jurídica humana (Ijtihâd). De hecho, los coranistas que pretenden guiarse solo por el Corán divergen entre ellos mucho más que todos los sabios musulmanes: ¡algunos dicen que hay 3 oraciones, otros 2, y otros afirman que la oración es una metáfora!",
+      developed: "En las ciencias islámicas existe una disciplina entera llamada 'Fiqh al-Ikhtilâf' (Ética de la Divergencia) y 'Mukhtalif al-Hadîth' para tratar las contradicciones aparentes. Los sabios establecieron una regla de oro: 'El principio básico ante dos textos es la armonización mutua; si no es posible, se analiza la cronología de la abrogación; y si no, se prefiere el relato con mayor grado de certeza'. Descartar un corpus milenario por ignorar estas reglas es pura negligencia intelectual."
+    },
+    objections: [
+      {
+        obj: "Un hadiz dice que el Profeta oró de una forma y otro hadiz dice que oró de otra.",
+        ans: "El Profeta ﷺ enseñó diferentes variantes legítimas para facilitar la práctica a su comunidad en diferentes momentos y viajes, del mismo modo que el Corán fue revelado en siete modalidades de lectura (Ahruf)."
+      },
+      {
+        obj: "Las cuatro escuelas jurídicas (Malikí, Hanafí, Shafi'í, Hanbalí) discrepan en muchos puntos de la oración.",
+        ans: "Discrepan en actos recomendados menores y detalles secundarios, pero están en consenso unánime absoluto (Ijmâ') sobre las cinco oraciones diarias, el número de rak'at, la dirección hacia la Ka'bah y los pilares esenciales."
+      }
+    ],
+    framingQuestions: [
+      "¿Cuántas oraciones al día practicas tú con tus correligionarios coranistas y cómo justificas que otros coranistas defiendan un número totalmente distinto basándose en el mismo Corán?",
+      "¿Conoces las reglas de 'Mukhtalif al-Hadîth' desarrolladas por el Imam Ash-Shafi'i e Ibn Qutaybah para resolver las divergencias aparentes?"
+    ],
+    quiz: [
+      {
+        q: "¿Qué demuestran las divergencias de interpretación entre los juristas musulmanes?",
+        options: [
+          "Que la Sunna profética fue inventada y carece de valor.",
+          "La flexibilidad y profundidad del esfuerzo interpretativo humano (Ijtihâd) sobre textos auténticos de aplicación.",
+          "Que el Corán prohíbe el uso de la razón.",
+          "Que cada musulmán debe inventar su propia religión individual."
+        ],
+        answer: 1,
+        explanation: "Las divergencias jurisprudenciales demuestran la vitalidad del Ijtihâd ante casos prácticos y no ponen en duda la autenticidad de las fuentes reveladas."
+      }
+    ],
+    conclusion: {
+      steps: [
+        "La aparente contradicción se disuelve mediante el método de los sabios.",
+        "La divergencia interpretativa es inherente a toda comprensión jurídica humana.",
+        "El coranismo sin Sunna produce una anarquía interpretativa total."
+      ],
+      finalText: "La ciencia del Hadiz no teme el examen crítico: provee las herramientas para su resolución.",
+      punchline: "¡Quien huye de las discrepancias del Fiqh para caer en el coranismo salta de una gota de agua a un océano de contradicciones!"
+    },
+    fallacies: [
+      "generalisation-abusive",
+      "fausse-dichotomie",
+      "non-sequitur"
+    ]
+  },
+  {
+    id: 9,
+    number: "09",
+    slug: "9-hadith-dhann-vs-yaqin",
+    theme: "Epistemología: Conjetura (Dhann) vs Certeza Jurídica",
+    title: "¿Es el Hadiz una simple conjetura (Dhann) opuesta a la certeza (Yaqîn) del Corán?",
+    shortTitle: "Epistemología: Dhann y Certeza",
+    tagline: "El 'Dhann' condenado en el Corán es la superstición pagana sin pruebas; en jurisprudencia, la probabilidad preponderante (Ghalabat adh-Dhann) es la base obligatoria de la acción.",
+    formula: "¡Confundir la conjetura idólatra condenada por el Corán con la probabilidad jurídica preponderante es una trampa lingüística monumental!",
+    pdfFile: "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_9.pdf",
+    theirArgument: {
+      thesis: "La mayoría de los Hadices son narraciones singulares (Ahâd) que aportan solo un conocimiento conjetural o probable (Dhann). Ahora bien, el Corán condena formalmente el seguimiento de la conjetura ('La conjetura no aprovecha en nada frente a la Verdad', Sura 10:36). Por lo tanto, no se puede fundamentar la religión en Hadices.",
+      verses: [
+        {
+          ref: "Sura Yunus, versículo 36",
+          ar: "وَمَا يَتَّبِعُ أَكْثَرُهُمْ إِلَّا ظَنًّا إِنَّ الظَّنَّ لَا يُغْنِي مِنَ الْحَقِّ شَيْئًا",
+          translation: "Y la mayoría de ellos solo siguen conjeturas; ciertamente la conjetura no aprovecha en nada frente a la Verdad."
+        },
+        {
+          ref: "Sura An-Najm, versículo 28",
+          ar: "إِن يَتَّبِعُونَ إِلَّا الظَّنَّ وَإِنَّ الظَّنَّ لَا يُغْنِي مِنَ الْحَقِّ شَيْئًا",
+          translation: "No siguen sino conjeturas, y la conjetura no sustituye en nada a la Verdad."
+        }
+      ],
+      realQuestion: "¿A qué tipo de 'Dhann' se refieren estos versículos coránicos y qué valor epistémico otorga el Islam a los testimonios auténticamente verificados para la práctica jurídica?"
+    },
+    logicalNode: {
+      title: "Equívoco semántico entre conjetura idolátrica infundada y probabilidad probatoria preponderante",
+      distinctions: [
+        {
+          term: "DHANN CONDENADO (FANTASÍA Y SUPERSTICIÓN DOGMÁTICA)",
+          desc: "Creencias paganas sin ningún rastro de revelación divina ni prueba racional (ej. afirmar que los ángeles son hijas de Dios o adorar ídolos)."
+        },
+        {
+          term: "GHALABAT ADH-DHANN (CERTEZA PRÁCTICA PREPONDERANTE)",
+          desc: "El testimonio verificado de personas dignas de confianza que obliga a actuar en el derecho, los juicios penales y la vida cotidiana."
+        }
+      ],
+      generalRule: "Toda la vida humana y la justicia legal operan sobre testimonios de alta probabilidad verificada; exigir certeza absoluta matemática para cada detalle paralizaría el mundo.",
+      errorToAvoid: "Utilizar versículos que censuran el paganismo politeísta para descalificar la transmisión metódica de las enseñanzas proféticas."
+    },
+    centralPrinciple: {
+      title: "El Corán y el Profeta obligan a actuar basándose en testimonios fidedignos singulares",
+      formalScheme: "1. El Corán ordena verificar las noticias y actuar cuando el informante es digno de crédito (49:6).\n2. El Profeta ﷺ enviaba gobernadores y emisarios individuales (como Mu'adh ibn Jabal a Yemen o Mus'ab ibn 'Umayr a Medina) para enseñar la religión a regiones enteras.\n3. Por lo tanto, el testimonio verificado (Hadiz Ahad auténtico) es plenamente vinculante en la legislación islámica.",
+      explanation: "Si las noticias individuales fiables no tuvieran valor, los habitantes de Yemen no habrían tenido la obligación de aceptar el Islam de boca de Mu'adh (que era un solo emisario), y ningún tribunal del mundo podría juzgar en base al testimonio de dos testigos verídicos. El propio Corán valida el testimonio humano riguroso.",
+      logicalTest: "Cuando compras comida etiquetada o tomas un medicamento en la farmacia, ¿tienes certeza matemática absoluta o te basas en la probabilidad fidedigna de los certificados de control?"
+    },
+    quranicArchitecture: {
+      title: "Versículos decisivos sobre la aceptación de la información fidedigna",
+      verses: [
+        {
+          ref: "Sura Al-Hujurat, versículo 6",
+          ar: "يَا أَيُّهَا الَّذِينَ آمَنُوا إِن جَاءَكُمْ فَاسِقٌ بِنَبَإٍ فَتَبَيَّنُوا",
+          translation: "¡Oh creyentes! Si un transgresor os trae una noticia, verificadla."
+        },
+        {
+          ref: "Sura At-Tawbah, versículo 122",
+          ar: "فَلَوْلَا نَفَرَ مِن كُلِّ فِرْقَةٍ مِّنْهُمْ طَائِفَةٌ لِّيَتَفَقَّهُوا فِي الدِّينِ وَلِيُنذِرُوا قَوْمَهُمْ إِذَا رَجَعُوا إِلَيْهِمْ",
+          translation: "¿Por qué no se moviliza un grupo de cada comunidad para que se instruyan en la religión y amonesten a su pueblo cuando regresen a ellos?"
+        }
+      ],
+      consequence: "El Corán prescribe que pequeños grupos instruidos regresen y enseñen con autoridad a comunidades enteras."
+    },
+    analogies: [
+      {
+        num: 1,
+        title: "El Testimonio en los Tribunales de Justicia",
+        scenario: "Un tribunal de justicia condena a un homicida basándose en la concordancia de testimonios fiables, peritajes forenses y pruebas concluyentes. Nadie exige que el juez haya presenciado el crimen con sus propios ojos para dictar sentencia.",
+        logicBox: "Certeza judicial suficiente = Cadena de transmisión auténtica (Isnâd Sahih).",
+        lesson: "Rechazar la probabilidad preponderante obligaría a liberar a todos los criminales del mundo."
+      },
+      {
+        num: 2,
+        title: "El Diagnóstico Médico y los Análisis de Sangre",
+        scenario: "Un médico receta un antibiótico basándose en un cultivo de laboratorio con un 99% de fiabilidad estadística. El paciente no dice '¡Solo acepto el 100% absoluto de certeza divina, prefiero morir!'.",
+        logicBox: "Probabilidad científica fundada = Guía obligatoria para la acción.",
+        lesson: "La sensatez humana exige actuar según la evidencia más sólida y comprobada."
+      }
+    ],
+    readyResponses: {
+      quick30s: "En el Corán, el 'Dhann' condenado en Sura Yunus es la conjetura idolátrica infundada de los paganos que adoraban estatuas sin prueba alguna. Pero en el derecho y en la vida humana, actuar sobre la base de testimonios de personas honorables es una orden coránica (Sura 49, V.6). El Profeta ﷺ enviaba a un solo compañero a evangelizar y enseñar a tribus enteras.",
+      developed: "Los epistemólogos musulmanes distinguen entre 'Adh-Dhann al-Batil' (la sospecha infundada y el capricho) y 'Ghalabat adh-Dhann' (la certidumbre moral preponderante). Todo el derecho humano, la medicina, la transmisión histórica y la vida civil reposan sobre la confianza crítica en transmisores fidedignos. Si rechazáramos todo lo que no sea certeza matemática absoluta, tendrías que dudar de la identidad de tus propios padres, de los libros de historia y de los alimentos que compras en el mercado."
+    },
+    objections: [
+      {
+        obj: "En el dogma teológico fundamental ('Aqidah) se exige certeza absoluta (Qat'î).",
+        ans: "Los grandes pilares del dogma islámico (la unicidad de Allah, el Día del Juicio, el Corán, las oraciones) están probados por textos categóricos con cadenas masivas (Tawâtur). Pero los detalles prácticos y ramas jurídicas se rigen legítimamente por Hadices auténticos fidedignos."
+      },
+      {
+        obj: "Un testigo honesto puede equivocarse involuntariamente.",
+        ans: "Por eso los sabios del Hadiz no se limitaron a comprobar la honestidad moral: cotejaron las versiones de múltiples compañeros y discípulos para descartar cualquier error de memoria (Dabt)."
+      }
+    ],
+    framingQuestions: [
+      "¿Por qué envió el Profeta ﷺ a Mu'adh ibn Jabal como único emisario a Yemen para enseñarles la fe si el testimonio singular no tuviera validez?",
+      "¿Cómo sabes que la traducción al español del Corán que lees es correcta sin confiar en el testimonio humano de los traductores?"
+    ],
+    quiz: [
+      {
+        q: "¿A qué se refiere la palabra 'Dhann' en los versículos coránicos que condenan su seguimiento?",
+        options: [
+          "A los relatos de Hadices autenticados por cadenas de sabios piadosos.",
+          "A las conjeturas infundadas, supersticiones paganas y mitos de los idólatras.",
+          "A la prescripción médica de los doctores.",
+          "A la memorización del Corán por los niños."
+        ],
+        answer: 1,
+        explanation: "El Dhann censurado en el Corán es la superstición idolátrica sin base revelada ni prueba racional, jamás el testimonio fidedigno contrastado."
+      }
+    ],
+    conclusion: {
+      steps: [
+        "El Corán condena la suposición pagana ciega, no el testimonio verídico.",
+        "El método del Hadiz exige pruebas concluyentes y testigos fiables.",
+        "Actuar conforme al testimonio riguroso es un principio fundamental del Corán."
+      ],
+      finalText: "El Hadiz auténtico proporciona la certidumbre moral y práctica necesaria para servir a Allah.",
+      punchline: "¡Quien confunde la superstición pagana con el rigor científico del Isnâd comete un error imperdonable!"
+    },
+    fallacies: [
+      "equivoque-lexicale",
+      "epouvantail",
+      "non-sequitur"
+    ]
+  },
+  {
+    id: 10,
+    number: "10",
+    slug: "10-priere-sans-sunna",
+    theme: "La Prueba Práctica Irrefutable: La Oración y los Ritos",
+    title: "La oración sin la Sunna: el callejón sin salida de los coranistas",
+    shortTitle: "La Oración sin la Sunna",
+    tagline: "El Corán ordena la oración en decenas de versículos pero delega todas sus modalidades prácticas a la Sunna viva.",
+    formula: "¡El hecho de que los musulmanes recen idénticamente en todo el planeta desde hace catorce siglos es la prueba viviente e indestructible de la Sunna!",
+    pdfFile: "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_10.pdf",
+    theirArgument: {
+      thesis: "Podemos practicar la oración musulmana (Salât) utilizando exclusivamente el texto del Corán. La Sunna no es necesaria para orar, o bien la oración es una simple invocación espiritual libre sin gestos fijos ni número de unidades predeterminado.",
+      verses: [
+        {
+          ref: "Sura Al-Baqarah, versículo 43",
+          ar: "وَأَقِيمُوا الصَّلَاةَ وَآتُوا الزَّكَاةَ وَارْكَعُوا مَعَ الرَّاكِعِينَ",
+          translation: "Y estableced la oración, pagad el zakat e inclinaos con los que se inclinan."
+        }
+      ],
+      realQuestion: "¿Es posible reconstruir con rigor los detalles de las 5 oraciones diarias (número de rezos, de rak'at, horarios exactos, recitaciones, inclinaciones y postraciones) a partir exclusivamente del texto del Corán?"
+    },
+    logicalNode: {
+      title: "La imposibilidad empírica y práctica de la autosuficiencia textual",
+      distinctions: [
+        {
+          term: "MANDATO CORÁNICO NORMATIVO (EL PRINCIPIO)",
+          desc: "La orden divina inmutable que establece la obligación absoluta de la oración."
+        },
+        {
+          term: "SUNNA MUTAWÂTIRAH VIVIENTE (LA EJECUCIÓN)",
+          desc: "La transmisión práctica ininterrumpida de generación en generación que enseña exactamente cómo orar."
+        }
+      ],
+      generalRule: "Cuando una orden legal exige un acto formal pero no define sus elementos constitutivos, la remisión a la fuente explicativa acreditada es forzosa.",
+      errorToAvoid: "Inventar una forma individualista de oración desconectada de la historia para salvar una ideología teórica."
+    },
+    centralPrinciple: {
+      title: "La oración es la refutación viva y cotidiana del coranismo a cada inclinación",
+      formalScheme: "1. El Corán impone rezar pero no especifica las unidades ni las fórmulas completas.\n2. El Profeta ﷺ declaró públicamente ante miles de fieles: 'Rezad tal como me habéis visto rezar' (Sahih Al-Bujari).\n3. La comunidad musulmana ha transmitido este acto millones de veces al día sin interrupción hasta nuestros días.",
+      explanation: "Ningún coranista en el mundo puede justificar por qué reza cuatro unidades a mediodía, cuatro por la tarde, tres al anochecer, cuatro por la noche y dos al alba si consulta únicamente el Corán. Al realizar estos rezos cotidianos, el coranista demuestra con sus propios actos que la Sunna es absolutamente imprescindible.",
+      logicalTest: "Desafío a cualquier coranista: ¡Escriba en un papel las instrucciones precisas para realizar una oración completa de principio a fin utilizando únicamente citas literales del Corán!"
+    },
+    quranicArchitecture: {
+      title: "La orden coránica de imitar la práctica comunitaria viva",
+      verses: [
+        {
+          ref: "Sura An-Nisa, versículo 103",
+          ar: "إِنَّ الصَّلَاةَ كَانَتْ عَلَى الْمُؤْمِنِينَ كِتَابًا مَّوْقُوتًا",
+          translation: "Ciertamente la oración ha sido prescrita a los creyentes en horarios determinados."
+        }
+      ],
+      consequence: "Los horarios y modalidades de la oración son una prescripción fija transmitida por la Sunna profética ininterrumpida (Tawâtur 'Amalî)."
+    },
+    analogies: [
+      {
+        num: 1,
+        title: "La Receta del Gran Chef",
+        scenario: "Una receta dice 'Prepare una masa de hojaldre perfecta'. Si el aprendiz no consulta las proporciones de mantequilla, harina y los tiempos de plegado que el maestro enseña en su taller, obtendrá una masa incomestible.",
+        logicBox: "Orden = Prepara la masa | Técnica magistral = Sunna profética.",
+        lesson: "Un mandato general sin la técnica enseñada no produce el resultado esperado."
+      },
+      {
+        num: 2,
+        title: "El Examen Práctico de Conducir",
+        scenario: "El código de tráfico dice 'Aparque en paralelo correctamente'. Quien se niega a aprender la maniobra con el profesor alegando que solo el reglamento escrito vale suspenderá irremediablemente la prueba.",
+        logicBox: "La práctica demostrada da sentido y eficacia a la norma escrita.",
+        lesson: "La adoración a Allah se aprende mediante la imitación de Su Mensajero."
+      }
+    ],
+    readyResponses: {
+      quick30s: "Pregúntale a cualquier coranista: '¿Cómo rezas la oración del mediodía? ¿Cuántas unidades haces? ¿Por qué cuatro y no siete o tres?'. No encontrará esa cifra en ningún versículo del Corán. Si reza 4 rak'at, está siguiendo la Sunna; y si no reza 4 rak'at, ha inventado una religión que ningún musulmán conoció jamás.",
+      developed: "La oración (Salât) es el corazón palpitante del Islam. Su transmisión es de naturaleza 'Mutawâtir 'Amalî' (transmisión masiva práctica): millones de padres enseñaron a sus hijos la misma oración que los Compañeros aprendieron directamente del Profeta ﷺ en la mezquita de Medina. Querer vaciar la oración de sus gestos proféticos conduce inevitablemente al absurdo de convertir el Islam en una elucubración teórica sin culto real."
+    },
+    objections: [
+      {
+        obj: "¿Acaso no heredamos la oración directamente de Abraham como dice el Corán?",
+        ans: "Abraham (la paz sea con él) instituyó el monoteísmo y los cimientos de la Casa Sagrada, pero las formas y detalles precisos de la oración islámica final fueron enseñados por Muhammad ﷺ: 'Rezad tal como me habéis visto rezar' (Sahih Al-Bujari)."
+      },
+      {
+        obj: "La oración en el Corán significa solo invocación mental y comunión espiritual.",
+        ans: "Esa interpretación contradice el Corán mismo, que habla de inclinaciones (Ruku'), postraciones (Sujud), ablución de miembros específicos y filas organizadas."
+      }
+    ],
+    framingQuestions: [
+      "Si solo sigues el Corán, ¿por qué rezas 4 unidades a mediodía cuando el número cuatro no aparece en el Corán para las unidades de oración?",
+      "¿Reconoces que cada vez que te postras en la oración estás demostrando que la Sunna es indispensable?"
+    ],
+    quiz: [
+      {
+        q: "¿Qué demuestra el hecho de que millones de musulmanes en todo el planeta recen 5 veces al día con los mismos gestos y unidades?",
+        options: [
+          "La autenticidad y la perfecta preservación de la Sunna práctica ininterrumpida (Tawâtur 'Amalî).",
+          "Que el Corán enumera explícitamente cada unidad de rezo.",
+          "Que cada fiel reza según su capricho individual.",
+          "Una simple coincidencia sin base histórica."
+        ],
+        answer: 0,
+        explanation: "La uniformidad de la oración en todo el mundo musulmán es la prueba tangible de la preservación viva de la Sunna profética."
+      }
+    ],
+    conclusion: {
+      steps: [
+        "La oración es el pilar práctico fundamental del Islam.",
+        "Sus detalles proceden exclusivamente de la Sunna del Profeta ﷺ.",
+        "Practicar la oración mientras se niega la Sunna es una contradicción en cada reverencia."
+      ],
+      finalText: "La oración diaria es el testimonio perpetuo de la necesidad ineludible de la Sunna.",
+      punchline: "¡Rezar según la Sunna mientras se niega la Sunna es una contradicción en cada postración!"
+    },
+    fallacies: [
+      "fausse-dichotomie",
+      "double-standard",
+      "deplacement-charge-preuve"
+    ]
+  }
+];
+
+module.exports = esArguments5to10;

@@ -1,185 +1,526 @@
 /**
- * Pack de Langue : Portugais (PT) - Português
- * Traduction Exhaustive et Intégrale (UI, Préface, Intro, 10 Arguments, Boîte à Outils des Sophismes, Modales)
+ * TRADUCTION OFFICIELLE (PORTUGAIS - Português)
+ * Manuel de réfutation méthodique du coranisme — Par Salah Eddine Ahmed (Abou Soulaymane)
  */
+
 window.I18N_DATA = window.I18N_DATA || {};
-window.I18N_DATA['pt'] = {
+window.I18N_DATA["pt"] = {
   "code": "pt",
   "name": "Portugais",
   "native": "Português",
-  "flag": "🇵🇹",
+  "flagSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 400\" class=\"flag-icon\"><rect width=\"240\" height=\"400\" fill=\"#006600\"/><rect width=\"360\" height=\"400\" x=\"240\" fill=\"#ff0000\"/><circle cx=\"240\" cy=\"200\" r=\"80\" fill=\"#ffff00\"/></svg>",
   "dir": "ltr",
+  "fontFamily": "var(--font-main)",
   "ui": {
-    "brandBadge": "MANUAL PRÁTICO",
-    "brandTitle": "REFUTAÇÃO DO QURANISMO",
-    "brandSubtitle": "Como desmascarar e refutar a seita dos coranistas e defender a Sunna",
-    "searchBtn": "Pesquisar",
-    "barbahariBtn": "Al-Barbahari",
-    "contactBtn": "Contacto",
-    "legalBtn": "Partilha & Licença",
-    "summaryTitle": "Índice",
-    "rubriquesCount": "12 seções",
-    "heroTag1": "Manual Prático de Refutação",
-    "heroTag2": "Difusão Pedagógica Aberta",
-    "heroTitleMain": "Refutação",
-    "heroTitleSpan": "do Quranismo",
-    "heroAuthor": "Por Salah Eddine Ahmed (Abou Soulaymane) — Como desmascarar e refutar a seita dos coranistas: 10 argumentos examinados e refutados metodicamente",
-    "heroDesc": "Desconstrua passo a passo os sofismas do coranismo com rigor lógico, analogias pedagógicas, versículos árabes vocalizados e respostas sintéticas em 30 segundos.",
-    "btnStartArg1": "Começar pelo Argumento 1",
-    "btnSearchModal": "Pesquisar tema / versículo",
-    "btnContactAuthor": "Contactar o autor",
-    "sommaireTitle": "Os 10 Grandes Argumentos Decifrados",
-    "sommaireBadge": "10 Fichas Prontas a Usar",
-    "btnReadCard": "Ler ficha",
-    "btnDownloadPdf": "Descarregar PDF original",
-    "btnPrintCard": "Imprimir / Guardar em PDF",
-    "goldenRuleHeader": "Regra de ouro para debater com um coranista",
-    "goldenRuleTitle": "Nunca permita que o interlocutor mude o tema",
-    "goldenRuleDesc": "A maioria dos argumentos coranistas baseia-se em confusões: confundir o princípio da Sunna com a transmissão histórica das compilações posteriores.",
-    "goldenRuleStep1": "1. Estabelecer primeiro o que o Alcorão ordena (Obediência, Julgamento, Bayan, Exemplo).",
-    "goldenRuleStep2": "2. Demonstrar que a autoridade profética delegada jamais compete com a Soberania divina.",
-    "goldenRuleStep3": "3. Tratar depois metodicamente a cadeia de transmissão histórica.",
-    "searchModalTitle": "Pesquisa Rápida no Manual",
-    "searchPlaceholder": "Ex: oração, Surah An-Nahl v. 44, transmissão, autoridade...",
-    "contactModalTitle": "Contacto com o Autor & Feedback",
-    "contactAuthorBio": "Autor da obra « Como desmascarar e refutar a seita dos coranistas ».",
-    "contactEmailBoxTitle": "E-mail de contacto oficial:",
-    "contactSuggestions": "Pode enviar comentários e perguntas por e-mail para ideoise@gmail.com.",
-    "legalModalTitle": "Termos de Partilha e Privacidade",
-    "legalSharingTitle": "Termos de Difusão Pedagógica",
-    "legalSharingSubtitle": "Partilha Pedagógica Aberta",
-    "legalSharingMainText": "Este conteúdo pode ser partilhado gratuitamente para fins pessoais e educativos com citação da fonte.",
-    "legalAuthorizedUses": "Usos autorizados: Download, impressão, estudo e partilha em círculos de estudo e redes sociais.",
-    "legalPrivacyTitle": "Dados Técnicos & Privacidade",
-    "legalPrivacySubtitle": "Política de Privacidade",
-    "legalPrivacyText": "O site não exige registo nem recolhe dados pessoais por formulários.",
-    "footerQuote": "« Se ouvires um homem a quem se cita um athar rejeitá-lo dizendo: Deixa isso e traz-nos o Alcorão, não duvides de que está impregnado de heresia. »",
-    "footerAuthorRef": "— Imam Al-Barbahari (Sharh As-Sunnah, p. 135)",
-    "footerNotice": "Manual metódico baseado na obra de Salah Eddine Ahmed (Abou Soulaymane).",
-    "footerNotice2": "Conteúdo livre para estudo com menção da fonte.",
-    "portalWarningBadge": "AVISO DOS PREDECESSORES SOBRE QUEM REJEITA A TRANSMISSÃO",
-    "portalTitle": "Palavra do Imam Al-Barbahari (que Allah tenha misericórdia dele)",
-    "portalEnterBtn": "ACEDER AO MANUAL DE REFUTAÇÃO",
-    "portalAuthorBadge": "✍️ Imam Al-Barbahari (m. 329 H)",
-    "portalSourceRef": "📖 Fonte: Sharh As-Sunnah (Ponto 135)",
-    "portalDisclaimer": "Como desmascarar e refutar a seita dos coranistas • Por Salah Eddine Ahmed (Abou Soulaymane)",
-    "argBadgeGiant": "ARGUMENTO",
-    "btnDownloadOriginalPdf": "Descarregar PDF original",
-    "btnPrintPage": "Imprimir / Exportar PDF",
-    "formulaRetenir": "FÓRMULA A RETER:",
-    "tocTitle": "Índice da ficha",
-    "tocThesis": "A sua tese",
-    "tocLogical": "Nó lógico",
-    "tocPrinciple": "Princípio central",
-    "tocQuranic": "Arquitetura alcorânica",
+    "tocThesis": "A Sua Tese",
+    "tocLogical": "Nó Lógico",
+    "tocPrinciple": "Princípio Central",
+    "tocQuranic": "Arquitetura Alcorânica",
     "tocAnalogies": "Analogias",
-    "tocResponses": "Respostas prontas",
-    "tocObjections": "Objeções decifradas",
-    "tocQuiz": "Quiz",
-    "tocConclusion": "Conclusão",
-    "sec1Header": "1. A SUA TESE E OS VERSÍCULOS QUE DETURPAM",
-    "sec1Sub": "A posição coranista e a sua desconstrução",
-    "sec1CoranistTitle": "A Tese Coranista Desmascarada",
-    "sec1VersesTitle": "Versículos Invocados",
-    "sec1QuestionTitle": "A Verdadeira Questão Doutrinária",
+    "tocResponses": "Respostas Prontas",
+    "tocObjections": "Objeções",
+    "tocQuiz": "Questionário",
+    "sec1Header": "1. A SUA TESE E OS VERSÍCULOS QUE DESVIAM",
+    "sec1QuestionTitle": "A pergunta real a ser feita:",
     "sec2Header": "2. O NÓ LÓGICO DO PROBLEMA",
-    "sec2Sub": "Desmantelando confusões conceituais",
-    "sec2GeneralRule": "Regra geral de lógica:",
-    "sec2ErrorAvoid": "O erro a evitar:",
+    "sec2GeneralRule": "REGRA GERAL:",
+    "sec2ErrorAvoid": "Erro e Falácia a Evitar",
     "sec3Header": "3. O PRINCÍPIO CENTRAL DE REFUTAÇÃO",
-    "sec3Sub": "O argumento fulcral",
-    "sec3FormalScheme": "ESQUEMA FORMAL DEMONSTRATIVO",
-    "sec3Explanation": "Demonstração Teológica e Racional",
-    "sec3LogicalTest": "Teste Lógico Decisivo:",
+    "sec3LogicalTest": "TESTE LÓGICO:",
     "sec4Header": "4. A ARQUITETURA ALCORÂNICA COMPLETA",
-    "sec4Sub": "Versículos decisivos sobre a autoridade profética",
-    "sec4VersesRef": "Versículos Alcorânicos Refutatórios",
-    "sec4Consequence": "Consequência Doutrinária Inevitável:",
-    "sec5Header": "5. ANALOGIAS PEDAGÓGICAS",
-    "sec5Sub": "Para fazer compreender o raciocínio em 30 segundos",
-    "sec6Header": "6. RESPOSTAS PRONTAS A USAR",
-    "sec6Sub": "Formatos prontos a usar ou partilhar",
+    "sec4Consequence": "CONSEQUÊNCIA:",
+    "sec5Header": "5. AS ANALOGIAS PEDAGÓGICAS",
+    "sec6Header": "6. RESPOSTAS PRONTAS PARA O DIÁLOGO",
     "sec6QuickTitle": "Resposta Rápida (30 Segundos)",
-    "btnCopyQuick": "Copiar resposta 30s com 1 clique",
     "sec6DevTitle": "Resposta Desenvolvida e Argumentada",
-    "sec7Header": "7. OBJEÇÕES CORANISTAS E RESPOSTAS",
-    "sec7Sub": "Antecipe cada contra-argumento",
-    "sec7ClickToggle": "Clique numa objeção para ver a resposta metódica:",
+    "btnCopyQuick": "Copiar resposta de 30s em 1 clique",
+    "sec7Header": "7. OBJEÇÕES CORANISTAS E RESPOSTAS METÓDICAS",
+    "labelObjection": "Objeção",
+    "labelMethodicAnswer": "Resposta metódica:",
     "sec7DirectQuestions": "Perguntas de enquadramento direto:",
     "sec8Header": "8. TESTE A SUA COMPREENSÃO",
-    "sec8Sub": "Quiz interativo",
-    "sec8ValidateBtn": "Validar resposta",
+    "sec8Sub": "Questionário interativo",
     "sec9Header": "9. CONCLUSÃO EM CADEIA LÓGICA",
-    "sec9Sub": "Resumo metódico para encerrar o debate",
-    "sec9Deduction": "Cadeia de Dedução Lógica:",
-    "sec9Takeaway": "A Reter Absolutamente:",
-    "sec9Punchline": "Frase Final de Debate:",
-    "navPrevArg": "Argumento anterior",
-    "navNextArg": "Argumento seguinte",
-    "navBackSummary": "Voltar ao índice",
-    "navEndManual": "Fim do Manual (Início)",
-    "toastCopySuccess": "Resposta sintética de 30s copiada para a área de transferência!",
-    "quizBravo": "Parabéns! Resposta correta.",
-    "quizIncorrect": "Incorreto. Tente novamente!",
     "labelSituation": "Situação:",
     "labelLogic": "Mecanismo lógico:",
     "labelLesson": "Ensinamento:",
     "labelApplication": "Aplicação ao debate:",
-    "labelObjection": "Objeção",
-    "labelMethodicAnswer": "Resposta metódica:",
-    "navBarbahari": "Al-Barbahari",
-    "navContact": "Contato",
-    "navLicense": "Compartilhamento & Licença",
-    "sidebarSadaqaHeader": "Recurso Educacional Aberto",
-    "sidebarSadaqaText": "Este manual está disponível livremente para estudo e defesa da Sunnah.",
-    "labelAuthor": "Autor:",
-    "authorName": "Salah Eddine Ahmed (Abu Sulayman)",
-    "btnSidebarHome": "Início",
-    "btnSidebarContact": "Contatar o Autor",
-    "sidebarPreface": "Prefácio do Autor",
-    "sidebarIntro": "Quem são os coranistas?",
-    "portalQuoteTransLabel": "Translation of the meaning:",
-    "portalQuoteText": "If you hear a man who, upon having an athar (transmitted tradition) cited to him, rejects it saying: \"Leave this and bring us the Quran\", do not doubt that he is a man steeped in heresy. Stand up and leave his gathering!",
-    "searchNoResults": "No results found for",
-    "contactAuthorHeader": "Author of the Manual",
-    "legalSharingHeader": "Sharing Conditions & Educational Distribution",
-    "legalAuthorizedUsesHeader": "Authorized Uses:",
-    "legalAuthorizedUsesList": [
-      "Downloading, printing, reading, and free sharing of the factsheets.",
-      "Use in study circles, courses, debates, and social networks.",
-      "Any commercial exploitation or distorting alteration is strictly prohibited without prior permission."
-    ],
-    "legalPrivacyHeader": "Technical Data & Privacy",
-    "legalPrivacyBullet1": "No third-party advertising cookies: Zero commercial tracking pixels.",
-    "legalPrivacyBullet2": "Fonts & resources: Secure loading of Google Fonts.",
-    "legalCreditsHeader": "Book Details:",
-    "legalCreditsBookTitle": "How to Expose and Refute the Quranist Sect",
-    "footerSubtitle": "10 major arguments examined and methodically refuted",
-    "footerBtnLegal": "⚖️ Sharing, License & Privacy",
-    "footerBtnContact": "✉️ Contact Author",
-    "footerBtnPortal": "📜 Words of Al-Barbahârî",
-    "footerContactLabel": "Contact:",
-    "btnShare": "Compartilhar",
-    "btnCopySection": "Copiar seção",
+    "btnDownloadOriginalPdf": "Baixar o PDF original",
+    "btnPrintPage": "Imprimir / Salvar como PDF",
+    "formulaRetenir": "FÓRMULA PRINCIPAL A RETER:",
+    "brandBadge": "MANUAL PRÁTICO",
+    "brandTitle": "REFUTAÇÃO DO CORANISMO",
+    "brandSubtitle": "Como desmascarar e refutar a seita dos coranistas",
+    "searchBtn": "Pesquisar",
+    "searchPlaceholder": "Pesquisar por tema, versículo, objeção, analogia...",
+    "searchModalTitle": "Pesquisa rápida no manual",
+    "searchNoResults": "Nenhum resultado encontrado para esta pesquisa.",
+    "searchShortcutHint": "Pressione ESC para fechar",
+    "topbarContact": "Contacto",
+    "topbarLegal": "Licença e Partilha",
+    "topbarBarbahari": "Al-Barbahârî",
+    "sidebarTitle": "📚 Índice Geral",
+    "sidebarCount": "12 temas",
+    "sidebarHome": "🏠 Início / Hub",
+    "sidebarContact": "✉️ Contactar o Autor",
+    "heroTag1": "📖 Manual Prático de Refutação",
+    "heroTag2": "🌿 Difusão Pedagógica Aberta",
+    "heroTitleMain": "Refutação",
+    "heroTitleSpan": "do Coranismo",
+    "heroAuthor": "Por Salah Eddine Ahmed (Abou Soulaymane)",
+    "heroDesc": "Desmonte passo a passo as falácias do coranismo através de uma argumentação lógica rigorosa, exemplos quotidianos, versículos decisivos e respostas prontas em 30 segundos.",
+    "btnStartArg1": "Começar com o Argumento 1",
+    "btnSearchModal": "Pesquisar no manual",
+    "sommaireTitle": "Os 10 Grandes Argumentos Analisados",
+    "sommaireBadge": "10 Fichas Prontas a Usar",
+    "cardAdverseThesisPrefix": "Tese dos coranistas:",
+    "btnReadCard": "Consultar a ficha",
+    "btnDownloadPdf": "Descarregar o fascículo em PDF original",
+    "btnPrintCard": "Imprimir / Guardar em PDF",
+    "methodTag": "METODOLOGIA DE DEBATE",
+    "methodTitle": "O Método dos 3 Passos Inevitáveis",
+    "methodStep1Title": "1. Desarmar a Falácia",
+    "methodStep1Desc": "Identifique se o oponente utiliza uma falsa dicotomia, uma generalização abusiva ou uma inversão do ónus da prova.",
+    "methodStep2Title": "2. A Analogia Quotidiana",
+    "methodStep2Desc": "Utilize uma situação da vida diária (leis, medicina, plantas) para evidenciar o absurdo lógico do seu raciocínio.",
+    "methodStep3Title": "3. A Consequência Absurda",
+    "methodStep3Desc": "Mostre a que caos teológico e prático conduz a sua tese se aplicada com total coerência.",
+    "quoteBoxText": "«Rejeitar a autoridade que o próprio texto designa em nome da autossuficiência do texto é transformar a suficiência num princípio que o texto jamais formulou.»",
+    "quoteBoxAuthor": "— Salah Eddine Ahmed (Abou Soulaymane)",
+    "sec2ThesisLabel": "Tese sustentada pelos coranistas :",
+    "sec2VersesLabel": "Versículos que citam (fora de contexto) :",
+    "sec2RealQuestionLabel": "A verdadeira questão de fundo :",
+    "sec3GeneralRuleLabel": "Regra geral de raciocínio :",
+    "sec3ErrorLabel": "O erro lógico a evitar :",
+    "sec4FormalSchemeLabel": "Esquema formal de demonstração :",
+    "sec4ExplanationLabel": "Explicação doutrinária :",
+    "sec4TestLabel": "Teste lógico decisivo :",
+    "sec5ConsequenceLabel": "Consequência doutrinária inelutável :",
+    "sec6ScenarioLabel": "Situação concreta :",
+    "sec6LogicBoxLabel": "Paralelismo lógico :",
+    "sec6LessonLabel": "Lição a retirar :",
+    "sec7QuickResponseLabel": "⚡ Resposta em 30 segundos (clara e contundente) :",
+    "sec7DevelopedResponseLabel": "🗣️ Resposta desenvolvida (para aprofundar) :",
+    "sec8DirectQuestionsLabel": "Perguntas de enquadramento direto :",
+    "quizTitle": "8. AVALIE A SUA COMPREENSÃO",
+    "quizBadge": "Questionário interativo",
+    "btnCheckAnswer": "Verificar resposta",
+    "btnNextQuestion": "Próxima pergunta ➔",
+    "btnRestartQuiz": "Reiniciar questionário",
+    "quizFeedbackCorrect": "✅ Exato! Excelente dedução.",
+    "quizFeedbackIncorrect": "❌ Resposta incorreta. Releia a explicação abaixo :",
+    "portalWarningBadge": "AVISO DOS PRIMEIROS SÁBIOS SOBRE QUEM REJEITA A TRANSMISSÃO",
+    "portalTitle": "Palavras do Imam Al-Barbahârî (رحمه الله)",
+    "portalQuoteTransLabel": "Tradução do sentido :",
+    "portalQuoteText": "Se ouvires um homem a quem se cita uma tradição (um relato transmitido) rejeitá-la dizendo: \"Deixa isso e traz-nos apenas o Alcorão\", não tenhas qualquer dúvida de que é um homem impregnado de heresia. Levanta-te da sua assembleia e afasta-te dele!",
+    "portalAuthorBadge": "✍️ Imam Al-Barbahârî (m. 329 H)",
+    "portalSourceRef": "Fonte : Sharḥ As-Sunnah (Ponto 135)",
+    "portalEnterBtn": "ACEDER AO MANUAL DE REFUTAÇÃO",
+    "portalDisclaimer": "Como desmascarar e refutar a seita dos coranistas • Por Salah Eddine Ahmed (Abou Soulaymane) • Uso pedagógico livre citando a fonte",
+    "argBadgeGiant": "ARGUMENTO",
+    "btnDownloadFascicule": "Descarregar o fascículo original (PDF)",
+    "btnOpenPrint": "Imprimir / Guardar em PDF",
+    "tocSummary": "Índice da ficha :",
+    "tocCadrage": "1. Enquadramento",
+    "tocAdverse": "2. Tese Adversa",
+    "tocNoeud": "3. Nó Lógico",
+    "tocPrincipe": "4. Princípio Central",
+    "tocArchi": "5. Arquitetura Corânica",
+    "tocReponses": "7. Respostas Prontas",
+    "tocConclusion": "9. Conclusão",
+    "navPrevArg": "Argumento anterior",
+    "navNextArg": "Argumento seguinte",
+    "navBackSummary": "Voltar ao índice",
+    "navEndManual": "Fim do Manual",
+    "contactModalTitle": "Contactar o Autor",
+    "contactAuthorHeader": "Autor da Obra",
+    "authorName": "Salah Eddine Ahmed (Abou Soulaymane)",
+    "contactAuthorBio": "Investigador e educador em ciências islâmicas, dedicado à defesa metódica da Sunnah profética e à refutação pedagógica dos desvios doutrinários contemporâneos.",
+    "contactBookTitleLabel": "Título da obra de referência :",
+    "contactBookTitleValue": "Comment démasquer et réfuter la secte des coranistes — Méthode, arguments, objections et réponses.",
+    "contactEmailNotice": "Para intercâmbio doutrinário, sugestões pedagógicas, palestras ou traduções :",
+    "legalModalTitle": "⚖️ Condições de Partilha, Autor e Privacidade",
+    "legalSharingHeader": "Condições de Difusão e Partilha Pedagógica",
+    "legalSharingMain": "Difusão e Partilha Pedagógica Aberta",
+    "legalSharingP1": "Este conteúdo pode ser partilhado gratuitamente e reproduzido para fins pessoais, pedagógicos e não comerciais, com a condição indispensável de conservar a autoria e a fonte.",
+    "legalAllowedTitle": "✅ Usos expressamente autorizados :",
+    "legalAllowedBullet1": "Download, impressão, leitura e difusão gratuita das fichas de estudo.",
+    "legalAllowedBullet2": "Utilização em aulas, círculos de estudo, debates e redes sociais.",
+    "legalAllowedBullet3": "Fica estritamente proibida qualquer exploração comercial ou alteração desvirtuadora do texto sem autorização prévia.",
+    "legalPrivacyHeader": "Dados Técnicos e Privacidade",
+    "legalPrivacyMain": "Política de Privacidade Transparente e Conforme",
+    "legalPrivacyP1": "O sítio não exige criação de conta e não recolhe deliberadamente quaisquer dados pessoais através de formulários. Os dados técnicos tratados pelo servidor regem-se pelas normas europeias de privacidade.",
+    "legalPrivacyBullet1": "Sem cookies publicitários de terceiros : Zero pixels de rastreamento comercial.",
+    "legalPrivacyBullet2": "Tipos de letra e recursos : Carregamento seguro de Google Fonts (Inter, Outfit, Amiri).",
+    "legalCreditsHeader": "Detalhes do Livro :",
+    "legalCreditsBookTitle": "Como desmascarar e refutar a seita dos coranistas — Método, argumentos, objeções e respostas",
+    "footerSubtitle": "10 grandes argumentos examinados e refutados metodicamente",
+    "footerBtnLegal": "⚖️ Licença, Partilha e Privacidade",
+    "footerBtnContact": "✉️ Contactar o Autor",
+    "footerBtnPortal": "📜 Palavras de Al-Barbahârî",
+    "footerContactLabel": "Contacto :",
+    "btnShare": "Partilhar",
+    "btnCopySection": "Copiar esta secção",
     "btnCopy": "Copiar",
     "copied": "Copiado!",
-    "shareModalTitle": "📤 Compartilhar esta ficha",
-    "shareModalDesc": "Compartilhe este argumento para o estudo e a defesa da Sunna:",
-    "shareCardTitle": "Compartilhar esta refutação",
-    "shareCardDesc": "Divulgue esta ficha para defender a Sunna no WhatsApp, Telegram ou redes sociais.",
-    "toastSectionCopied": "✅ Seção copiada para a área de transferência!",
-    "toastLinkCopied": "✅ Link copiado para a área de transferência!",
+    "shareModalTitle": "📤 Partilhar esta ficha",
+    "shareModalDesc": "Partilhe este argumento para o estudo e a defesa da Sunnah :",
+    "shareCardTitle": "Partilhar esta refutação",
+    "shareCardDesc": "Divulgue esta ficha para defender a Sunnah no WhatsApp, Telegram ou redes sociais.",
+    "toastSectionCopied": "✅ Secção copiada para a área de transferência!",
+    "toastLinkCopied": "✅ Ligação copiada para a área de transferência!",
     "navFallacies": "Caixa de ferramentas — Reconhecer falácias antes de debater",
     "fallaciesTitle": "CAIXA DE FERRAMENTAS",
-    "fallaciesBadgeTitle": "FALLACIES DETECTED IN THIS ARGUMENT:",
-    "viewFallacyDetail": "Voir l’analyse détaillée ▼",
-    "hideFallacyDetail": "Masquer l’analyse ▲",
-    "btnOpenToolbox": "Open in Fallacy Toolbox",
-    "footerVisitsLabel": "Visitas totais:",
-    "footerVisitsPrivacy": "100% Anônimo • RGPD",
-    "footerVisitsTooltip": "Contador anônimo com privacidade garantida (RGPD - 0 cookies)",
+    "fallaciesBadgeTitle": "FALÁCIAS DETETADAS NESTE ARGUMENTO :",
+    "viewFallacyDetail": "Ver análise detalhada ▼",
+    "hideFallacyDetail": "Ocultar análise ▲",
+    "btnOpenToolbox": "Consultar na Caixa de ferramentas",
+    "footerVisitsLabel": "Visitas totais :",
+    "footerVisitsPrivacy": "100% Anónimo • RGPD",
+    "footerVisitsTooltip": "Contador de visitas anónimo e respeitador da privacidade (RGPD - 0 cookies)",
     "navPreface": "Prefácio do Autor",
     "navIntro": "Quem são os coranistas?"
+  },
+  "preface": {
+    "badge": "ABERTURA DO LIVRO",
+    "title": "PREFÁCIO DO AUTOR",
+    "subtitle": "Por que razão este manual metódico de refutação?",
+    "introTag": "ANTES DE COMEÇAR",
+    "basmala": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ (Em Nome de Allah, o Clemente, o Misericordioso)",
+    "sections": [
+      {
+        "type": "adverse",
+        "header": "POR QUE ESTE LIVRO?",
+        "title": "Uma constatação pessoal e metodológica",
+        "paragraphs": [
+          "Esta obra nasceu de uma constatação pessoal que me entristeceu profundamente.",
+          "Ao longo dos anos, vi conhecidos caírem no que hoje se designa por 'coranismo' (apenas o Alcorão): uma corrente que alega regressar ao Alcorão, mas que na prática desmantela e rejeita a autoridade normativa da Sunnah profética.",
+          "Com frequência, isto não provém de uma vontade consciente de rejeitar o Profeta ﷺ. Começa com uma carência de conhecimentos básicos: em ciências do Hadith, ciências corânicas, metodologia de transmissão, linguística árabe e história dos textos."
+        ]
+      },
+      {
+        "type": "retenir",
+        "header": "QUANDO AS DÚVIDAS SE TORNAM DOGMAS",
+        "title": "Da perplexidade ao desvio metodológico",
+        "paragraphs": [
+          "Depois surgem as ambiguidades polémicas: a uma pessoa é apresentado um relato descontextualizado, um texto cujo grau de autenticidade desconhece, uma tradução deformada ou uma controvérsia emocional concebida para chocar.",
+          "Apresentam-se-lhe temas como a idade de 'Â'ishah (que Allah esteja satisfeito com ela), certos relatos médicos, feitiçaria, disposições jurídicas ou a viagem noturna (Al-Isrâ' wal-Mi'râj).",
+          "Sem ferramentas de análise crítica, a dúvida instala-se e torna-se um dogma completo:",
+          "«Este hadith causa-me estranheza» ➔ «Talvez os hadiths não sejam fiáveis» ➔ «Talvez a Sunnah seja supérflua» ➔ «Apenas o Alcorão é suficiente».",
+          "Acabam por selecionar versículos isolados, forçar o sentido das palavras e redefinir 'Obedecei ao Mensageiro' para despojar o Profeta ﷺ de toda a autoridade real."
+        ]
+      },
+      {
+        "type": "analogie",
+        "header": "UMA IMENSA TRADIÇÃO DE TRANSMISSÃO",
+        "title": "Uma ciência de verificação sem paralelo",
+        "paragraphs": [
+          "A Sunnah não nos chegou porque certos indivíduos decidiram séculos mais tarde encher livros com relatos ao acaso! Por trás do corpus do Hadith encontra-se o sistema de crítica biográfica e de cadeias de transmissão (Isnâd e Rijâl) mais rigoroso da história humana.",
+          "Gerações de sábios examinaram minuciosamente os transmissores: a sua retidão moral, a sua memória, os seus mestres, os seus contemporâneos, viajando durante meses inteiros para verificar uma única frase.",
+          "Descartar este colossal património científico dizendo 'são apenas homens a contar histórias' não é espírito crítico: é uma ignorância total das ciências do Hadith."
+        ],
+        "distinctions": [
+          {
+            "term": "CRÍTICA DOS TRANSMISSORES (RIJÂL)",
+            "desc": "Integridade, precisão, encontros históricos e condições exatas de receção."
+          },
+          {
+            "term": "CRÍTICA DOS TEXTOS (MUTÛN)",
+            "desc": "Confrontação de variantes, deteção de defeitos ocultos ('Ilal) e distinção entre o autêntico e o forjado."
+          }
+        ]
+      },
+      {
+        "type": "cadrage",
+        "header": "E COMO NOS CHEGOU O ALCORÃO?",
+        "title": "A mesma cadeia humana de transmissão",
+        "paragraphs": [
+          "Uma pergunta crucial que todo o coranista deve enfrentar: Através de quem te chegou o Alcorão?",
+          "O exemplar físico do Alcorão (o Mushaf) não te foi entregue diretamente pelo anjo Gabriel. Chegou-nos através dos Companheiros, dos Sucessores, dos leitores e de uma transmissão geracional ininterrupta.",
+          "A leitura de Hafs transmitida de 'Âsim chegou-nos através de cadeias humanas de homens. A questão lógica nunca é 'existem elos humanos?', mas 'qual é o grau de certeza e verificação dessa transmissão?'."
+        ]
+      },
+      {
+        "type": "retenir",
+        "header": "UMA RESPONSABILIDADE PESSOAL",
+        "title": "Por que razão o silêncio já não é uma opção?",
+        "paragraphs": [
+          "Diante da proliferação de discursos sedutores nas redes sociais que desestabilizam jovens crentes desprovidos de bases metodológicas, calar-se torna-se uma falta de responsabilidade.",
+          "Este livro não foi concebido para alimentar polémicas estéreis nem para ofender ninguém. Foi estruturado como uma ferramenta pedagógica acessível a todos, com o intuito de apresentar respostas fundamentadas, lógicas e baseadas nas fontes autênticas do Islão.",
+          "Peço a Allah que faça deste trabalho um motivo de clareza e benefício sincero para todo aquele que busca a verdade com rigor e honestidade."
+        ]
+      }
+    ]
+  },
+  "intro": {
+    "badge": "REFERÊNCIAS HISTÓRICAS",
+    "title": "QUEM SÃO OS CORANISTAS?",
+    "subtitle": "Origens, fundamentos e anatomia de um desvio doutrinário",
+    "introTag": "COMPREENDER O FENÓMENO",
+    "sections": [
+      {
+        "type": "cadrage",
+        "header": "GÉNESE E CONTEXTO HISTÓRICO",
+        "title": "Uma heresia moderna com raízes antigas",
+        "paragraphs": [
+          "O 'coranismo' contemporâneo (Ahl al-Qur'ân / Qur'aniyyûn) apresenta-se frequentemente como um movimento moderno, progressista ou reformador. Na realidade, a pretensão de querer prescindir da Sunnah já fora denunciada pelo Profeta ﷺ em termos proféticos explícitos.",
+          "O Profeta ﷺ disse: «Aproxima-se o tempo em que um homem saciado, recostado no seu divã, dirá: 'Tende apenas este Alcorão; o que nele encontrardes de lícito, considerai-o lícito, e o que nele encontrardes de ilícito, considerai-o ilícito'. Pois, por certo, o que o Mensageiro de Allah proibiu é como o que Allah proibiu!» (Narrado por Abu Dawud, At-Tirmidhi e Ibn Majah, autêntico).",
+          "Historicamente, certas seitas marginais (certas ramificações extremas de mu'tazilitas e carijitas) tentaram rejeitar partes da Sunnah, mas a rejeição total e categórica de todo o corpus do Hadith é um fenómeno moderno surgido no final do século XIX sob a influência da colonização e do complexo de inferioridade intelectual."
+        ]
+      },
+      {
+        "type": "adverse",
+        "header": "O MECANISMO PSICOLÓGICO E DOUTRINÁRIO",
+        "title": "Da dificuldade de compreensão à rejeição deliberada",
+        "paragraphs": [
+          "O método do coranismo assenta numa mecânica psicológica previsível:",
+          "1. O choque emocional : Seleciona-se um hadith autêntico complexo e apresenta-se a um público moderno sem contexto nem explicações linguísticas.",
+          "2. A generalização abusiva : Da incompreensão de um texto particular, deduz-se falsamente que todos os Hadiths são duvidosos.",
+          "3. A falsa alternativa : Coloca-se o dilema artificial: «Preferes seguir a Palavra perfeita de Allah ou palavras de homens compiladas dois séculos depois?»",
+          "4. O vazio hermenêutico : Ao rejeitar a Sunnah, o coranista é forçado a inventar do nada o sentido dos versículos, caindo em interpretações fantasiosas onde a oração, o jejum e a peregrinação perdem qualquer realidade histórica."
+        ]
+      },
+      {
+        "type": "retenir",
+        "header": "CONSEQUÊNCIAS TEOLÓGICAS INEVITÁVEIS",
+        "title": "O desmoronamento da prática islâmica",
+        "paragraphs": [
+          "A rejeição da Sunnah não simplifica a religião: destrói-a na sua aplicação prática:",
+          "• Impossibilidade de orar : O Alcorão ordena a oração (As-Salât), mas não menciona em lado nenhum quantas unidades (rak'at) compõem a oração do meio-dia ou do entardecer, nem as fórmulas exatas de prostração.",
+          "• Impossibilidade de pagar o Zakat : O Alcorão ordena a purificação dos bens, mas as percentagens exatas (o 2,5%) e os limiares mínimos (Nisâb) provêm exclusivamente da Sunnah profética.",
+          "• Impossibilidade de realizar o Hajj : Os ritos da peregrinação (número de voltas em redor da Ka'bah, Sa'y entre Safa e Marwa, paragem em 'Arafat) estão detalhados pela prática viva do Profeta ﷺ."
+        ]
+      },
+      {
+        "type": "analogie",
+        "header": "A REGRA DE OURO DO DEBATE",
+        "title": "Obrigar a assumir a coerência da sua tese",
+        "paragraphs": [
+          "Para refutar um coranista com benevolência e firmeza, a regra de ouro consiste em colocá-lo perante as consequências práticas da sua própria posição.",
+          "Não se limite a defender os Hadiths: peça-lhe que explique como pratica o Islão no seu quotidiano baseando-se exclusivamente no texto alcorânico.",
+          "Verá de imediato como será forçado a recorrer a conjeturas pessoais, a redefinir palavras ou a admitir que depende da prática transmitida de geração em geração... ou seja, da própria Sunnah!"
+        ]
+      }
+    ]
+  },
+  "fallaciesToolbox": {
+    "headerBadge": "GUIA METODOLÓGICO",
+    "title": "CAIXA DE FERRAMENTAS — RECONHECER AS FALÁCIAS ANTES DE DEBATER",
+    "subtitle": "Identificar os erros lógicos para não se deixar desviar na discussão",
+    "introText": "Um argumento pode parecer impressionante à primeira vista, citar um versículo alcorânico autêntico ou incluir factos verdadeiros... e mesmo assim desembocar numa conclusão totalmente errónea se o raciocínio lógico que une esses elementos for defeituoso.",
+    "goldenRuleTitle": "PRINCÍPIO CRUCIAL :",
+    "goldenRuleText": "MOSTRAR QUE UM ARGUMENTO É UMA FALÁCIA NÃO PROVA QUE A CONCLUSÃO SEJA FALSA ; DEMONSTRA QUE ESTE ARGUMENTO NÃO A DEMONSTRA.",
+    "goldenRuleMeaning": "Desmascarar um erro lógico não dispensa o exame do mérito doutrinário; mas protege de aceitar conclusões construídas sobre raciocínios ardilosos.",
+    "cardMemoBadge": "FICHA MEMO",
+    "trainingBadge": "TREINO",
+    "labelDefinition": "Definição :",
+    "labelGeneralExample": "🌍 Exemplo na vida diária :",
+    "labelQuranicApp": "🕌 Aplicação ao debate sobre o Coranismo :",
+    "labelQuestionToAsk": "❓ Pergunta-reflexo a colocar :",
+    "labelShortAnswer": "⚡ Resposta curta sugerida :",
+    "items": [
+      {
+        "id": "homme-de-paille",
+        "num": 1,
+        "name": "A Falsa Dicotomia",
+        "shortDef": "Reduzir artificialmente uma situação complexa a apenas duas opções opostas.",
+        "definition": "Reduzir artificiosamente uma questão a duas opções incompatíveis, ocultando uma terceira via perfeitamente legítima e coerente.",
+        "generalExample": "« Ou estás totalmente de acordo comigo, ou és meu inimigo. »",
+        "quranicApplication": "• « Segues Allah ou segues Muhammad ﷺ ? » (Falsa oposição: seguir o Mensageiro é uma ordem direta de Allah no Alcorão).\n• « Preferes a Palavra infalível de Allah ou palavras de homens compiladas séculos depois ? »",
+        "questionToAsk": "« Por que razão apresentas estas duas coisas como incompatíveis quando uma depende diretamente da outra ? »",
+        "shortAnswer": "« Obedecer ao Mensageiro de Allah é obedecer a Allah; não são dois caminhos em competição. »",
+        "icon": "🌾"
+      },
+      {
+        "id": "fausse-dichotomie",
+        "num": 2,
+        "name": "A Generalização Abusiva",
+        "shortDef": "Estender um caso particular ou duvidoso a toda uma categoria geral.",
+        "definition": "Extrair uma regra geral definitiva a partir de um número insuficiente de casos particulares ou mal analisados.",
+        "generalExample": "« Conheci dois mecânicos desonestos, logo todos os mecânicos são burlões. »",
+        "quranicApplication": "• « Foram inventados hadiths falsos na história, logo não se pode confiar em nenhum hadith. »\n• « Um hadith parece-me estranho à primeira vista, logo todo o corpus de Bukhari deve ser rejeitado. »",
+        "questionToAsk": "« O facto de existirem notas falsificadas prova porventura que nenhuma nota autêntica existe ? »",
+        "shortAnswer": "« A existência de textos forjados é precisamente a razão pela qual os sábios desenvolveram uma ciência rigorosa de autenticação. »",
+        "icon": "⚖️"
+      },
+      {
+        "id": "generalisation-abusive",
+        "num": 3,
+        "name": "O Espantalho (Homem de Palha)",
+        "shortDef": "Caricaturar a posição do adversário para a atacar mais facilmente.",
+        "definition": "Deformar, simplificar excessivamente ou ridicularizar a posição do interlocutor para refutar uma versão enfraquecida que ele jamais defendeu.",
+        "generalExample": "« Dizes que é preciso regular a velocidade, logo queres proibir totalmente os automóveis. »",
+        "quranicApplication": "• « Pretendeis que o Alcorão é incompleto e que precisa dos homens para ser perfeito. »\n(Ninguém diz isso: a Sunnah cumpre a função explicativa que o próprio Alcorão lhe atribuiu).",
+        "questionToAsk": "« Quem formulou exatamente essa tese entre os sábios do Islão, ou estás a rebater uma caricatura ? »",
+        "shortAnswer": "« Não critiques o que não sustentamos; examinemos o que realmente afirmamos. »",
+        "icon": "🔍"
+      },
+      {
+        "id": "non-sequitur",
+        "num": 4,
+        "name": "O Non Sequitur",
+        "shortDef": "A conclusão extraída não decorre logicamente da premissa formulada.",
+        "definition": "Non sequitur significa 'não se segue'. A premissa inicial pode ser verdadeira, mas a conclusão não decorre de modo algum dela.",
+        "generalExample": "« Está a chover lá fora, logo o jogo de basquetebol no pavilhão coberto está cancelado. »",
+        "quranicApplication": "• « O Alcorão é perfeito e completo. Logo a Sunnah é inútil. »\n• « Al-Bukhari viveu dois séculos depois. Logo as tradições nasceram dois séculos depois. »",
+        "questionToAsk": "« Qual é o passo lógico exato que liga a tua premissa à tua conclusão ? »",
+        "shortAnswer": "« A tua primeira afirmação pode ser verdadeira sem demonstrar de modo algum a segunda. »",
+        "icon": "⚡"
+      },
+      {
+        "id": "cherry-picking",
+        "num": 5,
+        "name": "O Cherry-Picking",
+        "shortDef": "Selecionar apenas as provas favoráveis ignorando todo o resto.",
+        "definition": "Citar exclusivamente as passagens favoráveis à própria tese e ocultar voluntariamente os dados que a matizam ou contradizem.",
+        "generalExample": "Citar 3 estudos favoráveis e esconder 50 estudos científicos conclusivos em sentido contrário.",
+        "quranicApplication": "• Citar « ao Mensageiro cabe apenas transmitir » omitindo « Obedecei ao Mensageiro », « Toma-o por juiz », « modelo excelente ».\n• Citar « Não escrevais de mim... » omitindo a autorização posterior « Transmiti de mim sem receio » e « Escreve para Abu Shah ».",
+        "questionToAsk": "« Existem outros versículos e textos sobre o mesmo tema que deixaste de fora deliberadamente ? »",
+        "shortAnswer": "« Um versículo não se lê de forma isolada quando outros textos alcorânicos o especificam e completam. »",
+        "icon": "🍒"
+      },
+      {
+        "id": "double-standard",
+        "num": 6,
+        "name": "O Duplo Padrão (Dois Pesos e Duas Medidas)",
+        "shortDef": "Aplicar um critério rigorosíssimo ao adversário e um frouxo a si mesmo.",
+        "definition": "Exigir um nível de prova hipercrítico para os argumentos alheios e aceitar frágeis suposições quando favorecem a própria conclusão.",
+        "generalExample": "Exigir provas absolutas aos outros e contentar-se com boatos quando convém.",
+        "quranicApplication": "• Quando um hadith fixa uma norma : « Transmitido por homens, é incerto ! » / Quando um hadith serve para uma polémica : « Bukhari demonstra com certeza absoluta a idade de 'Â'ishah رضي الله عنها ! »\n• Aceitar a transmissão humana do Alcorão (Hafs de 'Âsim) e rejeitar a mesma transmissão da Sunnah.",
+        "questionToAsk": "« Aplicarias exatamente o mesmo nível de exigência se esta prova favorecesse a minha posição ? »",
+        "shortAnswer": "« O padrão de prova deve ser idêntico quer a conclusão te agrade quer te incomode. »",
+        "icon": "🔄"
+      },
+      {
+        "id": "equivoque-lexicale",
+        "num": 7,
+        "name": "O Equívoco Lexical",
+        "shortDef": "Utilizar a mesma palavra com dois significados diferentes sem o explicitar.",
+        "definition": "Empregar o mesmo vocábulo com sentidos distintos ao longo do raciocínio sem assinalar a mudança de definição.",
+        "generalExample": "« A gravidade é uma lei. As leis são votadas pelo parlamento. Logo a gravidade foi votada pelos deputados. »",
+        "quranicApplication": "No Alcorão, a palavra ḥadīth significa linguisticamente 'discurso, palavra ou notícia'. A falácia consiste em ler « Em que hadith depois deste crerão ? » e substituir silenciosamente o sentido lexical pelo sentido técnico moderno.",
+        "questionToAsk": "« Que sentido exato tem esta palavra neste versículo concreto, e como o demonstras pelo contexto linguístico ? »",
+        "shortAnswer": "« Fixemos primeiro o significado exato do termo antes de extrair conclusões indevidas. »",
+        "icon": "🔀"
+      },
+      {
+        "id": "argument-de-possibilite",
+        "num": 8,
+        "name": "O Argumento de Possibilidade",
+        "shortDef": "Transformar «poderia ser falso» em «é necessariamente falso».",
+        "definition": "Converter uma simples possibilidade teórica de erro numa certeza de falsidade sem apresentar qualquer prova concreta.",
+        "generalExample": "« Uma testemunha pode mentir. Logo o seu testemunho é forçosamente falso. »",
+        "quranicApplication": "« Uma cadeia de transmissão pode ser inventada. Logo nenhum isnâd prova nada. »\nA possibilidade teórica de invenção é o que levou os sábios a examinar cada elo, não a descartar tudo em bloco.",
+        "questionToAsk": "« Demonstraste que ocorreu uma falsificação neste caso específico, ou apenas que teoricamente poderia ter ocorrido ? »",
+        "shortAnswer": "« Uma possibilidade teórica abstrata não constitui uma prova demonstrativa. »",
+        "icon": "🎲"
+      },
+      {
+        "id": "deplacement-charge-preuve",
+        "num": 9,
+        "name": "A Inversão do Ónus da Prova",
+        "shortDef": "Afirmar algo sem demonstrar e exigir que o oponente prove o contrário.",
+        "definition": "Quem formula uma afirmação categórica tem a obrigação de a fundamentar. A falácia consiste em afirmar algo e exigir que o interlocutor prove o contrário.",
+        "generalExample": "« Existe uma civilização secreta sob o solo de Marte. Prova-me que é falso. »",
+        "quranicApplication": "« Nenhuma tradição profética é suficientemente fiável para constituir uma prova religiosa. »\nÉ uma afirmação universal sobre milhares de narrações: quem sustenta tal juízo geral deve apresentar a demonstração metódica.",
+        "questionToAsk": "« Quem está aqui a formular a afirmação geral que requer demonstração ? »",
+        "shortAnswer": "« Quem afirma categoricamente que nada é fiável deve demonstrar essa afirmação geral. »",
+        "icon": "⚖️"
+      },
+      {
+        "id": "appel-emotion",
+        "num": 10,
+        "name": "O Apelo à Emoção e ao Ridículo",
+        "shortDef": "Substituir a análise racional pelo escândalo, troça ou indignação.",
+        "definition": "Substituir o exame rigoroso dos argumentos pelo riso, nojo, indignação ou troça de efeito.",
+        "generalExample": "Troçar com desdém de uma fórmula científica complexa em vez de analisar as suas demonstrações.",
+        "quranicApplication": "« Credes porventura no hadith da mosca ?! », etc.\nUma reação visceral ou trocista não responde às perguntas essenciais: Qual é o texto exato? Qual o grau de autenticidade? Qual o sentido entre os especialistas?",
+        "questionToAsk": "« Qual é a tua prova objetiva, para além do facto de este relato te causar surpresa ou riso ? »",
+        "shortAnswer": "« O ridículo e a emoção não substituem uma demonstração científica. »",
+        "icon": "🎭"
+      }
+    ],
+    "reflexQuestions": {
+      "title": "OS REFLEXOS CRÍTICOS A ADQUIRIR",
+      "subtitle": "4 perguntas sistemáticas perante qualquer argumento",
+      "summaryNotice": "Estas quatro perguntas bastam para desarticular a grande maioria dos raciocínios frágeis.",
+      "questions": [
+        {
+          "num": 1,
+          "title": "1. A Premissa",
+          "desc": "O que foi realmente demonstrado? Não permitas que a conclusão se insinue disfarçada na premissa inicial."
+        },
+        {
+          "num": 2,
+          "title": "2. O Vínculo Lógico",
+          "desc": "A conclusão decorre verdadeiramente da premissa formulada, ou falta um passo lógico indispensável?"
+        },
+        {
+          "num": 3,
+          "title": "3. O Dossier Completo",
+          "desc": "Foram tidas em conta todas as provas e versículos pertinentes, ou apenas os que convêm à conclusão?"
+        },
+        {
+          "num": 4,
+          "title": "4. O Mesmo Padrão",
+          "desc": "Aplica-se o mesmo critério rigoroso a ambas as partes, ou muda convenientemente consoante o resultado desejado?"
+        }
+      ]
+    },
+    "quiz": {
+      "title": "TESTE RÁPIDO : IDENTIFIQUE A FALÁCIA",
+      "subtitle": "Identifique que falácia é cometida em cada uma das seguintes afirmações :",
+      "items": [
+        {
+          "id": 1,
+          "statement": "« Alguns hadiths foram forjados. Logo não se pode confiar em nenhum hadith. »",
+          "answerId": "generalisation-abusive",
+          "answerName": "Generalização abusiva",
+          "explanation": "Passar de alguns casos particulares forjados à invalidade de toda uma categoria é uma generalização abusiva."
+        },
+        {
+          "id": 2,
+          "statement": "« Ou segues Allah, ou segues Muhammad ﷺ. »",
+          "answerId": "fausse-dichotomie",
+          "answerName": "Falsa dicotomia",
+          "explanation": "Estas duas obediências não se opõem : obedecer ao Mensageiro é um mandamento explícito de Allah no Alcorão."
+        },
+        {
+          "id": 3,
+          "statement": "« O Alcorão é perfeito e completo, logo qualquer explicação profética é supérflua. »",
+          "answerId": "non-sequitur",
+          "answerName": "Non sequitur",
+          "explanation": "A perfeição do texto divino não implica que exclua a autoridade explicativa que ele próprio institui formalmente."
+        },
+        {
+          "id": 4,
+          "statement": "« Em que ḥadīth depois deste crerão? Logo Al-Bukhari é proibido pelo Alcorão. »",
+          "answerId": "equivoque-lexicale",
+          "answerName": "Equívoco lexical",
+          "explanation": "A palavra ḥadīth significa aqui linguisticamente 'discurso ou mensagem' e não a aceção técnica de compilação de tradições."
+        },
+        {
+          "id": 5,
+          "statement": "« Os hadiths são demasiado tardios para serem fiáveis, mas o relato sobre a idade de 'Â'ishah رضي الله عنها é uma prova histórica indiscutível. »",
+          "answerId": "double-standard",
+          "answerName": "Duplo padrão (Dois pesos e duas medidas)",
+          "explanation": "O critério de prova afrouxa quando o relato serve para uma polémica e endurece quando estabelece uma norma."
+        },
+        {
+          "id": 6,
+          "statement": "« Uma cadeia de transmissão pode ser inventada. Logo as cadeias de transmissão não provam nada. »",
+          "answerId": "argument-de-possibilite",
+          "answerName": "Argumento de possibilidade",
+          "explanation": "Transformar uma possibilidade teórica abstrata numa certeza de falsidade é a falácia de possibilidade."
+        }
+      ]
+    },
+    "conclusion": {
+      "title": "LEMBRETE ESSENCIAL : A LÓGICA ANTES DO SLOGAN",
+      "mainText": "Um argumento pode citar um versículo autêntico, um hadith verídico ou dados exatos e, ainda assim, desembocar numa conclusão errónea se o raciocínio que une esses elementos for defeituoso.",
+      "slogan1": "NÃO PERGUNTES APENAS : « QUAL É A PROVA ? »",
+      "slogan2": "PERGUNTA TAMBÉM : « O QUE É QUE PROVA REALMENTE ? »"
+    }
   },
   "arguments": [
     {
@@ -187,109 +528,134 @@ window.I18N_DATA['pt'] = {
       "number": "01",
       "slug": "1-coran-complet",
       "theme": "Completude e Esclarecimento Profético",
-      "title": "O Alcorão é completo: por que precisaríamos da Sunna?",
-      "shortTitle": "Perfezione del Corano",
-      "tagline": "O Alcorão é completo em seus fundamentos, e parte de sua perfeição é ordenar a obediência ao Profeta ﷺ.",
-      "formula": "A completude legislativa do Alcorão inclui o mandato do esclarecimento profético (Bayan); rejeitar a Sunna é rejeitar o Alcorão!",
+      "title": "O Alcorão é completo: por que razão precisaríamos da Sunnah?",
+      "shortTitle": "Perfeição do Alcorão",
+      "tagline": "O Alcorão é completo nos seus fundamentos, e parte da sua perfeição é ordenar a obediência ao Profeta ﷺ.",
+      "formula": "A completude legislativa do Alcorão inclui o mandato de esclarecimento profético (Bayan); rejeitar a Sunnah é rejeitar o Alcorão!",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_1.pdf",
       "theirArgument": {
-        "thesis": "O Alcorão é completo, dettagliato e non tralascia nulla. Tutto ciò di cui abbiamo bisogno è esplicitamente nel Libro; sostenere che la Sunna sia necessaria contraddice la perfezione del Corano.",
+        "thesis": "O Alcorão é perfeito, detalhado e não omite nada. Tudo o que precisamos está explicitamente no Livro; sustentar que a Sunnah é indispensável contradiz a perfeição do Alcorão.",
         "verses": [
           {
-            "ref": "Surata Al-An'am, Versículo 38",
-            "ar": "مَّا فَرَّطْنَا فِي الْكِتَابِ مِن شَيْءٍ",
-            "translation": "Não negligenciamos nulla nel Libro."
+            "ref": "Sura Al-Anʿâm, versículo 38",
+            "ar": "مَّا فَرَّطْنَا فِي الْكِتَابِ مِن شَيْءٍ",
+            "translation": "Não descuidámos nada no Livro."
           },
           {
-            "ref": "Surata An-Nahl, Versículo 89",
-            "ar": "وَنَزَّلْنَا عَلَيْكَ الْكِتَابَ تِبْيَانًا لِّكُلِّ شَيْءٍ",
-            "translation": "E fizemos descer su di te il Libro come chiarimento di ogni cosa."
+            "ref": "Sura Al-Anʿâm, versículo 114",
+            "ar": "كِتَابًا مُّفَصَّلًا",
+            "translation": "Não descuidámos nada no Livro."
+          },
+          {
+            "ref": "Sura An-Naḥl, versículo 89",
+            "ar": "وَنَزَّلْنَا عَلَيْكَ الْكِتَابَ تِبْيَانًا لِّكُلِّ شَيْءٍ",
+            "translation": "Não descuidámos nada no Livro."
           }
         ],
-        "realQuestion": "A completude strutturale del Corano come quadro fondamentale esclude la spiegazione profetica che esso stesso rende obbligatoria?"
+        "realQuestion": "Acaso a completude estrutural do Alcorão como quadro fundamental exclui a explicação profética que o próprio texto torna obrigatória?"
       },
       "logicalNode": {
-        "title": "Confusão tra completezza sistemica e autosufficienza interpretativa",
+        "title": "Confusão entre completude sistémica e autossuficiência interpretativa",
         "distinctions": [
           {
-            "term": "COMPLETUDE LEGISLATIVA SISTEMICA",
-            "desc": "O Alcorão é completo perché stabilisce tutti i principi fondamentali e istituisce l'autorità legale del Profeta."
+            "term": "COMPLETUDE LEGISLATIVA SISTÉMICA",
+            "desc": "O Alcorão é completo porque estabelece todos os princípios fundamentais e institui a autoridade legal do Profeta ﷺ."
           },
           {
-            "term": "ESAUSTIVITÀ LETTERALE",
-            "desc": "Una falsa ipotesi: il Corano ordina la preghiera, la zakah e il digiuno senza specificare i dettagli pratici, delegandoli al Profeta ﷺ."
+            "term": "EXAUSTIVIDADE LITERAL OPERATIVA",
+            "desc": "Uma suposição errónea: o Alcorão ordena a oração, o zakat e o jejum sem detalhar a execução prática, delegando-a no Profeta ﷺ."
           }
         ],
-        "generalRule": "Um texto fundamental che delega l'interpretazione autorevole a un messaggero designato non è carente; la sua completezza include tale autorità delegata.",
-        "errorToAvoid": "Confundir la completezza legislativa fondamentale con i dettagli operativi pratici."
+        "generalRule": "Um texto fundamental que delega formalmente a interpretação vinculativa a um mensageiro designado não é deficiente; a sua completude inclui essa autoridade delegada.",
+        "errorToAvoid": "Confundir a completude dos fundamentos legislativos com o detalhe das modalidades práticas de execução."
       },
       "centralPrinciple": {
-        "title": "A completude del Corano include l'obbligo di seguire l'autorità del Profeta",
-        "formalScheme": "1. O Alcorão è completo nello stabilire la guida divina.\n2. Parte di questa completezza è l'ordine esplicito di obbedire al Profeta ﷺ e seguire la sua spiegazione (Bayan).\n3. Portanto, obbedire alla Sunna è l'adempimento diretto della completezza del Corano.",
-        "explanation": "O próprio Alcorão fonda l'autorità della Sunna. Rifiutare la Sunna significa violare gli stessi versetti coranici che impongono l'obbedienza al Messaggero ﷺ.",
-        "logicalTest": "Se o Alcorão fosse inteso come manuale operativo senza Hadith, deduci unicamente dal testo coranico il numero di preghiere quotidiane, le unità (rak'at) e le percentuali esatte di zakah!"
+        "title": "A completude do Alcorão inclui a obrigação de seguir a autoridade do Profeta",
+        "formalScheme": "1. O Alcorão é completo ao estabelecer a orientação divina.\n2. Parte desta completude é a ordem explícita de obedecer ao Profeta ﷺ e seguir a sua explicação (Bayan).\n3. Portanto, obedecer à Sunnah é o cumprimento direto da completude do Alcorão.",
+        "explanation": "O Alcorão fundamenta a autoridade da Sunnah. Rejeitar a Sunnah viola os mesmos versículos alcorânicos que ordenam a obediência incondicional ao Mensageiro ﷺ.",
+        "logicalTest": "Se o Alcorão foi concebido como um manual operativo sem Hadith, deduza unicamente do texto alcorânico o número de orações diárias, as suas unidades (rak'at) e as percentagens exatas do zakat!"
       },
       "quranicArchitecture": {
-        "title": "Versículos coranici decisivi sulla missione di spiegazione profetica (Bayan)",
+        "title": "Versículos decisivos e arquitetura alcorânica",
         "verses": [
           {
-            "ref": "Surata An-Nahl, Versículo 44",
-            "ar": "وَأَنزَلْنَا إِلَيْكَ الذِّكْرَ لِتُبَيِّنَ لِلنَّاسِ مَا نُزِّلَ إِلَيْهِمْ",
-            "translation": "E fizemos descer su di te il Messaggio affinché tu spieghi agli uomini ciò che è stato fatto scendere per loro."
+            "ref": "Sura An-Nisâʾ, versículo 59",
+            "ar": "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ",
+            "translation": "« Obéissez à Allah et obéissez au Messager. »"
           },
           {
-            "ref": "Surata Al-Jumu'ah, Versículo 2",
-            "ar": "يَتْلُو عَلَيْهِمْ آيَاتِهِ وَيُزَكِّيهِمْ وَيُعَلِّمُهُمُ الْكِتَابَ وَالْحِكْمَةَ",
-            "translation": "Recita-lhes i Suoi versetti, li purifica e insegna loro il Libro e la Saggezza (la Sunna)."
+            "ref": "Sura An-Nisâʾ, versículo 65",
+            "ar": "حَتَّىٰ يُحَكِّمُوكَ فِيمَا شَجَرَ بَيْنَهُمْ",
+            "translation": "« Jusqu'à ce qu'ils te prennent pour juge dans leurs différends. »"
+          },
+          {
+            "ref": "Sura An-Naḥl, versículo 44",
+            "ar": "لِتُبَيِّنَ لِلنَّاسِ مَا نُزِّلَ إِلَيْهِمْ",
+            "translation": "« Afin que tu exposes clairement aux gens ce qui a été révélé pour eux. »"
+          },
+          {
+            "ref": "Sura Al-Aḥzâb, versículo 21",
+            "ar": "لَّقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ",
+            "translation": "« Vous avez certes dans le Messager d'Allah un excellent modèle. »"
           }
         ],
-        "consequence": "O Alcorão stabilisce il Profeta ﷺ come maestro e interprete autorevole, non come un mero postino passivo."
+        "consequence": "O Alcorão estabelece o Profeta ﷺ como mestre e legislador autorizado, não como um mero transmissor passivo."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "A Constituição e i Regolamenti Esecutivi",
-          "scenario": "Uma constituição stabilisce i diritti e istituisce una Corte Suprema autorizzata a interpretare e applicare le leggi.",
-          "logic": "A constituição è completa istituendo gli organi esecutivi; non ha bisogno di elencare ogni segnale stradale locale!",
-          "lesson": "A completude di un testo fondamentale include le istituzioni che esso crea.",
-          "application": "Il Corano è la costituzione fondamentale che impone di seguire la Sunna profetica come sua applicazione autorevole."
+          "title": "A Constituição Nacional e os Decretos Regulamentares",
+          "scenario": "Uma Constituição fixa os princípios fundamentais e estipula que uma lei regulará a sua aplicação.",
+          "logicBox": "Constituição = Alcorão | Decretos = Sunnah.",
+          "lesson": "Rejeitar os decretos invocando a perfeição da Constituição destrói a sua aplicabilidade."
+        },
+        {
+          "num": 2,
+          "title": "A Prescrição Médica e o Folheto Informativo",
+          "scenario": "Um médico entrega uma receita geral e remete para o farmacêutico ou para o folheto para a posologia exata.",
+          "logicBox": "Prescrição = Ordem divina | Posologia = Explicação prática do Mensageiro.",
+          "lesson": "Recusar seguir a posologia conduz ao dano."
         }
       ],
       "readyResponses": {
-        "quick30s": "A completude del Corano significa che stabilisce tutti i principi fondamentali, e tra i suoi comandamenti supremi vi è: {E abbiamo fatto scendere su di te il Messaggio affinché tu spieghi agli uomini} (16:44). Rifiutare la Sunna viola il Corano stesso!",
-        "developed": "Quando o Alcorão afferma {Non abbiamo trascurato nulla nel Libro} (6:38), si riferisce alla pienezza della guida divina. Uno dei principi più grandi è la totale sottomissione all'autorità del Messaggero ﷺ. Chi rifiuta la sua Sunna annulla i comandamenti del Corano."
+        "quick30s": "Dizer que o Alcorão é completo é uma verdade alcorânica. Mas é o próprio Alcorão que nos ordena obedecer ao Mensageiro ﷺ e nos ensina que a sua missão é explicar o texto (Sura 16, V.44). Rejeitar a Sunnah em nome da completude do Alcorão é rejeitar o que o Alcorão ordena expressamente.",
+        "developed": "A completude do Alcorão não é uma exaustividade enciclopédica que detalha cada gesto quotidiano, mas uma completude legislativa. O Alcorão estabelece os princípios imutáveis e designa formalmente o Profeta ﷺ como a autoridade viva encarregada de detalhar a oração, o jejum e as transações. Desconhecer a Sunnah equivale a esvaziar o Alcorão da sua própria aplicação prática."
       },
       "objections": [
         {
-          "obj": "O Alcorão dice 'chiarimento di ogni cosa', la Sunna è forse qualcosa di esterno al Corano?",
-          "ans": "A Sunna è il chiarimento interno ordinato dal Corano stesso, non un'aggiunta estranea. La spiegazione è parte integrante del messaggio."
+          "obj": "O Alcorão diz 'esclarecimento de todas as coisas' (16:89), porventura a Sunnah está fora do Alcorão?",
+          "ans": "A Sunnah é o esclarecimento interno ordenado pelo próprio Alcorão, não uma adição estranha à Mensagem."
+        },
+        {
+          "obj": "Afirmais então que o Alcorão é insuficiente?",
+          "ans": "O Alcorão é plenamente suficiente para aquilo para que foi revelado: ser a fonte suprema que institui e valida a autoridade profética."
         }
       ],
       "framingQuestions": [
-        "Onde se encontra nel solo Corano il numero di rak'at della preghiera del mezzogiorno?",
-        "Por que Allah ha ordinato al Profeta di 'spiegare' (li-tubayyina) se il testo fosse autosufficiente senza pratica profetica?"
+        "Onde se encontra no Alcorão, por si só, o número de unidades da oração do meio-dia?",
+        "Por que razão Allah ordenou ao Profeta que explicasse o Livro se o texto prescindia de qualquer aplicação profética?"
       ],
       "quiz": [
         {
-          "q": "O que significa la completezza del Corano nel contesto legislativo islamico?",
+          "q": "O que significa a completude do Alcorão no quadro legislativo islâmico?",
           "options": [
-            "Que lista ogni singolo dettaglio operativo senza bisogno di spiegazione.",
-            "Che stabilisce i principi fondamentali e impone l'obbedienza al Profeta ﷺ.",
-            "Che abroga la Sunna profetica.",
-            "Che è un mero libro di storia."
+            "Que elenca cada detalhe prático sem necessidade de qualquer explicação.",
+            "Que estabelece os princípios fundamentais e impõe a autoridade explicativa do Profeta ﷺ.",
+            "Que revoga a necessidade de obedecer ao Mensageiro.",
+            "Que proíbe o ensino oral dos ritos."
           ],
           "answer": 1,
-          "explanation": "A completude del Corano fonda l'obbligo di seguire la spiegazione profetica autorizzata."
+          "explanation": "A completude alcorânica consiste em fixar os princípios universais e em instituir a Sunnah como autoridade explicativa iniludível."
         }
       ],
       "conclusion": {
         "steps": [
-          "O Alcorão è un libro completo e perfetto di guida divina.",
-          "O Alcorão stesso comanda l'obbedienza al Profeta ﷺ.",
-          "Non vi è contraddizione tra la completezza del Corano e la Sunna."
+          "O Alcorão é perfeito nos seus princípios divinos.",
+          "O Alcorão ordena explicitamente seguir a explicação do Mensageiro ﷺ.",
+          "Rejeitar a Sunnah é desobedecer à completude do próprio Alcorão."
         ],
-        "finalText": "A completude del Corano si manifesta nell'istituire la Sunna come spiegazione vincolante.",
-        "punchline": "Quem pretende di accontentarsi del Corano per rigettare la Sunna rigetta il Corano stesso!"
+        "finalText": "A Sunnah não compete com o Alcorão: é a aplicação viva que o Alcorão exige.",
+        "punchline": "Quem rejeita a Sunnah em nome do Alcorão acaba por desobedecer ao próprio Alcorão!"
       },
       "fallacies": [
         "non-sequitur",
@@ -300,105 +666,125 @@ window.I18N_DATA['pt'] = {
       "id": 2,
       "number": "02",
       "slug": "2-obeissance-messager",
-      "theme": "Validade Perpétua da Obediência Profética",
-      "title": "A obediência ao Profeta valia apenas durante a sua vida?",
-      "shortTitle": "Autorità perenne del Profeta",
-      "tagline": "Os mandamentos alcorânicos de obediência ao Mensageiro são absolutos e perpétuos para todas as gerações.",
-      "formula": "A obediência ao Mensageiro é uma obrigação intemporal; a Sunna autêntica é a sua personificação viva!",
+      "theme": "Obrigação Universal de Obediência",
+      "title": "A obediência ao Mensageiro: limitava-se apenas à sua vida terrena?",
+      "shortTitle": "Obediência Perene",
+      "tagline": "As ordens alcorânicas de obediência são universais e permanentes até ao Dia da Ressurreição.",
+      "formula": "Se a obediência ao Profeta expirasse com a sua morte, todo o Alcorão perderia a sua validade temporal!",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_2.PDF",
       "theirArgument": {
-        "thesis": "L'obbedienza al Profeta era obbligatoria solo per i suoi contemporanei come leader della comunità. Dopo la sua morte, non vi è altra autorità su di noi se non il testo coranico.",
+        "thesis": "Obedecer ao Mensageiro foi uma obrigação exclusivamente política ou militar reservada aos Companheiros durante a sua vida terrena; após o seu falecimento, resta apenas o texto alcorânico.",
         "verses": [
           {
-            "ref": "Surata An-Nisa, Versículo 59",
-            "ar": "يَا أَيُّهَا الَّذِينَ آمَنُوا أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ",
-            "translation": "Ó vós que credes, obedecei a Allah e obbedite al Messaggero."
+            "ref": "Sura An-Nisâʾ, versículo 59",
+            "ar": "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ",
+            "translation": "Ó crentes! Obedecei a Allah, obedecei ao Mensageiro e àqueles de vós que possuem autoridade."
+          },
+          {
+            "ref": "Sura An-Nisâʾ, versículo 80",
+            "ar": "مَّن يُطِعِ الرَّسُولَ فَقَدْ أَطَاعَ اللَّهَ",
+            "translation": "Ó crentes! Obedecei a Allah, obedecei ao Mensageiro e àqueles de vós que possuem autoridade."
           }
         ],
-        "realQuestion": "O mandamento coranico di obbedire al Messaggero è una norma temporanea o un principio giuridico perenne fino al Giorno del Giudizio?"
+        "realQuestion": "Existem no Alcorão provas de que as ordens de obedecer ao Mensageiro tivessem uma data de validade histórica?"
       },
       "logicalNode": {
-        "title": "Confusão tra la persona fisica mortale e lo status legislativo perenne del Profeta",
+        "title": "Restrição temporal arbitrária de mandamentos alcorânicos universais",
         "distinctions": [
           {
-            "term": "VIDA TERRENA DEL PROFETA",
-            "desc": "A fase histórica di trasmissione della rivelazione e fondazione della comunità."
+            "term": "NORMA ALCORÂNICA PERENE",
+            "desc": "Toda a ordem alcorânica revelada aos crentes conserva a sua vigência jurídica perpétua salvo texto explícito de revogação."
           },
           {
-            "term": "MISSIONE LEGISLATIVA E SUNNA",
-            "desc": "Norme e insegnamenti vincolanti per ogni musulmano fino al Giorno della Resurrezione."
+            "term": "RESTRIÇÃO HISTORICISTA ARBITRÁRIA",
+            "desc": "Pretender sem prova que um mandamento alcorânico central deixou de se aplicar com o desaparecimento físico do Profeta ﷺ."
           }
         ],
-        "generalRule": "Os preceitos coranici generali non decadono con la morte dei primi destinatari o del legislatore delegato.",
-        "errorToAvoid": "Reduzir la missione profetica alla presenza fisica del Profeta, annullando la Sunna per i posteri."
+        "generalRule": "Um mandamento revelado em termos universais à comunidade dos crentes permanece vinculativo para todas as gerações.",
+        "errorToAvoid": "Restringir temporalmente as obrigações do Alcorão segundo conveniências doutrinárias sem fundamento textual."
       },
       "centralPrinciple": {
-        "title": "A obediência al Messaggero è indissolubilmente legata all'obbedienza ad Allah",
-        "formalScheme": "1. O Alcorão si rivolge a tutti i musulmani fino al Giorno del Giudizio: {Obedecei ad Allah e obbedite al Messaggero}.\n2. Se ciò fosse valso solo in vita sua, metà del Corano sarebbe decaduto con la sua morte.\n3. Portanto, l'obbedienza perdura attraverso la sua Sunna autentica.",
-        "explanation": "Allah une a Sua obediência à do Mensageiro em mais de 30 versículos em forma imperativa absoluta. Hoje obedece-se ao Profeta seguindo sua Sunna comprovada.",
-        "logicalTest": "Se a obediência fosse cessata con la sua morte, perché recitiamo ancora oggi questi versetti come legge divina nella preghiera?"
+        "title": "A obediência ao Mensageiro é um pilar universal da fé até ao Juízo Final",
+        "formalScheme": "1. O Alcorão dirige-se a todos os crentes até ao Fim dos Tempos.\n2. Ordena de forma absoluta: 'Obedecei ao Mensageiro'.\n3. Portanto, a obediência aos seus ensinamentos conservados é obrigatória para toda a humanidade.",
+        "explanation": "O Alcorão jamais condiciona a obediência ao Profeta ﷺ à sua presença física. Do mesmo modo que a Mensagem alcorânica é eterna, a orientação profética que a acompanha é vinculativa para sempre.",
+        "logicalTest": "Se a obediência ao Mensageiro caducou com a sua morte, por que razão os versículos que ordenam rezar ou dar zakat continuariam a ser obrigatórios hoje?"
       },
       "quranicArchitecture": {
-        "title": "Versículos sobre o poder giudiziario vincolante del Profeta ﷺ",
+        "title": "Versículos decisivos e arquitetura alcorânica",
         "verses": [
           {
-            "ref": "Surata An-Nisa, Versículo 65",
-            "ar": "فَلَا وَرَبِّكَ لَا يُؤْمِنُونَ حَتَّىٰ يُحَكِّمُوكَ فِيمَا شَجَرَ بَيْنَهُمْ",
-            "translation": "Não, por teu Senhor! Non saranno credenti finché non ti avranno eletto giudice delle loro controversie."
+            "ref": "Sura An-Nisâʾ, versículo 65",
+            "ar": "فَلَا وَرَبِّكَ لَا يُؤْمِنُونَ حَتَّىٰ يُحَكِّمُوكَ فِيمَا شَجَرَ بَيْنَهُمْ ثُمَّ لَا يَجِدُوا فِي أَنفُسِهِمْ حَرَجًا مِّمَّا قَضَيْتَ وَيُسَلِّمُوا تَسْلِيمًا",
+            "translation": "« Non ! Par ton Seigneur ! Ils ne seront pas croyants tant qu'ils ne t'auront pas pris pour juge dans leurs litiges, et qu'ils n'éprouvent nulle gêne envers ce que tu as tranché, et qu'ils s'y soumettent totalement. »"
           },
           {
-            "ref": "Surata An-Nur, Versículo 63",
-            "ar": "فَلْيَحْذَرِ الَّذِينَ يُخَالِفُونَ عَنْ أَمْرِهِ أَن تُصِيبَهُمْ فِتْنَةٌ",
-            "translation": "Diffidino coloro che si oppongono al suo ordine, che non li colpisca una prova o un castigo doloroso."
+            "ref": "Sura An-Nûr, versículo 63",
+            "ar": "فَلْيَحْذَرِ الَّذِينَ يُخَالِفُونَ عَنْ أَمْرِهِ",
+            "translation": "« Que ceux qui s'opposent à son ordre prennent garde... »"
+          },
+          {
+            "ref": "Sura Al-Aḥzâb, versículo 36",
+            "ar": "وَمَا كَانَ لِمُؤْمِنٍ وَلَا مُؤْمِنَةٍ إِذَا قَضَى اللَّهُ وَرَسُولُهُ أَمْرًا أَن يَكُونَ لَهُمُ الْخِيَرَةُ مِنْ أَمْرِهِمْ",
+            "translation": "« Il n'appartient pas à un croyant ni à une croyante, lorsqu'Allah et Son Messager ont décidé d'une affaire, d'avoir encore le choix... »"
           }
         ],
-        "consequence": "A fé autêntica esige l'accettazione dei giudizi e della Sunna del Profeta ﷺ."
+        "consequence": "A autoridade judicial e legislativa do Profeta ﷺ vincula a consciência de todo o muçulmano de forma perpétua."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "O testamento giuridico del fondatore",
-          "scenario": "O fundador di una repubblica stabilisce leggi scritte e prescrive di seguire le direttive del suo ufficio designato.",
-          "logic": "A morte del fondatore non invalida i regolamenti documentati.",
-          "lesson": "As normas giuridiche restano in vigore mediante trasmissione affidabile.",
-          "application": "A Sunna do Profeta é a explicação autorizada documentada para todas as épocas."
+          "title": "As Sentenças do Supremo Tribunal e o Código Civil",
+          "scenario": "A jurisprudência dos magistrados continua a reger as sentenças muito depois do seu falecimento.",
+          "logicBox": "Morte dos juristas ≠ Caducidade das normas.",
+          "lesson": "O desaparecimento de quem promulga a norma não anula a validade das decisões estabelecidas."
+        },
+        {
+          "num": 2,
+          "title": "O Testamento Autêntico e os Herdeiros",
+          "scenario": "As instruções deixadas por um pai num testamento verificado devem ser executadas pelos descendentes.",
+          "logicBox": "Testamento registado = Sunnah autêntica transmitida.",
+          "lesson": "Ninguém pode anular as cláusulas alegando que o autor já não está presente."
         }
       ],
       "readyResponses": {
-        "quick30s": "O Alcorão afferma: {Chi obbedisce al Messaggero obbedisce ad Allah} (4:80). Se l'obbedienza fosse morta con lui, metà del Corano sarebbe oggi inapplicabile! L'obbedienza oggi si realizza seguendo la sua Sunna autentica.",
-        "developed": "Allah formulou l'obbedienza al Messaggero in modo assoluto e incondizionato. Nessun sapiente musulmano ha mai affermato che questi comandi fossero storicamente scaduti. La Sunna è l'applicazione vivente di questo precetto."
+        "quick30s": "O Alcorão diz 'Obedecei a Allah e obedecei ao Mensageiro' em mais de trinta passagens sem qualquer limite de tempo. Se essa ordem tivesse caducado após a morte do Profeta ﷺ, metade do Alcorão ter-se-ia tornado obsoleta. A Sunnah preservada é o meio pelo qual obedecemos hoje ao Profeta ﷺ.",
+        "developed": "Nenhum versículo do Alcorão restringe a obediência ao Mensageiro à sua época histórica. Se aplicássemos a lógica coranista segundo a qual só o contemporâneo vincula, teríamos de considerar caducas todas as passagens dirigidas aos crentes do século VII. Os Companheiros transmitiram a Sunnah precisamente para que as gerações posteriores pudessem cumprir esta obrigação alcorânica permanente."
       },
       "objections": [
         {
-          "obj": "Os Companheiros potevano interrogare il Profeta direttamente, noi non possiamo!",
-          "ans": "Os muçulmanos nello Yemen o in Siria non chiedevano direttamente al Profeta, ma seguivano i trasmettitori affidabili. Nãoi seguiamo le medesime catene di trasmissione rigorose."
+          "obj": "O Profeta já não está entre nós para julgar as nossas disputas.",
+          "ans": "A sua pessoa física partiu, mas o seu julgamento normativo permanece plenamente vivo nos seus ensinamentos autenticamente transmitidos."
+        },
+        {
+          "obj": "Os versículos dizem 'àqueles de vós que possuem autoridade', provando que era um comando político.",
+          "ans": "O versículo 59 da Sura An-Nisa diz 'se discordardes em algo, remetei-o a Allah e ao Mensageiro', não aos governantes!"
         }
       ],
       "framingQuestions": [
-        "Com a morte del Profeta è forse terminata anche la sua missione per l'intera umanità?",
-        "Como si applica il versetto {Ciò che il Messaggero vi dà prendetelo} (59:7) senza la sua Sunna?"
+        "Em que versículo diz Allah que a obediência ao Seu Mensageiro terminaria após a sua morte?",
+        "Como podes afirmar que o Alcorão é eterno se consideras caducos dezenas de versículos sobre a obediência?"
       ],
       "quiz": [
         {
-          "q": "Como se realiza l'obbedienza al Messaggero ﷺ dopo la sua morte?",
+          "q": "O que significa a completude do Alcorão no quadro legislativo islâmico?",
           "options": [
-            "Considerando i versetti come storicamente superati.",
-            "Seguindo la sua Sunna autentica e i suoi insegnamenti documentati.",
-            "Interpretando il Corano secondo i propri gusti personali.",
-            "Rifiutando ogni testimonianza storica."
+            "Que elenca cada detalhe prático sem necessidade de qualquer explicação.",
+            "Que estabelece os princípios fundamentais e impõe a autoridade explicativa do Profeta ﷺ.",
+            "Que revoga a necessidade de obedecer ao Mensageiro.",
+            "Que proíbe o ensino oral dos ritos."
           ],
           "answer": 1,
-          "explanation": "A obediência al Profeta dopo la sua morte si realizza seguendo la sua Sunna autentica."
+          "explanation": "A completude alcorânica consiste em fixar os princípios universais e em instituir a Sunnah como autoridade explicativa iniludível."
         }
       ],
       "conclusion": {
         "steps": [
-          "O Alcorão è un messaggio universale ed eterno per ogni tempo.",
-          "O preceito dell'obbedienza al Messaggero è assoluto e perpetuo.",
-          "Obbedire oggi al Profeta significa conformarsi alla Sunna preservata."
+          "O Alcorão é uma mensagem universal e eterna.",
+          "A ordem de obedecer ao Profeta ﷺ faz parte integrante dessa mensagem eterna.",
+          "A Sunnah autêntica é o único meio de exercer essa obediência hoje."
         ],
-        "finalText": "A autoridade del Profeta sussiste finché sussiste il Corano.",
-        "punchline": "O Alcorão non ha mai detto 'obbedite al Messaggero solo finché è in vita', ma ne ha fatto un patto di fede eterno!"
+        "finalText": "A obediência ao Mensageiro não morreu com a sua partida terrena.",
+        "punchline": "Quem declara caduca a obediência ao Profeta declara caduca a universalidade do Alcorão!"
       },
       "fallacies": [
         "homme-de-paille",
@@ -410,110 +796,125 @@ window.I18N_DATA['pt'] = {
       "id": 3,
       "number": "03",
       "slug": "3-allah-seul-legifere",
-      "theme": "Soberania Divina e Legislação Profética Delegada",
-      "title": "«O julgamento pertence somente a Allah»: atribuir poder legislativo ao Profeta seria shirk?",
-      "shortTitle": "Sovranità Divina & Hukm",
-      "tagline": "O exercício da autoridade judicial conferida por Allah jamais rivaliza com Sua soberania absoluta.",
-      "formula": "A autoridade delegada ao Profeta é a execução da vontade divina; confundi-la com shirk é um erro gravíssimo!",
+      "theme": "Soberania Legislativa e Autoridade Delegada",
+      "title": "«O julgamento pertence apenas a Allah»: terá o Profeta ﷺ legislado?",
+      "shortTitle": "Soberania e Delegação",
+      "tagline": "O julgamento supremo pertence a Allah, e foi Allah quem conferiu ao Seu Mensageiro o poder de proibir e ordenar.",
+      "formula": "Confundir a soberania divina original com a delegação legislativa profética é um erro idêntico ao dos antigos carijitas!",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_3.PDF",
       "theirArgument": {
-        "thesis": "O Alcorão afferma: 'Il giudizio appartiene solo ad Allah' (In al-hukmu illa lillah). Attribuire al Profeta un potere legislativo significa associargli poteri divini (shirk).",
+        "thesis": "O Alcorão proclama que 'O julgamento pertence apenas a Allah' (In al-ḥukmu illâ lillâh). Portanto, ninguém mais pode proibir ou permitir nada fora do texto alcorânico explícito; atribuir legislação aos Hadiths é associação legislativa (Shirk).",
         "verses": [
           {
-            "ref": "Surata Yusuf, Versículo 40",
-            "ar": "إِنِ الْحُكْمُ إِلَّا لِلَّهِ",
-            "translation": "O julgamento pertence somente a Allah."
+            "ref": "Sura Yûsuf, versículo 40",
+            "ar": "إِنِ الْحُكْمُ إِلَّا لِلَّهِ",
+            "translation": "O julgamento pertence apenas a Allah. Ele ordenou que não adoreis senão a Ele."
           },
           {
-            "ref": "Surata Al-Kahf, Versículo 26",
+            "ref": "Sura Al-Anʿâm, versículo 57",
+            "ar": "إِنِ الْحُكْمُ إِلَّا لِلَّهِ ۖ يَقُصُّ الْحَقَّ ۖ وَهُوَ خَيْرُ الْفَاصِلِينَ",
+            "translation": "O julgamento pertence apenas a Allah. Ele ordenou que não adoreis senão a Ele."
+          },
+          {
+            "ref": "Sura Al-Kahf, versículo 26",
             "ar": "وَلَا يُشْرِكُ فِي حُكْمِهِ أَحَدًا",
-            "translation": "Ed Egli non associa alcuno al Suo giudizio."
+            "translation": "O julgamento pertence apenas a Allah. Ele ordenou que não adoreis senão a Ele."
           }
         ],
-        "realQuestion": "A soberania esclusiva di Allah impedisce forse che Egli conferisca al Suo Messaggero un potere di giudizio vincolante per gli uomini?"
+        "realQuestion": "Acaso a soberania legislativa exclusiva de Allah proíbe que Ele próprio delegue no Seu Mensageiro a autoridade de ordenar e proibir?"
       },
       "logicalNode": {
-        "title": "Confusão tra sovranità originaria e autorità delegata",
+        "title": "Confusão entre soberania ontológica de origem e autoridade delegada de aplicação",
         "distinctions": [
           {
-            "term": "SOBERANIA ORIGINARIA ASSOLUTA",
-            "desc": "Allah é o único Creatore della legge e la fonte suprema di ogni norma."
+            "term": "SOBERANIA LEGISLATIVA ORIGINÁRIA",
+            "desc": "Apenas Allah possui o direito absoluto e intrínseco de criar a lei moral e religiosa."
           },
           {
-            "term": "AUTORITÀ LEGISLATIVA DELEGATA",
-            "desc": "Il Profeta ﷺ stabilisce precetti vincolanti su mandato e per ispirazione divina."
+            "term": "AUTORIDADE LEGISLATIVA DELEGADA",
+            "desc": "O Profeta ﷺ legisla por mandato divino sob a revelação não recitada (Wahy Ghayr Matluw)."
           }
         ],
-        "generalRule": "Quando o Soberano autorizza un ambasciatore, gli ordini dell'ambasciatore emanano dalla sovranità del Re.",
-        "errorToAvoid": "Repetir il sofisma dei Kharijiti: usare una parola vera per trarre una conclusione falsa."
+        "generalRule": "Quando o Soberano Supremo ordena obedecer às resoluções do Seu Enviado, obedecer a esse Enviado é a máxima expressão de submissão ao Soberano.",
+        "errorToAvoid": "Utilizar uma verdade dogmática ('o julgamento pertence a Allah') para anular os mandamentos ditados por esse mesmo Julgamento Divino."
       },
       "centralPrinciple": {
-        "title": "O Alcorão conferisce esplicitamente al Profeta poteri di giudizio e legislazione",
-        "formalScheme": "1. Allah possiede la sovranità assoluta.\n2. Allah ordina nel Corano di accettare le decisioni del Profeta (Sura 7:157).\n3. L'obbedienza alle decisioni del Profeta è sottomissione alla sovranità di Allah.",
-        "explanation": "Allah descrive il Messaggero come colui che {rende lecite le cose buone e proibisce quelle cattive} (7:157). Questa è autorità divina delegata.",
-        "logicalTest": "Se solo Allah può giudicare, perché il Corano in Sura 4:35 ordina di nominare due arbitri umani nelle dispute coniugali?"
+        "title": "O julgamento do Profeta ﷺ é uma manifestação direta do Julgamento de Allah",
+        "formalScheme": "1. Allah possui o julgamento absoluto.\n2. Allah ordenou no Alcorão a submissão às decisões do Profeta ﷺ.\n3. Portanto, aceitar os julgamentos do Profeta ﷺ é submeter-se ao Julgamento exclusivo de Allah.",
+        "explanation": "O Imam 'Ali ibn Abi Talib (رضي الله عنه) já respondeu aos carijitas que usavam este mesmo lema: 'É uma palavra de verdade com a qual se pretende uma falsidade'. O Profeta não legisla em rivalidade com Allah, mas por inspiração e mandato direto de Allah.",
+        "logicalTest": "Se ninguém mais do que Allah pode ordenar nada, por que razão o Alcorão manda recorrer ao julgamento de mediadores humanos em caso de conflito conjugal (4:35) ou para estimar uma compensação de caça (5:95)?"
       },
       "quranicArchitecture": {
-        "title": "Versículos sulla potestà del Profeta di rendere lecito e proibito",
+        "title": "Versículos decisivos e arquitetura alcorânica",
         "verses": [
           {
-            "ref": "Surata Al-A'raf, Versículo 157",
-            "ar": "وَيُحِلُّ لَهُمُ الطَّيِّبَاتِ وَيُحَرِّمُ عَلَيْهِمُ الْخَبَائِثَ",
-            "translation": "Ele lhes torna lícitas le cose buone e proibisce le cose impure."
+            "ref": "Sura Al-Aʿrâf, versículo 157",
+            "ar": "وَيُحِلُّ لَهُمُ الطَّيِّبَاتِ وَيُحَرِّمُ عَلَيْهِمُ الْخَبَائِثَ",
+            "translation": "« Il leur rend licites les bonnes choses et leur interdit les mauvaises. »"
           },
           {
-            "ref": "Surata Al-Ahzab, Versículo 36",
-            "ar": "وَمَا كَانَ لِمُؤْمِنٍ وَلَا مُؤْمِنَةٍ إِذَا قَضَى اللَّهُ وَرَسُولُهُ أَمْرًا أَن يَكُونَ لَهُمُ الْخِيَرَةُ",
-            "translation": "Non si addice a credente o credente, quando Allah e il Suo Messaggero hanno deciso un affare, di avere scelta alcuna."
+            "ref": "Sura An-Nisâʾ, versículo 59",
+            "ar": "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ وَأُولِي الْأَمْرِ مِنكُمْ",
+            "translation": "« Obéissez à Allah, obéissez au Messager et à ceux d'entre vous qui détiennent l'autorité. »"
           }
         ],
-        "consequence": "Nel Corano le decisioni provengono congiuntamente da Allah e dal Suo Messaggero."
+        "consequence": "O Alcorão estipula expressamente que o Profeta ﷺ proíbe e permite por autorização divina, e nega a fé a quem rejeite os seus ditames."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "O Magistrado e la Costituzione",
-          "scenario": "Um Estado stabilisce: la giustizia emana dal popolo/Stato. Al tempo stesso conferisce ai magistrati il potere di emettere sentenze.",
-          "logic": "A sentença do juiz não viola a constituição, mas a aplica.",
-          "lesson": "Il potere delegato realizza la sovranità originaria.",
-          "application": "I precetti del Profeta sono l'applicazione autorizzata della legge divina."
+          "title": "O Embaixador Plenipotenciário",
+          "scenario": "Um embaixador assina um acordo em nome do chefe de Estado com poderes delegados.",
+          "logicBox": "Poder do Estado = Autoridade Divina | Assinatura do Embaixador = Disposição da Sunnah.",
+          "lesson": "Reconhecer os decretos do enviado é honrar a autoridade do governante."
+        },
+        {
+          "num": 2,
+          "title": "O Juiz e o Código Penal",
+          "scenario": "Um juiz aplica o código penal e dita uma sentença específica.",
+          "logicBox": "Aplicação autorizada da lei ≠ Usurpação da soberania parlamentar.",
+          "lesson": "O Alcorão incumbiu o Profeta de ditar sentenças obrigatórias."
         }
       ],
       "readyResponses": {
-        "quick30s": "Usar 'O julgamento pertence somente a Allah' para privar o Profeta de autoridade é a doutrina dos Kharijitas! Lo stesso Corano dice: {Egli rende lecite le cose buone e proibisce le cose impure} (7:157). La sua autorità è conferita direttamente da Allah!",
-        "developed": "A soberania divina non esclude l'autorità del Messaggero, la istituisce. Il Corano sancisce che quando {Allah E il Suo Messaggero hanno deciso}, non c'è più scelta (33:36). Chi contesta questa potestà contesta il Corano."
+        "quick30s": "O Alcorão afirma certamente que o julgamento supremo pertence a Allah. E é esse mesmo julgamento de Allah que diz no versículo 157 da Sura Al-A'raf que o Profeta 'declara lícitas as coisas boas e proíbe as coisas nocivas'. Seguir as proibições do Profeta ﷺ é acatar a lei de Allah.",
+        "developed": "Este argumento é exatamente a mesma deturpação feita pelos primeiros hereges carijitas contra 'Ali (رضي الله عنه). Confundem a fonte soberana da lei (Allah) com o emissário designado para comunicar e aplicar essa lei. O Profeta não inventa preceitos por capricho: tudo o que proibiu ou mandou deriva da revelação divina (53:3-4)."
       },
       "objections": [
         {
-          "obj": "Non si rischia di fare del Profeta un secondo legislatore accanto ad Allah?",
-          "ans": "Não, il Profeta non legifera di propria iniziativa ma per ispirazione divina (Wahy). È un esecutore autorizzato, non un rivale indipendente."
+          "obj": "Se o Profeta proíbe coisas não explícitas no Alcorão, acrescenta coisas à religião.",
+          "ans": "O Alcorão concedeu-lhe explicitamente essa prerrogativa em 7:157. Não é uma adição humana, mas a execução direta da missão profética."
+        },
+        {
+          "obj": "Considerais então o Profeta como um sócio de Allah na legislação?",
+          "ans": "De modo algum! O Profeta legisla por delegação e inspiração divina, não em igualdade com o Criador."
         }
       ],
       "framingQuestions": [
-        "Por que il Corano dice {quando Allah E il Suo Messaggero hanno deciso} (33:36) se il Messaggero non avesse potere decisionale?",
-        "Chi proibisce di mangiare i carnivori con le zanne o di sposare contemporaneamente una donna e sua zia, se non il Profeta ﷺ attraverso la sua Sunna?"
+        "Como interpretas o versículo 7:157 onde se diz claramente que o Profeta 'lhes proíbe as coisas nocivas'?",
+        "Por que razão jurou Allah por Si mesmo em 4:65 que ninguém tem fé verdadeira até tomar o Profeta como juiz inapelável?"
       ],
       "quiz": [
         {
-          "q": "Qual versículo stabilisce che il Profeta rende lecite le cose buone e proibisce le impure?",
+          "q": "O que significa a completude do Alcorão no quadro legislativo islâmico?",
           "options": [
-            "Surata Al-A'raf, Versetto 157",
-            "Surata Al-Baqara, Versetto 1",
-            "Surata Al-Fatiha, Versetto 1",
-            "Surata An-Nas, Versetto 1"
+            "Que elenca cada detalhe prático sem necessidade de qualquer explicação.",
+            "Que estabelece os princípios fundamentais e impõe a autoridade explicativa do Profeta ﷺ.",
+            "Que revoga a necessidade de obedecer ao Mensageiro.",
+            "Que proíbe o ensino oral dos ritos."
           ],
-          "answer": 0,
-          "explanation": "La Sura 7:157 conferma esplicitamente questo mandato legislativo del Messaggero."
+          "answer": 1,
+          "explanation": "A completude alcorânica consiste em fixar os princípios universais e em instituir a Sunnah como autoridade explicativa iniludível."
         }
       ],
       "conclusion": {
         "steps": [
-          "Allah é l'unica fonte suprema della legge.",
-          "Allah ha conferito al Suo Messaggero l'autorità di emettere giudizi vincolanti.",
-          "Seguire il Profeta significa sottomettersi pienamente alla sovranità di Allah."
+          "O julgamento soberano pertence exclusivamente a Allah.",
+          "Allah ordenou submeter-se incondicionalmente às decisões do Seu Enviado ﷺ.",
+          "Rejeitar o julgamento profético é rebelar-se contra o Julgamento Supremo de Allah."
         ],
-        "finalText": "A autoridade del Profeta non è shirk, ma l'espressione più pura del monoteismo e dell'obbedienza ad Allah.",
-        "punchline": "Ali ibn Abi Talib disse di questo slogan: 'Una parola di verità usata per sostenere una menzogna!'"
+        "finalText": "O julgamento de Allah e o julgamento do Seu Mensageiro formam uma só e mesma verdade.",
+        "punchline": "Quem grita 'Apenas o julgamento de Allah' para rejeitar o Profeta repete a falácia dos carijitas!"
       },
       "fallacies": [
         "fausse-dichotomie",
@@ -524,110 +925,125 @@ window.I18N_DATA['pt'] = {
       "id": 4,
       "number": "04",
       "slug": "4-mission-messager-transmettre",
-      "theme": "O Alcance da Mensagem: Balagh e Bayan",
-      "title": "«Ao Mensageiro cabe apenas a transmissão»: ele era apenas um mensageiro de recados?",
-      "shortTitle": "Missione di trasmissione (Balagh)",
-      "tagline": "A 'transmissão' alcorânica (Balagh) abrange ensino, exemplo prático, julgamento e explicação detalhada.",
-      "formula": "A transmissão perfeita exige o esclarecimento (Bayan) e o modelo vivo (Uswah); o Profeta nunca foi um mero carteiro!",
+      "theme": "A Missão do Mensageiro: Transmissão e Pedagogia",
+      "title": "«Ao Mensageiro cabe apenas transmitir»: foi um mero carteiro passivo?",
+      "shortTitle": "Função de Transmissão (Balâgh)",
+      "tagline": "O 'Balâgh' alcorânico não é uma entrega mecânica de cartas, mas a explicação viva, o ensino e a purificação dos crentes.",
+      "formula": "Reduzir a missão do melhor dos homens à de um carteiro passivo é ignorar a definição que o próprio Alcorão dá do termo Balâgh!",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_4.pdf",
       "theirArgument": {
-        "thesis": "O Alcorão ripete: 'Al Messaggero spetta solo la chiara trasmissione' (Ma 'ala ar-rasuli illa al-balagh). Il suo ruolo era unicamente recapitare il testo coranico, senza aggiungere insegnamenti.",
+        "thesis": "O Alcorão repete que 'Ao Mensageiro cabe apenas a transmissão clara' (Mâ 'alâ ar-rasûli illâ al-balâgh). Isto prova que a sua única função foi entregar o texto do Alcorão, sem acrescentar explicações vinculativas nem ensinamentos normativos.",
         "verses": [
           {
-            "ref": "Surata Al-Ma'idah, Versículo 99",
-            "ar": "مَّا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ",
-            "translation": "Ao Mensageiro cabe apenas la trasmissione."
+            "ref": "Sura Al-Māʾidah, versículo 99",
+            "ar": "مَّا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ",
+            "translation": "Ao Mensageiro cabe apenas transmitir a Mensagem; e Allah sabe o que manifestais e o que ocultais."
           },
           {
-            "ref": "Surata An-Nur, Versículo 54",
-            "ar": "وَإِن تُطِيعُوهُ تَهْتَدُوا وَمَا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ الْمُبِينُ",
-            "translation": "E se gli obbedite sarete ben guidati. E al Messaggero spetta solo la chiara trasmissione."
+            "ref": "Sura An-Nûr, versículo 54",
+            "ar": "وَإِن تُطِيعُوهُ تَهْتَدُوا ۚ وَمَا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ الْمُبِينُ",
+            "translation": "Ao Mensageiro cabe apenas transmitir a Mensagem; e Allah sabe o que manifestais e o que ocultais."
           }
         ],
-        "realQuestion": "O termo 'Balagh' no Alcorão indica a simples entrega material de um texto o la completa trasmissione pedagogica e pratica del messaggio?"
+        "realQuestion": "O que abrange o conceito alcorânico de 'Balâgh Mubîn' (transmissão clara e eloquente) segundo a totalidade dos versículos do Livro?"
       },
       "logicalNode": {
-        "title": "Redução di un concetto religioso sublime a una funzione meccanica",
+        "title": "Redução falaciosa do termo 'Balâgh' a uma entrega material passiva",
         "distinctions": [
           {
-            "term": "CONSEGNA MECCANICA DI UN PLICO",
-            "desc": "Un fattorino che recapita una lettera senza conoscerne il contenuto né spiegarlo."
+            "term": "BALÂGH MUBÎN (TRANSMISSÃO INTEGRAL E EXPLICATIVA)",
+            "desc": "Comunicar o texto, exemplificá-lo em atos, detalhar as suas prescrições e estabelecer o modelo normativo vivo."
           },
           {
-            "term": "MISSIONE PROFETICA (BALAGH MUBIN)",
-            "desc": "Proclamazione, chiarimento (Bayan), dimostrazione pratica, guida spirituale (Tazkiyah) e governo della comunità."
+            "term": "ENTREGA MECÂNICA E PASSIVA",
+            "desc": "A caricatura coranista que despoja o Mensageiro de toda a autoridade pedagógica, moral e judicial."
           }
         ],
-        "generalRule": "I termini coranici devono essere compresi alla luce di tutti i versetti che definiscono le funzioni profetiche.",
-        "errorToAvoid": "Reduzir l'inviato di Allah al rango di mero distributore di posta."
+        "generalRule": "Um conceito alcorânico deve ser definido mediante o conjunto dos versículos que descrevem as atribuições do Profeta, não isolando uma frase do seu contexto retórico.",
+        "errorToAvoid": "Confundir a isenção de responsabilidade sobre a fé alheia (o Profeta não pode forçar a crer) com a negação da sua autoridade de ensino."
       },
       "centralPrinciple": {
-        "title": "O Alcorão definisce la profezia come insegnamento, modello e saggezza",
-        "formalScheme": "1. O Alcorão elenca i compiti del Profeta: recitare, purificare, insegnare il Libro e insegnare la Saggezza (Sura 62:2).\n2. Lo istituisce come modello supremo da imitare (Sura 33:21).\n3. La sua Sunna pratica è dunque il nucleo inseparabile della trasmissione.",
-        "explanation": "L'espressione 'spetta solo la trasmissione' significa che il Profeta non può costringere i cuori alla fede, non che non debba insegnare e spiegare la religione.",
-        "logicalTest": "Se il Profeta fosse stato solo un postino, perché Allah gli ha ordinato in Sura 16:44: {affinché tu spieghi agli uomini ciò che è stato rivelato}?"
+        "title": "O Balâgh inclui a explicação verbal, o ensino do Livro e o modelo de conduta",
+        "formalScheme": "1. O Alcorão incumbe o Mensageiro da transmissão clara (Balâgh).\n2. O Alcorão define explicitamente essa transmissão como: recitar, purificar, ensinar o Livro e a Sabedoria (62:2) e explicar o revelado (16:44).\n3. Portanto, a Sunnah viva é o núcleo inseparável do Balâgh alcorânico.",
+        "explanation": "Quando o Alcorão diz 'ao Mensageiro cabe apenas transmitir', refere-se a que ele não pode forçar os corações nem responde pela incredulidade dos rebeldes. Mas quanto aos crentes, ele é o mestre supremo e o guia obrigatório.",
+        "logicalTest": "Se o Profeta tivesse sido um simples transmissor passivo, por que razão Allah enviou um ser humano com palavra e ação em vez de fazer descer um livro já encadernado do céu (6:7)?"
       },
       "quranicArchitecture": {
-        "title": "Versículos sui molteplici compiti affidati al Profeta ﷺ",
+        "title": "Versículos decisivos e arquitetura alcorânica",
         "verses": [
           {
-            "ref": "Surata Al-Ahzab, Versículo 21",
-            "ar": "لَّقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ",
-            "translation": "Tendes no Mensageiro di Allah un bellissimo esempio."
+            "ref": "Sura An-Naḥl, versículo 44",
+            "ar": "وَأَنزَلْنَا إِلَيْكَ الذِّكْرَ لِتُبَيِّنَ لِلنَّاسِ مَا نُزِّلَ إِلَيْهِمْ",
+            "translation": "« Et vers toi, Nous avons fait descendre le Rappel, afin que tu exposes clairement aux gens ce qui a été révélé pour eux. »"
           },
           {
-            "ref": "Surata Al-Baqara, Versículo 151",
-            "ar": "كَمَا أَرْسَلْنَا فِيكُمْ رَسُولًا مِّنكُمْ يَتْلُو عَلَيْكُمْ آيَاتِنَا وَيُزَكِّيكُمْ وَيُعَلِّمُكُمُ الْكِتَابَ وَالْحِكْمَةَ",
-            "translation": "Così vi abbiamo inviato un Messaggero scelto tra voi, che vi recita i Nostri versetti, vi purifica e vi insegna il Libro e la Saggezza."
+            "ref": "Sura Al-Baqarah, versículo 151",
+            "ar": "يَتْلُو عَلَيْكُمْ آيَاتِنَا وَيُزَكِّيكُمْ وَيُعَلِّمُكُمُ الْكِتَابَ وَالْحِكْمَةَ",
+            "translation": "« Il vous récite Nos versets, vous purifie, et vous enseigne le Livre et la Sagesse. »"
+          },
+          {
+            "ref": "Sura Al-Aḥzâb, versículo 21",
+            "ar": "لَّقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ",
+            "translation": "« Vous avez certes dans le Messager d'Allah un excellent modèle. »"
           }
         ],
-        "consequence": "La 'Saggezza' (Hikmah) insegnata accanto al Libro è unanimemente identificata con la Sunna profetica."
+        "consequence": "O Alcorão rejeita taxativamente a tese do carteiro passivo: o Profeta ﷺ é mestre, educador e modelo inelutável."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "O Professor Universitario e il Manuale",
-          "scenario": "Um reitor confia a um professor um programa de estudo e distribui os manuais aos estudantes.",
-          "logic": "Nessuno direbbe che il professore deve solo consegnare il libro in silenzio senza tenere le lezioni!",
-          "lesson": "L'insegnamento richiede la spiegazione orale e la guida magistrale.",
-          "application": "Il Profeta ﷺ ha insegnato il Corano con le sue parole, i suoi atti e le sue approvazioni."
+          "title": "O Professor Universitário e o Manual",
+          "scenario": "Uma universidade contrata um professor para lecionar uma matéria com um manual de estudo. Não se limita a entregar o livro.",
+          "logicBox": "Texto = Alcorão | Ensino e resolução de dúvidas = Sunnah viva.",
+          "lesson": "O valor de um mestre reside em explicar a matéria e orientar os alunos."
+        },
+        {
+          "num": 2,
+          "title": "O Arquiteto e o Diretor de Obra",
+          "scenario": "Um arquiteto não se limita a depositar os projetos; explica as cotas e supervisiona a construção.",
+          "logicBox": "Projetos = Texto alcorânico | Supervisão = Prática profética.",
+          "lesson": "Sem a direção executiva acreditada, os projetos não se tornam um edifício."
         }
       ],
       "readyResponses": {
-        "quick30s": "No versículo {Ao Mensageiro cabe apenas a transmissão}, o sentido é: ele não pode forçar a fé. Ma come trasmette? O Alcorão precisa: recitando, purificando, insegnando il Libro e la Saggezza (62:2) e offrendo l'esempio perfetto (33:21). Farne un postino stravolge il testo!",
-        "developed": "Il contesto dei versetti su Balagh riguarda la responsabilità escatologica: il Messaggero non risponde dell'incredulità altrui. Riguardo al suo ministero, il Corano specifica quattro dimensioni fondamentali: Tilawah, Tazkiyah, Ta'lim al-Kitab e Ta'lim al-Hikmah."
+        "quick30s": "Quando o Alcorão diz 'ao Mensageiro cabe apenas a transmissão', significa que ele não pode forçar as pessoas a crer. Mas essa mesma transmissão (Balâgh) é definida pelo Alcorão como o ensino do Livro, a purificação e a explicação dos preceitos (Sura 62, V.2). O Profeta é um mestre e intérprete designado, jamais um mero carteiro!",
+        "developed": "A fórmula alcorânica 'mâ 'alâ ar-rasûl illâ al-balâgh' é uma figura de estilo árabe destinada a consolar o Profeta ﷺ perante a rejeição dos idólatras: ele não é culpado da sua cegueira, o seu dever é comunicar com clareza. Mas quanto aos muçulmanos, o Alcorão especifica que esse Balâgh compreende o ensino da 'Hikmah' (a Sabedoria / a Sunnah) e a corporização do 'modelo excelente'."
       },
       "objections": [
         {
-          "obj": "La Saggezza (Hikmah) nel Corano non significa forse semplice intelligenza?",
-          "ans": "Não, grammaticalmente Hikmah è accostata come entità distinta accanto al Libro ('al-Kitaba wal-Hikmah'). Insegnare qualcosa accanto al Libro indica le direttive profetiche."
+          "obj": "Se o Profeta explicava com autoridade, as suas palavras têm o mesmo valor que o Alcorão?",
+          "ans": "O Alcorão é a Palavra incriada de Allah recitada na oração; as palavras do Profeta são a explicação humana divinamente guiada e inspirada."
+        },
+        {
+          "obj": "Se o Alcorão é claro, por que razão explicá-lo?",
+          "ans": "O Alcorão é claro nos seus princípios, mas contém normas gerais que requerem a especificação profética para serem postas em prática."
         }
       ],
       "framingQuestions": [
-        "Como può il Profeta essere un 'bellissimo esempio' (33:21) se non abbiamo la testimonianza storica dei suoi atti?",
-        "Por que il Corano distingue costantemente tra 'il Libro' e 'la Saggezza'?"
+        "Como pode o Profeta ser um 'modelo excelente' (33:21) se não temos acesso aos seus atos, palavras e conduta detalhada?",
+        "O que significa a palavra 'Hikmah' (Sabedoria) mencionada no Alcorão ao lado do Livro se não for a Sunnah?"
       ],
       "quiz": [
         {
-          "q": "Quais quatro tarefas assegna il Corano al Profeta in Sura 2:151 e 62:2?",
+          "q": "O que significa a completude do Alcorão no quadro legislativo islâmico?",
           "options": [
-            "Recitação, purificazione, insegnamento del Libro e della Saggezza.",
-            "Solo consegnare fogli scritti.",
-            "Solo compiti militari.",
-            "Nessun insegnamento."
+            "Que elenca cada detalhe prático sem necessidade de qualquer explicação.",
+            "Que estabelece os princípios fundamentais e impõe a autoridade explicativa do Profeta ﷺ.",
+            "Que revoga a necessidade de obedecer ao Mensageiro.",
+            "Que proíbe o ensino oral dos ritos."
           ],
-          "answer": 0,
-          "explanation": "Il Corano elenca esplicitamente: recitazione, purificazione spirituale e duplice insegnamento di Libro e Saggezza."
+          "answer": 1,
+          "explanation": "A completude alcorânica consiste em fixar os princípios universais e em instituir a Sunnah como autoridade explicativa iniludível."
         }
       ],
       "conclusion": {
         "steps": [
-          "A transmissão (Balagh) include la spiegazione dottrinale e pratica.",
-          "Il Profeta è maestro, guida spirituale, giudice e modello vivente.",
-          "Negare la Sunna priva la rivelazione della sua attuazione pratica."
+          "O Balâgh alcorânico é uma transmissão ativa, pedagógica e normativa.",
+          "O Alcorão define o Profeta como mestre do Livro e modelo supremo.",
+          "Reduzir o Mensageiro a um portador passivo contradiz frontalmente o Alcorão."
         ],
-        "finalText": "A Sunna è la testimonianza autentica di come il Profeta compì la sua missione di trasmissione.",
-        "punchline": "Il Messaggero era il Corano vivente in azione, non un passivo messaggero di carta!"
+        "finalText": "A transmissão do Mensageiro abrange o texto sagrado e o ensino da sua prática.",
+        "punchline": "Quem reduz o Profeta a um carteiro nunca leu o que o Alcorão diz sobre o Profeta!"
       },
       "fallacies": [
         "cherry-picking",
@@ -639,100 +1055,115 @@ window.I18N_DATA['pt'] = {
       "id": 5,
       "number": "05",
       "slug": "5-preservation-coran-hadiths",
-      "theme": "Preservação Divina: Dhikr e Sunna",
-      "title": "«Nós revelamos a Mensagem (Adh-Dhikr) e Nós a preservaremos»: a Sunna foi preservada?",
-      "shortTitle": "Preservazione del Dhikr",
-      "tagline": "A promessa divina de guardar o Dhikr inclui a revelação e seu esclarecimento profético indispensável.",
-      "formula": "Preservar o Alcorão exige preservar sua explicação prática (Sunna); caso contrário, o texto seria inaplicável!",
+      "theme": "A Preservação do Dhikr (Alcorão e Sunnah)",
+      "title": "«Fomos Nós que fizemos descer a Mensagem e somos os seus guardiães»: será o Dhikr apenas o Alcorão?",
+      "shortTitle": "Preservação do Dhikr",
+      "tagline": "O termo alcorânico 'Dhikr' abrange toda a revelação divina: o Alcorão e a Sunnah explicativa que o acompanha.",
+      "formula": "Preservar um texto ordenando a sua explicação sem preservar essa explicação tornaria impossível a sua aplicação!",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_5.pdf",
       "theirArgument": {
-        "thesis": "Allah ha promesso in Sura 15:9 di preservare solo il 'Dhikr' (il Corano). Poiché gli hadith non godono di protezione divina, sono stati alterati dagli uomini.",
+        "thesis": "Allah prometeu preservar unicamente o Alcorão na Sura 15:9 ('Inna nahnu nazzalna adh-dhikra wa inna lahu lahafidhun'). Os Hadiths, pelo contrário, não gozam de nenhuma promessa divina de preservação e são obras humanas falíveis.",
         "verses": [
           {
-            "ref": "Surata Al-Hijr, Versículo 9",
-            "ar": "إِنَّا نَحْنُ نَزَّلْنَا الذِّكْرَ وَإِنَّا لَهُ لَحَافِظُونَ",
-            "translation": "Nós fizemos descer a Mensagem (adh-Dhikr) e Noi ne siamo i custodi."
+            "ref": "Sura Al-Ḥijr, versículo 9",
+            "ar": "إِنَّا نَحْنُ نَزَّلْنَا الذِّكْرَ وَإِنَّا لَهُ لَحَافِظُونَ",
+            "translation": "Certamente Nós fizemos descer a Mensagem (Adh-Dhikr) e certamente Nós somos os seus guardiães."
           }
         ],
-        "realQuestion": "Il termine 'Dhikr' comprende la rivelazione divina globale e il necessario chiarimento profetico che ne consente l'applicazione?"
+        "realQuestion": "O que designa o termo 'Adh-Dhikr' no uso alcorânico e como se preserva uma revelação cujo sentido prático foi confiado ao Profeta ﷺ?"
       },
       "logicalNode": {
-        "title": "Restrição indebita del termine 'Dhikr' e separazione tra testo e significato",
+        "title": "Restrição injustificada do termo 'Dhikr' e contradição teológica na preservação",
         "distinctions": [
           {
-            "term": "TESTO LETTERALE DEL MUSHAF",
-            "desc": "Le parole coraniche scritte dalla Sura 1 alla Sura 114."
+            "term": "ADH-DHIKR EM SENTIDO ALCORÂNICO GLOBAL",
+            "desc": "A Mensagem revelada na sua totalidade: as palavras sagradas do Alcorão e a Sunnah que clarifica o seu conteúdo."
           },
           {
-            "term": "RIVELAZIONE GLOBALE (ADH-DHIKR)",
-            "desc": "Il testo coranico unitamente alla sua autentica spiegazione profetica indispensabile per la pratica religiosa."
+            "term": "CONFUSÃO ENTRE TEXTO BRUTO E MENSAGEM VIVA",
+            "desc": "Acreditar que Allah preservaria as palavras de uma ordem permitindo que se perdesse totalmente o significado de como executá-la."
           }
         ],
-        "generalRule": "La promessa di preservare una guida per l'umanità implica la conservazione del suo significato operativo.",
-        "errorToAvoid": "Sostenere che Allah abbia preservato le lettere di un libro ma ne abbia lasciato perdere il senso pratico per secoli."
+        "generalRule": "A preservação de uma mensagem divina implica necessariamente a preservação do seu significado prático e operativo.",
+        "errorToAvoid": "Separar a preservação da letra da preservação do sentido que a torna aplicável."
       },
       "centralPrinciple": {
-        "title": "In Sura 16:44 Allah definisce 'Dhikr' anche la spiegazione profetica",
-        "formalScheme": "1. Allah dichiara in Sura 16:44: {E abbiamo fatto scendere su di te il Dhikr affinché tu spieghi agli uomini}.\n2. In Sura 15:9 promette: {Noi custodiremo il Dhikr}.\n3. La spiegazione profetica è parte integrante del Dhikr custodito da Allah.",
-        "explanation": "Se la Sunna fosse andata perduta, nessun musulmano saprebbe come pregare, digiunare o compiere il pellegrinaggio. La promessa di guida perenne sarebbe vanificata.",
-        "logicalTest": "Credi che Allah abbia ordinato all'umanità di praticare una religione lasciandone i precetti fondamentali nell'errore per 1400 anni?"
+        "title": "A preservação do Alcorão exige a preservação da Sunnah explicativa",
+        "formalScheme": "1. Allah garantiu a salvaguarda do Dhikr (15:9).\n2. O Alcorão chama 'Dhikr' tanto ao texto revelado como à missão clarificadora do Profeta ﷺ (16:44).\n3. Portanto, a providência divina suscitou a ciência do Hadith para preservar a Sunnah autêntica.",
+        "explanation": "Se a Sunnah se tivesse corrompido irremediavelmente, versículos inteiros do Alcorão que ordenam orar, pagar o zakat ou imitar o Mensageiro ter-se-iam tornado impraticáveis. A preservação do Alcorão inclui a proteção providencial da Sunnah através dos esforços dos sábios do Hadith.",
+        "logicalTest": "Se apenas o texto escrito está preservado e toda a Sunnah é duvidosa, como sabemos com certeza absoluta o que significa a palavra 'Salât' no Alcorão e como se executa?"
       },
       "quranicArchitecture": {
-        "title": "Versículos sulla garanzia divina della spiegazione del testo",
+        "title": "Versículos decisivos e arquitetura alcorânica",
         "verses": [
           {
-            "ref": "Surata Al-Qiyama, Versículos 18-19",
-            "ar": "فَإِذَا قَرَأْنَاهُ فَاتَّبِعْ قُرْآنَهُ * ثُمَّ إِنَّ عَلَيْنَا بَيَانَهُ",
-            "translation": "Quando o recitamos, segui la sua recitazione. Poi spetta a Noi la sua spiegazione."
+            "ref": "Sura An-Nisâʾ, versículo 59",
+            "ar": "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ",
+            "translation": "« Obéissez à Allah et obéissez au Messager. »"
+          },
+          {
+            "ref": "Sura Al-Aḥzâb, versículo 21",
+            "ar": "لَّقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ",
+            "translation": "« Vous avez certes dans le Messager d'Allah un excellent modèle. »"
           }
         ],
-        "consequence": "Allah assume su di Sé la spiegazione (Bayan) e la preservazione del significato autentico del Suo Libro."
+        "consequence": "O Alcorão chama explicitamente 'Dhikr' ao ensinamento do Profeta ﷺ e até à própria pessoa do Mensageiro."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "O Código Segreto e la Chiave di Cifratura",
-          "scenario": "Un governo custodisce un codice di sicurezza vitale ma distrugge l'unica chiave di decifrazione.",
-          "logic": "Un testo incomprensibile perde ogni efficacia pratica.",
-          "lesson": "Custodire la sostanza include custodire la chiave di comprensione.",
-          "application": "La Sunna è la chiave donata e preservata da Allah per comprendere e praticare il Corano."
+          "title": "O Cofre e a Chave-Mestra",
+          "scenario": "Um fabricante projeta um cofre indestrutível e entrega a única chave para o abrir. Se destruir a chave, o tesouro torna-se inacessível.",
+          "logicBox": "Cofre = Alcorão | Chave = Sunnah explicativa.",
+          "lesson": "Proteger o recipiente destruindo a chave contradiz a sabedoria do Criador."
+        },
+        {
+          "num": 2,
+          "title": "A Sinalização de Trânsito e o Código da Estrada",
+          "scenario": "Um governo preserva os sinais nas estradas mas queima todos os manuais que explicam o significado das cores.",
+          "logicBox": "Sinal = Ordem alcorânica | Manual = Prática profética.",
+          "lesson": "Um símbolo normativo sem o código explicativo gera o caos."
         }
       ],
       "readyResponses": {
-        "quick30s": "Allah chama de 'Dhikr' a explicação confiada ao Profeta: {Fizemos descer sobre ti a Mensagem para que expliques} (16:44). Quando promette di custodire il Dhikr (15:9), protegge il testo e la sua pratica autentica. Dizer que la Sunna è perduta offende la saggezza di Allah!",
-        "developed": "In Sura Al-Qiyama Allah garantisce: {Spetta a Noi la sua spiegazione} (75:19). Storicamente, questa protezione divina si è manifestata attraverso la prodigiosa scienza dell'Isnad (catene di trasmissione) che ha isolato ogni tentativo di contraffazione."
+        "quick30s": "Em árabe alcorânico, 'Adh-Dhikr' não designa unicamente as páginas do Alcorão. Na Sura 16:44, Allah diz ao Profeta: 'Revelámos-te o Dhikr para que expliques às pessoas o que lhes foi feito descer'. O Dhikr é a Mensagem divina global. Preservar o Alcorão tornando impossível saber como orar seria uma contradição alheia à Sabedoria divina.",
+        "developed": "O argumento coranista pressupõe que a preservação divina foi um milagre passivo para o livro encadernado, mas que Allah abandonou a Sunnah ao esquecimento. A realidade histórica demonstra o contrário: Allah suscitou para a Sunnah uma disciplina científica inédita — a ciência das cadeias de transmissão e a crítica biográfica — que permitiu filtrar com rigor implacável o autêntico do falso."
       },
       "objections": [
         {
-          "obj": "Ma esistono hadith deboli e fabbricati, questo non dimostra che la Sunna non è stata preservata?",
-          "ans": "Il fatto che i sapienti abbiano identificato, smascherato e catalogato ogni hadith debole o apocrifo dimostra l'efficacia perfetta della preservazione!"
+          "obj": "Existem hadiths forjados, logo a Sunnah não foi preservada.",
+          "ans": "O facto de os sábios terem identificado, catalogado e isolado cada hadith inventado demonstra que a Sunnah autêntica foi plenamente preservada."
+        },
+        {
+          "obj": "A palavra 'Dhikr' em 15:9 refere-se apenas ao Alcorão segundo os exegetas.",
+          "ans": "Mesmo que se referisse ao Alcorão em sentido estrito, a preservação do Alcorão exige a preservação da sua compreensão operativa."
         }
       ],
       "framingQuestions": [
-        "Se a Sunna non è stata preservata, da dove sai oggi che la preghiera dell'alba è di 2 rak'at?",
-        "Allah avrebbe lasciato miliardi di fedeli nell'errore su come adorarLo?"
+        "Como pode Allah ordenar 'Cumpri a oração' num texto preservado se a forma mesma da oração se tivesse perdido na história?",
+        "Por que razão o versículo 16:44 chama 'Dhikr' àquilo que foi revelado ao Profeta para explicar o Alcorão?"
       ],
       "quiz": [
         {
-          "q": "Qual versículo stabilisce l'impegno divino a fornire la spiegazione del Corano?",
+          "q": "O que significa a completude do Alcorão no quadro legislativo islâmico?",
           "options": [
-            "Surata Al-Qiyama, Versetto 19: {Poi spetta a Noi la sua spiegazione}",
-            "Surata Al-Baqara, Versetto 2",
-            "Surata Al-Ikhlas, Versetto 1",
-            "Surata An-Nas, Versetto 1"
+            "Que elenca cada detalhe prático sem necessidade de qualquer explicação.",
+            "Que estabelece os princípios fundamentais e impõe a autoridade explicativa do Profeta ﷺ.",
+            "Que revoga a necessidade de obedecer ao Mensageiro.",
+            "Que proíbe o ensino oral dos ritos."
           ],
-          "answer": 0,
-          "explanation": "La Sura 75:19 attesta la garanzia divina di preservare la spiegazione del testo."
+          "answer": 1,
+          "explanation": "A completude alcorânica consiste em fixar os princípios universais e em instituir a Sunnah como autoridade explicativa iniludível."
         }
       ],
       "conclusion": {
         "steps": [
-          "Dhikr abbraccia il testo coranico e la necessaria spiegazione profetica.",
-          "Allah ha garantito la conservazione integrale della religione.",
-          "La scienza del Hadith è stata lo strumento storico di questa custodia divina."
+          "Allah comprometeu-se a salvaguardar o Dhikr.",
+          "O Dhikr alcorânico compreende a revelação e a sua manifestação profética.",
+          "A ciência do Hadith é a manifestação histórica dessa salvaguarda divina."
         ],
-        "finalText": "Testo e Sunna sono due dimensioni inseparabili dell'unica guida rivelata.",
-        "punchline": "Un testo preservato nella lettera ma privo di significato pratico non sarebbe una guida!"
+        "finalText": "Preservar o texto sagrado é também preservar o modo de o viver.",
+        "punchline": "Quem diz que a Sunnah se perdeu afirma na realidade que o Alcorão se tornou impraticável!"
       },
       "fallacies": [
         "non-sequitur",
@@ -744,100 +1175,98 @@ window.I18N_DATA['pt'] = {
       "id": 6,
       "number": "06",
       "slug": "6-compilation-tardive-hadiths",
-      "theme": "Historiografia e Ciência da Transmissão",
-      "title": "Os hadiths foram compilados dois séculos depois e foram inventados?",
-      "shortTitle": "Compilazione storica degli Hadith",
-      "tagline": "O registro escrito começou durante a vida dos Companheiros; Al-Bukhari foi um compilador crítico, não o inventor!",
-      "formula": "Compilação crítica não é invenção: os hadiths foram memorizados, registrados e transmitidos desde a primeira geração!",
+      "theme": "História da Transmissão e Registo Escrito",
+      "title": "«Os Hadiths foram escritos 200 anos depois»: mito ou realidade histórica?",
+      "shortTitle": "História da Redação do Hadith",
+      "tagline": "O registo escrito e a transmissão oral do Hadith começaram em vida do Profeta ﷺ e continuaram sem interrupção.",
+      "formula": "Confundir a compilação enciclopédica tardia (Bukhari) com o nascimento da transmissão é um erro histórico colossal!",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_6.pdf",
       "theirArgument": {
-        "thesis": "Al-Bukhari faleceu nel 256 H., oltre due secoli dopo il Profeta. In duecento anni di sola trasmissione orale tutto sarebbe stato corrotto, inventato e manipolato dal potere politico.",
-        "verses": [
-          {
-            "ref": "Surata Al-An'am, Versículo 116",
-            "ar": "إِن يَتَّبِعُونَ إِلَّا الظَّنَّ",
-            "translation": "Eles apenas seguem conjecturas."
-          }
-        ],
-        "realQuestion": "La data di pubblicazione di una grande enciclopedia critica coincide con la nascita delle fonti o vi fu una catena ininterrotta scritta e orale?"
+        "thesis": "Os Hadiths não existiam por escrito durante os primeiros dois séculos do Islão. Eram simples lendas orais transmitidas como o jogo do telefone estragado até que Al-Bukhari e Muslim decidiram escrevê-los 200 anos depois.",
+        "verses": [],
+        "realQuestion": "Quando começou verdadeiramente a fixação por escrito dos Hadiths e como funcionava a transmissão combinada oral-escrita nos séculos I e II da Hégira?"
       },
       "logicalNode": {
-        "title": "Confusão tra la data di redazione di un'opera e l'antichità dei documenti originali",
+        "title": "Confusão entre compilação temática maior e registo original dos textos",
         "distinctions": [
           {
-            "term": "COMPILAZIONE CRITICA ENCICLOPEDICA",
-            "desc": "Le grandi raccolte di Bukhari e Muslim, ordinate per capitoli giuridici e filtrate rigorosamente."
+            "term": "REGISTO E ESCRITA INICIAL (SÉCULO I H)",
+            "desc": "Cadernos de notas (Suhuf) redigidos pelos próprios Companheiros (como Abdullah ibn 'Amr, 'Ali ibn Abi Talib, Anas ibn Malik)."
           },
           {
-            "term": "QUADERNI E REGISTRAZIONI ORIGINALI (SUHUF)",
-            "desc": "Manoscritti dei Compagni (Sahifa Sadiqa) e dei Tabi'un (Sahifa di Hammam ibn Munabbih, Muwatta di Malik)."
+            "term": "GRANDE COMPILAÇÃO CRÍTICA CLASSIFICADA (SÉCULO III H)",
+            "desc": "As obras canónicas (Bukhari, Muslim) que compilaram, ordenaram por temas jurídicos e verificaram cadeias já registadas em obras anteriores."
           }
         ],
-        "generalRule": "Uno storico che pubblica oggi lettere del Settecento non inventa le lettere, le documenta.",
-        "errorToAvoid": "Credere che vi sia stato un vuoto storico di duecento anni prima di Al-Bukhari."
+        "generalRule": "O facto de uma enciclopédia ser publicada no século XXI não significa que os acontecimentos históricos que documenta tenham nascido no século XXI.",
+        "errorToAvoid": "Assemelhar a data de falecimento de um compilador à data de criação dos documentos que compilou."
       },
       "centralPrinciple": {
-        "title": "La continuità documentaria è attestata fin dal primo secolo dell'Egira",
-        "formalScheme": "1. I Compagni scrissero migliaia di hadith con il consenso del Profeta (Suhuf).\n2. I successori (Tabi'un) studiarono e trascrissero sistematicamente queste fonti.\n3. Al-Bukhari verificò manoscritti e catene orali preesistenti con una metodologia senza pari.",
-        "explanation": "Il ritrovamento del manoscritto della Sahifa di Hammam ibn Munabbih (m. 101 H., allievo di Abu Huraira) ha provato che i testi coincidono parola per parola con Al-Bukhari.",
-        "logicalTest": "La medesima catena storica di testimoni (Isnad) che ci ha trasmesso gli Hadith ci ha trasmesso anche le letture del Corano (es. Hafs da 'Asim)!"
+        "title": "A transmissão do Hadith foi contínua, duplamente verificada e documentada desde a época profética",
+        "formalScheme": "1. Os Companheiros registaram Hadiths por escrito e memorizaram-nos com exatidão em vida do Profeta ﷺ.\n2. A geração seguinte (os Tabi'un) reuniu estes escritos em obras precoces (como a Sahifa de Hammam ibn Munabbih e o Muwatta').\n3. Bukhari e Muslim não inventaram nada: verificaram e classificaram cadeias de transmissão preexistentes e universalmente conhecidas.",
+        "explanation": "A descoberta no século XX da Sahifa de Hammam ibn Munabbih (manuscrito do século I da Hégira, transmitido por Abu Hurayrah) demonstrou empiricamente que os Hadiths registados por Bukhari coincidem palavra por palavra com os cadernos escritos quase dois séculos antes.",
+        "logicalTest": "Como explicam os coranistas que o Alcorão, compilado em Mushafs oficiais sob 'Uthman (20 anos após a morte do Profeta), seja aceite por eles se rejeitam a transmissão da mesma geração?"
       },
       "quranicArchitecture": {
-        "title": "Il dovere coranico di verificare scrupolosamente le notizie",
-        "verses": [
-          {
-            "ref": "Surata Al-Hujurat, Versículo 6",
-            "ar": "إِن جَاءَكُمْ فَاسِقٌ بِنَبَإٍ فَتَبَيَّنُوا",
-            "translation": "Se um perverso vi reca una notizia, verificatela."
-          }
-        ],
-        "consequence": "O Alcorão stesso istituisce il principio della critica testimoniale."
+        "title": "Versículos decisivos e arquitetura alcorânica",
+        "verses": [],
+        "consequence": "Allah atesta a retidão e a fidelidade da geração que transmitiu simultaneamente o Alcorão e a Sunnah."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "A Enciclopédia Storica e gli Archivi",
-          "scenario": "Uno storico pubblica nel 2024 un'edizione critica dei decreti del Senato romano antico.",
-          "logic": "Nessuno accusa lo storico di aver inventato i decreti nel 2024!",
-          "lesson": "La catalogazione tarda dimostra il rigore del metodo, non l'invenzione dei fatti.",
-          "application": "Imam Al-Bukhari ha vagliato e preservato tradizioni trasmesse ininterrottamente."
+          "title": "A Tese de Doutoramento e as Fontes de Arquivo",
+          "scenario": "Um historiador publica hoje uma obra sobre a Segunda Guerra Mundial usando cartas e diários de 1940. Ninguém afirma que a guerra foi inventada hoje.",
+          "logicBox": "Bukhari = Historiador rigoroso | Isnâd e cadernos = Documentos de arquivo verificados.",
+          "lesson": "A data de compilação não determina a antiguidade dos documentos de origem."
+        },
+        {
+          "num": 2,
+          "title": "A Partitura Musical Clássica",
+          "scenario": "Uma editora publica hoje uma edição crítica de Mozart. A obra não nasceu com a tipografia moderna.",
+          "logicBox": "Edição crítica = Sahih Bukhari | Partitura = Transmissão viva.",
+          "lesson": "O trabalho editorial ordena e preserva uma realidade preexistente."
         }
       ],
       "readyResponses": {
-        "quick30s": "Dizer que gli hadith sono stati inventati dopo 200 anni è ignoranza storica! Compagni come Abdullah ibn 'Amr scrivevano la 'Sahifa as-Sadiqa'. Il manoscritto di Hammam ibn Munabbih (del 100 H.) esiste tuttora ed è identico a Bukhari!",
-        "developed": "A civilização islâmica criou a ciência do Isnad e a crítica biográfica ('Ilm ar-Rijal). Migliaia di sapienti hanno dedicato la vita a verificare ogni singolo trasmettitore in base a integrità morale, memoria e contemporaneità."
+        "quick30s": "Dizer que os Hadiths foram escritos 200 anos depois é um erro histórico grosseiro. O registo começou em vida do Profeta ﷺ com os cadernos dos Companheiros como 'Abdullah ibn 'Amr (As-Sâdiqah). Bukhari não inventou as tradições: compilou com rigor metodológico extremo coleções escritas que circulavam desde o primeiro século.",
+        "developed": "A afirmação coranista ignora totalmente a literatura islâmica anterior a Bukhari: o Muwatta' do Imam Malik (m. 179 H), o Musannaf de 'Abd ar-Razzaq (m. 211 H), o Musnad de Ahmad ibn Hanbal (m. 241 H) e dezenas de coleções dos Tabi'un. A ciência do Hadith combinou sempre o suporte escrito com o controlo oral direto (Sama')."
       },
       "objections": [
         {
-          "obj": "Por que il Profeta non ha fatto raccogliere gli hadith in un unico libro come il Corano?",
-          "ans": "Per evitare ogni confusione materiale con il testo coranico durante la fase iniziale della rivelazione."
+          "obj": "Por que razão a Sunnah não foi reunida num único livro oficial como o Alcorão?",
+          "ans": "O Alcorão exigia uma fixação textual fechada; a Sunnah, sendo vasta e aplicada em todos os atos quotidianos, foi transmitida de forma prática e viva por milhares de Companheiros."
+        },
+        {
+          "obj": "A memória humana não é infalível ao longo de várias gerações.",
+          "ans": "Por isso os sábios exigiram a concordância de múltiplas cadeias independentes e o confronto com os cadernos manuscritos originais."
         }
       ],
       "framingQuestions": [
-        "Como è giunto a noi il Corano se non attraverso i medesimi Compagni e trasmettitori?",
-        "Se i trasmettitori fossero stati inaffidabili, come potresti essere certo dell'autenticità del testo arabo del Corano?"
+        "Sabias que a 'Sahifa de Hammam ibn Munabbih', escrita no século I por um discípulo direto de Abu Hurayrah, se conserva hoje e contém exatamente os mesmos hadiths que Bukhari?",
+        "Se a transmissão dos Companheiros não fosse fiável para os Hadiths, através de que meio humano acreditas que te chegou o texto do Alcorão?"
       ],
       "quiz": [
         {
-          "q": "Qual célebre manoscritto del I secolo dell'Egira attesta la precoce scrittura degli Hadith?",
+          "q": "O que significa a completude do Alcorão no quadro legislativo islâmico?",
           "options": [
-            "A Sahifa di Hammam ibn Munabbih (da Abu Huraira).",
-            "Un libro del XIX secolo.",
-            "Un codice romano.",
-            "Non esistono manoscritti."
+            "Que elenca cada detalhe prático sem necessidade de qualquer explicação.",
+            "Que estabelece os princípios fundamentais e impõe a autoridade explicativa do Profeta ﷺ.",
+            "Que revoga a necessidade de obedecer ao Mensageiro.",
+            "Que proíbe o ensino oral dos ritos."
           ],
-          "answer": 0,
-          "explanation": "La Sahifa di Hammam ibn Munabbih (m. 101 H.) è uno dei più antichi manoscritti di hadith conservati."
+          "answer": 1,
+          "explanation": "A completude alcorânica consiste em fixar os princípios universais e em instituir a Sunnah como autoridade explicativa iniludível."
         }
       ],
       "conclusion": {
         "steps": [
-          "A documentação è iniziata all'epoca dei Compagni.",
-          "Il metodo dell'Isnad ha impedito le alterazioni sistematiche.",
-          "Rifiutare la trasmissione storica degli Hadith mina le basi stesse della trasmissione del Corano."
+          "O registo do Hadith começou logo a partir da primeira geração.",
+          "As grandes obras canónicas são o culminar de um processo documental rigoroso.",
+          "O mito dos 200 anos de vazio é uma falsidade histórica desmentida pelos manuscritos."
         ],
-        "finalText": "La critica del Hadith è il sistema di verifica storica più rigoroso dell'antichità.",
-        "punchline": "Considerare Bukhari un inventore equivale a negare tutta la storiografia islamica!"
+        "finalText": "A Sunnah foi preservada pela memória, pela escrita e pela prática ininterrupta.",
+        "punchline": "Dizer que os Hadiths nasceram com Bukhari é tão absurdo como dizer que a história nasceu com os livros de história!"
       },
       "fallacies": [
         "generalisation-abusive",
@@ -849,100 +1278,109 @@ window.I18N_DATA['pt'] = {
       "id": 7,
       "number": "07",
       "slug": "7-interdiction-ecrire-paroles",
-      "theme": "O Contexto da Proibição Temporária de Escrita",
-      "title": "O Profeta proibiu escrever qualquer coisa além do Alcorão?",
-      "shortTitle": "Il presunto divieto di scrittura",
-      "tagline": "A proibição inicial evitou a mistura com o Alcorão; autorizações posteriores revogaram-na expressamente.",
-      "formula": "Uma proibição temporária não é um banimento eterno: o Profeta ordenou mais tarde: «Escrevam para Abu Shah!»",
+      "theme": "A Proibição Inicial de Escrita e Autorização Posterior",
+      "title": "«Não escrevais nada de mim além do Alcorão»: proibiu o Profeta ﷺ a escrita da sua Sunnah?",
+      "shortTitle": "O Hadith sobre a Escrita",
+      "tagline": "A proibição temporária no início da revelação evitou a mistura com o Alcorão, antes de ser expressamente revogada pela ordem geral de escrever.",
+      "formula": "Citar a proibição provisória ocultando a autorização definitiva posterior é o exemplo supremo de 'Cherry-Picking'!",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_7.pdf",
       "theirArgument": {
-        "thesis": "No famoso hadith di Abu Sa'id al-Khudri il Profeta disse: 'Non scrivete nulla da me all'infuori del Corano, e chi ha scritto qualcosa lo cancelli.' Questo dimostrerebbe che gli Hadith sono illeciti!",
-        "verses": [
-          {
-            "ref": "Surata Al-Baqara, Versículo 79",
-            "ar": "فَوَيْلٌ لِّلَّذِينَ يَكْتُبُونَ الْكِتَابَ بِأَيْدِيهِمْ",
-            "translation": "Ai daqueles que escrevem il libro con le loro mani."
-          }
-        ],
-        "realQuestion": "Uma proibição cautelar inicial para evitar mistura com o Alcorão constitui uma proibição perpétua di tramandare la Sunna?"
+        "thesis": "O Profeta ﷺ ordenou taxativamente: 'Não escrevais nada de mim além do Alcorão; e quem tiver escrito algo que o apague' (Hadith de Abu Sa'id al-Khudri em Sahih Muslim). Portanto, toda a literatura do Hadith é uma desobediência direta a uma ordem profética formal.",
+        "verses": [],
+        "realQuestion": "Qual foi o contexto histórico deste hadith e por que razão o mesmo corpus de Hadiths regista numerosas ordens posteriores do Profeta ﷺ que mandavam escrever as suas palavras?"
       },
       "logicalNode": {
-        "title": "Citação selettiva e rifiuto della contestualizzazione storica (Abrogazione)",
+        "title": "Ocultação deliberada da cronologia e dos textos de autorização (Cherry-Picking)",
         "distinctions": [
           {
-            "term": "FASE MECCANA E PRIMA FASE MEDINESE",
-            "desc": "Divieto di annotare hadith sullo stesso supporto del Corano per evitare confusione nei nuovi convertiti."
+            "term": "PROIBIÇÃO TEMPORÁRIA E CIRCUNSTANCIAL",
+            "desc": "No início da revelação em Meca e primeiros momentos de Medina, para evitar que os fiéis misturassem notas proféticas nas mesmas folhas do texto alcorânico."
           },
           {
-            "term": "FASE MATURA DELLA COMUNITÀ",
-            "desc": "Autorizzazione esplicita e ordine del Profeta ﷺ di fissare per iscritto la conoscenza."
+            "term": "AUTORIZAÇÃO GERAL E PERMANENTE",
+            "desc": "Assim que o estilo alcorânico foi perfeitamente assimilado, o Profeta ﷺ ordenou explicitamente aos seus Companheiros que escrevessem os seus ensinamentos."
           }
         ],
-        "generalRule": "Non si può usare un Hadith per invalidare l'autorità di tutti gli Hadith (paradosso logico).",
-        "errorToAvoid": "Citare un hadith come autorità assoluta sostenendo al contempo che nessun hadith ha valore."
+        "generalRule": "Um mandamento proibitivo inicial motivado por uma causa circunstancial perde efeito quando a causa desaparece e sobrevém uma ordem permissiva posterior.",
+        "errorToAvoid": "Utilizar um hadith extraído de Sahih Muslim para rejeitar Sahih Muslim, cometendo uma contradição interna flagrante."
       },
       "centralPrinciple": {
-        "title": "L'autocontraddizione logica dell'argomentazione coranista",
-        "formalScheme": "1. Se l'hadith sul divieto di scrittura è autentico, allora gli hadith hanno valore probatorio.\n2. Se gli hadith non hanno valore, questo hadith non può dimostrare nulla.\n3. Le fonti autentiche provano che il Profeta autorizzò e ordinò la scrittura in seguito.",
-        "explanation": "Il Profeta disse il giorno della liberazione di Mecca: {Scrivete per Abu Shah} (Bukhari & Muslim) e disse ad Abdullah ibn 'Amr: {Scrivi, poiché da questa bocca esce solo la verità!}",
-        "logicalTest": "Se rifiuti categoricamente tutti gli hadith, perché credi fermamente a questo singolo hadith sul divieto di scrivere?"
+        "title": "A autorização profética expressa para fixar a Sunnah por escrito",
+        "formalScheme": "1. A proibição inicial foi preventiva (evitar a confusão material com o Alcorão).\n2. Numerosos relatos autênticos posteriores estabelecem a ordem expressa de redigir Hadiths.\n3. Quem utiliza o hadith da proibição para anular o Hadith destrói-se a si mesmo: se o hadith é autêntico, deve aceitar também os hadiths de autorização.",
+        "explanation": "O Companheiro 'Abdullah ibn 'Amr ibn al-'As dirigiu-se ao Profeta ﷺ e disse: 'Os coraixitas dizem-me: Escreves tudo o que diz o Mensageiro sendo ele um ser humano que fala em estado de agrado e de cólera?'. O Profeta ﷺ apontou para a sua nobre boca com o dedo e disse: 'Escreve! Pois por Aquele em cujas Mãos está a minha alma, dela não sai senão a verdade' (Autenticado por Abu Dawud, Ahmad e Al-Hakim).",
+        "logicalTest": "Se o hadith 'Não escrevais de mim' prova que não se deve seguir os Hadiths, por que razão o coranista acredita nesse hadith que foi transmitido e escrito pelos mesmos sábios do Hadith?"
       },
       "quranicArchitecture": {
-        "title": "Comandi coranici alla documentazione scritta",
+        "title": "Versículos decisivos e arquitetura alcorânica",
         "verses": [
           {
-            "ref": "Surata Al-Baqara, Versículo 282",
-            "ar": "يَا أَيُّهَا الَّذِينَ آمَنُوا إِذَا تَدَايَنتُم بِدَيْنٍ إِلَىٰ أَجَلٍ مُّسَمًّى فَاكْتُبُوهُ",
-            "translation": "Ó vós que credes! Quando contraete un debito a termine prefissato, mettetelo per iscritto."
+            "ref": "Sura An-Nisâʾ, versículo 59",
+            "ar": "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ",
+            "translation": "« Obéissez à Allah et obéissez au Messager. »"
+          },
+          {
+            "ref": "Sura An-Nisâʾ, versículo 65",
+            "ar": "حَتَّىٰ يُحَكِّمُوكَ فِيمَا شَجَرَ بَيْنَهُمْ",
+            "translation": "« Jusqu'à ce qu'ils te prennent pour juge dans leurs différends. »"
           }
         ],
-        "consequence": "Se Allah comanda di scrivere i debiti finanziari, come avrebbe proibito di documentare la Sunna della Sua religione?"
+        "consequence": "Se o Alcorão ordena escrever as transações financeiras materiais, com maior razão a sabedoria profética de salvação eterna merece ser fixada e transmitida."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "O Ditado dell'Insegnante",
-          "scenario": "Un docente dice agli allievi principianti: 'Non prendete appunti a margine ora per non confondere il testo principale'. Poi, quando sono esperti, dice: 'Ora annotate tutto'.",
-          "logic": "L'autorizzazione successiva supera il divieto prudenziale iniziale.",
-          "lesson": "Le misure pedagogiche si adattano alla maturità dei discenti.",
-          "application": "Una volta che il Corano fu memorizzato e consolidato, la registrazione della Sunna divenne universale."
+          "title": "A Escola de Condução: Proibição Provisória",
+          "scenario": "Um instrutor proíbe o aluno principiante de olhar para o GPS nas primeiras aulas para fixar a estrada, antes de lhe ensinar a usá-lo.",
+          "logicBox": "Proibição inicial = Segurança | Autorização posterior = Maturidade.",
+          "lesson": "Uma diretriz pedagógica inicial evolui legitimamente para a autorização."
+        },
+        {
+          "num": 2,
+          "title": "O Envenenador que Invoca o Antídoto",
+          "scenario": "Uma pessoa afirma que todos os medicamentos de uma farmácia são venenos com base no folheto lido nessa mesma farmácia.",
+          "logicBox": "Se a farmácia só vende falsidades, o folheto não tem valor probatório.",
+          "lesson": "Se os livros de Hadiths não fossem fiáveis, o relato 'Não escrevais' não poderia ser usado como prova."
         }
       ],
       "readyResponses": {
-        "quick30s": "Esta objeção se autodestrói: para sustentar que os hadiths são proibidos, é preciso citar um hadith! Ma se accetti gli hadith autentici, devi accettare anche quelli in cui il Profeta ordina: {Legate la conoscenza con la scrittura!} e {Scrivete per Abu Shah!}. Il divieto era solo iniziale per lo stesso foglio.",
-        "developed": "I grandi maestri come l'Imam An-Nawawi hanno spiegato che il divieto iniziale scongiurava mescolanze tra il testo sacro e le parole profetiche. Quando o Alcorão fu ben distinto e noto, il Profeta permise e incoraggiò pienamente la scrittura."
+        "quick30s": "Este argumento encerra uma contradição cómica: usais um Hadith de Sahih Muslim para tentar demonstrar que os Hadiths de Sahih Muslim não são fiáveis! Se esse relato for verdadeiro, deveis aceitar também o relato em que o Profeta diz durante a conquista de Meca: 'Escrevei para Abu Shah', e em que diz a 'Abdullah ibn 'Amr: 'Escreve, pois da minha boca não sai senão a verdade!'. A proibição foi temporária no início para não misturar folhas.",
+        "developed": "Os maiores sábios do Islão explicaram a harmonização perfeita destes textos: a proibição de escrever vigorava no início da missão quando o Alcorão era revelado em fragmentos e existia o risco material de os fiéis anotarem palavras explicativas do Profeta nos mesmos pergaminhos do Alcorão. Quando o Alcorão esteve consolidado e memorizado massivamente, o Profeta ﷺ autorizou e incentivou o registo escrito da sua Sunnah."
       },
       "objections": [
         {
-          "obj": "Por que Abu Bakr e Umar non hanno fatto un libro unico degli hadith come per il Corano?",
-          "ans": "Concentrarono la massima priorità sulla standardizzazione del testo coranico (il Mushaf di Uthman). A Sunna era già custodita nelle memorie e nei quaderni di migliaia di Compagni."
+          "obj": "Abu Bakr e 'Umar queimaram cadernos de hadiths segundo algumas crónicas.",
+          "ans": "Esses relatos são historicamente fracos ou descontextualizados: 'Umar renunciou a impor um código único para evitar que as pessoas descuidassem o Alcorão, não porque considerasse a Sunnah falsa."
+        },
+        {
+          "obj": "Por que razão o Profeta não ditou a Sunnah escriba a escriba como o Alcorão?",
+          "ans": "Porque a Sunnah é um guia vivido em atos, gestos e respostas quotidianas ao longo de 23 anos."
         }
       ],
       "framingQuestions": [
-        "Non noti la contraddizione nell'usare un hadith per sostenere che non bisogna credere agli hadith?",
-        "Por que ignori le decine di testimonianze in cui il Profeta ha ordinato di scrivere?"
+        "Apercebes-te de que para citar 'Não escrevais de mim', estás a reconhecer que este Hadith chegou até ti com autenticidade através dos sábios do Hadith?",
+        "Por que razão ocultas os relatos onde o Profeta ﷺ ordena expressamente: 'Escrevei para Abu Shah'?"
       ],
       "quiz": [
         {
-          "q": "O que respondeu il Profeta ﷺ quando Abu Shah chiese una copia scritta del suo sermone?",
+          "q": "O que significa a completude do Alcorão no quadro legislativo islâmico?",
           "options": [
-            "«Scrivete per Abu Shah!»",
-            "«La scrittura è vietata.»",
-            "«Uscite dalla moschea.»",
-            "Non rispose."
+            "Que elenca cada detalhe prático sem necessidade de qualquer explicação.",
+            "Que estabelece os princípios fundamentais e impõe a autoridade explicativa do Profeta ﷺ.",
+            "Que revoga a necessidade de obedecer ao Mensageiro.",
+            "Que proíbe o ensino oral dos ritos."
           ],
-          "answer": 0,
-          "explanation": "Il Profeta comandò esplicitamente in Sahih Bukhari: 'Scrivete per Abu Shah!'"
+          "answer": 1,
+          "explanation": "A completude alcorânica consiste em fixar os princípios universais e em instituir a Sunnah como autoridade explicativa iniludível."
         }
       ],
       "conclusion": {
         "steps": [
-          "A proibição fu una misura prudenziale temporanea.",
-          "Numerose fonti autentiche attestano l'autorizzazione successiva.",
-          "L'argomento coranista collassa per evidente contraddizione logica."
+          "A proibição inicial foi circunstancial e preventiva.",
+          "O Profeta ﷺ autorizou e ordenou formalmente escrever a sua Sunnah posteriormente.",
+          "Usar um hadith para anular todos os hadiths é uma contradição lógica insustentável."
         ],
-        "finalText": "A Sunna fu registrata con la piena approvazione del Messaggero di Allah.",
-        "punchline": "Usare un hadith per abolire gli hadith è il vertice dell'assurdità logica!"
+        "finalText": "A Sunnah foi registada com o aval e a bênção do próprio Mensageiro ﷺ.",
+        "punchline": "Quem usa um Hadith para destruir o Hadith dá um tiro no seu próprio pé argumentativo!"
       },
       "fallacies": [
         "cherry-picking",
@@ -953,110 +1391,120 @@ window.I18N_DATA['pt'] = {
       "id": 8,
       "number": "08",
       "slug": "8-coran-condamne-hadiths",
-      "theme": "Semântica e Uso Alcorânico da Palavra 'Hadith'",
-      "title": "O Alcorão condena os «hadiths» em versículos como «Em que hadith depois de Allah crerão?»",
-      "shortTitle": "La parola 'Hadith' nel Corano",
-      "tagline": "A palavra árabe 'Hadith' significa discurso; o Alcorão condena os mitos pagãos, não a Sunna profética.",
-      "formula": "Fraude semântica: confundir uma palavra do uso comum com o termo técnico da ciência do Hadith!",
+      "theme": "Divergências Jurisprudenciais e Variantes do Hadith",
+      "title": "«Existem divergências entre sábios e hadiths contraditórios»: isso invalida a Sunnah?",
+      "shortTitle": "Divergências e Contradições Aparentes",
+      "tagline": "As discrepâncias de interpretação jurídica humana e as contradições aparentes resolvidas pelas ciências do Hadith confirmam a sua autenticidade.",
+      "formula": "Se a existência de divergências entre intérpretes invalidasse uma fonte, haveria que rejeitar também o Alcorão, a medicina e o direito universal!",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_8.pdf",
       "theirArgument": {
-        "thesis": "O Alcorão chiede in Sura 45:6 e 77:50: 'A quale hadith dopo Allah e i Suoi versetti crederanno?' La parola 'hadith' sarebbe dunque condannata dal Corano stesso!",
+        "thesis": "Os sábios do Islão divergem em mil assuntos e existem Hadiths que parecem contradizer-se entre si. Se a Sunnah viesse verdadeiramente de Allah, não conteria qualquer discrepância ('Se viesse de outro que não Allah, encontrariam nele muitas contradições', Sura 4:82).",
         "verses": [
           {
-            "ref": "Surata Al-Jathiyah, Versículo 6",
-            "ar": "تِلْكَ آيَاتُ اللَّهِ نَتْلُوهَا عَلَيْكَ بِالْحَقِّ فَبِأَيِّ حَدِيثٍ بَعْدَ اللَّهِ وَآيَاتِهِ يُؤْمِنُونَ",
-            "translation": "Questi sono i versetti di Allah che Noi ti recitiamo in tutta verità. A quale discorso (hadith) dopo Allah e i Suoi versetti crederanno?"
+            "ref": "Sura Al-Jâthiyah, versículo 6",
+            "ar": "تِلْكَ آيَاتُ اللَّهِ نَتْلُوهَا عَلَيْكَ بِالْحَقِّ ۖ فَبِأَيِّ حَدِيثٍ بَعْدَ اللَّهِ وَآيَاتِهِ يُؤْمِنُونَ",
+            "translation": "Porventura não meditam no Alcorão? Se proviesse de outro que não Allah, encontrariam nele muitas contradições."
           },
           {
-            "ref": "Surata Luqman, Versículo 6",
-            "ar": "وَمِنَ النَّاسِ مَن يَشْتَرِي لَهْوَ الْحَدِيثِ",
-            "translation": "Tra gli uomini c'è chi acquista discorsi futili (Lahw al-Hadith)."
+            "ref": "Sura Al-Mursalât, versículo 50",
+            "ar": "فَبِأَيِّ حَدِيثٍ بَعْدَهُ يُؤْمِنُونَ",
+            "translation": "Porventura não meditam no Alcorão? Se proviesse de outro que não Allah, encontrariam nele muitas contradições."
+          },
+          {
+            "ref": "Sura Luqmân, versículo 6",
+            "ar": "وَمِنَ النَّاسِ مَن يَشْتَرِي لَهْوَ الْحَدِيثِ",
+            "translation": "Porventura não meditam no Alcorão? Se proviesse de outro que não Allah, encontrariam nele muitas contradições."
           }
         ],
-        "realQuestion": "Il Corano condanna i discorsi del Suo eletto Messaggero o i futili miti e le menzogne dei politeisti?"
+        "realQuestion": "Acaso as divergências de compreensão dos juristas humanos (Fiqh) ou os casos de revogação legal (Naskh) constituem contradições na fonte divina em si?"
       },
       "logicalNode": {
-        "title": "Sofisma semantico di equivocazione tra linguaggio comune e terminologia tecnica",
+        "title": "Confusão entre contradição ontológica do texto e diversidade interpretativa humana",
         "distinctions": [
           {
-            "term": "LINGUAGGIO ARABO COMUNE (HADITH)",
-            "desc": "Qualsiasi discorso umano, narrazione mondana o favola politeista."
+            "term": "CONTRADIÇÃO INTERNA REAL (DESACREDITAÇÃO)",
+            "desc": "Duas afirmações logicamente incompatíveis sobre o mesmo facto no mesmo momento e sob a mesma relação sem possibilidade de harmonização."
           },
           {
-            "term": "TERMINE TECNICO ISLAMICO (HADITH NABAWI)",
-            "desc": "La testimonianza documentata sui detti, atti e approvazioni del Profeta ﷺ."
+            "term": "DIVERGÊNCIA DE COMPREENSÃO OU CASO DE REVOGAÇÃO",
+            "desc": "Diferentes aplicações consoante o contexto, evolução legislativa progressiva ou diversidade legítima de opiniões dos juristas (Ijtihâd)."
           }
         ],
-        "generalRule": "Un termine coranico non deve essere confuso con un concetto tecnico codificato successivamente.",
-        "errorToAvoid": "Sostenere che il Corano condanni il Profeta per il fatto che i suoi detti furono chiamati 'hadith'."
+        "generalRule": "A existência de divergências entre leitores de um texto não prova que o texto seja defeituoso, mas que a inteligência humana opera com matizes e perspetivas.",
+        "errorToAvoid": "Aplicar um versículo sobre a perfeição do Alcorão (4:82) para negar a legitimidade das ciências metodológicas do direito (Usûl al-Fiqh)."
       },
       "centralPrinciple": {
-        "title": "O Alcorão definisce perfino se stesso 'Hadith'",
-        "formalScheme": "1. O Alcorão chiama se stesso {Ahsan al-Hadith} – il miglior discorso (Sura 39:23).\n2. Chiama le parole del Profeta 'hadith' (Sura 66:3).\n3. Sura 45:6 condanna i miti inventati dai pagani meccani, non l'insegnamento del Profeta.",
-        "explanation": "Chi afferma che Sura 45:6 vieti la Sunna dovrebbe logicamente sostenere che il Corano condanna anche se stesso, dato che si definisce 'Hadith'!",
-        "logicalTest": "Se ogni 'Hadith' fosse un male nel Corano, perché Allah definisce la Sua stessa rivelazione {il miglior discorso / Ahsan al-Hadith} (39:23)?"
+        "title": "A ciência do Hadith dispõe de regras precisas para harmonizar aparentes divergências",
+        "formalScheme": "1. Todo o texto normativo extenso apresenta aparentes contradições a quem não conhece o contexto nem a cronologia.\n2. Os sábios desenvolveram disciplinas especializadas: Mukhtalif al-Hadîth (harmonização), An-Nâsikh wal-Mansûkh (revogação) e Asbâb al-Wurûd (contexto).\n3. Os próprios coranistas divergem radicalmente entre si sobre como orar ou jejuar, provando que o seu método gera um caos infinitamente maior.",
+        "explanation": "Não existe nenhuma contradição real e insolúvel entre dois hadiths autênticos. Quando dois textos parecem diferir, ou um revoga o outro cronologicamente, ou um trata de uma situação particular e o outro de uma regra geral, ou um dos dois relatos carece de autenticidade estrita.",
+        "logicalTest": "Se as divergências invalidam uma fonte, por que razão os próprios coranistas não conseguem pôr-se de acordo sobre o número de orações diárias (uns dizem 3, outros 2, outros 5, outros que é apenas meditação)?"
       },
       "quranicArchitecture": {
-        "title": "Versículos sull'uso nobile e positivo del termine 'Hadith'",
+        "title": "Versículos decisivos e arquitetura alcorânica",
         "verses": [
           {
-            "ref": "Surata Az-Zumar, Versículo 23",
-            "ar": "اللَّهُ نَزَّلَ أَحْسَنَ الْحَدِيثِ كِتَابًا مُّتَشَابِهًا",
-            "translation": "Allah fez descer il miglior discorso (Ahsan al-Hadith), un Libro coerente."
-          },
-          {
-            "ref": "Surata Ad-Duha, Versículo 11",
-            "ar": "وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ",
-            "translation": "E quanto alla grazia del tuo Signore, proclamala (Haddith)."
+            "ref": "Sura Al-Jâthiyah, versículo 6",
+            "ar": "فَبِأَيِّ حَدِيثٍ بَعْدَ اللَّهِ وَآيَاتِهِ يُؤْمِنُونَ",
+            "translation": "« En quel discours, après Allah et Ses versets, croiront-ils donc ? »"
           }
         ],
-        "consequence": "La parola 'hadith' assume significato positivo o negativo a seconda del contesto."
+        "consequence": "Allah mostra no Alcorão que dois profetas justos podem emitir juízos jurídicos diferentes perante o mesmo caso sem que nenhum seja qualificado de herético."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "A Lei contro le Notizie False",
-          "scenario": "Una legge punisce chi diffonde 'notizie ingannevoli'.",
-          "logic": "Significa forse che tutti i notiziari autentici o le ricerche scientifiche sono proibiti?",
-          "lesson": "Condannare le falsità non significa condannare la verità.",
-          "application": "Il Corano mette in guardia dalle favole pagane, non dalle parole veritiere del Messaggero."
+          "title": "Os Magistrados do Tribunal Constitucional",
+          "scenario": "Os magistrados leem o mesmo artigo da Constituição e emitem pareceres fundamentados com diferentes perspetivas.",
+          "logicBox": "Divergência de juristas ≠ Falsidade da Constituição.",
+          "lesson": "A pluralidade de interpretações reflete a riqueza do direito."
+        },
+        {
+          "num": 2,
+          "title": "A Consulta Médica",
+          "scenario": "Três cirurgiões debatem o momento exato para operar um doente após consultar os mesmos exames clínicos.",
+          "logicBox": "Consulta clínica = Ijtihâd dos sábios.",
+          "lesson": "Ninguém queima os livros de medicina porque os médicos deliberam sobre casos complexos."
         }
       ],
       "readyResponses": {
-        "quick30s": "A palavra 'Hadith' in arabo significa semplicemente 'discorso' o 'racconto'. O Alcorão definisce se stesso 'Ahsan al-Hadith' (39:23)! Dizer que il Corano condanna gli hadith profetici è un gioco di parole infantile. O Alcorão condanna le fandonie dei miscredenti!",
-        "developed": "In Sura Al-Jathiyah Allah rimprovera gli idolatri che rifiutavano i Suoi versetti. A quali miti e favole (hadith) crederanno se rifiutano Dio? Applicare questo rimprovero alle parole del Suo amato Messaggero è una totale distorsione."
+        "quick30s": "As divergências entre sábios não são contradições da Sunnah: são a manifestação natural da reflexão jurídica humana (Ijtihâd). Os próprios coranistas, que pretendem guiar-se apenas pelo Alcorão, divergem entre si infinitamente mais do que todos os sábios muçulmanos!",
+        "developed": "Nas ciências islâmicas existe uma disciplina inteira chamada 'Fiqh al-Ikhtilâf' (Ética da Divergência) e 'Mukhtalif al-Hadîth' para tratar as contradições aparentes. Os sábios estabeleceram uma regra de ouro: 'O princípio base perante dois textos é a harmonização mútua; se não for possível, analisa-se a cronologia da revogação; caso contrário, prefere-se o relato com maior grau de certeza'."
       },
       "objections": [
         {
-          "obj": "Ma perché allora i sapienti hanno chiamato gli insegnamenti del Profeta 'Hadith'?",
-          "ans": "Perché il Profeta stesso usava questo termine comune, come nel celebre hadith in cui risponde ad Abu Huraira parlando di questo 'hadith'."
+          "obj": "Um hadith diz que o Profeta orou de uma forma e outro que orou de outra.",
+          "ans": "O Profeta ﷺ ensinou diferentes variantes legítimas para facilitar a prática à comunidade em momentos diferentes."
+        },
+        {
+          "obj": "As quatro escolas jurídicas divergem em muitos pontos da oração.",
+          "ans": "Divergem em atos recomendados secundários, mas estão em consenso unânime absoluto (Ijmâ') sobre as 5 orações, o número de rak'at e os pilares essenciais."
         }
       ],
       "framingQuestions": [
-        "Se la parola 'hadith' fosse sempre spregevole, perché Allah chiama il Suo Libro {il miglior discorso} (39:23)?",
-        "Credi davvero che le parole del Profeta Muhammad ﷺ appartengano ai 'futili discorsi' dei pagani?"
+        "Quantas orações por dia praticas com os teus correligionários coranistas e como justificas que outros coranistas defendam um número totalmente diferente baseando-se no mesmo Alcorão?",
+        "Conheces as regras de 'Mukhtalif al-Hadîth' desenvolvidas pelo Imam Ash-Shafi'i para resolver as divergências aparentes?"
       ],
       "quiz": [
         {
-          "q": "Como define se stesso il Corano in Sura Az-Zumar, Versetto 23?",
+          "q": "O que significa a completude do Alcorão no quadro legislativo islâmico?",
           "options": [
-            "Ahsan al-Hadith (il miglior discorso)",
-            "Lahw al-Hadith (discorso futile)",
-            "Un mito",
-            "Una poesia comune"
+            "Que elenca cada detalhe prático sem necessidade de qualquer explicação.",
+            "Que estabelece os princípios fundamentais e impõe a autoridade explicativa do Profeta ﷺ.",
+            "Que revoga a necessidade de obedecer ao Mensageiro.",
+            "Que proíbe o ensino oral dos ritos."
           ],
-          "answer": 0,
-          "explanation": "Nella Sura 39:23 Allah qualifica il Corano come 'Ahsan al-Hadith'."
+          "answer": 1,
+          "explanation": "A completude alcorânica consiste em fixar os princípios universais e em instituir a Sunnah como autoridade explicativa iniludível."
         }
       ],
       "conclusion": {
         "steps": [
-          "'Hadith' è una comune parola araba che indica un discorso.",
-          "O Alcorão condanna i discorsi ingannevoli dei miscredenti.",
-          "Confondere questo con la Sunna è un inganno intellettuale."
+          "A aparente contradição dissolve-se mediante o método dos sábios.",
+          "A divergência interpretativa é inerente a qualquer compreensão jurídica humana.",
+          "O coranismo sem Sunnah produz uma anarquia interpretativa total."
         ],
-        "finalText": "Le parole del Messaggero sono la più alta verità umana dopo il Corano.",
-        "punchline": "Rovescettare versetti sui pagani contro il Profeta è il marchio distintivo dei manipolatori!"
+        "finalText": "A ciência do Hadith não teme o exame crítico: fornece as ferramentas para a sua resolução.",
+        "punchline": "Quem foge das discrepâncias do Fiqh para cair no coranismo salta de uma gota de água para um oceano de contradições!"
       },
       "fallacies": [
         "equivoque-lexicale",
@@ -1068,110 +1516,125 @@ window.I18N_DATA['pt'] = {
       "id": 9,
       "number": "09",
       "slug": "9-corrections-divines",
-      "theme": "Status Profético e Supervisão Divina Ativa",
-      "title": "As correções divinas dirigidas ao Profeta provam que ele não tem autoridade religiosa?",
-      "shortTitle": "Rimproveri divini ('Abasa)",
-      "tagline": "As repreensões alcorânicas comprovam a supervisão divina ativa e garantem a infalibilidade da mensagem transmitida.",
-      "formula": "O fato de Allah ter corrigido Seu Profeta de imediato garante que tudo o que ele ensinou tinha aprovação divina!",
+      "theme": "Epistemologia: Conjetura (Dhann) vs Certeza Jurídica",
+      "title": "Será o Hadith uma simples conjetura (Dhann) oposta à certeza (Yaqîn) do Alcorão?",
+      "shortTitle": "Epistemologia: Dhann e Certeza",
+      "tagline": "O 'Dhann' condenado no Alcorão é a superstição pagã sem provas; na jurisprudência, a probabilidade preponderante (Ghalabat adh-Dhann) é a base obrigatória da ação.",
+      "formula": "Confundir a conjetura idólatra condenada pelo Alcorão com a probabilidade jurídica preponderante é uma armadilha linguística monumental!",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_9.pdf",
       "theirArgument": {
-        "thesis": "O Alcorão rimprovera il Profeta nella Sura 'Abasa (per essersi distolto dal cieco) e nella Sura At-Tahrim. Ciò proverebbe che le sue decisioni erano fallibili e non possono costituire fonte di religione.",
+        "thesis": "A maioria dos Hadiths são narrações singulares (Ahâd) que fornecem apenas um conhecimento conjetural ou provável (Dhann). Ora, o Alcorão condena formalmente o seguimento da conjetura ('A conjetura não aproveita em nada perante a Verdade', Sura 10:36). Portanto, não se pode fundamentar a religião em Hadiths.",
         "verses": [
           {
-            "ref": "Surata 'Abasa, Versículos 1-2",
-            "ar": "عَبَسَ وَتَوَلَّىٰ * أَن جَاءَهُ الْأَعْمَىٰ",
-            "translation": "Ele franziu a testa e virou as costas, perché venne a lui il cieco."
+            "ref": "Sura ʿAbasa, versículos 1-2",
+            "ar": "عَبَسَ وَتَوَلَّىٰ أَن جَاءَهُ الْأَعْمَىٰ",
+            "translation": "E a maioria deles apenas segue conjeturas; certamente a conjetura em nada aproveita perante a Verdade."
           },
           {
-            "ref": "Surata At-Tahrim, Versículo 1",
-            "ar": "يَا أَيُّهَا النَّبِيُّ لِمَ تُحَرِّمُ مَا أَحَلَّ اللَّهُ لَكَ",
-            "translation": "O Profeta, perché ti proibisci ciò che Allah ti ha reso lecito?"
+            "ref": "Sura At-Tawbah, versículo 43",
+            "ar": "عَفَا اللَّهُ عَنكَ لِمَ أَذِنتَ لَهُمْ",
+            "translation": "E a maioria deles apenas segue conjeturas; certamente a conjetura em nada aproveita perante a Verdade."
+          },
+          {
+            "ref": "Sura At-Taḥrîm, versículo 1",
+            "ar": "يَا أَيُّهَا النَّبِيُّ لِمَ تُحَرِّمُ مَا أَحَلَّ اللَّهُ لَكَ",
+            "translation": "E a maioria deles apenas segue conjeturas; certamente a conjetura em nada aproveita perante a Verdade."
           }
         ],
-        "realQuestion": "I rimproveri divini nel Corano provano l'inaffidabilità del Profeta o al contrario l'assoluto controllo divino sulla sua missione?"
+        "realQuestion": "A que tipo de 'Dhann' se referem estes versículos alcorânicos e que valor epistémico atribui o Islão aos testemunhos autenticamente verificados para a prática jurídica?"
       },
       "logicalNode": {
-        "title": "Confusão tra giudizio umano sotto tutela e fallibilità dottrinale incontrollata",
+        "title": "Equívoco semântico entre conjetura idolátrica infundada e probabilidade probatória preponderante",
         "distinctions": [
           {
-            "term": "GIUDIZIO PERSONALE DEL PROFETA (IJTIHAD)",
-            "desc": "Le sue scelte pratiche quotidiane, immediatamente guidate o corrette dalla rivelazione ove necessario."
+            "term": "DHANN CONDENADO (FANTASIA E SUPERSTIÇÃO DOGMÁTICA)",
+            "desc": "Crenças pagãs sem qualquer vestígio de revelação divina nem prova racional."
           },
           {
-            "term": "IMPECCABILITÀ DOTTRINALE ('ISMAH)",
-            "desc": "Tutti i precetti e gli insegnamenti religiosi trasmessi alla comunità godono di protezione divina infallibile."
+            "term": "GHALABAT ADH-DHANN (CERTEZA PRÁTICA PREPONDERANTE)",
+            "desc": "O testemunho verificado de pessoas dignas de confiança que obriga a agir no direito, nos julgamentos e na vida diária."
           }
         ],
-        "generalRule": "Un delegato i cui minimi scostamenti vengono corretti all'istante dal Sovrano trasmette una legge immune da errori.",
-        "errorToAvoid": "Ignorare che l'assenza di correzione equivale all'approvazione formale di Dio."
+        "generalRule": "Toda a vida humana e a justiça legal operam sobre testemunhos de elevada probabilidade verificada; exigir certeza matemática para cada detalhe paralisaria o mundo.",
+        "errorToAvoid": "Utilizar versículos que censuram o paganismo politeísta para desqualificar a transmissão metódica dos ensinamentos proféticos."
       },
       "centralPrinciple": {
-        "title": "La correzione divina è la massima prova dell'autenticità della Sunna",
-        "formalScheme": "1. Se o Profeta fizesse uma escolha não ideal, a revelazione intervinha imediatamente (es. Sura 'Abasa).\n2. Dove la rivelazione non è intervenuta, il suo comportamento è pienamente confermato da Allah.\n3. Portanto, la Sunna tramandata è nella sua totalità divinamente convalidata.",
-        "explanation": "Se il Profeta avesse potuto introdurre errori nella religione, il Corano non ne avrebbe registrato i momenti di rettifica personale per l'eternità.",
-        "logicalTest": "Se il Profeta avesse inventato versetti, perché avrebbe dovuto tramandare versetti che rimproverano se stesso?"
+        "title": "O Alcorão e o Profeta obrigam a agir com base em testemunhos fidedignos singulares",
+        "formalScheme": "1. O Alcorão ordena verificar as notícias e agir quando o informador é digno de crédito (49:6).\n2. O Profeta ﷺ enviava governadores e emissários individuais (como Mu'adh ibn Jabal ao Iémen) para ensinar a religião a regiões inteiras.\n3. Portanto, o testemunho verificado (Hadith Ahad autêntico) é plenamente vinculativo na legislação islâmica.",
+        "explanation": "Se as notícias individuais fiáveis não tivessem valor, os habitantes do Iémen não teriam tido a obrigação de aceitar o Islão da boca de Mu'adh (que era um único emissário), e nenhum tribunal do mundo poderia julgar com base no testemunho de testemunhas verídicas.",
+        "logicalTest": "Quando compras comida rotulada ou tomas um medicamento na farmácia, tens certeza matemática absoluta ou baseias-te na probabilidade fidedigna dos certificados de controlo?"
       },
       "quranicArchitecture": {
-        "title": "Versículos sulla protezione infallibile delle parole del Profeta nella religione",
+        "title": "Versículos decisivos e arquitetura alcorânica",
         "verses": [
           {
-            "ref": "Surata An-Najm, Versículos 3-4",
-            "ar": "وَمَا يَنطِقُ عَنِ الْهَوَىٰ * إِنْ هُوَ إِلَّا وَحْيٌ يُوحَىٰ",
-            "translation": "E não fala por paixão: non è che una rivelazione ispirata."
+            "ref": "Sura An-Najm, versículos 3-4",
+            "ar": "وَمَا يَنطِقُ عَنِ الْهَوَىٰ إِنْ هُوَ إِلَّا وَحْيٌ يُوحَىٰ",
+            "translation": "« Et il ne prononce rien sous l'effet de la passion ; ce n'est rien d'autre qu'une révélation inspirée. »"
           },
           {
-            "ref": "Surata Al-Haqqah, Versículos 44-46",
-            "ar": "وَلَوْ تَقَوَّلَ عَلَيْنَا بَعْضَ الْأَقَاوِيلِ * لَأَخَذْنَا مِنْهُ بِالْيَمِينِ * ثُمَّ لَقَطَعْنَا مِنْهُ الْوَتِينَ",
-            "translation": "Se avesse inventato qualche detto contro di Noi, lo avremmo afferrato per la destra e gli avremmo reciso l'aorta."
+            "ref": "Sura Al-Ḥâqqah, versículos 44-46",
+            "ar": "وَلَوْ تَقَوَّلَ عَلَيْنَا بَعْضَ الْأَقَاوِيلِ لَأَخَذْنَا مِنْهُ بِالْيَمِينِ ثُمَّ لَقَطَعْنَا مِنْهُ الْوَتِينَ",
+            "translation": "« Et s'il avait forgé contre Nous quelques paroles, Nous l'aurions saisi de la main droite, puis Nous lui aurions tranché l'aorte. »"
           }
         ],
-        "consequence": "Allah garantisce con la Sua onnipotenza l'infallibilità del Profeta nella trasmissione della religione."
+        "consequence": "O Alcorão prescreve que pequenos grupos instruídos regressem e ensinem com autoridade a comunidades inteiras."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "O Comandante di Volo e la Torre di Controllo",
-          "scenario": "Um piloto conduz o avião com a torre de controle monitorando constantemente a rota e corregge ogni deviazione via radio.",
-          "logic": "I passeggeri sanno che il silenzio della torre certifica la perfetta sicurezza della traiettoria.",
-          "lesson": "Il monitoraggio costante garantisce la conformità della rotta.",
-          "application": "La tutela divina ha garantito che la prassi profetica rimanesse esente da errori dottrinali."
+          "title": "O Testemunho nos Tribunais de Justiça",
+          "scenario": "Um tribunal condena um homicida com base em testemunhos concordantes e perícias. Ninguém exige que o juiz tenha visto o crime com os seus próprios olhos.",
+          "logicBox": "Certeza judicial suficiente = Cadeia de transmissão autêntica (Isnâd Sahih).",
+          "lesson": "Rejeitar a probabilidade preponderante obrigaria a libertar todos os criminosos."
+        },
+        {
+          "num": 2,
+          "title": "O Diagnóstico Médico e as Análises",
+          "scenario": "Um médico receita um antibiótico com base num exame de laboratório com 99% de fiabilidade.",
+          "logicBox": "Probabilidade científica fundada = Guia obrigatório para a ação.",
+          "lesson": "O bom senso exige agir de acordo com a evidência mais sólida."
         }
       ],
       "readyResponses": {
-        "quick30s": "A presença de repreensões como na Surata 'Abasa é a prova mais luminosa da sinceridade do Profeta! Se avesse alterato la rivelazione, Allah {gli avrebbe reciso l'aorta} (69:46). La sua Sunna approvata gode della piena sanzione divina!",
-        "developed": "Le rettifiche divine riguardavano questioni di priorità pratica personale, mai la corruzione della dottrina. Che Allah abbia immortalato questi episodi dimostra che il Profeta non cercava la gloria personale ma viveva sotto la diretta guida di Dio."
+        "quick30s": "No Alcorão, o 'Dhann' condenado na Sura Yunus é a conjetura idolátrica infundada dos pagãos que adoravam estátuas sem qualquer prova. Mas no direito e na vida humana, agir com base em testemunhos de pessoas honradas é uma ordem alcorânica (Sura 49, V.6). O Profeta ﷺ enviava um único companheiro para ensinar a tribos inteiras.",
+        "developed": "Os epistemólogos muçulmanos distinguem entre 'Adh-Dhann al-Batil' (a suspeita infundada e o capricho) e 'Ghalabat adh-Dhann' (a certeza moral preponderante). Todo o direito humano, a medicina, a transmissão histórica e a vida civil assentam na confiança crítica em transmissores fidedignos. Se rejeitássemos tudo o que não fosse certeza matemática absoluta, terias de duvidar até da identidade dos teus próprios pais."
       },
       "objections": [
         {
-          "obj": "Sura At-Tahrim non dimostra che ha proibito cose di sua iniziativa?",
-          "ans": "Il Profeta si era solo imposto un'astensione privata da una bevanda per compiacere le mogli; non aveva promulgato un divieto per la comunità."
+          "obj": "No dogma fundamental ('Aqidah) exige-se certeza absoluta (Qat'î).",
+          "ans": "Os grandes pilares do dogma estão provados por textos categóricos com cadeias de massa (Tawâtur). Mas os detalhes práticos regem-se legitimamente por Hadiths autênticos fiáveis."
+        },
+        {
+          "obj": "Uma testemunha honesta pode errar involuntariamente.",
+          "ans": "Por isso os sábios cruzaram as versões de múltiplos companheiros para descartar qualquer erro de memória."
         }
       ],
       "framingQuestions": [
-        "Se il Profeta fosse stato un impostore, perché avrebbe inserito nel Corano versetti che rimproverano se stesso?",
-        "Il tempestivo intervento di Allah non dimostra forse che tutto il resto del suo insegnamento era pienamente voluto e approvato da Dio?"
+        "Por que razão enviou o Profeta ﷺ Mu'adh ibn Jabal como único emissário ao Iémen para lhes ensinar a fé se o testemunho singular não tivesse valor?",
+        "Como sabes que a tradução portuguesa do Alcorão que lês está correta sem confiar no testemunho humano dos tradutores?"
       ],
       "quiz": [
         {
-          "q": "O que demonstram versetti come Sura 'Abasa sulla missione profetica?",
+          "q": "O que significa a completude do Alcorão no quadro legislativo islâmico?",
           "options": [
-            "Che la sua missione era sotto un controllo divino attivo e severo.",
-            "Che non bisogna più obbedirgli.",
-            "Che ha scritto il Corano da solo.",
-            "Che il Corano è incompleto."
+            "Que elenca cada detalhe prático sem necessidade de qualquer explicação.",
+            "Que estabelece os princípios fundamentais e impõe a autoridade explicativa do Profeta ﷺ.",
+            "Que revoga a necessidade de obedecer ao Mensageiro.",
+            "Que proíbe o ensino oral dos ritos."
           ],
-          "answer": 0,
-          "explanation": "Provano che il Profeta era sotto la costante guida e tutela di Allah."
+          "answer": 1,
+          "explanation": "A completude alcorânica consiste em fixar os princípios universais e em instituir a Sunnah como autoridade explicativa iniludível."
         }
       ],
       "conclusion": {
         "steps": [
-          "Il Profeta operava sotto costante vigilanza divina.",
-          "Le correzioni sono state pubbliche e immediate.",
-          "La Sunna convalidata è interamente approvata da Allah."
+          "O Alcorão condena a suposição pagã cega, não o testemunho verídico.",
+          "O método do Hadith exige provas conclusivas e testemunhas fiáveis.",
+          "Agir em conformidade com o testemunho rigoroso é um princípio fundamental do Alcorão."
         ],
-        "finalText": "I rimproveri divini rafforzano l'autorevolezza della religione rivelata.",
-        "punchline": "Le rettifiche divine non sminuiscono l'autorità del Profeta: ne sono il sigillo di autenticità!"
+        "finalText": "O Hadith autêntico fornece a certeza moral e prática necessária para servir Allah.",
+        "punchline": "Quem confunde a superstição pagã com o rigor científico do Isnâd comete um erro imperdoável!"
       },
       "fallacies": [
         "generalisation-abusive",
@@ -1183,100 +1646,109 @@ window.I18N_DATA['pt'] = {
       "id": 10,
       "number": "10",
       "slug": "10-priere-pratique-communautaire",
-      "theme": "Prática Ritual e Tawâtur Vivo",
-      "title": "A oração e os ritos são transmitidos pela prática comunitária e não pelos hadiths?",
-      "shortTitle": "Preghiera & Tawâtur 'Amalî",
-      "tagline": "A prática profética da oração transmitida de geração em geração é a própria definição da Sunna viva (Tawâtur 'Amalî).",
-      "formula": "A prática ritual transmitida pela comunidade É a Sunna viva; separá-la dos Hadiths é uma contradição insustentável!",
+      "theme": "A Prova Prática Irrefutável: A Oração e os Ritos",
+      "title": "A oração sem a Sunnah: o beco sem saída dos coranistas",
+      "shortTitle": "A Oração sem a Sunnah",
+      "tagline": "O Alcorão ordena a oração em dezenas de versículos, mas delega todas as suas modalidades práticas à Sunnah viva.",
+      "formula": "O facto de os muçulmanos rezarem de forma idêntica em todo o planeta há catorze séculos é a prova viva e indestrutível da Sunnah!",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_10.pdf",
       "theirArgument": {
-        "thesis": "Não precisamos dei libri di hadith per pregare! La preghiera ci è stata trasmessa dalla pratica vivente della comunità di generazione in generazione, non da resoconti cartacei.",
-        "verses": [
-          {
-            "ref": "Surata Al-Baqara, Versículo 43",
-            "ar": "وَأَقِيمُوا الصَّلَاةَ وَآتُوا الزَّكَاةَ وَارْكَعُوا مَعَ الرَّاكِعِينَ",
-            "translation": "E cumpri a oração, versate la decima e inchinatevi con coloro che si inchinano."
-          }
-        ],
-        "realQuestion": "La trasmissione pratica comunitaria ininterrotta (Tawatur 'Amali) è forse cosa diversa dalla Sunna del Profeta?"
+        "thesis": "Podemos praticar a oração muçulmana (Salât) utilizando exclusivamente o texto do Alcorão. A Sunnah não é necessária para orar, ou a oração é uma simples invocação espiritual livre sem gestos fixos nem número de unidades predeterminado.",
+        "verses": [],
+        "realQuestion": "É possível reconstruir com rigor os detalhes das 5 orações diárias (número de orações, de rak'at, horários exatos, recitações, inclinações e prostrações) a partir exclusivamente do texto do Alcorão?"
       },
       "logicalNode": {
-        "title": "Cisão fittizia tra Sunna vivente e documentazione del Hadith",
+        "title": "A impossibilidade empírica e prática da autossuficiência textual",
         "distinctions": [
           {
-            "term": "PRÁTICA VIVA (TAWÂTUR 'AMALÎ)",
-            "desc": "Gli atti rituali (5 preghiere, orari, rak'at) praticati e trasmessi da milioni di credenti ininterrottamente."
+            "term": "MANDAMENTO ALCORÂNICO NORMATIVO (O PRINCÍPIO)",
+            "desc": "A ordem divina imutável que estabelece a obrigação absoluta da oração."
           },
           {
-            "term": "DOCUMENTAZIONE SCRITTA (HADITH)",
-            "desc": "La codificazione, descrizione e precisione testuale di quella medesima prassi profetica."
+            "term": "SUNNAH MUTAWÂTIRAH VIVA (A EXECUÇÃO)",
+            "desc": "A transmissão prática ininterrupta de geração em geração que ensina exatamente como orar."
           }
         ],
-        "generalRule": "Non si può convalidare una prassi rituale rigettando la fonte normativa che ne ha fissato i canoni.",
-        "errorToAvoid": "Credere che affidarsi alla tradizione comunitaria non equivalga ad affidarsi alla Sunna profetica."
+        "generalRule": "Quando uma ordem legal exige um ato formal mas não define os seus elementos constitutivos, a remissão para a fonte explicativa acreditada é forçosa.",
+        "errorToAvoid": "Inventar uma forma individualista de oração desconectada da história para salvar uma ideologia teórica."
       },
       "centralPrinciple": {
-        "title": "L'ammissione della trasmissione pratica demolisce il dogma coranista",
-        "formalScheme": "1. O Alcorão non menziona né i 5 momenti della preghiera né il numero delle rak'at (2, 4, 4, 3, 4).\n2. Il coranista ammette di ricevere questa pratica dalla tradizione della comunità.\n3. Tale tradizione risale unicamente all'ordine profetico {Pregate come avete visto pregare me}.\n4. Il coranista ammette dunque che il testo coranico da solo non basta per la pratica religiosa!",
-        "explanation": "Accettando la trasmissione della prassi, il coranista confuta la sua stessa tesi secondo cui solo il testo del Corano è vincolante.",
-        "logicalTest": "Dimostra la sequenza esatta della preghiera (Fatiha, Ruku', due Sujud, Tashahhud) basandoti esclusivamente sui versetti coranici senza fare ricorso alla tradizione!"
+        "title": "A oração é a refutação viva e quotidiana do coranismo a cada inclinação",
+        "formalScheme": "1. O Alcorão impõe orar mas não especifica as unidades nem as fórmulas completas.\n2. O Profeta ﷺ declarou publicamente perante milhares de fiéis: 'Rezai exatamente como me vistes rezar' (Sahih Al-Bukhari).\n3. A comunidade muçulmana transmitiu este ato milhões de vezes ao dia sem interrupção até aos nossos dias.",
+        "explanation": "Nenhum coranista no mundo pode justificar por que razão reza quatro unidades ao meio-dia, quatro à tarde, três ao entardecer, quatro à noite e duas ao alvorecer consultando unicamente o Alcorão. Ao realizar estas orações quotidianas, o coranista demonstra com os seus próprios atos que a Sunnah é absolutamente imprescindível.",
+        "logicalTest": "Desafio a qualquer coranista: Escreva num papel as instruções precisas para realizar uma oração completa do início ao fim utilizando unicamente citações literais do Alcorão!"
       },
       "quranicArchitecture": {
-        "title": "Versículos sulla preghiera come dovere dai tempi determinati",
+        "title": "Versículos decisivos e arquitetura alcorânica",
         "verses": [
           {
-            "ref": "Surata An-Nisa, Versículo 103",
-            "ar": "إِنَّ الصَّلَاةَ كَانَتْ عَلَى الْمُؤْمِنِينَ كِتَابًا مَّوْقُوتًا",
-            "translation": "Por certo a oração è per i credenti un dovere a tempi determinati."
+            "ref": "Sura Al-Aḥzâb, versículo 21",
+            "ar": "لَّقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ",
+            "translation": "« Vous avez certes dans le Messager d'Allah un excellent modèle. »"
+          },
+          {
+            "ref": "Sura An-Naḥl, versículo 44",
+            "ar": "لِتُبَيِّنَ لِلنَّاسِ مَا نُزِّلَ إِلَيْهِمْ",
+            "translation": "« Afin que tu exposes clairement aux gens ce qui leur a été révélé. »"
           }
         ],
-        "consequence": "La determinazione di questi tempi e forme è avvenuta mediante la Sunna del Messaggero."
+        "consequence": "Os horários e modalidades da oração são uma prescrição fixa transmitida pela Sunnah profética ininterrupta (Tawâtur 'Amalî)."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "O Aprendizado della Lingua Materna",
-          "scenario": "Un bambino impara la lingua viva dai genitori e dall'ambiente, e in seguito ne apprende la grammatica codificata nei libri.",
-          "logic": "Dire che i libri di grammatica sono falsi perché si parla già la lingua ignora che entrambi descrivono la medesima realtà.",
-          "lesson": "Pratica viva e documentazione scritta si confermano a vicenda.",
-          "application": "Gli hadith documentano e tutelano esattamente la prassi della preghiera vissuta dalla comunità."
+          "title": "A Receita do Grande Chef",
+          "scenario": "Uma receita diz 'Prepare uma massa folhada perfeita'. Sem as proporções e dobras que o mestre ensina, a massa será intragável.",
+          "logicBox": "Ordem = Prepara a massa | Técnica magistral = Sunnah profética.",
+          "lesson": "Um mandamento geral sem a técnica ensinada não produz o resultado esperado."
+        },
+        {
+          "num": 2,
+          "title": "O Exame Prático de Condução",
+          "scenario": "O código da estrada diz 'Estacione corretamente'. Quem se recusa a aprender a manobra com o instrutor reprovará.",
+          "logicBox": "A prática demonstrada confere eficácia à norma escrita.",
+          "lesson": "A adoração a Allah aprende-se através da imitação do Seu Mensageiro."
         }
       ],
       "readyResponses": {
-        "quick30s": "Quando você diz 'Preghiamo per pratica comunitaria e non per mezzo degli hadith', hai già abbandonato il coranismo! Ammetti che il Corano da solo non basta e che hai bisogno di una fonte storica esterna. Questa prassi è esattamente la Sunna vivente (Tawâtur 'Amalî)!",
-        "developed": "Il Tawâtur 'Amalî è la categoria più elevata della Sunna nel diritto islamico. Gli hadith sono giunti per precisarne i dettagli e le invocazioni. Chi nega gli hadith finisce inevitabilmente per inventare culti arbitrari a 2 o 3 preghiere."
+        "quick30s": "Pergunta a qualquer coranista: 'Como fazes a oração do meio-dia? Quantas unidades fazes? Por que razão quatro e não sete ou três?'. Não encontrará esse número em nenhum versículo do Alcorão. Se faz 4 rak'at, está a seguir a Sunnah; e se não faz 4, inventou uma religião que nenhum muçulmano conheceu.",
+        "developed": "A oração (Salât) é o coração pulsante do Islão. A sua transmissão é de natureza 'Mutawâtir 'Amalî' (transmissão massiva prática): milhões de pais ensinaram aos seus filhos a mesma oração que os Companheiros aprenderam diretamente do Profeta ﷺ na mesquita de Medina. Querer esvaziar a oração dos seus gestos proféticos conduz inevitavelmente ao absurdo de transformar o Islão numa elucubração teórica sem culto real."
       },
       "objections": [
         {
-          "obj": "Non abbiamo forse ereditato la preghiera da Abramo come dice il Corano?",
-          "ans": "Abramo ha istituito il monoteismo e la Casa Sacra. La forma specifica delle preghiere islamiche è stata insegnata da Muhammad ﷺ: {Pregate come avete visto pregare me} (Sahih Bukhari)."
+          "obj": "Não herdámos porventura a oração de Abraão como diz o Alcorão?",
+          "ans": "Abraão instituiu o monoteísmo e os alicerces da Ka'bah, mas os detalhes precisos da oração islâmica final foram ensinados por Muhammad ﷺ: 'Rezai como me vistes rezar'."
+        },
+        {
+          "obj": "A oração no Alcorão significa apenas invocação mental e meditação.",
+          "ans": "Essa interpretação contradiz o próprio Alcorão, que fala de inclinações (Ruku'), prostrações (Sujud) e abluções específicas."
         }
       ],
       "framingQuestions": [
-        "Se segui solo il Corano, perché preghi 4 rak'at a mezzogiorno quando il numero quattro non compare nel Corano per le unità di preghiera?",
-        "Riconosci che pregare come preghi è la prova vivente che la Sunna è indispensabile?"
+        "Se segues apenas o Alcorão, por que razão rezas 4 unidades ao meio-dia quando o número quatro não aparece no Alcorão para as unidades de oração?",
+        "Reconheces que cada vez que te prostras na oração estás a demonstrar que a Sunnah é indispensável?"
       ],
       "quiz": [
         {
-          "q": "O que demonstra il fatto che i musulmani di tutto il mondo preghino 5 volte al giorno nello stesso modo?",
+          "q": "O que significa a completude do Alcorão no quadro legislativo islâmico?",
           "options": [
-            "A autenticidade e la perfetta preservazione della Sunna vivente (Tawâtur 'Amalî).",
-            "Che il Corano elenca tutte le rak'at.",
-            "Che ognuno prega come vuole.",
-            "Una pura coincidenza."
+            "Que elenca cada detalhe prático sem necessidade de qualquer explicação.",
+            "Que estabelece os princípios fundamentais e impõe a autoridade explicativa do Profeta ﷺ.",
+            "Que revoga a necessidade de obedecer ao Mensageiro.",
+            "Que proíbe o ensino oral dos ritos."
           ],
-          "answer": 0,
-          "explanation": "È la prova inoppugnabile della conservazione della Sunna vivente."
+          "answer": 1,
+          "explanation": "A completude alcorânica consiste em fixar os princípios universais e em instituir a Sunnah como autoridade explicativa iniludível."
         }
       ],
       "conclusion": {
         "steps": [
-          "A oração è il cuore pratico dell'Islam.",
-          "Le sue modalità sono stabilite dalla Sunna profetica.",
-          "Invocare la pratica comunitaria confuta l'autosufficienza esclusiva del testo."
+          "A oração é o pilar prático fundamental do Islão.",
+          "Os seus detalhes provêm exclusivamente da Sunnah do Profeta ﷺ.",
+          "Praticar a oração negando a Sunnah é uma contradição a cada inclinação."
         ],
-        "finalText": "La pratica quotidiana della preghiera è la testimonianza perenne della necessità della Sunna.",
-        "punchline": "Pregare secondo la Sunna mentre si nega la Sunna è una contraddizione a ogni inchino!"
+        "finalText": "A oração quotidiana é o testemunho perene da necessidade inelutável da Sunnah.",
+        "punchline": "Rezar segundo a Sunnah negando a Sunnah é uma contradição a cada prostração!"
       },
       "fallacies": [
         "fausse-dichotomie",
@@ -1284,351 +1756,5 @@ window.I18N_DATA['pt'] = {
         "deplacement-charge-preuve"
       ]
     }
-  ],
-  "preface": {
-    "badge": "BOOK OPENING",
-    "title": "PREFÁCIO DO AUTOR",
-    "subtitle": "Por que este manual de refutação metódica?",
-    "introTag": "BEFORE YOU BEGIN",
-    "basmala": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ (In the Name of Allah, the Most Gracious, the Most Merciful)",
-    "sections": [
-      {
-        "type": "adverse",
-        "header": "WHY THIS BOOK?",
-        "title": "A Personal Observation",
-        "paragraphs": [
-          "This work was born from a personal observation that deeply saddened me.",
-          "Over the years, I have seen acquaintances fall into what is today termed 'Quranism' (Quran Alone): a belief claiming to return to the Quran, but which practically undermines and discards the normative authority of the Prophetic Sunnah.",
-          "Often, this does not stem from a conscious desire to reject the Prophet ﷺ. It begins with a lack of foundational knowledge—specifically in Hadith sciences, Quranic sciences, transmission methodology, Arabic linguistics, and textual history."
-        ]
-      },
-      {
-        "type": "retenir",
-        "header": "WHEN AMBIGUITIES BECOME BELIEFS",
-        "title": "From Doubt to a Flawed Paradigm",
-        "paragraphs": [
-          "Then come the polemical ambiguities: an individual is presented with a narration stripped of its context, a text whose authenticity grade they cannot evaluate, a distorted translation, or an emotional polemic engineered to induce discomfort.",
-          "They are confronted with topics like the age of ʿA'ishah (may Allah be pleased with her), certain medical traditions, sorcery, legal rulings, or Al-Isra wal-Mi'raj.",
-          "Without analytical tools, doubt sets in and transforms into an entire dogma:",
-          "«This hadith feels strange» ➔ «Maybe hadiths are unreliable» ➔ «Maybe the Sunnah is unnecessary» ➔ «The Quran alone is sufficient».",
-          "They end up cherry-picking verses, twisting words, and redefining 'Obey the Messenger' to strip the Prophet ﷺ of any real authority."
-        ]
-      },
-      {
-        "type": "analogie",
-        "header": "AN IMMENSE TRADITION OF TRANSMISSION",
-        "title": "A Tradition of Rigorous Verification",
-        "paragraphs": [
-          "The Sunnah did not reach us because a few individuals decided centuries later to fill books with random tales! Behind the Hadith corpus lies the most formidable system of biographical criticism (Isnad & Rijal) in human history.",
-          "Generations of scholars examined narrators: their integrity, memory, teachers, contemporaries, and traveled for months to verify a single phrase.",
-          "Dismissing this monumental scientific heritage as 'just men telling stories' is not scientific criticism—it is complete ignorance of the science of Hadith."
-        ],
-        "distinctions": [
-          {
-            "term": "CRITIQUE OF TRANSMITTERS (RIJAL)",
-            "desc": "Integrity, precision, contemporary meetings, and exact conditions of reception."
-          },
-          {
-            "term": "CRITIQUE OF TEXTS (MUTUN)",
-            "desc": "Comparative chains, hidden defects (ʿIlal), anomalies (Shudhudh), and distinguishing sound from forged."
-          }
-        ]
-      },
-      {
-        "type": "cadrage",
-        "header": "AND HOW DID THE QURAN REACH US?",
-        "title": "The Shared Chain of Custody",
-        "paragraphs": [
-          "A vital question every Quranist must answer: Through whom did the Quran reach you?",
-          "The physical Mushaf was not handed to you by Gabriel (peace be upon him). It reached us through the Companions, Successors, reciters, and uninterrupted generational transmission.",
-          "The recitation of Hafs from 'Asim is transmitted by human chains. The logical question is never 'Are there human links?' but rather 'What is the epistemic certainty and verification of this transmission?'."
-        ]
-      },
-      {
-        "type": "retenir",
-        "header": "A PERSONAL RESPONSIBILITY",
-        "title": "Why Silence is Not an Option",
-        "paragraphs": [
-          "Having personally received and transmitted the Quran through unbroken chains (Ijazah) back to the Prophet ﷺ, and having studied the prophetic traditions through verified chains, it is impossible to remain silent when this sacred heritage is trivialized.",
-          "Why trust these pious generations when they transmit the Quran, yet categorically reject those exact same generations when they transmit the Prophet's ﷺ teachings?",
-          "This book is written not to stifle debate, but to demand logical coherence, examine proofs, and confront arguments transparently."
-        ]
-      },
-      {
-        "type": "chrono",
-        "header": "A WORK DEDICATED SINCERELY",
-        "title": "Continuous Charity (Sadaqah Jariyah)",
-        "paragraphs": [
-          "I ask Allah to accept this work as a Sadaqah Jariyah for myself and my parents, and to benefit every seeker of truth.",
-          "Truth has nothing to fear from rigorous examination."
-        ],
-        "signature": "Salah Eddine Ahmed (Abou Soulaymane)\nAugust 23, 2026"
-      }
-    ]
-  },
-  "intro": {
-    "header": "INTRODUCTORY CONTEXT",
-    "title": "QUEM SÃO OS CORANISTAS?",
-    "subtitle": "Definição, surgimento histórico e metodologia central",
-    "badge": "HISTORICAL LANDMARKS",
-    "sections": [
-      {
-        "type": "adverse",
-        "header": "DEFINITION",
-        "title": "A Diverse Current United in Rejecting the Sunnah",
-        "paragraphs": [
-          "Quranism (Quran Alone) is a trend asserting that the Quran is the sole normative source in Islam, rejecting totally or substantially the authoritative Sunnah.",
-          "Its modern organized form developed in the late 19th century in the Indian subcontinent and early 20th century Egypt, though the underlying polemic was refuted early on by classical scholars like Ash-Shafi'i, Ibn Qutaybah, Al-Barbahari, and As-Suyuti."
-        ]
-      },
-      {
-        "type": "analogie",
-        "header": "A PROPHETIC WARNING",
-        "title": "A Miraculous Prediction of the Quranist Stance",
-        "paragraphs": [
-          "The Prophet ﷺ explicitly warned against this attitude centuries before it emerged in modern forms:"
-        ],
-        "hadiths": [
-          {
-            "ref": "Sunan Abi Dawud, hadith 4604",
-            "ar": "« أَلَا إِنِّي أُوتِيتُ الْكِتَابَ وَمِثْلَهُ مَعَهُ، أَلَا يُوشِكُ رَجُلٌ شَبْعَانُ عَلَى أَرِيكَتِهِ يَقُولُ: عَلَيْكُمْ بِهَذَا الْقُرْآنِ... »",
-            "translation": "«Beware! I have been given the Book and with it its like (the Sunnah). Soon a sated man, reclining on his couch, will say: Stick only to this Quran; whatever you find in it as lawful, deem it lawful...»"
-          }
-        ]
-      }
-    ]
-  },
-  "fallaciesToolbox": {
-    "headerBadge": "GUIA METODOLÓGICO",
-    "title": "CAIXA DE FERRAMENTAS",
-    "subtitle": "Reconhecer falácias antes de debater",
-    "introTitle": "POR QUE ESTA CAIXA DE FERRAMENTAS?",
-    "introText": "Um argumento pode parecer impressionante, citar um versículo autêntico ou conter dados verdadeiros... e ainda assim chegar a uma conclusão que as provas não demonstram.",
-    "definitionTitle": "DEFINIÇÃO SIMPLES",
-    "definitionText": "Uma falácia é um raciocínio enganoso cuja estrutura contém uma falha lógica: dedução inválida, desvio de significado, provas selecionadas ou padrões duplos.",
-    "reflexQuestionTitle": "A PERGUNTA REFLEXIVA CENTRAL:",
-    "reflexQuestionText": "«A PROVA REALMENTE DEMONSTRA A CONCLUSÃO?»",
-    "reflexPurpose": "O objetivo é identificar com precisão onde o raciocínio deixa de ser sólido.",
-    "pdfDownloadBtn": "Baixar a Caixa de Ferramentas (PDF)",
-    "pdfFileName": "Boite_a_outils_Sophismes_Coranisme.pdf",
-    "goldenRuleTitle": "A REGRA DE OURO METODOLÓGICA",
-    "goldenRuleStatement": "IDENTIFICAR UMA FALÁCIA ≠ PROVAR QUE A CONCLUSÃO É FALSA",
-    "goldenRuleMeaning": "Apontar uma falha no raciocínio significa apenas que o argumento apresentado não basta para demonstrar a conclusão.",
-    "goldenRuleExample": "Dizer: «Todos os cisnes são brancos porque vi dez cisnes brancos» é uma generalização. Detectá-la não prova por si só a existência de um cisne negro.",
-    "goldenRuleGoal": "No debate rigoroso, não basta dizer «é uma falácia»: é preciso explicar qual etapa lógica falta ou qual termo mudou de sentido.",
-    "sectionTitle10Cards": "📚 As 10 Falácias Frequentes em Cartões Interativos",
-    "btnDetails": "Detalhes",
-    "btnHide": "Ocultar",
-    "labelDefinition": "📖 Definição",
-    "labelGeneralExample": "🌍 Exemplo Geral",
-    "labelQuranicApp": "🕌 Aplicação ao Coranismo",
-    "labelQuestionToAsk": "❓ Pergunta reflexiva a fazer:",
-    "labelShortAnswer": "💬 Resposta curta recomendada:",
-    "cardMemoBadge": "CARTÃO MEMO",
-    "trainingBadge": "TREINAMENTO",
-    "items": [
-      {
-        "id": "homme-de-paille",
-        "num": 1,
-        "name": "O Espantalho",
-        "shortDef": "Distorsionar la postura del adversario para refutar una caricatura.",
-        "definition": "Deformar la posición real del oponente para atacar una versión débil e inventada.",
-        "generalExample": "«Habría que limitar los móviles en la escuela» → «¡Quieres prohibir toda tecnología a los niños!»",
-        "quranicApplication": "«¡Los sunitas siguen a Al-Bujari en vez del Corán!»\nLa postura sunita real es: Dios ordena en el Corán obedecer al Mensajero ﷺ y el hadiz es el medio para conocer sus enseñanzas.",
-        "questionToAsk": "«¿Es eso realmente lo que defiendo? ¿Puedes reformular mi postura como yo la acepto?»",
-        "shortAnswer": "«Refuta mi postura real, no una caricatura que has fabricado.»",
-        "icon": "🌾"
-      },
-      {
-        "id": "fausse-dichotomie",
-        "num": 2,
-        "name": "Falsa dicotomia",
-        "shortDef": "Presentar dos opciones como únicas cuando existe una tercera alternativa.",
-        "definition": "Presentar la cuestión como si sólo existieran dos opciones excluyentes, ignorando las combinaciones posibles.",
-        "generalExample": "«O estás conmigo al 100%, o eres mi enemigo mortal.»",
-        "quranicApplication": "• «¡O sigues el Corán o sigues a hombres!» → El musulmán responde: «Sigo el Corán cuando me ordena obedecer al Mensajero ﷺ».\n• «¡O el Corán es completo o necesita la Sunna!» → Un sistema completo puede delegar una autoridad explicativa.",
-        "questionToAsk": "«¿Por qué estas dos opciones habrían de ser las únicas?»",
-        "shortAnswer": "«Presentas como incompatibles dos cosas que funcionan juntas.»",
-        "icon": "⚖️"
-      },
-      {
-        "id": "generalisation-abusive",
-        "num": 3,
-        "name": "Generalização precipitada",
-        "shortDef": "Pasar de unos pocos casos aislados a una regla universal.",
-        "definition": "Sacar una conclusión general sobre todo un conjunto a partir de una muestra insuficiente.",
-        "generalExample": "«Dos médicos me diagnosticaron mal, por tanto los médicos no sirven para nada.»",
-        "quranicApplication": "«Existen hadices inventados, por tanto ningún hadiz es fiable.»\nLa existencia de relatos falsos impone la verificación crítica; no invalida todo el corpus auténtico.",
-        "questionToAsk": "«¿Cómo pasas de 'algunos' a 'todos'?»",
-        "shortAnswer": "«Demostrar que un elemento es falso no demuestra que toda la categoría lo sea.»",
-        "icon": "🔍"
-      },
-      {
-        "id": "non-sequitur",
-        "num": 4,
-        "name": "Non sequitur",
-        "shortDef": "La conclusión no se deriva lógicamente de la premisa.",
-        "definition": "La premisa puede ser verdadera, pero la conclusión no se deduce lógicamente de ella.",
-        "generalExample": "«Llueve fuera, por tanto el partido de baloncesto en pabellón cubierto queda cancelado.»",
-        "quranicApplication": "• «El Corán es completo, por tanto la Sunna es inútil.» (La completitud no excluye la autoridad explicativa instituida por el texto).\n• «Al-Bujari vivió dos siglos después, por tanto las tradiciones nacieron dos siglos después.»",
-        "questionToAsk": "«¿Qué paso lógico une exactamente tu premisa con tu conclusión?»",
-        "shortAnswer": "«Tu primera afirmación puede ser cierta sin demostrar en absoluto la segunda.»",
-        "icon": "⚡"
-      },
-      {
-        "id": "cherry-picking",
-        "num": 5,
-        "name": "Seleção de provas (Cherry-picking)",
-        "shortDef": "Seleccionar sólo los datos favorables e ignorar los demás.",
-        "definition": "Citar únicamente textos que apoyan la conclusión y ocultar los pasajes que la matizan o contradicen.",
-        "generalExample": "Citar 3 estudios favorables y ocultar 50 investigaciones científicas contrarias.",
-        "quranicApplication": "• Citar «el Mensajero sólo transmite» omitiendo «Obedeced al Mensajero», «Tomadlo por juez» y «modelo excelente».\n• Citar «No escribáis de mí...» ocultando «Relatad de mí, no hay mal» y las órdenes de escribir.",
-        "questionToAsk": "«¿Existen otros textos sobre el mismo tema en el Corán que no has citado?»",
-        "shortAnswer": "«Una prueba no se lee aislada cuando otros textos la completan y precisan.»",
-        "icon": "🍒"
-      },
-      {
-        "id": "double-standard",
-        "num": 6,
-        "name": "Padrão duplo",
-        "shortDef": "Aplicar un criterio severo al adversario y laxo cuando conviene.",
-        "definition": "Exigir un estándar hipercrítico para las pruebas del oponente y relajarse cuando un relato sirve para polemizar.",
-        "generalExample": "Exigir títulos de doctorado a los demás y aceptar un rumor cuando conviene al propio interés.",
-        "quranicApplication": "• Cuando el hadiz establece una norma: «¡Incierto transmitido por hombres!» / Cuando sirve para polemizar: «¡Bujari prueba con certeza la edad de Aisha!»\n• Aceptar la transmisión humana de las lecturas del Corán (Hafs de Asim) y rechazar la del hadiz.",
-        "questionToAsk": "«¿Aplicarías exactamente este criterio si la prueba favoreciera mi postura?»",
-        "shortAnswer": "«El estándar de prueba científica debe ser el mismo tanto si te agrada el resultado como si no.»",
-        "icon": "🔄"
-      },
-      {
-        "id": "equivoque-lexicale",
-        "num": 7,
-        "name": "Equívoco lexical",
-        "shortDef": "Usar la misma palabra con dos significados distintos.",
-        "definition": "Cambiar sutilmente el significado lingüístico original de una palabra por un término técnico posterior.",
-        "generalExample": "«La gravedad es una ley; las leyes las vota el parlamento; por tanto la gravedad la votó el parlamento.»",
-        "quranicApplication": "En el Coran, 'hadiz' significa relato, discurso o palabra. La falacia consiste en leer «¿En qué hadiz creerán?» y sustituir el sentido lingüístico ('discurso') por el técnico ('compilaciones').",
-        "questionToAsk": "«¿Qué significado preciso tiene esta palabra en el versículo y cómo lo demuestras por el contexto?»",
-        "shortAnswer": "«Fijemos primero el significado lingüístico del término antes de sacar conclusiones erróneas.»",
-        "icon": "🔀"
-      },
-      {
-        "id": "argument-de-possibilite",
-        "num": 8,
-        "name": "Argumento de possibilidade",
-        "shortDef": "Transformar «podría ser falso» en «es falso».",
-        "definition": "Pretender que la posibilidad teórica de error o invención equivale a la certeza de falsedad.",
-        "generalExample": "«Un testigo puede mentir, por tanto su testimonio es necesariamente falso.» (No: exige verificar, no rechazar a priori).",
-        "quranicApplication": "«Una cadena de transmisión puede ser inventada, por tanto los isnads no prueban nada.»\nLa posibilidad exige un examen crítico, no el rechazo a ciegas.",
-        "questionToAsk": "«¿Has demostrado que ocurrió, o sólo que teóricamente era posible que ocurriera?»",
-        "shortAnswer": "«Una posibilidad teórica no es una demostración histórica.»",
-        "icon": "🎲"
-      },
-      {
-        "id": "deplacement-charge-preuve",
-        "num": 9,
-        "name": "Inversão do ônus da prova",
-        "shortDef": "Hacer una afirmación categórica y exigir que el adversario demuestre lo contrario.",
-        "definition": "Quien afirma algo debe probarlo. Esta falacia consiste en negar todo el corpus y exigir que el oponente demuestre lo contrario.",
-        "generalExample": "«Hay una civilización secreta bajo Marte; ¡demuéstrame que no existe!»",
-        "quranicApplication": "«¡Ningún hadiz es lo bastante fiable para ser prueba religiosa!»\nEs una afirmación categórica sobre miles de relatos que exige su propia demostración metodológica.",
-        "questionToAsk": "«¿Quién hace aquí la afirmación categórica y debe aportar las pruebas?»",
-        "shortAnswer": "«Quien afirma que nada es fiable debe aportar la prueba de esa afirmación universal.»",
-        "icon": "⚖️"
-      },
-      {
-        "id": "appel-emotion",
-        "num": 10,
-        "name": "Apelo à emoção",
-        "shortDef": "Sustituir el análisis por la burla o la indignación.",
-        "definition": "Evitar el análisis riguroso provocando una reacción de choque, risa, desprecio o burla.",
-        "generalExample": "Burlarse de una fórmula compleja en vez de examinar sus premisas lógicas.",
-        "quranicApplication": "«¡¿De verdad creéis en el hadiz de la mosca?!»...\nUna reacción emocional no responde a: ¿Cuál es el texto exacto? ¿Cuál es su grado de autenticidad? ¿Cuál es su contexto?",
-        "questionToAsk": "«¿Cuál es tu prueba lógica independientemente de tu indignación o burla?»",
-        "shortAnswer": "«El ridículo y la repugnancia no son demostraciones científicas.»",
-        "icon": "🎭"
-      }
-    ],
-    "reflexQuestions": {
-      "title": "LOS 4 REFLEJOS METODOLÓGICOS",
-      "subtitle": "4 preguntas ante cualquier argumento teológico",
-      "summaryNotice": "Estas cuatro preguntas bastan para detectar la gran mayoría de razonamientos defectuosos.",
-      "questions": [
-        {
-          "num": 1,
-          "title": "1. La Premisa",
-          "desc": "¿Qué se ha demostrado realmente? No permitas que la conclusión se cuele en la premisa."
-        },
-        {
-          "num": 2,
-          "title": "2. El Enlace Lógico",
-          "desc": "¿Se deriva realmente la conclusión de la premisa? ¿Falta un paso lógico?"
-        },
-        {
-          "num": 3,
-          "title": "3. El Expediente Completo",
-          "desc": "¿Se han tomado en cuenta todos los textos relevantes o sólo los que convienen?"
-        },
-        {
-          "num": 4,
-          "title": "4. El Mismo Estándar",
-          "desc": "¿Se aplica el mismo criterio a ambos campos o cambia según el resultado?"
-        }
-      ]
-    },
-    "quiz": {
-      "title": "TEST RÁPIDO: IDENTIFICA LA FALACIA",
-      "subtitle": "Identifica la falacia lógica en cada una de las siguientes afirmaciones:",
-      "items": [
-        {
-          "id": 1,
-          "statement": "«Existen hadices inventados, por tanto no podemos confiar en los hadices.»",
-          "answerId": "generalisation-abusive",
-          "answerName": "Generalización apresurada",
-          "explanation": "Pasar de la existencia de falsificaciones a invalidar todo el corpus es una generalización abusiva."
-        },
-        {
-          "id": 2,
-          "statement": "«O sigues a Dios o sigues a Muhammad ﷺ.»",
-          "answerId": "fausse-dichotomie",
-          "answerName": "Falso dilema",
-          "explanation": "Obedecer al Mensajero es una orden divina en el Corán; no hay conflicto entre ambas."
-        },
-        {
-          "id": 3,
-          "statement": "«El Corán es completo, por tanto toda explicación profética es inútil.»",
-          "answerId": "non-sequitur",
-          "answerName": "Non sequitur",
-          "explanation": "La completitud del texto no excluye la autoridad explicativa instituida por el propio texto."
-        },
-        {
-          "id": 4,
-          "statement": "«¿En qué hadiz creerán? Por tanto Al-Bujari está prohibido.»",
-          "answerId": "equivoque-lexicale",
-          "answerName": "Equívoco léxico",
-          "explanation": "La palabra hadiz significa lingüísticamente 'discurso' y no compilaciones de tradiciones."
-        },
-        {
-          "id": 5,
-          "statement": "«Los hadices son tardíos, ¡pero el de la edad de Aisha es prueba indiscutible!»",
-          "answerId": "double-standard",
-          "answerName": "Doble estándar",
-          "explanation": "Relajar el criterio cuando conviene a la polémica y endurecerlo para las normas es doble rasero."
-        },
-        {
-          "id": 6,
-          "statement": "«Una cadena puede ser inventada, por tanto los isnads no prueban nada.»",
-          "answerId": "argument-de-possibilite",
-          "answerName": "Argumento de posibilidad",
-          "explanation": "Confundir una posibilidad teórica con certeza de falsedad es un fallo lógico."
-        }
-      ]
-    },
-    "conclusion": {
-      "title": "A RECORDAR: LA LÓGICA ANTES QUE EL ESLOGAN",
-      "mainText": "Un argumento puede citar un versículo auténtico o datos ciertos y aún así llegar a una conclusión falsa si el razonamiento lógico es defectuoso.",
-      "slogan1": "NO PREGUNTES SÓLO: «¿CUÁL ES LA PRUEBA?»",
-      "slogan2": "PREGUNTA TAMBIÉN: «¿QUÉ DEMUESTRA REALMENTE?»",
-      "finalNote": "Un debate serio no se gana con eslóganes, sino con premisas sólidas y deducciones lógicas válidas."
-    }
-  }
+  ]
 };

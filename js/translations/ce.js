@@ -1,387 +1,658 @@
 /**
- * Pack de Langue : Tchétchène (CE) - Нохчийн
- * Traduction Exhaustive et Intégrale (UI, Préface, Intro, 10 Arguments, Boîte à Outils des Sophismes, Modales)
+ * TRADUCTION OFFICIELLE (TCHÉTCHÈNE - Нохчийн)
+ * Manuel de réfutation méthodique du coranisme — Par Salah Eddine Ahmed (Abou Soulaymane)
  */
+
 window.I18N_DATA = window.I18N_DATA || {};
-window.I18N_DATA['ce'] = {
+window.I18N_DATA["ce"] = {
   "code": "ce",
   "name": "Tchétchène",
   "native": "Нохчийн",
-  "flag": "🟢",
+  "flagSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 400\" class=\"flag-icon\"><rect width=\"600\" height=\"260\" fill=\"#008000\"/><rect width=\"600\" height=\"40\" y=\"260\" fill=\"#ffffff\"/><rect width=\"600\" height=\"100\" y=\"300\" fill=\"#d40000\"/><rect width=\"80\" height=\"400\" fill=\"#ffffff\"/></svg>",
   "dir": "ltr",
+  "fontFamily": "var(--font-main)",
   "ui": {
-    "brandBadge": "ӀИЛМАНАН КУЬЙГАЛЛО",
-    "brandTitle": "Къуръанизмана жоп",
-    "brandSubtitle": "Суннат инкардарна дуьхьал куьйгалло",
-    "searchBtn": "Лахар...",
-    "summaryTitle": "Чулацам",
-    "rubriquesCount": "12 дакъа",
-    "heroTag1": "Кхеторан куьйгалло",
-    "heroTag2": "Маьхза динан Ӏилма",
-    "heroTitleMain": "Къуръанизмана",
-    "heroTitleSpan": "Жоп Далар",
-    "heroAuthor": "Салахьуддин Ахьмад",
-    "heroDesc": "Суннат инкардечарна Ӏилманан а, логикан а бух тӀехь кхетаме жоьпаш.",
-    "btnStartArg1": "1-чу дакъанца доло",
-    "btnSearchModal": "Аят я тема лаха",
-    "btnContactAuthor": "Автораца зӀе",
-    "sommaireTitle": "10 Коьрта Билгалдахар",
-    "sommaireBadge": "10 Кечам",
-    "argBadgeGiant": "ДАКЪА",
-    "btnReadCard": "Деша",
-    "btnDownloadPdf": "PDF схьаэца",
-    "portalWarningBadge": "ДЕЗА ДИЙЦАР",
-    "portalTitle": "Имам Аль-Барбахарин кевнаш (кхелхина 329 х.)",
-    "portalEnterBtn": "Жайна чу гӀо",
-    "portalAuthorBadge": "Имам Аль-Барбахари رحمه الله",
-    "portalSourceRef": "Шархь Ас-СуннахӀ — 67-гӀа дакъа",
-    "portalDisclaimer": "«Нагахь хьуна цхьамма 'Къуръан бен ма даладе тхуна' олуш хезахь, хаалахь иза тилла стаг вуй.»",
-    "searchModalTitle": "Жайна чохь лахар",
-    "searchPlaceholder": "Дош, тема я аят язде...",
-    "contactModalTitle": "Автораца зӀе тасар",
-    "footerQuote": "«Ӏилма дин лардар ду, ткъа Суннат — вайн некъан серло ю.»",
-    "footerAuthorRef": "Салахьуддин Ахьмад — Абу Сулейман",
-    "footerNotice": "ХӀара жайна Ӏилма даржоран Ӏалашонца маьхза арахецна ду.",
-    "footerNotice2": "Берриг бакъонаш ларйина ю © 2026",
-    "labelSituation": "Масал:",
-    "labelLogic": "Логикан некъ:",
-    "labelLesson": "Ӏамо дезарг:",
-    "labelApplication": "Къийсамехь пайден дерг:",
-    "labelObjection": "Къийсам",
-    "labelMethodicAnswer": "Ӏилманан бух болу жоп:",
-    "barbahariBtn": "Al-Barbahari",
-    "contactBtn": "Contact",
-    "legalBtn": "Sharing & License",
-    "btnPrintCard": "Print / Save as PDF",
-    "goldenRuleHeader": "Golden Rule for debating a Quranist",
-    "goldenRuleTitle": "Never allow your interlocutor to shift the topic",
-    "goldenRuleDesc": "Most Quranist arguments rely on conceptual shifts: confusing the principle of the Sunnah (instituted by the Quran) with the historical transmission of later hadith collections.",
-    "goldenRuleStep1": "1. First establish what the Quran itself commands (Obedience, Judgment, Bayan, Exemplarity).",
-    "goldenRuleStep2": "2. Demonstrate that delegated prophetic authority never competes with Divine Sovereignty.",
-    "goldenRuleStep3": "3. Then methodically address the historical chain of transmission.",
-    "contactAuthorBio": "Author of « How to unmask and refute the Quranist sect — Method, arguments, objections and answers ».",
-    "contactEmailBoxTitle": "Official Contact Email:",
-    "contactSuggestions": "You can send feedback, suggestions, or questions via email to ideoise@gmail.com.",
-    "legalModalTitle": "Terms of Sharing, Author & Privacy",
-    "legalSharingTitle": "Sharing & Educational Distribution Terms",
-    "legalSharingSubtitle": "Open Educational Sharing",
-    "legalSharingMainText": "This content may be freely shared and reproduced for personal, educational, and non-commercial purposes, provided source and author attribution are preserved.",
-    "legalAuthorizedUses": "Authorized uses: Downloading, printing, studying, and free sharing in study circles, classes, debates, and social media.",
-    "legalPrivacyTitle": "Technical Data & Privacy",
-    "legalPrivacySubtitle": "Privacy Policy aligned with actual website capabilities",
-    "legalPrivacyText": "The website requires no account creation and voluntarily collects no personal data via forms.",
-    "btnDownloadOriginalPdf": "Download original PDF",
-    "btnPrintPage": "Print / Export PDF",
-    "formulaRetenir": "KEY FORMULA TO REMEMBER:",
-    "tocTitle": "Factsheet Outline",
-    "tocThesis": "Their thesis",
-    "tocLogical": "Logical core",
-    "tocPrinciple": "Central principle",
-    "tocQuranic": "Quranic architecture",
-    "tocAnalogies": "Analogies",
-    "tocResponses": "Ready answers",
-    "tocObjections": "Decrypted objections",
-    "tocQuiz": "Quiz",
-    "tocConclusion": "Conclusion",
-    "sec1Header": "1. THEIR THESIS & THE VERSES THEY MISINTERPRET",
-    "sec1Sub": "The Quranist position and its deconstruction",
-    "sec1CoranistTitle": "The Quranist Claim Unmasked",
-    "sec1VersesTitle": "Verses Cited by Quranists",
-    "sec1QuestionTitle": "The Real Doctrinal Question",
-    "sec2Header": "2. THE LOGICAL KNOT OF THE ISSUE",
-    "sec2Sub": "Dismantling conceptual confusions",
-    "sec2GeneralRule": "General rule of logic:",
-    "sec2ErrorAvoid": "The error to avoid:",
-    "sec3Header": "3. THE CENTRAL PRINCIPLE OF REFUTATION",
-    "sec3Sub": "The cornerstone argument",
-    "sec3FormalScheme": "FORMAL DEMONSTRATIVE SCHEME",
-    "sec3Explanation": "Theological & Rational Demonstration",
-    "sec3LogicalTest": "Decisive Logical Test:",
-    "sec4Header": "4. THE COMPLETE QURANIC ARCHITECTURE",
-    "sec4Sub": "Decisive verses establishing prophetic authority",
-    "sec4VersesRef": "Quranic Refutation Verses",
-    "sec4Consequence": "Unavoidable Doctrinal Consequence:",
-    "sec5Header": "5. PEDAGOGICAL ANALOGIES",
-    "sec5Sub": "To explain the reasoning in 30 seconds",
-    "sec6Header": "6. READY-TO-USE RESPONSES",
-    "sec6Sub": "Formats ready to recite or share",
-    "sec6QuickTitle": "30-Second Quick Response",
-    "btnCopyQuick": "Copy 30s response in 1 click",
-    "sec6DevTitle": "Comprehensive & Structured Response",
-    "sec7Header": "7. QURANIST OBJECTIONS & SYSTEMATIC ANSWERS",
-    "sec7Sub": "Anticipate every counter-argument",
-    "sec7ClickToggle": "Click any objection to view the methodical answer:",
-    "sec7DirectQuestions": "Direct framing questions:",
-    "sec8Header": "8. TEST YOUR UNDERSTANDING",
-    "sec8Sub": "Interactive Quiz on this Argument",
-    "sec8ValidateBtn": "Submit my answer",
-    "sec9Header": "9. LOGICAL CONCLUSION CHAIN",
-    "sec9Sub": "Methodical recap to conclude the debate",
-    "sec9Deduction": "Logical Deduction Chain:",
-    "sec9Takeaway": "Essential Takeaway:",
-    "sec9Punchline": "Final Debate Punchline:",
-    "navPrevArg": "Previous argument",
-    "navNextArg": "Next argument",
-    "navBackSummary": "Back to contents",
-    "navEndManual": "End of Manual (Home)",
-    "toastCopySuccess": "30s synthetic response copied to clipboard!",
-    "quizBravo": "Well done! Correct answer.",
-    "quizIncorrect": "Incorrect. Try again!",
-    "navBarbahari": "Аль-Барбахари",
-    "navContact": "ЗӀе",
-    "navLicense": "ДӀасадаржор а, лицензи а",
-    "sidebarSadaqaHeader": "Маьхза Ӏилманан зорба",
-    "sidebarSadaqaText": "ХӀара куьйгалла паргӀат кепехь ду Суннат Ӏамо а, лардан а.",
-    "labelAuthor": "Автор:",
-    "authorName": "Салахь Эддин Ахьмад (Абу Сулайман)",
-    "btnSidebarHome": "Коьрта агӀо",
-    "btnSidebarContact": "Авторга яздан",
-    "sidebarPreface": "Авторан дешхьалхе",
-    "sidebarIntro": "Хьуьн бу къуръананхой?",
-    "portalQuoteTransLabel": "Translation of the meaning:",
-    "portalQuoteText": "If you hear a man who, upon having an athar (transmitted tradition) cited to him, rejects it saying: \"Leave this and bring us the Quran\", do not doubt that he is a man steeped in heresy. Stand up and leave his gathering!",
-    "searchNoResults": "No results found for",
-    "contactAuthorHeader": "Author of the Manual",
-    "legalSharingHeader": "Sharing Conditions & Educational Distribution",
-    "legalAuthorizedUsesHeader": "Authorized Uses:",
-    "legalAuthorizedUsesList": [
-      "Downloading, printing, reading, and free sharing of the factsheets.",
-      "Use in study circles, courses, debates, and social networks.",
-      "Any commercial exploitation or distorting alteration is strictly prohibited without prior permission."
-    ],
-    "legalPrivacyHeader": "Technical Data & Privacy",
-    "legalPrivacyBullet1": "No third-party advertising cookies: Zero commercial tracking pixels.",
-    "legalPrivacyBullet2": "Fonts & resources: Secure loading of Google Fonts.",
-    "legalCreditsHeader": "Book Details:",
-    "legalCreditsBookTitle": "How to Expose and Refute the Quranist Sect",
-    "footerSubtitle": "10 major arguments examined and methodically refuted",
-    "footerBtnLegal": "⚖️ Sharing, License & Privacy",
-    "footerBtnContact": "✉️ Contact Author",
-    "footerBtnPortal": "📜 Words of Al-Barbahârî",
-    "footerContactLabel": "Contact:",
-    "btnShare": "ДӀасадахьийта",
-    "btnCopySection": "Дакъа схьаэца",
+    "tocThesis": "Царан Ойла",
+    "tocLogical": "Логикан Дакъа",
+    "tocPrincipe": "Коьрта Принцип",
+    "tocQuranic": "Къуръанан Структура",
+    "tocAnalogies": "Масалш",
+    "tocResponses": "Кийча Жоьпаш",
+    "tocObjections": "Шеконаш",
+    "tocQuiz": "Тест",
+    "sec1Header": "1. ЦАРАН ТЕЗИС А, КОНТЕКСТЕРА ДАЬХНА АЯТАШ А",
+    "sec1QuestionTitle": "Дала деза коьрта бакъ хаттар :",
+    "sec2Header": "2. ХЬОЛАН ЛОГИКАН ГИРДЕЛ А, БАРАМАШ А",
+    "sec2GeneralRule": "ЙУКЪАРА БАКЪО :",
+    "sec2ErrorAvoid": "Ӏадъйитан еза логикан гӀалат а, мугалете а",
+    "sec3Header": "3. ДУЬХЬАЛО ЯРАН КОЬРТА ПРИНЦИП",
+    "sec3LogicalTest": "ЛОГИКАН ТЕСТ :",
+    "sec4Header": "4. КЪУРЪАНИН ЮЬЗЗИНА СТРУКТУРА",
+    "sec4Consequence": "ДИНАН БИЛГАЛДОЛУ ЖАМӀ :",
+    "sec5Header": "5. ДАХАРАН ХЬЕХАМИЙН МАСАЛШ",
+    "sec6Header": "6. КЪАМЕЛАН КИЙЧА ЖОЬПАШ",
+    "sec6QuickTitle": "Сих Жоп (30 Секунд)",
+    "sec6DevTitle": "КӀоргера а, Далилца а Долу Жоп",
+    "btnCopyQuick": "30 секундан жоп цхьана басарца схьаэца",
+    "sec7Header": "7. КЪУРЪАНИТАШНА ШЕКОНАШ А, ЦАРАН ЖОЬПАШ А",
+    "labelObjection": "Шеко",
+    "labelMethodicAnswer": "Ӏилманан жоп :",
+    "sec7DirectQuestions": "ТӀехьожийна коьрта хаттарш :",
+    "sec8Header": "8. ХЬАЙН КХЕТАМ ТЕЛЛА",
+    "sec8Sub": "Интерактивни тест",
+    "sec9Header": "9. ТӀАЬХЬАЛОНАН ЛОГИКАН ЗӀЕ",
+    "labelSituation": "Хьал :",
+    "labelLogic": "Логикан механизм :",
+    "labelLesson": "Коьрта Ӏамор :",
+    "labelApplication": "Къовсамехь лелор :",
+    "btnDownloadOriginalPdf": "Оригинал брошюра схьаэца (PDF)",
+    "btnPrintPage": "Зорба тоха / PDF санна Ӏалашде",
+    "formulaRetenir": "ИЭХЬ ЛАТТО ЕЗА КОЬРТА ФОРМУЛА :",
+    "brandBadge": "ПРАКТИКИ ТЕПТАР",
+    "brandTitle": "КЪУРЪАНИТАШНА ДУЬХЬАЛО",
+    "brandSubtitle": "Суннат дицдечеран харцо гучуяккхаран а, цуьнга жоп даларан а некъ",
+    "searchBtn": "Лахар",
+    "searchPlaceholder": "Тема, аят, шеко я масалца лаха...",
+    "searchModalTitle": "Тептарехь сиха лахар",
+    "searchNoResults": "ХӀокху лахарна цхьа а жамӀ ца карийна.",
+    "searchShortcutHint": "ДӀакъовла ESC тӀе баса",
+    "topbarContact": "ЗӀе",
+    "topbarLegal": "Барт а, Баржор а",
+    "topbarBarbahari": "Аль-Барбахари",
+    "sidebarTitle": "📚 Коьрта Чулацам",
+    "sidebarCount": "12 дакъа",
+    "sidebarHome": "🏠 Коьрта АгӀо / Хьуб",
+    "sidebarContact": "✉️ Авторца ЗӀе Тасар",
+    "heroTag1": "📖 Дуьхьало Яран Практики Тептар",
+    "heroTag2": "🌿 Маьхза ДӀасадаржор",
+    "heroTitleMain": "Къуръаниташна",
+    "heroTitleSpan": "Дуьхьало Яр",
+    "heroAuthor": "Салахь Эддин Ахьмад (Абу Сулейман)",
+    "heroDesc": "Къуръанитал декъан харцонаш логах долу къамелаца, дахаран масалшца, Ӏилманан аяташца а, 30 секундан кийча жоьпашца а пусар дан дита.",
+    "btnStartArg1": "1-чу Далилаца Доладе",
+    "btnSearchModal": "Тептарехь лаха",
+    "sommaireTitle": "Таллина 10 Коьрта Далил",
+    "sommaireBadge": "10 Кийча Белхан Кеп",
+    "cardAdverseThesisPrefix": "Къуръанитан ойла:",
+    "btnReadCard": "Кеп еша",
+    "btnDownloadPdf": "Оригинал PDF брошюра схьаэца",
+    "btnPrintCard": "Зорба тоха / PDF санна Ӏалашде",
+    "methodTag": "КЪОВСАМАН НЕКЪАШ",
+    "methodTitle": "3 Коьрта ГӀовлан Некъ",
+    "methodStep1Title": "1. Харцо дӀаяккхар",
+    "methodStep1Desc": "Оппонент харц дихотоми я бакъо йоцу жамӀаш лелош вуй теша хьажа.",
+    "methodStep2Title": "2. Дахаран Масал",
+    "methodStep2Desc": "Цуьнан ойланан логикан харцо гучуяккха дахаран цхьа хьал (законаш, лоьралла) масална даладе.",
+    "methodStep3Title": "3. ТӀаьхьенан Харцо",
+    "methodStep3Desc": "Цуьнан тезис кхочушйича динехь а, Ӏамалехь а хуьлу бохам гайта.",
+    "quoteBoxText": "«Къуръан кхачам хиларца дуьйцуш, Къуръано ша тӀедиллина бакъо дӀаяккхар — иза Къуръано ша ца аьлла хӀума цунах кхоллара ду.»",
+    "quoteBoxAuthor": "— Салахь Эддин Ахьмад (Абу Сулейман)",
+    "sec2ThesisLabel": "Къуръаниташа дуьйцург :",
+    "sec2VersesLabel": "Цара контекстера даьхна дало аяташ :",
+    "sec2RealQuestionLabel": "Коьрта бакъ хаттар :",
+    "sec3GeneralRuleLabel": "Ойланан йукъара бакъо :",
+    "sec3ErrorLabel": "Ӏадъйитан еза логикан гӀалат :",
+    "sec4FormalSchemeLabel": "Бакъо билгалъяран кеп :",
+    "sec4ExplanationLabel": "Динан Ӏилманан кхетам :",
+    "sec4TestLabel": "Къасторан логикан тест :",
+    "sec5ConsequenceLabel": "Билгалдолу динан жамӀ :",
+    "sec6ScenarioLabel": "Билггал хьал :",
+    "sec6LogicBoxLabel": "Логикан дустамаш :",
+    "sec6LessonLabel": "Эца деза Ӏаморан хьехам :",
+    "sec7QuickResponseLabel": "⚡ 30 секундан сих жоп :",
+    "sec7DevelopedResponseLabel": "🗣️ КӀоргера чулацаме жоп :",
+    "sec8DirectQuestionsLabel": "ТӀехьожийна хаттарш :",
+    "quizTitle": "8. ХЬАЙН КХЕТАМ ТЕЛЛА",
+    "quizBadge": "Интерактивни викторина",
+    "btnCheckAnswer": "Жоп талла",
+    "btnNextQuestion": "ТӀаьхьадогӀу хаттар ➔",
+    "btnRestartQuiz": "Викторина юха йолае",
+    "quizFeedbackCorrect": "✅ Бакъ ду! ЧӀогӀа дика жамӀ.",
+    "quizFeedbackIncorrect": "❌ ГӀо жоп. Лахахь йолу кхетош йоза деша :",
+    "portalWarningBadge": "СЕЛЕФИ ӀАЛИМИЙН ХЬЕХАМ ХЬАДИСАШ ДИЦДЕЧАРНА ДУЬХЬАЛ",
+    "portalTitle": "Имам Аль-Барбахарин (رحمه الله) Дешнаш",
+    "portalQuoteTransLabel": "МаьӀна долу гочдар :",
+    "portalQuoteText": "Нагахь санна хьуна цхьа стаг хезнехь, хьадис далийча: \"ДӀаяккха иза, тхуна Къуръан бен ма даладе\" олуш, шеко ма хилалахь иза бидӀатан а, тиларан а волу стаг хиларх. Цуьнан гуламера хьалагӀаттий, дӀавала цунах!",
+    "portalAuthorBadge": "✍️ Имам Аль-Барбахари (кхелхина 329 хӀ.)",
+    "portalSourceRef": "Хьост : Шархь ас-Суннахь (135-гӀа дакъа)",
+    "portalEnterBtn": "ДУЬХЬАЛОНАН ТЕПТАРЕ ДЕХЬАВАЛА",
+    "portalDisclaimer": "Къуръаниташна дуьхьало яран некъ • Салахь Эддин Ахьмад (Абу Сулейман) • Хьост билгалдеш маьхза лело бакъо ю",
+    "argBadgeGiant": "ДАЛИЛ",
+    "btnDownloadFascicule": "Оригинал брошюра схьаэца (PDF)",
+    "btnOpenPrint": "Зорба тоха / PDF санна Ӏалашде",
+    "tocSummary": "Кепан чулацам :",
+    "tocCadrage": "1. Ӏилманан дакъа",
+    "tocAdverse": "2. Дуьхьалчеран ойла",
+    "tocNoeud": "3. Логикан дакъа",
+    "tocArchi": "5. Къуръанан структура",
+    "tocReponses": "7. Кийча жоьпаш",
+    "tocConclusion": "9. ТӀаьхье",
+    "navPrevArg": "Хьалхара Далил",
+    "navNextArg": "ТӀаьхьадогӀу Далил",
+    "navBackSummary": "Чулацаме юхагӀо",
+    "navEndManual": "Тептаран чекхдалар",
+    "contactModalTitle": "Авторца ЗӀе Тасар",
+    "contactAuthorHeader": "Тептаран Автор",
+    "authorName": "Салахь Эддин Ахьмад (Абу Сулейман)",
+    "contactAuthorBio": "Исламан Ӏилманийн талламхо а, хьехархо а, Пайхамаран ﷺ Суннат лардарна а, керла харцонашна дуьхьало ярна а къахьоьгуш ву.",
+    "contactBookTitleLabel": "Коьртачу жайнин цӀе :",
+    "contactBookTitleValue": "Comment démasquer et réfuter la secte des coranistes — Méthode, arguments, objections et réponses.",
+    "contactEmailNotice": "Ӏилманан къамел, гочдарш я хьехамаш барна :",
+    "legalModalTitle": "⚖️ Баржор, Автор а, Къайлахалла а",
+    "legalSharingHeader": "Ӏилма Баржоран Бакъонаш",
+    "legalSharingMain": "Маьхза Ӏилма Баржор",
+    "legalSharingP1": "ХӀокху чулацамах маьхза пайдаэца а, шенна Ӏамо а, нахана дӀасадаржо а бакъо ю, авторан цӀе а, хьост а ца хийцарна тӀехь.",
+    "legalAllowedTitle": "✅ Бакъо йолу хӀуманаш :",
+    "legalAllowedBullet1": "Кепаш маьхза схьаэцар, зорба тохар, дешар а, дӀасадаржор а.",
+    "legalAllowedBullet2": "Дарсашкахь, социальни машанашкахь лелор.",
+    "legalAllowedBullet3": "Базарна лелор я чулацам хийцар дихкина ду.",
+    "legalPrivacyHeader": "Техникин хаамаш а, Къайлахалла а",
+    "legalPrivacyMain": "Къайлахаллин Бакъо",
+    "legalPrivacyP1": "Сайто аккаунт кхолла ца оьшуьйту, нахана тӀера цхьа а хаамаш схьа ца гулбо.",
+    "legalPrivacyBullet1": "Рекламан кукиш яц : Коммерцин таллам бац.",
+    "legalPrivacyBullet2": "Шрифташ : Google Fonts кхерамза схьаэцар.",
+    "legalCreditsHeader": "Жайнин хаамаш :",
+    "legalCreditsBookTitle": "Къуръаниташна дуьхьало яран некъ — Метод, далилаш, шеконаш а, жоьпаш а",
+    "footerSubtitle": "10 коьрта далил логикан некъаца таллина а, пусар дина а",
+    "footerBtnLegal": "⚖️ Лицензи а, Къайлахалла а",
+    "footerBtnContact": "✉️ Авторца ЗӀе Тасар",
+    "footerBtnPortal": "📜 Аль-Барбахарин дешнаш",
+    "footerContactLabel": "ЗӀе :",
+    "btnShare": "ДӀасадаржо",
+    "btnCopySection": "ХӀокху дакъа схьаэца",
     "btnCopy": "Схьаэца",
     "copied": "Схьаэцна!",
-    "shareModalTitle": "📤 ХӀара хаам дӀасадахьийта",
-    "shareModalDesc": "Суннат лардархьама хӀара дакъа нахана дӀасадахьийта:",
-    "shareCardTitle": "Жоп дӀасадахьийта",
-    "shareCardDesc": "WhatsApp, Telegram я социалан машанашкахь хӀара жоп дӀасадахьийта.",
-    "toastSectionCopied": "✅ Дакъа схьаэцна бухадиллина!",
-    "toastLinkCopied": "✅ Хьажорг схьаэцна!",
-    "navFallacies": "ГӀирсан бокс — Дийцаре валале гӀалаташ довзар",
-    "fallaciesTitle": "ГӀИРСАН БОКС (ЛОГИКИН ГӀАЛАТАШ)",
-    "fallaciesBadgeTitle": "FALLACIES DETECTED IN THIS ARGUMENT:",
-    "viewFallacyDetail": "Voir l’analyse détaillée ▼",
-    "hideFallacyDetail": "Masquer l’analyse ▲",
-    "btnOpenToolbox": "Open in Fallacy Toolbox",
-    "footerVisitsLabel": "Йукъара хьовсарш:",
+    "shareModalTitle": "📤 ХӀокху кеп дӀасаяржо",
+    "shareModalDesc": "Суннат лардарна хӀокху далил нахана дӀасадаржо :",
+    "shareCardTitle": "ХӀокху дуьхьало дӀасаяржо",
+    "shareCardDesc": "WhatsApp, Telegram я социальни машанашкахь дӀасадаржо.",
+    "toastSectionCopied": "✅ Дакъа схьаэцна буферан чохь!",
+    "toastLinkCopied": "✅ Хьажорг схьаэцна буферан чохь!",
+    "navFallacies": "ГӀирсийн тӀоьрмиг — Къовсам бале логикан харцонаш йовзар",
+    "fallaciesTitle": "ГӀИРСИЙН ТӀоЬРМИГ",
+    "fallaciesBadgeTitle": "ХӀоКХУ ДАЛИЛЕХЬ КАРИЙНА ХАРЦОНАШ :",
+    "viewFallacyDetail": "Таллам гайта ▼",
+    "hideFallacyDetail": "Таллам дӀабаха ▲",
+    "btnOpenToolbox": "ГӀирсийн тӀоьрмигехь хьажа",
+    "footerVisitsLabel": "Берриге баьхкинарш :",
     "footerVisitsPrivacy": "100% Къайлаха • GDPR",
-    "footerVisitsTooltip": "Хьовсархойн къайлаха ларар",
-    "navPreface": "Авторан дешхьалхе",
-    "navIntro": "Хьуьн бу къуръананхой?"
+    "footerVisitsTooltip": "Къайлаха болу баьхкинчеран лорург (GDPR - 0 cookies)",
+    "navPreface": "Авторан Хьалхара Дош",
+    "navIntro": "Къуръаниташ муьлш бу?"
   },
   "preface": {
-    "badge": "ЖАЙНИН ДОЛОРАХЬ",
-    "title": "АВТОРАН ДЕШХЬАЛХЕ",
-    "subtitle": "ХӀун Ӏалашо ю хӀокху методологин куьйгаллан?",
-    "introTag": "ДОЛОЛЕ ХЬАЛХА",
-    "basmala": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ",
+    "badge": "ЖАЙНИН ДОЛАДАЛАР",
+    "title": "АВТОРАН ХЬАЛХАРА ДОШ",
+    "subtitle": "ХӀун Ӏалашо йолуш яздина ду хӀокху дуьхьалонан тептар?",
+    "introTag": "ДОЛАДАЛАЛЕ ХЬАЛХА",
+    "basmala": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ (Къинхетаме а, Къинхетам беш а волчу АллахӀан цӀарца)",
     "sections": [
       {
         "type": "adverse",
-        "header": "ХӀУНДА ЯЗДИНА ХӀАРА ЖАЙНА?",
-        "title": "Шен даггара дийцар",
+        "header": "ХӀУНДА ДУ ХӀОРА ЖАЙНА?",
+        "title": "Шен бӀаьргашца гинарг а, методологи а",
         "paragraphs": [
-          "ХӀара жайна сона чӀогӀа халахетарца кхолладелла ду.",
-          "Шена тӀехь мел шераш довлу, сона гира сан гергарчу нахах нах тахана 'Къуръанизм' олучу тиларчу оьхуш: Къуръане бен доьрзур дац бохуш, амма Пайхамаран ﷺ Суннат Ӏаддуьтуш.",
-          "ХӀара дукха хьолахь вочу ниятца долалуш дац, амма Ӏилма цахиларна долало — хьадисан Ӏилма, Къуръанан Ӏилма, адамийн дийцарийн истори ца хаарна."
+          "ХӀокху жайна сан даг тӀе Ӏаткъам биначу шен бӀаьргашца гиначу гӀуллакхах кхолладелла ду.",
+          "Шерашкахь аса гира масех таронаш тахана 'Къуръанитал' (Къуръан бен ца оьшу) олучу бохаме оьгуш: уьш Къуръане юхадоьрзу олуш ду, амма бакъдолуш Пайхамаран ﷺ Суннатан бакъо дӀайоккхуш бу.",
+          "Дукха хьолахь иза Пайхамар ﷺ харцван лууш ца хуьлу, амма хьадисан Ӏилма, Къуръанан Ӏилма, Ӏаьрбийн мотт цадовзар бахьана долуш долало."
         ]
       },
       {
         "type": "retenir",
-        "header": "ШЕКОНАШ ДИН ДУ МОТТАДАЛАР",
-        "title": "Шеконера тиларе",
+        "header": "ШЕКОНАШ ДИНАН ДОГМА ДУЬХЬАЛА ЙОЛЧУ ХЕНАХЬ",
+        "title": "Кхетамзаллера харцоне",
         "paragraphs": [
-          "ТӀаккха шеконаш кхоллало: цхьана стагана хьадис кхоччуш маьӀна доцуш дуьйцу, я нийса доцу гочдар гойту.",
-          "Ӏайшатан رضي الله عنها хенах лаьцна, медицинан хьадисех, я МиӀражах лаьцна хабарш дуьйцу.",
-          "Ӏилма дацахь, шеко кхоллало: «ХӀара хьадис кхета хала ду» ➔ «Хьадисаш тешаме дац» ➔ «Суннат ца оьшу» ➔ «Къуръан тоьу».",
-          "Иштта цхьаболчара шайн кхетамца керла дин кхуллу, Пайхамарна ﷺ муьтӀахь хилар дӀадоккху."
+          "ТӀаккха шеконаш кхоллало: цхьа хьадис даладо контекстера даьккхина, я цуьнан иснад ца хууш, я маьӀна харцдина.",
+          "Логикан а, Ӏилманан а гӀирсаш боцучу хенахь, шеко догма хуьлу:",
+          "«ХӀокху хьадисах ца кхета со» ➔ «Хьадисаш тешаме дац-те» ➔ «Суннат ца оьшу-те» ➔ «Къуръан бен ца оьшу».",
+          "ТӀаьххьара уьш Къуръанан аяташ шайна луучу кепара гочдан долало, 'Пайхамарна муьтӀахь хила' бохург маьӀна доцуш дуьту."
         ]
       },
       {
         "type": "analogie",
-        "header": "ДӀАКХАЧОРАН БОККХА НЕКЪ",
-        "title": "Талламан а, тешамаллин а система",
+        "header": "ДӀАДАЛАРАН БЕКЪАМЕ ДАКЪА",
+        "title": "Дуьненахь тидам боцу талламан Ӏилма",
         "paragraphs": [
-          "Суннат вайга цхьаболчара бӀешераш даьлча яздина хабарш ду аьлла кхаьчна дац! Хьадисийн гуламашна тӀехь Ӏалимнаша бина боккха талламан некъ бу (Ӏилм Ар-Риджал).",
-          "Ӏалимнаша шайн дахар дӀаделла Пайхамаран ﷺ цхьа дош нийса хилар тӀечӀагӀдан.",
-          "«ХӀара адамийн хабарш ду» бахар Ӏилманан къамел дац, иза Ӏилма цахаар ду."
+          "Суннат тхоьга цхьацца наха шерашкахь жайнашкахь яздина дуьйцуш дац! Хьадисийн Ӏилманан тӀехь дуьненан исторехь уггар чӀогӀа иснадан а, адамашка хьажаран а (Иснад а, Риджал а) система лаьтта.",
+          "Ӏалимнаша бакъ хилар, иэс, муьлхачу хьехархошкара схьаэцна хьажар дуьхьа масех баттахь новкъа боьлхура.",
+          "ХӀокху боккха Ӏилманах 'адамаша дийцина хӀума ду' алар — иза Ӏилма цадовзар ду."
+        ],
+        "distinctions": [
+          {
+            "term": "РИДЖАЛАН ТАЛЛАМ (АДАМАШ)",
+            "desc": "Бакъ хилар, иэс чӀогӀа хилар, историн цхьаьнакхетарш."
+          },
+          {
+            "term": "МУТУНАН ТАЛЛАМ (ДЕКЪАШ)",
+            "desc": "Риваяташ дустар, къайлаха кхачамбацарш ('Илал) гучудахар а, харцо дӀаяккхар а."
+          }
         ]
       },
       {
         "type": "cadrage",
-        "header": "ТКЪА КЪУРЪАН МУХА КХАЬЧНА ВАЙГА?",
-        "title": "Къуръан дӀакхачоран некъ",
+        "header": "ТКЪА КЪУРЪАН МУХА КХАЧНА ВАЙГА?",
+        "title": "Адамийн оцу иснадан зӀе",
         "paragraphs": [
-          "Суннат инкардечаьрга цхьа хаттар ду: Къуръан хьанна тӀера кхаьчна хьайга?",
-          "ХӀокху Мусхьафан йоза сигалара ша доьссина дац, иза Асхьабаша, Ӏалимнаша тӀаьхьенашка дӀаделла схьадеана ду.",
-          "Ахь дешаш долу Къуръан тешамечу наха дийцина ду. Муха тарло Къуръан тӀехь царах теша, ткъа Суннат тӀехь уьш харцбан?!"
+          "Къуръаните хьожу коьрта хаттар: Къуръан хьуна хьан тӀера кхаьчна?",
+          "Къуръанан жайна (Мусхьаф) стиглара хьуна малик Джабраила карахь ца делла. Иза Сахьабашкара, ТӀабиӀинашкара, къароашкара оцу наха дӀаделла.",
+          "Хьафса Ӏасимера ялийна къираӀат а оцу адамийн зӀенашца кхаьчна. Хаттар 'адамаш дуй' аьлла дац, амма 'оцу дӀадаларан бакъ хиларан барам муха бу' аьлла ду."
         ]
       },
       {
-        "type": "chrono",
-        "header": "ДАЛЛА ДОЬХЬА ДИНА ГӀУЛЛАКХ",
-        "title": "Садакъа Джария",
+        "type": "retenir",
+        "header": "ШЕН ДЕКХАР",
+        "title": "ХӀунда ца мега тап-аьлла Ӏан?",
         "paragraphs": [
-          "АллахӀе доьху ас хӀара жайна сона а, сан дена-нанна а садакъа джария хилийта, бакъдерг лоьхучу хӀора стагана пайде хилийта.",
-          "Бакъдерг далилех кхоьруш дац!"
-        ],
-        "signature": "Салахьуддин Ахьмад (Абу Сулейман)\n23 август 2026"
+          "Социальни машанашкахь кегий нах тилош харц къамелаш дебачу хенахь, тап-аьлла Ӏар — жоьпаллин бохам бу.",
+          "ХӀокху жайна тӀом бан я цхьанна новкъарло ян яздина дац, амма дин а, логика а йолуш жоьпаш дала кхоьллина гӀирс бу.",
+          "АллахӀа дикаллин бахьана дойла хӀокху жайнах бакъо лоьхучу хӀора стагана."
+        ]
       }
     ]
   },
   "intro": {
-    "header": "ИСТОРИН БУХ",
-    "title": "ХЬУЬН БУ КЪУРЪАNANХОЙ (СУННАТ ИНКАРДЕЧАР)?",
-    "subtitle": "Билгалдаккхар, историн схьадалар а, коьрта Ӏалашо а",
-    "badge": "ИСТОРИН ХОАМАШ",
+    "badge": "ИСТОРИН ХЬОСТАШ",
+    "title": "КЪУРЪАНИТАШ МУЬЛШ БУ?",
+    "subtitle": "Орамаш, бух а, тиларан анатоми а",
+    "introTag": "ХЬАЛ ДОВЗАР",
     "sections": [
       {
-        "type": "adverse",
-        "header": "КЪАСТАМ",
-        "title": "Суннат инкарден тоба",
+        "type": "cadrage",
+        "header": "ХЬАЛ А, ИСТОРИ А",
+        "title": "Шира орамаш долу керла бидӀат",
         "paragraphs": [
-          "Къуръанизм: Къуръан бен Исламехь бух бац бохуш, Пайхамаран ﷺ Суннат Ӏаддуьту тоба ю.",
-          "Церан керла тоба XIX бӀешарахь ХӀиндехь а, XX бӀешарахь Мисрехь а кхоллаелла, амма церан тилар шира ду, хьалхалерачу Ӏалимнаша (Аш-ШафиӀи, Ибн Къутайба, Аль-Барбахари) дуьхьало йина царна."
+          "Таханлера Къуръанитал (АхӀлюл-Къуръан) керла реформа санна дуьйцу. Амма Пайхамара ﷺ хьалххе дийцира хӀокху хьолах лаьцна.",
+          "Пайхамара ﷺ элира: «Цхьа хан кхочур ю, цхьа стаг шен диван тӀехь вуьзна Ӏаш эр ду: 'ХӀокху Къуръанах бен ма тасало; хӀокху чохь хьанал дерг хьанал лара, хьарам дерг хьарам лара'. Бакъдолуш, АллахӀан Элчано ﷺ хьарам динарг АллахӀа хьарам динарг санна ду!» (Абу Давуд, Тирмизи).",
+          "Хьадисаш дерриг дицдар 19-чу бӀешеран чаккхенгахь колониализман Ӏаткъамца кхолладелла бохам бу."
+        ]
+      },
+      {
+        "type": "adverse",
+        "header": "ОЙЛАНИН МЕХАНИЗМ",
+        "title": "Кхетамзаллера дӀататтаре",
+        "paragraphs": [
+          "Къуръанитан некъ хӀокху хӀуманаш тӀехь лаьтта:",
+          "1. Эмоцин шок : Контекст йоцуш хала хьадис даладо.",
+          "2. ГӀалат жамӀ : Цхьана хьадисах ца кхетарна, дерриг хьадисаш харц лору.",
+          "3. Харц харжам : «АллахӀан дешнаш лаьа хьуна я адамийн дешнаш?»",
+          "4. Ӏамалан бахам : Суннат дӀадаьккхича, ламаз, марха, хьаж муха дан деза ца хууш буьсу."
+        ]
+      },
+      {
+        "type": "retenir",
+        "header": "ДИНАН БОХАМ",
+        "title": "Исламан Ӏамал йохар",
+        "paragraphs": [
+          "Суннат дӀадаккхар дин атта ца до, иза дохадо:",
+          "• Ламаз дан цадалар : Къуръано ламаз де боху, амма делкъа ламаз масех ракаӀат ду я сажда муха дан деза ца дуьйцу.",
+          "• Закат дала цадалар : 2,5% барам Суннатехь бен бац.",
+          "• Хьаж дан цадалар : ТӀаваф, СаӀйи, Ӏарафат Пайхамаран ﷺ Ӏамало бен ца гойту."
         ]
       },
       {
         "type": "analogie",
-        "header": "ПАЙХАМАРАН ﷺ МУЬЪЖИЗА",
-        "title": "Пайхамара ﷺ хьалххе дийцира царах лаьцна",
+        "header": "КЪОВСАМАН ДЕШИЙН БАБ",
+        "title": "Шен ойланан тӀаьхьенашца дуьхьал хӀоттор",
         "paragraphs": [
-          "Пайхамара ﷺ билгалчу хьолехь дийцира иштта нах гучубовлур бу аьлла:"
-        ],
-        "hadiths": [
-          {
-            "ref": "Сунан Аби Давуд (хьадис 4604)",
-            "ar": "« أَلَا إِنِّي أُوتِيتُ الْكِتَابَ وَمِثْلَهُ مَعَهُ، أَلَا يُوشِكُ رَجُلٌ شَبْعَانُ عَلَى أَرِيكَتِهِ يَقُولُ: عَلَيْكُمْ بِهَذَا الْقُرْآنِ... »",
-            "translation": "«Хаалаш, сона Къуръан а, цуьнца цхьаьна цунах тера дерг (Суннат) а делла. Дукха хан ялале цхьа вуьзна стаг диванан тӀе ваьлла Ӏаш эр ду: ХӀокху Къуръанах бен ма тасало...»"
-          }
+          "Уггар дика некъ — цуьнга хаттар ду: Хьо хӀора дийнахь Къуръанан дешнашца бен ламаз муха до?",
+          "Хьо тидам бийр ву, цуьнан ламаз дан некъ бац Суннатан дӀадаларе ца дирзича!"
         ]
       }
     ]
+  },
+  "fallaciesToolbox": {
+    "headerBadge": "МЕТОДИКАН ТЕПТАР",
+    "title": "ГӀИРСИЙН ТӀоЬРМИГ — КЪОВСАМ БАЛЕ ЛОГИКАН ХАРЦОНАШ ЙОВЗАР",
+    "subtitle": "Логикан гӀалаташ билгалдахар, къовсамехь тила ца валийта",
+    "introText": "Цхьа далил нийса аят далош хила тарло, амма логикан зӀе харц елахь жамӀ тиларан хуьлу.",
+    "goldenRuleTitle": "КОЬРТА ПРИНЦИП :",
+    "goldenRuleText": "ДАЛИЛ ХАРЦО ЮЙЛА ГАЙТАРО ЖАМӀ ХАРЦ ДУЙЛА ЦА ГОЙТУ ; АММА ХӀоКХУ ДАЛИЛО ИЗА ЦА ТАСДИКЪДОЙЛА ГОЙТУ.",
+    "goldenRuleMeaning": "Логикан гӀалат гучудаккхаро динан таллам бита ца бо; амма харц жамӀ тӀеэцарна ларво.",
+    "cardMemoBadge": "ИЭСАН КЕП",
+    "trainingBadge": "ӀАМОР",
+    "labelDefinition": "Билгалдаккхар :",
+    "labelGeneralExample": "🌍 Дахаран масал :",
+    "labelQuranicApp": "🕌 Къуръанитал къовсамехь лелор :",
+    "labelQuestionToAsk": "❓ Дала деза хаттар :",
+    "labelShortAnswer": "⚡ Доцца жоп :",
+    "items": [
+      {
+        "id": "homme-de-paille",
+        "num": 1,
+        "name": "Харц Дихотоми (Шина Харжаме Бистар)",
+        "shortDef": "Хала хьал шина къаьсттина харжаме далор.",
+        "definition": "Халла шина харжаме далор кхоалгӀа нийса некъ къайлабохуш.",
+        "generalExample": "« Хьо соьца вац, тӀаккха хьо сан мостагӀ ву. »",
+        "quranicApplication": "• « Хьо АллахӀана муьтӀахь ву я Пайхамарна ﷺ? » (Пайхамарна муьтӀахь хилар АллахӀан буьйр ду).",
+        "questionToAsk": "« ХӀокху шина хӀуманах дуьхьал хӀун ду цхьаъ кхечух дозуш хилча? »",
+        "shortAnswer": "« Элчанна ﷺ муьтӀахь хилар АллахӀана муьтӀахь хилар ду. »",
+        "icon": "🌾"
+      },
+      {
+        "id": "fausse-dichotomie",
+        "num": 2,
+        "name": "ТӀех ЖамӀ Дар",
+        "shortDef": "Цхьана шеконан хьолах дерриг чулоцу жамӀ дар.",
+        "definition": "КӀеззиг масалех дерриг жайнин бакъо хадор.",
+        "generalExample": "« Ши механик харц стаг вара, цундела берриг механикаш харц бу. »",
+        "quranicApplication": "• « Харц хьадисаш кхоьллина, цундела цхьана а хьадисах ца теша. »",
+        "questionToAsk": "« Харц ахча хиларо бакъ ахча дац бохург дуй? »",
+        "shortAnswer": "« Харц хьадисаш бахьана долуш Ӏалимнаша иснадан Ӏилма кхоьллина. »",
+        "icon": "⚖️"
+      },
+      {
+        "id": "generalisation-abusive",
+        "num": 3,
+        "name": "Йолан Адам (Strohmann)",
+        "shortDef": "Оппонентан ойла харц яр атта дуьхьало ян.",
+        "definition": "Оппонента ца аьлла харцо кхоьллина цуьнга жоп далар.",
+        "generalExample": "« Машен лелор лахде боху ахь, тӀаккха машенаш дихка лууш ву хьо. »",
+        "quranicApplication": "• « Аша Къуръан кхачам бац боху. » (Цхьаммо а ца боху: Суннат кхетош ду).",
+        "questionToAsk": "« Исламан муьлхачу Ӏалимо элира иза? »",
+        "shortAnswer": "« Тхо ца дуьйцург ма дийца; бакъо тӀехь къамел де. »",
+        "icon": "🔍"
+      },
+      {
+        "id": "non-sequitur",
+        "num": 4,
+        "name": "ЗӀе Йоцу ЖамӀ (Non Sequitur)",
+        "shortDef": "ЖамӀ хьалхарчу дешах логикица ца догӀу.",
+        "definition": "Предикат бакъ хила тарло амма жамӀ цунах ца догӀу.",
+        "generalExample": "« Арахь догӀа догӀу, цундела залан чуьра баскетбол дӀаяьккхина. »",
+        "quranicApplication": "• « Къуръан кхачам бу, цундела Суннат ца оьшу. »",
+        "questionToAsk": "« Хьан хьалхарчу дешан а, жамӀан а юккъехь логика мичахь ю? »",
+        "shortAnswer": "« Хьалхара дош бакъ хиларх жамӀ бакъ ца хуьлу. »",
+        "icon": "⚡"
+      },
+      {
+        "id": "cherry-picking",
+        "num": 5,
+        "name": "БӀаьрзе Харжам (Cherry-Picking)",
+        "shortDef": "Шайна луу аяташ бен ца далор, кхетош дерш къайладахар.",
+        "definition": "Пайхамарна муьтӀахь хила боху аяташ ца далор.",
+        "generalExample": "Шайна пайден 3 таллам гайтар, 50 дуьхьал дерг къайладахар.",
+        "quranicApplication": "• « Элчанна тӀехь кхачор бен дац » далор, « Элчанна муьтӀахь хила » дитар.",
+        "questionToAsk": "« Оцу темин кхин аяташ дуй ахь къайладаьхна? »",
+        "shortAnswer": "« Аят кхечу аяташца бен ца кхетадо. »",
+        "icon": "🍒"
+      },
+      {
+        "id": "double-standard",
+        "num": 6,
+        "name": "Шина БӀаьрган Барам (Zweierlei Maß)",
+        "shortDef": "Кхечунна чӀогӀа барам лелор, шайна аттаниг.",
+        "definition": "Къуръанан иснад тӀеэцар, амма Суннатан иснад дӀататтар.",
+        "generalExample": "Нахера тешаллаш дахар, шайна хезза хабарш лелор.",
+        "quranicApplication": "• Ӏайшатан хенах лаьцна Бухарих тешар, амма Ӏамалехь дӀататтар.",
+        "questionToAsk": "« И далил хьуна пайден хилча, ахь тӀеоьцур дарий? »",
+        "shortAnswer": "« Бакъонан барам хьан лаамца хийца ца ло. »",
+        "icon": "🔄"
+      },
+      {
+        "id": "equivoque-lexicale",
+        "num": 7,
+        "name": "Дешан МаьӀна Хийцар",
+        "shortDef": "Къуръанера 'Хьадис' дешан маьӀна харц лелор.",
+        "definition": "Къуръанехь хьадис бохург 'къамел' ду, Бухарин жайна дац.",
+        "generalExample": "« Тартаран низам закон ду. Законаш парламентахь доху. Тартар парламентан сацам бу. »",
+        "quranicApplication": "• Къуръанехь 'Хьадис' къамел ду, Бухарин жайна дац.",
+        "questionToAsk": "« Оцу дешан Ӏаьрбийн маттахь бакъ маьӀна хӀун ду? »",
+        "shortAnswer": "« ЖамӀ данле дешан маьӀна къасто деза. »",
+        "icon": "🔀"
+      },
+      {
+        "id": "argument-de-possibilite",
+        "num": 8,
+        "name": "Хила Тарларан Мугалете",
+        "shortDef": "Теорица хила тарлуш дерг бакъ боцу хилам санна гайтар.",
+        "definition": "Шеко хила тарло аьлла дерриг хьадисаш дӀататтар.",
+        "generalExample": "« Шайхо харц дерг дийца тарло, цундела дерриг кхелан тешаллаш харц ду. »",
+        "quranicApplication": "• Харцо хила тарларна Ӏалимнаша иснадан Ӏилма кхоьллира.",
+        "questionToAsk": "« Ахь харцо хилла хилар билгалдирий я тарло бен ца баьхна? »",
+        "shortAnswer": "« Теорица хила тарлуш дерг историн далил дац. »",
+        "icon": "🎲"
+      },
+      {
+        "id": "deplacement-charge-preuve",
+        "num": 9,
+        "name": "Бакъо ТӀеяхкаран ГӀалат",
+        "shortDef": "Ша хӀума аьллачул тӀаьхьа кхечунга харц де бахар.",
+        "definition": "Дерриг хьадисаш харц ду бохучо иза ша далилца гайта деза.",
+        "generalExample": "« Марс тӀехь нах Ӏаш бу, бац алий далил даладе. »",
+        "quranicApplication": "• Хьадисаш харц ду бохучо иза ша далилца гайта деза.",
+        "questionToAsk": "« Кхузахь бакъо талла декхарийлахь верг хьан ву? »",
+        "shortAnswer": "« Харц ду бохучо иза ша далилца гайта деза. »",
+        "icon": "⚖️"
+      },
+      {
+        "id": "appel-emotion",
+        "num": 10,
+        "name": "Эмоцеш а, Белам а Лелор",
+        "shortDef": "Ӏилманан талламан метта белам а, эмоци а лелор.",
+        "definition": "Ӏилманан далил доцуш хьадисах белам бар.",
+        "generalExample": "Формулех велар цуьнан таллам бан метта.",
+        "quranicApplication": "• « Хьо мозийн хьадисах теша?! » Белам далил дац.",
+        "questionToAsk": "« Хьан эмоцел сов, Ӏилманан далил хӀун ду? »",
+        "shortAnswer": "« Беламо а, эмоцино а Ӏилманан далил ца хийца. »",
+        "icon": "🎭"
+      }
+    ],
+    "reflexQuestions": {
+      "title": "4 КОЬРТА ТАЛЛАМАН ХАТТАР",
+      "subtitle": "ХӀора далилна 4 некъан хаттар",
+      "summaryNotice": "ХӀокху 4 хаттаро дерриг харц къамелаш пусар до.",
+      "questions": [
+        {
+          "num": 1,
+          "title": "1. Бух",
+          "desc": "Бакъдолуш хӀун далил ду далийнарг? ЖамӀ хьалххе бух чу ма дахийта."
+        },
+        {
+          "num": 2,
+          "title": "2. Логикан ЗӀе",
+          "desc": "ЖамӀ бакъдолуш бухах догӀуш дуй, я коьрта дакъа кхачамбац?"
+        },
+        {
+          "num": 3,
+          "title": "3. Дерриг Аяташ",
+          "desc": "Дерриг аяташ тидаме эцний, я шайна лууш дерш бен ца далийна?"
+        },
+        {
+          "num": 4,
+          "title": "4. Цхьатерра Барам",
+          "desc": "Шина а агӀонна цхьатерра чӀогӀа барам лелош буй?"
+        }
+      ]
+    },
+    "quiz": {
+      "title": "СИХА ТЕСТ : ЛОГИКАН ХАРЦО БИЛГАЛЯККХА",
+      "subtitle": "ХӀокху дешнашкахь логикан гӀалат караде :",
+      "items": [
+        {
+          "id": 1,
+          "statement": "« Цхьадолу хьадисаш харц дина. Цундела цхьана а хьадисах ца теша. »",
+          "answerId": "generalisation-abusive",
+          "answerName": "ТӀех ЖамӀ Дар",
+          "explanation": "Масех харц хӀуманах дерриг дӀататтар тӀех жамӀ дар ду."
+        },
+        {
+          "id": 2,
+          "statement": "« Я АллахӀана тӀаьхьаваза, я Пайхамарна ﷺ. »",
+          "answerId": "fausse-dichotomie",
+          "answerName": "Харц Дихотоми",
+          "explanation": "Пайхамарна муьтӀахь хилар АллахӀан буьйр ду."
+        },
+        {
+          "id": 3,
+          "statement": "« Къуръан кхачам бу, цундела Пайхамаран хьехам ца оьшу. »",
+          "answerId": "non-sequitur",
+          "answerName": "ЗӀе Йоцу ЖамӀ",
+          "explanation": "Къуръано ша тӀедуьллу Пайхамарна тӀаьхьавазар."
+        },
+        {
+          "id": 4,
+          "statement": "« Кхин муьлхачу хьадисах тешар ду? Цундела Бухари дихкина ду. »",
+          "answerId": "equivoque-lexicale",
+          "answerName": "Дешан МаьӀна Хийцар",
+          "explanation": "Къуръанехь хьадис бохург къамел ду, Бухарин жайна дац."
+        },
+        {
+          "id": 5,
+          "statement": "« Хьадисаш тӀаьхьа яздина, амма Ӏайшатан шераш бакъ далил ду! »",
+          "answerId": "double-standard",
+          "answerName": "Шина БӀаьрган Барам",
+          "explanation": "Шайна пайден хилча тешар, амма дин хилча дӀататтар шина бӀаьрган барам бу."
+        },
+        {
+          "id": 6,
+          "statement": "« Иснад кхолла тарло. Цундела иснадо хӀумма ца гойту. »",
+          "answerId": "argument-de-possibilite",
+          "answerName": "Хила Тарларан Мугалете",
+          "explanation": "Теорица хила тарлуш дерг историн бакъо санна лелор харцо ю."
+        }
+      ]
+    },
+    "conclusion": {
+      "title": "КОЬРТА ХЬЕХАМ : СЛОГАНАШНА ХЬАЛХА ЛОГИКА",
+      "mainText": "Цхьана къамело нийса аят далийна хила тарло, амма логика харц елахь жамӀ тилар ду.",
+      "slogan1": "ХАТТА МАКХОЧУШ : « ДАЛИЛ ХӀУН ДУ ? »",
+      "slogan2": "ХАТТА А ХАТТА : « ЦО БАКЪДОЛУШ ХӀУН ТАСДИКЪ ДО ? »"
+    }
   },
   "arguments": [
     {
       "id": 1,
       "number": "01",
       "slug": "1-coran-complet",
-      "theme": "Къуръанан кхачамбалла а, Пайхамаран кхетор а",
-      "title": "Къуръан кхачаме ду: ТӀаккха Суннат хӀунда оьшу?",
-      "shortTitle": "Perfection of the Quran",
-      "tagline": "Къуръан шен бух тӀехь кхачаме ду, цуьнан кхачамалла ю Пайхамарна ﷺ муьтӀахь хила омра дар.",
-      "formula": "Къуръанан кхачамалла ю Пайхамаран кхеторе ладогӀар; Суннат инкар дар Къуръан инкар дар ду!",
+      "theme": "Кхачам Хилар а, Пайхамаран ﷺ Кхетор а",
+      "title": "Къуръан кхачам бу: Тхуна Суннат хӀунда оьшу?",
+      "shortTitle": "Къуръанан Кхачам",
+      "tagline": "Къуръан шен бух тӀехь кхачам бу, цуьнан кхачаман дакъа Пайхамарна ﷺ муьтӀахь хила тӀедиллар ду.",
+      "formula": "Къуръанан кхачамо Пайхамаран ﷺ Баян чулоцу; Суннат дӀататтар Къуръан дӀататтар ду!",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_1.pdf",
       "theirArgument": {
-        "thesis": "The Quran is complete, fully detailed, and omits nothing. Everything we need is explicitly in the Book; claiming a need for Hadiths contradicts the perfection of the Quran.",
+        "thesis": "Къуръан кхачам бу, хӀумма ца дитина. Дерриг Къуръанехь ду; Суннат оьшу бахар Къуръанан кхачам бац бахар ду.",
         "verses": [
           {
-            "ref": "Сурат Al-An'am, аят 38",
-            "ar": "مَّا فَرَّطْنَا فِي الْكِتَابِ مِن شَيْءٍ",
-            "translation": "We have not neglected anything in the Book."
+            "ref": "Сурат Al-Anʿâm, аят 38",
+            "ar": "مَّا فَرَّطْنَا فِي الْكِتَابِ مِن شَيْءٍ",
+            "translation": "« Nous n'avons rien omis dans le Livre. »"
           },
           {
-            "ref": "Сурат An-Nahl, аят 89",
-            "ar": "وَنَزَّلْنَا عَلَيْكَ الْكِتَابَ تِبْيَانًا لِّكُلِّ شَيْءٍ",
-            "translation": "And We have revealed to you the Book as clarification for all things."
+            "ref": "Сурат Al-Anʿâm, аят 114",
+            "ar": "كِتَابًا مُّفَصَّلًا",
+            "translation": "« Un Livre exposé en détail. »"
+          },
+          {
+            "ref": "Сурат An-Naḥl, аят 89",
+            "ar": "وَنَزَّلْنَا عَلَيْكَ الْكِتَابَ تِبْيَانًا لِّكُلِّ شَيْءٍ",
+            "translation": "« Nous avons fait descendre sur toi le Livre comme clarification de toute chose. »"
           }
         ],
-        "realQuestion": "Does the structural completeness of the Quran as a foundational framework preclude the prophetic explanation that it explicitly mandates?"
+        "realQuestion": "Къуръанан кхачамо Пайхамаран ﷺ Баян (кхетор) дӀадоккхий?"
       },
       "logicalNode": {
-        "title": "Confusion between systemic completeness and interpretative self-sufficiency",
+        "title": "Логикан Дакъа а, Башхаллаш а",
         "distinctions": [
           {
-            "term": "SYSTEMIC LEGISLATIVE COMPLETENESS",
-            "desc": "The Quran is complete because it establishes all foundational principles and institutes the legal authority of the Prophet ﷺ."
+            "term": "КЪУРЪАНАН БУХ",
+            "desc": "Къуръано дерриг динан бух буьллу а, Пайхамарна ﷺ муьтӀахь хила тӀедуьллу."
           },
           {
-            "term": "LITERAL OPERATIONAL EXHAUSTION",
-            "desc": "A false assumption: the Quran commands prayer, zakah, and fasting without specifying practical details, delegating them to the Prophet ﷺ."
+            "term": "СУННАТАН КХЕТОР",
+            "desc": "Суннато ламазан, закатан а, дахаран а хьехамаш кхетадо."
           }
         ],
-        "generalRule": "A foundational text that formally delegates binding interpretation to an authorized messenger is not deficient; its completeness includes that delegated authority.",
-        "errorToAvoid": "Confusing fundamental legislative completeness with procedural execution details."
+        "generalRule": "Шен кхетор кхечуьнга деллачу йозано оцу кхеторан бакъо шен кхачамехь чулоцу.",
+        "errorToAvoid": "Динан бух а, цуьнан Ӏамал а иэяр."
       },
       "centralPrinciple": {
-        "title": "The completeness of the Quran includes the obligation of following the Prophet's authority",
-        "formalScheme": "1. The Quran is complete in laying down divine guidance.\n2. Part of this completeness is the explicit command to obey the Prophet ﷺ and follow his explanation (Bayan).\n3. Therefore, following the Sunnah is the direct fulfillment of the Quran's completeness.",
-        "explanation": "The Quran itself establishes the authority of the Sunnah. Rejecting the Sunnah violates the very Quranic verses that command obedience to the Messenger ﷺ.",
-        "logicalTest": "If the Quran was intended as an operational manual without Hadith, derive solely from the Quranic text the number of daily prayers, units (rak'at), and exact zakah percentages!"
+        "title": "Коьрта Принцип",
+        "formalScheme": "1. Къуръано Пайхамарна ﷺ муьтӀахь хила тӀедуьллу.\n2. Суннат Къуръанан кхетор ду.\n3. Суннат дӀататтар Къуръан дӀататтар ду.",
+        "explanation": "Къуръано ша Суннатан бакъо хӀоттайо. Суннат дӀатеттиначо Къуръанан аяташ дӀатоьтту.",
+        "logicalTest": "Къуръан бен ца оьшуш хилча, делкъа ламазан ракаӀаташ Къуръанера схьадийца!"
       },
       "quranicArchitecture": {
-        "title": "Decisive Quranic verses on the mission of prophetic clarification (Bayan)",
+        "title": "Билгалдолу Аяташ",
         "verses": [
           {
-            "ref": "Сурат An-Nahl, аят 44",
-            "ar": "وَأَنزَلْنَا إِلَيْكَ الذِّكْرَ لِتُبَيِّنَ لِلنَّاسِ مَا نُزِّلَ إِلَيْهِمْ",
-            "translation": "And We revealed to you the Message so that you may clarify to the people what was revealed to them."
+            "ref": "Сурат An-Nisâʾ, аят 59",
+            "ar": "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ",
+            "translation": "« Obéissez à Allah et obéissez au Messager. »"
           },
           {
-            "ref": "Сурат Al-Jumu'ah, аят 2",
-            "ar": "يَتْلُو عَلَيْهِمْ آيَاتِهِ وَيُزَكِّيهِمْ وَيُعَلِّمُهُمُ الْكِتَابَ وَالْحِكْمَةَ",
-            "translation": "Reciting to them His verses, purifying them, and teaching them the Book and Wisdom (the Sunnah)."
+            "ref": "Сурат An-Nisâʾ, аят 65",
+            "ar": "حَتَّىٰ يُحَكِّمُوكَ فِيمَا شَجَرَ بَيْنَهُمْ",
+            "translation": "« Jusqu'à ce qu'ils te prennent pour juge dans leurs différends. »"
+          },
+          {
+            "ref": "Сурат An-Naḥl, аят 44",
+            "ar": "لِتُبَيِّنَ لِلنَّاسِ مَا نُزِّلَ إِلَيْهِمْ",
+            "translation": "« Afin que tu exposes clairement aux gens ce qui a été révélé pour eux. »"
+          },
+          {
+            "ref": "Сурат Al-Aḥzâb, аят 21",
+            "ar": "لَّقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ",
+            "translation": "« Vous avez certes dans le Messager d'Allah un excellent modèle. »"
           }
         ],
-        "consequence": "The Quran establishes the Prophet ﷺ as an authoritative teacher and interpreter, not a passive messenger."
+        "consequence": "Къуръано Пайхамар ﷺ хьехархо а, кхетош верг а лара боху."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "The Constitution and Executive Regulations",
-          "scenario": "A nation's constitution establishes fundamental rights and creates a Supreme Court authorized to interpret and apply laws.",
-          "logic": "The constitution is complete by creating executive bodies; it does not need to list every local traffic ordinance!",
-          "lesson": "The completeness of a foundational text includes the institutions it creates.",
-          "application": "The Quran is the supreme constitution that mandates following the prophetic Sunnah as its authoritative application."
+          "title": "Конституци а, Кхочушдаран Законаш а",
+          "scenario": "Конституцино бух буьллу, законаша кхетадо.",
+          "logicBox": "Конституци = Къуръан | Законаш = Суннат.",
+          "lesson": "Законаш дӀадаьхча пачхьалкх сеца."
+        },
+        {
+          "num": 2,
+          "title": "Лоьран Рецепт а, Молха Лелор а",
+          "scenario": "Лоьро молха яздо, лелоран некъ кхетадо.",
+          "logicBox": "Рецепт = Бух | Лелор = Суннат.",
+          "lesson": "Лелор ца хиъча зен хуьлу."
         }
       ],
       "readyResponses": {
-        "quick30s": "The completeness of the Quran means that it establishes all core principles of faith, and among its supreme commands is: {And We revealed to you the Message that you may clarify to the people} (16:44). Rejecting the Sunnah violates the Quran itself!",
-        "developed": "When the Quran declares {We have not neglected anything in the Book} (6:38), it refers to the fullness of divine guidance. One of its greatest principles is submission to the authority of the Messenger ﷺ. Anyone who rejects his Sunnah nullifies the Quran's commands."
+        "quick30s": "Къуръано Пайхамарна ﷺ муьтӀахь хила боху (Сурат 16, Аят 44). Суннат дӀататтар Къуръанан буьйр дӀататтар ду.",
+        "developed": "Къуръанан кхачам — динан бух хӀоттор ду. Практикан Ӏамал Пайхамара ﷺ кхетийна. Суннат доцуш дин дахарехь лело йиш яц."
       },
       "objections": [
         {
-          "obj": "The Quran says 'clarification for all things', is the Sunnah something outside the Quran?",
-          "ans": "The Sunnah is the internal clarification commanded by the Quran itself, not an external addition. The explanation is an integral part of the message."
+          "obj": "Къуръано дерриг кхетадо ца боху?",
+          "ans": "Суннат оцу кхеторан дакъа ду Къуръано ша тӀедиллина."
+        },
+        {
+          "obj": "Пайхамар кхелхина вац?",
+          "ans": "Иза кхелхина амма цуьнан бакъ Суннат дийна ду."
         }
       ],
       "framingQuestions": [
-        "Where in the Quran alone can one find the number of rak'at for the noon prayer?",
-        "Why did Allah command the Prophet to 'clarify' (li-tubayyina) if the text was self-sufficient without prophetic practice?"
+        "Делкъа ламаз масех ракаӀат ду Къуръанехь?",
+        "АллахӀа Пайхамарна Къуръан кхетаде хӀунда аьлла?"
       ],
       "quiz": [
         {
-          "q": "What does the completeness of the Quran mean in the Islamic legislative context?",
+          "q": "Къуръанан кхачам хилар хӀун ду?",
           "options": [
-            "That it lists every practical detail without need for explanation.",
-            "That it establishes the foundations and obligates obedience to the Prophet ﷺ.",
-            "That it abrogates the Sunnah.",
-            "That it is merely a history book."
+            "ХӀора хӀума Пайхамар вацара аьлла дуьйцуш хилар.",
+            "Динан бух хӀоттор а, Пайхамарна ﷺ муьтӀахь хила тӀедиллар а.",
+            "Ламаз дан ца оьшу бохург.",
+            "Хьадисаш харц ду бохург."
           ],
           "answer": 1,
-          "explanation": "The completeness of the Quran establishes the obligation to follow the Prophet's authorized explanation."
+          "explanation": "Къуръано бух буьллу а, Суннат кхеторан хьост дуйла билгалдоккху."
         }
       ],
       "conclusion": {
         "steps": [
-          "The Quran is a complete and perfect book of divine guidance.",
-          "The Quran itself commands obedience to the Prophet ﷺ.",
-          "There is no contradiction between the completeness of the Quran and the Sunnah."
+          "Къуръан АллахӀан дош ду.",
+          "Къуръано Пайхамарна ﷺ тӀаьхьаваза боху.",
+          "Суннат Къуръан дахарехь лелоран некъ ду."
         ],
-        "finalText": "The completeness of the Quran is demonstrated by instituting the Sunnah as its binding practical explanation.",
-        "punchline": "Claiming to suffice with the Quran in order to reject the Sunnah is rejecting the Quran itself!"
+        "finalText": "Къуръан а, Суннат а вовшех къаста йиш йоцуш ду.",
+        "punchline": "Къуръанан цӀарца Суннат дӀатеттинарг — Къуръанана муьтӀахь вац!"
       },
       "fallacies": [
         "non-sequitur",
@@ -392,105 +663,125 @@ window.I18N_DATA['ce'] = {
       "id": 2,
       "number": "02",
       "slug": "2-obeissance-messager",
-      "theme": "Пайхамарна муьтӀахь хиларан гуттаренна йолу бакъо",
-      "title": "Пайхамарна муьтӀахь хилар цуьнан дахарехь бен дацара?",
-      "shortTitle": "Perpetual Authority of the Prophet",
-      "tagline": "Пайхамарна муьтӀахь хиларан омранаш гуттаренна ду массо чкъурашна.",
-      "formula": "Пайхамарна муьтӀахь хилар даима ду; бакъ Суннат цуьнан дийна куц ду!",
+      "theme": "Пайхамарна ﷺ МуьтӀахь Хиларан Гуттаренна Декхар",
+      "title": "Пайхамарна ﷺ муьтӀахь хилар: Иза цуьнан дахарехь бен дацарий?",
+      "shortTitle": "Гуттаренна МуьтӀахь Хилар",
+      "tagline": "Къуръано Пайхамарна ﷺ муьтӀахь хила бохург Къематан де кхаччалц ду.",
+      "formula": "Пайхамарна ﷺ муьтӀахь хилар дӀадаьллехь, дерриг Къуръан маьӀна доцуш дуьсур дара!",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_2.PDF",
       "theirArgument": {
-        "thesis": "Obedience to the Prophet was only mandatory for his companions during his lifetime as a community leader. After his death, no authority remains over us except the written text of the Quran.",
+        "thesis": "Пайхамарна муьтӀахь хилар цуьнан заманахь бен дацара; тахана Къуръан бен дац.",
         "verses": [
           {
-            "ref": "Сурат An-Nisa, аят 59",
-            "ar": "يَا أَيُّهَا الَّذِينَ آمَنُوا أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ",
-            "translation": "O you who believe, obey Allah and obey the Messenger."
+            "ref": "Сурат An-Nisâʾ, аят 59",
+            "ar": "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ",
+            "translation": "« Obéissez à Allah et obéissez au Messager. »"
+          },
+          {
+            "ref": "Сурат An-Nisâʾ, аят 80",
+            "ar": "مَّن يُطِعِ الرَّسُولَ فَقَدْ أَطَاعَ اللَّهَ",
+            "translation": "« Celui qui obéit au Messager a certes obéi à Allah. »"
           }
         ],
-        "realQuestion": "Is the Quranic command to obey the Messenger a temporary historical rule or an eternal legal principle for the Ummah until the Day of Judgment?"
+        "realQuestion": "Къуръанехь Пайхамарна муьтӀахь хилар чекхдаьлла боху далил дуй?"
       },
       "logicalNode": {
-        "title": "Confusion between the mortal person and the perpetual legislative status of the Prophet",
+        "title": "Логикан Дакъа а, Башхаллаш а",
         "distinctions": [
           {
-            "term": "EARTHLY LIFETIME OF THE PROPHET",
-            "desc": "The historical phase of receiving revelation and establishing the community."
+            "term": "КЪУРЪАНАН БУХ",
+            "desc": "Къуръано дерриг динан бух буьллу а, Пайхамарна ﷺ муьтӀахь хила тӀедуьллу."
           },
           {
-            "term": "LEGISLATIVE MISSION & SUNNAH",
-            "desc": "Timeless rulings and principles binding upon every Muslim until the Day of Resurrection."
+            "term": "СУННАТАН КХЕТОР",
+            "desc": "Суннато ламазан, закатан а, дахаран а хьехамаш кхетадо."
           }
         ],
-        "generalRule": "General Quranic legal commands do not expire with the death of the first generation or the authorized lawmaker.",
-        "errorToAvoid": "Reducing the prophetic mission to the physical person, thus nullifying the Sunnah for subsequent generations."
+        "generalRule": "Шен кхетор кхечуьнга деллачу йозано оцу кхеторан бакъо шен кхачамехь чулоцу.",
+        "errorToAvoid": "Динан бух а, цуьнан Ӏамал а иэяр."
       },
       "centralPrinciple": {
-        "title": "Obedience to the Messenger is inextricably linked to obedience to Allah",
-        "formalScheme": "1. The Quran addresses all Muslims until the Day of Judgment: {Obey Allah and obey the Messenger}.\n2. If this applied only to his lifetime, half of the Quran would have expired upon his death.\n3. Therefore, obedience persists and is fulfilled through his authentic Sunnah.",
-        "explanation": "Allah links His obedience to that of the Messenger in over 30 verses in absolute imperative form. Today, obeying the Prophet means following his verified Sunnah.",
-        "logicalTest": "If obedience ceased upon his death, why do we still recite these verses in our daily prayers as binding divine law?"
+        "title": "Коьрта Принцип",
+        "formalScheme": "1. Къуръано Пайхамарна ﷺ муьтӀахь хила тӀедуьллу.\n2. Суннат Къуръанан кхетор ду.\n3. Суннат дӀататтар Къуръан дӀататтар ду.",
+        "explanation": "Къуръано ша Суннатан бакъо хӀоттайо. Суннат дӀатеттиначо Къуръанан аяташ дӀатоьтту.",
+        "logicalTest": "Къуръан бен ца оьшуш хилча, делкъа ламазан ракаӀаташ Къуръанера схьадийца!"
       },
       "quranicArchitecture": {
-        "title": "Decisive verses on the binding judicial authority of the Prophet ﷺ",
+        "title": "Билгалдолу Аяташ",
         "verses": [
           {
-            "ref": "Сурат An-Nisa, аят 65",
-            "ar": "فَلَا وَرَبِّكَ لَا يُؤْمِنُونَ حَتَّىٰ يُحَكِّمُوكَ فِيمَا شَجَرَ بَيْنَهُمْ",
-            "translation": "But no, by your Lord, they will not believe until they make you judge concerning that over which they dispute among themselves."
+            "ref": "Сурат An-Nisâʾ, аят 65",
+            "ar": "فَلَا وَرَبِّكَ لَا يُؤْمِنُونَ حَتَّىٰ يُحَكِّمُوكَ فِيمَا شَجَرَ بَيْنَهُمْ ثُمَّ لَا يَجِدُوا فِي أَنفُسِهِمْ حَرَجًا مِّمَّا قَضَيْتَ وَيُسَلِّمُوا تَسْلِيمًا",
+            "translation": "« Non ! Par ton Seigneur ! Ils ne seront pas croyants tant qu'ils ne t'auront pas pris pour juge dans leurs litiges, et qu'ils n'éprouvent nulle gêne envers ce que tu as tranché, et qu'ils s'y soumettent totalement. »"
           },
           {
-            "ref": "Сурат An-Nur, аят 63",
-            "ar": "فَلْيَحْذَرِ الَّذِينَ يُخَالِفُونَ عَنْ أَمْرِهِ أَن تُصِيبَهُمْ فِتْنَةٌ",
-            "translation": "So let those who oppose his command beware, lest a trial or a painful punishment strike them."
+            "ref": "Сурат An-Nûr, аят 63",
+            "ar": "فَلْيَحْذَرِ الَّذِينَ يُخَالِفُونَ عَنْ أَمْرِهِ",
+            "translation": "« Que ceux qui s'opposent à son ordre prennent garde... »"
+          },
+          {
+            "ref": "Сурат Al-Aḥzâb, аят 36",
+            "ar": "وَمَا كَانَ لِمُؤْمِنٍ وَلَا مُؤْمِنَةٍ إِذَا قَضَى اللَّهُ وَرَسُولُهُ أَمْرًا أَن يَكُونَ لَهُمُ الْخِيَرَةُ مِنْ أَمْرِهِمْ",
+            "translation": "« Il n'appartient pas à un croyant ni à une croyante, lorsqu'Allah et Son Messager ont décidé d'une affaire, d'avoir encore le choix... »"
           }
         ],
-        "consequence": "True faith requires submitting to the rulings and Sunnah of the Prophet ﷺ."
+        "consequence": "Къуръано Пайхамар ﷺ хьехархо а, кхетош верг а лара боху."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "The Legal Will of the Founder",
-          "scenario": "The founder of a nation writes laws and mandates following the directives of his designated office perpetually.",
-          "logic": "The death of the founder does not invalidate the documented regulations.",
-          "lesson": "Legal norms remain in force through reliable transmission.",
-          "application": "The Sunnah of the Prophet is the authoritative documented explanation for all ages."
+          "title": "Конституци а, Кхочушдаран Законаш а",
+          "scenario": "Конституцино бух буьллу, законаша кхетадо.",
+          "logicBox": "Конституци = Къуръан | Законаш = Суннат.",
+          "lesson": "Законаш дӀадаьхча пачхьалкх сеца."
+        },
+        {
+          "num": 2,
+          "title": "Лоьран Рецепт а, Молха Лелор а",
+          "scenario": "Лоьро молха яздо, лелоран некъ кхетадо.",
+          "logicBox": "Рецепт = Бух | Лелор = Суннат.",
+          "lesson": "Лелор ца хиъча зен хуьлу."
         }
       ],
       "readyResponses": {
-        "quick30s": "The Quran declares: {He who obeys the Messenger has obeyed Allah} (4:80). If obedience died with him, half the Quran would be obsolete today! Obedience today is achieved by following his authentic Sunnah.",
-        "developed": "Allah formulated obedience to the Messenger unconditionally. No Muslim scholar has ever claimed that these commands historically expired. The Sunnah is the living application of this divine imperative."
+        "quick30s": "Къуръано Пайхамарна ﷺ муьтӀахь хила боху (Сурат 16, Аят 44). Суннат дӀататтар Къуръанан буьйр дӀататтар ду.",
+        "developed": "Къуръанан кхачам — динан бух хӀоттор ду. Практикан Ӏамал Пайхамара ﷺ кхетийна. Суннат доцуш дин дахарехь лело йиш яц."
       },
       "objections": [
         {
-          "obj": "The Companions could question the Prophet directly, whereas we cannot!",
-          "ans": "Muslims in distant lands (such as Yemen) could not ask the Prophet directly either; they followed reliable transmitters. We follow the very same verified chains of transmission."
+          "obj": "Къуръано дерриг кхетадо ца боху?",
+          "ans": "Суннат оцу кхеторан дакъа ду Къуръано ша тӀедиллина."
+        },
+        {
+          "obj": "Пайхамар кхелхина вац?",
+          "ans": "Иза кхелхина амма цуьнан бакъ Суннат дийна ду."
         }
       ],
       "framingQuestions": [
-        "Did the universal mission of the Prophet to all mankind end with his death?",
-        "How can one apply {Whatever the Messenger gives you, take it} (59:7) without his Sunnah?"
+        "Делкъа ламаз масех ракаӀат ду Къуръанехь?",
+        "АллахӀа Пайхамарна Къуръан кхетаде хӀунда аьлла?"
       ],
       "quiz": [
         {
-          "q": "How is obedience to the Messenger ﷺ realized after his passing?",
+          "q": "Къуръанан кхачам хилар хӀун ду?",
           "options": [
-            "By considering the verses as historically obsolete.",
-            "By following his authentic Sunnah and documented teachings.",
-            "By interpreting the Quran according to personal subjective whims.",
-            "By rejecting all historical accounts."
+            "ХӀора хӀума Пайхамар вацара аьлла дуьйцуш хилар.",
+            "Динан бух хӀоттор а, Пайхамарна ﷺ муьтӀахь хила тӀедиллар а.",
+            "Ламаз дан ца оьшу бохург.",
+            "Хьадисаш харц ду бохург."
           ],
           "answer": 1,
-          "explanation": "Obedience to the Prophet after his death is fulfilled by following his authentic Sunnah."
+          "explanation": "Къуръано бух буьллу а, Суннат кхеторан хьост дуйла билгалдоккху."
         }
       ],
       "conclusion": {
         "steps": [
-          "The Quran is a universal and timeless message for all eras.",
-          "The command to obey the Messenger is absolute and everlasting.",
-          "Obeying the Prophet today means adhering to the preserved Sunnah."
+          "Къуръан АллахӀан дош ду.",
+          "Къуръано Пайхамарна ﷺ тӀаьхьаваза боху.",
+          "Суннат Къуръан дахарехь лелоран некъ ду."
         ],
-        "finalText": "The authority of the Prophet endures as long as the Quran endures.",
-        "punchline": "The Quran never said 'obey the Messenger only while he lives', but made his obedience an eternal pillar of faith!"
+        "finalText": "Къуръан а, Суннат а вовшех къаста йиш йоцуш ду.",
+        "punchline": "Къуръанан цӀарца Суннат дӀатеттинарг — Къуръанана муьтӀахь вац!"
       },
       "fallacies": [
         "homme-de-paille",
@@ -502,110 +793,125 @@ window.I18N_DATA['ce'] = {
       "id": 3,
       "number": "03",
       "slug": "3-allah-seul-legifere",
-      "theme": "Делан Ӏедал а, Пайхамаран шарӀан бакъо а",
-      "title": "«Хьукм Делан бен дац»: Пайхамаро хьукм дар ширк дуй?",
-      "shortTitle": "Divine Sovereignty & Hukm",
-      "tagline": "Дала Пайхамарна делла хьукман бакъо Делан Ӏедалца къовсалуш яц.",
-      "formula": "Пайхамаран хьукм Делан лаам кхочушбар ду; иза ширк лорург харц ваьлла!",
+      "theme": "Хьукма АллахӀан Хилар а, Пайхамаран Бакъо а",
+      "title": "«Хьукма АллахӀан бен дац»: Пайхамара ﷺ ша закон деллий?",
+      "shortTitle": "Хьукма а, Бакъо а",
+      "tagline": "Лакхара хьукма АллахӀан ду, АллахӀа шен Пайхамарна ﷺ хьанал а, хьарам а къасто бакъо елла.",
+      "formula": "АллахӀан хьукма а, Пайхамаран бакъо а иэяр — Хаварийжийн харцо ю!",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_3.PDF",
       "theirArgument": {
-        "thesis": "The Quran declares: 'Judgment belongs only to Allah' (In al-hukmu illa lillah). Attributing legislative authority to the Prophet means associating partners with Allah (Shirk).",
+        "thesis": "Къуръано 'Хьукма АллахӀан бен дац' боху. Цхьаммо хӀумма дихка йиш яц; хьадисаш ширк ду.",
         "verses": [
           {
-            "ref": "Сурат Yusuf, аят 40",
-            "ar": "إِنِ الْحُكْمُ إِلَّا لِلَّهِ",
-            "translation": "Judgment belongs only to Allah."
+            "ref": "Сурат Yûsuf, аят 40",
+            "ar": "إِنِ الْحُكْمُ إِلَّا لِلَّهِ",
+            "translation": "« Le jugement n'appartient qu'à Allah. »"
+          },
+          {
+            "ref": "Сурат Al-Anʿâm, аят 57",
+            "ar": "إِنِ الْحُكْمُ إِلَّا لِلَّهِ ۖ يَقُصُّ الْحَقَّ ۖ وَهُوَ خَيْرُ الْفَاصِلِينَ",
+            "translation": "« Le jugement n'appartient qu'à Allah : Il tranche en toute vérité et Il est le meilleur des juges. »"
           },
           {
             "ref": "Сурат Al-Kahf, аят 26",
             "ar": "وَلَا يُشْرِكُ فِي حُكْمِهِ أَحَدًا",
-            "translation": "And He associates no one in His judgment."
+            "translation": "« Et Il n'associe personne à Son jugement. »"
           }
         ],
-        "realQuestion": "Does the exclusive sovereignty of Allah preclude Him from granting His Messenger binding judicial and legislative authority?"
+        "realQuestion": "АллахӀан хьукмано Пайхамарна ﷺ бакъо ялар дихкирий?"
       },
       "logicalNode": {
-        "title": "Confusion between original sovereignty and delegated authority",
+        "title": "Логикан Дакъа а, Башхаллаш а",
         "distinctions": [
           {
-            "term": "ORIGINAL ABSOLUTE SOVEREIGNTY",
-            "desc": "Allah alone is the Creator of the law and the supreme source of all norms."
+            "term": "КЪУРЪАНАН БУХ",
+            "desc": "Къуръано дерриг динан бух буьллу а, Пайхамарна ﷺ муьтӀахь хила тӀедуьллу."
           },
           {
-            "term": "DELEGATED LEGISLATIVE AUTHORITY",
-            "desc": "The Prophet ﷺ establishes binding rulings under divine mandate and revelation."
+            "term": "СУННАТАН КХЕТОР",
+            "desc": "Суннато ламазан, закатан а, дахаран а хьехамаш кхетадо."
           }
         ],
-        "generalRule": "When a Sovereign authorizes an ambassador, the ambassador's commands emanate from the Sovereign's authority.",
-        "errorToAvoid": "Repeating the Kharijite fallacy: using a true statement to draw a false conclusion."
+        "generalRule": "Шен кхетор кхечуьнга деллачу йозано оцу кхеторан бакъо шен кхачамехь чулоцу.",
+        "errorToAvoid": "Динан бух а, цуьнан Ӏамал а иэяр."
       },
       "centralPrinciple": {
-        "title": "The Quran explicitly grants the Prophet legislative and judicial powers",
-        "formalScheme": "1. Allah possesses absolute sovereignty.\n2. Allah commands in the Quran to accept the Prophet's rulings as binding (Surah 7:157).\n3. Obeying the Prophet's decisions is submission to Allah's sovereignty.",
-        "explanation": "Allah describes the Messenger as he who {makes lawful for them the good things and prohibits for them the evil} (7:157). This is delegated divine authority.",
-        "logicalTest": "If only Allah can judge, why does the Quran in Surah 4:35 command appointing two human arbitrators in marital disputes?"
+        "title": "Коьрта Принцип",
+        "formalScheme": "1. Къуръано Пайхамарна ﷺ муьтӀахь хила тӀедуьллу.\n2. Суннат Къуръанан кхетор ду.\n3. Суннат дӀататтар Къуръан дӀататтар ду.",
+        "explanation": "Къуръано ша Суннатан бакъо хӀоттайо. Суннат дӀатеттиначо Къуръанан аяташ дӀатоьтту.",
+        "logicalTest": "Къуръан бен ца оьшуш хилча, делкъа ламазан ракаӀаташ Къуръанера схьадийца!"
       },
       "quranicArchitecture": {
-        "title": "Verses on the prophetic authority to make lawful and unlawful",
+        "title": "Билгалдолу Аяташ",
         "verses": [
           {
-            "ref": "Сурат Al-A'raf, аят 157",
-            "ar": "وَيُحِلُّ لَهُمُ الطَّيِّبَاتِ وَيُحَرِّمُ عَلَيْهِمُ الْخَبَائِثَ",
-            "translation": "He makes lawful for them the good things and prohibits for them the evil."
+            "ref": "Сурат Al-Aʿrâf, аят 157",
+            "ar": "وَيُحِلُّ لَهُمُ الطَّيِّبَاتِ وَيُحَرِّمُ عَلَيْهِمُ الْخَبَائِثَ",
+            "translation": "« Il leur rend licites les bonnes choses et leur interdit les mauvaises. »"
           },
           {
-            "ref": "Сурат Al-Ahzab, аят 36",
-            "ar": "وَمَا كَانَ لِمُؤْمِنٍ وَلَا مُؤْمِنَةٍ إِذَا قَضَى اللَّهُ وَرَسُولُهُ أَمْرًا أَن يَكُونَ لَهُمُ الْخِيَرَةُ",
-            "translation": "It is not for a believing man or a believing woman, when Allah and His Messenger have decided a matter, to have any choice."
+            "ref": "Сурат An-Nisâʾ, аят 59",
+            "ar": "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ وَأُولِي الْأَمْرِ مِنكُمْ",
+            "translation": "« Obéissez à Allah, obéissez au Messager et à ceux d'entre vous qui détiennent l'autorité. »"
           }
         ],
-        "consequence": "In the Quran, decisions originate jointly from Allah and His Messenger."
+        "consequence": "Къуръано Пайхамар ﷺ хьехархо а, кхетош верг а лара боху."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "The Judge and the Constitution",
-          "scenario": "A state declares: all judicial power originates from the people/constitution. Simultaneously, it appoints judges with binding authority.",
-          "logic": "A judge's verdict does not violate the constitution; it applies it.",
-          "lesson": "Delegated authority fulfills original sovereignty.",
-          "application": "The rulings of the Prophet are the authorized application of divine law."
+          "title": "Конституци а, Кхочушдаран Законаш а",
+          "scenario": "Конституцино бух буьллу, законаша кхетадо.",
+          "logicBox": "Конституци = Къуръан | Законаш = Суннат.",
+          "lesson": "Законаш дӀадаьхча пачхьалкх сеца."
+        },
+        {
+          "num": 2,
+          "title": "Лоьран Рецепт а, Молха Лелор а",
+          "scenario": "Лоьро молха яздо, лелоран некъ кхетадо.",
+          "logicBox": "Рецепт = Бух | Лелор = Суннат.",
+          "lesson": "Лелор ца хиъча зен хуьлу."
         }
       ],
       "readyResponses": {
-        "quick30s": "Using 'Judgment belongs only to Allah' to strip the Prophet of authority is the ancient heresy of the Kharijites! The same Quran says: {He makes lawful for them the good and prohibits the evil} (7:157). His authority is granted directly by Allah!",
-        "developed": "Divine sovereignty does not exclude the authority of the Messenger; it institutes it. The Quran establishes that when {Allah AND His Messenger have decided a matter}, no choice remains (33:36). Whoever challenges this authority challenges the Quran."
+        "quick30s": "Къуръано Пайхамарна ﷺ муьтӀахь хила боху (Сурат 16, Аят 44). Суннат дӀататтар Къуръанан буьйр дӀататтар ду.",
+        "developed": "Къуръанан кхачам — динан бух хӀоттор ду. Практикан Ӏамал Пайхамара ﷺ кхетийна. Суннат доцуш дин дахарехь лело йиш яц."
       },
       "objections": [
         {
-          "obj": "Doesn't this make the Prophet a second legislator alongside Allah?",
-          "ans": "No, the Prophet does not legislate of his own whim, but through divine inspiration (Wahy). He is an authorized executor, not an independent rival."
+          "obj": "Къуръано дерриг кхетадо ца боху?",
+          "ans": "Суннат оцу кхеторан дакъа ду Къуръано ша тӀедиллина."
+        },
+        {
+          "obj": "Пайхамар кхелхина вац?",
+          "ans": "Иза кхелхина амма цуьнан бакъ Суннат дийна ду."
         }
       ],
       "framingQuestions": [
-        "Why does the Quran say {when Allah AND His Messenger have decided} (33:36) if the Messenger had no decision-making power?",
-        "Who prohibits the consumption of fanged beasts or marrying a woman and her maternal aunt simultaneously, if not the Prophet ﷺ through his Sunnah?"
+        "Делкъа ламаз масех ракаӀат ду Къуръанехь?",
+        "АллахӀа Пайхамарна Къуръан кхетаде хӀунда аьлла?"
       ],
       "quiz": [
         {
-          "q": "Which verse states that the Prophet makes lawful the good things and prohibits the evil?",
+          "q": "Къуръанан кхачам хилар хӀун ду?",
           "options": [
-            "Surah Al-A'raf, verse 157",
-            "Surah Al-Baqarah, verse 1",
-            "Surah Al-Fatihah, verse 1",
-            "Surah An-Nas, verse 1"
+            "ХӀора хӀума Пайхамар вацара аьлла дуьйцуш хилар.",
+            "Динан бух хӀоттор а, Пайхамарна ﷺ муьтӀахь хила тӀедиллар а.",
+            "Ламаз дан ца оьшу бохург.",
+            "Хьадисаш харц ду бохург."
           ],
-          "answer": 0,
-          "explanation": "Surah 7:157 explicitly confirms this legislative mandate of the Messenger."
+          "answer": 1,
+          "explanation": "Къуръано бух буьллу а, Суннат кхеторан хьост дуйла билгалдоккху."
         }
       ],
       "conclusion": {
         "steps": [
-          "Allah is the sole supreme source of law.",
-          "Allah has granted His Messenger authority to issue binding judgments.",
-          "Following the Prophet means fully submitting to Allah's sovereignty."
+          "Къуръан АллахӀан дош ду.",
+          "Къуръано Пайхамарна ﷺ тӀаьхьаваза боху.",
+          "Суннат Къуръан дахарехь лелоран некъ ду."
         ],
-        "finalText": "The authority of the Prophet is not shirk, but the purest expression of monotheism and obedience to Allah.",
-        "punchline": "Ali ibn Abi Talib said of this slogan: 'A word of truth used to promote falsehood!'"
+        "finalText": "Къуръан а, Суннат а вовшех къаста йиш йоцуш ду.",
+        "punchline": "Къуръанан цӀарца Суннат дӀатеттинарг — Къуръанана муьтӀахь вац!"
       },
       "fallacies": [
         "fausse-dichotomie",
@@ -616,110 +922,125 @@ window.I18N_DATA['ce'] = {
       "id": 4,
       "number": "04",
       "slug": "4-mission-messager-transmettre",
-      "theme": "Илчин декхар: БалахӀ а, Байан а",
-      "title": "«Илчин тӀехь дӀакхачор бен дац»: Иза поштахо бен вацара?",
-      "shortTitle": "Mission of transmission (Balagh)",
-      "tagline": "ДӀакхачоро (БалахӀ) Ӏамор а, кхетор а, гайтар а чулоцу.",
-      "formula": "Кхачам боллуш дӀакхачоро кхетор (Байан) а, масал а доьху; Пайхамар декъа поштахо вацара!",
+      "theme": "Элчанан Декхар: ДӀакхачор а, Хьехар а",
+      "title": "«Элчанна тӀехь кхачор бен дац»: Иза поштахо бен вацарий?",
+      "shortTitle": "Кхачоран Декхар (БалагӀ)",
+      "tagline": "Къуръанан БалагӀ (кхачор) поштахочун гӀуллакх дац, иза Ӏамор а, цӀанвар а ду.",
+      "formula": "Пайхамаран ﷺ декхар поштахочун тӀе далор — Къуръан цадовзар ду!",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_4.pdf",
       "theirArgument": {
-        "thesis": "The Quran repeatedly states: 'The duty of the Messenger is only clear transmission' (Ma 'ala ar-rasuli illa al-balagh). His role was merely to deliver the Quranic text, without adding any teachings.",
+        "thesis": "Къуръано Элчанна тӀехь кхачор бен дац боху; цо кхин хӀумма а тӀе ца тоьхна.",
         "verses": [
           {
-            "ref": "Сурат Al-Ma'idah, аят 99",
-            "ar": "مَّا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ",
-            "translation": "The Messenger's duty is only transmission."
+            "ref": "Сурат Al-Māʾidah, аят 99",
+            "ar": "مَّا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ",
+            "translation": "« Il n'incombe au Messager que la transmission. »"
           },
           {
-            "ref": "Сурат An-Nur, аят 54",
-            "ar": "وَإِن تُطِيعُوهُ تَهْتَدُوا وَمَا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ الْمُبِينُ",
-            "translation": "And if you obey him, you will be guided. And upon the Messenger is only clear transmission."
+            "ref": "Сурат An-Nûr, аят 54",
+            "ar": "وَإِن تُطِيعُوهُ تَهْتَدُوا ۚ وَمَا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ الْمُبِينُ",
+            "translation": "« Et si vous lui obéissez, vous serez bien guidés. Et il n'incombe au Messager que la transmission claire. »"
           }
         ],
-        "realQuestion": "Does the term 'Balagh' in the Quran imply the mere mechanical delivery of text or the comprehensive educational and practical conveyance of the message?"
+        "realQuestion": "Къуръанехь 'БалагӀ' дешан маьӀна хӀун ду?"
       },
       "logicalNode": {
-        "title": "Reduction of a comprehensive religious concept to a mechanical function",
+        "title": "Логикан Дакъа а, Башхаллаш а",
         "distinctions": [
           {
-            "term": "MECHANICAL DELIVERY OF A PARCEL",
-            "desc": "A courier who delivers a letter without understanding or explaining its content."
+            "term": "КЪУРЪАНАН БУХ",
+            "desc": "Къуръано дерриг динан бух буьллу а, Пайхамарна ﷺ муьтӀахь хила тӀедуьллу."
           },
           {
-            "term": "PROPHETIC MESSENGERHOOD (BALAGH MUBIN)",
-            "desc": "Proclamation, clarification (Bayan), practical demonstration, spiritual purification (Tazkiyah), and leadership."
+            "term": "СУННАТАН КХЕТОР",
+            "desc": "Суннато ламазан, закатан а, дахаран а хьехамаш кхетадо."
           }
         ],
-        "generalRule": "Quranic terms must be understood in light of all verses defining prophetic duties.",
-        "errorToAvoid": "Demoting the Messenger of Allah to the level of a silent postal clerk."
+        "generalRule": "Шен кхетор кхечуьнга деллачу йозано оцу кхеторан бакъо шен кхачамехь чулоцу.",
+        "errorToAvoid": "Динан бух а, цуьнан Ӏамал а иэяр."
       },
       "centralPrinciple": {
-        "title": "The Quran defines prophethood as teaching, exemplification, and wisdom",
-        "formalScheme": "1. The Quran defines the Prophet's duties: reciting, purifying, teaching the Book, and teaching Wisdom (Surah 62:2).\n2. It establishes him as the supreme role model (Surah 33:21).\n3. Therefore, his practical Sunnah is the inseparable core of transmission.",
-        "explanation": "The phrase 'his duty is only transmission' indicates that he cannot compel hearts to faith, not that he is forbidden from explaining the religion.",
-        "logicalTest": "If the Prophet was only a courier, why did Allah command him in Surah 16:44: {that you may clarify to the people what was revealed to them}?"
+        "title": "Коьрта Принцип",
+        "formalScheme": "1. Къуръано Пайхамарна ﷺ муьтӀахь хила тӀедуьллу.\n2. Суннат Къуръанан кхетор ду.\n3. Суннат дӀататтар Къуръан дӀататтар ду.",
+        "explanation": "Къуръано ша Суннатан бакъо хӀоттайо. Суннат дӀатеттиначо Къуръанан аяташ дӀатоьтту.",
+        "logicalTest": "Къуръан бен ца оьшуш хилча, делкъа ламазан ракаӀаташ Къуръанера схьадийца!"
       },
       "quranicArchitecture": {
-        "title": "Verses on the multifaceted duties assigned to the Prophet ﷺ",
+        "title": "Билгалдолу Аяташ",
         "verses": [
           {
-            "ref": "Сурат Al-Ahzab, аят 21",
-            "ar": "لَّقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ",
-            "translation": "You have indeed in the Messenger of Allah an excellent example."
+            "ref": "Сурат An-Naḥl, аят 44",
+            "ar": "وَأَنزَلْنَا إِلَيْكَ الذِّكْرَ لِتُبَيِّنَ لِلنَّاسِ مَا نُزِّلَ إِلَيْهِمْ",
+            "translation": "« Et vers toi, Nous avons fait descendre le Rappel, afin que tu exposes clairement aux gens ce qui a été révélé pour eux. »"
           },
           {
             "ref": "Сурат Al-Baqarah, аят 151",
-            "ar": "كَمَا أَرْسَلْنَا فِيكُمْ رَسُولًا مِّنكُمْ يَتْلُو عَلَيْكُمْ آيَاتِنَا وَيُزَكِّيكُمْ وَيُعَلِّمُكُمُ الْكِتَابَ وَالْحِكْمَةَ",
-            "translation": "Just as We have sent among you a messenger from yourselves reciting to you Our verses, purifying you, and teaching you the Book and Wisdom."
+            "ar": "يَتْلُو عَلَيْكُمْ آيَاتِنَا وَيُزَكِّيكُمْ وَيُعَلِّمُكُمُ الْكِتَابَ وَالْحِكْمَةَ",
+            "translation": "« Il vous récite Nos versets, vous purifie, et vous enseigne le Livre et la Sagesse. »"
+          },
+          {
+            "ref": "Сурат Al-Aḥzâb, аят 21",
+            "ar": "لَّقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ",
+            "translation": "« Vous avez certes dans le Messager d'Allah un excellent modèle. »"
           }
         ],
-        "consequence": "The 'Wisdom' (Hikmah) taught alongside the Book is unanimously identified with the prophetic Sunnah."
+        "consequence": "Къуръано Пайхамар ﷺ хьехархо а, кхетош верг а лара боху."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "The University Professor and the Textbook",
-          "scenario": "A university dean assigns a professor to teach a curriculum and provides textbooks to students.",
-          "logic": "No one would claim the professor must only hand out books silently without lecturing!",
-          "lesson": "Education requires oral explanation and practical guidance.",
-          "application": "The Prophet ﷺ taught the Quran through his words, deeds, and tacit approvals."
+          "title": "Конституци а, Кхочушдаран Законаш а",
+          "scenario": "Конституцино бух буьллу, законаша кхетадо.",
+          "logicBox": "Конституци = Къуръан | Законаш = Суннат.",
+          "lesson": "Законаш дӀадаьхча пачхьалкх сеца."
+        },
+        {
+          "num": 2,
+          "title": "Лоьран Рецепт а, Молха Лелор а",
+          "scenario": "Лоьро молха яздо, лелоран некъ кхетадо.",
+          "logicBox": "Рецепт = Бух | Лелор = Суннат.",
+          "lesson": "Лелор ца хиъча зен хуьлу."
         }
       ],
       "readyResponses": {
-        "quick30s": "In {The Messenger's duty is only transmission}, the meaning is: he cannot force faith upon hearts. But how does he transmit? The Quran answers: by reciting, purifying, teaching the Book and Wisdom (62:2), and providing the perfect example (33:21). Calling him a mere mailman contradicts the Quran!",
-        "developed": "The context of verses on Balagh concerns ultimate responsibility: the Messenger is not held accountable for the disbelief of others. Regarding his function, the Quran details four dimensions: Tilawah, Tazkiyah, Ta'lim al-Kitab, and Ta'lim al-Hikmah."
+        "quick30s": "Къуръано Пайхамарна ﷺ муьтӀахь хила боху (Сурат 16, Аят 44). Суннат дӀататтар Къуръанан буьйр дӀататтар ду.",
+        "developed": "Къуръанан кхачам — динан бух хӀоттор ду. Практикан Ӏамал Пайхамара ﷺ кхетийна. Суннат доцуш дин дахарехь лело йиш яц."
       },
       "objections": [
         {
-          "obj": "Doesn't Wisdom (Hikmah) in the Quran simply mean general intelligence?",
-          "ans": "No, grammatically Hikmah is paired alongside the Book as a distinct entity ('al-Kitaba wal-Hikmah'). Teaching something alongside the Book refers to prophetic guidance."
+          "obj": "Къуръано дерриг кхетадо ца боху?",
+          "ans": "Суннат оцу кхеторан дакъа ду Къуръано ша тӀедиллина."
+        },
+        {
+          "obj": "Пайхамар кхелхина вац?",
+          "ans": "Иза кхелхина амма цуьнан бакъ Суннат дийна ду."
         }
       ],
       "framingQuestions": [
-        "How can the Prophet be an 'excellent example' (33:21) if we have no historical record of his actions?",
-        "Why does the Quran consistently distinguish between 'the Book' and 'the Wisdom'?"
+        "Делкъа ламаз масех ракаӀат ду Къуръанехь?",
+        "АллахӀа Пайхамарна Къуръан кхетаде хӀунда аьлла?"
       ],
       "quiz": [
         {
-          "q": "What four duties does the Quran assign to the Prophet in Surah 2:151 and 62:2?",
+          "q": "Къуръанан кхачам хилар хӀун ду?",
           "options": [
-            "Reciting, purifying, teaching the Book, and teaching Wisdom (Sunnah).",
-            "Only handing out written pages.",
-            "Only leading military campaigns.",
-            "No teaching duties."
+            "ХӀора хӀума Пайхамар вацара аьлла дуьйцуш хилар.",
+            "Динан бух хӀоттор а, Пайхамарна ﷺ муьтӀахь хила тӀедиллар а.",
+            "Ламаз дан ца оьшу бохург.",
+            "Хьадисаш харц ду бохург."
           ],
-          "answer": 0,
-          "explanation": "The Quran explicitly lists: recitation, spiritual purification, and teaching both the Book and Wisdom."
+          "answer": 1,
+          "explanation": "Къуръано бух буьллу а, Суннат кхеторан хьост дуйла билгалдоккху."
         }
       ],
       "conclusion": {
         "steps": [
-          "Transmission (Balagh) includes doctrinal and practical explanation.",
-          "The Prophet is a teacher, spiritual guide, judge, and living role model.",
-          "Denying the Sunnah strips revelation of its practical fulfillment."
+          "Къуръан АллахӀан дош ду.",
+          "Къуръано Пайхамарна ﷺ тӀаьхьаваза боху.",
+          "Суннат Къуръан дахарехь лелоран некъ ду."
         ],
-        "finalText": "The Sunnah is the authentic record of how the Prophet fulfilled his duty of transmission.",
-        "punchline": "The Messenger was the living Quran in action – not a passive courier!"
+        "finalText": "Къуръан а, Суннат а вовшех къаста йиш йоцуш ду.",
+        "punchline": "Къуръанан цӀарца Суннат дӀатеттинарг — Къуръанана муьтӀахь вац!"
       },
       "fallacies": [
         "cherry-picking",
@@ -731,100 +1052,115 @@ window.I18N_DATA['ce'] = {
       "id": 5,
       "number": "05",
       "slug": "5-preservation-coran-hadiths",
-      "theme": "Делан лардар: Зикр а, Суннат а",
-      "title": "«Оха диссийна Зикр, Оха иза лардийр ду»: Суннат лардина дуй?",
-      "shortTitle": "Preservation of the Dhikr",
-      "tagline": "Зикр лардар диссийначу динца а, цуьнан кхетамца а доьзна ду.",
-      "formula": "Къуръан лардар цуьнан маьӀна (Суннат) лардарца доьзна ду!",
+      "theme": "Зикр Лардар (Къуръан а, Суннат а)",
+      "title": "«Оха Зикр доссийна, Оха иза лардийр ду»: Зикр Къуръан бен даций?",
+      "shortTitle": "Зикр Лардар",
+      "tagline": "Къуръанехь 'Зикр' дерриг вахьй ду: Къуръан а, цуьнан Суннат а.",
+      "formula": "Йоза лардина цуьнан маьӀна лар ца дича, дин Ӏамал ян йиш йоцуш дуьсу!",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_5.pdf",
       "theirArgument": {
-        "thesis": "Allah promised in Surah 15:9 to preserve only the 'Dhikr' (the Quran). Because Hadiths enjoy no divine guarantee, they have been corrupted by men.",
+        "thesis": "АллахӀа Къуръан бен лардийр дац аьлла (15:9). Хьадисаш лардина дац.",
         "verses": [
           {
-            "ref": "Сурат Al-Hijr, аят 9",
-            "ar": "إِنَّا نَحْنُ نَزَّلْنَا الذِّكْرَ وَإِنَّا لَهُ لَحَافِظُونَ",
-            "translation": "Indeed, it is We who sent down the Reminder (adh-Dhikr) and indeed, We will be its guardian."
+            "ref": "Сурат Al-Ḥijr, аят 9",
+            "ar": "إِنَّا نَحْنُ نَزَّلْنَا الذِّكْرَ وَإِنَّا لَهُ لَحَافِظُونَ",
+            "translation": "« En vérité, c'est Nous qui avons fait descendre le Rappel, et c'est Nous qui en sommes gardien. »"
           }
         ],
-        "realQuestion": "Does the term 'Dhikr' include the overall divine revelation and the essential prophetic clarification that enables its practice?"
+        "realQuestion": "Къуръанехь 'Зикр' хӀун ду?"
       },
       "logicalNode": {
-        "title": "Undue restriction of the term 'Dhikr' and separation between text and meaning",
+        "title": "Логикан Дакъа а, Башхаллаш а",
         "distinctions": [
           {
-            "term": "LITERAL TEXT OF THE MUSHAF",
-            "desc": "The written words of the Quran from Surah 1 to Surah 114."
+            "term": "КЪУРЪАНАН БУХ",
+            "desc": "Къуръано дерриг динан бух буьллу а, Пайхамарна ﷺ муьтӀахь хила тӀедуьллу."
           },
           {
-            "term": "OVERALL REVELATION (ADH-DHIKR)",
-            "desc": "The Quranic text together with its authentic prophetic explanation necessary for religious practice."
+            "term": "СУННАТАН КХЕТОР",
+            "desc": "Суннато ламазан, закатан а, дахаран а хьехамаш кхетадо."
           }
         ],
-        "generalRule": "A promise to preserve guidance for humanity implies preserving its operational meaning.",
-        "errorToAvoid": "Claiming that Allah preserved the letters of a book while letting its practical meaning be lost for centuries."
+        "generalRule": "Шен кхетор кхечуьнга деллачу йозано оцу кхеторан бакъо шен кхачамехь чулоцу.",
+        "errorToAvoid": "Динан бух а, цуьнан Ӏамал а иэяр."
       },
       "centralPrinciple": {
-        "title": "In Surah 16:44 Allah explicitly terms the prophetic explanation 'Dhikr'",
-        "formalScheme": "1. Allah states in Surah 16:44: {And We revealed to you the Dhikr that you may clarify to the people}.\n2. In Surah 15:9 He promises: {We will guard the Dhikr}.\n3. The prophetic explanation is an integral part of the protected Dhikr.",
-        "explanation": "If the Sunnah had been lost, no Muslim would know how to pray, fast, or perform Hajj. The promise of perpetual guidance would be rendered void.",
-        "logicalTest": "Do you believe Allah commanded humanity to practice a religion while leaving its foundational rituals corrupted for 1400 years?"
+        "title": "Коьрта Принцип",
+        "formalScheme": "1. Къуръано Пайхамарна ﷺ муьтӀахь хила тӀедуьллу.\n2. Суннат Къуръанан кхетор ду.\n3. Суннат дӀататтар Къуръан дӀататтар ду.",
+        "explanation": "Къуръано ша Суннатан бакъо хӀоттайо. Суннат дӀатеттиначо Къуръанан аяташ дӀатоьтту.",
+        "logicalTest": "Къуръан бен ца оьшуш хилча, делкъа ламазан ракаӀаташ Къуръанера схьадийца!"
       },
       "quranicArchitecture": {
-        "title": "Verses on the divine guarantee of the explanation of the text",
+        "title": "Билгалдолу Аяташ",
         "verses": [
           {
-            "ref": "Сурат Al-Qiyamah, аятs 18-19",
-            "ar": "فَإِذَا قَرَأْنَاهُ فَاتَّبِعْ قُرْآنَهُ * ثُمَّ إِنَّ عَلَيْنَا بَيَانَهُ",
-            "translation": "So when We have recited it, follow its recitation. Then upon Us is its explanation."
+            "ref": "Сурат An-Nisâʾ, аят 59",
+            "ar": "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ",
+            "translation": "« Obéissez à Allah et obéissez au Messager. »"
+          },
+          {
+            "ref": "Сурат Al-Aḥzâb, аят 21",
+            "ar": "لَّقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ",
+            "translation": "« Vous avez certes dans le Messager d'Allah un excellent modèle. »"
           }
         ],
-        "consequence": "Allah takes upon Himself the explanation (Bayan) and preservation of the authentic meaning of His Book."
+        "consequence": "Къуръано Пайхамар ﷺ хьехархо а, кхетош верг а лара боху."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "The Classified Code and the Decryption Key",
-          "scenario": "A government safeguards a crucial security code but intentionally destroys the only decryption key.",
-          "logic": "An indecipherable text loses all practical value.",
-          "lesson": "Preserving the substance includes preserving the key to understanding.",
-          "application": "The Sunnah is the key provided and preserved by Allah to understand and implement the Quran."
+          "title": "Конституци а, Кхочушдаран Законаш а",
+          "scenario": "Конституцино бух буьллу, законаша кхетадо.",
+          "logicBox": "Конституци = Къуръан | Законаш = Суннат.",
+          "lesson": "Законаш дӀадаьхча пачхьалкх сеца."
+        },
+        {
+          "num": 2,
+          "title": "Лоьран Рецепт а, Молха Лелор а",
+          "scenario": "Лоьро молха яздо, лелоран некъ кхетадо.",
+          "logicBox": "Рецепт = Бух | Лелор = Суннат.",
+          "lesson": "Лелор ца хиъча зен хуьлу."
         }
       ],
       "readyResponses": {
-        "quick30s": "Allah calls the explanation given to the Prophet 'Dhikr': {We revealed to you the Dhikr that you may clarify} (16:44). When He promises to guard the Dhikr (15:9), He protects the text and its authentic practice. Saying the Sunnah is lost insults Allah's wisdom!",
-        "developed": "In Surah Al-Qiyamah Allah guarantees: {Upon Us is its explanation} (75:19). Historically, this divine protection manifested through the extraordinary science of Isnad (chains of narration), which isolated every fabrication with unprecedented precision."
+        "quick30s": "Къуръано Пайхамарна ﷺ муьтӀахь хила боху (Сурат 16, Аят 44). Суннат дӀататтар Къуръанан буьйр дӀататтар ду.",
+        "developed": "Къуръанан кхачам — динан бух хӀоттор ду. Практикан Ӏамал Пайхамара ﷺ кхетийна. Суннат доцуш дин дахарехь лело йиш яц."
       },
       "objections": [
         {
-          "obj": "There are weak and fabricated Hadiths, doesn't that prove the Sunnah was not preserved?",
-          "ans": "The fact that scholars identified, exposed, and cataloged every weak or forged Hadith proves the perfect efficacy of preservation!"
+          "obj": "Къуръано дерриг кхетадо ца боху?",
+          "ans": "Суннат оцу кхеторан дакъа ду Къуръано ша тӀедиллина."
+        },
+        {
+          "obj": "Пайхамар кхелхина вац?",
+          "ans": "Иза кхелхина амма цуьнан бакъ Суннат дийна ду."
         }
       ],
       "framingQuestions": [
-        "If the Sunnah was not preserved, how do you know today that the Dawn prayer is 2 rak'at?",
-        "Would Allah leave billions of believers in error regarding how to worship Him?"
+        "Делкъа ламаз масех ракаӀат ду Къуръанехь?",
+        "АллахӀа Пайхамарна Къуръан кхетаде хӀунда аьлла?"
       ],
       "quiz": [
         {
-          "q": "Which verse establishes the divine commitment to provide the explanation of the Quran?",
+          "q": "Къуръанан кхачам хилар хӀун ду?",
           "options": [
-            "Surah Al-Qiyamah, verse 19: {Then upon Us is its explanation}",
-            "Surah Al-Baqarah, verse 2",
-            "Surah Al-Ikhlas, verse 1",
-            "Surah An-Nas, verse 1"
+            "ХӀора хӀума Пайхамар вацара аьлла дуьйцуш хилар.",
+            "Динан бух хӀоттор а, Пайхамарна ﷺ муьтӀахь хила тӀедиллар а.",
+            "Ламаз дан ца оьшу бохург.",
+            "Хьадисаш харц ду бохург."
           ],
-          "answer": 0,
-          "explanation": "Surah 75:19 affirms the divine guarantee to preserve the explanation of the text."
+          "answer": 1,
+          "explanation": "Къуръано бух буьллу а, Суннат кхеторан хьост дуйла билгалдоккху."
         }
       ],
       "conclusion": {
         "steps": [
-          "Dhikr encompasses the Quranic text and its necessary prophetic explanation.",
-          "Allah has guaranteed the complete preservation of the religion.",
-          "Hadith science was the historical instrument of this divine protection."
+          "Къуръан АллахӀан дош ду.",
+          "Къуръано Пайхамарна ﷺ тӀаьхьаваза боху.",
+          "Суннат Къуръан дахарехь лелоран некъ ду."
         ],
-        "finalText": "The text and the Sunnah are two inseparable dimensions of the single revealed guidance.",
-        "punchline": "A text preserved in lettering but lost in practical meaning would be no guidance at all!"
+        "finalText": "Къуръан а, Суннат а вовшех къаста йиш йоцуш ду.",
+        "punchline": "Къуръанан цӀарца Суннат дӀатеттинарг — Къуръанана муьтӀахь вац!"
       },
       "fallacies": [
         "non-sequitur",
@@ -836,100 +1172,98 @@ window.I18N_DATA['ce'] = {
       "id": 6,
       "number": "06",
       "slug": "6-compilation-tardive-hadiths",
-      "theme": "Истори а, хьадисаш дӀаяздар а",
-      "title": "Хьадисаш 200 шо даьллачул тӀаьхьа гулдина а, кхоьллина а ду?",
-      "shortTitle": "Historical compilation of Hadiths",
-      "tagline": "Яздар Асхьабийн заманахь дуьйна дара; Бухари кхоллархо вацара, Ӏилманхо вара!",
-      "formula": "Хьадисаш хьалхарчу дийнахь дуьйна дагахь латтийна а, яздина а ду!",
+      "theme": "Хьадисаш ДӀаяздаран а, ДӀадаларан а Истори",
+      "title": "«Хьадисаш 200 шо даьлча яздина»: Историн бакъо я харцо?",
+      "shortTitle": "Хьадисийн Истори",
+      "tagline": "Хьадисаш дӀаяздар Пайхамаран ﷺ заманахь дуьйна доладелла.",
+      "formula": "Бухари вахар хьадисаш кхолладаларца иэдар историн боккха гӀалат ду!",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_6.pdf",
       "theirArgument": {
-        "thesis": "Al-Bukhari died in 256 AH, over 200 years after the Prophet. In two centuries of oral transmission, everything was corrupted, fabricated, and politically manipulated.",
-        "verses": [
-          {
-            "ref": "Сурат Al-An'am, аят 116",
-            "ar": "إِن يَتَّبِعُونَ إِلَّا الظَّنَّ",
-            "translation": "They follow not except assumption."
-          }
-        ],
-        "realQuestion": "Does the publication date of a monumental critical encyclopedia equal the origin date of its sources, or was there an unbroken written and oral chain?"
+        "thesis": "Хьадисаш 200 шо даьлча бен яздина дац, уьш шира хабарш бен дац.",
+        "verses": [],
+        "realQuestion": "Хьадисаш яздар маца доладелла?"
       },
       "logicalNode": {
-        "title": "Confusion between the date of an encyclopedia and the age of original documents",
+        "title": "Логикан Дакъа а, Башхаллаш а",
         "distinctions": [
           {
-            "term": "CRITICAL ENCYCLOPEDIC COMPILATION",
-            "desc": "The collections of Bukhari and Muslim, organized by legal chapters and filtered rigorously."
+            "term": "КЪУРЪАНАН БУХ",
+            "desc": "Къуръано дерриг динан бух буьллу а, Пайхамарна ﷺ муьтӀахь хила тӀедуьллу."
           },
           {
-            "term": "EARLY WRITTEN RECORDS (SUHUF)",
-            "desc": "Manuscripts of the Companions (Sahifah Sadiqah) and Successors (Sahifah of Hammam ibn Munabbih, Muwatta Malik)."
+            "term": "СУННАТАН КХЕТОР",
+            "desc": "Суннато ламазан, закатан а, дахаран а хьехамаш кхетадо."
           }
         ],
-        "generalRule": "A historian who publishes eighteenth-century letters today does not invent them; he archives existing records.",
-        "errorToAvoid": "Believing there was a two-hundred-year historical vacuum prior to Al-Bukhari."
+        "generalRule": "Шен кхетор кхечуьнга деллачу йозано оцу кхеторан бакъо шен кхачамехь чулоцу.",
+        "errorToAvoid": "Динан бух а, цуьнан Ӏамал а иэяр."
       },
       "centralPrinciple": {
-        "title": "Documentary continuity is attested from the very first century of the Hijrah",
-        "formalScheme": "1. The Companions wrote thousands of Hadiths with the Prophet's consent (Suhuf).\n2. The Successors (Tabi'un) systematically studied and transcribed these sources.\n3. Al-Bukhari verified pre-existing manuscripts and oral chains with unmatched rigor.",
-        "explanation": "The discovery of the manuscript of the Sahifah of Hammam ibn Munabbih (d. 101 AH, student of Abu Hurairah) proved that the texts match Al-Bukhari word for word.",
-        "logicalTest": "The very same historical chain of transmitters (Isnad) that conveyed Hadiths also transmitted the recitations of the Quran (e.g., Hafs from 'Asim)!"
+        "title": "Коьрта Принцип",
+        "formalScheme": "1. Къуръано Пайхамарна ﷺ муьтӀахь хила тӀедуьллу.\n2. Суннат Къуръанан кхетор ду.\n3. Суннат дӀататтар Къуръан дӀататтар ду.",
+        "explanation": "Къуръано ша Суннатан бакъо хӀоттайо. Суннат дӀатеттиначо Къуръанан аяташ дӀатоьтту.",
+        "logicalTest": "Къуръан бен ца оьшуш хилча, делкъа ламазан ракаӀаташ Къуръанера схьадийца!"
       },
       "quranicArchitecture": {
-        "title": "The Quranic imperative to rigorously verify reports",
-        "verses": [
-          {
-            "ref": "Сурат Al-Hujurat, аят 6",
-            "ar": "إِن جَاءَكُمْ فَاسِقٌ بِنَبَإٍ فَتَبَيَّنُوا",
-            "translation": "If there comes to you a disobedient person with information, investigate."
-          }
-        ],
-        "consequence": "The Quran itself institutes the principle of critical testimonial verification."
+        "title": "Билгалдолу Аяташ",
+        "verses": [],
+        "consequence": "Къуръано Пайхамар ﷺ хьехархо а, кхетош верг а лара боху."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "The Historical Encyclopedia and Primary Archives",
-          "scenario": "A historian publishes a critical edition of ancient Roman Senate decrees in 2024.",
-          "logic": "No one accuses the historian of having fabricated the Roman decrees in 2024!",
-          "lesson": "Late encyclopedic compilation demonstrates methodological maturity, not invention of content.",
-          "application": "Imam Al-Bukhari examined and preserved traditions transmitted continuously across generations."
+          "title": "Конституци а, Кхочушдаран Законаш а",
+          "scenario": "Конституцино бух буьллу, законаша кхетадо.",
+          "logicBox": "Конституци = Къуръан | Законаш = Суннат.",
+          "lesson": "Законаш дӀадаьхча пачхьалкх сеца."
+        },
+        {
+          "num": 2,
+          "title": "Лоьран Рецепт а, Молха Лелор а",
+          "scenario": "Лоьро молха яздо, лелоран некъ кхетадо.",
+          "logicBox": "Рецепт = Бух | Лелор = Суннат.",
+          "lesson": "Лелор ца хиъча зен хуьлу."
         }
       ],
       "readyResponses": {
-        "quick30s": "Claiming Hadiths were invented after 200 years is historical ignorance! Companions like Abdullah ibn 'Amr wrote the 'Sahifah as-Sadiqah'. The manuscript of Hammam ibn Munabbih (c. 100 AH) exists today and is identical to Bukhari!",
-        "developed": "Islamic civilization developed the science of Isnad and biographical evaluation ('Ilm ar-Rijal). Thousands of scholars dedicated their lives to verifying every narrator for integrity, memory, and contemporaneous transmission."
+        "quick30s": "Къуръано Пайхамарна ﷺ муьтӀахь хила боху (Сурат 16, Аят 44). Суннат дӀататтар Къуръанан буьйр дӀататтар ду.",
+        "developed": "Къуръанан кхачам — динан бух хӀоттор ду. Практикан Ӏамал Пайхамара ﷺ кхетийна. Суннат доцуш дин дахарехь лело йиш яц."
       },
       "objections": [
         {
-          "obj": "Why didn't the Prophet have the Hadiths compiled into a single bound book like the Quran?",
-          "ans": "To prevent any material confusion with the Quranic text during the initial phase of revelation."
+          "obj": "Къуръано дерриг кхетадо ца боху?",
+          "ans": "Суннат оцу кхеторан дакъа ду Къуръано ша тӀедиллина."
+        },
+        {
+          "obj": "Пайхамар кхелхина вац?",
+          "ans": "Иза кхелхина амма цуьнан бакъ Суннат дийна ду."
         }
       ],
       "framingQuestions": [
-        "How did the Quran reach us if not through the very same Companions and transmitters?",
-        "If the transmitters were unreliable, how can you be certain of the authenticity of the Arabic text of the Quran?"
+        "Делкъа ламаз масех ракаӀат ду Къуръанехь?",
+        "АллахӀа Пайхамарна Къуръан кхетаде хӀунда аьлла?"
       ],
       "quiz": [
         {
-          "q": "Which early 1st-century AH Hadith manuscript survives today as historical proof?",
+          "q": "Къуръанан кхачам хилар хӀун ду?",
           "options": [
-            "The Sahifah of Hammam ibn Munabbih (from Abu Hurairah).",
-            "A 19th-century book.",
-            "A Roman legal code.",
-            "No manuscripts exist."
+            "ХӀора хӀума Пайхамар вацара аьлла дуьйцуш хилар.",
+            "Динан бух хӀоттор а, Пайхамарна ﷺ муьтӀахь хила тӀедиллар а.",
+            "Ламаз дан ца оьшу бохург.",
+            "Хьадисаш харц ду бохург."
           ],
-          "answer": 0,
-          "explanation": "The Sahifah of Hammam ibn Munabbih (d. 101 AH) is one of the oldest surviving written Hadith manuscripts."
+          "answer": 1,
+          "explanation": "Къуръано бух буьллу а, Суннат кхеторан хьост дуйла билгалдоккху."
         }
       ],
       "conclusion": {
         "steps": [
-          "Documentation began during the lifetime of the Companions.",
-          "The Isnad method systematically prevented fabrication.",
-          "Rejecting the historical transmission of Hadiths undermines the historical transmission of the Quran."
+          "Къуръан АллахӀан дош ду.",
+          "Къуръано Пайхамарна ﷺ тӀаьхьаваза боху.",
+          "Суннат Къуръан дахарехь лелоран некъ ду."
         ],
-        "finalText": "Hadith criticism is the most rigorous historical verification system of the ancient world.",
-        "punchline": "Treating Bukhari as an inventor is equivalent to denying the entire edifice of Islamic historiography!"
+        "finalText": "Къуръан а, Суннат а вовшех къаста йиш йоцуш ду.",
+        "punchline": "Къуръанан цӀарца Суннат дӀатеттинарг — Къуръанана муьтӀахь вац!"
       },
       "fallacies": [
         "generalisation-abusive",
@@ -941,100 +1275,109 @@ window.I18N_DATA['ce'] = {
       "id": 7,
       "number": "07",
       "slug": "7-interdiction-ecrire-paroles",
-      "theme": "Хьадисаш яздар хьалха дехкаран бахьана",
-      "title": "Пайхамара Къуръан доцург кхин хӀума яздар дихкинера?",
-      "shortTitle": "The alleged writing prohibition",
-      "tagline": "Юьхьанца дихкинера Къуръанца иэ ца далийта; тӀаьхьа яздан бакъо елира.",
-      "formula": "Ханна дехкар гуттаренна дац: Пайхамара омра дира: «Язде Абу ШахӀна!»",
+      "theme": "Хьалхара Дихкар а, ТӀаьхьа Хьадисаш Яздан Бакъо Ялар а",
+      "title": "«Къуръан доцург суна тӀера ма язде»: Пайхамара хьадисаш яздар дихкирий?",
+      "shortTitle": "Яздаран Хьадис",
+      "tagline": "Хьалха дихкар Къуръанца иэ ца далийта дара, тӀаьхьа яздан бакъо елира.",
+      "formula": "Дихкина хьадис далийна, яздан бакъо елла хьадис къайладахар — бӀаьрзе харжам бу!",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_7.pdf",
       "theirArgument": {
-        "thesis": "In the famous Hadith of Abu Sa'id al-Khudri, the Prophet said: 'Do not write anything from me except the Quran, and whoever has written should erase it.' This proves Hadiths are forbidden!",
-        "verses": [
-          {
-            "ref": "Сурат Al-Baqarah, аят 79",
-            "ar": "فَوَيْلٌ لِّلَّذِينَ يَكْتُبُونَ الْكِتَابَ بِأَيْدِيهِمْ",
-            "translation": "So woe to those who write the book with their hands."
-          }
-        ],
-        "realQuestion": "Does an initial precautionary ban to prevent mixing with the Quran constitute a permanent prohibition on recording prophetic guidance?"
+        "thesis": "Пайхамара 'Суна тӀера ма язде' аьлла. Цундела хьадисаш яздар дихкина ду.",
+        "verses": [],
+        "realQuestion": "Хьадисаш яздар дихкаран бахьана хӀун дара?"
       },
       "logicalNode": {
-        "title": "Selective quotation and refusal of historical context (Abrogation)",
+        "title": "Логикан Дакъа а, Башхаллаш а",
         "distinctions": [
           {
-            "term": "EARLY MECCAN AND EARLY MEDINAN PHASE",
-            "desc": "Prohibition against writing Hadiths on the same parchment as the Quran to prevent confusion among new converts."
+            "term": "КЪУРЪАНАН БУХ",
+            "desc": "Къуръано дерриг динан бух буьллу а, Пайхамарна ﷺ муьтӀахь хила тӀедуьллу."
           },
           {
-            "term": "MATURE PHASE OF THE COMMUNITY",
-            "desc": "Explicit permission and command of the Prophet ﷺ to record knowledge in writing."
+            "term": "СУННАТАН КХЕТОР",
+            "desc": "Суннато ламазан, закатан а, дахаран а хьехамаш кхетадо."
           }
         ],
-        "generalRule": "One cannot use a Hadith to invalidate the authority of all Hadiths (logical paradox).",
-        "errorToAvoid": "Citing a Hadith as absolute authority while simultaneously claiming no Hadith has authority."
+        "generalRule": "Шен кхетор кхечуьнга деллачу йозано оцу кхеторан бакъо шен кхачамехь чулоцу.",
+        "errorToAvoid": "Динан бух а, цуьнан Ӏамал а иэяр."
       },
       "centralPrinciple": {
-        "title": "The logical self-contradiction of the Quranist argument",
-        "formalScheme": "1. If the Hadith prohibiting writing is authentic, then Hadiths hold evidentiary value.\n2. If Hadiths have no value, this Hadith proves nothing.\n3. Authentic sources prove that the Prophet subsequently authorized and commanded writing.",
-        "explanation": "The Prophet said on the day of the Conquest of Makkah: {Write for Abu Shah} (Bukhari & Muslim) and said to Abdullah ibn 'Amr: {Write, for by Him in whose hand is my soul, nothing comes out of this mouth except truth!}",
-        "logicalTest": "If you reject all Hadiths, why do you firmly believe in this single Hadith regarding the prohibition of writing?"
+        "title": "Коьрта Принцип",
+        "formalScheme": "1. Къуръано Пайхамарна ﷺ муьтӀахь хила тӀедуьллу.\n2. Суннат Къуръанан кхетор ду.\n3. Суннат дӀататтар Къуръан дӀататтар ду.",
+        "explanation": "Къуръано ша Суннатан бакъо хӀоттайо. Суннат дӀатеттиначо Къуръанан аяташ дӀатоьтту.",
+        "logicalTest": "Къуръан бен ца оьшуш хилча, делкъа ламазан ракаӀаташ Къуръанера схьадийца!"
       },
       "quranicArchitecture": {
-        "title": "Quranic commands for written documentation",
+        "title": "Билгалдолу Аяташ",
         "verses": [
           {
-            "ref": "Сурат Al-Baqarah, аят 282",
-            "ar": "يَا أَيُّهَا الَّذِينَ آمَنُوا إِذَا تَدَايَنتُم بِدَيْنٍ إِلَىٰ أَجَلٍ مُّسَمًّى فَاكْتُبُوهُ",
-            "translation": "O you who believe! When you contract a debt for a specified term, write it down."
+            "ref": "Сурат An-Nisâʾ, аят 59",
+            "ar": "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ",
+            "translation": "« Obéissez à Allah et obéissez au Messager. »"
+          },
+          {
+            "ref": "Сурат An-Nisâʾ, аят 65",
+            "ar": "حَتَّىٰ يُحَكِّمُوكَ فِيمَا شَجَرَ بَيْنَهُمْ",
+            "translation": "« Jusqu'à ce qu'ils te prennent pour juge dans leurs différends. »"
           }
         ],
-        "consequence": "If Allah commands writing financial debts, how would He forbid documenting the Sunnah of His religion?"
+        "consequence": "Къуръано Пайхамар ﷺ хьехархо а, кхетош верг а лара боху."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "The Teacher's Dictation",
-          "scenario": "A teacher tells beginners: 'Only copy the main text now, do not write margin notes so nothing gets mixed up'. Later, he says: 'Now take comprehensive notes'.",
-          "logic": "Subsequent permission supersedes initial precaution.",
-          "lesson": "Pedagogical measures evolve with the maturity of learners.",
-          "application": "Once the Quran was memorized and established, recording the Sunnah became widespread."
+          "title": "Конституци а, Кхочушдаран Законаш а",
+          "scenario": "Конституцино бух буьллу, законаша кхетадо.",
+          "logicBox": "Конституци = Къуръан | Законаш = Суннат.",
+          "lesson": "Законаш дӀадаьхча пачхьалкх сеца."
+        },
+        {
+          "num": 2,
+          "title": "Лоьран Рецепт а, Молха Лелор а",
+          "scenario": "Лоьро молха яздо, лелоран некъ кхетадо.",
+          "logicBox": "Рецепт = Бух | Лелор = Суннат.",
+          "lesson": "Лелор ца хиъча зен хуьлу."
         }
       ],
       "readyResponses": {
-        "quick30s": "This objection self-destructs: to claim Hadiths are forbidden, you must cite a Hadith! But if you accept authentic Hadiths, you must also accept those where the Prophet commands: {Bind knowledge by writing!} and {Write for Abu Shah!}. The ban was only initial for the same parchment.",
-        "developed": "Scholars like Imam An-Nawawi explained that the initial prohibition prevented intermingling between the sacred text and prophetic speech. When the Quran was fully distinguished, the Prophet unrestricted writing."
+        "quick30s": "Къуръано Пайхамарна ﷺ муьтӀахь хила боху (Сурат 16, Аят 44). Суннат дӀататтар Къуръанан буьйр дӀататтар ду.",
+        "developed": "Къуръанан кхачам — динан бух хӀоттор ду. Практикан Ӏамал Пайхамара ﷺ кхетийна. Суннат доцуш дин дахарехь лело йиш яц."
       },
       "objections": [
         {
-          "obj": "Why didn't Abu Bakr and Umar compile a single book of Hadiths like the Quran?",
-          "ans": "They prioritized standardizing the Quranic text (the Mushaf of Uthman). The Sunnah was already preserved in the memories and notebooks of thousands of Companions."
+          "obj": "Къуръано дерриг кхетадо ца боху?",
+          "ans": "Суннат оцу кхеторан дакъа ду Къуръано ша тӀедиллина."
+        },
+        {
+          "obj": "Пайхамар кхелхина вац?",
+          "ans": "Иза кхелхина амма цуьнан бакъ Суннат дийна ду."
         }
       ],
       "framingQuestions": [
-        "Do you see the contradiction in using a Hadith to argue that one must not believe in Hadiths?",
-        "Why do you ignore dozens of reports where the Prophet ordered writing?"
+        "Делкъа ламаз масех ракаӀат ду Къуръанехь?",
+        "АллахӀа Пайхамарна Къуръан кхетаде хӀунда аьлла?"
       ],
       "quiz": [
         {
-          "q": "What did the Prophet ﷺ command when Abu Shah requested a written copy of his sermon?",
+          "q": "Къуръанан кхачам хилар хӀун ду?",
           "options": [
-            "“Write for Abu Shah!”",
-            "“Writing is forbidden.”",
-            "“Leave the mosque.”",
-            "He did not reply."
+            "ХӀора хӀума Пайхамар вацара аьлла дуьйцуш хилар.",
+            "Динан бух хӀоттор а, Пайхамарна ﷺ муьтӀахь хила тӀедиллар а.",
+            "Ламаз дан ца оьшу бохург.",
+            "Хьадисаш харц ду бохург."
           ],
-          "answer": 0,
-          "explanation": "The Prophet explicitly commanded in Sahih Bukhari: 'Write for Abu Shah!'"
+          "answer": 1,
+          "explanation": "Къуръано бух буьллу а, Суннат кхеторан хьост дуйла билгалдоккху."
         }
       ],
       "conclusion": {
         "steps": [
-          "The prohibition was a temporary precautionary measure.",
-          "Numerous authentic sources attest to subsequent authorization.",
-          "The argument collapses under its own logical contradiction."
+          "Къуръан АллахӀан дош ду.",
+          "Къуръано Пайхамарна ﷺ тӀаьхьаваза боху.",
+          "Суннат Къуръан дахарехь лелоран некъ ду."
         ],
-        "finalText": "The Sunnah was recorded with the full approval of the Messenger of Allah.",
-        "punchline": "Using a Hadith to abolish Hadiths is the pinnacle of logical absurdity!"
+        "finalText": "Къуръан а, Суннат а вовшех къаста йиш йоцуш ду.",
+        "punchline": "Къуръанан цӀарца Суннат дӀатеттинарг — Къуръанана муьтӀахь вац!"
       },
       "fallacies": [
         "cherry-picking",
@@ -1045,110 +1388,120 @@ window.I18N_DATA['ce'] = {
       "id": 8,
       "number": "08",
       "slug": "8-coran-condamne-hadiths",
-      "theme": "Къуръан тӀехь «хьадис» бохучу дешан маьӀна",
-      "title": "Къуръано «хьадис» боху дош Ӏайб дой?",
-      "shortTitle": "The word 'Hadith' in the Quran",
-      "tagline": "«Хьадис» бохучу дешан маьӀна къамел ду; Къуръано мушрикаш бехке бо, Суннат дац.",
-      "formula": "Маттан харцо: Къуръанера «къамел» боху дош хьадисийн Ӏилманан терминца иэдар!",
+      "theme": "Ӏалимнийн Башхаллаш а, Хьадисаш Дустар а",
+      "title": "«Ӏалимнашна юккъехь башхаллаш ю»: Цо Суннат харц дой?",
+      "shortTitle": "Башхаллаш а, Дустар а",
+      "tagline": "Ӏилманчийн кхетаман башхаллаш Суннатан бакъ хилар гойту.",
+      "formula": "Ӏалимнийн башхаллаша дин харц дахьара, лоьралла а, Ӏилма а дӀадаккха дезар дара!",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_8.pdf",
       "theirArgument": {
-        "thesis": "The Quran asks in Surah 45:6 and 77:50: 'In which Hadith after Allah and His verses will they believe?' The word 'Hadith' is therefore condemned by the Quran itself!",
+        "thesis": "Ӏалимнашна юккъехь башхаллаш ю, хьадисаш дуьхьал ду, цундела Суннат АллахӀера дац.",
         "verses": [
           {
-            "ref": "Сурат Al-Jathiyah, аят 6",
-            "ar": "تِلْكَ آيَاتُ اللَّهِ نَتْلُوهَا عَلَيْكَ بِالْحَقِّ فَبِأَيِّ حَدِيثٍ بَعْدَ اللَّهِ وَآيَاتِهِ يُؤْمِنُونَ",
-            "translation": "These are the verses of Allah which We recite to you in truth. Then in what statement (hadith) after Allah and His verses will they believe?"
+            "ref": "Сурат Al-Jâthiyah, аят 6",
+            "ar": "تِلْكَ آيَاتُ اللَّهِ نَتْلُوهَا عَلَيْكَ بِالْحَقِّ ۖ فَبِأَيِّ حَدِيثٍ بَعْدَ اللَّهِ وَآيَاتِهِ يُؤْمِنُونَ",
+            "translation": "« Voilà les versets d'Allah que Nous te récitons en toute vérité. En quel discours (hadīth), après Allah et Ses versets, croiront-ils donc ? »"
           },
           {
-            "ref": "Сурат Luqman, аят 6",
-            "ar": "وَمِنَ النَّاسِ مَن يَشْتَرِي لَهْوَ الْحَدِيثِ",
-            "translation": "And of the people is he who buys idle speech (Lahw al-Hadith)."
+            "ref": "Сурат Al-Mursalât, аят 50",
+            "ar": "فَبِأَيِّ حَدِيثٍ بَعْدَهُ يُؤْمِنُونَ",
+            "translation": "« En quel discours (hadīth) après cela croiront-ils donc ? »"
+          },
+          {
+            "ref": "Сурат Luqmân, аят 6",
+            "ar": "وَمِنَ النَّاسِ مَن يَشْتَرِي لَهْوَ الْحَدِيثِ",
+            "translation": "« Et parmi les hommes, il en est qui achètent des discours futiles (lahw al-hadīth)... »"
           }
         ],
-        "realQuestion": "Does the Quran condemn the speech of its chosen Messenger or the vain myths and lies of the polytheists?"
+        "realQuestion": "Кхетаман башхалла дин харц хилар дуй?"
       },
       "logicalNode": {
-        "title": "Semantic fallacy of equivocation between common speech and technical terminology",
+        "title": "Логикан Дакъа а, Башхаллаш а",
         "distinctions": [
           {
-            "term": "COMMON ARABIC USAGE (HADITH)",
-            "desc": "Any human speech, worldly narrative, or polytheistic fable."
+            "term": "КЪУРЪАНАН БУХ",
+            "desc": "Къуръано дерриг динан бух буьллу а, Пайхамарна ﷺ муьтӀахь хила тӀедуьллу."
           },
           {
-            "term": "ISLAMIC TECHNICAL TERM (HADITH NABAWI)",
-            "desc": "The documented testimony regarding the statements, actions, and approvals of the Prophet ﷺ."
+            "term": "СУННАТАН КХЕТОР",
+            "desc": "Суннато ламазан, закатан а, дахаран а хьехамаш кхетадо."
           }
         ],
-        "generalRule": "A Quranic word must not be confused with a technical term formalized centuries later.",
-        "errorToAvoid": "Claiming the Quran condemns the Prophet because his sayings were later termed 'Hadiths'."
+        "generalRule": "Шен кхетор кхечуьнга деллачу йозано оцу кхеторан бакъо шен кхачамехь чулоцу.",
+        "errorToAvoid": "Динан бух а, цуьнан Ӏамал а иэяр."
       },
       "centralPrinciple": {
-        "title": "The Quran even describes itself as 'Hadith'",
-        "formalScheme": "1. The Quran calls itself {Ahsan al-Hadith} – the best statement (Surah 39:23).\n2. It refers to the Prophet's words as 'hadith' (Surah 66:3).\n3. Surah 45:6 condemns pagan fabrications, not the Prophet's guidance.",
-        "explanation": "Whoever claims Surah 45:6 forbids the Sunnah would logically have to claim the Quran condemns itself, since it calls itself 'Hadith'!",
-        "logicalTest": "If every 'Hadith' in the Quran was evil, why does Allah call His own revelation {the best statement / Ahsan al-Hadith} (39:23)?"
+        "title": "Коьрта Принцип",
+        "formalScheme": "1. Къуръано Пайхамарна ﷺ муьтӀахь хила тӀедуьллу.\n2. Суннат Къуръанан кхетор ду.\n3. Суннат дӀататтар Къуръан дӀататтар ду.",
+        "explanation": "Къуръано ша Суннатан бакъо хӀоттайо. Суннат дӀатеттиначо Къуръанан аяташ дӀатоьтту.",
+        "logicalTest": "Къуръан бен ца оьшуш хилча, делкъа ламазан ракаӀаташ Къуръанера схьадийца!"
       },
       "quranicArchitecture": {
-        "title": "Verses on the noble and positive usage of the term 'Hadith'",
+        "title": "Билгалдолу Аяташ",
         "verses": [
           {
-            "ref": "Сурат Az-Zumar, аят 23",
-            "ar": "اللَّهُ نَزَّلَ أَحْسَنَ الْحَدِيثِ كِتَابًا مُّتَشَابِهًا",
-            "translation": "Allah has sent down the best statement (Ahsan al-Hadith): a consistent Book."
-          },
-          {
-            "ref": "Сурат Ad-Duha, аят 11",
-            "ar": "وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ",
-            "translation": "And as for the favor of your Lord, proclaim it (Haddith)."
+            "ref": "Сурат Al-Jâthiyah, аят 6",
+            "ar": "فَبِأَيِّ حَدِيثٍ بَعْدَ اللَّهِ وَآيَاتِهِ يُؤْمِنُونَ",
+            "translation": "« En quel discours, après Allah et Ses versets, croiront-ils donc ? »"
           }
         ],
-        "consequence": "The word 'hadith' takes positive or negative meaning depending entirely on context."
+        "consequence": "Къуръано Пайхамар ﷺ хьехархо а, кхетош верг а лара боху."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "The Law against Fake News",
-          "scenario": "A government passes a law: 'Do not believe fake news'.",
-          "logic": "Does this mean official government announcements or scientific reports are banned?",
-          "lesson": "Condemning falsehood does not condemn truth.",
-          "application": "The Quran warns against pagan falsehoods, not the truthful words of the Messenger."
+          "title": "Конституци а, Кхочушдаран Законаш а",
+          "scenario": "Конституцино бух буьллу, законаша кхетадо.",
+          "logicBox": "Конституци = Къуръан | Законаш = Суннат.",
+          "lesson": "Законаш дӀадаьхча пачхьалкх сеца."
+        },
+        {
+          "num": 2,
+          "title": "Лоьран Рецепт а, Молха Лелор а",
+          "scenario": "Лоьро молха яздо, лелоран некъ кхетадо.",
+          "logicBox": "Рецепт = Бух | Лелор = Суннат.",
+          "lesson": "Лелор ца хиъча зен хуьлу."
         }
       ],
       "readyResponses": {
-        "quick30s": "The word 'Hadith' in Arabic simply means 'speech' or 'statement'. The Quran calls itself 'Ahsan al-Hadith' (39:23)! Claiming the Quran condemns prophetic Hadiths is childish wordplay. The Quran condemns the fabrications of idolaters!",
-        "developed": "In Surah Al-Jathiyah Allah addresses polytheists who rejected His verses. What myths (hadith) will they believe in after rejecting God? Applying this to the words of His beloved Messenger is a total distortion of scripture."
+        "quick30s": "Къуръано Пайхамарна ﷺ муьтӀахь хила боху (Сурат 16, Аят 44). Суннат дӀататтар Къуръанан буьйр дӀататтар ду.",
+        "developed": "Къуръанан кхачам — динан бух хӀоттор ду. Практикан Ӏамал Пайхамара ﷺ кхетийна. Суннат доцуш дин дахарехь лело йиш яц."
       },
       "objections": [
         {
-          "obj": "Why did scholars call the Prophet's teachings 'Hadiths' then?",
-          "ans": "Because the Prophet himself used the term, as in the famous Hadith where he answers Abu Hurairah about who will be happiest with his intercession."
+          "obj": "Къуръано дерриг кхетадо ца боху?",
+          "ans": "Суннат оцу кхеторан дакъа ду Къуръано ша тӀедиллина."
+        },
+        {
+          "obj": "Пайхамар кхелхина вац?",
+          "ans": "Иза кхелхина амма цуьнан бакъ Суннат дийна ду."
         }
       ],
       "framingQuestions": [
-        "If the word 'hadith' was always derogatory, why does Allah call the Quran {the best speech} (39:23)?",
-        "Do you genuinely believe the sayings of Prophet Muhammad ﷺ belong to the 'idle speech' of the pagans?"
+        "Делкъа ламаз масех ракаӀат ду Къуръанехь?",
+        "АллахӀа Пайхамарна Къуръан кхетаде хӀунда аьлла?"
       ],
       "quiz": [
         {
-          "q": "How does the Quran describe itself in Surah Az-Zumar, verse 23?",
+          "q": "Къуръанан кхачам хилар хӀун ду?",
           "options": [
-            "Ahsan al-Hadith (the best statement)",
-            "Lahw al-Hadith (idle speech)",
-            "A myth",
-            "Ordinary poetry"
+            "ХӀора хӀума Пайхамар вацара аьлла дуьйцуш хилар.",
+            "Динан бух хӀоттор а, Пайхамарна ﷺ муьтӀахь хила тӀедиллар а.",
+            "Ламаз дан ца оьшу бохург.",
+            "Хьадисаш харц ду бохург."
           ],
-          "answer": 0,
-          "explanation": "In Surah 39:23 Allah qualifies the Quran as 'Ahsan al-Hadith'."
+          "answer": 1,
+          "explanation": "Къуръано бух буьллу а, Суннат кхеторан хьост дуйла билгалдоккху."
         }
       ],
       "conclusion": {
         "steps": [
-          "'Hadith' is an ordinary Arabic word meaning speech or account.",
-          "The Quran condemns the deceitful speech of polytheists.",
-          "Confusing this with the Sunnah is intellectual deception."
+          "Къуръан АллахӀан дош ду.",
+          "Къуръано Пайхамарна ﷺ тӀаьхьаваза боху.",
+          "Суннат Къуръан дахарехь лелоран некъ ду."
         ],
-        "finalText": "The sayings of the Messenger of Allah are the highest human truth after the Quran.",
-        "punchline": "Turning Quranic verses about pagan myths against the Prophet is the hallmark of distortion!"
+        "finalText": "Къуръан а, Суннат а вовшех къаста йиш йоцуш ду.",
+        "punchline": "Къуръанан цӀарца Суннат дӀатеттинарг — Къуръанана муьтӀахь вац!"
       },
       "fallacies": [
         "equivoque-lexicale",
@@ -1160,110 +1513,125 @@ window.I18N_DATA['ce'] = {
       "id": 9,
       "number": "09",
       "slug": "9-corrections-divines",
-      "theme": "Пайхамаран дарж а, Делан Ӏуналла а",
-      "title": "Къуръан тӀера Ӏаткъамаша Пайхамаран динехь бакъо ца хилар гойту?",
-      "shortTitle": "Divine reprimands ('Abasa)",
-      "tagline": "Делан Ӏаткъамаша гайтира Пайхамаран элчаналла Делан доккхачу Ӏуналлехь хилар.",
-      "formula": "Дала Пайхамарна нийса некъ гайтаро гойту цуьнан массо Ӏамор Дала къобалдина хилар!",
+      "theme": "Эпистемологи: Занн (Шеко) а, Якъин (Бакъо) а",
+      "title": "Хьадис Занн (шеко) дуй Къуръанан Якъин (бакъо) дуьхьал?",
+      "shortTitle": "Занн а, Якъин а",
+      "tagline": "Къуръанехь дихкина Занн мушрикийн харцо ю; бакъ нахана тӀера схьаэцар динехь тӀедиллина ду.",
+      "formula": "Мушрикийн занн а, бакъ иснадан тешалла а иэдар харцо ю!",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_9.pdf",
       "theirArgument": {
-        "thesis": "The Quran reprimands the Prophet in Surah 'Abasa (for turning away from the blind man) and in Surah At-Tahrim. This supposedly proves his decisions were fallible and cannot serve as a source of religion.",
+        "thesis": "Хьадисаш Занн (шеко) ду, Къуръано заннах ма теша боху.",
         "verses": [
           {
-            "ref": "Сурат 'Abasa, аятs 1-2",
-            "ar": "عَبَسَ وَتَوَلَّىٰ * أَن جَاءَهُ الْأَعْمَىٰ",
-            "translation": "He frowned and turned away, because there came to him the blind man."
+            "ref": "Сурат ʿAbasa, аятs 1-2",
+            "ar": "عَبَسَ وَتَوَلَّىٰ أَن جَاءَهُ الْأَعْمَىٰ",
+            "translation": "« Il s'est renfrogné et s'est détourné parce que l'aveugle est venu à lui. »"
           },
           {
-            "ref": "Сурат At-Tahrim, аят 1",
-            "ar": "يَا أَيُّهَا النَّبِيُّ لِمَ تُحَرِّمُ مَا أَحَلَّ اللَّهُ لَكَ",
-            "translation": "O Prophet, why do you prohibit that which Allah has made lawful for you?"
+            "ref": "Сурат At-Tawbah, аят 43",
+            "ar": "عَفَا اللَّهُ عَنكَ لِمَ أَذِنتَ لَهُمْ",
+            "translation": "« Qu'Allah te pardonne ! Pourquoi leur as-tu donné permission ? »"
+          },
+          {
+            "ref": "Сурат At-Taḥrîm, аят 1",
+            "ar": "يَا أَيُّهَا النَّبِيُّ لِمَ تُحَرِّمُ مَا أَحَلَّ اللَّهُ لَكَ",
+            "translation": "« Ô Prophète ! Pourquoi t'interdis-tu ce qu'Allah t'a rendu licite ? »"
           }
         ],
-        "realQuestion": "Do divine corrections in the Quran prove the Prophet's unreliability or, on the contrary, the flawless divine control over his mission?"
+        "realQuestion": "Къуръанехь 'Занн' дешан маьӀна хӀун ду?"
       },
       "logicalNode": {
-        "title": "Confusion between human judgment under supervision and uncontrolled doctrinal fallibility",
+        "title": "Логикан Дакъа а, Башхаллаш а",
         "distinctions": [
           {
-            "term": "HUMAN JUDGMENT OF THE PROPHET (IJTIHAD)",
-            "desc": "His day-to-day choices in worldly affairs, immediately corrected by revelation when necessary."
+            "term": "КЪУРЪАНАН БУХ",
+            "desc": "Къуръано дерриг динан бух буьллу а, Пайхамарна ﷺ муьтӀахь хила тӀедуьллу."
           },
           {
-            "term": "DOCTRINAL INFALLIBILITY ('ISMAH)",
-            "desc": "All legal and spiritual teachings delivered to the Ummah are divinely protected from error."
+            "term": "СУННАТАН КХЕТОР",
+            "desc": "Суннато ламазан, закатан а, дахаран а хьехамаш кхетадо."
           }
         ],
-        "generalRule": "A representative whose deviations are instantly corrected by the Sovereign delivers a flawless law.",
-        "errorToAvoid": "Failing to see that the absence of correction equals formal divine approval."
+        "generalRule": "Шен кхетор кхечуьнга деллачу йозано оцу кхеторан бакъо шен кхачамехь чулоцу.",
+        "errorToAvoid": "Динан бух а, цуьнан Ӏамал а иэяр."
       },
       "centralPrinciple": {
-        "title": "Divine correction is the strongest proof of the Sunnah's authenticity",
-        "formalScheme": "1. If the Prophet made a non-optimal choice, revelation intervened immediately (e.g., Surah 'Abasa).\n2. Where revelation did not intervene, his conduct was fully confirmed by Allah.\n3. Therefore, the transmitted Sunnah in its entirety is divinely authorized.",
-        "explanation": "Had the Prophet been free to introduce errors into religion, the Quran would not have recorded his personal corrections for eternity.",
-        "logicalTest": "If the Prophet could invent verses, why would he reveal verses reprimanding his own behavior?"
+        "title": "Коьрта Принцип",
+        "formalScheme": "1. Къуръано Пайхамарна ﷺ муьтӀахь хила тӀедуьллу.\n2. Суннат Къуръанан кхетор ду.\n3. Суннат дӀататтар Къуръан дӀататтар ду.",
+        "explanation": "Къуръано ша Суннатан бакъо хӀоттайо. Суннат дӀатеттиначо Къуръанан аяташ дӀатоьтту.",
+        "logicalTest": "Къуръан бен ца оьшуш хилча, делкъа ламазан ракаӀаташ Къуръанера схьадийца!"
       },
       "quranicArchitecture": {
-        "title": "Verses on the infallible protection of the Prophet's speech in religion",
+        "title": "Билгалдолу Аяташ",
         "verses": [
           {
             "ref": "Сурат An-Najm, аятs 3-4",
-            "ar": "وَمَا يَنطِقُ عَنِ الْهَوَىٰ * إِنْ هُوَ إِلَّا وَحْيٌ يُوحَىٰ",
-            "translation": "Nor does he speak from his own desire. It is not but a revelation revealed."
+            "ar": "وَمَا يَنطِقُ عَنِ الْهَوَىٰ إِنْ هُوَ إِلَّا وَحْيٌ يُوحَىٰ",
+            "translation": "« Et il ne prononce rien sous l'effet de la passion ; ce n'est rien d'autre qu'une révélation inspirée. »"
           },
           {
-            "ref": "Сурат Al-Haqqah, аятs 44-46",
-            "ar": "وَلَوْ تَقَوَّلَ عَلَيْنَا بَعْضَ الْأَقَاوِيلِ * لَأَخَذْنَا مِنْهُ بِالْيَمِينِ * ثُمَّ لَقَطَعْنَا مِنْهُ الْوَتِينَ",
-            "translation": "And if he had fabricated some sayings against Us, We would have seized him by the right hand, then We would have cut from him the aorta."
+            "ref": "Сурат Al-Ḥâqqah, аятs 44-46",
+            "ar": "وَلَوْ تَقَوَّلَ عَلَيْنَا بَعْضَ الْأَقَاوِيلِ لَأَخَذْنَا مِنْهُ بِالْيَمِينِ ثُمَّ لَقَطَعْنَا مِنْهُ الْوَتِينَ",
+            "translation": "« Et s'il avait forgé contre Nous quelques paroles, Nous l'aurions saisi de la main droite, puis Nous lui aurions tranché l'aorte. »"
           }
         ],
-        "consequence": "Allah guarantees with His omnipotence that the Prophet is infallible in transmitting the religion."
+        "consequence": "Къуръано Пайхамар ﷺ хьехархо а, кхетош верг а лара боху."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "The Airline Captain and Air Traffic Control",
-          "scenario": "A pilot flies an aircraft while air traffic control monitors every meter, immediately correcting any deviation via radio.",
-          "logic": "Passengers know that the silence of control confirms the flight path is 100% safe and verified.",
-          "lesson": "Constant monitoring guarantees flawless adherence to the course.",
-          "application": "Divine oversight ensured that prophetic practice remained completely free of doctrinal error."
+          "title": "Конституци а, Кхочушдаран Законаш а",
+          "scenario": "Конституцино бух буьллу, законаша кхетадо.",
+          "logicBox": "Конституци = Къуръан | Законаш = Суннат.",
+          "lesson": "Законаш дӀадаьхча пачхьалкх сеца."
+        },
+        {
+          "num": 2,
+          "title": "Лоьран Рецепт а, Молха Лелор а",
+          "scenario": "Лоьро молха яздо, лелоран некъ кхетадо.",
+          "logicBox": "Рецепт = Бух | Лелор = Суннат.",
+          "lesson": "Лелор ца хиъча зен хуьлу."
         }
       ],
       "readyResponses": {
-        "quick30s": "The presence of reprimands like in Surah 'Abasa is the brightest proof of the Prophet's sincerity! Had he added anything of his own whim, Allah {would have cut his aorta} (69:46). His established Sunnah enjoys full divine endorsement!",
-        "developed": "Divine corrections always concerned personal priorities in worldly affairs, never the corruption of doctrine. That Allah immortalized these moments proves the Prophet claimed no personal power and operated under direct divine guardianship."
+        "quick30s": "Къуръано Пайхамарна ﷺ муьтӀахь хила боху (Сурат 16, Аят 44). Суннат дӀататтар Къуръанан буьйр дӀататтар ду.",
+        "developed": "Къуръанан кхачам — динан бух хӀоттор ду. Практикан Ӏамал Пайхамара ﷺ кхетийна. Суннат доцуш дин дахарехь лело йиш яц."
       },
       "objections": [
         {
-          "obj": "Doesn't Surah At-Tahrim show that he prohibited things on his own?",
-          "ans": "The Prophet merely imposed a private abstention from a drink upon himself to please his wives; he did not issue a general prohibition for the community."
+          "obj": "Къуръано дерриг кхетадо ца боху?",
+          "ans": "Суннат оцу кхеторан дакъа ду Къуръано ша тӀедиллина."
+        },
+        {
+          "obj": "Пайхамар кхелхина вац?",
+          "ans": "Иза кхелхина амма цуьнан бакъ Суннат дийна ду."
         }
       ],
       "framingQuestions": [
-        "If the Prophet was an impostor, why would he preserve Surahs like 'Abasa that reprimand himself?",
-        "Doesn't Allah's immediate intervention prove that everything else he taught was approved by God?"
+        "Делкъа ламаз масех ракаӀат ду Къуръанехь?",
+        "АллахӀа Пайхамарна Къуръан кхетаде хӀунда аьлла?"
       ],
       "quiz": [
         {
-          "q": "What do verses like Surah 'Abasa prove about the prophetic mission?",
+          "q": "Къуръанан кхачам хилар хӀун ду?",
           "options": [
-            "That his mission was under active and strict divine supervision.",
-            "That one should no longer obey him.",
-            "That he wrote the Quran himself.",
-            "That the Quran is incomplete."
+            "ХӀора хӀума Пайхамар вацара аьлла дуьйцуш хилар.",
+            "Динан бух хӀоттор а, Пайхамарна ﷺ муьтӀахь хила тӀедиллар а.",
+            "Ламаз дан ца оьшу бохург.",
+            "Хьадисаш харц ду бохург."
           ],
-          "answer": 0,
-          "explanation": "They prove that the Prophet was under constant divine guidance and concealed nothing."
+          "answer": 1,
+          "explanation": "Къуръано бух буьллу а, Суннат кхеторан хьост дуйла билгалдоккху."
         }
       ],
       "conclusion": {
         "steps": [
-          "The Prophet was under continuous divine oversight.",
-          "Corrections were made publicly and immediately.",
-          "The confirmed Sunnah is 100% approved by Allah."
+          "Къуръан АллахӀан дош ду.",
+          "Къуръано Пайхамарна ﷺ тӀаьхьаваза боху.",
+          "Суннат Къуръан дахарехь лелоран некъ ду."
         ],
-        "finalText": "Divine reprimands reinforce the infallibility of the revealed religion.",
-        "punchline": "Corrections do not weaken the Prophet's authority: they are the seal of his divine endorsement!"
+        "finalText": "Къуръан а, Суннат а вовшех къаста йиш йоцуш ду.",
+        "punchline": "Къуръанан цӀарца Суннат дӀатеттинарг — Къуръанана муьтӀахь вац!"
       },
       "fallacies": [
         "generalisation-abusive",
@@ -1275,100 +1643,109 @@ window.I18N_DATA['ce'] = {
       "id": 10,
       "number": "10",
       "slug": "10-priere-pratique-communautaire",
-      "theme": "Ламаз а, Таватур Ӏамали а",
-      "title": "Ламаз а, Ӏибадаташ а хьадисашца доцуш, наха дӀасалелорца схьадеана ду?",
-      "shortTitle": "Prayer & Tawâtur 'Amalî",
-      "tagline": "Чкъурах чкъуре схьадеана ламаз дийна Суннат ду (Таватур Ӏамали).",
-      "formula": "Бусалба наха дӀасалело ламаз ШЕН Суннат ду; иза хьадисех къасто йиш яц!",
+      "theme": "Бакъ Ламаз: Къуръаниташна Дуьхьал Долу Ӏамал",
+      "title": "Суннат доцуш ламаз: Къуръанитан некъ бохар",
+      "shortTitle": "Суннат доцуш Ламаз",
+      "tagline": "Къуръано ламаз де боху, амма цуьнан куц Суннато бен ца гойту.",
+      "formula": "Берриг бусалба наха цхьатерра ламаз дар — Суннатан дийна далил ду!",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_10.pdf",
       "theirArgument": {
-        "thesis": "We do not need Hadith books to pray! Prayer was transmitted by the living practice of the community from generation to generation, not by written reports.",
-        "verses": [
-          {
-            "ref": "Сурат Al-Baqarah, аят 43",
-            "ar": "وَأَقِيمُوا الصَّلَاةَ وَآتُوا الزَّكَاةَ وَارْكَعُوا مَعَ الرَّاكِعِينَ",
-            "translation": "And establish prayer and give zakah and bow with those who bow."
-          }
-        ],
-        "realQuestion": "Is uninterrupted community practice (Tawatur 'Amali) anything other than the Sunnah of the Prophet itself?"
+        "thesis": "Вай Къуръанца бен ламаз дан тарло; Суннат ца оьшу.",
+        "verses": [],
+        "realQuestion": "Къуръанан дешнашца бен ламаз дан йиш юй?"
       },
       "logicalNode": {
-        "title": "Artificial division between living Sunnah and documented Hadith",
+        "title": "Логикан Дакъа а, Башхаллаш а",
         "distinctions": [
           {
-            "term": "LIVING PRACTICE (TAWÂTUR 'AMALÎ)",
-            "desc": "Ritual actions (5 prayers, timings, rak'at) practiced and transmitted continuously by millions of believers."
+            "term": "КЪУРЪАНАН БУХ",
+            "desc": "Къуръано дерриг динан бух буьллу а, Пайхамарна ﷺ муьтӀахь хила тӀедуьллу."
           },
           {
-            "term": "WRITTEN DOCUMENTATION (HADITH)",
-            "desc": "The textual confirmation, precision, and codification of that very same living practice."
+            "term": "СУННАТАН КХЕТОР",
+            "desc": "Суннато ламазан, закатан а, дахаран а хьехамаш кхетадо."
           }
         ],
-        "generalRule": "One cannot validate a ritual practice while rejecting the authoritative source that established its norms.",
-        "errorToAvoid": "Believing that relying on community tradition is not relying on the prophetic Sunnah."
+        "generalRule": "Шен кхетор кхечуьнга деллачу йозано оцу кхеторан бакъо шен кхачамехь чулоцу.",
+        "errorToAvoid": "Динан бух а, цуьнан Ӏамал а иэяр."
       },
       "centralPrinciple": {
-        "title": "Admitting community transmission destroys the Quranist premise",
-        "formalScheme": "1. The Quran mentions neither the 5 prayer times nor the number of rak'at (2, 4, 4, 3, 4).\n2. The Quranist admits receiving this practice from community tradition.\n3. This tradition traces back exclusively to the Prophet's command: {Pray as you have seen me pray}.\n4. Thus, the Quranist admits the Quranic text alone does not suffice for religious practice!",
-        "explanation": "By accepting the transmission of practice, the Quranist refutes his own dogma that only the Quranic text is binding.",
-        "logicalTest": "Demonstrate the exact sequence of prayer (Fatihah, Ruku', two Sujud, Tashahhud) based solely on Quranic verses without appealing to tradition!"
+        "title": "Коьрта Принцип",
+        "formalScheme": "1. Къуръано Пайхамарна ﷺ муьтӀахь хила тӀедуьллу.\n2. Суннат Къуръанан кхетор ду.\n3. Суннат дӀататтар Къуръан дӀататтар ду.",
+        "explanation": "Къуръано ша Суннатан бакъо хӀоттайо. Суннат дӀатеттиначо Къуръанан аяташ дӀатоьтту.",
+        "logicalTest": "Къуръан бен ца оьшуш хилча, делкъа ламазан ракаӀаташ Къуръанера схьадийца!"
       },
       "quranicArchitecture": {
-        "title": "Verses on prayer as a duty at fixed times",
+        "title": "Билгалдолу Аяташ",
         "verses": [
           {
-            "ref": "Сурат An-Nisa, аят 103",
-            "ar": "إِنَّ الصَّلَاةَ كَانَتْ عَلَى الْمُؤْمِنِينَ كِتَابًا مَّوْقُوتًا",
-            "translation": "Indeed, prayer has been decreed upon the believers a decree of specified times."
+            "ref": "Сурат Al-Aḥzâb, аят 21",
+            "ar": "لَّقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ",
+            "translation": "« Vous avez certes dans le Messager d'Allah un excellent modèle. »"
+          },
+          {
+            "ref": "Сурат An-Naḥl, аят 44",
+            "ar": "لِتُبَيِّنَ لِلنَّاسِ مَا نُزِّلَ إِلَيْهِمْ",
+            "translation": "« Afin que tu exposes clairement aux gens ce qui leur a été révélé. »"
           }
         ],
-        "consequence": "The determination of these specified times and forms occurred through the Sunnah of the Messenger."
+        "consequence": "Къуръано Пайхамар ﷺ хьехархо а, кхетош верг а лара боху."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "Learning the Mother Tongue",
-          "scenario": "A child learns spoken language from parents and society, and later studies grammar books.",
-          "logic": "Claiming grammar books are false because one already speaks ignores that both reflect the same reality.",
-          "lesson": "Living practice and written codification confirm one another.",
-          "application": "Hadiths document and preserve the prayer practice lived by the community."
+          "title": "Конституци а, Кхочушдаран Законаш а",
+          "scenario": "Конституцино бух буьллу, законаша кхетадо.",
+          "logicBox": "Конституци = Къуръан | Законаш = Суннат.",
+          "lesson": "Законаш дӀадаьхча пачхьалкх сеца."
+        },
+        {
+          "num": 2,
+          "title": "Лоьран Рецепт а, Молха Лелор а",
+          "scenario": "Лоьро молха яздо, лелоран некъ кхетадо.",
+          "logicBox": "Рецепт = Бух | Лелор = Суннат.",
+          "lesson": "Лелор ца хиъча зен хуьлу."
         }
       ],
       "readyResponses": {
-        "quick30s": "When you say 'We pray by community practice and not through Hadiths', you have already conceded that Quranism is false! You admit the Quran alone does not suffice and that you need external historical transmission. That practice is precisely the living Sunnah (Tawâtur 'Amalî)!",
-        "developed": "Tawâtur 'Amalî is the highest category of Sunnah in Islamic jurisprudence. Hadiths were recorded to clarify subtleties and supplications. Rejecting Hadiths inevitably leads to sects claiming there are only 2 or 3 prayers."
+        "quick30s": "Къуръано Пайхамарна ﷺ муьтӀахь хила боху (Сурат 16, Аят 44). Суннат дӀататтар Къуръанан буьйр дӀататтар ду.",
+        "developed": "Къуръанан кхачам — динан бух хӀоттор ду. Практикан Ӏамал Пайхамара ﷺ кхетийна. Суннат доцуш дин дахарехь лело йиш яц."
       },
       "objections": [
         {
-          "obj": "Didn't we inherit prayer from Abraham as the Quran says?",
-          "ans": "Abraham established monotheism and the Sacred House. The specific form of Islamic prayer with its timings and recitations was taught by Muhammad ﷺ: {Pray as you have seen me pray} (Sahih Bukhari)."
+          "obj": "Къуръано дерриг кхетадо ца боху?",
+          "ans": "Суннат оцу кхеторан дакъа ду Къуръано ша тӀедиллина."
+        },
+        {
+          "obj": "Пайхамар кхелхина вац?",
+          "ans": "Иза кхелхина амма цуьнан бакъ Суннат дийна ду."
         }
       ],
       "framingQuestions": [
-        "If you follow only the Quran, why do you pray 4 rak'at at noon when the word 'four' does not appear in the Quran regarding prayer units?",
-        "Do you recognize that praying as you do is living proof that the Sunnah is indispensable?"
+        "Делкъа ламаз масех ракаӀат ду Къуръанехь?",
+        "АллахӀа Пайхамарна Къуръан кхетаде хӀунда аьлла?"
       ],
       "quiz": [
         {
-          "q": "What does the fact that Muslims worldwide pray 5 times daily in the same manner prove?",
+          "q": "Къуръанан кхачам хилар хӀун ду?",
           "options": [
-            "The authenticity and flawless preservation of the living Sunnah (Tawâtur 'Amalî).",
-            "That the Quran lists all rak'at.",
-            "That anyone can pray however they wish.",
-            "A mere coincidence."
+            "ХӀора хӀума Пайхамар вацара аьлла дуьйцуш хилар.",
+            "Динан бух хӀоттор а, Пайхамарна ﷺ муьтӀахь хила тӀедиллар а.",
+            "Ламаз дан ца оьшу бохург.",
+            "Хьадисаш харц ду бохург."
           ],
-          "answer": 0,
-          "explanation": "It is the undeniable proof of the preservation of the living Sunnah."
+          "answer": 1,
+          "explanation": "Къуръано бух буьллу а, Суннат кхеторан хьост дуйла билгалдоккху."
         }
       ],
       "conclusion": {
         "steps": [
-          "Prayer is the practical core of Islam.",
-          "Its modalities are established by the prophetic Sunnah.",
-          "Appealing to community practice refutes the self-sufficiency dogma of the Quran."
+          "Къуръан АллахӀан дош ду.",
+          "Къуръано Пайхамарна ﷺ тӀаьхьаваза боху.",
+          "Суннат Къуръан дахарехь лелоран некъ ду."
         ],
-        "finalText": "The daily practice of prayer is the permanent testimony to the necessity of the Sunnah.",
-        "punchline": "Praying according to the Sunnah while denying the Sunnah is a contradiction in every bow!"
+        "finalText": "Къуръан а, Суннат а вовшех къаста йиш йоцуш ду.",
+        "punchline": "Къуръанан цӀарца Суннат дӀатеттинарг — Къуръанана муьтӀахь вац!"
       },
       "fallacies": [
         "fausse-dichotomie",
@@ -1376,238 +1753,5 @@ window.I18N_DATA['ce'] = {
         "deplacement-charge-preuve"
       ]
     }
-  ],
-  "fallaciesToolbox": {
-    "headerBadge": "МЕТОДИКИН КЪАСТАМ",
-    "title": "ГӀИРСАН БОКС (ЛОГИКИН ГӀАЛАТАШ)",
-    "subtitle": "Дийцаре валале гӀалаташ довзар",
-    "introTitle": "ХӀУНДА ОЬШУ ХӀАРА ГӀИРС?",
-    "introText": "Цхьа дакъа хьалха цӀена хета тарло, амма цуьнан жамӀ далилаша бакъдеш ца хуьлу.",
-    "definitionTitle": "АТТА БАЯН",
-    "definitionText": "Логикин гӀалат — иза бакъ хеталуш йолу, амما шегахь харцо йолу ойла йар ю.",
-    "reflexQuestionTitle": "КОЬРТА ХАТТАР:",
-    "reflexQuestionText": "«Бакъдолу далило и жамӀ бакъдой?»",
-    "reflexPurpose": "The goal is not to memorize obscure jargon, but to pinpoint exactly where an argument ceases to be logically sound.",
-    "pdfDownloadBtn": "ГӀирсан жайна схьаэца (PDF)",
-    "pdfFileName": "Boite_a_outils_Sophismes_Coranisme.pdf",
-    "goldenRuleTitle": "ДЕШИН БАКЪО",
-    "goldenRuleStatement": "ГӀАЛАТ ГУЧДАККХАР ≠ ЖАМӀ ХАРЦ ДУ БОХУРГ ДАЦ",
-    "goldenRuleMeaning": "Exposing a flaw in reasoning merely demonstrates that the argument presented is insufficient to establish its conclusion.",
-    "goldenRuleExample": "If someone says: “All swans are white because I have observed ten white swans,” the deduction is flawed (ten observations cannot establish a universal law). However, pointing out this generalization does not prove that black swans exist; it merely calls for valid evidence.",
-    "goldenRuleGoal": "Never replace bad reasoning with another faulty claim. In debate, simply crying “fallacy!” is never enough: one must explicitly demonstrate which logical link is missing or which term has shifted in meaning.",
-    "sectionTitle10Cards": "📚 10 коьрта логикин гӀалат",
-    "btnDetails": "Ма-дарра",
-    "btnHide": "Къайладаккха",
-    "labelDefinition": "📖 Билгалдаккхар",
-    "labelGeneralExample": "🌍 Йукъара масал",
-    "labelQuranicApp": "🕌 КъорӀанхойн харцонашна дуьхьал",
-    "labelQuestionToAsk": "❓ Хаттар:",
-    "labelShortAnswer": "💬 Доца жоп:",
-    "cardMemoBadge": "ДАГАДАХЬАР",
-    "trainingBadge": "ЗЕР-ТЕСТ",
-    "items": [
-      {
-        "id": "homme-de-paille",
-        "num": 1,
-        "name": "Сёз делла стаг (Straw Man)",
-        "shortDef": "Distorting an opponent's position to easily refute a caricature.",
-        "definition": "Misrepresenting an opponent’s argument into a weaker, exaggerated version to make it easier to attack.",
-        "generalExample": "“We should limit smartphone usage during school hours.” → “So you want to ban all technology and progress for children!”",
-        "quranicApplication": "“Sunnis follow Al-Bukhari instead of the Quran.”\nThe genuine Sunni position is: Allah Almighty commands obedience to His Messenger ﷺ, and verified traditions are the historical vehicle to access his teachings.",
-        "questionToAsk": "“Is that truly what I advocate? Can you reformulate my actual position in a way I would endorse myself?”",
-        "shortAnswer": "“Refute my genuine position, not a fabricated caricature.”",
-        "icon": "🌾"
-      },
-      {
-        "id": "fausse-dichotomie",
-        "num": 2,
-        "name": "Харц дихотоми",
-        "shortDef": "Presenting two options as the only choices when alternatives or synthesis exist.",
-        "definition": "Artificially reducing a situation to two mutually exclusive choices, concealing middle grounds or complementary combinations.",
-        "generalExample": "“Either you support us 100%, or you are our sworn enemy.”",
-        "quranicApplication": "• “Either you follow the Quran or you follow men!” → The Muslim replies: “I follow the Quran when it commands me to obey the Messenger ﷺ.”\n• “Either the Quran is complete or it needs the Sunnah!” → A complete legal system can intrinsically delegate explanatory authority.",
-        "questionToAsk": "“Why must these two options be the only conceivable alternatives?”",
-        "shortAnswer": "“You present as contradictory two realities designed to operate together.”",
-        "icon": "⚖️"
-      },
-      {
-        "id": "generalisation-abusive",
-        "num": 3,
-        "name": "ТӀех сов йукъарадаккхар",
-        "shortDef": "Jumping from a few specific instances to a universal claim about an entire category.",
-        "definition": "Drawing a broad conclusion about an entire corpus or group based on a non-representative sample.",
-        "generalExample": "“Two doctors misdiagnosed my symptoms, therefore medicine is completely useless.”",
-        "quranicApplication": "“Fabricated hadiths exist, therefore all hadith literature is unreliable.”\nThe existence of forgeries demands rigorous critical authentication; it does not invalidate verified corpus (Counterfeit Currency Analogy).",
-        "questionToAsk": "“How do you jump from ‘some instances’ to an absolute ‘all’?”",
-        "shortAnswer": "“Proving that some items are corrupt does not prove the entire category is false.”",
-        "icon": "🔍"
-      },
-      {
-        "id": "non-sequitur",
-        "num": 4,
-        "name": "ГӀалат жамӀ",
-        "shortDef": "The conclusion does not logically flow from the stated premise.",
-        "definition": "An argument where the stated premise might be entirely true, but fails logically to support the conclusion derived from it.",
-        "generalExample": "“It is raining outside, therefore the indoor basketball game is canceled.”",
-        "quranicApplication": "• “The Quran is complete, therefore the Sunnah is useless.” (Textual completeness does not exclude the explanatory mandate instituted by the text itself).\n• “Allah preserved the Quran, therefore no hadith can ever be authentic.”\n• “Al-Bukhari lived two centuries later, therefore traditions were created two centuries later.”",
-        "questionToAsk": "“What exact logical step bridges your premise to your conclusion?”",
-        "shortAnswer": "“Your initial premise can be true without proving your secondary claim.”",
-        "icon": "⚡"
-      },
-      {
-        "id": "cherry-picking",
-        "num": 5,
-        "name": "Далилаш къастор",
-        "shortDef": "Selecting only favorable data while deliberately omitting contradictory evidence.",
-        "definition": "Suppressing relevant contextual evidence while highlighting only isolated passages that seem to favor a predetermined view.",
-        "generalExample": "Citing 3 favorable product reviews while concealing 50 rigorous studies demonstrating severe hazards.",
-        "quranicApplication": "• Citing “The Messenger’s duty is only to convey” (Al-Balagh) while omitting verses commanding: “Obey the Messenger”, “Judge by his decree”, and “An excellent exemplar”.\n• Citing “Do not write from me...” while concealing the conclusion “and narrate from me without harm” and specific orders to write.",
-        "questionToAsk": "“Are there other texts in the Quran regarding this exact subject that you have omitted?”",
-        "shortAnswer": "“A verse cannot be read in isolation when other passages define and qualify it.”",
-        "icon": "🍒"
-      },
-      {
-        "id": "double-standard",
-        "num": 6,
-        "name": "Шалха барамаш",
-        "shortDef": "Applying strict evidentiary criteria to opponents and lax criteria to oneself.",
-        "definition": "Enforcing an impossibly demanding standard of proof against opposing evidence, while accepting flimsy reports when they serve polemical interests.",
-        "generalExample": "Demanding doctoral credentials from others while accepting unverified gossip when convenient.",
-        "quranicApplication": "• When a hadith establishes a ritual rule: “Human transmission, centuries late, uncertain!” / When a hadith serves a polemic: “Bukhari proves beyond doubt Aisha’s age!”\n• Accepting human transmission for Quranic recitations (Hafs from Asim) while rejecting the same human transmission for prophetic Sunnah.",
-        "questionToAsk": "“Would you apply this exact same strict criterion if this proof favored your thesis?”",
-        "shortAnswer": "“Scientific standards of proof must remain constant regardless of whether the outcome pleases you.”",
-        "icon": "🔄"
-      },
-      {
-        "id": "equivoque-lexicale",
-        "num": 7,
-        "name": "Дешнийн гӀалат",
-        "shortDef": "Using the same word with two different meanings during the argument.",
-        "definition": "Exploiting lexical ambiguity by shifting between the linguistic meaning of a term and a subsequent specialized technical term.",
-        "generalExample": "“Gravity is a law. Laws are passed by parliament. Therefore gravity was enacted by parliament.”",
-        "quranicApplication": "In Quranic Arabic, ‘hadith’ means speech, discourse, narrative, or account. The fallacy consists in citing “In what hadith after this will they believe?” and covertly substituting the linguistic sense (‘discourse’) with the technical term (‘hadith compilations’).",
-        "questionToAsk": "“What precise linguistic meaning does this word carry in this verse, and how do you demonstrate it from context?”",
-        "shortAnswer": "“Let us establish the exact linguistic definition before drawing false conclusions.”",
-        "icon": "🔀"
-      },
-      {
-        "id": "argument-de-possibilite",
-        "num": 8,
-        "name": "Хила тардалар бакъдар",
-        "shortDef": "Equating “it could theoretically be false” with “it is proven false”.",
-        "definition": "Treating the mere abstract possibility of human error or forgery as conclusive proof that all historical transmission is invalid.",
-        "generalExample": "“A witness could theoretically lie, therefore all courtroom testimony is inherently false.” (Possibility warrants verification, not wholesale rejection).",
-        "quranicApplication": "“An isnad chain could theoretically be invented, therefore isnads prove nothing.”\nThe theoretical possibility of fabrication necessitates biographical evaluation and cross-comparison, not a priori denial.",
-        "questionToAsk": "“Have you demonstrated that this actually occurred, or merely that it was theoretically possible?”",
-        "shortAnswer": "“An abstract theoretical possibility is not historical proof.”",
-        "icon": "🎲"
-      },
-      {
-        "id": "deplacement-charge-preuve",
-        "num": 9,
-        "name": "Далил дехар дӀататтар",
-        "shortDef": "Asserting a sweeping claim and demanding that opponents prove it wrong.",
-        "definition": "The obligation of proof rests upon the claimant. Shifting the burden occurs when someone makes a universal denial and demands others disprove it.",
-        "generalExample": "“There is a secret civilization beneath Mars; prove to me that it doesn’t exist!”",
-        "quranicApplication": "“No prophetic tradition is sufficiently reliable to serve as religious proof.”\nThis is a sweeping universal claim regarding thousands of narrations across regions and centuries; it requires robust proof from the claimant.",
-        "questionToAsk": "“Who is making the sweeping assertion here, and who bears the evidentiary burden?”",
-        "shortAnswer": "“Whoever claims that an entire historical corpus is void must substantiate that universal assertion.”",
-        "icon": "⚖️"
-      },
-      {
-        "id": "appel-emotion",
-        "num": 10,
-        "name": "Эмоцешка кхайкхам",
-        "shortDef": "Substituting logical analysis with emotional shock, indignation, or mockery.",
-        "definition": "Bypassing textual, linguistic, and historical analysis by provoking theatrical disgust, outrage, or sarcastic mockery.",
-        "generalExample": "Sneering at a complex scientific formula instead of critically evaluating its premises.",
-        "quranicApplication": "“You actually believe in the fly hadith?!”, etc.\nAn emotional outburst fails to address foundational questions: What is the exact text? What is its authenticity grade? What is its linguistic context? How did classical jurists interpret it?",
-        "questionToAsk": "“What is your logical evidence, independently of your emotional shock or mockery?”",
-        "shortAnswer": "“Disgust and sarcasm are emotional reactions, not demonstrations of proof.”",
-        "icon": "🎭"
-      }
-    ],
-    "reflexQuestions": {
-      "title": "THE 4 CORE REFLEXES",
-      "subtitle": "4 questions when evaluating any theological argument",
-      "summaryNotice": "These four questions are sufficient to detect the vast majority of flawed theological polemics.",
-      "questions": [
-        {
-          "num": 1,
-          "title": "1. The Premise",
-          "desc": "What has actually been established by evidence? Never allow the conclusion to be smuggled into the premise."
-        },
-        {
-          "num": 2,
-          "title": "2. The Logical Link",
-          "desc": "Does the conclusion genuinely follow from the premise? Or is a vital deduction missing?"
-        },
-        {
-          "num": 3,
-          "title": "3. Complete Evidence",
-          "desc": "Have all relevant Quranic verses been integrated? Or only those favoring the thesis?"
-        },
-        {
-          "num": 4,
-          "title": "4. The Equal Standard",
-          "desc": "Is the exact same evidentiary criterion applied to both sides? Or does it change when convenient?"
-        }
-      ]
-    },
-    "quiz": {
-      "title": "QUICK TEST: IDENTIFY THE FALLACY",
-      "subtitle": "Identify the logical fallacy in each of the following statements:",
-      "items": [
-        {
-          "id": 1,
-          "statement": "“Some hadiths were fabricated, therefore no hadith can ever be trusted.”",
-          "answerId": "generalisation-abusive",
-          "answerName": "Hasty Generalization",
-          "explanation": "Jumping from the existence of forged reports to invalidating the entire corpus is a hasty generalization."
-        },
-        {
-          "id": 2,
-          "statement": "“Either you follow Allah, or you follow Muhammad ﷺ.”",
-          "answerId": "fausse-dichotomie",
-          "answerName": "False Dichotomy",
-          "explanation": "Obeying the Messenger is mandated by Allah in the Quran; there is no conflict between the two."
-        },
-        {
-          "id": 3,
-          "statement": "“The Quran is complete, therefore all prophetic explanation is useless.”",
-          "answerId": "non-sequitur",
-          "answerName": "Non Sequitur",
-          "explanation": "The completeness of the text does not imply that it excludes the explanatory authority it establishes."
-        },
-        {
-          "id": 4,
-          "statement": "“In what hadith after this will they believe? Therefore Bukhari is forbidden.”",
-          "answerId": "equivoque-lexicale",
-          "answerName": "Equivocation",
-          "explanation": "The word ‘hadith’ linguistically means ‘discourse’, not technical written compilations."
-        },
-        {
-          "id": 5,
-          "statement": "“Hadiths are too late to be reliable, yet the narration on Aisha's age is indisputable proof!”",
-          "answerId": "double-standard",
-          "answerName": "Double Standard",
-          "explanation": "Lax criteria for polemical points vs impossible criteria for normative rules is a double standard."
-        },
-        {
-          "id": 6,
-          "statement": "“A chain could theoretically be invented, therefore isnads prove nothing.”",
-          "answerId": "argument-de-possibilite",
-          "answerName": "Appeal to Possibility",
-          "explanation": "Confusing an abstract theoretical possibility with conclusive historical invalidity is a fallacy."
-        }
-      ]
-    },
-    "conclusion": {
-      "title": "KEY TAKEAWAY: LOGIC OVER SLOGANS",
-      "mainText": "An argument may cite an authentic Quranic verse, a factual hadith, or true information, and still arrive at a defective conclusion if the logical reasoning connecting them is flawed.",
-      "slogan1": "DO NOT MERELY ASK: “WHAT IS THE PROOF?”",
-      "slogan2": "ASK ALSO: “WHAT DOES IT ACTUALLY PROVE?”",
-      "finalNote": "A rigorous intellectual debate is never won by loud slogans, but by sound premises, holistic evidence, and unbroken logical deduction."
-    }
-  }
+  ]
 };

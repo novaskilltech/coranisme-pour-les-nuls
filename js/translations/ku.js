@@ -1,387 +1,659 @@
 /**
- * Pack de Langue : Kurde (KU) - Kurdî
- * Traduction Exhaustive et Intégrale (UI, Préface, Intro, 10 Arguments, Boîte à Outils des Sophismes, Modales)
+ * TRADUCTION OFFICIELLE (KURDE - Kurdî)
+ * Manuel de réfutation méthodique du coranisme — Par Salah Eddine Ahmed (Abou Soulaymane)
  */
+
 window.I18N_DATA = window.I18N_DATA || {};
-window.I18N_DATA['ku'] = {
+window.I18N_DATA["ku"] = {
   "code": "ku",
   "name": "Kurde",
   "native": "Kurdî",
-  "flag": "☀️",
+  "flagSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 400\" class=\"flag-icon\"><rect width=\"600\" height=\"133.3\" fill=\"#e41e20\"/><rect width=\"600\" height=\"133.3\" y=\"133.3\" fill=\"#ffffff\"/><rect width=\"600\" height=\"133.4\" y=\"266.6\" fill=\"#138808\"/><circle cx=\"300\" cy=\"200\" r=\"45\" fill=\"#feb81c\"/></svg>",
   "dir": "ltr",
+  "fontFamily": "var(--font-main)",
   "ui": {
-    "brandBadge": "MANUELÊ PRATÎK",
-    "brandTitle": "Bersivdana Quraniyê",
-    "brandSubtitle": "Rêbera Pratîk a Li Dijî Înkarkirina Sunnetê",
-    "searchBtn": "Lêgerîn...",
-    "summaryTitle": "Pêrist",
-    "rubriquesCount": "12 beş",
-    "heroTag1": "Rêbera Pratîk a Bersivdanê",
-    "heroTag2": "Weşana Perwerdeyî ya Vekirî",
-    "heroTitleMain": "Bersivdana",
-    "heroTitleSpan": "Quraniyê",
-    "heroAuthor": "Ji aliyê Selaheddîn Ehmed ve",
-    "heroDesc": "Bi rêbaza mentiqî û zanistî guman û şubheyên înkarkerên sunnetê hilweşînin.",
-    "btnStartArg1": "Destpêk bi Belgeya 1emîn",
-    "btnSearchModal": "Lêgerîna mijar / ayetê",
-    "btnContactAuthor": "Têkilî bi nivîskar re",
-    "sommaireTitle": "10 Belgeyên Mezin Yên Şîrovekirî",
-    "sommaireBadge": "10 Dosyayên Amade",
-    "argBadgeGiant": "BELGE",
-    "btnReadCard": "Bixwîne",
-    "btnDownloadPdf": "Fasîkula PDF daxîne",
-    "portalWarningBadge": "HIŞYARIYA DÎROKÎ YA GIRÎNG",
-    "portalTitle": "Deriyê Îmam El-Berbeharî (m. 329 K)",
-    "portalEnterBtn": "Têkeve Rêberê",
-    "portalAuthorBadge": "Îmam El-Berbeharî رحمه الله",
-    "portalSourceRef": "Şerh Es-Sunneh — xala 67an",
-    "portalDisclaimer": "«Gava tu dibihîzî ku yek dibêje: 'Tenê Quranê ji me re bîne', bizane ku ew kesekî rêwinda ye.»",
-    "searchModalTitle": "Lêgerîna di Rêberê de",
-    "searchPlaceholder": "Peyvek, mijarek an jî ayetek binivîse...",
-    "contactModalTitle": "Têkilî bi Nivîskar re",
-    "footerQuote": "«Zanist parastina dîn e û Sunnet jî ronahiya rêya me ye.»",
-    "footerAuthorRef": "Selaheddîn Ehmed — Ebû Silêman",
-    "footerNotice": "Ev rêber xebatek perwerdeyî û azad e ji bo xizmeta heqîqetê.",
-    "footerNotice2": "Mafên Parastî © 2026 — Rêberê Bersivdana Quraniyê",
-    "labelSituation": "Rewş û Mînak:",
-    "labelLogic": "Mekanîzmaya mentiqî:",
-    "labelLesson": "Ders û Wane:",
-    "labelApplication": "Bikaranîna di nîqaşê de:",
-    "labelObjection": "Şubhe / Dijberî",
-    "labelMethodicAnswer": "Bersiva rêbazî:",
-    "barbahariBtn": "Al-Barbahari",
-    "contactBtn": "Contact",
-    "legalBtn": "Sharing & License",
-    "btnPrintCard": "Print / Save as PDF",
-    "goldenRuleHeader": "Golden Rule for debating a Quranist",
-    "goldenRuleTitle": "Never allow your interlocutor to shift the topic",
-    "goldenRuleDesc": "Most Quranist arguments rely on conceptual shifts: confusing the principle of the Sunnah (instituted by the Quran) with the historical transmission of later hadith collections.",
-    "goldenRuleStep1": "1. First establish what the Quran itself commands (Obedience, Judgment, Bayan, Exemplarity).",
-    "goldenRuleStep2": "2. Demonstrate that delegated prophetic authority never competes with Divine Sovereignty.",
-    "goldenRuleStep3": "3. Then methodically address the historical chain of transmission.",
-    "contactAuthorBio": "Author of « How to unmask and refute the Quranist sect — Method, arguments, objections and answers ».",
-    "contactEmailBoxTitle": "Official Contact Email:",
-    "contactSuggestions": "You can send feedback, suggestions, or questions via email to ideoise@gmail.com.",
-    "legalModalTitle": "Terms of Sharing, Author & Privacy",
-    "legalSharingTitle": "Sharing & Educational Distribution Terms",
-    "legalSharingSubtitle": "Open Educational Sharing",
-    "legalSharingMainText": "This content may be freely shared and reproduced for personal, educational, and non-commercial purposes, provided source and author attribution are preserved.",
-    "legalAuthorizedUses": "Authorized uses: Downloading, printing, studying, and free sharing in study circles, classes, debates, and social media.",
-    "legalPrivacyTitle": "Technical Data & Privacy",
-    "legalPrivacySubtitle": "Privacy Policy aligned with actual website capabilities",
-    "legalPrivacyText": "The website requires no account creation and voluntarily collects no personal data via forms.",
-    "btnDownloadOriginalPdf": "Download original PDF",
-    "btnPrintPage": "Print / Export PDF",
-    "formulaRetenir": "KEY FORMULA TO REMEMBER:",
-    "tocTitle": "Factsheet Outline",
-    "tocThesis": "Their thesis",
-    "tocLogical": "Logical core",
-    "tocPrinciple": "Central principle",
-    "tocQuranic": "Quranic architecture",
-    "tocAnalogies": "Analogies",
-    "tocResponses": "Ready answers",
-    "tocObjections": "Decrypted objections",
+    "tocThesis": "Îdiaya Wan",
+    "tocLogical": "Girêka Mantiqî",
+    "tocPrinciple": "Bingeha Sereke",
+    "tocQuranic": "Mîmariya Qur'anî",
+    "tocAnalogies": "Nimûne",
+    "tocResponses": "Bersivên Amade",
+    "tocObjections": "Îtîraz",
     "tocQuiz": "Quiz",
-    "tocConclusion": "Conclusion",
-    "sec1Header": "1. THEIR THESIS & THE VERSES THEY MISINTERPRET",
-    "sec1Sub": "The Quranist position and its deconstruction",
-    "sec1CoranistTitle": "The Quranist Claim Unmasked",
-    "sec1VersesTitle": "Verses Cited by Quranists",
-    "sec1QuestionTitle": "The Real Doctrinal Question",
-    "sec2Header": "2. THE LOGICAL KNOT OF THE ISSUE",
-    "sec2Sub": "Dismantling conceptual confusions",
-    "sec2GeneralRule": "General rule of logic:",
-    "sec2ErrorAvoid": "The error to avoid:",
-    "sec3Header": "3. THE CENTRAL PRINCIPLE OF REFUTATION",
-    "sec3Sub": "The cornerstone argument",
-    "sec3FormalScheme": "FORMAL DEMONSTRATIVE SCHEME",
-    "sec3Explanation": "Theological & Rational Demonstration",
-    "sec3LogicalTest": "Decisive Logical Test:",
-    "sec4Header": "4. THE COMPLETE QURANIC ARCHITECTURE",
-    "sec4Sub": "Decisive verses establishing prophetic authority",
-    "sec4VersesRef": "Quranic Refutation Verses",
-    "sec4Consequence": "Unavoidable Doctrinal Consequence:",
-    "sec5Header": "5. PEDAGOGICAL ANALOGIES",
-    "sec5Sub": "To explain the reasoning in 30 seconds",
-    "sec6Header": "6. READY-TO-USE RESPONSES",
-    "sec6Sub": "Formats ready to recite or share",
-    "sec6QuickTitle": "30-Second Quick Response",
-    "btnCopyQuick": "Copy 30s response in 1 click",
-    "sec6DevTitle": "Comprehensive & Structured Response",
-    "sec7Header": "7. QURANIST OBJECTIONS & SYSTEMATIC ANSWERS",
-    "sec7Sub": "Anticipate every counter-argument",
-    "sec7ClickToggle": "Click any objection to view the methodical answer:",
-    "sec7DirectQuestions": "Direct framing questions:",
-    "sec8Header": "8. TEST YOUR UNDERSTANDING",
-    "sec8Sub": "Interactive Quiz on this Argument",
-    "sec8ValidateBtn": "Submit my answer",
-    "sec9Header": "9. LOGICAL CONCLUSION CHAIN",
-    "sec9Sub": "Methodical recap to conclude the debate",
-    "sec9Deduction": "Logical Deduction Chain:",
-    "sec9Takeaway": "Essential Takeaway:",
-    "sec9Punchline": "Final Debate Punchline:",
-    "navPrevArg": "Previous argument",
-    "navNextArg": "Next argument",
-    "navBackSummary": "Back to contents",
-    "navEndManual": "End of Manual (Home)",
-    "toastCopySuccess": "30s synthetic response copied to clipboard!",
-    "quizBravo": "Well done! Correct answer.",
-    "quizIncorrect": "Incorrect. Try again!",
-    "navBarbahari": "El-Berbeharî",
-    "navContact": "Têkilî",
-    "navLicense": "Parvekirin & Destûr",
-    "sidebarSadaqaHeader": "Çavkaniya Perwerdehiyê ya Vekirî",
-    "sidebarSadaqaText": "Ev pirtûk ji bo lêkolîn û parastina Sunnetê belaş li ber dest e.",
-    "labelAuthor": "Nivîskar:",
-    "authorName": "Salah Eddine Ahmed (Abû Sulaymân)",
-    "btnSidebarHome": "Serûpel",
-    "btnSidebarContact": "Bi Nivîskar re Têkilî",
-    "sidebarPreface": "Pêşgotina Nivîskar",
-    "sidebarIntro": "Qur'anî kî ne?",
-    "portalQuoteTransLabel": "Translation of the meaning:",
-    "portalQuoteText": "If you hear a man who, upon having an athar (transmitted tradition) cited to him, rejects it saying: \"Leave this and bring us the Quran\", do not doubt that he is a man steeped in heresy. Stand up and leave his gathering!",
-    "searchNoResults": "No results found for",
-    "contactAuthorHeader": "Author of the Manual",
-    "legalSharingHeader": "Sharing Conditions & Educational Distribution",
-    "legalAuthorizedUsesHeader": "Authorized Uses:",
-    "legalAuthorizedUsesList": [
-      "Downloading, printing, reading, and free sharing of the factsheets.",
-      "Use in study circles, courses, debates, and social networks.",
-      "Any commercial exploitation or distorting alteration is strictly prohibited without prior permission."
-    ],
-    "legalPrivacyHeader": "Technical Data & Privacy",
-    "legalPrivacyBullet1": "No third-party advertising cookies: Zero commercial tracking pixels.",
-    "legalPrivacyBullet2": "Fonts & resources: Secure loading of Google Fonts.",
-    "legalCreditsHeader": "Book Details:",
-    "legalCreditsBookTitle": "How to Expose and Refute the Quranist Sect",
-    "footerSubtitle": "10 major arguments examined and methodically refuted",
-    "footerBtnLegal": "⚖️ Sharing, License & Privacy",
-    "footerBtnContact": "✉️ Contact Author",
-    "footerBtnPortal": "📜 Words of Al-Barbahârî",
-    "footerContactLabel": "Contact:",
+    "sec1Header": "1. ÎDIAYA WAN Û AYETÊN KU JI ÇARÇOVEYÊ DERDIXIN",
+    "sec1QuestionTitle": "Pirsa rastîn a ku divê were kirin :",
+    "sec2Header": "2. GIRÊKA MANTIQÎ YA PIRSGIRÊKÊ",
+    "sec2GeneralRule": "RÊZIKA GIŞTÎ :",
+    "sec2ErrorAvoid": "Çewtî û Mugaleteya ku Divê Jê Dûr Bikevin",
+    "sec3Header": "3. BINGEHA SEREKE YA PÛÇKIRINÊ",
+    "sec3LogicalTest": "TESTA MANTIQÎ :",
+    "sec4Header": "4. MÎMARIYA QUR'ANÎ YA TEMAM",
+    "sec4Consequence": "ENCAMA DÎNÎ :",
+    "sec5Header": "5. MÎNAKÊN PERWERDEHIYÊ YÊN ROJANE",
+    "sec6Header": "6. BERSIVÊN AMADE YÊN DIYALOGÊ",
+    "sec6QuickTitle": "Bersiva Birûskî (30 Çirke)",
+    "sec6DevTitle": "Bersiva Berfireh û Bi Delîl",
+    "btnCopyQuick": "Bersiva 30ç bi 1 klîkê kopî bike",
+    "sec7Header": "7. ÎTÎRAZÊN QUR'ANÎYAN Û BERSIVÊN ZANISTÎ",
+    "labelObjection": "Îtîraz",
+    "labelMethodicAnswer": "Bersiva zanistî :",
+    "sec7DirectQuestions": "Pirsên rasterast ên arastekirî :",
+    "sec8Header": "8. FÊHMKIRINA XWE BIPÎVIN",
+    "sec8Sub": "Quizê înteraktîf",
+    "sec9Header": "9. ENCAM DI ZINCÎRA MANTIQÊ DE",
+    "labelSituation": "Rewş :",
+    "labelLogic": "Rêbaza mantiqî :",
+    "labelLesson": "Dersa sereke :",
+    "labelApplication": "Sepandina li ser nîqaşê :",
+    "btnDownloadOriginalPdf": "Broşûra orîjînal daxe (PDF)",
+    "btnPrintPage": "Çap bike / Wek PDF tomar bike",
+    "formulaRetenir": "FORMÛLA SEREKE YA BÎRANÎNÊ :",
+    "brandBadge": "RÊBERÊ PRAKTÎK",
+    "brandTitle": "REDDÎYEYA LI SER QUR'ANÎYAN",
+    "brandSubtitle": "Rêbaza pûçkirina şubheyên înkarkerên Sunnetê",
+    "searchBtn": "Lêgerîn",
+    "searchPlaceholder": "Li gorî mijar, ayet, şubhe an nimûneyan bigere...",
+    "searchModalTitle": "Lêgerîna bilez di pirtûkê de",
+    "searchNoResults": "Ti encam nehat dîtin.",
+    "searchShortcutHint": "Ji bo girtinê ESC bitikîne",
+    "topbarContact": "Pêwendî",
+    "topbarLegal": "Destûr û Parvekirin",
+    "topbarBarbahari": "Al-Barbahârî",
+    "sidebarTitle": "📚 Pêrista Giştî",
+    "sidebarCount": "12 mijar",
+    "sidebarHome": "🏠 Destpêk / Hub",
+    "sidebarContact": "✉️ Pêwendî bi Nivîskar re",
+    "heroTag1": "📖 Rêberê Praktîk ê Reddîyeyê",
+    "heroTag2": "🌿 Belavkirina Perwerdehiyê ya Azad",
+    "heroTitleMain": "Reddîyeya",
+    "heroTitleSpan": "li ser Qur'anîyan",
+    "heroAuthor": "Ji aliyê Salah Eddine Ahmed (Abou Soulaymane)",
+    "heroDesc": "Şubheyên înkarkerên Sunnetê bi rêbaza mantiqî, mînakên jiyana rojane, ayetên zelal û bersivên amade yên 30-çirkeyî pûç bikin.",
+    "btnStartArg1": "Bi Delîla 1'emîn dest pê bike",
+    "btnSearchModal": "Di pirtûkê de bigere",
+    "sommaireTitle": "10 Delîlên Mezin ên Şirovekirî",
+    "sommaireBadge": "10 Pelên Amade yên Xebatê",
+    "cardAdverseThesisPrefix": "Îdiaya Qur'anîyan:",
+    "btnReadCard": "Pelê bixwîne",
+    "btnDownloadPdf": "Broşûra PDF a orîjînal daxe",
+    "btnPrintCard": "Çap bike / Wek PDF tomar bike",
+    "methodTag": "RÊBAZA MUNAZEREYÊ",
+    "methodTitle": "Rêbaza 3 Gavên Bingehîn",
+    "methodStep1Title": "1. Têkbirina Mugaleteyê",
+    "methodStep1Desc": "Bipîve ka reqîb dabeşkirina şaş, giştîkirina neheq an guhertina barê îsbatê bi kar tîne.",
+    "methodStep2Title": "2. Mînaka Jiyana Rojane",
+    "methodStep2Desc": "Ji bo nîşandana bêwatebûna mantiqa wî, rewşeke ji jiyana rojane (qanûn, bijîşkî, endezyarî) wek mînak bîne.",
+    "methodStep3Title": "3. Encamên Bêbingeh",
+    "methodStep3Desc": "Nîşan bide ka îdiaya wî di warê dînî û pratîkî de dibe sedema çi tevliheviyekê.",
+    "quoteBoxText": "«Redkirina desthilata ku pirtûk bi xwe ferman dike bi navê têrkirina pirtûkê, tê wateya veguhartina pirtûkê bo tiştekî ku pirtûkê qet negotiye.»",
+    "quoteBoxAuthor": "— Salah Eddine Ahmed (Abou Soulaymane)",
+    "sec2ThesisLabel": "Îdiaya ku Qur'anî diparêzin :",
+    "sec2VersesLabel": "Ayetên ku ji çarçoveyê derdixin :",
+    "sec2RealQuestionLabel": "Pirsa rastîn a bingehîn :",
+    "sec3GeneralRuleLabel": "Rêzika giştî ya mantiqê :",
+    "sec3ErrorLabel": "Çewtiya mantiqî ya ku divê jê dûr bikevin :",
+    "sec4FormalSchemeLabel": "Şêwaza fermî ya îsbatê :",
+    "sec4ExplanationLabel": "Şiroveya doktrînî :",
+    "sec4TestLabel": "Testa mantiqî ya diyarker :",
+    "sec5ConsequenceLabel": "Encama teqez a dînî :",
+    "sec6ScenarioLabel": "Rewşa berbiçav :",
+    "sec6LogicBoxLabel": "Hevsengiya mantiqî :",
+    "sec6LessonLabel": "Dersa ku divê were girtin :",
+    "sec7QuickResponseLabel": "⚡ Bersiva bilez a 30-çirkeyî :",
+    "sec7DevelopedResponseLabel": "🗣️ Bersiva berfireh (ji bo kûrbûnê) :",
+    "sec8DirectQuestionsLabel": "Pirsên rasterast ên arastekirî :",
+    "quizTitle": "8. FÊHMKIRINA XWE BIPÎVIN",
+    "quizBadge": "Quizê înteraktîf",
+    "btnCheckAnswer": "Bersivê kontrol bike",
+    "btnNextQuestion": "Pirsa din ➔",
+    "btnRestartQuiz": "Quizê ji nû ve bide destpêkirin",
+    "quizFeedbackCorrect": "✅ Rast e! Encamgirtineke pir baş.",
+    "quizFeedbackIncorrect": "❌ Bersiv şaş e. Şiroveya li jêr bixwînin :",
+    "portalWarningBadge": "HIŞYARIYA ZANAYÊN SALIH LI SER ÎNKARKERÊN HEDÎSAN",
+    "portalTitle": "Gotinên Îmam El-Berbeharî (رحمه الله)",
+    "portalQuoteTransLabel": "Wateya gotinê :",
+    "portalQuoteText": "Gava tu bibihîzî ku kesek gava hedîs jê re tê gotin dibêje: \"Vê bihêle û tenê Qur'anê ji me re bîne\", qet şik neke ku ew mirovekî di nava bîd'et û xerabiyê de ye. Ji civata wî rabe û dev jê berde!",
+    "portalAuthorBadge": "✍️ Îmam El-Berbeharî (m. 329 H)",
+    "portalSourceRef": "Çavkanî : Şerh Es-Sunneh (Xala 135)",
+    "portalEnterBtn": "DERBASÎ PIRTÛKA REDDÎYEYÊ BIBE",
+    "portalDisclaimer": "Rêbaza pûçkirina şubheyên Qur'anîyan • Ji aliyê Salah Eddine Ahmed (Abou Soulaymane) • Bikaranîna azad bi nîşandana çavkaniyê",
+    "argBadgeGiant": "DELÎL",
+    "btnDownloadFascicule": "Broşûra orîjînal daxe (PDF)",
+    "btnOpenPrint": "Çap bike / Wek PDF tomar bike",
+    "tocSummary": "Pêrista pelê :",
+    "tocCadrage": "1. Çarçove",
+    "tocAdverse": "2. Îdiaya Reqîb",
+    "tocNoeud": "3. Girêka Mantiqî",
+    "tocPrincipe": "4. Bingeha Sereke",
+    "tocArchi": "5. Mîmariya Qur'anî",
+    "tocReponses": "7. Bersivên Amade",
+    "tocConclusion": "9. Encam",
+    "navPrevArg": "Delîla berê",
+    "navNextArg": "Delîla din",
+    "navBackSummary": "Vegere pêristê",
+    "navEndManual": "Dawiya Pirtûkê",
+    "contactModalTitle": "Pêwendî bi Nivîskar re",
+    "contactAuthorHeader": "Nivîskarê Pirtûkê",
+    "authorName": "Salah Eddine Ahmed (Abou Soulaymane)",
+    "contactAuthorBio": "Lêkolîner û perwerdekarê zanistên îslamî, xizmetkarê parastina Sunneta Pêxember ﷺ û pûçkirina şubheyên nûjen.",
+    "contactBookTitleLabel": "Navê pirtûka bingehîn :",
+    "contactBookTitleValue": "Comment démasquer et réfuter la secte des coranistes — Méthode, arguments, objections et réponses.",
+    "contactEmailNotice": "Ji bo peywendiya zanistî, pêşniyar an wergeran :",
+    "legalModalTitle": "⚖️ Şertên Parvekirin, Maf û Nepênîtiyê",
+    "legalSharingHeader": "Şertên Belavkirina Perwerdehiyê",
+    "legalSharingMain": "Belavkirina Perwerdehiyê ya Azad",
+    "legalSharingP1": "Ev naverok dikare ji bo armancên kesane û fêrbûnê bêpere were parvekirin, bi şertê ku navê nivîskar û çavkanî neyê guhertin.",
+    "legalAllowedTitle": "✅ Destûrên sereke :",
+    "legalAllowedBullet1": "Daxistin, çapkirin, xwendin û parvekirina azad a pelên xebatê.",
+    "legalAllowedBullet2": "Bikaranîna di ders, nîqaş û torên civakî de.",
+    "legalAllowedBullet3": "Firotina bazirganî an guhertina naverokê bêyî destûra pêşîn qedexe ye.",
+    "legalPrivacyHeader": "Daneyên Teknîkî û Nepênîtî",
+    "legalPrivacyMain": "Siyaseta Nepênîtiyê ya Zelal",
+    "legalPrivacyP1": "Malper pêwîstî bi vekirina hesabê nîne û ti daneyên kesane kom nake.",
+    "legalPrivacyBullet1": "Bê çerezên reklamê : Çavdêriya bazirganî tune ye.",
+    "legalPrivacyBullet2": "Tîp û çavkanî : Barkirina ewle ya Google Fonts.",
+    "legalCreditsHeader": "Agahiyên Pirtûkê :",
+    "legalCreditsBookTitle": "Rêbaza pûçkirina şubheyên înkarkerên Sunnetê — Rêbaz, delîl û bersiv",
+    "footerSubtitle": "10 delîlên sereke bi rêbaza zanistî hatine vekolîn û pûçkirin",
+    "footerBtnLegal": "⚖️ Destûr û Nepênîtî",
+    "footerBtnContact": "✉️ Pêwendî bi Nivîskar re",
+    "footerBtnPortal": "📜 Gotinên Al-Barbahârî",
+    "footerContactLabel": "Pêwendî :",
     "btnShare": "Parve bike",
-    "btnCopySection": "Beşê kopî bike",
+    "btnCopySection": "Vê beşê kopî bike",
     "btnCopy": "Kopî bike",
     "copied": "Hate kopîkirin!",
-    "shareModalTitle": "📤 Vê rûpelê parve bike",
-    "shareModalDesc": "Ji bo parastina Sunnetê vê bersivê parve bike:",
-    "shareCardTitle": "Vê bersivê parve bike",
-    "shareCardDesc": "Vê rûpelê li ser WhatsApp, Telegram an torên civakî belav bike.",
+    "shareModalTitle": "📤 Vê pelê parve bike",
+    "shareModalDesc": "Vê delîlê ji bo xebat û parastina Sunnetê parve bike :",
+    "shareCardTitle": "Vê reddîyeyê parve bike",
+    "shareCardDesc": "Vê pelê li ser WhatsApp, Telegram an torên civakî parve bike.",
     "toastSectionCopied": "✅ Beş li bîrgehê hate kopîkirin!",
-    "toastLinkCopied": "✅ Lînk hate kopîkirin!",
-    "navFallacies": "Qutiya Amûran — Berî nîqaşê heletiyan nas bike",
-    "fallaciesTitle": "QUTIYA AMÛRAN (HELETIYÊN MENTIQÎ)",
-    "fallaciesBadgeTitle": "FALLACIES DETECTED IN THIS ARGUMENT:",
-    "viewFallacyDetail": "Voir l’analyse détaillée ▼",
-    "hideFallacyDetail": "Masquer l’analyse ▲",
-    "btnOpenToolbox": "Open in Fallacy Toolbox",
-    "footerVisitsLabel": "Hemû Serdan:",
+    "toastLinkCopied": "✅ Girêdan li bîrgehê hate kopîkirin!",
+    "navFallacies": "Komeleya amûran — Naskirina mugaleteyan berî nîqaşê",
+    "fallaciesTitle": "KOMELEYA AMÛRAN",
+    "fallaciesBadgeTitle": "MUGALETEYÊN DI VÊ DELÎLÊ DE :",
+    "viewFallacyDetail": "Hûrgiliyan bibîne ▼",
+    "hideFallacyDetail": "Hûrgiliyan veşêre ▲",
+    "btnOpenToolbox": "Di Komeleya amûran de veke",
+    "footerVisitsLabel": "Serdanên giştî :",
     "footerVisitsPrivacy": "100% Anonîm • GDPR",
-    "footerVisitsTooltip": "Hejmara serdanan a parastî ya taybetmendiyê",
+    "footerVisitsTooltip": "Hejmara serdanan a anonîm û li gorî qanûnên nepênîtiyê (GDPR - 0 cookies)",
     "navPreface": "Pêşgotina Nivîskar",
     "navIntro": "Qur'anî kî ne?"
   },
   "preface": {
     "badge": "DESTPÊKA PIRTÛKÊ",
     "title": "PÊŞGOTINA NIVÎSKAR",
-    "subtitle": "Çima ev pirtûka redkirina rêbazî?",
-    "introTag": "BERÎ KU TU DEST PÊ BIKÎ",
-    "basmala": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ",
+    "subtitle": "Çima ev pirtûka rêbazî ya reddîyeyê?",
+    "introTag": "BERÎ KU EM DEST PÊ BIKIN",
+    "basmala": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ (Bi navê Xwedayê Dilovan û Dilovîn)",
     "sections": [
       {
         "type": "adverse",
         "header": "ÇIMA EV PIRTÛK?",
-        "title": "Bîranînek kesane û xemgîniyek kûr",
+        "title": "Dîtineke kesane û rêbazî",
         "paragraphs": [
-          "Ev pirtûk ji rastiyek kesane ya ku ez gelek êşandim hate afirandin.",
-          "Di nav salan de, min dît ku mirovên derdora min ketin xefika 'Quraniyê' : baweriyek ku îdîa dike vedigere tenê Quranê, lê di rastiyê de desthilatdarî û pîroziya Sunneta Pêxember ﷺ red dike.",
-          "Bi piranî, ev yek bi neyeta xirab dest pê nake, lê ji kêmzanî û nebûna zanistên hedîs, tefsîr, ziman û dîroka veguhastinê derdikeve holê."
+          "Ev xebat ji ber çavdêriyeke kesane ya ku ez pir xemgîn kirim hate nivîsandin.",
+          "Di nava salan de, min dît ku hin nas dikevin nava wê ya ku îro jê re 'Qur'anîzm' (tenê Qur'an) tê gotin: tevgerek ku îdîa dike vedigere Qur'anê, lê di rastiyê de desthilata dînî ya Sunneta Pêxember ﷺ hilweşîne û red dike.",
+          "Pir caran ev yek ne ji ber xwesteka redkirina Pêxember ﷺ e, lê ji ber kêmbûna agahiyên bingehîn ên di zanistên Hedîsê, zanistên Qur'anê, rêbaza veguheztinê, zimanê erebî û dîroka deqan de dest pê dike."
         ]
       },
       {
         "type": "retenir",
-        "header": "KOMA GUMANAN DIBE BAWERÎ",
-        "title": "Ji şikê ber bi xerabûna baweriyê",
+        "header": "GAVA ŞIK DIBIN DOGMA",
+        "title": "Ji gumanê ber bi şaşiya rêbazî",
         "paragraphs": [
-          "Dû re guman tên: hedîsek bêyî çarçoveya wê tê pêşkêşkirin, yan wergerek xelet tê nîşandan da ku kes bikeve şikê.",
-          "Mijarên mîna temenê dayika me Eyşe رضي الله عنها, hedîsên tibê, an jî Mîracê bi awayekî xerab nîşan didin.",
-          "Dema ku zanist tune be, şik çêdibe: «Ev hedîs ecêb e» ➔ «Belkî hedîs ne pêbawer in» ➔ «Belkî Sunnet ne lazim e» ➔ «Tenê Quran bes e».",
-          "Bi vî awayî kesek dînê xwe li gorî daxwazên xwe çêdike û wateya 'Guh bidin Pêxember' ji holê radike."
+          "Dû re şubheyên polemîkî tên: hedîsekî ji çarçoveyê derxistî, deqek ku dereca wî ya sehîhiyê nayê zanîn, an nîqaşeke hestiyarî jê re tê pêşkêşkirin.",
+          "Bêyî amûrên analîza rexneyî, şik cih digire û dibe dogmayek:",
+          "«Ev hedîs ecêb e» ➔ «Dibe ku hedîs ne pêbawer bin» ➔ «Dibe ku Sunnet zêde be» ➔ «Tenê Qur'an bes e».",
+          "Di encamê de ayetên tenê hildibijêrin û maneya 'Guh bidin Pêxember' diguherin da ku Pêxember ﷺ ji her desthilatê bêpar bihêlin."
         ]
       },
       {
         "type": "analogie",
-        "header": "DÎROKEK MEZIN YA VEGÛHASTINÊ",
-        "title": "Pergala herî mezin a piştrastkirinê",
+        "header": "KELEPOREKE MEZIN A VEGUHEZTINÊ",
+        "title": "Zanisteke kontrolê ya bêhempa",
         "paragraphs": [
-          "Sunnet negihîştiye me ji ber ku çend kesan piştî sedsalan biryar da çîrokan binivîsin! Li pişt pirtûkên hedîsan dîroka herî mezin a rexnekirina riwayetê û lêkolîna şexsiyetên ragihêneran (Îlm El-Rîcal) heye.",
-          "Zanyaran jiyana xwe dan da ku her peyvek ji Pêxember ﷺ piştrast bikin.",
-          "Gotina ku dibêje 'Ev tenê çîrokên mirovan in' ne rexneyek zanistî ye, lê belê nezaniya mutleq e li ser zanista hedîsê."
+          "Sunnet bi awayekî rasthatinî nehatiye ber destê me! Li pişt hedîsan pergala herî xurt a rexneya kesayetî û zincîra veguheztinê (Isnâd û Rîcal) ya dîroka mirovahiyê heye.",
+          "Zanayan bi mehan rêwîtî kirin da ku tenê hevokekê piştrast bikin.",
+          "Redkirina vê xezîneya zanistî bi gotina 'ev tenê çîrokên mirovan in' ne aqilmendî ye, belkî nezanîna li ser zanistên Hedîsê ye."
+        ],
+        "distinctions": [
+          {
+            "term": "REXNEYA VEGUHEZKERAN (RÎCAL)",
+            "desc": "Durustî, hişmendî, hevdîtinên dîrokî û mercên wergirtinê."
+          },
+          {
+            "term": "REXNEYA DEQAN (MUTÛN)",
+            "desc": "Berhevdana riwayetan, tespîtkirina kêmasiyên veşartî ('Îlel) û cudakirina sehîh ji derewan."
+          }
         ]
       },
       {
         "type": "cadrage",
-        "header": "Û QURAN ÇAWA GIHÎŞT ME?",
-        "title": "Pirs li ser zincîreya veguhastinê",
+        "header": "Û QUR'AN ÇAWA GIHIŞTE ME?",
+        "title": "Heman zincîra mirovî ya veguheztinê",
         "paragraphs": [
-          "Pirseke bingehîn ji bo her kesê ku Sunnetê red dike: Quran bi rêya kê gihîştiye te?",
-          "Ev Mushafa ku di destê te de ye rasterast ji ezmanan nehatiye xwarê, lê bi rêya Sehabeyan, şagirtan û qiraetbêjan nifş bi nifş bi seneda muttesil gihîştiye me.",
-          "Qiraeta ku tu dixwînî mirovên bawerpêkirî ragihandine. Çawa dibe ku tu van mirovan di Quranê de qebûl bikî, lê di Sunnetê de red bikî?!"
+          "Pirseke girîng ji bo her Qur'anîyekî: Qur'an bi rêya kê gihişte te?",
+          "Nusxeya Qur'anê (Mushafe) rasterast ji ezmanan ji te re nehatiye xwarê. Ew bi rêya Sehabeyan, Tabiînan û veguheztina nifş bi nifş gihiştiye me.",
+          "Qiraeta Hafs ji 'Asim bi heman zincîra mirovan gihiştiye me. Pirs ne 'gelo mirov hene' ye, lê 'dereca pêbaweriya vê veguheztinê çi ye' ye."
         ]
       },
       {
-        "type": "chrono",
-        "header": "XEBATEK JI BO XATIRA XWEDÊ",
-        "title": "Sedeqeya Jariye",
+        "type": "retenir",
+        "header": "BERPIRSIYARIYEKE KESANE",
+        "title": "Çima bêdengî êdî ne çare ye?",
         "paragraphs": [
-          "Ez ji Xwedayê Mezin dixwazim ku vê pirtûkê bike sedeqeyek jariye ji bo min û dê û bavê min, û feydeyê bide her kesê ku li heqîqetê digere.",
-          "Heqîqet ji delîlan natirse!"
-        ],
-        "signature": "Selaheddîn Ehmed (Ebû Silêman)\n23 Tebax 2026"
+          "Li hember belavbûna axaftinên xapînok ên li ser torên civakî, bêdengî dibe kêmasiyek.",
+          "Ev pirtûk ji bo dijminatiyê nehatiye nivîsandin, lê wek amûreke perwerdehiyê ya mantiqî û hêsan ji bo parastina heqîqetê hatiye amadekirin.",
+          "Ez ji Xwedê hêvî dikim ku vê xebatê bike sedema ronahî û fêdeyê ji bo her kesê ku li pey heqîqetê ye."
+        ]
       }
     ]
   },
   "intro": {
-    "header": "ÇARÇOVEYA DÎROKÎ",
-    "title": "QUR'ANÎ (ÎNKARKERÊN SUNNETÊ) KÎ NE?",
-    "subtitle": "Pênase, derketina dîrokî û xalên bingehîn",
-    "badge": "HÊMANÊN DÎROKÎ",
+    "badge": "ÇAVKANIYÊN DÎROKÎ",
+    "title": "QUR'ANÎ KÎ NE?",
+    "subtitle": "Kok, bingeh û anatomiya tevgereke şaş",
+    "introTag": "FÊHMKIRINA MIJARÊ",
     "sections": [
       {
-        "type": "adverse",
-        "header": "PÊNASE",
-        "title": "Rêbazek ku Sunnetê red dike",
+        "type": "cadrage",
+        "header": "DÎROK Û ÇARÇOVE",
+        "title": "Bîd'eteke nûjen a bi kokên kevn",
         "paragraphs": [
-          "Quraniyî : ew tevgerek e ku îdîa dike Quran tenê çavkaniya qanûnî ya Îslamê ye û desthilatdariya Sunnetê bi temamî an bi piranî red dike.",
-          "Tevgera wan a nûjen di sedsala 19an de li Hindistanê û sedsala 20an de li Misrê derket holê, lê şubheya wan kevn e û zanyarên Îslamê yên kevnar wekî Şafi'î, Îbn Quteybe û El-Berbeharî bersiva wan dane."
+          "Qur'anîtiya îroyîn (Qur'aniyyûn) xwe wek tevgereke nûjen nîşan dide. Lêbelê Pêxember ﷺ ev rewş berê di hedîsa xwe de bi zelalî ragihandiye.",
+          "Pêxember ﷺ gotiye: «Dê demeke wisa were ku mirovekî têr li ser qenepeya xwe rûniştî bibêje: 'Tenê vê Qur'anê bigirin; çi di wê de helal be helal bizanin û çi heram be heram bizanin'. Hişyar bin! Ya ku Pêxemberê Xwedê heram kiriye wek ya ku Xwedê heram kiriye ye!» (Ebû Dawûd, Tirmizî).",
+          "Redkirina giştî ya Hedîsan tevgereke nûjen e ku di sedsala 19'an de di bin bandora kolonyalîzmê de derketiye holê."
+        ]
+      },
+      {
+        "type": "adverse",
+        "header": "MÊXANÎZMA DERÛNÎ Û DÎNÎ",
+        "title": "Ji fehmnekirinê ber bi redkirinê",
+        "paragraphs": [
+          "Rêbaza wan li ser vê yekê ava dibe:",
+          "1. Şoka hestiyarî : Hedîsekî kûr hildibijêrin û bêyî ravekirina zimanî pêşkêş dikin.",
+          "2. Giştîkirina neheq : Ji ber fehmnekirina hedîsekî, dibêjin hemû hedîs ne pêbawer in.",
+          "3. Hilbijartina derewîn : Dibêjin: «Gelo hûn gotina Xwedê dixwazin an gotinên mirovan?»",
+          "4. Valahiya dînî : Gava Sunnetê red dikin, neçar dimînin maneyên xeyalî bidin ayetan û nizanin nimêj û hecê çawa bikin."
+        ]
+      },
+      {
+        "type": "retenir",
+        "header": "ENCAMÊN TEOLOJÎK YÊN NEDIYAR",
+        "title": "Hilweşîna pratîka îslamî",
+        "paragraphs": [
+          "Redkirina Sunnetê dîn hêsan nake, pratîka wî têk dibe:",
+          "• Bêderfetiya nimêjê : Qur'an ferman dide nimêjê, lê nabêje nimêja nîvro çend rekat e an di rukuê de çi tê gotin.",
+          "• Bêderfetiya zekatê : Rêjeya 2,5% tenê di Sunnetê de heye.",
+          "• Bêderfetiya hecê : Hemû rîtwalên hecê bi pratîka Pêxember ﷺ hatine ravekirin."
         ]
       },
       {
         "type": "analogie",
-        "header": "HIŞYARIYA PÊXEMBERÎ YA MÛCÎZEWÎ",
-        "title": "Pêxember ﷺ pêşwext qala wan kiribû",
+        "header": "RÊZIKA ZÊRÎN A NÎQAŞÊ",
+        "title": "Rûbirûkirina wan bi encamên fikra wan",
         "paragraphs": [
-          "Pêxember ﷺ bi awayekî mûcîzewî qala van kesan kiribû berî ku ew derkevin holê:"
-        ],
-        "hadiths": [
-          {
-            "ref": "Sunen Ebî Dawûd (hedîs 4604)",
-            "ar": "« أَلَا إِنِّي أُوتِيتُ الْكِتَابَ وَمِثْلَهُ مَعَهُ، أَلَا يُوشِكُ رَجُلٌ شَبْعَانُ عَلَى أَرِيكَتِهِ يَقُولُ: عَلَيْكُمْ بِهَذَا الْقُرْآنِ... »",
-            "translation": "«Hişyar bin! Pirtûk û bi wê re tiştekî mîna wê (Sunnet) ji min re hatiye dayîn. Nêzîk e ku mirovekî têr li ser kursiya xwe rûniştî bibêje: Tenê bi vê Quranê bigirin...»"
-          }
+          "Rêbaza herî baş ew e ku hûn ji wan bipirsin: Tu nimêja xwe di jiyana rojane de çawa tenê ji deqa Qur'anê derdixî?",
+          "Hûn ê bibînin ku ew neçar in an maneyan biguherin an jî qebûl bikin ku nimêj bi rêya pratîka nifşan (ango bi Sunnetê) hatiye parastin!"
         ]
       }
     ]
+  },
+  "fallaciesToolbox": {
+    "headerBadge": "RÊBERÊ RÊBAZÎ",
+    "title": "KOMELEYA AMÛRAN — NASKIRINA MUGALETEYAN BERÎ NÎQAŞÊ",
+    "subtitle": "Tespîtkirina şaşiyên mantiqî da ku di nîqaşê de neyên xapandin",
+    "introText": "Dibe ku îdiayek ayeteke rast an rastiyekê bîne, lê eger girêdana mantiqî xera be, digihîje encameke şaş.",
+    "goldenRuleTitle": "BINGEHA GIRÎNG :",
+    "goldenRuleText": "NÎŞANDANA KU DELÎLEK MUGALETE YE, NAYÊ WATEYA KU ENCAM ŞAŞ E ; TENÊ NÎŞAN DIDE KU EV DELÎL WÊ NASELMÎNE.",
+    "goldenRuleMeaning": "Eşkerekirina çewtiyeke mantiqî mirov ji lêkolîna dînî azad nake; lê nahêle mirov encamên şaş qebûl bike.",
+    "cardMemoBadge": "PELA BÎRANÎNÊ",
+    "trainingBadge": "RAHÊNAN",
+    "labelDefinition": "Pênase :",
+    "labelGeneralExample": "🌍 Nimûneya ji jiyana rojane :",
+    "labelQuranicApp": "🕌 Sepandina li ser nîqaşa Qur'anîyan :",
+    "labelQuestionToAsk": "❓ Pirsa ku divê were kirin :",
+    "labelShortAnswer": "⚡ Bersiva kurt a pêşniyarkirî :",
+    "items": [
+      {
+        "id": "homme-de-paille",
+        "num": 1,
+        "name": "Dabeşkirina Şaş (Falsa Dicotomía)",
+        "shortDef": "Bi awayekî çêkirî kêmkirina rewşekê bo du bijardeyên dijber.",
+        "definition": "Kêmkirina pirsê bo du aliyan û veşartina riya sêyemîn a rast.",
+        "generalExample": "« An tu bi min re yî, an jî tu dijminê min î. »",
+        "quranicApplication": "• « Tu peyrewê Xwedê yî an yê Pêxember ﷺ î? » (Guhdana Pêxember fermana Xwedê ye).\n• « Tu peyva Xwedê dixwazî an ya mirovan? »",
+        "questionToAsk": "« Çima tu van herdu tiştan li dijî hev nîşan didî dema ku yek bi ya din ve girêdayî ye? »",
+        "shortAnswer": "« Guhdana Pêxember guhdana Xwedê ye; ev ne du rêyên cuda ne. »",
+        "icon": "🌾"
+      },
+      {
+        "id": "fausse-dichotomie",
+        "num": 2,
+        "name": "Giştîkirina Neheq",
+        "shortDef": "Berfirehkirina rewşeke gumanbar li ser hemû beşê.",
+        "definition": "Ji hejmareke kêm a mînakan derxistina zagonên giştî.",
+        "generalExample": "« Min du mekanîkên nebaş dîtin, nexwe hemû mekanîk fêlbaz in. »",
+        "quranicApplication": "• « Hedîsên sexte hatine çêkirin, nexwe bawerî bi ti hedîsî nayê anîn. »",
+        "questionToAsk": "« Ma hebûna pereyên sexte nîşan dide ku ti pereyên rastîn nînin? »",
+        "shortAnswer": "« Ji ber hebûna hedîsên sexte zanisteke ewqas mezin a kontrolê hate damezrandin. »",
+        "icon": "⚖️"
+      },
+      {
+        "id": "generalisation-abusive",
+        "num": 3,
+        "name": "Mirovê Kayê (Strohmann)",
+        "shortDef": "Guhertina gotina reqîb da ku hêsantir were têkbirin.",
+        "definition": "Zivirandina ramana reqîb da ku şaşiyek ku wî qet negotiye were pûçkirin.",
+        "generalExample": "« Tu dibêjî divê lez kêm bibe, nexwe tu dixwazî erebeyan qedexe bikî. »",
+        "quranicApplication": "• « Hûn dibêjin Qur'an kêm e û hewceyî mirovan e. » (Kes vê nabêje: Sunnet tenê raveker e).",
+        "questionToAsk": "« Kê ji zanayên îslamê ev gotiye, an tu tenê bi zerrbêjekê re şer dikî? »",
+        "shortAnswer": "« Tiştê ku em nabêjin rexne neke; li ser ya ku em dibêjin biaxife. »",
+        "icon": "🔍"
+      },
+      {
+        "id": "non-sequitur",
+        "num": 4,
+        "name": "Encama Bêgirêdan (Non Sequitur)",
+        "shortDef": "Encama ku tê derxistin ji pêşekiya diyarkirî dernakeve.",
+        "definition": "Dibe ku pêşekî rast be, lê encam qet pê ve nayê girêdan.",
+        "generalExample": "« Li derve baran dibare, nexwe lîstika basketbolê ya li salonê hate betalkirin. »",
+        "quranicApplication": "• « Qur'an temam e, nexwe Sunnet ne hewce ye. » (Temambûna Qur'anê ferman dide guhdana Pêxember).",
+        "questionToAsk": "« Pêveka mantiqî ya di navbera pêşekî û encama te de çi ye? »",
+        "shortAnswer": "« Pêşgotina te rast be jî, encama te ji wê dernakeve. »",
+        "icon": "⚡"
+      },
+      {
+        "id": "cherry-picking",
+        "num": 5,
+        "name": "Hilbijartina Biçavkorî (Cherry-Picking)",
+        "shortDef": "Tenê hilbijartina delîlên li gorî dil û veşartina yên din.",
+        "definition": "Tenê anîna ayetên li gorî daxwazê û veşartina yên ku wan şirove dikin.",
+        "generalExample": "Zanistvanek tenê 3 lêkolînan nîşan bide û 50 lêkolînên dijber veşêre.",
+        "quranicApplication": "• Ayeta « Li ser pêxember tenê gihandin heye » tînin lê « Guh bidin Pêxember » vedişêrin.",
+        "questionToAsk": "« Ma ayetên din ên li ser vê mijarê hene ku te qet behsa wan nekiriye? »",
+        "shortAnswer": "« Ayetek ji ayetên din ên ku wê şirove dikin nayê veqetandin. »",
+        "icon": "🍒"
+      },
+      {
+        "id": "double-standard",
+        "num": 6,
+        "name": "Pîvana Duçemşî (Zweierlei Maß)",
+        "shortDef": "Bikaranîna pîvaneke pir giran ji bo yên din û ya hêsan ji bo xwe.",
+        "definition": "Qebûlkirina heman veguheztinê ji bo Qur'anê û redkirina wê ji bo Sunnetê.",
+        "generalExample": "Ji kesên din delîlên teqez xwestin lê ji bo xwe bawerî bi gotegotan anîn.",
+        "quranicApplication": "• Ji bo temenê 'Aîşeyê bawerî bi Buxarî tînin lê ji bo qanûnan wî red dikin.",
+        "questionToAsk": "« Eger ev delîl di berjewendiya te de bûya, te yê heman pîvan bi kar baniya? »",
+        "shortAnswer": "« Pîvana îsbatê divê neguhere ka encam li xweşa te diçe an na. »",
+        "icon": "🔄"
+      },
+      {
+        "id": "equivoque-lexicale",
+        "num": 7,
+        "name": "Guhertina Maneya Peyvê",
+        "shortDef": "Bikaranîna peyvekê bi du maneyên cuda bêyî agahdarkirinê.",
+        "definition": "Bikaranîna peyva 'Hedîs' di Qur'anê de bi maneya peyvê ne bi ya teknîkî.",
+        "generalExample": "« Gravîte qanûn e. Qanûn li parlamentoyê têne çêkirin. Nexwe gravîte ji aliyê wekîlan ve hatiye çêkirin. »",
+        "quranicApplication": "• Peyva 'Hedîs' di Qur'anê de bi maneya 'axaftin' e, ne pirtûkên Buxarî.",
+        "questionToAsk": "« Wateya rastîn a vê peyvê di vê ayetê de çi ye? »",
+        "shortAnswer": "« Berî encamgirtinê divê em wateya peyvê zelal bikin. »",
+        "icon": "🔀"
+      },
+      {
+        "id": "argument-de-possibilite",
+        "num": 8,
+        "name": "Mugaleteya Îhtîmalê",
+        "shortDef": "Veguhartina «dibe ku şaş be» bo «teqez şaş e».",
+        "definition": "Gumaneke teorîk wek delîla pûçbûnê nîşandan.",
+        "generalExample": "« Şahid dikare derewan bike, nexwe hemû şahidiyên dadgehê derew in. »",
+        "quranicApplication": "• Îhtîmala sextekariyê bû sedem ku zanyar her zencîreyê vekolin.",
+        "questionToAsk": "« Te îsbat kir ku sextekarî çêbûye an tenê dibêjî îhtîmal heye? »",
+        "shortAnswer": "« Îhtîmaleke teorîk nabe delîlekî dîrokî. »",
+        "icon": "🎲"
+      },
+      {
+        "id": "deplacement-charge-preuve",
+        "num": 9,
+        "name": "Guhertina Barê Îsbatê",
+        "shortDef": "Îdiakirina tiştekî bê delîl û xwestina îsbatê ji yê din.",
+        "definition": "Yê ku îdia dike divê îsbat bike, ne ku ji yên din bixwaze derewandina wê.",
+        "generalExample": "« Li binê Marsê bajarekî veşartî heye, eger nîne ji min re îsbat bike. »",
+        "quranicApplication": "• Yê ku dibêje ti hedîs ne rast in, divê vê îdiaya xwe ya mezin îsbat bike.",
+        "questionToAsk": "« Li vir kî îdiayekê dike û bara îsbatê li ser kê ye? »",
+        "shortAnswer": "« Yê ku îdiaya mezin dike divê delîlê bîne. »",
+        "icon": "⚖️"
+      },
+      {
+        "id": "appel-emotion",
+        "num": 10,
+        "name": "Bikaranîna Hestan û Tinazî",
+        "shortDef": "Li şûna delîlan bikaranîna hest, tinazî û hêrsbûnê.",
+        "definition": "Li şûna nirxandina zanistî henek û tinazî kirin bi hedîsan.",
+        "generalExample": "Kenîn û tinazî bi hevkêşeyeke zanistî li şûna vekolîna wê.",
+        "quranicApplication": "• « Ma hûn baweriyê bi hedîsa mêşê tînin?! » Tinazî nabe delîla zanistî.",
+        "questionToAsk": "« Ji bilî hest û tinaziyan, delîla te ya zanistî çi ye? »",
+        "shortAnswer": "« Tinazî û hest cihê delîla zanistî nagirin. »",
+        "icon": "🎭"
+      }
+    ],
+    "reflexQuestions": {
+      "title": "4 REFLEKSÊN REXNEYÎ YÊN BINGEHÎN",
+      "subtitle": "Li hember her îdiayê 4 pirsên sîstematîk",
+      "summaryNotice": "Ev çar pirs bes in ji bo pûçkirina piraniya nîqaşên lawaz.",
+      "questions": [
+        {
+          "num": 1,
+          "title": "1. Pêşekî",
+          "desc": "Bi rastî çi hate îsbatkirin? Nehêle encam di nava pêşekiyê de were veşartin."
+        },
+        {
+          "num": 2,
+          "title": "2. Girêdana Mantiqî",
+          "desc": "Gelo encam bi rastî ji pêşekiyê dertê, an gaveke girîng kêm e?"
+        },
+        {
+          "num": 3,
+          "title": "3. Pelê Temam",
+          "desc": "Gelo hemû ayet û delîl hatine dîtin an tenê yên ku li gorî daxwazê ne?"
+        },
+        {
+          "num": 4,
+          "title": "4. Heman Pîvan",
+          "desc": "Gelo heman pîvana giran ji bo herdu aliyan tê sepandin?"
+        }
+      ]
+    },
+    "quiz": {
+      "title": "TESTA BILEZ : ÇEWTIYA MANTIQÎ BIBÎNE",
+      "subtitle": "Di van hevokan de mugaleteya mantiqî diyar bike :",
+      "items": [
+        {
+          "id": 1,
+          "statement": "« Hin hedîs hatine çêkirin. Nexwe bawerî bi ti hedîsî nayê anîn. »",
+          "answerId": "generalisation-abusive",
+          "answerName": "Giştîkirina Neheq",
+          "explanation": "Ji çend mînakên sexte betalkirina hemû beşê giştîkirina neheq e."
+        },
+        {
+          "id": 2,
+          "statement": "« An tu peyrewê Xwedê yî, an jî yê Pêxember ﷺ î. »",
+          "answerId": "fausse-dichotomie",
+          "answerName": "Dabeşkirina Şaş",
+          "explanation": "Guhdana Pêxember fermana Xwedê ye; ev herdu ne dijber in."
+        },
+        {
+          "id": 3,
+          "statement": "« Qur'an temam e, nexwe ravekirina Pêxember zêde ye. »",
+          "answerId": "non-sequitur",
+          "answerName": "Encama Bêgirêdan",
+          "explanation": "Temambûna Qur'anê ferman dide ku divê em guh bidin ravekirina Pêxember."
+        },
+        {
+          "id": 4,
+          "statement": "« Piştî vê dê ji kîjan hedîsî bawer bikin? Nexwe Buxarî heram e. »",
+          "answerId": "equivoque-lexicale",
+          "answerName": "Guhertina Maneya Peyvê",
+          "explanation": "Peyva 'hedîs' li vir bi maneya 'peyv û axaftin' e, ne pirtûkên hedîsan."
+        },
+        {
+          "id": 5,
+          "statement": "« Hedîs ne pêbawer in, lê riwayeta temenê 'Aîşeyê delîla teqez e! »",
+          "answerId": "double-standard",
+          "answerName": "Pîvana Duçemşî",
+          "explanation": "Gava li gorî kêfê be qebûlkirin û gava qanûn be redkirin pîvana duçemşî ye."
+        },
+        {
+          "id": 6,
+          "statement": "« Dibe ku zencîreyek were çêkirin. Nexwe zencîre tiştekî îsbat nakin. »",
+          "answerId": "argument-de-possibilite",
+          "answerName": "Mugaleteya Îhtîmalê",
+          "explanation": "Veguhartina gumaneke teorîk bo encameke teqez çewtî ye."
+        }
+      ]
+    },
+    "conclusion": {
+      "title": "BÎRANÎNA GIRÎNG : MANTIQ BERÎ SLOGANAN",
+      "mainText": "Dibe ku îdiayek ayet an hedîsekî bîne lê eger mantiqa wê xera be digihîje encameke şaş.",
+      "slogan1": "TENÊ MEBÊJE : « DELÎL ÇI YE ? »",
+      "slogan2": "BIBÊJE JÎ : « EV DELÎL BI RASTÎ ÇI ÎSBAT DIKE ? »"
+    }
   },
   "arguments": [
     {
       "id": 1,
       "number": "01",
       "slug": "1-coran-complet",
-      "theme": "Bêkêmasiya Quranê û Şirovekirina Pêxemberî",
-      "title": "Quran temam e: Çima hewcedarî bi Sunnetê heye?",
-      "shortTitle": "Bêkêmasiya Quranê",
-      "tagline": "Quran di bingehên xwe de kamil e, û ji kamiliya wê ye ku ferman dide peyrewiya Pêxember ﷺ.",
-      "formula": "Kamiliya zagonî ya Quranê fermana şirovekirina pêxemberî (Beyan) dihewîne; redkirina Sunnetê redkirina Quranê ye!",
+      "theme": "Temambûn û Ravekirina Pêxemberî",
+      "title": "Qur'an temam e: Çima em hewceyî Sunnetê ne?",
+      "shortTitle": "Temambûna Qur'anê",
+      "tagline": "Qur'an di bingehên xwe de temam e, û beşek ji vê temambûnê ferman dayîna guhdana Pêxember ﷺ e.",
+      "formula": "Temambûna Qur'anê erka ravekirinê ya Pêxember dihewîne; redkirina Sunnetê redkirina Qur'anê ye!",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_1.pdf",
       "theirArgument": {
-        "thesis": "Quran kamil e, bi hûrgulî hatiye ravekirin û tu tişt nehiştiye. Her tiştê ku em hewce ne di pirtûkê de ye; îdiaya hewcedariya bi hedîsan li dijî bêkêmasiya Quranê ye.",
+        "thesis": "Qur'an temam e û ti tişt nehêlaye. Her tişt di Qur'anê de heye; îdiakirina hewcedariya bi Sunnetê li dijî temambûna Qur'anê ye.",
         "verses": [
           {
-            "ref": "Sûreya El-En'am, ayeta 38",
-            "ar": "مَّا فَرَّطْنَا فِي الْكِتَابِ مِن شَيْءٍ",
-            "translation": "Me di Pirtûkê de tu tişt kêm nehiştiye."
+            "ref": "Sureya Al-Anʿâm, ayeta 38",
+            "ar": "مَّا فَرَّطْنَا فِي الْكِتَابِ مِن شَيْءٍ",
+            "translation": "« Nous n'avons rien omis dans le Livre. »"
           },
           {
-            "ref": "Sûreya En-Nehl, ayeta 89",
-            "ar": "وَنَزَّلْنَا عَلَيْكَ الْكِتَابَ تِبْيَانًا لِّكُلِّ شَيْءٍ",
-            "translation": "Û me Pirtûk ji bo ronîkirina her tiştî ji te re daxist."
+            "ref": "Sureya Al-Anʿâm, ayeta 114",
+            "ar": "كِتَابًا مُّفَصَّلًا",
+            "translation": "« Un Livre exposé en détail. »"
+          },
+          {
+            "ref": "Sureya An-Naḥl, ayeta 89",
+            "ar": "وَنَزَّلْنَا عَلَيْكَ الْكِتَابَ تِبْيَانًا لِّكُلِّ شَيْءٍ",
+            "translation": "« Nous avons fait descendre sur toi le Livre comme clarification de toute chose. »"
           }
         ],
-        "realQuestion": "Gelo temambûna Quranê wekî destûra bingehîn, şirovekirina pêxemberî ya ku bi xwe ferman daye ji holê radike?"
+        "realQuestion": "Gelo temambûna Qur'anê ravekirina Pêxember a ku Qur'an bi xwe ferman dike red dike?"
       },
       "logicalNode": {
-        "title": "Tevlihevkirina di navbera temambûna destûrî û serbixwebûna pratîkî de",
+        "title": "Girêka Mantiqî û Cihêkarî",
         "distinctions": [
           {
-            "term": "TEMAMBÛNA ZAGONÎ Û BINGEHÎN",
-            "desc": "Quran kamil e ji ber ku hemû prensîbên sereke daniye û desthilatiya Pêxember ﷺ ferz kiriye."
+            "term": "BINGEHÊ QUR'ANÎ",
+            "desc": "Qur'an hemû bingeh û qanûnên sereke datîne û ferman dide peyrewiya Pêxember ﷺ."
           },
           {
-            "term": "HÛRGULIYÊN BI KAR ANÎNÊ",
-            "desc": "Quran nimêj û zekatê ferman dike lê hûrguliyên pratîkî radestî Pêxember ﷺ kiriye."
+            "term": "HÛRGILIYÊN SUNNETÊ",
+            "desc": "Sunnet hûrgiliyên nimêj, zekat û jiyanê rave dike."
           }
         ],
-        "generalRule": "Nivîsa ku bi fermî şirovekirinê dispêre qasidê xwe, ne kêm e; kamiliya wê wê desthilatiyê dihewîne.",
-        "errorToAvoid": "Tevlihevkirina prensîbên giştî yên Quranê bi rêzikên pratîkî yên îbadetê re."
+        "generalRule": "Nivîsek ku desthilatê dide şirovekarekî, temambûna wê vê desthilatê jî digire nav xwe.",
+        "errorToAvoid": "Tevlihevkirina bingehên qanûnê û hûrgiliyên sepandina wê."
       },
       "centralPrinciple": {
-        "title": "Bêkêmasiya Quranê guhdana fermanên Pêxember dihewîne",
-        "formalScheme": "1. Quran pirtûkeke kamil e ku bingeha dîn daniye.\n2. Ji kamiliya Quranê ye ku ferman daye guh bidin Pêxember ﷺ di ayeta {da ku tu ji mirovan re eşkere bikî}.\n3. Ji ber vê yekê, şopandina Sunnetê pêkanîna rasterast a Quranê ye.",
-        "explanation": "Quran bi xwe bingeha Sunnetê saz kiriye. Yê ku Sunnetê red dike, li dijî wan ayetên Quranê derdikeve ku ferman didin.",
-        "logicalTest": "Heke Quran bêyî hedîsan bes be, tenê ji nivîsa Quranê hejmara rik'atên nimêja nîvro û rêjeyên zekatê derxe!"
+        "title": "Bingeha Sereke ya Delîlê",
+        "formalScheme": "1. Qur'an ferman dide guhdana Pêxember ﷺ.\n2. Sunnet ravekirina Qur'anê ye.\n3. Redkirina Sunnetê redkirina Qur'anê ye.",
+        "explanation": "Qur'an bixwe desthilata Sunnetê ava dike. Yê ku Sunnetê red dike ayetên Qur'anê red dike.",
+        "logicalTest": "Eger tenê Qur'an bes e, hejmara rekatên nimêja nîvro tenê ji Qur'anê derxe!"
       },
       "quranicArchitecture": {
-        "title": "Ayetên zelal li ser peywira şirovekirina pêxemberî (Beyan)",
+        "title": "Ayetên Biryardar",
         "verses": [
           {
-            "ref": "Sûreya En-Nehl, ayeta 44",
-            "ar": "وَأَنزَلْنَا إِلَيْكَ الذِّكْرَ لِتُبَيِّنَ لِلنَّاسِ مَا نُزِّلَ إِلَيْهِمْ",
-            "translation": "Û me Bîranîn (Zikr) ji te re daxist da ku tu ji mirovan re tiştê ku ji wan re hatiye daxistin eşkere bikî."
+            "ref": "Sureya An-Nisâʾ, ayeta 59",
+            "ar": "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ",
+            "translation": "« Obéissez à Allah et obéissez au Messager. »"
           },
           {
-            "ref": "Sûreya El-Cumu'ah, ayeta 2",
-            "ar": "يَتْلُو عَلَيْهِمْ آيَاتِهِ وَيُزَكِّيهِمْ وَيُعَلِّمُهُمُ الْكِتَابَ وَالْحِكْمَةَ",
-            "translation": "Ayatên Wî ji wan re dixwîne, wan paqij dike û Pirtûk û Hikmetê (Sunnetê) hînî wan dike."
+            "ref": "Sureya An-Nisâʾ, ayeta 65",
+            "ar": "حَتَّىٰ يُحَكِّمُوكَ فِيمَا شَجَرَ بَيْنَهُمْ",
+            "translation": "« Jusqu'à ce qu'ils te prennent pour juge dans leurs différends. »"
+          },
+          {
+            "ref": "Sureya An-Naḥl, ayeta 44",
+            "ar": "لِتُبَيِّنَ لِلنَّاسِ مَا نُزِّلَ إِلَيْهِمْ",
+            "translation": "« Afin que tu exposes clairement aux gens ce qui a été révélé pour eux. »"
+          },
+          {
+            "ref": "Sureya Al-Aḥzâb, ayeta 21",
+            "ar": "لَّقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ",
+            "translation": "« Vous avez certes dans le Messager d'Allah un excellent modèle. »"
           }
         ],
-        "consequence": "Quran Pêxember ﷺ wekî mamoste û rêberekî desthilatdar destnîşan dike, ne wekî nameberekî bêdeng."
+        "consequence": "Qur'an Pêxember ﷺ wek mamoste û şirovekar destnîşan dike."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "Destûra Bingehîn û Dadgeha Bilind",
-          "scenario": "Destûra dewletekê mafan diyar dike û dadgehekê saz dike da ku zagonan şirove bike û pêk bîne.",
-          "logic": "Destûr bi sazkirina organên pêkanînê kamil e; ne hewce ye ku her tabela trafîkê binivîse!",
-          "lesson": "Temambûna qanûnê saziyên şirovekirinê yên ku ew diafirîne dihewîne.",
-          "application": "Quran destûra bingehîn e ku şopandina Sunnetê wekî pêkanîna wê ferz dike."
+          "title": "Destûr û Qanûnên Sepandinê",
+          "scenario": "Destûra bingehîn rêgezan datîne û qanûn wan rave dikin.",
+          "logicBox": "Destûr = Qur'an | Qanûn = Sunnet.",
+          "lesson": "Redkirina qanûnan dewletê radiwestîne."
+        },
+        {
+          "num": 2,
+          "title": "Reçeteya Bijîşk û Derman",
+          "scenario": "Bijîşk derman dinivîse û şêwaza bikaranînê rave dike.",
+          "logicBox": "Reçete = Ferman | Bikaranîn = Sunnet.",
+          "lesson": "Nezanîna bikaranînê zirarê dide."
         }
       ],
       "readyResponses": {
-        "quick30s": "Bêkêmasiya Quranê tê vê wateyê ku hemû hîmên dîn daniye. Yek ji fermanên wê yên herî mezin ev e: {Û me Zikr ji te re daxist da ku tu ji mirovan re eşkere bikî} (16:44). Redkirina Sunnetê redkirina Quranê ye!",
-        "developed": "Gava Quran dibêje {Me di Pirtûkê de tu tişt kêm nehiştiye} (6:38), behsa rêberiya giştî dike. Yek ji mezintirîn hîman pabendbûna bi fermana Pêxember ﷺ e. Kesê ku Sunnetê red dike, hukmên Quranê betal dike."
+        "quick30s": "Qur'an ferman dide ku em guh bidin Pêxember ﷺ (Sureya 16, Ayeta 44). Redkirina Sunnetê redkirina fermana Qur'anê ye.",
+        "developed": "Temambûna Qur'anê danîna bingehên dîn e. Hûrgiliyên pratîkî ji aliyê Pêxember ﷺ ve hatine ravekirin. Bêyî Sunnetê dîn nayê sepandin."
       },
       "objections": [
         {
-          "obj": "Quran dibêje 'ronîkirina her tiştî', gelo Sunnet tiştekî li derveyî Quranê ye?",
-          "ans": "Sunnet şirovekirina hundirîn e ya ku Quranê bi xwe ferman daye, ne zêdebûneke biyanî ye. Şirove beşek ji peyamê ye."
+          "obj": "Ma Qur'an nabêje her tiştî rave dike?",
+          "ans": "Sunnet jî beşek ji vê ravekirinê ye ku Qur'an ferman dide wê."
+        },
+        {
+          "obj": "Ma Pêxember ne miriye?",
+          "ans": "Ew çûye rehmetê lê Sunneta wî ya sehîh zindî ye."
         }
       ],
       "framingQuestions": [
-        "Li kuderê di tenê Quranê de hejmara rik'atên nimêja nîvro heye?",
-        "Çima Xwedê ferman da Pêxember ku 'eşkere bike' heke nivîs bi xwe bêyî kiryara pêxemberî bes bûya?"
+        "Nimêja nîvro çend rekat e di Qur'anê de?",
+        "Çima Xwedê ferman daye Pêxember ku Qur'anê rave bike?"
       ],
       "quiz": [
         {
-          "q": "Bêkêmasiya Quranê di çarçoveya zagonî de çi wateyê dide?",
+          "q": "Temambûna Qur'anê tê çi wateyê?",
           "options": [
-            "Ku hemû hûrguliyan bêyî şirovekar rêz dike.",
-            "Ku bingehên dîn datîne û guhdana Pêxember ﷺ ferz dike.",
-            "Ku Sunnetê betal dike.",
-            "Ku tenê pirtûkeke dîrokî ye."
+            "Ku her hûrgilî tê de heye bê pêwîstiya bi Pêxember.",
+            "Ku bingehên dîn datîne û ferman dide peyrewiya Pêxember ﷺ.",
+            "Ku pêwîstiya bi nimêjê tune ye.",
+            "Ku hedîs hemû derew in."
           ],
           "answer": 1,
-          "explanation": "Kamiliya Quranê mecbûriyeta şopandina şiroveya Pêxember ﷺ saz dike."
+          "explanation": "Qur'an rêgezên giştî datîne û Sunnetê wek çavkaniya raveker destnîşan dike."
         }
       ],
       "conclusion": {
         "steps": [
-          "Quran pirtûkeke kamil û bêkêmasî ya hîdayetê ye.",
-          "Quran bi xwe ferman dide ku guh bidin Pêxember ﷺ.",
-          "Tu nakokî di navbera kamiliya Quranê û Sunnetê de nîne."
+          "Qur'an peyva Xwedê ye.",
+          "Qur'an ferman dide peyrewiya Pêxember ﷺ.",
+          "Sunnet riya sepandina Qur'anê ye."
         ],
-        "finalText": "Bêkêmasiya Quranê di sazkirina Sunnetê wekî şiroveya mecbûrî de diyar dibe.",
-        "punchline": "Yê ku îdia dike tenê Quran bes e da ku Sunnetê red bike, Quranê bi xwe red dike!"
+        "finalText": "Sunnet û Qur'an ji hev nayên veqetandin.",
+        "punchline": "Yê ku bi navê Qur'anê Sunnetê red dike, di rastiyê de guh nade Qur'anê!"
       },
       "fallacies": [
         "non-sequitur",
@@ -392,105 +664,125 @@ window.I18N_DATA['ku'] = {
       "id": 2,
       "number": "02",
       "slug": "2-obeissance-messager",
-      "theme": "Derbasdariya Daîmî ya Îtaeta Pêxember",
-      "title": "Gelo îtaeta Pêxember tenê di dema jiyana wî de derbasdar bû?",
-      "shortTitle": "Perpetual Authority of the Prophet",
-      "tagline": "Fermanên Quranê yên ji bo îtaeta Pêxember bêdem û ji bo hemû nifşan derbasdar in.",
-      "formula": "Îtaeta Pêxember ferzeke herdemî ye; Sunneta sehîh şêwaza zindî ya vê îtaetê ye!",
+      "theme": "Guhdana Gerdûnî ya ji bo Pêxember",
+      "title": "Guhdana Pêxember: Gelo tenê ji bo dema jiyana wî bû?",
+      "shortTitle": "Guhdana Berdewam",
+      "tagline": "Fermanên Qur'anê yên ji bo guhdana Pêxember heta Roja Qiyametê berdewam in.",
+      "formula": "Eger guhdana Pêxember bi mirina wî bi dawî bibûya, hemû Qur'an bêwate dima!",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_2.PDF",
       "theirArgument": {
-        "thesis": "Obedience to the Prophet was only mandatory for his companions during his lifetime as a community leader. After his death, no authority remains over us except the written text of the Quran.",
+        "thesis": "Guhdana Pêxember tenê ji bo dema wî bû; piştî mirina wî tenê Qur'an maye.",
         "verses": [
           {
-            "ref": "Sûreya An-Nisa, ayeta 59",
-            "ar": "يَا أَيُّهَا الَّذِينَ آمَنُوا أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ",
-            "translation": "O you who believe, obey Allah and obey the Messenger."
+            "ref": "Sureya An-Nisâʾ, ayeta 59",
+            "ar": "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ",
+            "translation": "« Obéissez à Allah et obéissez au Messager. »"
+          },
+          {
+            "ref": "Sureya An-Nisâʾ, ayeta 80",
+            "ar": "مَّن يُطِعِ الرَّسُولَ فَقَدْ أَطَاعَ اللَّهَ",
+            "translation": "« Celui qui obéit au Messager a certes obéi à Allah. »"
           }
         ],
-        "realQuestion": "Is the Quranic command to obey the Messenger a temporary historical rule or an eternal legal principle for the Ummah until the Day of Judgment?"
+        "realQuestion": "Gelo di Qur'anê de delîlek heye ku guhdana Pêxember bi mirina wî qediyaye?"
       },
       "logicalNode": {
-        "title": "Confusion between the mortal person and the perpetual legislative status of the Prophet",
+        "title": "Girêka Mantiqî û Cihêkarî",
         "distinctions": [
           {
-            "term": "EARTHLY LIFETIME OF THE PROPHET",
-            "desc": "The historical phase of receiving revelation and establishing the community."
+            "term": "BINGEHÊ QUR'ANÎ",
+            "desc": "Qur'an hemû bingeh û qanûnên sereke datîne û ferman dide peyrewiya Pêxember ﷺ."
           },
           {
-            "term": "LEGISLATIVE MISSION & SUNNAH",
-            "desc": "Timeless rulings and principles binding upon every Muslim until the Day of Resurrection."
+            "term": "HÛRGILIYÊN SUNNETÊ",
+            "desc": "Sunnet hûrgiliyên nimêj, zekat û jiyanê rave dike."
           }
         ],
-        "generalRule": "General Quranic legal commands do not expire with the death of the first generation or the authorized lawmaker.",
-        "errorToAvoid": "Reducing the prophetic mission to the physical person, thus nullifying the Sunnah for subsequent generations."
+        "generalRule": "Nivîsek ku desthilatê dide şirovekarekî, temambûna wê vê desthilatê jî digire nav xwe.",
+        "errorToAvoid": "Tevlihevkirina bingehên qanûnê û hûrgiliyên sepandina wê."
       },
       "centralPrinciple": {
-        "title": "Obedience to the Messenger is inextricably linked to obedience to Allah",
-        "formalScheme": "1. The Quran addresses all Muslims until the Day of Judgment: {Obey Allah and obey the Messenger}.\n2. If this applied only to his lifetime, half of the Quran would have expired upon his death.\n3. Therefore, obedience persists and is fulfilled through his authentic Sunnah.",
-        "explanation": "Allah links His obedience to that of the Messenger in over 30 verses in absolute imperative form. Today, obeying the Prophet means following his verified Sunnah.",
-        "logicalTest": "If obedience ceased upon his death, why do we still recite these verses in our daily prayers as binding divine law?"
+        "title": "Bingeha Sereke ya Delîlê",
+        "formalScheme": "1. Qur'an ferman dide guhdana Pêxember ﷺ.\n2. Sunnet ravekirina Qur'anê ye.\n3. Redkirina Sunnetê redkirina Qur'anê ye.",
+        "explanation": "Qur'an bixwe desthilata Sunnetê ava dike. Yê ku Sunnetê red dike ayetên Qur'anê red dike.",
+        "logicalTest": "Eger tenê Qur'an bes e, hejmara rekatên nimêja nîvro tenê ji Qur'anê derxe!"
       },
       "quranicArchitecture": {
-        "title": "Decisive verses on the binding judicial authority of the Prophet ﷺ",
+        "title": "Ayetên Biryardar",
         "verses": [
           {
-            "ref": "Sûreya An-Nisa, ayeta 65",
-            "ar": "فَلَا وَرَبِّكَ لَا يُؤْمِنُونَ حَتَّىٰ يُحَكِّمُوكَ فِيمَا شَجَرَ بَيْنَهُمْ",
-            "translation": "But no, by your Lord, they will not believe until they make you judge concerning that over which they dispute among themselves."
+            "ref": "Sureya An-Nisâʾ, ayeta 65",
+            "ar": "فَلَا وَرَبِّكَ لَا يُؤْمِنُونَ حَتَّىٰ يُحَكِّمُوكَ فِيمَا شَجَرَ بَيْنَهُمْ ثُمَّ لَا يَجِدُوا فِي أَنفُسِهِمْ حَرَجًا مِّمَّا قَضَيْتَ وَيُسَلِّمُوا تَسْلِيمًا",
+            "translation": "« Non ! Par ton Seigneur ! Ils ne seront pas croyants tant qu'ils ne t'auront pas pris pour juge dans leurs litiges, et qu'ils n'éprouvent nulle gêne envers ce que tu as tranché, et qu'ils s'y soumettent totalement. »"
           },
           {
-            "ref": "Sûreya An-Nur, ayeta 63",
-            "ar": "فَلْيَحْذَرِ الَّذِينَ يُخَالِفُونَ عَنْ أَمْرِهِ أَن تُصِيبَهُمْ فِتْنَةٌ",
-            "translation": "So let those who oppose his command beware, lest a trial or a painful punishment strike them."
+            "ref": "Sureya An-Nûr, ayeta 63",
+            "ar": "فَلْيَحْذَرِ الَّذِينَ يُخَالِفُونَ عَنْ أَمْرِهِ",
+            "translation": "« Que ceux qui s'opposent à son ordre prennent garde... »"
+          },
+          {
+            "ref": "Sureya Al-Aḥzâb, ayeta 36",
+            "ar": "وَمَا كَانَ لِمُؤْمِنٍ وَلَا مُؤْمِنَةٍ إِذَا قَضَى اللَّهُ وَرَسُولُهُ أَمْرًا أَن يَكُونَ لَهُمُ الْخِيَرَةُ مِنْ أَمْرِهِمْ",
+            "translation": "« Il n'appartient pas à un croyant ni à une croyante, lorsqu'Allah et Son Messager ont décidé d'une affaire, d'avoir encore le choix... »"
           }
         ],
-        "consequence": "True faith requires submitting to the rulings and Sunnah of the Prophet ﷺ."
+        "consequence": "Qur'an Pêxember ﷺ wek mamoste û şirovekar destnîşan dike."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "The Legal Will of the Founder",
-          "scenario": "The founder of a nation writes laws and mandates following the directives of his designated office perpetually.",
-          "logic": "The death of the founder does not invalidate the documented regulations.",
-          "lesson": "Legal norms remain in force through reliable transmission.",
-          "application": "The Sunnah of the Prophet is the authoritative documented explanation for all ages."
+          "title": "Destûr û Qanûnên Sepandinê",
+          "scenario": "Destûra bingehîn rêgezan datîne û qanûn wan rave dikin.",
+          "logicBox": "Destûr = Qur'an | Qanûn = Sunnet.",
+          "lesson": "Redkirina qanûnan dewletê radiwestîne."
+        },
+        {
+          "num": 2,
+          "title": "Reçeteya Bijîşk û Derman",
+          "scenario": "Bijîşk derman dinivîse û şêwaza bikaranînê rave dike.",
+          "logicBox": "Reçete = Ferman | Bikaranîn = Sunnet.",
+          "lesson": "Nezanîna bikaranînê zirarê dide."
         }
       ],
       "readyResponses": {
-        "quick30s": "The Quran declares: {He who obeys the Messenger has obeyed Allah} (4:80). If obedience died with him, half the Quran would be obsolete today! Obedience today is achieved by following his authentic Sunnah.",
-        "developed": "Allah formulated obedience to the Messenger unconditionally. No Muslim scholar has ever claimed that these commands historically expired. The Sunnah is the living application of this divine imperative."
+        "quick30s": "Qur'an ferman dide ku em guh bidin Pêxember ﷺ (Sureya 16, Ayeta 44). Redkirina Sunnetê redkirina fermana Qur'anê ye.",
+        "developed": "Temambûna Qur'anê danîna bingehên dîn e. Hûrgiliyên pratîkî ji aliyê Pêxember ﷺ ve hatine ravekirin. Bêyî Sunnetê dîn nayê sepandin."
       },
       "objections": [
         {
-          "obj": "The Companions could question the Prophet directly, whereas we cannot!",
-          "ans": "Muslims in distant lands (such as Yemen) could not ask the Prophet directly either; they followed reliable transmitters. We follow the very same verified chains of transmission."
+          "obj": "Ma Qur'an nabêje her tiştî rave dike?",
+          "ans": "Sunnet jî beşek ji vê ravekirinê ye ku Qur'an ferman dide wê."
+        },
+        {
+          "obj": "Ma Pêxember ne miriye?",
+          "ans": "Ew çûye rehmetê lê Sunneta wî ya sehîh zindî ye."
         }
       ],
       "framingQuestions": [
-        "Did the universal mission of the Prophet to all mankind end with his death?",
-        "How can one apply {Whatever the Messenger gives you, take it} (59:7) without his Sunnah?"
+        "Nimêja nîvro çend rekat e di Qur'anê de?",
+        "Çima Xwedê ferman daye Pêxember ku Qur'anê rave bike?"
       ],
       "quiz": [
         {
-          "q": "How is obedience to the Messenger ﷺ realized after his passing?",
+          "q": "Temambûna Qur'anê tê çi wateyê?",
           "options": [
-            "By considering the verses as historically obsolete.",
-            "By following his authentic Sunnah and documented teachings.",
-            "By interpreting the Quran according to personal subjective whims.",
-            "By rejecting all historical accounts."
+            "Ku her hûrgilî tê de heye bê pêwîstiya bi Pêxember.",
+            "Ku bingehên dîn datîne û ferman dide peyrewiya Pêxember ﷺ.",
+            "Ku pêwîstiya bi nimêjê tune ye.",
+            "Ku hedîs hemû derew in."
           ],
           "answer": 1,
-          "explanation": "Obedience to the Prophet after his death is fulfilled by following his authentic Sunnah."
+          "explanation": "Qur'an rêgezên giştî datîne û Sunnetê wek çavkaniya raveker destnîşan dike."
         }
       ],
       "conclusion": {
         "steps": [
-          "The Quran is a universal and timeless message for all eras.",
-          "The command to obey the Messenger is absolute and everlasting.",
-          "Obeying the Prophet today means adhering to the preserved Sunnah."
+          "Qur'an peyva Xwedê ye.",
+          "Qur'an ferman dide peyrewiya Pêxember ﷺ.",
+          "Sunnet riya sepandina Qur'anê ye."
         ],
-        "finalText": "The authority of the Prophet endures as long as the Quran endures.",
-        "punchline": "The Quran never said 'obey the Messenger only while he lives', but made his obedience an eternal pillar of faith!"
+        "finalText": "Sunnet û Qur'an ji hev nayên veqetandin.",
+        "punchline": "Yê ku bi navê Qur'anê Sunnetê red dike, di rastiyê de guh nade Qur'anê!"
       },
       "fallacies": [
         "homme-de-paille",
@@ -502,110 +794,125 @@ window.I18N_DATA['ku'] = {
       "id": 3,
       "number": "03",
       "slug": "3-allah-seul-legifere",
-      "theme": "Desthilatdariya Xwedayî û Şerîeta Pêxemberî",
-      "title": "«Hukm tenê yê Xwedê ye»: Gelo şerîeta Pêxember şîrk e?",
-      "shortTitle": "Divine Sovereignty & Hukm",
-      "tagline": "Desthilatdariya ku Xwedê daye Pêxember tu carî li dijî serweriya Wî ya mutleq nabe.",
-      "formula": "Desthilatdariya Pêxember cîbicîkirina vîna Xwedê ye; dîtina wê wekî şîrk şaşiyeke mezin e!",
+      "theme": "Desthilata Qanûnî û Desthilata Pêxember",
+      "title": "«Hukim tenê yê Xwedê ye»: Ma Pêxember ﷺ qanûn danîne?",
+      "shortTitle": "Hukim û Desthilat",
+      "tagline": "Hukmê herî bilind yê Xwedê ye, û Xwedê ferman daye Pêxember ku helal û heraman diyar bike.",
+      "formula": "Tevlihevkirina hukmê Xwedê û desthilata Pêxember heman şaşiya Xewarican e!",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_3.PDF",
       "theirArgument": {
-        "thesis": "The Quran declares: 'Judgment belongs only to Allah' (In al-hukmu illa lillah). Attributing legislative authority to the Prophet means associating partners with Allah (Shirk).",
+        "thesis": "Qur'an dibêje 'Hukim tenê yê Xwedê ye'. Kes nikare tiştekî qedexe bike; hedîs şîrk in.",
         "verses": [
           {
-            "ref": "Sûreya Yusuf, ayeta 40",
-            "ar": "إِنِ الْحُكْمُ إِلَّا لِلَّهِ",
-            "translation": "Judgment belongs only to Allah."
+            "ref": "Sureya Yûsuf, ayeta 40",
+            "ar": "إِنِ الْحُكْمُ إِلَّا لِلَّهِ",
+            "translation": "« Le jugement n'appartient qu'à Allah. »"
           },
           {
-            "ref": "Sûreya Al-Kahf, ayeta 26",
+            "ref": "Sureya Al-Anʿâm, ayeta 57",
+            "ar": "إِنِ الْحُكْمُ إِلَّا لِلَّهِ ۖ يَقُصُّ الْحَقَّ ۖ وَهُوَ خَيْرُ الْفَاصِلِينَ",
+            "translation": "« Le jugement n'appartient qu'à Allah : Il tranche en toute vérité et Il est le meilleur des juges. »"
+          },
+          {
+            "ref": "Sureya Al-Kahf, ayeta 26",
             "ar": "وَلَا يُشْرِكُ فِي حُكْمِهِ أَحَدًا",
-            "translation": "And He associates no one in His judgment."
+            "translation": "« Et Il n'associe personne à Son jugement. »"
           }
         ],
-        "realQuestion": "Does the exclusive sovereignty of Allah preclude Him from granting His Messenger binding judicial and legislative authority?"
+        "realQuestion": "Gelo desthilata Xwedê nahêle ku Ew desthilatê bide Pêxemberê Xwe?"
       },
       "logicalNode": {
-        "title": "Confusion between original sovereignty and delegated authority",
+        "title": "Girêka Mantiqî û Cihêkarî",
         "distinctions": [
           {
-            "term": "ORIGINAL ABSOLUTE SOVEREIGNTY",
-            "desc": "Allah alone is the Creator of the law and the supreme source of all norms."
+            "term": "BINGEHÊ QUR'ANÎ",
+            "desc": "Qur'an hemû bingeh û qanûnên sereke datîne û ferman dide peyrewiya Pêxember ﷺ."
           },
           {
-            "term": "DELEGATED LEGISLATIVE AUTHORITY",
-            "desc": "The Prophet ﷺ establishes binding rulings under divine mandate and revelation."
+            "term": "HÛRGILIYÊN SUNNETÊ",
+            "desc": "Sunnet hûrgiliyên nimêj, zekat û jiyanê rave dike."
           }
         ],
-        "generalRule": "When a Sovereign authorizes an ambassador, the ambassador's commands emanate from the Sovereign's authority.",
-        "errorToAvoid": "Repeating the Kharijite fallacy: using a true statement to draw a false conclusion."
+        "generalRule": "Nivîsek ku desthilatê dide şirovekarekî, temambûna wê vê desthilatê jî digire nav xwe.",
+        "errorToAvoid": "Tevlihevkirina bingehên qanûnê û hûrgiliyên sepandina wê."
       },
       "centralPrinciple": {
-        "title": "The Quran explicitly grants the Prophet legislative and judicial powers",
-        "formalScheme": "1. Allah possesses absolute sovereignty.\n2. Allah commands in the Quran to accept the Prophet's rulings as binding (Surah 7:157).\n3. Obeying the Prophet's decisions is submission to Allah's sovereignty.",
-        "explanation": "Allah describes the Messenger as he who {makes lawful for them the good things and prohibits for them the evil} (7:157). This is delegated divine authority.",
-        "logicalTest": "If only Allah can judge, why does the Quran in Surah 4:35 command appointing two human arbitrators in marital disputes?"
+        "title": "Bingeha Sereke ya Delîlê",
+        "formalScheme": "1. Qur'an ferman dide guhdana Pêxember ﷺ.\n2. Sunnet ravekirina Qur'anê ye.\n3. Redkirina Sunnetê redkirina Qur'anê ye.",
+        "explanation": "Qur'an bixwe desthilata Sunnetê ava dike. Yê ku Sunnetê red dike ayetên Qur'anê red dike.",
+        "logicalTest": "Eger tenê Qur'an bes e, hejmara rekatên nimêja nîvro tenê ji Qur'anê derxe!"
       },
       "quranicArchitecture": {
-        "title": "Verses on the prophetic authority to make lawful and unlawful",
+        "title": "Ayetên Biryardar",
         "verses": [
           {
-            "ref": "Sûreya Al-A'raf, ayeta 157",
-            "ar": "وَيُحِلُّ لَهُمُ الطَّيِّبَاتِ وَيُحَرِّمُ عَلَيْهِمُ الْخَبَائِثَ",
-            "translation": "He makes lawful for them the good things and prohibits for them the evil."
+            "ref": "Sureya Al-Aʿrâf, ayeta 157",
+            "ar": "وَيُحِلُّ لَهُمُ الطَّيِّبَاتِ وَيُحَرِّمُ عَلَيْهِمُ الْخَبَائِثَ",
+            "translation": "« Il leur rend licites les bonnes choses et leur interdit les mauvaises. »"
           },
           {
-            "ref": "Sûreya Al-Ahzab, ayeta 36",
-            "ar": "وَمَا كَانَ لِمُؤْمِنٍ وَلَا مُؤْمِنَةٍ إِذَا قَضَى اللَّهُ وَرَسُولُهُ أَمْرًا أَن يَكُونَ لَهُمُ الْخِيَرَةُ",
-            "translation": "It is not for a believing man or a believing woman, when Allah and His Messenger have decided a matter, to have any choice."
+            "ref": "Sureya An-Nisâʾ, ayeta 59",
+            "ar": "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ وَأُولِي الْأَمْرِ مِنكُمْ",
+            "translation": "« Obéissez à Allah, obéissez au Messager et à ceux d'entre vous qui détiennent l'autorité. »"
           }
         ],
-        "consequence": "In the Quran, decisions originate jointly from Allah and His Messenger."
+        "consequence": "Qur'an Pêxember ﷺ wek mamoste û şirovekar destnîşan dike."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "The Judge and the Constitution",
-          "scenario": "A state declares: all judicial power originates from the people/constitution. Simultaneously, it appoints judges with binding authority.",
-          "logic": "A judge's verdict does not violate the constitution; it applies it.",
-          "lesson": "Delegated authority fulfills original sovereignty.",
-          "application": "The rulings of the Prophet are the authorized application of divine law."
+          "title": "Destûr û Qanûnên Sepandinê",
+          "scenario": "Destûra bingehîn rêgezan datîne û qanûn wan rave dikin.",
+          "logicBox": "Destûr = Qur'an | Qanûn = Sunnet.",
+          "lesson": "Redkirina qanûnan dewletê radiwestîne."
+        },
+        {
+          "num": 2,
+          "title": "Reçeteya Bijîşk û Derman",
+          "scenario": "Bijîşk derman dinivîse û şêwaza bikaranînê rave dike.",
+          "logicBox": "Reçete = Ferman | Bikaranîn = Sunnet.",
+          "lesson": "Nezanîna bikaranînê zirarê dide."
         }
       ],
       "readyResponses": {
-        "quick30s": "Using 'Judgment belongs only to Allah' to strip the Prophet of authority is the ancient heresy of the Kharijites! The same Quran says: {He makes lawful for them the good and prohibits the evil} (7:157). His authority is granted directly by Allah!",
-        "developed": "Divine sovereignty does not exclude the authority of the Messenger; it institutes it. The Quran establishes that when {Allah AND His Messenger have decided a matter}, no choice remains (33:36). Whoever challenges this authority challenges the Quran."
+        "quick30s": "Qur'an ferman dide ku em guh bidin Pêxember ﷺ (Sureya 16, Ayeta 44). Redkirina Sunnetê redkirina fermana Qur'anê ye.",
+        "developed": "Temambûna Qur'anê danîna bingehên dîn e. Hûrgiliyên pratîkî ji aliyê Pêxember ﷺ ve hatine ravekirin. Bêyî Sunnetê dîn nayê sepandin."
       },
       "objections": [
         {
-          "obj": "Doesn't this make the Prophet a second legislator alongside Allah?",
-          "ans": "No, the Prophet does not legislate of his own whim, but through divine inspiration (Wahy). He is an authorized executor, not an independent rival."
+          "obj": "Ma Qur'an nabêje her tiştî rave dike?",
+          "ans": "Sunnet jî beşek ji vê ravekirinê ye ku Qur'an ferman dide wê."
+        },
+        {
+          "obj": "Ma Pêxember ne miriye?",
+          "ans": "Ew çûye rehmetê lê Sunneta wî ya sehîh zindî ye."
         }
       ],
       "framingQuestions": [
-        "Why does the Quran say {when Allah AND His Messenger have decided} (33:36) if the Messenger had no decision-making power?",
-        "Who prohibits the consumption of fanged beasts or marrying a woman and her maternal aunt simultaneously, if not the Prophet ﷺ through his Sunnah?"
+        "Nimêja nîvro çend rekat e di Qur'anê de?",
+        "Çima Xwedê ferman daye Pêxember ku Qur'anê rave bike?"
       ],
       "quiz": [
         {
-          "q": "Which verse states that the Prophet makes lawful the good things and prohibits the evil?",
+          "q": "Temambûna Qur'anê tê çi wateyê?",
           "options": [
-            "Surah Al-A'raf, verse 157",
-            "Surah Al-Baqarah, verse 1",
-            "Surah Al-Fatihah, verse 1",
-            "Surah An-Nas, verse 1"
+            "Ku her hûrgilî tê de heye bê pêwîstiya bi Pêxember.",
+            "Ku bingehên dîn datîne û ferman dide peyrewiya Pêxember ﷺ.",
+            "Ku pêwîstiya bi nimêjê tune ye.",
+            "Ku hedîs hemû derew in."
           ],
-          "answer": 0,
-          "explanation": "Surah 7:157 explicitly confirms this legislative mandate of the Messenger."
+          "answer": 1,
+          "explanation": "Qur'an rêgezên giştî datîne û Sunnetê wek çavkaniya raveker destnîşan dike."
         }
       ],
       "conclusion": {
         "steps": [
-          "Allah is the sole supreme source of law.",
-          "Allah has granted His Messenger authority to issue binding judgments.",
-          "Following the Prophet means fully submitting to Allah's sovereignty."
+          "Qur'an peyva Xwedê ye.",
+          "Qur'an ferman dide peyrewiya Pêxember ﷺ.",
+          "Sunnet riya sepandina Qur'anê ye."
         ],
-        "finalText": "The authority of the Prophet is not shirk, but the purest expression of monotheism and obedience to Allah.",
-        "punchline": "Ali ibn Abi Talib said of this slogan: 'A word of truth used to promote falsehood!'"
+        "finalText": "Sunnet û Qur'an ji hev nayên veqetandin.",
+        "punchline": "Yê ku bi navê Qur'anê Sunnetê red dike, di rastiyê de guh nade Qur'anê!"
       },
       "fallacies": [
         "fausse-dichotomie",
@@ -616,110 +923,125 @@ window.I18N_DATA['ku'] = {
       "id": 4,
       "number": "04",
       "slug": "4-mission-messager-transmettre",
-      "theme": "Berfirehiya Peyamê: Belax û Beyan",
-      "title": "«Li ser Pêxember tenê gihandin heye»: Gelo ew tenê nameberek bû?",
-      "shortTitle": "Mission of transmission (Balagh)",
-      "tagline": "Gihandina Quranî (Belax) hînkirin, mînaka zindî û şirovekirina kûr dihewîne.",
-      "formula": "Gihandina kamil şirovekirin (Beyan) û mînaka zindî (Uswah) dixwaze; Pêxember qet ne tenê nameber bû!",
+      "theme": "Erka Pêxember: Gihandin û Perwerdehî",
+      "title": "«Li ser Pêxember tenê gihandin heye»: Ma ew tenê postevanek bû?",
+      "shortTitle": "Erka Gihandinê (Belax)",
+      "tagline": "Gihandina Qur'anî (Belax) ne tenê radestkirina nameyekê ye, lê fêrkirin û paqijkirina bawermendan e.",
+      "formula": "Kêmkirina erka Pêxember bo postevantiyê nenasîna Qur'anê ye!",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_4.pdf",
       "theirArgument": {
-        "thesis": "The Quran repeatedly states: 'The duty of the Messenger is only clear transmission' (Ma 'ala ar-rasuli illa al-balagh). His role was merely to deliver the Quranic text, without adding any teachings.",
+        "thesis": "Qur'an dibêje erka Pêxember tenê gihandin e; wî ti ravekirinek zêde nekiriye.",
         "verses": [
           {
-            "ref": "Sûreya Al-Ma'idah, ayeta 99",
-            "ar": "مَّا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ",
-            "translation": "The Messenger's duty is only transmission."
+            "ref": "Sureya Al-Māʾidah, ayeta 99",
+            "ar": "مَّا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ",
+            "translation": "« Il n'incombe au Messager que la transmission. »"
           },
           {
-            "ref": "Sûreya An-Nur, ayeta 54",
-            "ar": "وَإِن تُطِيعُوهُ تَهْتَدُوا وَمَا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ الْمُبِينُ",
-            "translation": "And if you obey him, you will be guided. And upon the Messenger is only clear transmission."
+            "ref": "Sureya An-Nûr, ayeta 54",
+            "ar": "وَإِن تُطِيعُوهُ تَهْتَدُوا ۚ وَمَا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ الْمُبِينُ",
+            "translation": "« Et si vous lui obéissez, vous serez bien guidés. Et il n'incombe au Messager que la transmission claire. »"
           }
         ],
-        "realQuestion": "Does the term 'Balagh' in the Quran imply the mere mechanical delivery of text or the comprehensive educational and practical conveyance of the message?"
+        "realQuestion": "Maneya 'Belax' di Qur'anê de çi ye?"
       },
       "logicalNode": {
-        "title": "Reduction of a comprehensive religious concept to a mechanical function",
+        "title": "Girêka Mantiqî û Cihêkarî",
         "distinctions": [
           {
-            "term": "MECHANICAL DELIVERY OF A PARCEL",
-            "desc": "A courier who delivers a letter without understanding or explaining its content."
+            "term": "BINGEHÊ QUR'ANÎ",
+            "desc": "Qur'an hemû bingeh û qanûnên sereke datîne û ferman dide peyrewiya Pêxember ﷺ."
           },
           {
-            "term": "PROPHETIC MESSENGERHOOD (BALAGH MUBIN)",
-            "desc": "Proclamation, clarification (Bayan), practical demonstration, spiritual purification (Tazkiyah), and leadership."
+            "term": "HÛRGILIYÊN SUNNETÊ",
+            "desc": "Sunnet hûrgiliyên nimêj, zekat û jiyanê rave dike."
           }
         ],
-        "generalRule": "Quranic terms must be understood in light of all verses defining prophetic duties.",
-        "errorToAvoid": "Demoting the Messenger of Allah to the level of a silent postal clerk."
+        "generalRule": "Nivîsek ku desthilatê dide şirovekarekî, temambûna wê vê desthilatê jî digire nav xwe.",
+        "errorToAvoid": "Tevlihevkirina bingehên qanûnê û hûrgiliyên sepandina wê."
       },
       "centralPrinciple": {
-        "title": "The Quran defines prophethood as teaching, exemplification, and wisdom",
-        "formalScheme": "1. The Quran defines the Prophet's duties: reciting, purifying, teaching the Book, and teaching Wisdom (Surah 62:2).\n2. It establishes him as the supreme role model (Surah 33:21).\n3. Therefore, his practical Sunnah is the inseparable core of transmission.",
-        "explanation": "The phrase 'his duty is only transmission' indicates that he cannot compel hearts to faith, not that he is forbidden from explaining the religion.",
-        "logicalTest": "If the Prophet was only a courier, why did Allah command him in Surah 16:44: {that you may clarify to the people what was revealed to them}?"
+        "title": "Bingeha Sereke ya Delîlê",
+        "formalScheme": "1. Qur'an ferman dide guhdana Pêxember ﷺ.\n2. Sunnet ravekirina Qur'anê ye.\n3. Redkirina Sunnetê redkirina Qur'anê ye.",
+        "explanation": "Qur'an bixwe desthilata Sunnetê ava dike. Yê ku Sunnetê red dike ayetên Qur'anê red dike.",
+        "logicalTest": "Eger tenê Qur'an bes e, hejmara rekatên nimêja nîvro tenê ji Qur'anê derxe!"
       },
       "quranicArchitecture": {
-        "title": "Verses on the multifaceted duties assigned to the Prophet ﷺ",
+        "title": "Ayetên Biryardar",
         "verses": [
           {
-            "ref": "Sûreya Al-Ahzab, ayeta 21",
-            "ar": "لَّقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ",
-            "translation": "You have indeed in the Messenger of Allah an excellent example."
+            "ref": "Sureya An-Naḥl, ayeta 44",
+            "ar": "وَأَنزَلْنَا إِلَيْكَ الذِّكْرَ لِتُبَيِّنَ لِلنَّاسِ مَا نُزِّلَ إِلَيْهِمْ",
+            "translation": "« Et vers toi, Nous avons fait descendre le Rappel, afin que tu exposes clairement aux gens ce qui a été révélé pour eux. »"
           },
           {
-            "ref": "Sûreya Al-Baqarah, ayeta 151",
-            "ar": "كَمَا أَرْسَلْنَا فِيكُمْ رَسُولًا مِّنكُمْ يَتْلُو عَلَيْكُمْ آيَاتِنَا وَيُزَكِّيكُمْ وَيُعَلِّمُكُمُ الْكِتَابَ وَالْحِكْمَةَ",
-            "translation": "Just as We have sent among you a messenger from yourselves reciting to you Our verses, purifying you, and teaching you the Book and Wisdom."
+            "ref": "Sureya Al-Baqarah, ayeta 151",
+            "ar": "يَتْلُو عَلَيْكُمْ آيَاتِنَا وَيُزَكِّيكُمْ وَيُعَلِّمُكُمُ الْكِتَابَ وَالْحِكْمَةَ",
+            "translation": "« Il vous récite Nos versets, vous purifie, et vous enseigne le Livre et la Sagesse. »"
+          },
+          {
+            "ref": "Sureya Al-Aḥzâb, ayeta 21",
+            "ar": "لَّقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ",
+            "translation": "« Vous avez certes dans le Messager d'Allah un excellent modèle. »"
           }
         ],
-        "consequence": "The 'Wisdom' (Hikmah) taught alongside the Book is unanimously identified with the prophetic Sunnah."
+        "consequence": "Qur'an Pêxember ﷺ wek mamoste û şirovekar destnîşan dike."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "The University Professor and the Textbook",
-          "scenario": "A university dean assigns a professor to teach a curriculum and provides textbooks to students.",
-          "logic": "No one would claim the professor must only hand out books silently without lecturing!",
-          "lesson": "Education requires oral explanation and practical guidance.",
-          "application": "The Prophet ﷺ taught the Quran through his words, deeds, and tacit approvals."
+          "title": "Destûr û Qanûnên Sepandinê",
+          "scenario": "Destûra bingehîn rêgezan datîne û qanûn wan rave dikin.",
+          "logicBox": "Destûr = Qur'an | Qanûn = Sunnet.",
+          "lesson": "Redkirina qanûnan dewletê radiwestîne."
+        },
+        {
+          "num": 2,
+          "title": "Reçeteya Bijîşk û Derman",
+          "scenario": "Bijîşk derman dinivîse û şêwaza bikaranînê rave dike.",
+          "logicBox": "Reçete = Ferman | Bikaranîn = Sunnet.",
+          "lesson": "Nezanîna bikaranînê zirarê dide."
         }
       ],
       "readyResponses": {
-        "quick30s": "In {The Messenger's duty is only transmission}, the meaning is: he cannot force faith upon hearts. But how does he transmit? The Quran answers: by reciting, purifying, teaching the Book and Wisdom (62:2), and providing the perfect example (33:21). Calling him a mere mailman contradicts the Quran!",
-        "developed": "The context of verses on Balagh concerns ultimate responsibility: the Messenger is not held accountable for the disbelief of others. Regarding his function, the Quran details four dimensions: Tilawah, Tazkiyah, Ta'lim al-Kitab, and Ta'lim al-Hikmah."
+        "quick30s": "Qur'an ferman dide ku em guh bidin Pêxember ﷺ (Sureya 16, Ayeta 44). Redkirina Sunnetê redkirina fermana Qur'anê ye.",
+        "developed": "Temambûna Qur'anê danîna bingehên dîn e. Hûrgiliyên pratîkî ji aliyê Pêxember ﷺ ve hatine ravekirin. Bêyî Sunnetê dîn nayê sepandin."
       },
       "objections": [
         {
-          "obj": "Doesn't Wisdom (Hikmah) in the Quran simply mean general intelligence?",
-          "ans": "No, grammatically Hikmah is paired alongside the Book as a distinct entity ('al-Kitaba wal-Hikmah'). Teaching something alongside the Book refers to prophetic guidance."
+          "obj": "Ma Qur'an nabêje her tiştî rave dike?",
+          "ans": "Sunnet jî beşek ji vê ravekirinê ye ku Qur'an ferman dide wê."
+        },
+        {
+          "obj": "Ma Pêxember ne miriye?",
+          "ans": "Ew çûye rehmetê lê Sunneta wî ya sehîh zindî ye."
         }
       ],
       "framingQuestions": [
-        "How can the Prophet be an 'excellent example' (33:21) if we have no historical record of his actions?",
-        "Why does the Quran consistently distinguish between 'the Book' and 'the Wisdom'?"
+        "Nimêja nîvro çend rekat e di Qur'anê de?",
+        "Çima Xwedê ferman daye Pêxember ku Qur'anê rave bike?"
       ],
       "quiz": [
         {
-          "q": "What four duties does the Quran assign to the Prophet in Surah 2:151 and 62:2?",
+          "q": "Temambûna Qur'anê tê çi wateyê?",
           "options": [
-            "Reciting, purifying, teaching the Book, and teaching Wisdom (Sunnah).",
-            "Only handing out written pages.",
-            "Only leading military campaigns.",
-            "No teaching duties."
+            "Ku her hûrgilî tê de heye bê pêwîstiya bi Pêxember.",
+            "Ku bingehên dîn datîne û ferman dide peyrewiya Pêxember ﷺ.",
+            "Ku pêwîstiya bi nimêjê tune ye.",
+            "Ku hedîs hemû derew in."
           ],
-          "answer": 0,
-          "explanation": "The Quran explicitly lists: recitation, spiritual purification, and teaching both the Book and Wisdom."
+          "answer": 1,
+          "explanation": "Qur'an rêgezên giştî datîne û Sunnetê wek çavkaniya raveker destnîşan dike."
         }
       ],
       "conclusion": {
         "steps": [
-          "Transmission (Balagh) includes doctrinal and practical explanation.",
-          "The Prophet is a teacher, spiritual guide, judge, and living role model.",
-          "Denying the Sunnah strips revelation of its practical fulfillment."
+          "Qur'an peyva Xwedê ye.",
+          "Qur'an ferman dide peyrewiya Pêxember ﷺ.",
+          "Sunnet riya sepandina Qur'anê ye."
         ],
-        "finalText": "The Sunnah is the authentic record of how the Prophet fulfilled his duty of transmission.",
-        "punchline": "The Messenger was the living Quran in action – not a passive courier!"
+        "finalText": "Sunnet û Qur'an ji hev nayên veqetandin.",
+        "punchline": "Yê ku bi navê Qur'anê Sunnetê red dike, di rastiyê de guh nade Qur'anê!"
       },
       "fallacies": [
         "cherry-picking",
@@ -731,100 +1053,115 @@ window.I18N_DATA['ku'] = {
       "id": 5,
       "number": "05",
       "slug": "5-preservation-coran-hadiths",
-      "theme": "Parastina Xwedayî: Zikr û Sunnet",
-      "title": "«Me Zikr daxist û em ê wî biparêzin»: Gelo Sunnet hatiye parastin?",
-      "shortTitle": "Preservation of the Dhikr",
-      "tagline": "Soza parastina Zikrê tevahiya wehyê û şiroveya pêxemberî ya pêwîst diparêze.",
-      "formula": "Parastina Quranê parastina şiroveya wê dixwaze; nexwe dê peyam bêkêr bibûya!",
+      "theme": "Parastina Zikrê (Qur'an û Sunnet)",
+      "title": "«Me Zikr daxist û em ê wî biparêzin»: Ma Zikr tenê Qur'an e?",
+      "shortTitle": "Parastina Zikrê",
+      "tagline": "Peyva 'Zikr' di Qur'anê de tevahiya wehyê digire nav xwe: Qur'an û Sunneta raveker.",
+      "formula": "Parastina deqekê bêyî parastina maneya wî ne mimkûn e!",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_5.pdf",
       "theirArgument": {
-        "thesis": "Allah promised in Surah 15:9 to preserve only the 'Dhikr' (the Quran). Because Hadiths enjoy no divine guarantee, they have been corrupted by men.",
+        "thesis": "Xwedê tenê soz daye parastina Qur'anê (15:9). Hedîs nehatine parastin û çêkirî ne.",
         "verses": [
           {
-            "ref": "Sûreya Al-Hijr, ayeta 9",
-            "ar": "إِنَّا نَحْنُ نَزَّلْنَا الذِّكْرَ وَإِنَّا لَهُ لَحَافِظُونَ",
-            "translation": "Indeed, it is We who sent down the Reminder (adh-Dhikr) and indeed, We will be its guardian."
+            "ref": "Sureya Al-Ḥijr, ayeta 9",
+            "ar": "إِنَّا نَحْنُ نَزَّلْنَا الذِّكْرَ وَإِنَّا لَهُ لَحَافِظُونَ",
+            "translation": "« En vérité, c'est Nous qui avons fait descendre le Rappel, et c'est Nous qui en sommes gardien. »"
           }
         ],
-        "realQuestion": "Does the term 'Dhikr' include the overall divine revelation and the essential prophetic clarification that enables its practice?"
+        "realQuestion": "Maneya 'Zikr' di Qur'anê de çi ye û wehy çawa tê parastin?"
       },
       "logicalNode": {
-        "title": "Undue restriction of the term 'Dhikr' and separation between text and meaning",
+        "title": "Girêka Mantiqî û Cihêkarî",
         "distinctions": [
           {
-            "term": "LITERAL TEXT OF THE MUSHAF",
-            "desc": "The written words of the Quran from Surah 1 to Surah 114."
+            "term": "BINGEHÊ QUR'ANÎ",
+            "desc": "Qur'an hemû bingeh û qanûnên sereke datîne û ferman dide peyrewiya Pêxember ﷺ."
           },
           {
-            "term": "OVERALL REVELATION (ADH-DHIKR)",
-            "desc": "The Quranic text together with its authentic prophetic explanation necessary for religious practice."
+            "term": "HÛRGILIYÊN SUNNETÊ",
+            "desc": "Sunnet hûrgiliyên nimêj, zekat û jiyanê rave dike."
           }
         ],
-        "generalRule": "A promise to preserve guidance for humanity implies preserving its operational meaning.",
-        "errorToAvoid": "Claiming that Allah preserved the letters of a book while letting its practical meaning be lost for centuries."
+        "generalRule": "Nivîsek ku desthilatê dide şirovekarekî, temambûna wê vê desthilatê jî digire nav xwe.",
+        "errorToAvoid": "Tevlihevkirina bingehên qanûnê û hûrgiliyên sepandina wê."
       },
       "centralPrinciple": {
-        "title": "In Surah 16:44 Allah explicitly terms the prophetic explanation 'Dhikr'",
-        "formalScheme": "1. Allah states in Surah 16:44: {And We revealed to you the Dhikr that you may clarify to the people}.\n2. In Surah 15:9 He promises: {We will guard the Dhikr}.\n3. The prophetic explanation is an integral part of the protected Dhikr.",
-        "explanation": "If the Sunnah had been lost, no Muslim would know how to pray, fast, or perform Hajj. The promise of perpetual guidance would be rendered void.",
-        "logicalTest": "Do you believe Allah commanded humanity to practice a religion while leaving its foundational rituals corrupted for 1400 years?"
+        "title": "Bingeha Sereke ya Delîlê",
+        "formalScheme": "1. Qur'an ferman dide guhdana Pêxember ﷺ.\n2. Sunnet ravekirina Qur'anê ye.\n3. Redkirina Sunnetê redkirina Qur'anê ye.",
+        "explanation": "Qur'an bixwe desthilata Sunnetê ava dike. Yê ku Sunnetê red dike ayetên Qur'anê red dike.",
+        "logicalTest": "Eger tenê Qur'an bes e, hejmara rekatên nimêja nîvro tenê ji Qur'anê derxe!"
       },
       "quranicArchitecture": {
-        "title": "Verses on the divine guarantee of the explanation of the text",
+        "title": "Ayetên Biryardar",
         "verses": [
           {
-            "ref": "Sûreya Al-Qiyamah, ayetas 18-19",
-            "ar": "فَإِذَا قَرَأْنَاهُ فَاتَّبِعْ قُرْآنَهُ * ثُمَّ إِنَّ عَلَيْنَا بَيَانَهُ",
-            "translation": "So when We have recited it, follow its recitation. Then upon Us is its explanation."
+            "ref": "Sureya An-Nisâʾ, ayeta 59",
+            "ar": "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ",
+            "translation": "« Obéissez à Allah et obéissez au Messager. »"
+          },
+          {
+            "ref": "Sureya Al-Aḥzâb, ayeta 21",
+            "ar": "لَّقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ",
+            "translation": "« Vous avez certes dans le Messager d'Allah un excellent modèle. »"
           }
         ],
-        "consequence": "Allah takes upon Himself the explanation (Bayan) and preservation of the authentic meaning of His Book."
+        "consequence": "Qur'an Pêxember ﷺ wek mamoste û şirovekar destnîşan dike."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "The Classified Code and the Decryption Key",
-          "scenario": "A government safeguards a crucial security code but intentionally destroys the only decryption key.",
-          "logic": "An indecipherable text loses all practical value.",
-          "lesson": "Preserving the substance includes preserving the key to understanding.",
-          "application": "The Sunnah is the key provided and preserved by Allah to understand and implement the Quran."
+          "title": "Destûr û Qanûnên Sepandinê",
+          "scenario": "Destûra bingehîn rêgezan datîne û qanûn wan rave dikin.",
+          "logicBox": "Destûr = Qur'an | Qanûn = Sunnet.",
+          "lesson": "Redkirina qanûnan dewletê radiwestîne."
+        },
+        {
+          "num": 2,
+          "title": "Reçeteya Bijîşk û Derman",
+          "scenario": "Bijîşk derman dinivîse û şêwaza bikaranînê rave dike.",
+          "logicBox": "Reçete = Ferman | Bikaranîn = Sunnet.",
+          "lesson": "Nezanîna bikaranînê zirarê dide."
         }
       ],
       "readyResponses": {
-        "quick30s": "Allah calls the explanation given to the Prophet 'Dhikr': {We revealed to you the Dhikr that you may clarify} (16:44). When He promises to guard the Dhikr (15:9), He protects the text and its authentic practice. Saying the Sunnah is lost insults Allah's wisdom!",
-        "developed": "In Surah Al-Qiyamah Allah guarantees: {Upon Us is its explanation} (75:19). Historically, this divine protection manifested through the extraordinary science of Isnad (chains of narration), which isolated every fabrication with unprecedented precision."
+        "quick30s": "Qur'an ferman dide ku em guh bidin Pêxember ﷺ (Sureya 16, Ayeta 44). Redkirina Sunnetê redkirina fermana Qur'anê ye.",
+        "developed": "Temambûna Qur'anê danîna bingehên dîn e. Hûrgiliyên pratîkî ji aliyê Pêxember ﷺ ve hatine ravekirin. Bêyî Sunnetê dîn nayê sepandin."
       },
       "objections": [
         {
-          "obj": "There are weak and fabricated Hadiths, doesn't that prove the Sunnah was not preserved?",
-          "ans": "The fact that scholars identified, exposed, and cataloged every weak or forged Hadith proves the perfect efficacy of preservation!"
+          "obj": "Ma Qur'an nabêje her tiştî rave dike?",
+          "ans": "Sunnet jî beşek ji vê ravekirinê ye ku Qur'an ferman dide wê."
+        },
+        {
+          "obj": "Ma Pêxember ne miriye?",
+          "ans": "Ew çûye rehmetê lê Sunneta wî ya sehîh zindî ye."
         }
       ],
       "framingQuestions": [
-        "If the Sunnah was not preserved, how do you know today that the Dawn prayer is 2 rak'at?",
-        "Would Allah leave billions of believers in error regarding how to worship Him?"
+        "Nimêja nîvro çend rekat e di Qur'anê de?",
+        "Çima Xwedê ferman daye Pêxember ku Qur'anê rave bike?"
       ],
       "quiz": [
         {
-          "q": "Which verse establishes the divine commitment to provide the explanation of the Quran?",
+          "q": "Temambûna Qur'anê tê çi wateyê?",
           "options": [
-            "Surah Al-Qiyamah, verse 19: {Then upon Us is its explanation}",
-            "Surah Al-Baqarah, verse 2",
-            "Surah Al-Ikhlas, verse 1",
-            "Surah An-Nas, verse 1"
+            "Ku her hûrgilî tê de heye bê pêwîstiya bi Pêxember.",
+            "Ku bingehên dîn datîne û ferman dide peyrewiya Pêxember ﷺ.",
+            "Ku pêwîstiya bi nimêjê tune ye.",
+            "Ku hedîs hemû derew in."
           ],
-          "answer": 0,
-          "explanation": "Surah 75:19 affirms the divine guarantee to preserve the explanation of the text."
+          "answer": 1,
+          "explanation": "Qur'an rêgezên giştî datîne û Sunnetê wek çavkaniya raveker destnîşan dike."
         }
       ],
       "conclusion": {
         "steps": [
-          "Dhikr encompasses the Quranic text and its necessary prophetic explanation.",
-          "Allah has guaranteed the complete preservation of the religion.",
-          "Hadith science was the historical instrument of this divine protection."
+          "Qur'an peyva Xwedê ye.",
+          "Qur'an ferman dide peyrewiya Pêxember ﷺ.",
+          "Sunnet riya sepandina Qur'anê ye."
         ],
-        "finalText": "The text and the Sunnah are two inseparable dimensions of the single revealed guidance.",
-        "punchline": "A text preserved in lettering but lost in practical meaning would be no guidance at all!"
+        "finalText": "Sunnet û Qur'an ji hev nayên veqetandin.",
+        "punchline": "Yê ku bi navê Qur'anê Sunnetê red dike, di rastiyê de guh nade Qur'anê!"
       },
       "fallacies": [
         "non-sequitur",
@@ -836,100 +1173,98 @@ window.I18N_DATA['ku'] = {
       "id": 6,
       "number": "06",
       "slug": "6-compilation-tardive-hadiths",
-      "theme": "Dîroknasî û Zanista Veguhestinê",
-      "title": "Gelo hedîs 200 sal şûnda hatin berhevkirin û çêkirin?",
-      "shortTitle": "Historical compilation of Hadiths",
-      "tagline": "Nivîsandin di dema Sehabeyan de dest pê kir; Buxarî komkerekî rexnegir bû, ne çêker!",
-      "formula": "Komkirina zanistî ne çêkirin e: Hedîs ji roja yekem ve hatine jiberkirin û qeydkirin!",
+      "theme": "Dîroka Veguheztin û Nivîsandina Hedîsan",
+      "title": "«Hedîs 200 sal şûnda hatin nivîsandin»: Rastî an derew?",
+      "shortTitle": "Dîroka Hedîsê",
+      "tagline": "Nivîsandin û ezberkirina Hedîsan di dema Pêxember ﷺ de dest pê kiriye.",
+      "formula": "Tevlihevkirina pirtûkên Buxarî û dîroka veguheztinê şaşiyeke dîrokî ya mezin e!",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_6.pdf",
       "theirArgument": {
-        "thesis": "Al-Bukhari died in 256 AH, over 200 years after the Prophet. In two centuries of oral transmission, everything was corrupted, fabricated, and politically manipulated.",
-        "verses": [
-          {
-            "ref": "Sûreya Al-An'am, ayeta 116",
-            "ar": "إِن يَتَّبِعُونَ إِلَّا الظَّنَّ",
-            "translation": "They follow not except assumption."
-          }
-        ],
-        "realQuestion": "Does the publication date of a monumental critical encyclopedia equal the origin date of its sources, or was there an unbroken written and oral chain?"
+        "thesis": "Hedîs 200 sal şûnda hatine nivîsandin û tenê çîrokên devkî bûn.",
+        "verses": [],
+        "realQuestion": "Nivîsandina hedîsan kengî dest pê kiriye?"
       },
       "logicalNode": {
-        "title": "Confusion between the date of an encyclopedia and the age of original documents",
+        "title": "Girêka Mantiqî û Cihêkarî",
         "distinctions": [
           {
-            "term": "CRITICAL ENCYCLOPEDIC COMPILATION",
-            "desc": "The collections of Bukhari and Muslim, organized by legal chapters and filtered rigorously."
+            "term": "BINGEHÊ QUR'ANÎ",
+            "desc": "Qur'an hemû bingeh û qanûnên sereke datîne û ferman dide peyrewiya Pêxember ﷺ."
           },
           {
-            "term": "EARLY WRITTEN RECORDS (SUHUF)",
-            "desc": "Manuscripts of the Companions (Sahifah Sadiqah) and Successors (Sahifah of Hammam ibn Munabbih, Muwatta Malik)."
+            "term": "HÛRGILIYÊN SUNNETÊ",
+            "desc": "Sunnet hûrgiliyên nimêj, zekat û jiyanê rave dike."
           }
         ],
-        "generalRule": "A historian who publishes eighteenth-century letters today does not invent them; he archives existing records.",
-        "errorToAvoid": "Believing there was a two-hundred-year historical vacuum prior to Al-Bukhari."
+        "generalRule": "Nivîsek ku desthilatê dide şirovekarekî, temambûna wê vê desthilatê jî digire nav xwe.",
+        "errorToAvoid": "Tevlihevkirina bingehên qanûnê û hûrgiliyên sepandina wê."
       },
       "centralPrinciple": {
-        "title": "Documentary continuity is attested from the very first century of the Hijrah",
-        "formalScheme": "1. The Companions wrote thousands of Hadiths with the Prophet's consent (Suhuf).\n2. The Successors (Tabi'un) systematically studied and transcribed these sources.\n3. Al-Bukhari verified pre-existing manuscripts and oral chains with unmatched rigor.",
-        "explanation": "The discovery of the manuscript of the Sahifah of Hammam ibn Munabbih (d. 101 AH, student of Abu Hurairah) proved that the texts match Al-Bukhari word for word.",
-        "logicalTest": "The very same historical chain of transmitters (Isnad) that conveyed Hadiths also transmitted the recitations of the Quran (e.g., Hafs from 'Asim)!"
+        "title": "Bingeha Sereke ya Delîlê",
+        "formalScheme": "1. Qur'an ferman dide guhdana Pêxember ﷺ.\n2. Sunnet ravekirina Qur'anê ye.\n3. Redkirina Sunnetê redkirina Qur'anê ye.",
+        "explanation": "Qur'an bixwe desthilata Sunnetê ava dike. Yê ku Sunnetê red dike ayetên Qur'anê red dike.",
+        "logicalTest": "Eger tenê Qur'an bes e, hejmara rekatên nimêja nîvro tenê ji Qur'anê derxe!"
       },
       "quranicArchitecture": {
-        "title": "The Quranic imperative to rigorously verify reports",
-        "verses": [
-          {
-            "ref": "Sûreya Al-Hujurat, ayeta 6",
-            "ar": "إِن جَاءَكُمْ فَاسِقٌ بِنَبَإٍ فَتَبَيَّنُوا",
-            "translation": "If there comes to you a disobedient person with information, investigate."
-          }
-        ],
-        "consequence": "The Quran itself institutes the principle of critical testimonial verification."
+        "title": "Ayetên Biryardar",
+        "verses": [],
+        "consequence": "Qur'an Pêxember ﷺ wek mamoste û şirovekar destnîşan dike."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "The Historical Encyclopedia and Primary Archives",
-          "scenario": "A historian publishes a critical edition of ancient Roman Senate decrees in 2024.",
-          "logic": "No one accuses the historian of having fabricated the Roman decrees in 2024!",
-          "lesson": "Late encyclopedic compilation demonstrates methodological maturity, not invention of content.",
-          "application": "Imam Al-Bukhari examined and preserved traditions transmitted continuously across generations."
+          "title": "Destûr û Qanûnên Sepandinê",
+          "scenario": "Destûra bingehîn rêgezan datîne û qanûn wan rave dikin.",
+          "logicBox": "Destûr = Qur'an | Qanûn = Sunnet.",
+          "lesson": "Redkirina qanûnan dewletê radiwestîne."
+        },
+        {
+          "num": 2,
+          "title": "Reçeteya Bijîşk û Derman",
+          "scenario": "Bijîşk derman dinivîse û şêwaza bikaranînê rave dike.",
+          "logicBox": "Reçete = Ferman | Bikaranîn = Sunnet.",
+          "lesson": "Nezanîna bikaranînê zirarê dide."
         }
       ],
       "readyResponses": {
-        "quick30s": "Claiming Hadiths were invented after 200 years is historical ignorance! Companions like Abdullah ibn 'Amr wrote the 'Sahifah as-Sadiqah'. The manuscript of Hammam ibn Munabbih (c. 100 AH) exists today and is identical to Bukhari!",
-        "developed": "Islamic civilization developed the science of Isnad and biographical evaluation ('Ilm ar-Rijal). Thousands of scholars dedicated their lives to verifying every narrator for integrity, memory, and contemporaneous transmission."
+        "quick30s": "Qur'an ferman dide ku em guh bidin Pêxember ﷺ (Sureya 16, Ayeta 44). Redkirina Sunnetê redkirina fermana Qur'anê ye.",
+        "developed": "Temambûna Qur'anê danîna bingehên dîn e. Hûrgiliyên pratîkî ji aliyê Pêxember ﷺ ve hatine ravekirin. Bêyî Sunnetê dîn nayê sepandin."
       },
       "objections": [
         {
-          "obj": "Why didn't the Prophet have the Hadiths compiled into a single bound book like the Quran?",
-          "ans": "To prevent any material confusion with the Quranic text during the initial phase of revelation."
+          "obj": "Ma Qur'an nabêje her tiştî rave dike?",
+          "ans": "Sunnet jî beşek ji vê ravekirinê ye ku Qur'an ferman dide wê."
+        },
+        {
+          "obj": "Ma Pêxember ne miriye?",
+          "ans": "Ew çûye rehmetê lê Sunneta wî ya sehîh zindî ye."
         }
       ],
       "framingQuestions": [
-        "How did the Quran reach us if not through the very same Companions and transmitters?",
-        "If the transmitters were unreliable, how can you be certain of the authenticity of the Arabic text of the Quran?"
+        "Nimêja nîvro çend rekat e di Qur'anê de?",
+        "Çima Xwedê ferman daye Pêxember ku Qur'anê rave bike?"
       ],
       "quiz": [
         {
-          "q": "Which early 1st-century AH Hadith manuscript survives today as historical proof?",
+          "q": "Temambûna Qur'anê tê çi wateyê?",
           "options": [
-            "The Sahifah of Hammam ibn Munabbih (from Abu Hurairah).",
-            "A 19th-century book.",
-            "A Roman legal code.",
-            "No manuscripts exist."
+            "Ku her hûrgilî tê de heye bê pêwîstiya bi Pêxember.",
+            "Ku bingehên dîn datîne û ferman dide peyrewiya Pêxember ﷺ.",
+            "Ku pêwîstiya bi nimêjê tune ye.",
+            "Ku hedîs hemû derew in."
           ],
-          "answer": 0,
-          "explanation": "The Sahifah of Hammam ibn Munabbih (d. 101 AH) is one of the oldest surviving written Hadith manuscripts."
+          "answer": 1,
+          "explanation": "Qur'an rêgezên giştî datîne û Sunnetê wek çavkaniya raveker destnîşan dike."
         }
       ],
       "conclusion": {
         "steps": [
-          "Documentation began during the lifetime of the Companions.",
-          "The Isnad method systematically prevented fabrication.",
-          "Rejecting the historical transmission of Hadiths undermines the historical transmission of the Quran."
+          "Qur'an peyva Xwedê ye.",
+          "Qur'an ferman dide peyrewiya Pêxember ﷺ.",
+          "Sunnet riya sepandina Qur'anê ye."
         ],
-        "finalText": "Hadith criticism is the most rigorous historical verification system of the ancient world.",
-        "punchline": "Treating Bukhari as an inventor is equivalent to denying the entire edifice of Islamic historiography!"
+        "finalText": "Sunnet û Qur'an ji hev nayên veqetandin.",
+        "punchline": "Yê ku bi navê Qur'anê Sunnetê red dike, di rastiyê de guh nade Qur'anê!"
       },
       "fallacies": [
         "generalisation-abusive",
@@ -941,100 +1276,109 @@ window.I18N_DATA['ku'] = {
       "id": 7,
       "number": "07",
       "slug": "7-interdiction-ecrire-paroles",
-      "theme": "Çarçoveya Qedexekirina Demkî ya Nivîsandinê",
-      "title": "Gelo Pêxember nivîsandina hedîsan qedexe kiribû?",
-      "shortTitle": "The alleged writing prohibition",
-      "tagline": "Qedexeya destpêkê ji bo tevliheviyê bû; paşê Pêxember bi eşkereyî destûr da nivîsandinê.",
-      "formula": "Qedexeyeke demkî ne qedexeyeke daîmî ye: Pêxember ferman da: «Ji Ebû Şah re binivîsin!»",
+      "theme": "Qedexeya Destpêkê û Destûra Paşê ya Nivîsandinê",
+      "title": "«Ji bilî Qur'anê tiştekî ji min nenivîsin»: Ma Pêxember nivîsandin qedexe kir?",
+      "shortTitle": "Hedîsa Nivîsandinê",
+      "tagline": "Qedexeya destpêkê ji bo tevlihevenebûna bi Qur'anê re bû, paşê destûra nivîsandinê hate dayîn.",
+      "formula": "Nîşandana qedexeyê û veşartina destûra nivîsandinê mugaleteya hilbijartinê ye!",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_7.pdf",
       "theirArgument": {
-        "thesis": "In the famous Hadith of Abu Sa'id al-Khudri, the Prophet said: 'Do not write anything from me except the Quran, and whoever has written should erase it.' This proves Hadiths are forbidden!",
-        "verses": [
-          {
-            "ref": "Sûreya Al-Baqarah, ayeta 79",
-            "ar": "فَوَيْلٌ لِّلَّذِينَ يَكْتُبُونَ الْكِتَابَ بِأَيْدِيهِمْ",
-            "translation": "So woe to those who write the book with their hands."
-          }
-        ],
-        "realQuestion": "Does an initial precautionary ban to prevent mixing with the Quran constitute a permanent prohibition on recording prophetic guidance?"
+        "thesis": "Pêxember gotiye 'Ji min tiştekî nenivîsin'. Nexwe pirtûkên hedîsan li dijî fermana wî ne.",
+        "verses": [],
+        "realQuestion": "Çarçoveya dîrokî ya qedexekirina nivîsandinê çi bû?"
       },
       "logicalNode": {
-        "title": "Selective quotation and refusal of historical context (Abrogation)",
+        "title": "Girêka Mantiqî û Cihêkarî",
         "distinctions": [
           {
-            "term": "EARLY MECCAN AND EARLY MEDINAN PHASE",
-            "desc": "Prohibition against writing Hadiths on the same parchment as the Quran to prevent confusion among new converts."
+            "term": "BINGEHÊ QUR'ANÎ",
+            "desc": "Qur'an hemû bingeh û qanûnên sereke datîne û ferman dide peyrewiya Pêxember ﷺ."
           },
           {
-            "term": "MATURE PHASE OF THE COMMUNITY",
-            "desc": "Explicit permission and command of the Prophet ﷺ to record knowledge in writing."
+            "term": "HÛRGILIYÊN SUNNETÊ",
+            "desc": "Sunnet hûrgiliyên nimêj, zekat û jiyanê rave dike."
           }
         ],
-        "generalRule": "One cannot use a Hadith to invalidate the authority of all Hadiths (logical paradox).",
-        "errorToAvoid": "Citing a Hadith as absolute authority while simultaneously claiming no Hadith has authority."
+        "generalRule": "Nivîsek ku desthilatê dide şirovekarekî, temambûna wê vê desthilatê jî digire nav xwe.",
+        "errorToAvoid": "Tevlihevkirina bingehên qanûnê û hûrgiliyên sepandina wê."
       },
       "centralPrinciple": {
-        "title": "The logical self-contradiction of the Quranist argument",
-        "formalScheme": "1. If the Hadith prohibiting writing is authentic, then Hadiths hold evidentiary value.\n2. If Hadiths have no value, this Hadith proves nothing.\n3. Authentic sources prove that the Prophet subsequently authorized and commanded writing.",
-        "explanation": "The Prophet said on the day of the Conquest of Makkah: {Write for Abu Shah} (Bukhari & Muslim) and said to Abdullah ibn 'Amr: {Write, for by Him in whose hand is my soul, nothing comes out of this mouth except truth!}",
-        "logicalTest": "If you reject all Hadiths, why do you firmly believe in this single Hadith regarding the prohibition of writing?"
+        "title": "Bingeha Sereke ya Delîlê",
+        "formalScheme": "1. Qur'an ferman dide guhdana Pêxember ﷺ.\n2. Sunnet ravekirina Qur'anê ye.\n3. Redkirina Sunnetê redkirina Qur'anê ye.",
+        "explanation": "Qur'an bixwe desthilata Sunnetê ava dike. Yê ku Sunnetê red dike ayetên Qur'anê red dike.",
+        "logicalTest": "Eger tenê Qur'an bes e, hejmara rekatên nimêja nîvro tenê ji Qur'anê derxe!"
       },
       "quranicArchitecture": {
-        "title": "Quranic commands for written documentation",
+        "title": "Ayetên Biryardar",
         "verses": [
           {
-            "ref": "Sûreya Al-Baqarah, ayeta 282",
-            "ar": "يَا أَيُّهَا الَّذِينَ آمَنُوا إِذَا تَدَايَنتُم بِدَيْنٍ إِلَىٰ أَجَلٍ مُّسَمًّى فَاكْتُبُوهُ",
-            "translation": "O you who believe! When you contract a debt for a specified term, write it down."
+            "ref": "Sureya An-Nisâʾ, ayeta 59",
+            "ar": "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ",
+            "translation": "« Obéissez à Allah et obéissez au Messager. »"
+          },
+          {
+            "ref": "Sureya An-Nisâʾ, ayeta 65",
+            "ar": "حَتَّىٰ يُحَكِّمُوكَ فِيمَا شَجَرَ بَيْنَهُمْ",
+            "translation": "« Jusqu'à ce qu'ils te prennent pour juge dans leurs différends. »"
           }
         ],
-        "consequence": "If Allah commands writing financial debts, how would He forbid documenting the Sunnah of His religion?"
+        "consequence": "Qur'an Pêxember ﷺ wek mamoste û şirovekar destnîşan dike."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "The Teacher's Dictation",
-          "scenario": "A teacher tells beginners: 'Only copy the main text now, do not write margin notes so nothing gets mixed up'. Later, he says: 'Now take comprehensive notes'.",
-          "logic": "Subsequent permission supersedes initial precaution.",
-          "lesson": "Pedagogical measures evolve with the maturity of learners.",
-          "application": "Once the Quran was memorized and established, recording the Sunnah became widespread."
+          "title": "Destûr û Qanûnên Sepandinê",
+          "scenario": "Destûra bingehîn rêgezan datîne û qanûn wan rave dikin.",
+          "logicBox": "Destûr = Qur'an | Qanûn = Sunnet.",
+          "lesson": "Redkirina qanûnan dewletê radiwestîne."
+        },
+        {
+          "num": 2,
+          "title": "Reçeteya Bijîşk û Derman",
+          "scenario": "Bijîşk derman dinivîse û şêwaza bikaranînê rave dike.",
+          "logicBox": "Reçete = Ferman | Bikaranîn = Sunnet.",
+          "lesson": "Nezanîna bikaranînê zirarê dide."
         }
       ],
       "readyResponses": {
-        "quick30s": "This objection self-destructs: to claim Hadiths are forbidden, you must cite a Hadith! But if you accept authentic Hadiths, you must also accept those where the Prophet commands: {Bind knowledge by writing!} and {Write for Abu Shah!}. The ban was only initial for the same parchment.",
-        "developed": "Scholars like Imam An-Nawawi explained that the initial prohibition prevented intermingling between the sacred text and prophetic speech. When the Quran was fully distinguished, the Prophet unrestricted writing."
+        "quick30s": "Qur'an ferman dide ku em guh bidin Pêxember ﷺ (Sureya 16, Ayeta 44). Redkirina Sunnetê redkirina fermana Qur'anê ye.",
+        "developed": "Temambûna Qur'anê danîna bingehên dîn e. Hûrgiliyên pratîkî ji aliyê Pêxember ﷺ ve hatine ravekirin. Bêyî Sunnetê dîn nayê sepandin."
       },
       "objections": [
         {
-          "obj": "Why didn't Abu Bakr and Umar compile a single book of Hadiths like the Quran?",
-          "ans": "They prioritized standardizing the Quranic text (the Mushaf of Uthman). The Sunnah was already preserved in the memories and notebooks of thousands of Companions."
+          "obj": "Ma Qur'an nabêje her tiştî rave dike?",
+          "ans": "Sunnet jî beşek ji vê ravekirinê ye ku Qur'an ferman dide wê."
+        },
+        {
+          "obj": "Ma Pêxember ne miriye?",
+          "ans": "Ew çûye rehmetê lê Sunneta wî ya sehîh zindî ye."
         }
       ],
       "framingQuestions": [
-        "Do you see the contradiction in using a Hadith to argue that one must not believe in Hadiths?",
-        "Why do you ignore dozens of reports where the Prophet ordered writing?"
+        "Nimêja nîvro çend rekat e di Qur'anê de?",
+        "Çima Xwedê ferman daye Pêxember ku Qur'anê rave bike?"
       ],
       "quiz": [
         {
-          "q": "What did the Prophet ﷺ command when Abu Shah requested a written copy of his sermon?",
+          "q": "Temambûna Qur'anê tê çi wateyê?",
           "options": [
-            "“Write for Abu Shah!”",
-            "“Writing is forbidden.”",
-            "“Leave the mosque.”",
-            "He did not reply."
+            "Ku her hûrgilî tê de heye bê pêwîstiya bi Pêxember.",
+            "Ku bingehên dîn datîne û ferman dide peyrewiya Pêxember ﷺ.",
+            "Ku pêwîstiya bi nimêjê tune ye.",
+            "Ku hedîs hemû derew in."
           ],
-          "answer": 0,
-          "explanation": "The Prophet explicitly commanded in Sahih Bukhari: 'Write for Abu Shah!'"
+          "answer": 1,
+          "explanation": "Qur'an rêgezên giştî datîne û Sunnetê wek çavkaniya raveker destnîşan dike."
         }
       ],
       "conclusion": {
         "steps": [
-          "The prohibition was a temporary precautionary measure.",
-          "Numerous authentic sources attest to subsequent authorization.",
-          "The argument collapses under its own logical contradiction."
+          "Qur'an peyva Xwedê ye.",
+          "Qur'an ferman dide peyrewiya Pêxember ﷺ.",
+          "Sunnet riya sepandina Qur'anê ye."
         ],
-        "finalText": "The Sunnah was recorded with the full approval of the Messenger of Allah.",
-        "punchline": "Using a Hadith to abolish Hadiths is the pinnacle of logical absurdity!"
+        "finalText": "Sunnet û Qur'an ji hev nayên veqetandin.",
+        "punchline": "Yê ku bi navê Qur'anê Sunnetê red dike, di rastiyê de guh nade Qur'anê!"
       },
       "fallacies": [
         "cherry-picking",
@@ -1045,110 +1389,120 @@ window.I18N_DATA['ku'] = {
       "id": 8,
       "number": "08",
       "slug": "8-coran-condamne-hadiths",
-      "theme": "Wate û Bikaranîna Peyva 'Hedîs' di Quranê de",
-      "title": "Gelo Quran 'hedîsan' di ayetan de şermezar dike?",
-      "shortTitle": "The word 'Hadith' in the Quran",
-      "tagline": "Peyva 'Hedîs' tê wateya axaftinê; Quran derewên muşrîkan şermezar dike, ne Sunnetê.",
-      "formula": "Fêlbaziya zimanî: Tevlihevkirina peyva axaftinê bi terma zanistî ya Hedîsê re!",
+      "theme": "Cudahiya Zanayan û Lihevkirina Hedîsan",
+      "title": "«Cudahiyên navbera zanayan hene»: Ma ev Sunnetê pûç dike?",
+      "shortTitle": "Cudahiya Zanayan",
+      "tagline": "Cudahiyên di navbera fehmkirina hiqûqî de nîşana dewlemendiya zanistê ye ne pûçbûna Sunnetê.",
+      "formula": "Eger cudahiya zanayan tiştekî pûç bikira, diviyabû tib û qanûn jî bihatana avêtin!",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_8.pdf",
       "theirArgument": {
-        "thesis": "The Quran asks in Surah 45:6 and 77:50: 'In which Hadith after Allah and His verses will they believe?' The word 'Hadith' is therefore condemned by the Quran itself!",
+        "thesis": "Di navbera zanayan de nîqaş hene û hedîs li hev nakin, nexwe Sunnet ne ji Xwedê ye.",
         "verses": [
           {
-            "ref": "Sûreya Al-Jathiyah, ayeta 6",
-            "ar": "تِلْكَ آيَاتُ اللَّهِ نَتْلُوهَا عَلَيْكَ بِالْحَقِّ فَبِأَيِّ حَدِيثٍ بَعْدَ اللَّهِ وَآيَاتِهِ يُؤْمِنُونَ",
-            "translation": "These are the verses of Allah which We recite to you in truth. Then in what statement (hadith) after Allah and His verses will they believe?"
+            "ref": "Sureya Al-Jâthiyah, ayeta 6",
+            "ar": "تِلْكَ آيَاتُ اللَّهِ نَتْلُوهَا عَلَيْكَ بِالْحَقِّ ۖ فَبِأَيِّ حَدِيثٍ بَعْدَ اللَّهِ وَآيَاتِهِ يُؤْمِنُونَ",
+            "translation": "« Voilà les versets d'Allah que Nous te récitons en toute vérité. En quel discours (hadīth), après Allah et Ses versets, croiront-ils donc ? »"
           },
           {
-            "ref": "Sûreya Luqman, ayeta 6",
-            "ar": "وَمِنَ النَّاسِ مَن يَشْتَرِي لَهْوَ الْحَدِيثِ",
-            "translation": "And of the people is he who buys idle speech (Lahw al-Hadith)."
+            "ref": "Sureya Al-Mursalât, ayeta 50",
+            "ar": "فَبِأَيِّ حَدِيثٍ بَعْدَهُ يُؤْمِنُونَ",
+            "translation": "« En quel discours (hadīth) après cela croiront-ils donc ? »"
+          },
+          {
+            "ref": "Sureya Luqmân, ayeta 6",
+            "ar": "وَمِنَ النَّاسِ مَن يَشْتَرِي لَهْوَ الْحَدِيثِ",
+            "translation": "« Et parmi les hommes, il en est qui achètent des discours futiles (lahw al-hadīth)... »"
           }
         ],
-        "realQuestion": "Does the Quran condemn the speech of its chosen Messenger or the vain myths and lies of the polytheists?"
+        "realQuestion": "Gelo cudahiya di fehmkirinê de nîşana nakokiya dîn e?"
       },
       "logicalNode": {
-        "title": "Semantic fallacy of equivocation between common speech and technical terminology",
+        "title": "Girêka Mantiqî û Cihêkarî",
         "distinctions": [
           {
-            "term": "COMMON ARABIC USAGE (HADITH)",
-            "desc": "Any human speech, worldly narrative, or polytheistic fable."
+            "term": "BINGEHÊ QUR'ANÎ",
+            "desc": "Qur'an hemû bingeh û qanûnên sereke datîne û ferman dide peyrewiya Pêxember ﷺ."
           },
           {
-            "term": "ISLAMIC TECHNICAL TERM (HADITH NABAWI)",
-            "desc": "The documented testimony regarding the statements, actions, and approvals of the Prophet ﷺ."
+            "term": "HÛRGILIYÊN SUNNETÊ",
+            "desc": "Sunnet hûrgiliyên nimêj, zekat û jiyanê rave dike."
           }
         ],
-        "generalRule": "A Quranic word must not be confused with a technical term formalized centuries later.",
-        "errorToAvoid": "Claiming the Quran condemns the Prophet because his sayings were later termed 'Hadiths'."
+        "generalRule": "Nivîsek ku desthilatê dide şirovekarekî, temambûna wê vê desthilatê jî digire nav xwe.",
+        "errorToAvoid": "Tevlihevkirina bingehên qanûnê û hûrgiliyên sepandina wê."
       },
       "centralPrinciple": {
-        "title": "The Quran even describes itself as 'Hadith'",
-        "formalScheme": "1. The Quran calls itself {Ahsan al-Hadith} – the best statement (Surah 39:23).\n2. It refers to the Prophet's words as 'hadith' (Surah 66:3).\n3. Surah 45:6 condemns pagan fabrications, not the Prophet's guidance.",
-        "explanation": "Whoever claims Surah 45:6 forbids the Sunnah would logically have to claim the Quran condemns itself, since it calls itself 'Hadith'!",
-        "logicalTest": "If every 'Hadith' in the Quran was evil, why does Allah call His own revelation {the best statement / Ahsan al-Hadith} (39:23)?"
+        "title": "Bingeha Sereke ya Delîlê",
+        "formalScheme": "1. Qur'an ferman dide guhdana Pêxember ﷺ.\n2. Sunnet ravekirina Qur'anê ye.\n3. Redkirina Sunnetê redkirina Qur'anê ye.",
+        "explanation": "Qur'an bixwe desthilata Sunnetê ava dike. Yê ku Sunnetê red dike ayetên Qur'anê red dike.",
+        "logicalTest": "Eger tenê Qur'an bes e, hejmara rekatên nimêja nîvro tenê ji Qur'anê derxe!"
       },
       "quranicArchitecture": {
-        "title": "Verses on the noble and positive usage of the term 'Hadith'",
+        "title": "Ayetên Biryardar",
         "verses": [
           {
-            "ref": "Sûreya Az-Zumar, ayeta 23",
-            "ar": "اللَّهُ نَزَّلَ أَحْسَنَ الْحَدِيثِ كِتَابًا مُّتَشَابِهًا",
-            "translation": "Allah has sent down the best statement (Ahsan al-Hadith): a consistent Book."
-          },
-          {
-            "ref": "Sûreya Ad-Duha, ayeta 11",
-            "ar": "وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ",
-            "translation": "And as for the favor of your Lord, proclaim it (Haddith)."
+            "ref": "Sureya Al-Jâthiyah, ayeta 6",
+            "ar": "فَبِأَيِّ حَدِيثٍ بَعْدَ اللَّهِ وَآيَاتِهِ يُؤْمِنُونَ",
+            "translation": "« En quel discours, après Allah et Ses versets, croiront-ils donc ? »"
           }
         ],
-        "consequence": "The word 'hadith' takes positive or negative meaning depending entirely on context."
+        "consequence": "Qur'an Pêxember ﷺ wek mamoste û şirovekar destnîşan dike."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "The Law against Fake News",
-          "scenario": "A government passes a law: 'Do not believe fake news'.",
-          "logic": "Does this mean official government announcements or scientific reports are banned?",
-          "lesson": "Condemning falsehood does not condemn truth.",
-          "application": "The Quran warns against pagan falsehoods, not the truthful words of the Messenger."
+          "title": "Destûr û Qanûnên Sepandinê",
+          "scenario": "Destûra bingehîn rêgezan datîne û qanûn wan rave dikin.",
+          "logicBox": "Destûr = Qur'an | Qanûn = Sunnet.",
+          "lesson": "Redkirina qanûnan dewletê radiwestîne."
+        },
+        {
+          "num": 2,
+          "title": "Reçeteya Bijîşk û Derman",
+          "scenario": "Bijîşk derman dinivîse û şêwaza bikaranînê rave dike.",
+          "logicBox": "Reçete = Ferman | Bikaranîn = Sunnet.",
+          "lesson": "Nezanîna bikaranînê zirarê dide."
         }
       ],
       "readyResponses": {
-        "quick30s": "The word 'Hadith' in Arabic simply means 'speech' or 'statement'. The Quran calls itself 'Ahsan al-Hadith' (39:23)! Claiming the Quran condemns prophetic Hadiths is childish wordplay. The Quran condemns the fabrications of idolaters!",
-        "developed": "In Surah Al-Jathiyah Allah addresses polytheists who rejected His verses. What myths (hadith) will they believe in after rejecting God? Applying this to the words of His beloved Messenger is a total distortion of scripture."
+        "quick30s": "Qur'an ferman dide ku em guh bidin Pêxember ﷺ (Sureya 16, Ayeta 44). Redkirina Sunnetê redkirina fermana Qur'anê ye.",
+        "developed": "Temambûna Qur'anê danîna bingehên dîn e. Hûrgiliyên pratîkî ji aliyê Pêxember ﷺ ve hatine ravekirin. Bêyî Sunnetê dîn nayê sepandin."
       },
       "objections": [
         {
-          "obj": "Why did scholars call the Prophet's teachings 'Hadiths' then?",
-          "ans": "Because the Prophet himself used the term, as in the famous Hadith where he answers Abu Hurairah about who will be happiest with his intercession."
+          "obj": "Ma Qur'an nabêje her tiştî rave dike?",
+          "ans": "Sunnet jî beşek ji vê ravekirinê ye ku Qur'an ferman dide wê."
+        },
+        {
+          "obj": "Ma Pêxember ne miriye?",
+          "ans": "Ew çûye rehmetê lê Sunneta wî ya sehîh zindî ye."
         }
       ],
       "framingQuestions": [
-        "If the word 'hadith' was always derogatory, why does Allah call the Quran {the best speech} (39:23)?",
-        "Do you genuinely believe the sayings of Prophet Muhammad ﷺ belong to the 'idle speech' of the pagans?"
+        "Nimêja nîvro çend rekat e di Qur'anê de?",
+        "Çima Xwedê ferman daye Pêxember ku Qur'anê rave bike?"
       ],
       "quiz": [
         {
-          "q": "How does the Quran describe itself in Surah Az-Zumar, verse 23?",
+          "q": "Temambûna Qur'anê tê çi wateyê?",
           "options": [
-            "Ahsan al-Hadith (the best statement)",
-            "Lahw al-Hadith (idle speech)",
-            "A myth",
-            "Ordinary poetry"
+            "Ku her hûrgilî tê de heye bê pêwîstiya bi Pêxember.",
+            "Ku bingehên dîn datîne û ferman dide peyrewiya Pêxember ﷺ.",
+            "Ku pêwîstiya bi nimêjê tune ye.",
+            "Ku hedîs hemû derew in."
           ],
-          "answer": 0,
-          "explanation": "In Surah 39:23 Allah qualifies the Quran as 'Ahsan al-Hadith'."
+          "answer": 1,
+          "explanation": "Qur'an rêgezên giştî datîne û Sunnetê wek çavkaniya raveker destnîşan dike."
         }
       ],
       "conclusion": {
         "steps": [
-          "'Hadith' is an ordinary Arabic word meaning speech or account.",
-          "The Quran condemns the deceitful speech of polytheists.",
-          "Confusing this with the Sunnah is intellectual deception."
+          "Qur'an peyva Xwedê ye.",
+          "Qur'an ferman dide peyrewiya Pêxember ﷺ.",
+          "Sunnet riya sepandina Qur'anê ye."
         ],
-        "finalText": "The sayings of the Messenger of Allah are the highest human truth after the Quran.",
-        "punchline": "Turning Quranic verses about pagan myths against the Prophet is the hallmark of distortion!"
+        "finalText": "Sunnet û Qur'an ji hev nayên veqetandin.",
+        "punchline": "Yê ku bi navê Qur'anê Sunnetê red dike, di rastiyê de guh nade Qur'anê!"
       },
       "fallacies": [
         "equivoque-lexicale",
@@ -1160,110 +1514,125 @@ window.I18N_DATA['ku'] = {
       "id": 9,
       "number": "09",
       "slug": "9-corrections-divines",
-      "theme": "Peywira Pêxemberî û Çavdêriya Xwedayî",
-      "title": "Gelo hişyariyên Xwedayî di Quranê de bêdesthilatdariya Pêxember nîşan didin?",
-      "shortTitle": "Divine reprimands ('Abasa)",
-      "tagline": "Hişyariyên Quranî çavdêriya rasterast nîşan didin û baweriya bi peyamê misoger dikin.",
-      "formula": "Rastkirina bilez a ji aliyê Xwedê ve garantî dike ku her tiştê wî hîn kiriye xwedî pejirandina Xwedê bû!",
+      "theme": "Epîstemolojî: Guman (Zenn) li hember Teqezî (Yeqîn)",
+      "title": "Gelo Hedîs tenê guman (Zenn) e li hember teqezbûna Qur'anê?",
+      "shortTitle": "Zenn û Yeqîn",
+      "tagline": "Zenna ku di Qur'anê de tê şermezarkirin pûtparêzî ye; di hiqûqê de baweriya bi şahidên pêbawer ferz e.",
+      "formula": "Tevlihevkirina pûtparêziyê û baweriya bi şahidên pêbawer xefikeke mezin e!",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_9.pdf",
       "theirArgument": {
-        "thesis": "The Quran reprimands the Prophet in Surah 'Abasa (for turning away from the blind man) and in Surah At-Tahrim. This supposedly proves his decisions were fallible and cannot serve as a source of religion.",
+        "thesis": "Hedîs tenê guman (Zenn) in û Qur'an dibêje guman li hember heqîqetê bêfêde ye.",
         "verses": [
           {
-            "ref": "Sûreya 'Abasa, ayetas 1-2",
-            "ar": "عَبَسَ وَتَوَلَّىٰ * أَن جَاءَهُ الْأَعْمَىٰ",
-            "translation": "He frowned and turned away, because there came to him the blind man."
+            "ref": "Sureya ʿAbasa, ayetas 1-2",
+            "ar": "عَبَسَ وَتَوَلَّىٰ أَن جَاءَهُ الْأَعْمَىٰ",
+            "translation": "« Il s'est renfrogné et s'est détourné parce que l'aveugle est venu à lui. »"
           },
           {
-            "ref": "Sûreya At-Tahrim, ayeta 1",
-            "ar": "يَا أَيُّهَا النَّبِيُّ لِمَ تُحَرِّمُ مَا أَحَلَّ اللَّهُ لَكَ",
-            "translation": "O Prophet, why do you prohibit that which Allah has made lawful for you?"
+            "ref": "Sureya At-Tawbah, ayeta 43",
+            "ar": "عَفَا اللَّهُ عَنكَ لِمَ أَذِنتَ لَهُمْ",
+            "translation": "« Qu'Allah te pardonne ! Pourquoi leur as-tu donné permission ? »"
+          },
+          {
+            "ref": "Sureya At-Taḥrîm, ayeta 1",
+            "ar": "يَا أَيُّهَا النَّبِيُّ لِمَ تُحَرِّمُ مَا أَحَلَّ اللَّهُ لَكَ",
+            "translation": "« Ô Prophète ! Pourquoi t'interdis-tu ce qu'Allah t'a rendu licite ? »"
           }
         ],
-        "realQuestion": "Do divine corrections in the Quran prove the Prophet's unreliability or, on the contrary, the flawless divine control over his mission?"
+        "realQuestion": "Maneya 'Zenn' di Qur'anê de çi ye?"
       },
       "logicalNode": {
-        "title": "Confusion between human judgment under supervision and uncontrolled doctrinal fallibility",
+        "title": "Girêka Mantiqî û Cihêkarî",
         "distinctions": [
           {
-            "term": "HUMAN JUDGMENT OF THE PROPHET (IJTIHAD)",
-            "desc": "His day-to-day choices in worldly affairs, immediately corrected by revelation when necessary."
+            "term": "BINGEHÊ QUR'ANÎ",
+            "desc": "Qur'an hemû bingeh û qanûnên sereke datîne û ferman dide peyrewiya Pêxember ﷺ."
           },
           {
-            "term": "DOCTRINAL INFALLIBILITY ('ISMAH)",
-            "desc": "All legal and spiritual teachings delivered to the Ummah are divinely protected from error."
+            "term": "HÛRGILIYÊN SUNNETÊ",
+            "desc": "Sunnet hûrgiliyên nimêj, zekat û jiyanê rave dike."
           }
         ],
-        "generalRule": "A representative whose deviations are instantly corrected by the Sovereign delivers a flawless law.",
-        "errorToAvoid": "Failing to see that the absence of correction equals formal divine approval."
+        "generalRule": "Nivîsek ku desthilatê dide şirovekarekî, temambûna wê vê desthilatê jî digire nav xwe.",
+        "errorToAvoid": "Tevlihevkirina bingehên qanûnê û hûrgiliyên sepandina wê."
       },
       "centralPrinciple": {
-        "title": "Divine correction is the strongest proof of the Sunnah's authenticity",
-        "formalScheme": "1. If the Prophet made a non-optimal choice, revelation intervened immediately (e.g., Surah 'Abasa).\n2. Where revelation did not intervene, his conduct was fully confirmed by Allah.\n3. Therefore, the transmitted Sunnah in its entirety is divinely authorized.",
-        "explanation": "Had the Prophet been free to introduce errors into religion, the Quran would not have recorded his personal corrections for eternity.",
-        "logicalTest": "If the Prophet could invent verses, why would he reveal verses reprimanding his own behavior?"
+        "title": "Bingeha Sereke ya Delîlê",
+        "formalScheme": "1. Qur'an ferman dide guhdana Pêxember ﷺ.\n2. Sunnet ravekirina Qur'anê ye.\n3. Redkirina Sunnetê redkirina Qur'anê ye.",
+        "explanation": "Qur'an bixwe desthilata Sunnetê ava dike. Yê ku Sunnetê red dike ayetên Qur'anê red dike.",
+        "logicalTest": "Eger tenê Qur'an bes e, hejmara rekatên nimêja nîvro tenê ji Qur'anê derxe!"
       },
       "quranicArchitecture": {
-        "title": "Verses on the infallible protection of the Prophet's speech in religion",
+        "title": "Ayetên Biryardar",
         "verses": [
           {
-            "ref": "Sûreya An-Najm, ayetas 3-4",
-            "ar": "وَمَا يَنطِقُ عَنِ الْهَوَىٰ * إِنْ هُوَ إِلَّا وَحْيٌ يُوحَىٰ",
-            "translation": "Nor does he speak from his own desire. It is not but a revelation revealed."
+            "ref": "Sureya An-Najm, ayetas 3-4",
+            "ar": "وَمَا يَنطِقُ عَنِ الْهَوَىٰ إِنْ هُوَ إِلَّا وَحْيٌ يُوحَىٰ",
+            "translation": "« Et il ne prononce rien sous l'effet de la passion ; ce n'est rien d'autre qu'une révélation inspirée. »"
           },
           {
-            "ref": "Sûreya Al-Haqqah, ayetas 44-46",
-            "ar": "وَلَوْ تَقَوَّلَ عَلَيْنَا بَعْضَ الْأَقَاوِيلِ * لَأَخَذْنَا مِنْهُ بِالْيَمِينِ * ثُمَّ لَقَطَعْنَا مِنْهُ الْوَتِينَ",
-            "translation": "And if he had fabricated some sayings against Us, We would have seized him by the right hand, then We would have cut from him the aorta."
+            "ref": "Sureya Al-Ḥâqqah, ayetas 44-46",
+            "ar": "وَلَوْ تَقَوَّلَ عَلَيْنَا بَعْضَ الْأَقَاوِيلِ لَأَخَذْنَا مِنْهُ بِالْيَمِينِ ثُمَّ لَقَطَعْنَا مِنْهُ الْوَتِينَ",
+            "translation": "« Et s'il avait forgé contre Nous quelques paroles, Nous l'aurions saisi de la main droite, puis Nous lui aurions tranché l'aorte. »"
           }
         ],
-        "consequence": "Allah guarantees with His omnipotence that the Prophet is infallible in transmitting the religion."
+        "consequence": "Qur'an Pêxember ﷺ wek mamoste û şirovekar destnîşan dike."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "The Airline Captain and Air Traffic Control",
-          "scenario": "A pilot flies an aircraft while air traffic control monitors every meter, immediately correcting any deviation via radio.",
-          "logic": "Passengers know that the silence of control confirms the flight path is 100% safe and verified.",
-          "lesson": "Constant monitoring guarantees flawless adherence to the course.",
-          "application": "Divine oversight ensured that prophetic practice remained completely free of doctrinal error."
+          "title": "Destûr û Qanûnên Sepandinê",
+          "scenario": "Destûra bingehîn rêgezan datîne û qanûn wan rave dikin.",
+          "logicBox": "Destûr = Qur'an | Qanûn = Sunnet.",
+          "lesson": "Redkirina qanûnan dewletê radiwestîne."
+        },
+        {
+          "num": 2,
+          "title": "Reçeteya Bijîşk û Derman",
+          "scenario": "Bijîşk derman dinivîse û şêwaza bikaranînê rave dike.",
+          "logicBox": "Reçete = Ferman | Bikaranîn = Sunnet.",
+          "lesson": "Nezanîna bikaranînê zirarê dide."
         }
       ],
       "readyResponses": {
-        "quick30s": "The presence of reprimands like in Surah 'Abasa is the brightest proof of the Prophet's sincerity! Had he added anything of his own whim, Allah {would have cut his aorta} (69:46). His established Sunnah enjoys full divine endorsement!",
-        "developed": "Divine corrections always concerned personal priorities in worldly affairs, never the corruption of doctrine. That Allah immortalized these moments proves the Prophet claimed no personal power and operated under direct divine guardianship."
+        "quick30s": "Qur'an ferman dide ku em guh bidin Pêxember ﷺ (Sureya 16, Ayeta 44). Redkirina Sunnetê redkirina fermana Qur'anê ye.",
+        "developed": "Temambûna Qur'anê danîna bingehên dîn e. Hûrgiliyên pratîkî ji aliyê Pêxember ﷺ ve hatine ravekirin. Bêyî Sunnetê dîn nayê sepandin."
       },
       "objections": [
         {
-          "obj": "Doesn't Surah At-Tahrim show that he prohibited things on his own?",
-          "ans": "The Prophet merely imposed a private abstention from a drink upon himself to please his wives; he did not issue a general prohibition for the community."
+          "obj": "Ma Qur'an nabêje her tiştî rave dike?",
+          "ans": "Sunnet jî beşek ji vê ravekirinê ye ku Qur'an ferman dide wê."
+        },
+        {
+          "obj": "Ma Pêxember ne miriye?",
+          "ans": "Ew çûye rehmetê lê Sunneta wî ya sehîh zindî ye."
         }
       ],
       "framingQuestions": [
-        "If the Prophet was an impostor, why would he preserve Surahs like 'Abasa that reprimand himself?",
-        "Doesn't Allah's immediate intervention prove that everything else he taught was approved by God?"
+        "Nimêja nîvro çend rekat e di Qur'anê de?",
+        "Çima Xwedê ferman daye Pêxember ku Qur'anê rave bike?"
       ],
       "quiz": [
         {
-          "q": "What do verses like Surah 'Abasa prove about the prophetic mission?",
+          "q": "Temambûna Qur'anê tê çi wateyê?",
           "options": [
-            "That his mission was under active and strict divine supervision.",
-            "That one should no longer obey him.",
-            "That he wrote the Quran himself.",
-            "That the Quran is incomplete."
+            "Ku her hûrgilî tê de heye bê pêwîstiya bi Pêxember.",
+            "Ku bingehên dîn datîne û ferman dide peyrewiya Pêxember ﷺ.",
+            "Ku pêwîstiya bi nimêjê tune ye.",
+            "Ku hedîs hemû derew in."
           ],
-          "answer": 0,
-          "explanation": "They prove that the Prophet was under constant divine guidance and concealed nothing."
+          "answer": 1,
+          "explanation": "Qur'an rêgezên giştî datîne û Sunnetê wek çavkaniya raveker destnîşan dike."
         }
       ],
       "conclusion": {
         "steps": [
-          "The Prophet was under continuous divine oversight.",
-          "Corrections were made publicly and immediately.",
-          "The confirmed Sunnah is 100% approved by Allah."
+          "Qur'an peyva Xwedê ye.",
+          "Qur'an ferman dide peyrewiya Pêxember ﷺ.",
+          "Sunnet riya sepandina Qur'anê ye."
         ],
-        "finalText": "Divine reprimands reinforce the infallibility of the revealed religion.",
-        "punchline": "Corrections do not weaken the Prophet's authority: they are the seal of his divine endorsement!"
+        "finalText": "Sunnet û Qur'an ji hev nayên veqetandin.",
+        "punchline": "Yê ku bi navê Qur'anê Sunnetê red dike, di rastiyê de guh nade Qur'anê!"
       },
       "fallacies": [
         "generalisation-abusive",
@@ -1275,100 +1644,109 @@ window.I18N_DATA['ku'] = {
       "id": 10,
       "number": "10",
       "slug": "10-priere-pratique-communautaire",
-      "theme": "Îbadet û Tewatûra Kiryarî ya Civakê",
-      "title": "Gelo nimêj bi kiryara civakê tê veguhastin ne bi hedîsan?",
-      "shortTitle": "Prayer & Tawâtur 'Amalî",
-      "tagline": "Kiryara nimêjê ya ku ji nifşekî derbasî nifşê din bûye, pênaseya tam a Sunneta zindî ye (Tewatûr).",
-      "formula": "Kiryara îbadetê ya ku civakê veguhastiye XWE Sunneta zindî ye; cudakirina wê ji hedîsan ne pêkan e!",
+      "theme": "Delîla Pratîk a Bêguman: Nimêj û Rîtwal",
+      "title": "Nimêja bê Sunnet: Riya xitimî ya Qur'anîyan",
+      "shortTitle": "Nimêja bê Sunnet",
+      "tagline": "Qur'an ferman dide nimêjê, lê hemû hûrgiliyên wê tenê bi Sunnetê tên zanîn.",
+      "formula": "Nimêjkirina wekhev a milyonan misilmanan delîla zindî ya Sunnetê ye!",
       "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_10.pdf",
       "theirArgument": {
-        "thesis": "We do not need Hadith books to pray! Prayer was transmitted by the living practice of the community from generation to generation, not by written reports.",
-        "verses": [
-          {
-            "ref": "Sûreya Al-Baqarah, ayeta 43",
-            "ar": "وَأَقِيمُوا الصَّلَاةَ وَآتُوا الزَّكَاةَ وَارْكَعُوا مَعَ الرَّاكِعِينَ",
-            "translation": "And establish prayer and give zakah and bow with those who bow."
-          }
-        ],
-        "realQuestion": "Is uninterrupted community practice (Tawatur 'Amali) anything other than the Sunnah of the Prophet itself?"
+        "thesis": "Em dikarin tenê bi Qur'anê nimêj bikin; Sunnet ne hewce ye.",
+        "verses": [],
+        "realQuestion": "Gelo mimkûn e nimêj tenê ji Qur'anê were derxistin?"
       },
       "logicalNode": {
-        "title": "Artificial division between living Sunnah and documented Hadith",
+        "title": "Girêka Mantiqî û Cihêkarî",
         "distinctions": [
           {
-            "term": "LIVING PRACTICE (TAWÂTUR 'AMALÎ)",
-            "desc": "Ritual actions (5 prayers, timings, rak'at) practiced and transmitted continuously by millions of believers."
+            "term": "BINGEHÊ QUR'ANÎ",
+            "desc": "Qur'an hemû bingeh û qanûnên sereke datîne û ferman dide peyrewiya Pêxember ﷺ."
           },
           {
-            "term": "WRITTEN DOCUMENTATION (HADITH)",
-            "desc": "The textual confirmation, precision, and codification of that very same living practice."
+            "term": "HÛRGILIYÊN SUNNETÊ",
+            "desc": "Sunnet hûrgiliyên nimêj, zekat û jiyanê rave dike."
           }
         ],
-        "generalRule": "One cannot validate a ritual practice while rejecting the authoritative source that established its norms.",
-        "errorToAvoid": "Believing that relying on community tradition is not relying on the prophetic Sunnah."
+        "generalRule": "Nivîsek ku desthilatê dide şirovekarekî, temambûna wê vê desthilatê jî digire nav xwe.",
+        "errorToAvoid": "Tevlihevkirina bingehên qanûnê û hûrgiliyên sepandina wê."
       },
       "centralPrinciple": {
-        "title": "Admitting community transmission destroys the Quranist premise",
-        "formalScheme": "1. The Quran mentions neither the 5 prayer times nor the number of rak'at (2, 4, 4, 3, 4).\n2. The Quranist admits receiving this practice from community tradition.\n3. This tradition traces back exclusively to the Prophet's command: {Pray as you have seen me pray}.\n4. Thus, the Quranist admits the Quranic text alone does not suffice for religious practice!",
-        "explanation": "By accepting the transmission of practice, the Quranist refutes his own dogma that only the Quranic text is binding.",
-        "logicalTest": "Demonstrate the exact sequence of prayer (Fatihah, Ruku', two Sujud, Tashahhud) based solely on Quranic verses without appealing to tradition!"
+        "title": "Bingeha Sereke ya Delîlê",
+        "formalScheme": "1. Qur'an ferman dide guhdana Pêxember ﷺ.\n2. Sunnet ravekirina Qur'anê ye.\n3. Redkirina Sunnetê redkirina Qur'anê ye.",
+        "explanation": "Qur'an bixwe desthilata Sunnetê ava dike. Yê ku Sunnetê red dike ayetên Qur'anê red dike.",
+        "logicalTest": "Eger tenê Qur'an bes e, hejmara rekatên nimêja nîvro tenê ji Qur'anê derxe!"
       },
       "quranicArchitecture": {
-        "title": "Verses on prayer as a duty at fixed times",
+        "title": "Ayetên Biryardar",
         "verses": [
           {
-            "ref": "Sûreya An-Nisa, ayeta 103",
-            "ar": "إِنَّ الصَّلَاةَ كَانَتْ عَلَى الْمُؤْمِنِينَ كِتَابًا مَّوْقُوتًا",
-            "translation": "Indeed, prayer has been decreed upon the believers a decree of specified times."
+            "ref": "Sureya Al-Aḥzâb, ayeta 21",
+            "ar": "لَّقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ",
+            "translation": "« Vous avez certes dans le Messager d'Allah un excellent modèle. »"
+          },
+          {
+            "ref": "Sureya An-Naḥl, ayeta 44",
+            "ar": "لِتُبَيِّنَ لِلنَّاسِ مَا نُزِّلَ إِلَيْهِمْ",
+            "translation": "« Afin que tu exposes clairement aux gens ce qui leur a été révélé. »"
           }
         ],
-        "consequence": "The determination of these specified times and forms occurred through the Sunnah of the Messenger."
+        "consequence": "Qur'an Pêxember ﷺ wek mamoste û şirovekar destnîşan dike."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "Learning the Mother Tongue",
-          "scenario": "A child learns spoken language from parents and society, and later studies grammar books.",
-          "logic": "Claiming grammar books are false because one already speaks ignores that both reflect the same reality.",
-          "lesson": "Living practice and written codification confirm one another.",
-          "application": "Hadiths document and preserve the prayer practice lived by the community."
+          "title": "Destûr û Qanûnên Sepandinê",
+          "scenario": "Destûra bingehîn rêgezan datîne û qanûn wan rave dikin.",
+          "logicBox": "Destûr = Qur'an | Qanûn = Sunnet.",
+          "lesson": "Redkirina qanûnan dewletê radiwestîne."
+        },
+        {
+          "num": 2,
+          "title": "Reçeteya Bijîşk û Derman",
+          "scenario": "Bijîşk derman dinivîse û şêwaza bikaranînê rave dike.",
+          "logicBox": "Reçete = Ferman | Bikaranîn = Sunnet.",
+          "lesson": "Nezanîna bikaranînê zirarê dide."
         }
       ],
       "readyResponses": {
-        "quick30s": "When you say 'We pray by community practice and not through Hadiths', you have already conceded that Quranism is false! You admit the Quran alone does not suffice and that you need external historical transmission. That practice is precisely the living Sunnah (Tawâtur 'Amalî)!",
-        "developed": "Tawâtur 'Amalî is the highest category of Sunnah in Islamic jurisprudence. Hadiths were recorded to clarify subtleties and supplications. Rejecting Hadiths inevitably leads to sects claiming there are only 2 or 3 prayers."
+        "quick30s": "Qur'an ferman dide ku em guh bidin Pêxember ﷺ (Sureya 16, Ayeta 44). Redkirina Sunnetê redkirina fermana Qur'anê ye.",
+        "developed": "Temambûna Qur'anê danîna bingehên dîn e. Hûrgiliyên pratîkî ji aliyê Pêxember ﷺ ve hatine ravekirin. Bêyî Sunnetê dîn nayê sepandin."
       },
       "objections": [
         {
-          "obj": "Didn't we inherit prayer from Abraham as the Quran says?",
-          "ans": "Abraham established monotheism and the Sacred House. The specific form of Islamic prayer with its timings and recitations was taught by Muhammad ﷺ: {Pray as you have seen me pray} (Sahih Bukhari)."
+          "obj": "Ma Qur'an nabêje her tiştî rave dike?",
+          "ans": "Sunnet jî beşek ji vê ravekirinê ye ku Qur'an ferman dide wê."
+        },
+        {
+          "obj": "Ma Pêxember ne miriye?",
+          "ans": "Ew çûye rehmetê lê Sunneta wî ya sehîh zindî ye."
         }
       ],
       "framingQuestions": [
-        "If you follow only the Quran, why do you pray 4 rak'at at noon when the word 'four' does not appear in the Quran regarding prayer units?",
-        "Do you recognize that praying as you do is living proof that the Sunnah is indispensable?"
+        "Nimêja nîvro çend rekat e di Qur'anê de?",
+        "Çima Xwedê ferman daye Pêxember ku Qur'anê rave bike?"
       ],
       "quiz": [
         {
-          "q": "What does the fact that Muslims worldwide pray 5 times daily in the same manner prove?",
+          "q": "Temambûna Qur'anê tê çi wateyê?",
           "options": [
-            "The authenticity and flawless preservation of the living Sunnah (Tawâtur 'Amalî).",
-            "That the Quran lists all rak'at.",
-            "That anyone can pray however they wish.",
-            "A mere coincidence."
+            "Ku her hûrgilî tê de heye bê pêwîstiya bi Pêxember.",
+            "Ku bingehên dîn datîne û ferman dide peyrewiya Pêxember ﷺ.",
+            "Ku pêwîstiya bi nimêjê tune ye.",
+            "Ku hedîs hemû derew in."
           ],
-          "answer": 0,
-          "explanation": "It is the undeniable proof of the preservation of the living Sunnah."
+          "answer": 1,
+          "explanation": "Qur'an rêgezên giştî datîne û Sunnetê wek çavkaniya raveker destnîşan dike."
         }
       ],
       "conclusion": {
         "steps": [
-          "Prayer is the practical core of Islam.",
-          "Its modalities are established by the prophetic Sunnah.",
-          "Appealing to community practice refutes the self-sufficiency dogma of the Quran."
+          "Qur'an peyva Xwedê ye.",
+          "Qur'an ferman dide peyrewiya Pêxember ﷺ.",
+          "Sunnet riya sepandina Qur'anê ye."
         ],
-        "finalText": "The daily practice of prayer is the permanent testimony to the necessity of the Sunnah.",
-        "punchline": "Praying according to the Sunnah while denying the Sunnah is a contradiction in every bow!"
+        "finalText": "Sunnet û Qur'an ji hev nayên veqetandin.",
+        "punchline": "Yê ku bi navê Qur'anê Sunnetê red dike, di rastiyê de guh nade Qur'anê!"
       },
       "fallacies": [
         "fausse-dichotomie",
@@ -1376,238 +1754,5 @@ window.I18N_DATA['ku'] = {
         "deplacement-charge-preuve"
       ]
     }
-  ],
-  "fallaciesToolbox": {
-    "headerBadge": "RÊBERÊ RÊBAZÎ",
-    "title": "QUTIYA AMÛRAN (HELETIYÊN MENTIQÎ)",
-    "subtitle": "Berî nîqaşê heletiyan nas bike",
-    "introTitle": "ÇIMA EV QUTIYA AMÛRAN?",
-    "introText": "Dibe ku delîlek di destpêkê de balkêş xuya bike, lê dîsa jî encamek derxe ku delîl wê îsbat nakin.",
-    "definitionTitle": "PÊN flashA HÊSAN",
-    "definitionText": "Heletiya mentiqî ew e ku di rûyê xwe de rast xuya dike lê di bingeha xwe de şaş e.",
-    "reflexQuestionTitle": "PIRSÊN SEREKE:",
-    "reflexQuestionText": "«Gelo delîl bi rastî vê encamê îsbat dike?»",
-    "reflexPurpose": "The goal is not to memorize obscure jargon, but to pinpoint exactly where an argument ceases to be logically sound.",
-    "pdfDownloadBtn": "Pirtûka Heletiyan Daxîne (PDF)",
-    "pdfFileName": "Boite_a_outils_Sophismes_Coranisme.pdf",
-    "goldenRuleTitle": "QAÎDEYA ZÊRÎN YA RÊBAZÎ",
-    "goldenRuleStatement": "NASKIRINA HELETIYÊ ≠ BÊQÎMETKIRINA ENCAMÊ YE",
-    "goldenRuleMeaning": "Exposing a flaw in reasoning merely demonstrates that the argument presented is insufficient to establish its conclusion.",
-    "goldenRuleExample": "If someone says: “All swans are white because I have observed ten white swans,” the deduction is flawed (ten observations cannot establish a universal law). However, pointing out this generalization does not prove that black swans exist; it merely calls for valid evidence.",
-    "goldenRuleGoal": "Never replace bad reasoning with another faulty claim. In debate, simply crying “fallacy!” is never enough: one must explicitly demonstrate which logical link is missing or which term has shifted in meaning.",
-    "sectionTitle10Cards": "📚 10 Heletiyên Mentiqî yên Sereke",
-    "btnDetails": "Hûrgulî",
-    "btnHide": "Veşêre",
-    "labelDefinition": "📖 Pênase",
-    "labelGeneralExample": "🌍 Mînaka Giştî",
-    "labelQuranicApp": "🕌 Bicihanîna li ser Îdîayên Qur'aniyan",
-    "labelQuestionToAsk": "❓ Pirs:",
-    "labelShortAnswer": "💬 Bersiva Kurt:",
-    "cardMemoBadge": "KARTA BÎRANÎNÊ",
-    "trainingBadge": "TAQÎKIRIN",
-    "items": [
-      {
-        "id": "homme-de-paille",
-        "num": 1,
-        "name": "Mirovê Kayê (Straw Man)",
-        "shortDef": "Distorting an opponent's position to easily refute a caricature.",
-        "definition": "Misrepresenting an opponent’s argument into a weaker, exaggerated version to make it easier to attack.",
-        "generalExample": "“We should limit smartphone usage during school hours.” → “So you want to ban all technology and progress for children!”",
-        "quranicApplication": "“Sunnis follow Al-Bukhari instead of the Quran.”\nThe genuine Sunni position is: Allah Almighty commands obedience to His Messenger ﷺ, and verified traditions are the historical vehicle to access his teachings.",
-        "questionToAsk": "“Is that truly what I advocate? Can you reformulate my actual position in a way I would endorse myself?”",
-        "shortAnswer": "“Refute my genuine position, not a fabricated caricature.”",
-        "icon": "🌾"
-      },
-      {
-        "id": "fausse-dichotomie",
-        "num": 2,
-        "name": "Dabeşkirina Şaş",
-        "shortDef": "Presenting two options as the only choices when alternatives or synthesis exist.",
-        "definition": "Artificially reducing a situation to two mutually exclusive choices, concealing middle grounds or complementary combinations.",
-        "generalExample": "“Either you support us 100%, or you are our sworn enemy.”",
-        "quranicApplication": "• “Either you follow the Quran or you follow men!” → The Muslim replies: “I follow the Quran when it commands me to obey the Messenger ﷺ.”\n• “Either the Quran is complete or it needs the Sunnah!” → A complete legal system can intrinsically delegate explanatory authority.",
-        "questionToAsk": "“Why must these two options be the only conceivable alternatives?”",
-        "shortAnswer": "“You present as contradictory two realities designed to operate together.”",
-        "icon": "⚖️"
-      },
-      {
-        "id": "generalisation-abusive",
-        "num": 3,
-        "name": "Gelemperîkirina Bêbingeh",
-        "shortDef": "Jumping from a few specific instances to a universal claim about an entire category.",
-        "definition": "Drawing a broad conclusion about an entire corpus or group based on a non-representative sample.",
-        "generalExample": "“Two doctors misdiagnosed my symptoms, therefore medicine is completely useless.”",
-        "quranicApplication": "“Fabricated hadiths exist, therefore all hadith literature is unreliable.”\nThe existence of forgeries demands rigorous critical authentication; it does not invalidate verified corpus (Counterfeit Currency Analogy).",
-        "questionToAsk": "“How do you jump from ‘some instances’ to an absolute ‘all’?”",
-        "shortAnswer": "“Proving that some items are corrupt does not prove the entire category is false.”",
-        "icon": "🔍"
-      },
-      {
-        "id": "non-sequitur",
-        "num": 4,
-        "name": "Encama Bêtêkilî",
-        "shortDef": "The conclusion does not logically flow from the stated premise.",
-        "definition": "An argument where the stated premise might be entirely true, but fails logically to support the conclusion derived from it.",
-        "generalExample": "“It is raining outside, therefore the indoor basketball game is canceled.”",
-        "quranicApplication": "• “The Quran is complete, therefore the Sunnah is useless.” (Textual completeness does not exclude the explanatory mandate instituted by the text itself).\n• “Allah preserved the Quran, therefore no hadith can ever be authentic.”\n• “Al-Bukhari lived two centuries later, therefore traditions were created two centuries later.”",
-        "questionToAsk": "“What exact logical step bridges your premise to your conclusion?”",
-        "shortAnswer": "“Your initial premise can be true without proving your secondary claim.”",
-        "icon": "⚡"
-      },
-      {
-        "id": "cherry-picking",
-        "num": 5,
-        "name": "Hilbijartina Delîlan",
-        "shortDef": "Selecting only favorable data while deliberately omitting contradictory evidence.",
-        "definition": "Suppressing relevant contextual evidence while highlighting only isolated passages that seem to favor a predetermined view.",
-        "generalExample": "Citing 3 favorable product reviews while concealing 50 rigorous studies demonstrating severe hazards.",
-        "quranicApplication": "• Citing “The Messenger’s duty is only to convey” (Al-Balagh) while omitting verses commanding: “Obey the Messenger”, “Judge by his decree”, and “An excellent exemplar”.\n• Citing “Do not write from me...” while concealing the conclusion “and narrate from me without harm” and specific orders to write.",
-        "questionToAsk": "“Are there other texts in the Quran regarding this exact subject that you have omitted?”",
-        "shortAnswer": "“A verse cannot be read in isolation when other passages define and qualify it.”",
-        "icon": "🍒"
-      },
-      {
-        "id": "double-standard",
-        "num": 6,
-        "name": "Pîvana Duçarî",
-        "shortDef": "Applying strict evidentiary criteria to opponents and lax criteria to oneself.",
-        "definition": "Enforcing an impossibly demanding standard of proof against opposing evidence, while accepting flimsy reports when they serve polemical interests.",
-        "generalExample": "Demanding doctoral credentials from others while accepting unverified gossip when convenient.",
-        "quranicApplication": "• When a hadith establishes a ritual rule: “Human transmission, centuries late, uncertain!” / When a hadith serves a polemic: “Bukhari proves beyond doubt Aisha’s age!”\n• Accepting human transmission for Quranic recitations (Hafs from Asim) while rejecting the same human transmission for prophetic Sunnah.",
-        "questionToAsk": "“Would you apply this exact same strict criterion if this proof favored your thesis?”",
-        "shortAnswer": "“Scientific standards of proof must remain constant regardless of whether the outcome pleases you.”",
-        "icon": "🔄"
-      },
-      {
-        "id": "equivoque-lexicale",
-        "num": 7,
-        "name": "Tevlihevkirina Peyvan",
-        "shortDef": "Using the same word with two different meanings during the argument.",
-        "definition": "Exploiting lexical ambiguity by shifting between the linguistic meaning of a term and a subsequent specialized technical term.",
-        "generalExample": "“Gravity is a law. Laws are passed by parliament. Therefore gravity was enacted by parliament.”",
-        "quranicApplication": "In Quranic Arabic, ‘hadith’ means speech, discourse, narrative, or account. The fallacy consists in citing “In what hadith after this will they believe?” and covertly substituting the linguistic sense (‘discourse’) with the technical term (‘hadith compilations’).",
-        "questionToAsk": "“What precise linguistic meaning does this word carry in this verse, and how do you demonstrate it from context?”",
-        "shortAnswer": "“Let us establish the exact linguistic definition before drawing false conclusions.”",
-        "icon": "🔀"
-      },
-      {
-        "id": "argument-de-possibilite",
-        "num": 8,
-        "name": "Guman kirina Rastî",
-        "shortDef": "Equating “it could theoretically be false” with “it is proven false”.",
-        "definition": "Treating the mere abstract possibility of human error or forgery as conclusive proof that all historical transmission is invalid.",
-        "generalExample": "“A witness could theoretically lie, therefore all courtroom testimony is inherently false.” (Possibility warrants verification, not wholesale rejection).",
-        "quranicApplication": "“An isnad chain could theoretically be invented, therefore isnads prove nothing.”\nThe theoretical possibility of fabrication necessitates biographical evaluation and cross-comparison, not a priori denial.",
-        "questionToAsk": "“Have you demonstrated that this actually occurred, or merely that it was theoretically possible?”",
-        "shortAnswer": "“An abstract theoretical possibility is not historical proof.”",
-        "icon": "🎲"
-      },
-      {
-        "id": "deplacement-charge-preuve",
-        "num": 9,
-        "name": "Guheztina Barê Îsbatê",
-        "shortDef": "Asserting a sweeping claim and demanding that opponents prove it wrong.",
-        "definition": "The obligation of proof rests upon the claimant. Shifting the burden occurs when someone makes a universal denial and demands others disprove it.",
-        "generalExample": "“There is a secret civilization beneath Mars; prove to me that it doesn’t exist!”",
-        "quranicApplication": "“No prophetic tradition is sufficiently reliable to serve as religious proof.”\nThis is a sweeping universal claim regarding thousands of narrations across regions and centuries; it requires robust proof from the claimant.",
-        "questionToAsk": "“Who is making the sweeping assertion here, and who bears the evidentiary burden?”",
-        "shortAnswer": "“Whoever claims that an entire historical corpus is void must substantiate that universal assertion.”",
-        "icon": "⚖️"
-      },
-      {
-        "id": "appel-emotion",
-        "num": 10,
-        "name": "Balkişandina li ser Histan",
-        "shortDef": "Substituting logical analysis with emotional shock, indignation, or mockery.",
-        "definition": "Bypassing textual, linguistic, and historical analysis by provoking theatrical disgust, outrage, or sarcastic mockery.",
-        "generalExample": "Sneering at a complex scientific formula instead of critically evaluating its premises.",
-        "quranicApplication": "“You actually believe in the fly hadith?!”, etc.\nAn emotional outburst fails to address foundational questions: What is the exact text? What is its authenticity grade? What is its linguistic context? How did classical jurists interpret it?",
-        "questionToAsk": "“What is your logical evidence, independently of your emotional shock or mockery?”",
-        "shortAnswer": "“Disgust and sarcasm are emotional reactions, not demonstrations of proof.”",
-        "icon": "🎭"
-      }
-    ],
-    "reflexQuestions": {
-      "title": "THE 4 CORE REFLEXES",
-      "subtitle": "4 questions when evaluating any theological argument",
-      "summaryNotice": "These four questions are sufficient to detect the vast majority of flawed theological polemics.",
-      "questions": [
-        {
-          "num": 1,
-          "title": "1. The Premise",
-          "desc": "What has actually been established by evidence? Never allow the conclusion to be smuggled into the premise."
-        },
-        {
-          "num": 2,
-          "title": "2. The Logical Link",
-          "desc": "Does the conclusion genuinely follow from the premise? Or is a vital deduction missing?"
-        },
-        {
-          "num": 3,
-          "title": "3. Complete Evidence",
-          "desc": "Have all relevant Quranic verses been integrated? Or only those favoring the thesis?"
-        },
-        {
-          "num": 4,
-          "title": "4. The Equal Standard",
-          "desc": "Is the exact same evidentiary criterion applied to both sides? Or does it change when convenient?"
-        }
-      ]
-    },
-    "quiz": {
-      "title": "QUICK TEST: IDENTIFY THE FALLACY",
-      "subtitle": "Identify the logical fallacy in each of the following statements:",
-      "items": [
-        {
-          "id": 1,
-          "statement": "“Some hadiths were fabricated, therefore no hadith can ever be trusted.”",
-          "answerId": "generalisation-abusive",
-          "answerName": "Hasty Generalization",
-          "explanation": "Jumping from the existence of forged reports to invalidating the entire corpus is a hasty generalization."
-        },
-        {
-          "id": 2,
-          "statement": "“Either you follow Allah, or you follow Muhammad ﷺ.”",
-          "answerId": "fausse-dichotomie",
-          "answerName": "False Dichotomy",
-          "explanation": "Obeying the Messenger is mandated by Allah in the Quran; there is no conflict between the two."
-        },
-        {
-          "id": 3,
-          "statement": "“The Quran is complete, therefore all prophetic explanation is useless.”",
-          "answerId": "non-sequitur",
-          "answerName": "Non Sequitur",
-          "explanation": "The completeness of the text does not imply that it excludes the explanatory authority it establishes."
-        },
-        {
-          "id": 4,
-          "statement": "“In what hadith after this will they believe? Therefore Bukhari is forbidden.”",
-          "answerId": "equivoque-lexicale",
-          "answerName": "Equivocation",
-          "explanation": "The word ‘hadith’ linguistically means ‘discourse’, not technical written compilations."
-        },
-        {
-          "id": 5,
-          "statement": "“Hadiths are too late to be reliable, yet the narration on Aisha's age is indisputable proof!”",
-          "answerId": "double-standard",
-          "answerName": "Double Standard",
-          "explanation": "Lax criteria for polemical points vs impossible criteria for normative rules is a double standard."
-        },
-        {
-          "id": 6,
-          "statement": "“A chain could theoretically be invented, therefore isnads prove nothing.”",
-          "answerId": "argument-de-possibilite",
-          "answerName": "Appeal to Possibility",
-          "explanation": "Confusing an abstract theoretical possibility with conclusive historical invalidity is a fallacy."
-        }
-      ]
-    },
-    "conclusion": {
-      "title": "KEY TAKEAWAY: LOGIC OVER SLOGANS",
-      "mainText": "An argument may cite an authentic Quranic verse, a factual hadith, or true information, and still arrive at a defective conclusion if the logical reasoning connecting them is flawed.",
-      "slogan1": "DO NOT MERELY ASK: “WHAT IS THE PROOF?”",
-      "slogan2": "ASK ALSO: “WHAT DOES IT ACTUALLY PROVE?”",
-      "finalNote": "A rigorous intellectual debate is never won by loud slogans, but by sound premises, holistic evidence, and unbroken logical deduction."
-    }
-  }
+  ]
 };
