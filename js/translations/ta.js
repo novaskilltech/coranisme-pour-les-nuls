@@ -18,7 +18,7 @@ window.I18N_DATA['ta'] = {
     "contactBtn": "தொடர்பு",
     "legalBtn": "பகிர்வு & உரிமம்",
     "summaryTitle": "பொருளடக்கம்",
-    "rubriquesCount": "12 பகுதிகள்",
+    "rubriquesCount": "12 பிரிவுகள்",
     "heroTag1": "நடைமுறை மறுப்பு வழிகாட்டி",
     "heroTag2": "இலவச கல்விப் பகிர்வு",
     "heroTitleMain": "குர்ஆனிசத்தின்",
@@ -130,14 +130,14 @@ window.I18N_DATA['ta'] = {
     "navBarbahari": "அல்-பர்பஹாரி",
     "navContact": "தொடர்பு",
     "navLicense": "பகிர்வு & உரிமம்",
-    "sidebarSadaqaHeader": "கல்விப் பகிர்வு",
-    "sidebarSadaqaText": "ஆசிரியரைக் குறிப்பிட்டு தனிப்பட்ட மற்றும் கல்வி நோக்கங்களுக்காக இந்த உள்ளடக்கத்தை இலவசமாகப் பகிரலாம்.",
+    "sidebarSadaqaHeader": "இலவச கல்வி வெளியீடு",
+    "sidebarSadaqaText": "சுன்னாவைக் கற்பதற்கும் பாதுகாப்பதற்கும் இந்த கையேடு இலவசமாகக் கிடைக்கிறது.",
     "labelAuthor": "ஆசிரியர்:",
-    "authorName": "ஸலாஹ் எத்தீன் அஹ்மத்",
-    "btnSidebarHome": "பொருளடக்கம்",
-    "btnSidebarContact": "தொடர்பு",
-    "sidebarPreface": "Preface",
-    "sidebarIntro": "Who are the Quranists?",
+    "authorName": "சலாஹ் எத்தீன் அஹ்மத் (அபூ சுலைமான்)",
+    "btnSidebarHome": "முகப்பு",
+    "btnSidebarContact": "ஆசிரியரைத் தொடர்பு கொள்ள",
+    "sidebarPreface": "ஆசிரியரின் முன்னுரை",
+    "sidebarIntro": "குர்ஆனிஸ்ட்டுகள் யார்?",
     "portalQuoteTransLabel": "Translation of the meaning:",
     "portalQuoteText": "If you hear a man who, upon having an athar (transmitted tradition) cited to him, rejects it saying: \"Leave this and bring us the Quran\", do not doubt that he is a man steeped in heresy. Stand up and leave his gathering!",
     "searchNoResults": "No results found for",
@@ -177,7 +177,9 @@ window.I18N_DATA['ta'] = {
     "btnOpenToolbox": "Open in Fallacy Toolbox",
     "footerVisitsLabel": "மொத்த வருகைகள்:",
     "footerVisitsPrivacy": "100% அநாமதேய • GDPR",
-    "footerVisitsTooltip": "தனியுரிமைக்கு மதிப்பளிக்கும் பார்வையாளர் எண்ணிக்கை"
+    "footerVisitsTooltip": "தனியுரிமைக்கு மதிப்பளிக்கும் பார்வையாளர் எண்ணிக்கை",
+    "navPreface": "ஆசிரியரின் முன்னுரை",
+    "navIntro": "குர்ஆனிஸ்ட்டுகள் யார்?"
   },
   "arguments": [
     {
@@ -1254,8 +1256,8 @@ window.I18N_DATA['ta'] = {
   ],
   "preface": {
     "badge": "افتتاحية الكتاب",
-    "title": "المقدمة",
-    "subtitle": "لماذا هذا الكتاب ؟",
+    "title": "ஆசிரியரின் முன்னுரை",
+    "subtitle": "இந்த முறையான மறுப்பு கையேடு ஏன்?",
     "introTag": "قبل البدء",
     "basmala": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ",
     "sections": [
@@ -1344,8 +1346,8 @@ window.I18N_DATA['ta'] = {
   },
   "intro": {
     "header": "مدخل تأريخي ومنهجي",
-    "title": "من هم القرآنيون (منكرو السنة) ؟",
-    "subtitle": "التعريف، والنشأة، والجذور التاريخية لهذه الفرقة",
+    "title": "குர்ஆனிஸ்ட்டுகள் (சுன்னாவை மறுப்பவர்கள்) யார்?",
+    "subtitle": "வரையறை, வரலாற்று தோற்றம் மற்றும் அடிப்படை கோட்பாடுகள்",
     "badge": "حقائق تاريخية",
     "sections": [
       {

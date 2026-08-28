@@ -130,13 +130,13 @@ window.I18N_DATA['fr'] = {
     "navBarbahari": "Al-Barbahârî",
     "navContact": "Contact",
     "navLicense": "Partage & Licence",
-    "sidebarSadaqaHeader": "Diffusion Pédagogique",
+    "sidebarSadaqaHeader": "Diffusion Pédagogique Ouverte",
     "sidebarSadaqaText": "Ce manuel est mis à disposition librement pour l'étude et la défense de la Sunna.",
     "labelAuthor": "Auteur :",
     "authorName": "Salah Eddine Ahmed (Abou Soulaymane)",
-    "btnSidebarHome": "Accueil du Manuel",
+    "btnSidebarHome": "Accueil",
     "btnSidebarContact": "Contacter l'auteur",
-    "sidebarPreface": "Préface",
+    "sidebarPreface": "Préface de l'Auteur",
     "sidebarIntro": "Qui sont les coranistes ?",
     "portalQuoteTransLabel": "Traduction du sens :",
     "portalQuoteText": "Si tu entends un homme à qui l'on cite un athar (récit transmis / tradition) le rejeter en disant : \"Laisse cela et apporte-nous le Coran\", ne doute pas alors qu'il s'agit d'un homme imprégné d'hérésie. Lève-toi de son assemblée et délaisse-le !",
@@ -177,7 +177,9 @@ window.I18N_DATA['fr'] = {
     "btnOpenToolbox": "Consulter dans la Boîte à outils",
     "footerVisitsLabel": "Visites totales :",
     "footerVisitsPrivacy": "100% Anonyme • RGPD",
-    "footerVisitsTooltip": "Compteur de visites anonymisé et respectueux de la vie privée (RGPD - 0 cookie)"
+    "footerVisitsTooltip": "Compteur de visites anonymisé et respectueux de la vie privée (RGPD - 0 cookie)",
+    "navPreface": "Préface de l'Auteur",
+    "navIntro": "Qui sont les coranistes ?"
   },
   "arguments": [
     {
@@ -1484,8 +1486,8 @@ window.I18N_DATA['fr'] = {
   ],
   "preface": {
     "badge": "OUVERTURE DE L'OUVRAGE",
-    "title": "PRÉFACE",
-    "subtitle": "Pourquoi cet ouvrage ?",
+    "title": "PRÉFACE DE L'AUTEUR",
+    "subtitle": "Pourquoi cet ouvrage de réfutation méthodique ?",
     "introTag": "AVANT DE COMMENCER",
     "basmala": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ",
     "sections": [
@@ -1566,7 +1568,7 @@ window.I18N_DATA['fr'] = {
   "intro": {
     "header": "CONTEXTE INTRODUCTIF",
     "title": "QUI SONT LES CORANISTES ?",
-    "subtitle": "Définition, origines et histoire d'un courant plus ancien qu'il n'y paraît",
+    "subtitle": "Définition, émergence et repères historiques indispensables",
     "badge": "REPÈRES HISTORIQUES",
     "sections": [
       {

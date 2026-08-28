@@ -130,14 +130,14 @@ window.I18N_DATA['it'] = {
     "navBarbahari": "Al-Barbahari",
     "navContact": "Contatto",
     "navLicense": "Condivisione e Licenza",
-    "sidebarSadaqaHeader": "DIFFUSIONE PEDAGOGICA",
-    "sidebarSadaqaText": "Questo contenuto può essere condiviso gratuitamente e riprodotto per scopi personali ed educativi menzionando l'autore.",
+    "sidebarSadaqaHeader": "Risorsa Educativa Aperta",
+    "sidebarSadaqaText": "Questo manuale è disponibile liberamente per lo studio e la difesa della Sunnah.",
     "labelAuthor": "Autore:",
-    "authorName": "Salah Eddine Ahmed (Abou Soulaymane)",
-    "btnSidebarHome": "Sommario",
-    "btnSidebarContact": "Contatto",
-    "sidebarPreface": "Preface",
-    "sidebarIntro": "Who are the Quranists?",
+    "authorName": "Salah Eddine Ahmed (Abu Sulayman)",
+    "btnSidebarHome": "Home",
+    "btnSidebarContact": "Contatta l'Autore",
+    "sidebarPreface": "Prefazione dell'Autore",
+    "sidebarIntro": "Chi sono i coranisti?",
     "portalQuoteTransLabel": "Translation of the meaning:",
     "portalQuoteText": "If you hear a man who, upon having an athar (transmitted tradition) cited to him, rejects it saying: \"Leave this and bring us the Quran\", do not doubt that he is a man steeped in heresy. Stand up and leave his gathering!",
     "searchNoResults": "No results found for",
@@ -177,7 +177,9 @@ window.I18N_DATA['it'] = {
     "btnOpenToolbox": "Open in Fallacy Toolbox",
     "footerVisitsLabel": "Visite totali:",
     "footerVisitsPrivacy": "100% Anonimo • GDPR",
-    "footerVisitsTooltip": "Contatore anonimo conforme alla privacy (GDPR - 0 cookie)"
+    "footerVisitsTooltip": "Contatore anonimo conforme alla privacy (GDPR - 0 cookie)",
+    "navPreface": "Prefazione dell'Autore",
+    "navIntro": "Chi sono i coranisti?"
   },
   "arguments": [
     {
@@ -1285,8 +1287,8 @@ window.I18N_DATA['it'] = {
   ],
   "preface": {
     "badge": "BOOK OPENING",
-    "title": "PREFACE",
-    "subtitle": "Why this book?",
+    "title": "PREFAZIONE DELL'AUTORE",
+    "subtitle": "Perché questo manuale di confutazione metodica?",
     "introTag": "BEFORE YOU BEGIN",
     "basmala": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ (In the Name of Allah, the Most Gracious, the Most Merciful)",
     "sections": [
@@ -1366,8 +1368,8 @@ window.I18N_DATA['it'] = {
   },
   "intro": {
     "header": "INTRODUCTORY CONTEXT",
-    "title": "WHO ARE THE QURANISTS?",
-    "subtitle": "Definition, origins, and historical development of this current",
+    "title": "CHI SONO I CORANISTI?",
+    "subtitle": "Definizione, origine storica e punti di riferimento",
     "badge": "HISTORICAL LANDMARKS",
     "sections": [
       {

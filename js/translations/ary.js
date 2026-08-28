@@ -130,14 +130,14 @@ window.I18N_DATA['ary'] = {
     "navBarbahari": "البربهاري",
     "navContact": "تواصل معنا",
     "navLicense": "المشاركة والترخيص",
-    "sidebarSadaqaHeader": "نشر تعليمي مجاني",
-    "sidebarSadaqaText": "هاد المحتوى يمكن تبارطاجيه فابور وتعاود تنشرو لأغراض شخصية وتعليمية مع ذكر الكاتب.",
-    "labelAuthor": "الكاتب :",
+    "sidebarSadaqaHeader": "نشر علمي فابور",
+    "sidebarSadaqaText": "هاد الدليل متاح مجاناً لمدارسة السنة النبوية والدفاع عليها.",
+    "labelAuthor": "المؤلف :",
     "authorName": "صلاح الدين أحمد (أبو سليمان)",
-    "btnSidebarHome": "الفهرس",
-    "btnSidebarContact": "تواصل معنا",
-    "sidebarPreface": "Preface",
-    "sidebarIntro": "Who are the Quranists?",
+    "btnSidebarHome": "الرئيسية",
+    "btnSidebarContact": "مراسلة الكاتب",
+    "sidebarPreface": "مقدمة د الكاتب",
+    "sidebarIntro": "شكون هوما القرآنيين ؟",
     "portalQuoteTransLabel": "Translation of the meaning:",
     "portalQuoteText": "If you hear a man who, upon having an athar (transmitted tradition) cited to him, rejects it saying: \"Leave this and bring us the Quran\", do not doubt that he is a man steeped in heresy. Stand up and leave his gathering!",
     "searchNoResults": "No results found for",
@@ -177,7 +177,9 @@ window.I18N_DATA['ary'] = {
     "btnOpenToolbox": "فتح صندوق الأدوات الكامل",
     "footerVisitsLabel": "مجموع الزيارات :",
     "footerVisitsPrivacy": "مجهول 100% • خصوصية",
-    "footerVisitsTooltip": "عداد زيارات كيحترم الخصوصية 100% بلا كوكيز"
+    "footerVisitsTooltip": "عداد زيارات كيحترم الخصوصية 100% بلا كوكيز",
+    "navPreface": "مقدمة د الكاتب",
+    "navIntro": "شكون هوما القرآنيين ؟"
   },
   "arguments": [
     {
@@ -1254,8 +1256,8 @@ window.I18N_DATA['ary'] = {
   ],
   "preface": {
     "badge": "افتتاحية الكتاب",
-    "title": "المقدمة",
-    "subtitle": "علاش هاد الكتاب ؟",
+    "title": "مقدمة د الكاتب",
+    "subtitle": "علاش هاد الدليل المنهجي لتفنيد شبهات منكري السنة ؟",
     "introTag": "قبل ما تبدا",
     "basmala": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ",
     "sections": [
@@ -1335,8 +1337,8 @@ window.I18N_DATA['ary'] = {
   },
   "intro": {
     "header": "مدخل تاريخي ومنهجي",
-    "title": "شكون هما القرآنيون (منكري السنة) ؟",
-    "subtitle": "التعريف، الأصل وتاريخ هاد التيار",
+    "title": "شكون هوما القرآنيين (منكري السنة) ؟",
+    "subtitle": "التعريف والنشأة والمعالم التاريخية والمنهجية",
     "badge": "حقائق تاريخية",
     "sections": [
       {

@@ -322,6 +322,33 @@ function updateStaticDOM(ui) {
     btnSidebarContact.innerHTML = `<span>✉️</span> ${ui.btnSidebarContact}`;
   }
 
+  // Liens de navigation dans la Sidebar
+  const navPreface = document.querySelector('#nav-item-preface .sidebar-nav-title, #nav-item-preface .nav-arg-title');
+  if (navPreface && (ui.navPreface || ui.sidebarPreface)) {
+    navPreface.textContent = ui.navPreface || ui.sidebarPreface;
+  }
+
+  const navIntro = document.querySelector('#nav-item-coranisme-intro .sidebar-nav-title, #nav-item-coranisme-intro .nav-arg-title');
+  if (navIntro && (ui.navIntro || ui.sidebarIntro)) {
+    navIntro.textContent = ui.navIntro || ui.sidebarIntro;
+  }
+
+  const navFallacies = document.querySelector('#nav-item-boite-a-outils .sidebar-nav-title, #nav-item-boite-a-outils .nav-arg-title');
+  if (navFallacies && ui.navFallacies) {
+    navFallacies.textContent = ui.navFallacies;
+  }
+
+  // Mise à jour des 10 arguments dans la sidebar si présents
+  if (window.ARGUMENTS_DATA && Array.isArray(window.ARGUMENTS_DATA)) {
+    window.ARGUMENTS_DATA.forEach(arg => {
+      const argNavItem = document.querySelector(`#nav-item-${arg.id} .sidebar-nav-title, #nav-item-${arg.id} .nav-arg-title`);
+      if (argNavItem) {
+        argNavItem.textContent = arg.title;
+        if (arg.title) argNavItem.setAttribute('title', arg.title);
+      }
+    });
+  }
+
   // Splash Portal Al-Barbahari
   const portalWarning = document.querySelector('.portal-warning-badge');
   if (portalWarning && ui.portalWarningBadge) portalWarning.innerHTML = `<span>⚠️</span> ${ui.portalWarningBadge}`;

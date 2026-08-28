@@ -131,12 +131,12 @@ window.I18N_DATA['en'] = {
     "navContact": "Contact",
     "navLicense": "Sharing & License",
     "sidebarSadaqaHeader": "Open Educational Resource",
-    "sidebarSadaqaText": "This manual is freely provided for the study and defense of the prophetic Sunnah.",
+    "sidebarSadaqaText": "This manual is freely available for study and defense of the Sunnah.",
     "labelAuthor": "Author:",
-    "authorName": "Salah Eddine Ahmed (Abou Soulaymane)",
-    "btnSidebarHome": "Manual Home",
+    "authorName": "Salah Eddine Ahmed (Abu Sulayman)",
+    "btnSidebarHome": "Home",
     "btnSidebarContact": "Contact Author",
-    "sidebarPreface": "Preface",
+    "sidebarPreface": "Author's Preface",
     "sidebarIntro": "Who are the Quranists?",
     "portalQuoteTransLabel": "Translation of the meaning:",
     "portalQuoteText": "If you hear a man who, upon having an athar (transmitted tradition) cited to him, rejects it saying: \"Leave this and bring us the Quran\", do not doubt that he is a man steeped in heresy. Stand up and leave his gathering!",
@@ -177,7 +177,9 @@ window.I18N_DATA['en'] = {
     "btnOpenToolbox": "Open in Fallacy Toolbox",
     "footerVisitsLabel": "Total Visits:",
     "footerVisitsPrivacy": "100% Anonymous • GDPR",
-    "footerVisitsTooltip": "Privacy-friendly anonymous visit counter (GDPR compliant - 0 cookies)"
+    "footerVisitsTooltip": "Privacy-friendly anonymous visit counter (GDPR compliant - 0 cookies)",
+    "navPreface": "Author's Preface",
+    "navIntro": "Who are the Quranists?"
   },
   "arguments": [
     {
@@ -1285,8 +1287,8 @@ window.I18N_DATA['en'] = {
   ],
   "preface": {
     "badge": "BOOK OPENING",
-    "title": "PREFACE",
-    "subtitle": "Why this book?",
+    "title": "AUTHOR'S PREFACE",
+    "subtitle": "Why this methodical refutation manual?",
     "introTag": "BEFORE YOU BEGIN",
     "basmala": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ (In the Name of Allah, the Most Gracious, the Most Merciful)",
     "sections": [
@@ -1367,7 +1369,7 @@ window.I18N_DATA['en'] = {
   "intro": {
     "header": "INTRODUCTORY CONTEXT",
     "title": "WHO ARE THE QURANISTS?",
-    "subtitle": "Definition, origins, and historical development of this current",
+    "subtitle": "Definition, historical emergence, and core methodology",
     "badge": "HISTORICAL LANDMARKS",
     "sections": [
       {

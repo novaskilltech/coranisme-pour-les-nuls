@@ -130,14 +130,14 @@ window.I18N_DATA['ur'] = {
     "navBarbahari": "البربہاری",
     "navContact": "رابطہ",
     "navLicense": "اشتراک اور لائسنس",
-    "sidebarSadaqaHeader": "تعلیمی و دعوتی اشاعت",
-    "sidebarSadaqaText": "یہ مواد ذاتی اور تعلیمی مقاصد کے لیے مصنف کا نام ذکر کرتے ہوئے مفت شیئر اور دوبارہ شائع کیا جا سکتا ہے۔",
-    "labelAuthor": "مصنف:",
-    "authorName": "صلاح الدین احمد",
-    "btnSidebarHome": "فہرست",
-    "btnSidebarContact": "رابطہ",
-    "sidebarPreface": "Preface",
-    "sidebarIntro": "Who are the Quranists?",
+    "sidebarSadaqaHeader": "مفت علمی اشاعت",
+    "sidebarSadaqaText": "یہ رہنما کتاب سنت نبوی کے مطالعہ اور دفاع کے لیے مفت دستیاب ہے۔",
+    "labelAuthor": "مصنف :",
+    "authorName": "صلاح الدین احمد (ابو سلیمان)",
+    "btnSidebarHome": "صفحہ اول",
+    "btnSidebarContact": "مصنف سے رابطہ",
+    "sidebarPreface": "مصنف کا دیباچہ",
+    "sidebarIntro": "قرآنی کون ہیں؟",
     "portalQuoteTransLabel": "Translation of the meaning:",
     "portalQuoteText": "If you hear a man who, upon having an athar (transmitted tradition) cited to him, rejects it saying: \"Leave this and bring us the Quran\", do not doubt that he is a man steeped in heresy. Stand up and leave his gathering!",
     "searchNoResults": "No results found for",
@@ -177,7 +177,9 @@ window.I18N_DATA['ur'] = {
     "btnOpenToolbox": "فتح صندوق الأدوات الكامل",
     "footerVisitsLabel": "کل زیارتیں :",
     "footerVisitsPrivacy": "١٠٠٪ گمنام • محفوظ",
-    "footerVisitsTooltip": "پرائیویسی دوست گمنام وزیٹر کاؤنٹر (بغیر کوکیز)"
+    "footerVisitsTooltip": "پرائیویسی دوست گمنام وزیٹر کاؤنٹر (بغیر کوکیز)",
+    "navPreface": "مصنف کا دیباچہ",
+    "navIntro": "قرآنی کون ہیں؟"
   },
   "arguments": [
     {
@@ -1254,8 +1256,8 @@ window.I18N_DATA['ur'] = {
   ],
   "preface": {
     "badge": "افتتاحية الكتاب",
-    "title": "المقدمة",
-    "subtitle": "لماذا هذا الكتاب ؟",
+    "title": "مصنف کا دیباچہ",
+    "subtitle": "منکرین حدیث کے رد پر یہ منہجی رہنما کتاب کیوں؟",
     "introTag": "قبل البدء",
     "basmala": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ",
     "sections": [
@@ -1344,8 +1346,8 @@ window.I18N_DATA['ur'] = {
   },
   "intro": {
     "header": "مدخل تأريخي ومنهجي",
-    "title": "من هم القرآنيون (منكرو السنة) ؟",
-    "subtitle": "التعريف، والنشأة، والجذور التاريخية لهذه الفرقة",
+    "title": "منکرِ حدیث (قرآنی) کون ہیں؟",
+    "subtitle": "تعریف، تاریخی پس منظر اور بنیادی فکری مغالطے",
     "badge": "حقائق تاريخية",
     "sections": [
       {

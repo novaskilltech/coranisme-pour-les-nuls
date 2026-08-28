@@ -18,7 +18,7 @@ window.I18N_DATA['pt'] = {
     "contactBtn": "Contacto",
     "legalBtn": "Partilha & Licença",
     "summaryTitle": "Índice",
-    "rubriquesCount": "12 secções",
+    "rubriquesCount": "12 seções",
     "heroTag1": "Manual Prático de Refutação",
     "heroTag2": "Difusão Pedagógica Aberta",
     "heroTitleMain": "Refutação",
@@ -130,14 +130,14 @@ window.I18N_DATA['pt'] = {
     "navBarbahari": "Al-Barbahari",
     "navContact": "Contato",
     "navLicense": "Compartilhamento & Licença",
-    "sidebarSadaqaHeader": "DIFUSÃO PEDAGÓGICA",
-    "sidebarSadaqaText": "Este conteúdo pode ser compartilhado gratuitamente e reproduzido para fins pessoais e pedagógicos mediante citação do autor.",
+    "sidebarSadaqaHeader": "Recurso Educacional Aberto",
+    "sidebarSadaqaText": "Este manual está disponível livremente para estudo e defesa da Sunnah.",
     "labelAuthor": "Autor:",
-    "authorName": "Salah Eddine Ahmed (Abou Soulaymane)",
-    "btnSidebarHome": "Sumário",
-    "btnSidebarContact": "Contato",
-    "sidebarPreface": "Preface",
-    "sidebarIntro": "Who are the Quranists?",
+    "authorName": "Salah Eddine Ahmed (Abu Sulayman)",
+    "btnSidebarHome": "Início",
+    "btnSidebarContact": "Contatar o Autor",
+    "sidebarPreface": "Prefácio do Autor",
+    "sidebarIntro": "Quem são os coranistas?",
     "portalQuoteTransLabel": "Translation of the meaning:",
     "portalQuoteText": "If you hear a man who, upon having an athar (transmitted tradition) cited to him, rejects it saying: \"Leave this and bring us the Quran\", do not doubt that he is a man steeped in heresy. Stand up and leave his gathering!",
     "searchNoResults": "No results found for",
@@ -177,7 +177,9 @@ window.I18N_DATA['pt'] = {
     "btnOpenToolbox": "Open in Fallacy Toolbox",
     "footerVisitsLabel": "Visitas totais:",
     "footerVisitsPrivacy": "100% Anônimo • RGPD",
-    "footerVisitsTooltip": "Contador anônimo com privacidade garantida (RGPD - 0 cookies)"
+    "footerVisitsTooltip": "Contador anônimo com privacidade garantida (RGPD - 0 cookies)",
+    "navPreface": "Prefácio do Autor",
+    "navIntro": "Quem são os coranistas?"
   },
   "arguments": [
     {
@@ -1285,8 +1287,8 @@ window.I18N_DATA['pt'] = {
   ],
   "preface": {
     "badge": "BOOK OPENING",
-    "title": "PREFACE",
-    "subtitle": "Why this book?",
+    "title": "PREFÁCIO DO AUTOR",
+    "subtitle": "Por que este manual de refutação metódica?",
     "introTag": "BEFORE YOU BEGIN",
     "basmala": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ (In the Name of Allah, the Most Gracious, the Most Merciful)",
     "sections": [
@@ -1366,8 +1368,8 @@ window.I18N_DATA['pt'] = {
   },
   "intro": {
     "header": "INTRODUCTORY CONTEXT",
-    "title": "WHO ARE THE QURANISTS?",
-    "subtitle": "Definition, origins, and historical development of this current",
+    "title": "QUEM SÃO OS CORANISTAS?",
+    "subtitle": "Definição, surgimento histórico e metodologia central",
     "badge": "HISTORICAL LANDMARKS",
     "sections": [
       {

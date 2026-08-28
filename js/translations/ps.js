@@ -130,14 +130,14 @@ window.I18N_DATA['ps'] = {
     "navBarbahari": "البربهاري",
     "navContact": "اړیکه",
     "navLicense": "شریکول او جواز",
-    "sidebarSadaqaHeader": "ښوونیز خپرول",
-    "sidebarSadaqaText": "دا منځپانګه د لیکوال په یادولو سره د شخصي او ښوونیزو موخو لپاره په وړیا توګه شریک کیدی شي.",
-    "labelAuthor": "لیکوال:",
-    "authorName": "صلاح الدین احمد",
-    "btnSidebarHome": "فهرست",
-    "btnSidebarContact": "اړیکه",
-    "sidebarPreface": "Preface",
-    "sidebarIntro": "Who are the Quranists?",
+    "sidebarSadaqaHeader": "وړیا علمي نشر",
+    "sidebarSadaqaText": "دا لارښود د نبوي سنتو د مطالعې او دفاع لپاره وړیا چمتو شوی دی.",
+    "labelAuthor": "لیکوال :",
+    "authorName": "صلاح الدین احمد (ابو سلیمان)",
+    "btnSidebarHome": "کورپاڼه",
+    "btnSidebarContact": "له لیکوال سره اړیکه",
+    "sidebarPreface": "د لیکوال سریزه",
+    "sidebarIntro": "قرآنیان څوک دي؟",
     "portalQuoteTransLabel": "Translation of the meaning:",
     "portalQuoteText": "If you hear a man who, upon having an athar (transmitted tradition) cited to him, rejects it saying: \"Leave this and bring us the Quran\", do not doubt that he is a man steeped in heresy. Stand up and leave his gathering!",
     "searchNoResults": "No results found for",
@@ -177,7 +177,9 @@ window.I18N_DATA['ps'] = {
     "btnOpenToolbox": "فتح صندوق الأدوات الكامل",
     "footerVisitsLabel": "ټول لیدونکي :",
     "footerVisitsPrivacy": "۱۰۰٪ نامعلوم • خوندي",
-    "footerVisitsTooltip": "د لیدونکو پټ او خوندي شمېرونکی"
+    "footerVisitsTooltip": "د لیدونکو پټ او خوندي شمېرونکی",
+    "navPreface": "د لیکوال سریزه",
+    "navIntro": "قرآنیان څوک دي؟"
   },
   "arguments": [
     {
@@ -1254,8 +1256,8 @@ window.I18N_DATA['ps'] = {
   ],
   "preface": {
     "badge": "افتتاحية الكتاب",
-    "title": "المقدمة",
-    "subtitle": "لماذا هذا الكتاب ؟",
+    "title": "د لیکوال سریزه",
+    "subtitle": "ولې دا منظم رد لارښود؟",
     "introTag": "قبل البدء",
     "basmala": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ",
     "sections": [
@@ -1344,8 +1346,8 @@ window.I18N_DATA['ps'] = {
   },
   "intro": {
     "header": "مدخل تأريخي ومنهجي",
-    "title": "من هم القرآنيون (منكرو السنة) ؟",
-    "subtitle": "التعريف، والنشأة، والجذور التاريخية لهذه الفرقة",
+    "title": "قرآنیان (د سنتو منکران) څوک دي؟",
+    "subtitle": "پېژندنه، تاریخي شالید او فکري مغالطې",
     "badge": "حقائق تاريخية",
     "sections": [
       {

@@ -465,13 +465,13 @@ function renderSidebarNav() {
     <li>
       <a href="#preface" class="sidebar-nav-item" id="nav-item-preface">
         <span class="nav-arg-num">00</span>
-        <span class="nav-arg-title">${ui.navPreface || "Préface de l'Auteur"}</span>
+        <span class="nav-arg-title">${ui.navPreface || ui.sidebarPreface || "Préface de l'Auteur"}</span>
       </a>
     </li>
     <li>
       <a href="#coranisme-intro" class="sidebar-nav-item" id="nav-item-coranisme-intro">
         <span class="nav-arg-num">00</span>
-        <span class="nav-arg-title">${ui.navIntro || "Qui sont les coranistes ?"}</span>
+        <span class="nav-arg-title">${ui.navIntro || ui.sidebarIntro || "Qui sont les coranistes ?"}</span>
       </a>
     </li>
     <li>
