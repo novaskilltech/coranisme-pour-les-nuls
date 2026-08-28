@@ -1389,18 +1389,19 @@ function initSearchModal() {
 
   function renderSearchResults(query) {
     const currentArgs = getActiveArgumentsData();
+    const ui = getActiveUI();
+    const labelArg = ui.argBadgeGiant || 'Argument';
 
     if (!query) {
       resultsContainer.innerHTML = currentArgs.map(arg => `
         <div class="search-result-item" data-action="jump-arg" data-arg-id="${arg.id}">
-          <h4>Argument ${arg.number} : ${escapeHTML(arg.title)}</h4>
+          <h4>${escapeHTML(labelArg)} ${arg.number} : ${escapeHTML(arg.title)}</h4>
           <p>${escapeHTML(arg.tagline)}</p>
         </div>
       `).join('');
       return;
     }
 
-    const ui = getActiveUI();
     const filtered = currentArgs.filter(arg => {
       const titleMatch = arg.title.toLowerCase().includes(query);
       const taglineMatch = arg.tagline.toLowerCase().includes(query);
@@ -1430,7 +1431,7 @@ function initSearchModal() {
 
     resultsContainer.innerHTML = filtered.map(arg => `
       <div class="search-result-item" data-action="jump-arg" data-arg-id="${arg.id}">
-        <h4>Argument ${arg.number} : ${escapeHTML(arg.title)}</h4>
+        <h4>${escapeHTML(labelArg)} ${arg.number} : ${escapeHTML(arg.title)}</h4>
         <p>${escapeHTML(arg.formula)}</p>
         <span style="font-size: 0.75rem; font-weight: 700; color: var(--nuls-black); background: var(--nuls-yellow); padding: 0.15rem 0.4rem; border-radius: 3px;">
           ${escapeHTML(arg.theme)}
