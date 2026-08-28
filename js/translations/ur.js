@@ -129,7 +129,13 @@ window.I18N_DATA['ur'] = {
     "labelMethodicAnswer": "منہجی و مدلل جواب :",
     "navBarbahari": "البربہاری",
     "navContact": "رابطہ",
-    "navLicense": "اشتراک اور لائسنس"
+    "navLicense": "اشتراک اور لائسنس",
+    "sidebarSadaqaHeader": "تعلیمی و دعوتی اشاعت",
+    "sidebarSadaqaText": "یہ مواد ذاتی اور تعلیمی مقاصد کے لیے مصنف کا نام ذکر کرتے ہوئے مفت شیئر اور دوبارہ شائع کیا جا سکتا ہے۔",
+    "labelAuthor": "مصنف:",
+    "authorName": "صلاح الدین احمد",
+    "btnSidebarHome": "فہرست",
+    "btnSidebarContact": "رابطہ"
   },
   "arguments": [
     {

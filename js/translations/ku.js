@@ -129,7 +129,13 @@ window.I18N_DATA['ku'] = {
     "quizIncorrect": "Incorrect. Try again!",
     "navBarbahari": "El-Berbeharî",
     "navContact": "Têkilî",
-    "navLicense": "Parvekirin & Destûr"
+    "navLicense": "Parvekirin & Destûr",
+    "sidebarSadaqaHeader": "BELAVKIRINA PERWERDEYÎ",
+    "sidebarSadaqaText": "Ev naverok dikare ji bo armancên kesane û perwerdeyî bi nîşandana nivîskar bêpere were parvekirin.",
+    "labelAuthor": "Nivîskar:",
+    "authorName": "Salah Eddine Ahmed",
+    "btnSidebarHome": "Naverok",
+    "btnSidebarContact": "Têkilî"
   },
   "preface": {
     "badge": "DESTPÊKA PIRTÛKÊ",

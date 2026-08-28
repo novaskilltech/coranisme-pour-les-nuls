@@ -129,7 +129,13 @@ window.I18N_DATA['ar'] = {
     "labelMethodicAnswer": "الرد المنهجي المفصل :",
     "navBarbahari": "البربهاري",
     "navContact": "اتصل بنا",
-    "navLicense": "المشاركة والترخيص"
+    "navLicense": "المشاركة والترخيص",
+    "sidebarSadaqaHeader": "نشر تعليمي دعوي",
+    "sidebarSadaqaText": "يجوز مشاركة هذا المحتوى مجانًا وإعادة إنتاجه للأغراض الشخصية والتعليمية والدعوية بشرط عزو الفضل للمؤلف.",
+    "labelAuthor": "المؤلف :",
+    "authorName": "صلاح الدين أحمد",
+    "btnSidebarHome": "الفهرس",
+    "btnSidebarContact": "اتصل بنا"
   },
   "arguments": [
     {

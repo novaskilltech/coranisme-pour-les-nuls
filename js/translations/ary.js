@@ -129,7 +129,13 @@ window.I18N_DATA['ary'] = {
     "labelMethodicAnswer": "الجواب المنهجي :",
     "navBarbahari": "البربهاري",
     "navContact": "تواصل معنا",
-    "navLicense": "المشاركة والترخيص"
+    "navLicense": "المشاركة والترخيص",
+    "sidebarSadaqaHeader": "نشر تعليمي مجاني",
+    "sidebarSadaqaText": "هاد المحتوى يمكن تبارطاجيه فابور وتعاود تنشرو لأغراض شخصية وتعليمية مع ذكر الكاتب.",
+    "labelAuthor": "الكاتب :",
+    "authorName": "صلاح الدين أحمد",
+    "btnSidebarHome": "الفهرس",
+    "btnSidebarContact": "تواصل معنا"
   },
   "arguments": [
     {

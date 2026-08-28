@@ -129,7 +129,13 @@ window.I18N_DATA['ce'] = {
     "quizIncorrect": "Incorrect. Try again!",
     "navBarbahari": "Аль-Барбахари",
     "navContact": "ЗӀе",
-    "navLicense": "ДӀасадаржор а, лицензи а"
+    "navLicense": "ДӀасадаржор а, лицензи а",
+    "sidebarSadaqaHeader": "ХЬЕХАРАН ДАРЖОР",
+    "sidebarSadaqaText": "ХӀара чулацам авторан цӀе хьахош, шайн Ӏалашонна а, хьехаран Ӏалашонна а маьхза дӀасабаржо йиш йу.",
+    "labelAuthor": "Автор:",
+    "authorName": "Салахь Эддин Ахьмад",
+    "btnSidebarHome": "Чулацам",
+    "btnSidebarContact": "ЗӀе"
   },
   "preface": {
     "badge": "ЖАЙНИН ДОЛОРАХЬ",

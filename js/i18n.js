@@ -211,6 +211,32 @@ function updateStaticDOM(ui) {
   const sidebarCount = document.querySelector('.sidebar-count');
   if (sidebarCount) sidebarCount.textContent = ui.rubriquesCount;
 
+  // Encart Diffusion Pédagogique dans la Sidebar
+  const sadaqaHeader = document.querySelector('.sidebar-sadaqa-box .sadaqa-header');
+  if (sadaqaHeader && ui.sidebarSadaqaHeader) {
+    sadaqaHeader.innerHTML = `<span>🌿</span> ${ui.sidebarSadaqaHeader}`;
+  }
+
+  const sadaqaText = document.querySelector('.sidebar-sadaqa-box p');
+  if (sadaqaText && ui.sidebarSadaqaText) {
+    sadaqaText.textContent = ui.sidebarSadaqaText;
+  }
+
+  const authorTag = document.querySelector('.sidebar-sadaqa-box .author-tag');
+  if (authorTag && ui.labelAuthor) {
+    authorTag.innerHTML = `${ui.labelAuthor} <strong>${ui.authorName || 'Salah Eddine Ahmed'}</strong>`;
+  }
+
+  const btnSidebarHome = document.querySelector('.btn-sidebar-home');
+  if (btnSidebarHome && ui.btnSidebarHome) {
+    btnSidebarHome.innerHTML = `<span>🏠</span> ${ui.btnSidebarHome}`;
+  }
+
+  const btnSidebarContact = document.querySelector('.btn-sidebar-contact');
+  if (btnSidebarContact && ui.btnSidebarContact) {
+    btnSidebarContact.innerHTML = `<span>✉️</span> ${ui.btnSidebarContact}`;
+  }
+
   // Splash Portal Al-Barbahari
   const portalWarning = document.querySelector('.portal-warning-badge');
   if (portalWarning) portalWarning.innerHTML = `<span>⚠️</span> ${ui.portalWarningBadge}`;

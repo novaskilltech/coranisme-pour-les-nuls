@@ -129,7 +129,13 @@ window.I18N_DATA['pt'] = {
     "labelMethodicAnswer": "Resposta metódica:",
     "navBarbahari": "Al-Barbahari",
     "navContact": "Contato",
-    "navLicense": "Compartilhamento & Licença"
+    "navLicense": "Compartilhamento & Licença",
+    "sidebarSadaqaHeader": "DIFUSÃO PEDAGÓGICA",
+    "sidebarSadaqaText": "Este conteúdo pode ser compartilhado gratuitamente e reproduzido para fins pessoais e pedagógicos mediante citação do autor.",
+    "labelAuthor": "Autor:",
+    "authorName": "Salah Eddine Ahmed",
+    "btnSidebarHome": "Sumário",
+    "btnSidebarContact": "Contato"
   },
   "arguments": [
     {

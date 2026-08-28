@@ -129,7 +129,13 @@ window.I18N_DATA['ps'] = {
     "labelMethodicAnswer": "منهجي او روښانه ځواب :",
     "navBarbahari": "البربهاري",
     "navContact": "اړیکه",
-    "navLicense": "شریکول او جواز"
+    "navLicense": "شریکول او جواز",
+    "sidebarSadaqaHeader": "ښوونیز خپرول",
+    "sidebarSadaqaText": "دا منځپانګه د لیکوال په یادولو سره د شخصي او ښوونیزو موخو لپاره په وړیا توګه شریک کیدی شي.",
+    "labelAuthor": "لیکوال:",
+    "authorName": "صلاح الدین احمد",
+    "btnSidebarHome": "فهرست",
+    "btnSidebarContact": "اړیکه"
   },
   "arguments": [
     {

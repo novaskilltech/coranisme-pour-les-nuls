@@ -129,7 +129,13 @@ window.I18N_DATA['ta'] = {
     "labelMethodicAnswer": "முறையான பதில்:",
     "navBarbahari": "அல்-பர்பஹாரி",
     "navContact": "தொடர்பு",
-    "navLicense": "பகிர்வு & உரிமம்"
+    "navLicense": "பகிர்வு & உரிமம்",
+    "sidebarSadaqaHeader": "கல்விப் பகிர்வு",
+    "sidebarSadaqaText": "ஆசிரியரைக் குறிப்பிட்டு தனிப்பட்ட மற்றும் கல்வி நோக்கங்களுக்காக இந்த உள்ளடக்கத்தை இலவசமாகப் பகிரலாம்.",
+    "labelAuthor": "ஆசிரியர்:",
+    "authorName": "ஸலாஹ் எத்தீன் அஹ்மத்",
+    "btnSidebarHome": "பொருளடக்கம்",
+    "btnSidebarContact": "தொடர்பு"
   },
   "arguments": [
     {
