@@ -426,9 +426,8 @@ function initVisitsCounter() {
     requestAnimationFrame(step);
   }
 
-  const now = Date.now();
-  const baselineOffset = Math.floor((now - 1740672000000) / (1000 * 60 * 18));
-  const fallbackCount = Math.max(1430, 1430 + baselineOffset);
+  const localSaved = parseInt(localStorage.getItem('anti_coranisme_visits') || '1', 10);
+  const fallbackCount = localSaved;
 
   fetch('/api/visits')
     .then(res => {
@@ -438,6 +437,7 @@ function initVisitsCounter() {
     .then(data => {
       if (data && typeof data.count === 'number' && data.count > 0) {
         window.LAST_VISIT_COUNT = data.count;
+        localStorage.setItem('anti_coranisme_visits', data.count.toString());
         animateCountUp(data.count);
       } else {
         window.LAST_VISIT_COUNT = fallbackCount;

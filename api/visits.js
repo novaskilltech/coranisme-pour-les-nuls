@@ -1,12 +1,12 @@
 /**
- * Vercel Serverless Function - Visites Anonymisées
+ * Vercel Serverless Function - Visites Anonymisées 100% Réelles
  * Point de terminaison : /api/visits
- * Conforme RGPD : Zéro cookie, zéro IP stockée, 100% anonyme.
+ * Conforme RGPD : Zéro cookie, zéro IP stockée, comptage 100% authentique en direct.
  */
 
 const https = require('https');
 
-let cachedCount = 1420;
+let cachedCount = 1;
 let lastFetchTime = 0;
 
 function fetchVisitorBadgeCount() {
@@ -14,7 +14,7 @@ function fetchVisitorBadgeCount() {
     try {
       const req = https.get(
         'https://api.visitorbadge.io/api/visitors?path=anti-coranisme-novaskill-tech',
-        { timeout: 2000 },
+        { timeout: 2500 },
         (res) => {
           let body = '';
           res.on('data', chunk => body += chunk);
@@ -25,7 +25,8 @@ function fetchVisitorBadgeCount() {
                 const raw = matches[matches.length - 1][1].replace(/,/g, '').trim();
                 const parsed = parseInt(raw, 10);
                 if (!isNaN(parsed) && parsed > 0) {
-                  return resolve(1420 + parsed);
+                  // Chiffre 100% authentique et réel enregistré par le service
+                  return resolve(parsed);
                 }
               }
               resolve(null);
@@ -59,14 +60,11 @@ module.exports = async function handler(req, res) {
   }
 
   const now = Date.now();
-  if (now - lastFetchTime > 4000) {
+  // Rafraîchissement direct du compteur réel
+  if (now - lastFetchTime > 3000) {
     const live = await fetchVisitorBadgeCount();
     if (live && live >= cachedCount) {
       cachedCount = live;
-      lastFetchTime = now;
-    } else {
-      const offset = Math.floor((now - 1740672000000) / (1000 * 60 * 20));
-      cachedCount = Math.max(cachedCount, 1420 + offset);
       lastFetchTime = now;
     }
   }
