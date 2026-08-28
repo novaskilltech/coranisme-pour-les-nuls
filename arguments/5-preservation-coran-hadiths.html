@@ -186,6 +186,18 @@
             </div>
           </section>
 
+          <!-- BLOC SOPHISMES REPÉRÉS (ENTRE LEUR ARGUMENT ET LE NŒUD LOGIQUE) -->
+          <div class="arg-fallacies-box">
+            <div class="arg-fallacies-header">
+              <span>🧠</span> <strong>SOPHISMES REPÉRÉS DANS CET ARGUMENT :</strong>
+            </div>
+            <div class="arg-fallacies-badges">
+              <button class="fallacy-badge" data-action="open-fallacy" data-fallacy-id="non-sequitur" aria-label="Voir la définition du sophisme Le Non sequitur"><span>⚡</span> <span>Le Non sequitur</span></button>
+              <button class="fallacy-badge" data-action="open-fallacy" data-fallacy-id="generalisation-abusive" aria-label="Voir la définition du sophisme La Généralisation abusive"><span>🔍</span> <span>La Généralisation abusive</span></button>
+              <button class="fallacy-badge" data-action="open-fallacy" data-fallacy-id="double-standard" aria-label="Voir la définition du sophisme Le Double standard"><span>🔄</span> <span>Le Double standard</span></button>
+            </div>
+          </div>
+
           <!-- SECTION 2 : LE NŒUD LOGIQUE -->
           <section id="section-logical-node" class="nuls-callout callout-retenir">
             <div class="callout-header">
@@ -449,6 +461,20 @@ Test de cohérence : Toute la compréhension du Coran (vocabulaire arabe ancien,
       </div>
     </div>
   </footer>
+
+
+  <!-- MODAL DÉFINITION D'UN SOPHISME (AU CLIC SUR BADGE) -->
+  <div class="modal-backdrop" id="fallacy-modal">
+    <div class="modal-card" style="max-width: 640px; max-height: 85vh;">
+      <div class="modal-header">
+        <h3 id="fallacy-modal-title">🧠 Fiche Sophisme</h3>
+        <button class="btn-close-modal" data-action="close-modal" data-modal-id="fallacy-modal">✕</button>
+      </div>
+      <div class="modal-body" id="fallacy-modal-body" style="padding: 1.5rem; overflow-y: auto;">
+        <!-- Contenu dynamique -->
+      </div>
+    </div>
+  </div>
 
 </body>
 </html>

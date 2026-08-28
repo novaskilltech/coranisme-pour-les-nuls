@@ -1,7 +1,8 @@
 /**
  * Moteur Applicatif - Réfutation du Coranisme
  * Gestion du routage SPA, du rendu dynamique des 10 fiches,
- * de la recherche instantanée, de la copie rapide 30s, des boutons copier par section,
+ * de la Boîte à Outils des Sophismes (source PDF),
+ * de la recherche instantanée, de la copie rapide 30s et par section,
  * du partage natif / réseaux sociaux (WhatsApp, Telegram, X, Facebook, etc.),
  * des quiz interactifs et du support multi-langues (i18n).
  * Par Salah Eddine Ahmed (Abou Soulaymane)
@@ -153,6 +154,201 @@ function renderCoranismeIntroHTML() {
   `;
 }
 
+/**
+ * Rendu de la Boîte à Outils des Sophismes (Source PDF)
+ */
+function renderFallaciesToolboxHTML() {
+  const currentLang = window.CURRENT_LANG || 'fr';
+  const pack = (window.I18N_DATA && window.I18N_DATA[currentLang]) ? window.I18N_DATA[currentLang] : (window.I18N_DATA ? window.I18N_DATA['fr'] : null);
+  const data = (pack && pack.fallaciesToolbox) ? pack.fallaciesToolbox : (window.FALLACIES_FRENCH || null);
+  const ui = getActiveUI();
+
+  if (!data) return '';
+
+  return `
+    <section id="boite-a-outils" class="nuls-callout callout-retenir fallacies-toolbox-section" style="margin: 2.5rem 0;" aria-labelledby="fallacies-toolbox-title">
+      <div class="callout-header">
+        <span>🧠</span> ${data.headerBadge || "GUIDE MÉTHODOLOGIQUE"}
+      </div>
+      <button class="btn-copy-callout" data-action="copy-section" data-target="boite-a-outils" title="${ui.btnCopySection || "Copier cette section"}">
+        <span>📋</span> <span class="btn-copy-text">${ui.btnCopy || "Copier"}</span>
+      </button>
+
+      <header class="section-header-wrap" style="margin: 0 0 1.25rem;">
+        <div>
+          <h2 class="section-header-title" id="fallacies-toolbox-title">${data.title || "BOÎTE À OUTILS"}</h2>
+          <p style="font-weight: 800; color: var(--nuls-black); margin-top: 0.4rem; font-size: 1.1rem;">${data.subtitle || "Reconnaître les sophismes avant de débattre"}</p>
+        </div>
+        <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+          <a href="pdf/${data.pdfFileName || 'Boite_a_outils_Sophismes_Coranisme.pdf'}" download class="btn-hero-primary" style="padding: 0.45rem 0.85rem; font-size: 0.85rem;" title="${data.pdfDownloadBtn || "Télécharger la Boîte à Outils (PDF)"}">
+            <span>📥</span> ${data.pdfDownloadBtn || "Télécharger le PDF"}
+          </a>
+        </div>
+      </header>
+
+      <!-- INTRODUCTION COURTE DU PDF -->
+      <div style="background: #FFFFFF; border: 2px solid var(--nuls-black); border-radius: var(--radius-sm); padding: 1.25rem; margin-bottom: 1.5rem;">
+        <h4 style="font-family: var(--font-display); font-size: 1.05rem; font-weight: 900; color: var(--nuls-black); margin-bottom: 0.5rem;">
+          ${data.introTitle || "POURQUOI CETTE BOÎTE À OUTILS ?"}
+        </h4>
+        <p style="font-size: 0.95rem; color: #1F2937; line-height: 1.6; margin-bottom: 0.85rem;">
+          ${data.introText}
+        </p>
+        <div style="background: #FAF9F5; border-left: 3px solid var(--nuls-black); padding: 0.75rem 1rem; margin-bottom: 0.85rem;">
+          <strong>${data.definitionTitle || "DÉFINITION SIMPLE :"}</strong> ${data.definitionText}
+        </div>
+        <div style="background: var(--nuls-yellow); color: var(--nuls-black); padding: 0.75rem 1rem; border-radius: var(--radius-sm); font-weight: 900; text-align: center;">
+          ⚡ ${data.reflexQuestionTitle || "LA QUESTION RÉFLEXE :"} ${data.reflexQuestionText}
+        </div>
+        <p style="font-size: 0.85rem; color: var(--text-muted); font-weight: 700; margin-top: 0.6rem; text-align: center;">
+          ${data.reflexPurpose}
+        </p>
+      </div>
+
+      <!-- RÈGLE D'OR ENCADRÉE (ESSENTIELLE) -->
+      <div class="golden-rule-fallacy-box">
+        <div class="golden-rule-fallacy-header">
+          <span>👑</span> ${data.goldenRuleTitle || "LA RÈGLE D'OR MÉTHODOLOGIQUE"}
+        </div>
+        <div class="golden-rule-fallacy-quote">
+          « ${data.goldenRuleStatement} »
+        </div>
+        <p style="font-size: 0.95rem; color: #1F2937; line-height: 1.6; margin-bottom: 0.75rem; font-weight: 700;">
+          ${data.goldenRuleMeaning}
+        </p>
+        <div style="background: #FFFFFF; border: 2px solid var(--nuls-black); border-radius: var(--radius-sm); padding: 0.85rem 1rem; font-size: 0.9rem; line-height: 1.5; margin-bottom: 0.75rem;">
+          💡 <strong>Exemple des cygnes :</strong> ${data.goldenRuleExample}
+        </div>
+        <p style="font-size: 0.88rem; color: #374151; line-height: 1.5;">
+          ${data.goldenRuleGoal}
+        </p>
+      </div>
+
+      <!-- GRILLE DES 10 CARTES DE SOPHISMES -->
+      <h3 style="font-family: var(--font-display); font-size: 1.25rem; font-weight: 900; margin: 1.5rem 0 1rem;">
+        📚 Les 10 Sophismes Fréquents en 10 Cartes Interactives
+      </h3>
+
+      <div class="fallacies-grid">
+        ${data.items.map(f => `
+          <div class="fallacy-card" id="fallacy-card-${f.id}">
+            <div class="fallacy-card-header" data-action="toggle-fallacy-card" data-fallacy-id="${f.id}">
+              <div class="fallacy-card-top-line">
+                <span class="fallacy-card-title">
+                  <span>${f.icon || '⚡'}</span> ${f.num}. ${escapeHTML(f.name)}
+                </span>
+                <button class="btn-toggle-fallacy" aria-expanded="false" aria-controls="fallacy-body-${f.id}">
+                  <span>Détails</span> <span>▼</span>
+                </button>
+              </div>
+              <p class="fallacy-card-shortdef">${escapeHTML(f.shortDef)}</p>
+            </div>
+            
+            <div class="fallacy-card-body" id="fallacy-body-${f.id}">
+              <div class="fallacy-detail-block">
+                <div class="fallacy-detail-label">📖 Définition</div>
+                <p>${escapeHTML(f.definition)}</p>
+              </div>
+              
+              <div class="fallacy-detail-block" style="background-color: #FFFFFF;">
+                <div class="fallacy-detail-label">🌍 Exemple Général</div>
+                <p>${escapeHTML(f.generalExample)}</p>
+              </div>
+
+              <div class="fallacy-detail-block" style="background-color: var(--nuls-yellow-tint); border-color: var(--nuls-black);">
+                <div class="fallacy-detail-label">🕌 Application au Débat sur le Coranisme</div>
+                <p style="white-space: pre-line; font-weight: 600;">${escapeHTML(f.quranicApplication)}</p>
+              </div>
+
+              <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+                <div style="background: #FFFFFF; border: 2px solid var(--nuls-blue); padding: 0.65rem 0.85rem; border-radius: var(--radius-sm); font-size: 0.88rem;">
+                  <strong style="color: var(--nuls-blue);">❓ Question réflexe à poser :</strong><br>
+                  ${escapeHTML(f.questionToAsk)}
+                </div>
+                <div style="background: #FFFFFF; border: 2px solid var(--nuls-green); padding: 0.65rem 0.85rem; border-radius: var(--radius-sm); font-size: 0.88rem;">
+                  <strong style="color: var(--nuls-green);">💬 Réponse courte :</strong><br>
+                  ${escapeHTML(f.shortAnswer)}
+                </div>
+              </div>
+            </div>
+          </div>
+        `).join('')}
+      </div>
+
+      <!-- LES 4 QUESTIONS RÉFLEXES (CARTE MÉMO COMPACTE) -->
+      <div style="background: #FFFFFF; border: var(--border-thick); border-radius: var(--radius-md); padding: 1.5rem; margin: 2rem 0; box-shadow: var(--shadow-hard);">
+        <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.75rem;">
+          <h4 style="font-family: var(--font-display); font-size: 1.15rem; font-weight: 900; color: var(--nuls-black);">
+            🎯 ${data.reflexQuestions.title}
+          </h4>
+          <span class="card-number-badge">CARTE MÉMO</span>
+        </div>
+        <p style="font-size: 0.92rem; color: #4B5563; font-weight: 700; margin-bottom: 1rem;">
+          ${data.reflexQuestions.subtitle} — ${data.reflexQuestions.summaryNotice}
+        </p>
+        <div class="reflex-grid">
+          ${data.reflexQuestions.questions.map(q => `
+            <div class="reflex-card">
+              <div class="reflex-card-title">${escapeHTML(q.title)}</div>
+              <div class="reflex-card-desc">${escapeHTML(q.desc)}</div>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+
+      <!-- TEST RAPIDE INTERACTIF -->
+      <div class="quiz-section-wrap" style="margin: 2rem 0;">
+        <div class="quiz-header">
+          <h3>📝 ${data.quiz.title}</h3>
+          <span class="card-number-badge">ENTRAÎNEMENT</span>
+        </div>
+        <p style="font-size: 0.95rem; font-weight: 700; color: var(--text-muted); margin-bottom: 1.25rem;">
+          ${data.quiz.subtitle}
+        </p>
+        <div class="quiz-items-list">
+          ${data.quiz.items.map(item => `
+            <div class="quiz-item" style="margin-bottom: 1.25rem; padding-bottom: 1.25rem;">
+              <div class="quiz-question" style="font-size: 1rem; font-weight: 800; margin-bottom: 0.75rem;">
+                ${item.id}. ${escapeHTML(item.statement)}
+              </div>
+              <div style="display: flex; flex-wrap: wrap; gap: 0.4rem;">
+                ${data.items.slice(0, 6).map(f => `
+                  <button class="quiz-option-btn" data-action="fallacy-quiz-answer" data-quiz-id="${item.id}" data-selected-id="${f.id}" data-correct-id="${item.answerId}" data-explanation="${escapeHTML(item.explanation)}" style="padding: 0.4rem 0.75rem; font-size: 0.82rem;">
+                    ${escapeHTML(f.name)}
+                  </button>
+                `).join('')}
+              </div>
+              <div class="quiz-feedback" id="fallacy-quiz-feedback-${item.id}"></div>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+
+      <!-- CARTOUCHE CONCLUSION -->
+      <div style="background: var(--nuls-black); color: var(--nuls-yellow); border-radius: var(--radius-sm); padding: 1.5rem; text-align: center;">
+        <h4 style="font-family: var(--font-display); font-size: 1.25rem; font-weight: 900; margin-bottom: 0.5rem;">
+          ${data.conclusion.title}
+        </h4>
+        <p style="font-size: 0.95rem; color: #FFFFFF; max-width: 700px; margin: 0 auto 1rem; line-height: 1.6;">
+          ${data.conclusion.mainText}
+        </p>
+        <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; margin-bottom: 1rem;">
+          <span style="background: rgba(255,255,255,0.1); padding: 0.4rem 0.8rem; border-radius: 4px; font-weight: 800; font-size: 0.85rem; border: 1px solid var(--nuls-yellow);">
+            ${data.conclusion.slogan1}
+          </span>
+          <span style="background: var(--nuls-yellow); color: var(--nuls-black); padding: 0.4rem 0.8rem; border-radius: 4px; font-weight: 900; font-size: 0.85rem;">
+            ${data.conclusion.slogan2}
+          </span>
+        </div>
+        <p style="font-size: 0.85rem; color: #D1D5DB; font-style: italic;">
+          ${data.conclusion.finalNote}
+        </p>
+      </div>
+
+    </section>
+  `;
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   initApp();
 });
@@ -197,6 +393,12 @@ function renderSidebarNav() {
         <span class="nav-arg-title">${ui.navIntro || "Qui sont les coranistes ?"}</span>
       </a>
     </li>
+    <li>
+      <a href="#boite-a-outils" class="sidebar-nav-item" id="nav-item-boite-a-outils">
+        <span class="nav-arg-num">00</span>
+        <span class="nav-arg-title">🧠 ${ui.navFallacies || "Boîte à outils — Les Sophismes"}</span>
+      </a>
+    </li>
     ${currentArgs.map(arg => `
       <li>
         <a href="#arg-${arg.id}" class="sidebar-nav-item" id="nav-item-${arg.id}">
@@ -232,15 +434,16 @@ function handleRouting() {
   // Mise à jour de l'état actif dans la sidebar
   document.querySelectorAll('.sidebar-nav-item').forEach(el => el.classList.remove('active'));
 
-  const introductoryChapterIds = ['preface', 'coranisme-intro'];
+  const introductoryChapterIds = ['preface', 'coranisme-intro', 'boite-a-outils', 'sophismes'];
   const requestedIntroChapter = hash.replace('#', '');
   if (introductoryChapterIds.includes(requestedIntroChapter)) {
+    const targetElementId = (requestedIntroChapter === 'sophismes') ? 'boite-a-outils' : requestedIntroChapter;
     document.title = `${ui.brandTitle || "Réfutation du Coranisme"} — ${ui.brandSubtitle || "Manuel Pratique"}`;
     renderHomeView(mainContainer);
-    const activeNav = document.getElementById(`nav-item-${requestedIntroChapter}`);
+    const activeNav = document.getElementById(`nav-item-${targetElementId}`);
     if (activeNav) activeNav.classList.add('active');
     requestAnimationFrame(() => {
-      document.getElementById(requestedIntroChapter)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      document.getElementById(targetElementId)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
     return;
   }
@@ -304,11 +507,14 @@ function renderHomeView(container) {
         <a href="#arg-1" class="btn-hero-primary">
           <span>🚀</span> ${ui.btnStartArg1 || "Débuter par l'Argument 1"}
         </a>
+        <a href="#boite-a-outils" class="btn-hero-secondary">
+          <span>🧠</span> ${ui.navFallacies || "Boîte à outils (Sophismes)"}
+        </a>
         <button class="btn-hero-secondary" data-action="open-search">
-          <span>🔍</span> ${ui.btnSearchModal || "Rechercher un sujet / verset"}
+          <span>🔍</span> ${ui.btnSearchModal || "Rechercher"}
         </button>
         <button class="btn-hero-secondary" data-action="share-arg" data-arg-id="1">
-          <span>📤</span> ${ui.btnShare || "Partager le manuel"}
+          <span>📤</span> ${ui.btnShare || "Partager"}
         </button>
       </div>
     </section>
@@ -316,6 +522,9 @@ function renderHomeView(container) {
     ${renderPrefaceHTML()}
 
     ${renderCoranismeIntroHTML()}
+
+    <!-- BOÎTE À OUTILS DES SOPHISMES (AVANT LES 10 ARGUMENTS) -->
+    ${renderFallaciesToolboxHTML()}
 
     <!-- SOMMAIRE DES 10 ARGUMENTS -->
     <div class="section-header-wrap">
@@ -465,6 +674,25 @@ function renderArgumentView(arg, container) {
             </p>
           </div>
         </section>
+
+        <!-- BLOC SOPHISMES REPÉRÉS (ENTRE LEUR ARGUMENT ET LE NŒUD LOGIQUE) -->
+        ${arg.fallacies && arg.fallacies.length > 0 ? `
+          <div class="arg-fallacies-box">
+            <div class="arg-fallacies-header">
+              <span>🧠</span> <strong>${ui.fallaciesBadgeTitle || "SOPHISMES REPÉRÉS DANS CET ARGUMENT :"}</strong>
+            </div>
+            <div class="arg-fallacies-badges">
+              ${arg.fallacies.map(fId => {
+                const fObj = (window.FALLACIES_DATA || []).find(f => f.id === fId) || { name: fId, icon: "⚡" };
+                return `
+                  <button class="fallacy-badge" data-action="open-fallacy" data-fallacy-id="${fId}" aria-label="Voir la définition du sophisme ${escapeHTML(fObj.name)}">
+                    <span>${fObj.icon || "⚡"}</span> <span>${escapeHTML(fObj.name)}</span>
+                  </button>
+                `;
+              }).join('')}
+            </div>
+          </div>
+        ` : ''}
 
         <!-- SECTION 2 : LE NŒUD LOGIQUE -->
         <section id="section-logical-node" class="nuls-callout callout-retenir">
@@ -740,6 +968,109 @@ function renderArgumentView(arg, container) {
 }
 
 /**
+ * Modale de consultation rapide d'un sophisme
+ */
+window.openFallacyModal = function(fallacyId) {
+  const currentLang = window.CURRENT_LANG || 'fr';
+  const pack = (window.I18N_DATA && window.I18N_DATA[currentLang]) ? window.I18N_DATA[currentLang] : (window.I18N_DATA ? window.I18N_DATA['fr'] : null);
+  const data = (pack && pack.fallaciesToolbox) ? pack.fallaciesToolbox : null;
+  const items = data ? data.items : (window.FALLACIES_DATA || []);
+  const f = items.find(item => item.id === fallacyId) || items[0];
+  if (!f) return;
+
+  const modal = document.getElementById('fallacy-modal');
+  const titleEl = document.getElementById('fallacy-modal-title');
+  const bodyEl = document.getElementById('fallacy-modal-body');
+  const ui = getActiveUI();
+
+  if (titleEl) titleEl.innerHTML = `<span>${f.icon || '🧠'}</span> ${f.num ? f.num + '. ' : ''}${escapeHTML(f.name)}`;
+  if (bodyEl) {
+    bodyEl.innerHTML = `
+      <div class="nuls-callout callout-retenir" style="margin-bottom: 1.25rem;">
+        <div class="callout-header"><span>📖</span> Définition</div>
+        <p style="font-size: 1rem; font-weight: 700; color: var(--nuls-black); line-height: 1.5;">
+          ${escapeHTML(f.definition)}
+        </p>
+      </div>
+
+      <div class="fallacy-detail-block" style="margin-bottom: 1rem; background-color: #FFFFFF;">
+        <div class="fallacy-detail-label">🌍 Exemple Général</div>
+        <p style="font-size: 0.95rem; color: #374151; line-height: 1.5;">
+          ${escapeHTML(f.generalExample)}
+        </p>
+      </div>
+
+      <div class="fallacy-detail-block" style="margin-bottom: 1rem; background-color: var(--nuls-yellow-tint); border: 2px solid var(--nuls-black);">
+        <div class="fallacy-detail-label">🕌 Application au Débat sur le Coranisme</div>
+        <p style="font-size: 0.95rem; color: #111827; line-height: 1.6; white-space: pre-line; font-weight: 600;">
+          ${escapeHTML(f.quranicApplication)}
+        </p>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 0.65rem; margin-bottom: 1.25rem;">
+        <div style="background: #FFFFFF; border: 2px solid var(--nuls-blue); padding: 0.75rem 1rem; border-radius: var(--radius-sm); font-size: 0.9rem;">
+          <strong style="color: var(--nuls-blue);">❓ Question réflexe à poser :</strong><br>
+          ${escapeHTML(f.questionToAsk)}
+        </div>
+        <div style="background: #FFFFFF; border: 2px solid var(--nuls-green); padding: 0.75rem 1rem; border-radius: var(--radius-sm); font-size: 0.9rem;">
+          <strong style="color: var(--nuls-green);">💬 Réponse courte recommandée :</strong><br>
+          ${escapeHTML(f.shortAnswer)}
+        </div>
+      </div>
+
+      <div style="text-align: center; border-top: 1px solid #E5E7EB; padding-top: 1rem;">
+        <a href="#boite-a-outils" class="btn-hero-secondary" data-action="close-modal" data-modal-id="fallacy-modal" style="display: inline-flex; font-size: 0.9rem; padding: 0.5rem 1rem;">
+          <span>📚</span> ${ui.btnOpenToolbox || "Consulter toute la Boîte à outils"}
+        </a>
+      </div>
+    `;
+  }
+
+  if (modal) modal.classList.add('open');
+};
+
+/**
+ * Déplier / replier une carte de sophisme en accordéon
+ */
+function toggleFallacyCard(triggerElement) {
+  const card = triggerElement.closest('.fallacy-card');
+  if (!card) return;
+  const body = card.querySelector('.fallacy-card-body');
+  const btn = card.querySelector('.btn-toggle-fallacy');
+  if (!body) return;
+
+  const isOpen = body.classList.toggle('open');
+  if (btn) {
+    btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    btn.innerHTML = isOpen ? `<span>Masquer</span> <span>▲</span>` : `<span>Détails</span> <span>▼</span>`;
+  }
+}
+
+/**
+ * Gestion du quiz interactif sur les sophismes
+ */
+function handleFallacyQuizAnswer(quizId, selectedId, correctId, explanation, btn) {
+  const parent = btn.parentElement;
+  const allBtns = parent.querySelectorAll('.quiz-option-btn');
+  const feedbackEl = document.getElementById(`fallacy-quiz-feedback-${quizId}`);
+  if (!feedbackEl) return;
+
+  allBtns.forEach(b => b.disabled = true);
+
+  if (selectedId === correctId) {
+    btn.classList.add('correct');
+    feedbackEl.className = 'quiz-feedback show correct';
+    feedbackEl.innerHTML = `✅ <strong>Bravo !</strong> ${escapeHTML(explanation)}`;
+  } else {
+    btn.classList.add('wrong');
+    const correctBtn = parent.querySelector(`[data-selected-id="${correctId}"]`);
+    if (correctBtn) correctBtn.classList.add('correct');
+    feedbackEl.className = 'quiz-feedback show wrong';
+    feedbackEl.innerHTML = `❌ <strong>Incorrect.</strong> ${escapeHTML(explanation)}`;
+  }
+}
+
+/**
  * Copie d'une section entière avec mise en forme propre et attribution
  */
 function copySection(targetId, btn) {
@@ -889,7 +1220,7 @@ function showToast(message) {
 }
 
 /**
- * Gestion du quiz interactif
+ * Gestion du quiz interactif des fiches
  */
 function handleQuizAnswer(argId, qIdx, selectedIdx, btn) {
   const currentArgs = getActiveArgumentsData();
@@ -1152,6 +1483,32 @@ document.addEventListener('click', (e) => {
     case 'copy-30s': {
       const argId = target.getAttribute('data-arg-id');
       if (argId && typeof copyToClipboard === 'function') copyToClipboard(parseInt(argId, 10));
+      break;
+    }
+
+    case 'open-fallacy': {
+      const fallacyId = target.getAttribute('data-fallacy-id');
+      if (fallacyId && typeof window.openFallacyModal === 'function') {
+        window.openFallacyModal(fallacyId);
+      }
+      break;
+    }
+
+    case 'toggle-fallacy-card': {
+      if (typeof toggleFallacyCard === 'function') {
+        toggleFallacyCard(target);
+      }
+      break;
+    }
+
+    case 'fallacy-quiz-answer': {
+      const qId = target.getAttribute('data-quiz-id');
+      const sId = target.getAttribute('data-selected-id');
+      const cId = target.getAttribute('data-correct-id');
+      const exp = target.getAttribute('data-explanation');
+      if (typeof handleFallacyQuizAnswer === 'function') {
+        handleFallacyQuizAnswer(qId, sId, cId, exp, target);
+      }
       break;
     }
 

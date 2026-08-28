@@ -1064,6 +1064,251 @@ html[dir="rtl"] .callout-header {
 }
 
 /* ==========================================================================
+   BLOC SOPHISMES REPÉRÉS DANS LES ARGUMENTS
+   ========================================================================== */
+.arg-fallacies-box {
+  background-color: #FAF9F5;
+  border: 2px solid var(--nuls-black);
+  border-radius: var(--radius-md);
+  padding: 1rem 1.25rem;
+  margin: 1.25rem 0 1.5rem;
+  box-shadow: var(--shadow-hard-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.arg-fallacies-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: var(--nuls-black);
+  letter-spacing: 0.5px;
+}
+
+.arg-fallacies-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.fallacy-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background-color: #FFFFFF;
+  color: var(--nuls-black);
+  border: 2px solid var(--nuls-black);
+  border-radius: var(--radius-pill);
+  padding: 0.35rem 0.85rem;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 0.85rem;
+  box-shadow: 2px 2px 0px var(--nuls-black);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.fallacy-badge:hover {
+  background-color: var(--nuls-yellow);
+  transform: translateY(-2px);
+  box-shadow: 3px 3px 0px var(--nuls-black);
+}
+
+.fallacy-badge:active {
+  transform: translateY(0);
+  box-shadow: 1px 1px 0px var(--nuls-black);
+}
+
+/* ==========================================================================
+   SECTION BOÎTE À OUTILS DES SOPHISMES
+   ========================================================================== */
+.fallacies-toolbox-section {
+  margin: 2.5rem 0;
+}
+
+.golden-rule-fallacy-box {
+  background-color: var(--nuls-yellow-tint);
+  border: 3px solid var(--nuls-black);
+  border-radius: var(--radius-md);
+  padding: 1.5rem;
+  margin: 1.5rem 0 2rem;
+  box-shadow: var(--shadow-hard);
+}
+
+.golden-rule-fallacy-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  color: var(--nuls-black);
+  margin-bottom: 0.5rem;
+}
+
+.golden-rule-fallacy-quote {
+  font-size: 1.15rem;
+  font-weight: 900;
+  color: var(--nuls-black);
+  line-height: 1.4;
+  margin-bottom: 0.75rem;
+}
+
+.fallacies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0 2rem;
+}
+
+@media (max-width: 640px) {
+  .fallacies-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.fallacy-card {
+  background-color: #FFFFFF;
+  border: var(--border-thick);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-hard);
+  overflow: hidden;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.fallacy-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-hard-lg);
+}
+
+.fallacy-card-header {
+  padding: 1rem 1.25rem;
+  background-color: #FAFAFA;
+  border-bottom: var(--border-medium);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  user-select: none;
+}
+
+.fallacy-card-top-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.fallacy-card-title {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 900;
+  color: var(--nuls-black);
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.fallacy-card-shortdef {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: #4B5563;
+  line-height: 1.4;
+}
+
+.btn-toggle-fallacy {
+  background: var(--nuls-black);
+  color: var(--nuls-yellow);
+  border: none;
+  border-radius: var(--radius-sm);
+  padding: 0.25rem 0.6rem;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 0.75rem;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  transition: all 0.15s ease;
+}
+
+.btn-toggle-fallacy:hover {
+  background: var(--nuls-yellow);
+  color: var(--nuls-black);
+}
+
+.fallacy-card-body {
+  padding: 1.25rem;
+  background-color: #FFFFFF;
+  display: none;
+  flex-direction: column;
+  gap: 1rem;
+  border-top: 1px solid #E5E7EB;
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.fallacy-card-body.open {
+  display: flex;
+}
+
+.fallacy-detail-block {
+  background-color: #FAF9F5;
+  border: 1.5px solid var(--nuls-black);
+  border-radius: var(--radius-sm);
+  padding: 0.85rem 1rem;
+}
+
+.fallacy-detail-label {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: var(--nuls-black);
+  margin-bottom: 0.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.reflex-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.reflex-card {
+  background-color: #FFFFFF;
+  border: 2px solid var(--nuls-black);
+  border-radius: var(--radius-sm);
+  padding: 1rem;
+  box-shadow: var(--shadow-hard-sm);
+}
+
+.reflex-card-title {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: 0.95rem;
+  margin-bottom: 0.35rem;
+  color: var(--nuls-black);
+}
+
+.reflex-card-desc {
+  font-size: 0.88rem;
+  color: #374151;
+  line-height: 1.45;
+}
+
+/* ==========================================================================
    VERSES & CALLIGRAPHY CARDS
    ========================================================================== */
 .verses-container {
