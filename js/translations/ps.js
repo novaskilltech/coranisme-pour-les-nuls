@@ -158,7 +158,17 @@ window.I18N_DATA['ps'] = {
     "footerBtnLegal": "⚖️ Sharing, License & Privacy",
     "footerBtnContact": "✉️ Contact Author",
     "footerBtnPortal": "📜 Words of Al-Barbahârî",
-    "footerContactLabel": "Contact:"
+    "footerContactLabel": "Contact:",
+    "btnShare": "شریک کړئ",
+    "btnCopySection": "برخه کاپي کړئ",
+    "btnCopy": "کاپي",
+    "copied": "کاپي شو!",
+    "shareModalTitle": "📤 دا کارډ شریک کړئ",
+    "shareModalDesc": "د سنت د دفاع لپاره دا علمي کارډ شریک کړئ:",
+    "shareCardTitle": "دا ځواب شریک کړئ",
+    "shareCardDesc": "په واټساپ، ټیلیګرام او ټولنیزو شبکو کې دا کارډ نشر کړئ.",
+    "toastSectionCopied": "✅ برخه په کلپ بورډ کې کاپي شوه!",
+    "toastLinkCopied": "✅ لینک کاپي شو!"
   },
   "arguments": [
     {

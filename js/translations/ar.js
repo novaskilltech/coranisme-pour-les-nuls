@@ -158,7 +158,17 @@ window.I18N_DATA['ar'] = {
     "footerBtnLegal": "⚖️ المشاركة، الرخصة والخصوصية",
     "footerBtnContact": "✉️ مراسلة المؤلف",
     "footerBtnPortal": "📜 كلام الإمام البربهاري",
-    "footerContactLabel": "للتواصل :"
+    "footerContactLabel": "للتواصل :",
+    "btnShare": "مشاركة",
+    "btnCopySection": "نسخ الفقرة",
+    "btnCopy": "نسخ",
+    "copied": "تم النسخ !",
+    "shareModalTitle": "📤 مشاركة هذه الشبهة والرد عليها",
+    "shareModalDesc": "شارك هذه المادة العلمية للدفاع عن السنة ونشر الحق :",
+    "shareCardTitle": "مشاركة هذه المادة",
+    "shareCardDesc": "انشر هذه البطاقة العلمية للدفاع عن السنة النبوية عبر واتساب، تلغرام والشبكات الاجتماعية.",
+    "toastSectionCopied": "✅ تم نسخ الفقرة إلى الحافظة بنجاح !",
+    "toastLinkCopied": "✅ تم نسخ الرابط إلى الحافظة !"
   },
   "arguments": [
     {

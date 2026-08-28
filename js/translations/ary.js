@@ -158,7 +158,17 @@ window.I18N_DATA['ary'] = {
     "footerBtnLegal": "⚖️ Sharing, License & Privacy",
     "footerBtnContact": "✉️ Contact Author",
     "footerBtnPortal": "📜 Words of Al-Barbahârî",
-    "footerContactLabel": "Contact:"
+    "footerContactLabel": "Contact:",
+    "btnShare": "بارطاجي",
+    "btnCopySection": "نسخ هاد الفقرة",
+    "btnCopy": "نسخ",
+    "copied": "تم النسخ !",
+    "shareModalTitle": "📤 بارطاجي هاد الرد",
+    "shareModalDesc": "بارطاجي هاد الفائدة للدفاع على السنة النبوية :",
+    "shareCardTitle": "بارطاجي هاد الفائدة",
+    "shareCardDesc": "نشر هاد البطاقة للدفاع على السنة عبر واتساب، تيليغرام ومواقع التواصل.",
+    "toastSectionCopied": "✅ تم نسخ الفقرة بنجاح !",
+    "toastLinkCopied": "✅ تم نسخ الرابط بنجاح !"
   },
   "arguments": [
     {

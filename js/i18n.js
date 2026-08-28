@@ -433,6 +433,19 @@ function updateStaticDOM(ui) {
     `;
   }
 
+  // Share Modal
+  const shareModalTitle = document.querySelector('#share-modal-title');
+  if (shareModalTitle && ui.shareModalTitle) shareModalTitle.textContent = ui.shareModalTitle;
+
+  const shareModalDesc = document.querySelector('#share-modal-desc');
+  if (shareModalDesc && ui.shareModalDesc) shareModalDesc.textContent = ui.shareModalDesc;
+
+  const shareCopyLabel = document.querySelector('#share-copy-label');
+  if (shareCopyLabel && (ui.shareCopyLink || ui.btnCopy)) shareCopyLabel.textContent = ui.shareCopyLink || ui.btnCopy;
+
+  const shareBtnCopyInline = document.querySelector('#share-btn-copy-inline');
+  if (shareBtnCopyInline && ui.btnCopy) shareBtnCopyInline.textContent = ui.btnCopy;
+
   // Footer
   const footerBrand = document.querySelector('.footer-brand');
   if (footerBrand && ui.brandTitle) footerBrand.textContent = ui.brandTitle;

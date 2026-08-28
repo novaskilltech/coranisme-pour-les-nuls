@@ -937,6 +937,55 @@
     </div>
   </div>
 
+  <!-- MODAL PARTAGE SOCIAL & LIEN -->
+  <div class="modal-backdrop" id="share-modal">
+    <div class="modal-card" style="max-width: 520px;">
+      <div class="modal-header">
+        <h3 id="share-modal-title">📤 Partager cette fiche</h3>
+        <button class="btn-close-modal" data-action="close-modal" data-modal-id="share-modal">✕</button>
+      </div>
+      <div class="modal-body" style="padding: 1.5rem;">
+        <p style="font-size: 0.95rem; color: #374151; margin-bottom: 1.25rem; font-weight: 700;" id="share-modal-desc">
+          Partagez cet argument pour l'étude et la défense de la Sunna :
+        </p>
+
+        <!-- Grille des réseaux sociaux -->
+        <div class="share-buttons-grid">
+          <a href="#" class="share-btn share-whatsapp" id="share-link-whatsapp" target="_blank" rel="noopener noreferrer">
+            <span class="share-btn-icon">💬</span>
+            <span class="share-btn-label">WhatsApp</span>
+          </a>
+          <a href="#" class="share-btn share-telegram" id="share-link-telegram" target="_blank" rel="noopener noreferrer">
+            <span class="share-btn-icon">✈️</span>
+            <span class="share-btn-label">Telegram</span>
+          </a>
+          <a href="#" class="share-btn share-twitter" id="share-link-twitter" target="_blank" rel="noopener noreferrer">
+            <span class="share-btn-icon">𝕏</span>
+            <span class="share-btn-label">X / Twitter</span>
+          </a>
+          <a href="#" class="share-btn share-facebook" id="share-link-facebook" target="_blank" rel="noopener noreferrer">
+            <span class="share-btn-icon">📘</span>
+            <span class="share-btn-label">Facebook</span>
+          </a>
+          <a href="#" class="share-btn share-email" id="share-link-email" target="_blank" rel="noopener noreferrer">
+            <span class="share-btn-icon">✉️</span>
+            <span class="share-btn-label">E-mail</span>
+          </a>
+          <button class="share-btn share-copy" id="share-btn-copy-url">
+            <span class="share-btn-icon">📋</span>
+            <span class="share-btn-label" id="share-copy-label">Copier le lien</span>
+          </button>
+        </div>
+
+        <!-- Aperçu de l'URL copiée -->
+        <div class="share-url-box" style="margin-top: 1.25rem; background: #FAF9F5; border: 2px solid var(--nuls-black); border-radius: var(--radius-sm); padding: 0.6rem 0.85rem; display: flex; align-items: center; justify-content: space-between; gap: 0.5rem;">
+          <input type="text" id="share-input-url" readonly style="border: none; background: transparent; font-family: inherit; font-size: 0.85rem; color: #1F2937; width: 100%; outline: none; font-weight: 700;">
+          <button class="btn-copy-inline" id="share-btn-copy-inline" style="background: var(--nuls-black); color: var(--nuls-yellow); font-size: 0.75rem; font-weight: 800; padding: 0.35rem 0.65rem; border-radius: 4px; white-space: nowrap; cursor: pointer;">Copier</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- MODAL CONDITIONS DE DIFFUSION & CONFIDENTIALITÉ -->
   <div class="modal-backdrop" id="legal-modal">
     <div class="modal-card" style="max-width: 720px;">

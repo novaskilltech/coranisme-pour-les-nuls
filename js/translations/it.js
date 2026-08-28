@@ -158,7 +158,17 @@ window.I18N_DATA['it'] = {
     "footerBtnLegal": "⚖️ Sharing, License & Privacy",
     "footerBtnContact": "✉️ Contact Author",
     "footerBtnPortal": "📜 Words of Al-Barbahârî",
-    "footerContactLabel": "Contact:"
+    "footerContactLabel": "Contact:",
+    "btnShare": "Condividi",
+    "btnCopySection": "Copia sezione",
+    "btnCopy": "Copia",
+    "copied": "Copiato!",
+    "shareModalTitle": "📤 Condividi questa scheda",
+    "shareModalDesc": "Condividi questo argomento per lo studio e la difesa della Sunna:",
+    "shareCardTitle": "Condividi questa confutazione",
+    "shareCardDesc": "Diffondi questa scheda per difendere la Sunna su WhatsApp, Telegram o social media.",
+    "toastSectionCopied": "✅ Sezione copiata negli appunti!",
+    "toastLinkCopied": "✅ Link copiato negli appunti!"
   },
   "arguments": [
     {

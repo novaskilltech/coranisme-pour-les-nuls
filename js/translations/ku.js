@@ -158,7 +158,17 @@ window.I18N_DATA['ku'] = {
     "footerBtnLegal": "⚖️ Sharing, License & Privacy",
     "footerBtnContact": "✉️ Contact Author",
     "footerBtnPortal": "📜 Words of Al-Barbahârî",
-    "footerContactLabel": "Contact:"
+    "footerContactLabel": "Contact:",
+    "btnShare": "Parve bike",
+    "btnCopySection": "Beşê kopî bike",
+    "btnCopy": "Kopî bike",
+    "copied": "Hate kopîkirin!",
+    "shareModalTitle": "📤 Vê rûpelê parve bike",
+    "shareModalDesc": "Ji bo parastina Sunnetê vê bersivê parve bike:",
+    "shareCardTitle": "Vê bersivê parve bike",
+    "shareCardDesc": "Vê rûpelê li ser WhatsApp, Telegram an torên civakî belav bike.",
+    "toastSectionCopied": "✅ Beş li bîrgehê hate kopîkirin!",
+    "toastLinkCopied": "✅ Lînk hate kopîkirin!"
   },
   "preface": {
     "badge": "DESTPÊKA PIRTÛKÊ",

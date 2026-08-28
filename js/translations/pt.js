@@ -1,5 +1,5 @@
 /**
- * Pack de Langue : Português (PT) - Portugais
+ * Pack de Langue : Portugais (PT) - Português
  * Traduction Exhaustive et Intégrale (UI, Préface, Intro, 10 Arguments, Modales)
  */
 window.I18N_DATA = window.I18N_DATA || {};
@@ -158,7 +158,17 @@ window.I18N_DATA['pt'] = {
     "footerBtnLegal": "⚖️ Sharing, License & Privacy",
     "footerBtnContact": "✉️ Contact Author",
     "footerBtnPortal": "📜 Words of Al-Barbahârî",
-    "footerContactLabel": "Contact:"
+    "footerContactLabel": "Contact:",
+    "btnShare": "Compartilhar",
+    "btnCopySection": "Copiar seção",
+    "btnCopy": "Copiar",
+    "copied": "Copiado!",
+    "shareModalTitle": "📤 Compartilhar esta ficha",
+    "shareModalDesc": "Compartilhe este argumento para o estudo e a defesa da Sunna:",
+    "shareCardTitle": "Compartilhar esta refutação",
+    "shareCardDesc": "Divulgue esta ficha para defender a Sunna no WhatsApp, Telegram ou redes sociais.",
+    "toastSectionCopied": "✅ Seção copiada para a área de transferência!",
+    "toastLinkCopied": "✅ Link copiado para a área de transferência!"
   },
   "arguments": [
     {

@@ -158,7 +158,17 @@ window.I18N_DATA['ta'] = {
     "footerBtnLegal": "⚖️ Sharing, License & Privacy",
     "footerBtnContact": "✉️ Contact Author",
     "footerBtnPortal": "📜 Words of Al-Barbahârî",
-    "footerContactLabel": "Contact:"
+    "footerContactLabel": "Contact:",
+    "btnShare": "பகிர்",
+    "btnCopySection": "பகுதியை நகலெடு",
+    "btnCopy": "நகலெடு",
+    "copied": "நகலெடுக்கப்பட்டது!",
+    "shareModalTitle": "📤 இந்த விவரத்தைப் பகிரவும்",
+    "shareModalDesc": "சுன்னாவைப் பாதுகாக்க இந்த விவரத்தைப் பகிரவும்:",
+    "shareCardTitle": "மறுப்பைப் பகிரவும்",
+    "shareCardDesc": "வாட்ஸ்அப், டெலிகிராம் அல்லது சமூக ஊடகங்களில் இந்த விவரத்தைப் பகிரவும்.",
+    "toastSectionCopied": "✅ பகுதி நகலெடுக்கப்பட்டது!",
+    "toastLinkCopied": "✅ இணைப்பு நகலெடுக்கப்பட்டது!"
   },
   "arguments": [
     {

@@ -158,7 +158,17 @@ window.I18N_DATA['ce'] = {
     "footerBtnLegal": "⚖️ Sharing, License & Privacy",
     "footerBtnContact": "✉️ Contact Author",
     "footerBtnPortal": "📜 Words of Al-Barbahârî",
-    "footerContactLabel": "Contact:"
+    "footerContactLabel": "Contact:",
+    "btnShare": "ДӀасадахьийта",
+    "btnCopySection": "Дакъа схьаэца",
+    "btnCopy": "Схьаэца",
+    "copied": "Схьаэцна!",
+    "shareModalTitle": "📤 ХӀара хаам дӀасадахьийта",
+    "shareModalDesc": "Суннат лардархьама хӀара дакъа нахана дӀасадахьийта:",
+    "shareCardTitle": "Жоп дӀасадахьийта",
+    "shareCardDesc": "WhatsApp, Telegram я социалан машанашкахь хӀара жоп дӀасадахьийта.",
+    "toastSectionCopied": "✅ Дакъа схьаэцна бухадиллина!",
+    "toastLinkCopied": "✅ Хьажорг схьаэцна!"
   },
   "preface": {
     "badge": "ЖАЙНИН ДОЛОРАХЬ",

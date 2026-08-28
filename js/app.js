@@ -1,9 +1,10 @@
 /**
  * Moteur Applicatif - Réfutation du Coranisme
  * Gestion du routage SPA, du rendu dynamique des 10 fiches,
- * de la recherche instantanée, de la copie rapide 30s,
+ * de la recherche instantanée, de la copie rapide 30s, des boutons copier par section,
+ * du partage natif / réseaux sociaux (WhatsApp, Telegram, X, Facebook, etc.),
  * des quiz interactifs et du support multi-langues (i18n).
- * Par Salah Eddine Ahmed
+ * Par Salah Eddine Ahmed (Abou Soulaymane)
  */
 
 function getActiveArgumentsData() {
@@ -36,6 +37,7 @@ const STATIC_INTRO_FALLBACK = document.getElementById('coranisme-intro')?.outerH
 
 function renderPrefaceHTML() {
   const currentLang = window.CURRENT_LANG || 'fr';
+  const ui = getActiveUI();
   const data = (window.I18N_DATA && window.I18N_DATA[currentLang] && window.I18N_DATA[currentLang].preface)
     ? window.I18N_DATA[currentLang].preface
     : (window.I18N_DATA && window.I18N_DATA['fr'] && window.I18N_DATA['fr'].preface ? window.I18N_DATA['fr'].preface : null);
@@ -45,6 +47,10 @@ function renderPrefaceHTML() {
   return `
     <section id="preface" class="nuls-callout callout-cadrage" style="margin: 2rem 0;" aria-labelledby="preface-title">
       <div class="callout-header"><span>📝</span> ${data.badge || "OUVERTURE DE L'OUVRAGE"}</div>
+      <button class="btn-copy-callout" data-action="copy-section" data-target="preface" title="${ui.btnCopySection || "Copier cette section"}">
+        <span>📋</span> <span class="btn-copy-text">${ui.btnCopy || "Copier"}</span>
+      </button>
+
       <header class="section-header-wrap" style="margin: 0 0 1.25rem;">
         <div>
           <h2 class="section-header-title" id="preface-title">${data.title || "PRÉFACE"}</h2>
@@ -57,9 +63,12 @@ function renderPrefaceHTML() {
         <div class="verse-arabic" lang="ar" dir="rtl">${data.basmala || "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ"}</div>
       </div>
 
-      ${data.sections.map(sec => `
-        <section class="nuls-callout callout-${sec.type}" style="margin-top: 1.25rem;">
+      ${data.sections.map((sec, sIdx) => `
+        <section id="preface-sec-${sIdx}" class="nuls-callout callout-${sec.type}" style="margin-top: 1.25rem;">
           <div class="callout-header"><span>${sec.type === 'adverse' ? '🔴' : (sec.type === 'retenir' ? '💡' : (sec.type === 'analogie' ? '📚' : (sec.type === 'cadrage' ? '📖' : '⏱️')))}</span> ${sec.header}</div>
+          <button class="btn-copy-callout" data-action="copy-section" data-target="preface-sec-${sIdx}" title="${ui.btnCopySection || "Copier cette section"}">
+            <span>📋</span> <span class="btn-copy-text">${ui.btnCopy || "Copier"}</span>
+          </button>
           <h3 style="font-family: var(--font-display); font-size: 1.35rem; font-weight: 800; margin: 1rem 0 0.75rem;">${sec.title}</h3>
           ${sec.paragraphs.map(p => `<p style="margin-bottom: 0.75rem;">${p}</p>`).join('')}
           ${sec.distinctions ? `
@@ -85,6 +94,7 @@ function renderPrefaceHTML() {
 
 function renderCoranismeIntroHTML() {
   const currentLang = window.CURRENT_LANG || 'fr';
+  const ui = getActiveUI();
   const data = (window.I18N_DATA && window.I18N_DATA[currentLang] && window.I18N_DATA[currentLang].intro)
     ? window.I18N_DATA[currentLang].intro
     : (window.I18N_DATA && window.I18N_DATA['fr'] && window.I18N_DATA['fr'].intro ? window.I18N_DATA['fr'].intro : null);
@@ -96,6 +106,9 @@ function renderCoranismeIntroHTML() {
       <div class="callout-header">
         <span>📖</span> ${data.header || "CONTEXTE INTRODUCTIF"}
       </div>
+      <button class="btn-copy-callout" data-action="copy-section" data-target="coranisme-intro" title="${ui.btnCopySection || "Copier cette section"}">
+        <span>📋</span> <span class="btn-copy-text">${ui.btnCopy || "Copier"}</span>
+      </button>
 
       <header class="section-header-wrap" style="margin: 0 0 1.25rem;">
         <div>
@@ -105,9 +118,12 @@ function renderCoranismeIntroHTML() {
         <span class="card-number-badge">${data.badge || "REPÈRES HISTORIQUES"}</span>
       </header>
 
-      ${data.sections.map(sec => `
-        <section class="nuls-callout callout-${sec.type}" style="margin-top: 1.25rem;">
+      ${data.sections.map((sec, sIdx) => `
+        <section id="intro-sec-${sIdx}" class="nuls-callout callout-${sec.type}" style="margin-top: 1.25rem;">
           <div class="callout-header"><span>${sec.type === 'adverse' ? '🔴' : (sec.type === 'retenir' ? '💡' : (sec.type === 'analogie' ? '⚖️' : '🗓️'))}</span> ${sec.header}</div>
+          <button class="btn-copy-callout" data-action="copy-section" data-target="intro-sec-${sIdx}" title="${ui.btnCopySection || "Copier cette section"}">
+            <span>📋</span> <span class="btn-copy-text">${ui.btnCopy || "Copier"}</span>
+          </button>
           <h3 style="font-family: var(--font-display); font-size: 1.35rem; font-weight: 800; margin: 1rem 0 0.75rem;">${sec.title}</h3>
           ${sec.paragraphs ? sec.paragraphs.map(p => `<p style="margin-bottom: 0.75rem;">${p}</p>`).join('') : ''}
           ${sec.hadiths ? `
@@ -151,6 +167,9 @@ function initApp() {
   // Gestion de la recherche
   initSearchModal();
 
+  // Gestion du partage
+  initShareModal();
+
   // Gestion du menu drawer mobile
   initMobileDrawer();
 }
@@ -159,32 +178,34 @@ function initApp() {
  * Rendu du menu de navigation latéral
  */
 function renderSidebarNav() {
-  const listContainer = document.getElementById('sidebar-nav-list');
-  if (!listContainer) return;
+  const navList = document.getElementById('sidebar-nav-list');
+  if (!navList) return;
 
   const currentArgs = getActiveArgumentsData();
   const ui = getActiveUI();
 
-  const introductoryChapters = [
-    { id: 'preface', icon: '✦', title: ui.sidebarPreface || 'Préface' },
-    { id: 'coranisme-intro', icon: 'ℹ', title: ui.sidebarIntro || 'Qui sont les coranistes ?' }
-  ];
-
-  listContainer.innerHTML = introductoryChapters.map(chapter => `
+  navList.innerHTML = `
     <li>
-      <a href="#${chapter.id}" class="sidebar-nav-item" id="nav-item-${chapter.id}">
-        <span class="sidebar-nav-num">${chapter.icon}</span>
-        <span class="sidebar-nav-title">${chapter.title}</span>
+      <a href="#preface" class="sidebar-nav-item" id="nav-item-preface">
+        <span class="nav-arg-num">00</span>
+        <span class="nav-arg-title">${ui.navPreface || "Préface de l'Auteur"}</span>
       </a>
     </li>
-  `).join('') + currentArgs.map(arg => `
     <li>
-      <a href="#arg-${arg.id}" class="sidebar-nav-item" id="nav-item-${arg.id}" data-id="${arg.id}">
-        <span class="sidebar-nav-num">${arg.number}</span>
-        <span class="sidebar-nav-title" title="${escapeHTML(arg.title)}">${escapeHTML(arg.shortTitle || arg.title)}</span>
+      <a href="#coranisme-intro" class="sidebar-nav-item" id="nav-item-coranisme-intro">
+        <span class="nav-arg-num">00</span>
+        <span class="nav-arg-title">${ui.navIntro || "Qui sont les coranistes ?"}</span>
       </a>
     </li>
-  `).join('');
+    ${currentArgs.map(arg => `
+      <li>
+        <a href="#arg-${arg.id}" class="sidebar-nav-item" id="nav-item-${arg.id}">
+          <span class="nav-arg-num">${arg.number}</span>
+          <span class="nav-arg-title">${escapeHTML(arg.title)}</span>
+        </a>
+      </li>
+    `).join('')}
+  `;
 }
 
 /**
@@ -274,7 +295,7 @@ function renderHomeView(container) {
         ${ui.heroTitleMain || "Réfutation"} <span>${ui.heroTitleSpan || "du Coranisme"}</span>
       </h1>
       <p style="font-size: 1.05rem; font-weight: 800; color: var(--nuls-black); margin-bottom: 0.5rem;">
-        ${ui.heroAuthor || "Par Salah Eddine Ahmed"}
+        ${ui.heroAuthor || "Par Salah Eddine Ahmed (Abou Soulaymane)"}
       </p>
       <p class="hero-description">
         ${ui.heroDesc || "Déconstruisez pas à pas les sophismes du coranisme avec rigueur logique."}
@@ -286,8 +307,8 @@ function renderHomeView(container) {
         <button class="btn-hero-secondary" data-action="open-search">
           <span>🔍</span> ${ui.btnSearchModal || "Rechercher un sujet / verset"}
         </button>
-        <button class="btn-hero-secondary" data-action="open-modal" data-modal-id="contact-modal">
-          <span>✉️</span> ${ui.btnContactAuthor || "Contacter l'auteur"}
+        <button class="btn-hero-secondary" data-action="share-arg" data-arg-id="1">
+          <span>📤</span> ${ui.btnShare || "Partager le manuel"}
         </button>
       </div>
     </section>
@@ -320,7 +341,10 @@ function renderHomeView(container) {
             <a href="#arg-${arg.id}" class="btn-read-arg">
               <span>${ui.btnReadCard || "Consulter la fiche"}</span> ➔
             </a>
-            <div style="display: flex; gap: 0.35rem;">
+            <div style="display: flex; gap: 0.35rem; align-items: center;">
+              <button data-action="share-arg" data-arg-id="${arg.id}" title="${ui.btnShare || "Partager sur WhatsApp, etc."}" class="btn-download-pdf-sm">
+                📤
+              </button>
               <a href="pdf/${arg.pdfFile}" download title="${ui.btnDownloadPdf || "Télécharger le fascicule PDF original"}" class="btn-download-pdf-sm">
                 📥
               </a>
@@ -371,6 +395,9 @@ function renderArgumentView(arg, container) {
         <div class="arg-header-top">
           <span class="arg-badge-giant">${ui.argBadgeGiant || "ARGUMENT"} ${arg.number} / 10</span>
           <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+            <button data-action="share-arg" data-arg-id="${arg.id}" class="arg-share-badge" title="${ui.btnShare || "Partager sur WhatsApp, Twitter, etc."}">
+              <span>📤</span> ${ui.btnShare || "Partager"}
+            </button>
             <a href="pdf/${arg.pdfFile}" download class="arg-download-badge" title="${ui.btnDownloadOriginalPdf || "Télécharger le PDF original"}">
               <span>📥</span> ${ui.btnDownloadOriginalPdf || "Télécharger le PDF original"}
             </a>
@@ -410,6 +437,9 @@ function renderArgumentView(arg, container) {
           <div class="callout-header">
             <span>🔴</span> ${ui.sec1Header || "1. LEUR THÈSE & LES VERSETS QU'ILS DÉTOURNENT"}
           </div>
+          <button class="btn-copy-callout" data-action="copy-section" data-target="section-their-thesis" title="${ui.btnCopySection || "Copier cette section"}">
+            <span>📋</span> <span class="btn-copy-text">${ui.btnCopy || "Copier"}</span>
+          </button>
           <div class="adverse-thesis">
             « ${escapeHTML(arg.theirArgument.thesis)} »
           </div>
@@ -441,6 +471,9 @@ function renderArgumentView(arg, container) {
           <div class="callout-header">
             <span>💡</span> ${ui.sec2Header || "2. LE NŒUD LOGIQUE DU PROBLÈME"}
           </div>
+          <button class="btn-copy-callout" data-action="copy-section" data-target="section-logical-node" title="${ui.btnCopySection || "Copier cette section"}">
+            <span>📋</span> <span class="btn-copy-text">${ui.btnCopy || "Copier"}</span>
+          </button>
           <h3 style="font-family: var(--font-display); font-size: 1.35rem; font-weight: 800; margin-bottom: 1rem; color: var(--nuls-black);">
             ${escapeHTML(arg.logicalNode.title)}
           </h3>
@@ -473,6 +506,9 @@ function renderArgumentView(arg, container) {
           <div class="callout-header">
             <span>⚙️</span> ${ui.sec3Header || "3. LE PRINCIPE CENTRAL DE RÉFUTATION"}
           </div>
+          <button class="btn-copy-callout" data-action="copy-section" data-target="section-central-principle" title="${ui.btnCopySection || "Copier cette section"}">
+            <span>📋</span> <span class="btn-copy-text">${ui.btnCopy || "Copier"}</span>
+          </button>
           <h3 style="font-family: var(--font-display); font-size: 1.35rem; font-weight: 800; margin-bottom: 1rem;">
             ${escapeHTML(arg.centralPrinciple.title)}
           </h3>
@@ -491,6 +527,9 @@ function renderArgumentView(arg, container) {
             <div class="callout-header">
               <span>📖</span> ${ui.sec4Header || "4. L'ARCHITECTURE CORANIQUE COMPLÈTE"}
             </div>
+            <button class="btn-copy-callout" data-action="copy-section" data-target="section-verses" title="${ui.btnCopySection || "Copier cette section"}">
+              <span>📋</span> <span class="btn-copy-text">${ui.btnCopy || "Copier"}</span>
+            </button>
             <h3 style="font-family: var(--font-display); font-size: 1.35rem; font-weight: 800; margin-bottom: 1rem;">
               ${escapeHTML(arg.quranicArchitecture.title)}
             </h3>
@@ -516,6 +555,9 @@ function renderArgumentView(arg, container) {
           <div class="callout-header">
             <span>⚖️</span> ${ui.sec5Header || "5. LES ANALOGIES PÉDAGOGIQUES"}
           </div>
+          <button class="btn-copy-callout" data-action="copy-section" data-target="section-analogies" title="${ui.btnCopySection || "Copier cette section"}">
+            <span>📋</span> <span class="btn-copy-text">${ui.btnCopy || "Copier"}</span>
+          </button>
           <div class="analogies-list">
             ${arg.analogies.map(a => `
               <div class="analogie-card">
@@ -545,6 +587,9 @@ function renderArgumentView(arg, container) {
           <div class="callout-header">
             <span>⏱️</span> ${ui.sec6Header || "6. RÉPONSES PRÊTES À L'EMPLOI"}
           </div>
+          <button class="btn-copy-callout" data-action="copy-section" data-target="section-30s" title="${ui.btnCopySection || "Copier cette section"}">
+            <span>📋</span> <span class="btn-copy-text">${ui.btnCopy || "Copier"}</span>
+          </button>
           <div class="quick-response-container">
             <h3 style="font-family: var(--font-display); font-size: 1.25rem; font-weight: 800; color: var(--nuls-black);">
               ${ui.sec6QuickTitle || "Réponse Éclair (30 Secondes)"}
@@ -570,6 +615,9 @@ function renderArgumentView(arg, container) {
           <div class="callout-header">
             <span>🎯</span> ${ui.sec7Header || "7. OBJECTIONS CORANISTES & LEURS RÉPONSES"}
           </div>
+          <button class="btn-copy-callout" data-action="copy-section" data-target="section-objections" title="${ui.btnCopySection || "Copier cette section"}">
+            <span>📋</span> <span class="btn-copy-text">${ui.btnCopy || "Copier"}</span>
+          </button>
           
           <div class="objections-list">
             ${arg.objections.map((o, idx) => `
@@ -619,10 +667,13 @@ function renderArgumentView(arg, container) {
         ` : ''}
 
         <!-- SECTION 9 : CONCLUSION & CHAÎNE LOGIQUE -->
-        <section class="nuls-callout callout-retenir">
+        <section id="section-conclusion" class="nuls-callout callout-retenir">
           <div class="callout-header">
             <span>🏁</span> ${ui.sec9Header || "9. CONCLUSION EN CHAÎNE LOGIQUE"}
           </div>
+          <button class="btn-copy-callout" data-action="copy-section" data-target="section-conclusion" title="${ui.btnCopySection || "Copier cette section"}">
+            <span>📋</span> <span class="btn-copy-text">${ui.btnCopy || "Copier"}</span>
+          </button>
           <div style="display: flex; flex-direction: column; gap: 0.75rem; margin-bottom: 1.25rem;">
             ${arg.conclusion.steps.map((s, idx) => `
               <div style="background: #FFFFFF; border: var(--border-medium); padding: 0.75rem 1rem; border-radius: var(--radius-sm); font-weight: 700; display: flex; align-items: center; gap: 0.75rem;">
@@ -640,6 +691,21 @@ function renderArgumentView(arg, container) {
             📢 « ${escapeHTML(arg.conclusion.punchline)} »
           </div>
         </section>
+
+        <!-- BANDEAU DE PARTAGE DE LA FICHE -->
+        <div class="arg-share-footer-card" style="background: var(--nuls-yellow-tint); border: 2px solid var(--nuls-black); border-radius: var(--radius-md); padding: 1.25rem; margin-top: 2rem; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem;">
+          <div>
+            <h4 style="font-family: var(--font-display); font-size: 1.15rem; font-weight: 900; color: var(--nuls-black);">
+              ${ui.shareCardTitle || "Partager cette réfutation"}
+            </h4>
+            <p style="font-size: 0.9rem; color: #4B5563; font-weight: 600;">
+              ${ui.shareCardDesc || "Diffusez cette fiche pour l'étude et la défense de la Sunna sur WhatsApp, Telegram ou les réseaux."}
+            </p>
+          </div>
+          <button class="btn-hero-primary" data-action="share-arg" data-arg-id="${arg.id}" style="padding: 0.65rem 1.25rem; font-size: 0.95rem;">
+            <span>📤</span> ${ui.btnShare || "Partager la fiche"}
+          </button>
+        </div>
 
         <!-- PAGINATION BAR (PRECEDENT / SUIVANT) -->
         <div class="arg-pagination-bar">
@@ -674,20 +740,135 @@ function renderArgumentView(arg, container) {
 }
 
 /**
- * Copie dans le presse-papier avec confirmation Toast
+ * Copie d'une section entière avec mise en forme propre et attribution
+ */
+function copySection(targetId, btn) {
+  const section = document.getElementById(targetId);
+  if (!section) return;
+
+  const ui = getActiveUI();
+
+  // Cloner l'élément pour nettoyer les boutons et contrôles interactifs
+  const clone = section.cloneNode(true);
+  clone.querySelectorAll('button, .btn-copy-callout, .btn-copy-fast, .quiz-options, .quiz-feedback').forEach(el => el.remove());
+
+  const cleanText = clone.innerText.trim();
+  const currentHash = window.location.hash || '#home';
+  const attribution = `\n\n📖 [Manuel de Réfutation du Coranisme — Par Salah Eddine Ahmed (Abou Soulaymane)]\n🔗 https://anti-coranisme.novaskill.tech/${currentHash}`;
+  const fullText = cleanText + attribution;
+
+  navigator.clipboard.writeText(fullText).then(() => {
+    showToast(ui.toastSectionCopied || "✅ Section copiée dans le presse-papier !");
+    if (btn) {
+      const originalHTML = btn.innerHTML;
+      btn.innerHTML = `<span>✅</span> <span class="btn-copy-text">${ui.copied || "Copié !"}</span>`;
+      btn.classList.add('copied');
+      setTimeout(() => {
+        btn.innerHTML = originalHTML;
+        btn.classList.remove('copied');
+      }, 2000);
+    }
+  }).catch(err => {
+    console.error("Erreur lors de la copie :", err);
+    showToast("⚠️ Impossible de copier automatiquement.");
+  });
+}
+
+/**
+ * Copie dans le presse-papier avec confirmation Toast (Réponse 30s)
  */
 function copyToClipboard(argId) {
   const textEl = document.getElementById(`quick-text-${argId}`);
   if (!textEl) return;
 
   const ui = getActiveUI();
-  const text = textEl.innerText.trim();
-  navigator.clipboard.writeText(text).then(() => {
+  const cleanText = textEl.innerText.trim();
+  const attribution = `\n\n📖 [Manuel de Réfutation du Coranisme — Par Salah Eddine Ahmed (Abou Soulaymane)]\n🔗 https://anti-coranisme.novaskill.tech/#arg-${argId}`;
+  const fullText = cleanText + attribution;
+
+  navigator.clipboard.writeText(fullText).then(() => {
     showToast(ui.toastCopySuccess || "✅ Réponse 30s copiée dans le presse-papier !");
   }).catch(err => {
     console.error("Erreur copie", err);
     showToast("⚠️ Impossible de copier automatiquement.");
   });
+}
+
+/**
+ * Gestion du partage natif (Web Share API) et fallback modale sociale
+ */
+function shareArgument(argId) {
+  const currentArgs = getActiveArgumentsData();
+  const ui = getActiveUI();
+  const idNum = parseInt(argId, 10);
+  const arg = currentArgs.find(a => a.id === idNum) || currentArgs[0];
+
+  const shareTitle = `${ui.argBadgeGiant || "Argument"} ${arg ? arg.number : ''} : ${arg ? arg.title : 'Réfutation du Coranisme'}`;
+  const shareText = arg 
+    ? `« ${arg.title} »\n⚡ ${arg.formula}\n\n📖 Manuel de Réfutation du Coranisme — Par Salah Eddine Ahmed (Abou Soulaymane)`
+    : `Manuel de Réfutation du Coranisme — Par Salah Eddine Ahmed (Abou Soulaymane)`;
+  const shareUrl = arg ? `https://anti-coranisme.novaskill.tech/#arg-${arg.id}` : `https://anti-coranisme.novaskill.tech/`;
+
+  if (navigator.share) {
+    navigator.share({
+      title: shareTitle,
+      text: shareText,
+      url: shareUrl
+    }).catch(err => {
+      if (err.name !== 'AbortError') {
+        openShareModal(shareTitle, shareText, shareUrl);
+      }
+    });
+  } else {
+    openShareModal(shareTitle, shareText, shareUrl);
+  }
+}
+
+function openShareModal(title, text, url) {
+  const modal = document.getElementById('share-modal');
+  if (!modal) return;
+
+  const encText = encodeURIComponent(`${text}\n\n${url}`);
+  const encUrl = encodeURIComponent(url);
+  const encTitle = encodeURIComponent(title);
+
+  const waBtn = document.getElementById('share-link-whatsapp');
+  if (waBtn) waBtn.href = `https://api.whatsapp.com/send?text=${encText}`;
+
+  const tgBtn = document.getElementById('share-link-telegram');
+  if (tgBtn) tgBtn.href = `https://t.me/share/url?url=${encUrl}&text=${encodeURIComponent(text)}`;
+
+  const twBtn = document.getElementById('share-link-twitter');
+  if (twBtn) twBtn.href = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encUrl}`;
+
+  const fbBtn = document.getElementById('share-link-facebook');
+  if (fbBtn) fbBtn.href = `https://www.facebook.com/sharer/sharer.php?u=${encUrl}`;
+
+  const emBtn = document.getElementById('share-link-email');
+  if (emBtn) emBtn.href = `mailto:?subject=${encTitle}&body=${encText}`;
+
+  const inputUrl = document.getElementById('share-input-url');
+  if (inputUrl) inputUrl.value = url;
+
+  modal.classList.add('open');
+}
+
+function initShareModal() {
+  const copyBtn = document.getElementById('share-btn-copy-url');
+  const copyInlineBtn = document.getElementById('share-btn-copy-inline');
+  const inputUrl = document.getElementById('share-input-url');
+  const ui = getActiveUI();
+
+  const handleCopy = () => {
+    if (inputUrl && inputUrl.value) {
+      navigator.clipboard.writeText(inputUrl.value).then(() => {
+        showToast(ui.toastLinkCopied || "✅ Lien copié dans le presse-papier !");
+      });
+    }
+  };
+
+  if (copyBtn) copyBtn.addEventListener('click', handleCopy);
+  if (copyInlineBtn) copyInlineBtn.addEventListener('click', handleCopy);
 }
 
 function showToast(message) {
@@ -799,26 +980,27 @@ function initSearchModal() {
 
     const ui = getActiveUI();
     const filtered = currentArgs.filter(arg => {
-      const matchTitle = (arg.title || '').toLowerCase().includes(query);
-      const matchTagline = (arg.tagline || '').toLowerCase().includes(query);
-      const matchFormula = (arg.formula || '').toLowerCase().includes(query);
-      const matchThesis = (arg.theirArgument?.thesis || '').toLowerCase().includes(query);
-      const matchAdverseVerses = arg.theirArgument?.verses?.some(v => 
-        (v.ref || '').toLowerCase().includes(query) || (v.translation || v.fr || '').toLowerCase().includes(query) || (v.ar || '').includes(query)
+      const titleMatch = arg.title.toLowerCase().includes(query);
+      const taglineMatch = arg.tagline.toLowerCase().includes(query);
+      const formulaMatch = arg.formula.toLowerCase().includes(query);
+      const thesisMatch = arg.theirArgument.thesis.toLowerCase().includes(query);
+      const versesMatch = arg.theirArgument.verses.some(v => 
+        (v.ref && v.ref.toLowerCase().includes(query)) ||
+        (v.ar && v.ar.toLowerCase().includes(query)) ||
+        (v.translation && v.translation.toLowerCase().includes(query))
       );
-      const matchQuranicVerses = arg.quranicArchitecture?.verses?.some(v => 
-        (v.ref || '').toLowerCase().includes(query) || (v.translation || v.fr || '').toLowerCase().includes(query) || (v.ar || '').includes(query)
+      const quranicVersesMatch = arg.quranicArchitecture.verses.some(v => 
+        (v.ref && v.ref.toLowerCase().includes(query)) ||
+        (v.ar && v.ar.toLowerCase().includes(query)) ||
+        (v.translation && v.translation.toLowerCase().includes(query))
       );
-      const match30s = (arg.readyResponses?.quick30s || '').toLowerCase().includes(query);
-      return matchTitle || matchTagline || matchFormula || matchThesis || matchAdverseVerses || matchQuranicVerses || match30s;
+      return titleMatch || taglineMatch || formulaMatch || thesisMatch || versesMatch || quranicVersesMatch;
     });
 
     if (filtered.length === 0) {
-      const safeQuery = escapeHTML(query);
-      const noResultsText = ui.searchNoResults || 'Aucun résultat pour';
       resultsContainer.innerHTML = `
-        <div style="text-align: center; padding: 2rem; color: var(--text-muted); font-weight: 600;">
-          ${escapeHTML(noResultsText)} « <strong>${safeQuery}</strong> ».
+        <div style="text-align: center; padding: 2rem; color: var(--text-muted); font-weight: 700;">
+          ${ui.searchNoResults || "Aucun résultat trouvé pour cette recherche."}
         </div>
       `;
       return;
@@ -952,6 +1134,18 @@ document.addEventListener('click', (e) => {
       const state = target.getAttribute('data-drawer-state');
       const shouldOpen = state !== null ? state === 'true' : undefined;
       if (typeof window.toggleDrawer === 'function') window.toggleDrawer(shouldOpen);
+      break;
+    }
+
+    case 'copy-section': {
+      const targetId = target.getAttribute('data-target');
+      if (targetId && typeof copySection === 'function') copySection(targetId, target);
+      break;
+    }
+
+    case 'share-arg': {
+      const argId = target.getAttribute('data-arg-id');
+      if (typeof shareArgument === 'function') shareArgument(argId || '1');
       break;
     }
 

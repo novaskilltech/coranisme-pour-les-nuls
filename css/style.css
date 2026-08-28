@@ -918,6 +918,74 @@ section[id^="section-"] {
   box-shadow: var(--shadow-hard-sm);
 }
 
+.btn-copy-callout {
+  position: absolute;
+  top: -14px;
+  right: 1.25rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  background-color: #FFFFFF;
+  color: var(--nuls-black);
+  padding: 0.25rem 0.65rem;
+  border-radius: var(--radius-sm);
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 0.75rem;
+  border: 2px solid var(--nuls-black);
+  box-shadow: var(--shadow-hard-sm);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  z-index: 5;
+  text-transform: none;
+}
+
+.btn-copy-callout:hover {
+  background-color: var(--nuls-yellow);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-hard);
+}
+
+.btn-copy-callout.copied {
+  background-color: var(--nuls-green) !important;
+  color: #FFFFFF !important;
+  border-color: var(--nuls-green) !important;
+}
+
+html[dir="rtl"] .btn-copy-callout {
+  right: auto;
+  left: 1.25rem;
+}
+
+html[dir="rtl"] .callout-header {
+  left: auto;
+  right: 1.25rem;
+}
+
+.arg-share-badge {
+  background-color: var(--nuls-yellow);
+  color: var(--nuls-black);
+  border: 2px solid var(--nuls-black);
+  border-radius: var(--radius-sm);
+  padding: 0.35rem 0.75rem;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 0.8rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  box-shadow: var(--shadow-hard-sm);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.arg-share-badge:hover {
+  background-color: var(--nuls-black);
+  color: var(--nuls-yellow);
+  transform: translate(-1px, -1px);
+  box-shadow: var(--shadow-hard);
+}
+
 /* 1. Box : LEUR ARGUMENT (Adverse) */
 .callout-adverse {
   border-color: #1F2937;
@@ -1512,6 +1580,125 @@ section[id^="section-"] {
 .search-result-item p {
   font-size: 0.85rem;
   color: var(--text-muted);
+}
+
+/* ==========================================================================
+   MODAL DE PARTAGE SOCIAL & LIENS
+   ========================================================================== */
+.share-buttons-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+}
+
+@media (max-width: 480px) {
+  .share-buttons-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.share-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  border-radius: var(--radius-sm);
+  font-weight: 800;
+  font-size: 0.9rem;
+  text-decoration: none;
+  border: var(--border-medium);
+  box-shadow: var(--shadow-hard-sm);
+  transition: all 0.15s ease;
+  cursor: pointer;
+  background: #FFFFFF;
+}
+
+.share-btn:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: var(--shadow-hard);
+}
+
+.share-whatsapp {
+  background-color: #25D366;
+  color: #FFFFFF;
+  border-color: #128C7E;
+}
+
+.share-whatsapp:hover {
+  background-color: #128C7E;
+  color: #FFFFFF;
+}
+
+.share-telegram {
+  background-color: #0088CC;
+  color: #FFFFFF;
+  border-color: #006699;
+}
+
+.share-telegram:hover {
+  background-color: #006699;
+  color: #FFFFFF;
+}
+
+.share-twitter {
+  background-color: #000000;
+  color: #FFFFFF;
+  border-color: #000000;
+}
+
+.share-twitter:hover {
+  background-color: #222222;
+  color: #FFFFFF;
+}
+
+.share-facebook {
+  background-color: #1877F2;
+  color: #FFFFFF;
+  border-color: #0D65D9;
+}
+
+.share-facebook:hover {
+  background-color: #0D65D9;
+  color: #FFFFFF;
+}
+
+.share-email {
+  background-color: #6B7280;
+  color: #FFFFFF;
+  border-color: #4B5563;
+}
+
+.share-email:hover {
+  background-color: #4B5563;
+  color: #FFFFFF;
+}
+
+.share-copy {
+  background-color: var(--nuls-yellow);
+  color: var(--nuls-black);
+  border-color: var(--nuls-black);
+  width: 100%;
+}
+
+.share-copy:hover {
+  background-color: var(--nuls-yellow-hover);
+  color: var(--nuls-black);
+}
+
+.share-btn-icon {
+  font-size: 1.25rem;
+  display: inline-flex;
+}
+
+.share-url-box {
+  background: #FAF9F5;
+  border: 2px solid var(--nuls-black);
+  border-radius: var(--radius-sm);
+  padding: 0.6rem 0.85rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
 }
 
 /* ==========================================================================

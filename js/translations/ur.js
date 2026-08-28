@@ -158,7 +158,17 @@ window.I18N_DATA['ur'] = {
     "footerBtnLegal": "⚖️ Sharing, License & Privacy",
     "footerBtnContact": "✉️ Contact Author",
     "footerBtnPortal": "📜 Words of Al-Barbahârî",
-    "footerContactLabel": "Contact:"
+    "footerContactLabel": "Contact:",
+    "btnShare": "شیئر کریں",
+    "btnCopySection": "حصہ کاپی کریں",
+    "btnCopy": "کاپی",
+    "copied": "کاپی ہو گیا!",
+    "shareModalTitle": "📤 یہ کارڈ شیئر کریں",
+    "shareModalDesc": "سنت کے دفاع اور مطالعے کے لیے یہ کارڈ شیئر کریں:",
+    "shareCardTitle": "رد شیئر کریں",
+    "shareCardDesc": "واٹس ایپ، ٹیلی گرام اور سوشل میڈیا پر سنت کے دفاع کے لیے یہ کارڈ شیئر کریں۔",
+    "toastSectionCopied": "✅ حصہ کلپ بورڈ پر کاپی ہو گیا!",
+    "toastLinkCopied": "✅ لنک کلپ بورڈ پر کاپی ہو گیا!"
   },
   "arguments": [
     {
