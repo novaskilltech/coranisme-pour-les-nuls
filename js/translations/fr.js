@@ -1503,7 +1503,7 @@ window.I18N_DATA['fr'] = {
           "Je demande à Allah عز وجل d'en faire une ṣadaqah jâriyah, une aumône continue dont les effets utiles puissent me parvenir après ma mort. Je la destine également à mes parents.",
           "Qu'Allah عز وجل nous accorde la sincérité, la science utile, la compréhension de Son Livre et l'amour de la Sunna de Son Messager ﷺ."
         ],
-        "signature": "Salah Eddine Ahmed (Abou Soulaymane)\nAbou Soulaymane\n23 août 2026"
+        "signature": "Salah Eddine Ahmed (Abou Soulaymane)\n23 août 2026"
       }
     ]
   },

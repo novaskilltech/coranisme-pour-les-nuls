@@ -226,7 +226,7 @@ window.I18N_DATA['ku'] = {
           "Ez ji Xwedayê Mezin dixwazim ku vê pirtûkê bike sedeqeyek jariye ji bo min û dê û bavê min, û feydeyê bide her kesê ku li heqîqetê digere.",
           "Heqîqet ji delîlan natirse!"
         ],
-        "signature": "Selaheddîn Ehmed\nEbû Silêman\n23 Tebax 2026"
+        "signature": "Selaheddîn Ehmed (Ebû Silêman)\n23 Tebax 2026"
       }
     ]
   },
