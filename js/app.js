@@ -477,7 +477,7 @@ function renderSidebarNav() {
     <li>
       <a href="#boite-a-outils" class="sidebar-nav-item" id="nav-item-boite-a-outils">
         <span class="nav-arg-num">00</span>
-        <span class="nav-arg-title">🧠 ${ui.navFallacies || "Boîte à outils — Les Sophismes"}</span>
+        <span class="nav-arg-title">🧠 ${ui.navFallacies || "Boîte à outils — Reconnaître les sophismes avant de débattre"}</span>
       </a>
     </li>
     ${currentArgs.map(arg => `
@@ -589,7 +589,7 @@ function renderHomeView(container) {
           <span>🚀</span> ${ui.btnStartArg1 || "Débuter par l'Argument 1"}
         </a>
         <a href="#boite-a-outils" class="btn-hero-secondary">
-          <span>🧠</span> ${ui.navFallacies || "Boîte à outils (Sophismes)"}
+          <span>🧠</span> ${ui.navFallacies || "Boîte à outils — Reconnaître les sophismes avant de débattre"}
         </a>
         <button class="btn-hero-secondary" data-action="open-search">
           <span>🔍</span> ${ui.btnSearchModal || "Rechercher"}

@@ -169,7 +169,7 @@ window.I18N_DATA['ta'] = {
     "shareCardDesc": "வாட்ஸ்அப், டெலிகிராம் அல்லது சமூக ஊடகங்களில் இந்த விவரத்தைப் பகிரவும்.",
     "toastSectionCopied": "✅ பகுதி நகலெடுக்கப்பட்டது!",
     "toastLinkCopied": "✅ இணைப்பு நகலெடுக்கப்பட்டது!",
-    "navFallacies": "தருக்கவியல் கருவிப்பெட்டி — விவாதத்திற்கு",
+    "navFallacies": "கருவிப்பெட்டி — விவாதத்திற்கு முன் போலிகளை அறிதல்",
     "fallaciesTitle": "தருக்கவியல் கருவிப்பெட்டி",
     "fallaciesBadgeTitle": "FALLACIES DETECTED IN THIS ARGUMENT:",
     "viewFallacyDetail": "Voir l’analyse détaillée ▼",

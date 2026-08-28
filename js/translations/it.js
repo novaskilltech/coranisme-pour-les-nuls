@@ -169,7 +169,7 @@ window.I18N_DATA['it'] = {
     "shareCardDesc": "Diffondi questa scheda per difendere la Sunna su WhatsApp, Telegram o social media.",
     "toastSectionCopied": "✅ Sezione copiata negli appunti!",
     "toastLinkCopied": "✅ Link copiato negli appunti!",
-    "navFallacies": "CASSETTA DEGLI STRUMENTI — Riconoscere",
+    "navFallacies": "Cassetta degli attrezzi — Riconoscere le fallacie prima di dibattere",
     "fallaciesTitle": "CASSETTA DEGLI STRUMENTI",
     "fallaciesBadgeTitle": "FALLACIES DETECTED IN THIS ARGUMENT:",
     "viewFallacyDetail": "Voir l’analyse détaillée ▼",

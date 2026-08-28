@@ -169,7 +169,7 @@ window.I18N_DATA['ce'] = {
     "shareCardDesc": "WhatsApp, Telegram я социалан машанашкахь хӀара жоп дӀасадахьийта.",
     "toastSectionCopied": "✅ Дакъа схьаэцна бухадиллина!",
     "toastLinkCopied": "✅ Хьажорг схьаэцна!",
-    "navFallacies": "ГӀИРСАН БОКС (ЛОГИКИН ГӀАЛАТАШ) — Дийцаре",
+    "navFallacies": "ГӀирсан бокс — Дийцаре валале гӀалаташ довзар",
     "fallaciesTitle": "ГӀИРСАН БОКС (ЛОГИКИН ГӀАЛАТАШ)",
     "fallaciesBadgeTitle": "FALLACIES DETECTED IN THIS ARGUMENT:",
     "viewFallacyDetail": "Voir l’analyse détaillée ▼",

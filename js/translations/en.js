@@ -169,7 +169,7 @@ window.I18N_DATA['en'] = {
     "shareCardDesc": "Share this factsheet to defend the Sunnah on WhatsApp, Telegram, or social media.",
     "toastSectionCopied": "✅ Section copied to clipboard!",
     "toastLinkCopied": "✅ Link copied to clipboard!",
-    "navFallacies": "TOOLBOX — Identify",
+    "navFallacies": "Toolbox — Identify Fallacies Before Debating",
     "fallaciesTitle": "TOOLBOX",
     "fallaciesBadgeTitle": "FALLACIES DETECTED IN THIS ARGUMENT:",
     "viewFallacyDetail": "View detailed analysis ▼",

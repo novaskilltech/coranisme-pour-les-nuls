@@ -169,7 +169,7 @@ window.I18N_DATA['ur'] = {
     "shareCardDesc": "واٹس ایپ، ٹیلی گرام اور سوشل میڈیا پر سنت کے دفاع کے لیے یہ کارڈ شیئر کریں۔",
     "toastSectionCopied": "✅ حصہ کلپ بورڈ پر کاپی ہو گیا!",
     "toastLinkCopied": "✅ لنک کلپ بورڈ پر کاپی ہو گیا!",
-    "navFallacies": "منطقی ٹول باکس — مناظرے",
+    "navFallacies": "ٹول باکس — مناظرے سے پہلے مغالطوں کی شناخت",
     "fallaciesTitle": "منطقی ٹول باکس",
     "fallaciesBadgeTitle": "المغالطات المرصودة في هذه الشبهة :",
     "viewFallacyDetail": "Voir l’analyse détaillée ▼",

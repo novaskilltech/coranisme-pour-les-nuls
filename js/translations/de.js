@@ -169,7 +169,7 @@ window.I18N_DATA['de'] = {
     "shareCardDesc": "Verbreite diese Faktenkarte auf WhatsApp, Telegram oder sozialen Medien.",
     "toastSectionCopied": "✅ Abschnitt in die Zwischenablage kopiert!",
     "toastLinkCopied": "✅ Link in die Zwischenablage kopiert!",
-    "navFallacies": "WERKZEUGKASTEN — Trugschlüsse",
+    "navFallacies": "Werkzeugkasten — Trugschlüsse vor der Debatte erkennen",
     "fallaciesTitle": "WERKZEUGKASTEN",
     "fallaciesBadgeTitle": "IN DIESEM ARGUMENT ENTDECKTE TRUGSCHLÜSSE:",
     "viewFallacyDetail": "Voir l’analyse détaillée ▼",

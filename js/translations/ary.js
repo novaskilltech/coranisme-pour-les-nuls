@@ -169,7 +169,7 @@ window.I18N_DATA['ary'] = {
     "shareCardDesc": "نشر هاد البطاقة للدفاع على السنة عبر واتساب، تيليغرام ومواقع التواصل.",
     "toastSectionCopied": "✅ تم نسخ الفقرة بنجاح !",
     "toastLinkCopied": "✅ تم نسخ الرابط بنجاح !",
-    "navFallacies": "بواط ديال الأدوات (كشف المغالطات) — عراف",
+    "navFallacies": "بواط د الأدوات — كشف المغالطات قبل النقاش",
     "fallaciesTitle": "بواط ديال الأدوات (كشف المغالطات)",
     "fallaciesBadgeTitle": "المغالطات المرصودة في هذه الشبهة :",
     "viewFallacyDetail": "Voir l’analyse détaillée ▼",

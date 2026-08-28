@@ -169,7 +169,7 @@ window.I18N_DATA['ps'] = {
     "shareCardDesc": "په واټساپ، ټیلیګرام او ټولنیزو شبکو کې دا کارډ نشر کړئ.",
     "toastSectionCopied": "✅ برخه په کلپ بورډ کې کاپي شوه!",
     "toastLinkCopied": "✅ لینک کاپي شو!",
-    "navFallacies": "د منطقي مغالطو لارښود — له",
+    "navFallacies": "لارښود — له مناظرې وړاندې د مغالطو پېژندنه",
     "fallaciesTitle": "د منطقي مغالطو لارښود",
     "fallaciesBadgeTitle": "المغالطات المرصودة في هذه الشبهة :",
     "viewFallacyDetail": "Voir l’analyse détaillée ▼",

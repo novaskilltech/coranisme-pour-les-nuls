@@ -169,7 +169,7 @@ window.I18N_DATA['ku'] = {
     "shareCardDesc": "Vê rûpelê li ser WhatsApp, Telegram an torên civakî belav bike.",
     "toastSectionCopied": "✅ Beş li bîrgehê hate kopîkirin!",
     "toastLinkCopied": "✅ Lînk hate kopîkirin!",
-    "navFallacies": "QUTIYA AMÛRAN (HELETIYÊN MENTIQÎ) — Berî",
+    "navFallacies": "Qutiya Amûran — Berî nîqaşê heletiyan nas bike",
     "fallaciesTitle": "QUTIYA AMÛRAN (HELETIYÊN MENTIQÎ)",
     "fallaciesBadgeTitle": "FALLACIES DETECTED IN THIS ARGUMENT:",
     "viewFallacyDetail": "Voir l’analyse détaillée ▼",

@@ -169,7 +169,7 @@ window.I18N_DATA['fr'] = {
     "shareCardDesc": "Diffusez cette fiche pour l'étude et la défense de la Sunna sur WhatsApp, Telegram ou les réseaux.",
     "toastSectionCopied": "✅ Section copiée dans le presse-papier !",
     "toastLinkCopied": "✅ Lien copié dans le presse-papier !",
-    "navFallacies": "BOÎTE À OUTILS — Reconnaître",
+    "navFallacies": "Boîte à outils — Reconnaître les sophismes avant de débattre",
     "fallaciesTitle": "BOÎTE À OUTILS",
     "fallaciesBadgeTitle": "SOPHISMES REPÉRÉS DANS CET ARGUMENT :",
     "viewFallacyDetail": "Voir l’analyse détaillée ▼",
