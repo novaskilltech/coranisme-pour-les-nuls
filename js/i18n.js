@@ -487,6 +487,32 @@ function updateStaticDOM(ui) {
 
   const footerNotice2 = document.querySelector('.footer-bottom div:last-child');
   if (footerNotice2 && ui.footerNotice2) footerNotice2.textContent = ui.footerNotice2;
+
+  // Compteur de visites dans le footer
+  const counterLabel = document.getElementById('counter-label');
+  if (counterLabel && ui.footerVisitsLabel) {
+    counterLabel.textContent = ui.footerVisitsLabel;
+  }
+  const counterPrivacyTag = document.getElementById('counter-privacy-tag');
+  if (counterPrivacyTag && ui.footerVisitsPrivacy) {
+    counterPrivacyTag.textContent = ui.footerVisitsPrivacy;
+  }
+  const counterBadge = document.getElementById('footer-counter-badge');
+  if (counterBadge && ui.footerVisitsTooltip) {
+    counterBadge.setAttribute('title', ui.footerVisitsTooltip);
+  }
+  const counterVal = document.getElementById('counter-value');
+  if (counterVal && window.LAST_VISIT_COUNT) {
+    const localeMap = {
+      fr: 'fr-FR', ar: 'ar-EG', ary: 'ar-MA', en: 'en-US', es: 'es-ES',
+      de: 'de-DE', it: 'it-IT', pt: 'pt-PT', ur: 'ur-PK', ta: 'ta-IN',
+      ps: 'ps-AF', ku: 'ku-TR', ce: 'ru-RU'
+    };
+    const activeLocale = localeMap[window.CURRENT_LANG || 'fr'] || 'fr-FR';
+    try {
+      counterVal.textContent = window.LAST_VISIT_COUNT.toLocaleString(activeLocale);
+    } catch (e) {}
+  }
 }
 
 // Initialisation dès que le DOM est prêt

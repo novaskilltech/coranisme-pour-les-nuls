@@ -174,7 +174,10 @@ window.I18N_DATA['ur'] = {
     "fallaciesBadgeTitle": "المغالطات المرصودة في هذه الشبهة :",
     "viewFallacyDetail": "Voir l’analyse détaillée ▼",
     "hideFallacyDetail": "Masquer l’analyse ▲",
-    "btnOpenToolbox": "فتح صندوق الأدوات الكامل"
+    "btnOpenToolbox": "فتح صندوق الأدوات الكامل",
+    "footerVisitsLabel": "کل زیارتیں :",
+    "footerVisitsPrivacy": "١٠٠٪ گمنام • محفوظ",
+    "footerVisitsTooltip": "پرائیویسی دوست گمنام وزیٹر کاؤنٹر (بغیر کوکیز)"
   },
   "arguments": [
     {

@@ -174,7 +174,10 @@ window.I18N_DATA['fr'] = {
     "fallaciesBadgeTitle": "SOPHISMES REPÉRÉS DANS CET ARGUMENT :",
     "viewFallacyDetail": "Voir l’analyse détaillée ▼",
     "hideFallacyDetail": "Masquer l’analyse ▲",
-    "btnOpenToolbox": "Consulter dans la Boîte à outils"
+    "btnOpenToolbox": "Consulter dans la Boîte à outils",
+    "footerVisitsLabel": "Visites totales :",
+    "footerVisitsPrivacy": "100% Anonyme • RGPD",
+    "footerVisitsTooltip": "Compteur de visites anonymisé et respectueux de la vie privée (RGPD - 0 cookie)"
   },
   "arguments": [
     {

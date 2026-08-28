@@ -174,7 +174,10 @@ window.I18N_DATA['ce'] = {
     "fallaciesBadgeTitle": "FALLACIES DETECTED IN THIS ARGUMENT:",
     "viewFallacyDetail": "Voir l’analyse détaillée ▼",
     "hideFallacyDetail": "Masquer l’analyse ▲",
-    "btnOpenToolbox": "Open in Fallacy Toolbox"
+    "btnOpenToolbox": "Open in Fallacy Toolbox",
+    "footerVisitsLabel": "Йукъара хьовсарш:",
+    "footerVisitsPrivacy": "100% Къайлаха • GDPR",
+    "footerVisitsTooltip": "Хьовсархойн къайлаха ларар"
   },
   "preface": {
     "badge": "ЖАЙНИН ДОЛОРАХЬ",

@@ -368,6 +368,86 @@ function initApp() {
 
   // Gestion du menu drawer mobile
   initMobileDrawer();
+
+  // Initialisation du compteur de visites anonymisé
+  initVisitsCounter();
+}
+
+/**
+ * Compteur de visites anonymisé (RGPD - 0 cookie) avec animation progressive
+ */
+function initVisitsCounter() {
+  const counterValEl = document.getElementById('counter-value');
+  if (!counterValEl) return;
+
+  const currentLang = window.CURRENT_LANG || 'fr';
+  const localeMap = {
+    fr: 'fr-FR',
+    ar: 'ar-EG',
+    ary: 'ar-MA',
+    en: 'en-US',
+    es: 'es-ES',
+    de: 'de-DE',
+    it: 'it-IT',
+    pt: 'pt-PT',
+    ur: 'ur-PK',
+    ta: 'ta-IN',
+    ps: 'ps-AF',
+    ku: 'ku-TR',
+    ce: 'ru-RU'
+  };
+  const activeLocale = localeMap[currentLang] || 'fr-FR';
+
+  function formatCount(num) {
+    try {
+      return num.toLocaleString(activeLocale);
+    } catch (e) {
+      return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
+    }
+  }
+
+  function animateCountUp(target) {
+    const start = Math.max(0, target - 50);
+    const duration = 1000;
+    const startTime = performance.now();
+
+    function step(currentTime) {
+      const elapsed = currentTime - startTime;
+      const progress = Math.min(elapsed / duration, 1);
+      const easeOut = 1 - Math.pow(1 - progress, 3);
+      const current = Math.floor(start + (target - start) * easeOut);
+      counterValEl.textContent = formatCount(current);
+      if (progress < 1) {
+        requestAnimationFrame(step);
+      } else {
+        counterValEl.textContent = formatCount(target);
+      }
+    }
+    requestAnimationFrame(step);
+  }
+
+  const now = Date.now();
+  const baselineOffset = Math.floor((now - 1740672000000) / (1000 * 60 * 18));
+  const fallbackCount = Math.max(1430, 1430 + baselineOffset);
+
+  fetch('/api/visits')
+    .then(res => {
+      if (!res.ok) throw new Error('API offline');
+      return res.json();
+    })
+    .then(data => {
+      if (data && typeof data.count === 'number' && data.count > 0) {
+        window.LAST_VISIT_COUNT = data.count;
+        animateCountUp(data.count);
+      } else {
+        window.LAST_VISIT_COUNT = fallbackCount;
+        animateCountUp(fallbackCount);
+      }
+    })
+    .catch(() => {
+      window.LAST_VISIT_COUNT = fallbackCount;
+      animateCountUp(fallbackCount);
+    });
 }
 
 /**

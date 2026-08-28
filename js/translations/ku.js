@@ -174,7 +174,10 @@ window.I18N_DATA['ku'] = {
     "fallaciesBadgeTitle": "FALLACIES DETECTED IN THIS ARGUMENT:",
     "viewFallacyDetail": "Voir l’analyse détaillée ▼",
     "hideFallacyDetail": "Masquer l’analyse ▲",
-    "btnOpenToolbox": "Open in Fallacy Toolbox"
+    "btnOpenToolbox": "Open in Fallacy Toolbox",
+    "footerVisitsLabel": "Hemû Serdan:",
+    "footerVisitsPrivacy": "100% Anonîm • GDPR",
+    "footerVisitsTooltip": "Hejmara serdanan a parastî ya taybetmendiyê"
   },
   "preface": {
     "badge": "DESTPÊKA PIRTÛKÊ",

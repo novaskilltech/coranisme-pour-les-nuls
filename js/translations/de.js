@@ -174,7 +174,10 @@ window.I18N_DATA['de'] = {
     "fallaciesBadgeTitle": "IN DIESEM ARGUMENT ENTDECKTE TRUGSCHLÜSSE:",
     "viewFallacyDetail": "Voir l’analyse détaillée ▼",
     "hideFallacyDetail": "Masquer l’analyse ▲",
-    "btnOpenToolbox": "Im Werkzeugkasten ansehen"
+    "btnOpenToolbox": "Im Werkzeugkasten ansehen",
+    "footerVisitsLabel": "Gesamtbesuche:",
+    "footerVisitsPrivacy": "100% Anonym • DSGVO",
+    "footerVisitsTooltip": "Datenschutzkonformer, anonymisierter Besucherzähler (DSGVO - 0 Cookies)"
   },
   "arguments": [
     {

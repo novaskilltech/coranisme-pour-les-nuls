@@ -174,7 +174,10 @@ window.I18N_DATA['it'] = {
     "fallaciesBadgeTitle": "FALLACIES DETECTED IN THIS ARGUMENT:",
     "viewFallacyDetail": "Voir l’analyse détaillée ▼",
     "hideFallacyDetail": "Masquer l’analyse ▲",
-    "btnOpenToolbox": "Open in Fallacy Toolbox"
+    "btnOpenToolbox": "Open in Fallacy Toolbox",
+    "footerVisitsLabel": "Visite totali:",
+    "footerVisitsPrivacy": "100% Anonimo • GDPR",
+    "footerVisitsTooltip": "Contatore anonimo conforme alla privacy (GDPR - 0 cookie)"
   },
   "arguments": [
     {

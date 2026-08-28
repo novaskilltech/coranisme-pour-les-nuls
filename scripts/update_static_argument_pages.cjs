@@ -1,6 +1,6 @@
 /**
  * Script de mise à jour des pages statiques d'arguments dans arguments/*.html
- * Ajout des blocs de sophismes repérés, des badges cliquables, de la modale et des scripts
+ * Ajout des blocs de sophismes repérés, des badges cliquables, de la modale, du compteur de visites et des scripts
  */
 
 const fs = require('fs');
@@ -84,7 +84,24 @@ files.forEach(filename => {
     );
   }
 
-  // 3. Ajouter la modale de sophisme si non présente
+  // 3. Ajouter le compteur de visites dans le footer
+  if (!content.includes('class="footer-counter-wrap"')) {
+    const counterHTML = `
+      <!-- COMPTEUR DE VISITES EN DIRECT (RGPD - 100% ANONYME) -->
+      <div class="footer-counter-wrap">
+        <div class="footer-counter-badge" id="footer-counter-badge" title="Compteur de visites anonymisé et respectueux de la vie privée (RGPD - 0 cookie)">
+          <div class="counter-live-dot" aria-hidden="true"></div>
+          <span class="counter-icon">👁️</span>
+          <span class="counter-label" id="counter-label">Visites totales :</span>
+          <span class="counter-value" id="counter-value">...</span>
+          <span class="counter-privacy-tag" id="counter-privacy-tag">100% Anonyme</span>
+        </div>
+      </div>
+`;
+    content = content.replace('<div class="footer-bottom">', `${counterHTML}\n      <div class="footer-bottom">`);
+  }
+
+  // 4. Ajouter la modale de sophisme si non présente
   if (!content.includes('id="fallacy-modal"')) {
     const modalHTML = `
   <!-- MODAL DÉFINITION D'UN SOPHISME (AU CLIC SUR BADGE) -->
@@ -103,7 +120,7 @@ files.forEach(filename => {
     content = content.replace('</body>', `${modalHTML}\n</body>`);
   }
 
-  // 4. Scripts JS
+  // 5. Scripts JS
   if (!content.includes('src="../js/app.js"')) {
     const scriptsHTML = `
   <script src="../js/data.js"></script>
@@ -114,7 +131,7 @@ files.forEach(filename => {
   }
 
   fs.writeFileSync(filePath, content, 'utf8');
-  console.log(`✅ Page statique arguments/${filename} synchronisée.`);
+  console.log(`✅ Page statique arguments/${filename} synchronisée avec le compteur.`);
 });
 
-console.log('🎉 Toutes les pages statiques ont été synchronisées !');
+console.log('🎉 Toutes les pages statiques ont été synchronisées avec le compteur de visites !');

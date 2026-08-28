@@ -174,7 +174,10 @@ window.I18N_DATA['ar'] = {
     "fallaciesBadgeTitle": "المغالطات المرصودة في هذه الشبهة :",
     "viewFallacyDetail": "عرض التحليل المفصل ▼",
     "hideFallacyDetail": "إخفاء التحليل ▲",
-    "btnOpenToolbox": "فتح صندوق الأدوات الكامل"
+    "btnOpenToolbox": "فتح صندوق الأدوات الكامل",
+    "footerVisitsLabel": "إجمالي الزيارات :",
+    "footerVisitsPrivacy": "مجهول ١٠٠٪ • آمن",
+    "footerVisitsTooltip": "عداد زيارات مجهول الهوية يحترم الخصوصية تماماً (صفر كوكيز)"
   },
   "arguments": [
     {

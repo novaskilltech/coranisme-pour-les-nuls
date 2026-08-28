@@ -174,7 +174,10 @@ window.I18N_DATA['ps'] = {
     "fallaciesBadgeTitle": "المغالطات المرصودة في هذه الشبهة :",
     "viewFallacyDetail": "Voir l’analyse détaillée ▼",
     "hideFallacyDetail": "Masquer l’analyse ▲",
-    "btnOpenToolbox": "فتح صندوق الأدوات الكامل"
+    "btnOpenToolbox": "فتح صندوق الأدوات الكامل",
+    "footerVisitsLabel": "ټول لیدونکي :",
+    "footerVisitsPrivacy": "۱۰۰٪ نامعلوم • خوندي",
+    "footerVisitsTooltip": "د لیدونکو پټ او خوندي شمېرونکی"
   },
   "arguments": [
     {
