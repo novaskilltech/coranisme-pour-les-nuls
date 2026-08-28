@@ -123,44 +123,148 @@
 </head>
 <body>
 
-  <!-- PORTAIL D'ACCUEIL / SPLASH GATE (CITATION AL-BARBAHARI) -->
-  <div class="portal-overlay" id="portal-gate">
-    <div class="portal-card">
-      <div class="portal-header">
-        <div class="portal-warning-badge">
-          <span>⚠️</span> MISE EN GARDE DES ANCIENS SUR LES DÉTRACTEURS DE LA TRANSMISSION
-        </div>
-        <h2>Parole de l'Imam Al-Barbahârî (رحمه الله)</h2>
-      </div>
-
-      <div class="portal-body">
-        <!-- Citation en arabe original vérifié -->
-        <div class="portal-arabic-quote">
-          « وَإِذَا سَمِعْتَ الرَّجُلَ يَأْتِيهِ الْأَثَرُ فَلَا يُرِيدُهُ ، وَيُرِيدُ الْقُرْآنَ ، فَلَا تَشُكَّ أَنَّهُ رَجُلٌ قَدِ احْتَوَى عَلَى الزَّنْدَقَةِ ، وَقُمْ مِنْ عِنْدِهِ وَدَعْهُ »
-        </div>
-
-        <!-- Traduction du sens avec mention de l'athar -->
-        <div class="portal-fr-quote">
-          <strong>Traduction du sens :</strong><br>
-          « Si tu entends un homme à qui l'on cite un athar (récit transmis / tradition) le rejeter en disant : <em>"Laisse cela et apporte-nous le Coran"</em>, ne doute pas alors qu'il s'agit d'un homme imprégné d'hérésie. Lève-toi de son assemblée et délaisse-le ! »
-        </div>
-
-        <div class="portal-author-source">
-          <div class="portal-author-badge">
-            ✍️ Imam Al-Barbahârî (mort en 329 H)
-          </div>
-          <div class="portal-source-ref">
-            📖 Source : <em>Sharḥ As-Sunnah</em> (Point 135)
-          </div>
+  <!-- ==========================================================================
+       PORTAIL D'ENTRÉE / SÉLECTION DE LA LANGUE (WELCOME LANGUAGE GATEWAY)
+       ========================================================================== -->
+  <div class="lang-gateway-overlay" id="lang-gateway">
+    <div class="lang-gateway-container">
+      <div class="lang-gateway-header">
+        <div class="lang-gateway-badge">📖 MANUEL PRATIQUE EN LIBRE ACCÈS</div>
+        <h1 class="lang-gateway-title">
+          RÉFUTATION DU CORANISME
+          <span class="lang-gateway-sub-ar">دليل تفنيد شبهات منكري السنة (القرآنيين)</span>
+        </h1>
+        <p class="lang-gateway-author">
+          Par <strong>Salah Eddine Ahmed (Abou Soulaymane)</strong> • 10 arguments décryptés et réfutés méthodiquement
+        </p>
+        <div class="lang-gateway-prompt">
+          <span>🌍</span> Choisissez votre langue / اختر لغتكم / Select your language
         </div>
       </div>
 
-      <div class="portal-footer">
-        <button class="btn-enter-site" data-action="close-portal">
-          <span>📖</span> ACCÉDER AU MANUEL DE RÉFUTATION
+      <div class="lang-gateway-grid">
+        <!-- 13 Cartes de langues interactives -->
+        <button class="lang-gate-card" data-gate-lang="fr">
+          <span class="gate-flag">🇫🇷</span>
+          <div class="gate-text">
+            <span class="gate-native">Français</span>
+            <span class="gate-code">FR • Français</span>
+          </div>
+          <span class="gate-arrow">➔</span>
         </button>
-        <p class="portal-disclaimer">
-          Comment démasquer et réfuter la secte des coranistes • Par <strong>Salah Eddine Ahmed (Abou Soulaymane)</strong> • Usage pédagogique libre avec mention de la source
+
+        <button class="lang-gate-card" data-gate-lang="ar" dir="rtl">
+          <span class="gate-flag">🇸🇦</span>
+          <div class="gate-text">
+            <span class="gate-native">العربية</span>
+            <span class="gate-code">AR • عربي</span>
+          </div>
+          <span class="gate-arrow">➔</span>
+        </button>
+
+        <button class="lang-gate-card" data-gate-lang="ary" dir="rtl">
+          <span class="gate-flag">🇲🇦</span>
+          <div class="gate-text">
+            <span class="gate-native">الدارجة المغربية</span>
+            <span class="gate-code">ARY • Darija</span>
+          </div>
+          <span class="gate-arrow">➔</span>
+        </button>
+
+        <button class="lang-gate-card" data-gate-lang="en">
+          <span class="gate-flag">🇬🇧</span>
+          <div class="gate-text">
+            <span class="gate-native">English</span>
+            <span class="gate-code">EN • English</span>
+          </div>
+          <span class="gate-arrow">➔</span>
+        </button>
+
+        <button class="lang-gate-card" data-gate-lang="es">
+          <span class="gate-flag">🇪🇸</span>
+          <div class="gate-text">
+            <span class="gate-native">Español</span>
+            <span class="gate-code">ES • Español</span>
+          </div>
+          <span class="gate-arrow">➔</span>
+        </button>
+
+        <button class="lang-gate-card" data-gate-lang="de">
+          <span class="gate-flag">🇩🇪</span>
+          <div class="gate-text">
+            <span class="gate-native">Deutsch</span>
+            <span class="gate-code">DE • Deutsch</span>
+          </div>
+          <span class="gate-arrow">➔</span>
+        </button>
+
+        <button class="lang-gate-card" data-gate-lang="it">
+          <span class="gate-flag">🇮🇹</span>
+          <div class="gate-text">
+            <span class="gate-native">Italiano</span>
+            <span class="gate-code">IT • Italiano</span>
+          </div>
+          <span class="gate-arrow">➔</span>
+        </button>
+
+        <button class="lang-gate-card" data-gate-lang="pt">
+          <span class="gate-flag">🇵🇹</span>
+          <div class="gate-text">
+            <span class="gate-native">Português</span>
+            <span class="gate-code">PT • Português</span>
+          </div>
+          <span class="gate-arrow">➔</span>
+        </button>
+
+        <button class="lang-gate-card" data-gate-lang="ur" dir="rtl">
+          <span class="gate-flag">🇵🇰</span>
+          <div class="gate-text">
+            <span class="gate-native">اردو</span>
+            <span class="gate-code">UR • Urdu</span>
+          </div>
+          <span class="gate-arrow">➔</span>
+        </button>
+
+        <button class="lang-gate-card" data-gate-lang="ta">
+          <span class="gate-flag">🇮🇳</span>
+          <div class="gate-text">
+            <span class="gate-native">தமிழ்</span>
+            <span class="gate-code">TA • Tamil</span>
+          </div>
+          <span class="gate-arrow">➔</span>
+        </button>
+
+        <button class="lang-gate-card" data-gate-lang="ps" dir="rtl">
+          <span class="gate-flag">🇦🇫</span>
+          <div class="gate-text">
+            <span class="gate-native">پښتو</span>
+            <span class="gate-code">PS • Pashto</span>
+          </div>
+          <span class="gate-arrow">➔</span>
+        </button>
+
+        <button class="lang-gate-card" data-gate-lang="ku">
+          <span class="gate-flag">☀️</span>
+          <div class="gate-text">
+            <span class="gate-native">Kurdî</span>
+            <span class="gate-code">KU • Kurdish</span>
+          </div>
+          <span class="gate-arrow">➔</span>
+        </button>
+
+        <button class="lang-gate-card" data-gate-lang="ce">
+          <span class="gate-flag">🟩</span>
+          <div class="gate-text">
+            <span class="gate-native">Нохчийн</span>
+            <span class="gate-code">CE • Chechen</span>
+          </div>
+          <span class="gate-arrow">➔</span>
+        </button>
+      </div>
+
+      <div class="lang-gateway-footer">
+        <p>
+          ⚖️ Ce manuel pédagogique est accessible gratuitement et sans inscription • Diffusion libre avec mention de la source
         </p>
       </div>
     </div>
@@ -1406,6 +1510,37 @@
           <strong>Contact :</strong> ideoise@gmail.com
         </div>
 
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL PAROLE D'AL-BARBAHARI (OUVERTURE AU CLIC SUR TOPBAR / FOOTER) -->
+  <div class="modal-backdrop" id="barbahari-modal">
+    <div class="modal-card" style="max-width: 720px;">
+      <div class="modal-header">
+        <h3 id="portal-modal-title">📜 Parole de l'Imam Al-Barbahârî (رحمه الله)</h3>
+        <button class="btn-close-modal" data-action="close-modal" data-modal-id="barbahari-modal">✕</button>
+      </div>
+      <div class="modal-body" style="padding: 1.5rem; max-height: 75vh; overflow-y: auto;">
+        <div class="portal-warning-badge" style="display: inline-block; margin-bottom: 1rem;">
+          <span>⚠️</span> MISE EN GARDE DES ANCIENS SUR LES DÉTRACTEURS DE LA TRANSMISSION
+        </div>
+        <div class="portal-arabic-quote" style="font-size: 1.35rem; line-height: 1.8; text-align: center; margin-bottom: 1rem; font-family: var(--font-arabic), serif; background: var(--nuls-yellow-tint); border: 2px solid var(--nuls-yellow-hover); border-radius: var(--radius-sm); padding: 1rem;" lang="ar" dir="rtl">
+          « وَإِذَا سَمِعْتَ الرَّجُلَ يَأْتِيهِ الْأَثَرُ فَلَا يُرِيدُهُ ، وَيُرِيدُ الْقُرْآنَ ، فَلَا تَشُكَّ أَنَّهُ رَجُلٌ قَدِ احْتَوَى عَلَى الزَّنْدَقَةِ ، وَقُمْ مِنْ عِنْدِهِ وَدَعْهُ »
+        </div>
+        <div class="portal-fr-quote" style="background: #FFFFFF; border: 2px solid var(--nuls-black); border-radius: var(--radius-sm); padding: 1rem; font-size: 0.95rem; line-height: 1.6; margin-bottom: 1rem;">
+          <strong>Traduction du sens :</strong><br>
+          « Si tu entends un homme à qui l'on cite un athar (récit transmis / tradition) le rejeter en disant : <em>"Laisse cela et apporte-nous le Coran"</em>, ne doute pas alors qu'il s'agit d'un homme imprégné d'hérésie. Lève-toi de son assemblée et délaisse-le ! »
+        </div>
+        <div class="portal-author-source" style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem; font-size: 0.85rem; font-weight: 700; color: var(--text-muted);">
+          <div class="portal-author-badge">✍️ Imam Al-Barbahârî (mort en 329 H)</div>
+          <div class="portal-source-ref">📖 Source : <em>Sharḥ As-Sunnah</em> (Point 135)</div>
+        </div>
+      </div>
+      <div class="modal-footer" style="padding: 1rem 1.5rem; border-top: var(--border-thin); text-align: center;">
+        <button class="btn-hero-primary" data-action="close-modal" data-modal-id="barbahari-modal">
+          <span>✓</span> Compris & Fermer
+        </button>
       </div>
     </div>
   </div>

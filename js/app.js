@@ -1493,24 +1493,32 @@ window.closeModal = function(modalId) {
 };
 
 window.closePortal = function() {
-  const gate = document.getElementById('portal-gate');
+  window.closeModal('barbahari-modal');
+};
+
+window.openPortal = function() {
+  window.openModal('barbahari-modal');
+};
+
+window.openLangGateway = function() {
+  const gate = document.getElementById('lang-gateway');
+  if (gate) {
+    gate.style.display = 'flex';
+    requestAnimationFrame(() => {
+      gate.style.opacity = '1';
+      gate.style.pointerEvents = 'auto';
+    });
+  }
+};
+
+window.closeLangGateway = function() {
+  const gate = document.getElementById('lang-gateway');
   if (gate) {
     gate.style.opacity = '0';
     gate.style.pointerEvents = 'none';
     setTimeout(() => {
       gate.style.display = 'none';
-    }, 300);
-  }
-};
-
-window.openPortal = function() {
-  const gate = document.getElementById('portal-gate');
-  if (gate) {
-    gate.style.display = 'flex';
-    setTimeout(() => {
-      gate.style.opacity = '1';
-      gate.style.pointerEvents = 'auto';
-    }, 10);
+    }, 350);
   }
 };
 
@@ -1524,6 +1532,10 @@ document.addEventListener('click', (e) => {
   const action = target.getAttribute('data-action');
 
   switch (action) {
+    case 'open-lang-gateway':
+      if (typeof window.openLangGateway === 'function') window.openLangGateway();
+      break;
+
     case 'open-search':
       if (typeof window.openSearchModal === 'function') window.openSearchModal();
       break;
@@ -1533,11 +1545,11 @@ document.addEventListener('click', (e) => {
       break;
 
     case 'open-portal':
-      if (typeof window.openPortal === 'function') window.openPortal();
+      if (typeof window.openModal === 'function') window.openModal('barbahari-modal');
       break;
 
     case 'close-portal':
-      if (typeof window.closePortal === 'function') window.closePortal();
+      if (typeof window.closeModal === 'function') window.closeModal('barbahari-modal');
       break;
 
     case 'open-modal': {

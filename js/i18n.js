@@ -116,6 +116,23 @@ function initI18n() {
   const initialLang = savedLang || (I18N_LANGUAGES.some(l => l.code === browserLang) ? browserLang : 'fr');
   
   setLanguage(initialLang, false);
+
+  // Gestion de l'affichage du portail d'accueil (Language Gateway)
+  const hasClosedGateway = sessionStorage.getItem('has_closed_gateway') === 'true';
+  const hasDirectArgHash = window.location.hash && window.location.hash.startsWith('#arg-');
+
+  const gatewayEl = document.getElementById('lang-gateway');
+  if (gatewayEl) {
+    if (hasClosedGateway || hasDirectArgHash) {
+      gatewayEl.style.display = 'none';
+      gatewayEl.style.opacity = '0';
+      gatewayEl.style.pointerEvents = 'none';
+    } else {
+      gatewayEl.style.display = 'flex';
+      gatewayEl.style.opacity = '1';
+      gatewayEl.style.pointerEvents = 'auto';
+    }
+  }
 }
 
 /**
@@ -158,8 +175,21 @@ function bindLangEvents() {
     });
   }
 
-  // Écouteur global pour changement de langue
+  // Écouteur global pour sélection depuis le portail d'entrée (Gateway)
   document.addEventListener('click', (e) => {
+    const gateBtn = e.target.closest('[data-gate-lang]');
+    if (gateBtn) {
+      const targetLang = gateBtn.getAttribute('data-gate-lang');
+      if (targetLang) {
+        setLanguage(targetLang, false);
+        sessionStorage.setItem('has_closed_gateway', 'true');
+        if (typeof window.closeLangGateway === 'function') {
+          window.closeLangGateway();
+        }
+      }
+      return;
+    }
+
     const langBtn = e.target.closest('[data-lang]');
     if (langBtn) {
       const targetLang = langBtn.getAttribute('data-lang');

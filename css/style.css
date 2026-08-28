@@ -3262,8 +3262,211 @@ html[dir="rtl"] .callout-retenir {
   border-right-color: var(--nuls-yellow-hover);
 }
 
-html[dir="rtl"] .callout-analogie {
-  border-left-color: var(--nuls-black);
-  border-right-color: var(--nuls-green);
+/* ==========================================================================
+   PORTAIL DE SÉLECTION DE LANGUE D'ENTRÉE (WELCOME LANGUAGE GATEWAY)
+   ========================================================================== */
+.lang-gateway-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(circle at center, #1E1E1E 0%, #121212 70%, #080808 100%);
+  z-index: 999999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 1rem;
+  overflow-y: auto;
+  opacity: 1;
+  transition: opacity 0.35s ease, transform 0.35s ease;
+}
+
+.lang-gateway-container {
+  max-width: 960px;
+  width: 100%;
+  background: #18181B;
+  border: 3.5px solid var(--nuls-yellow);
+  border-radius: 18px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.85), 0 0 25px rgba(254, 209, 0, 0.2);
+  padding: 2.25rem 2rem;
+  margin: auto;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.lang-gateway-badge {
+  display: inline-block;
+  background: var(--nuls-yellow);
+  color: var(--nuls-black);
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: 0.85rem;
+  padding: 0.3rem 0.85rem;
+  border-radius: 9999px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+}
+
+.lang-gateway-title {
+  font-family: var(--font-display);
+  font-size: 2.1rem;
+  font-weight: 900;
+  letter-spacing: -0.5px;
+  color: #FFFFFF;
+  margin-bottom: 0.35rem;
+  line-height: 1.2;
+}
+
+.lang-gateway-sub-ar {
+  display: block;
+  font-family: var(--font-arabic), serif;
+  font-size: 1.35rem;
+  color: var(--nuls-yellow);
+  margin-top: 0.35rem;
+  font-weight: 700;
+}
+
+.lang-gateway-author {
+  font-size: 0.95rem;
+  color: #D1D5DB;
+  margin-bottom: 1.5rem;
+}
+
+.lang-gateway-prompt {
+  background: rgba(254, 209, 0, 0.1);
+  border: 1.5px solid rgba(254, 209, 0, 0.4);
+  border-radius: 9999px;
+  padding: 0.5rem 1.25rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: var(--nuls-yellow);
+  margin-bottom: 1.75rem;
+}
+
+.lang-gateway-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 1.75rem;
+}
+
+.lang-gate-card {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: #27272A;
+  border: 2px solid #3F3F46;
+  border-radius: 12px;
+  padding: 0.75rem 1rem;
+  color: #FFFFFF;
+  cursor: pointer;
+  text-align: start;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  user-select: none;
+}
+
+.lang-gate-card:hover {
+  background: var(--nuls-yellow);
+  color: var(--nuls-black);
+  border-color: var(--nuls-yellow);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(254, 209, 0, 0.35);
+}
+
+.lang-gate-card:hover .gate-code {
+  color: #374151;
+}
+
+.lang-gate-card:hover .gate-arrow {
+  transform: translateX(4px);
+  color: var(--nuls-black);
+}
+
+.lang-gate-card[dir="rtl"]:hover .gate-arrow {
+  transform: translateX(-4px);
+}
+
+.gate-flag {
+  font-size: 1.5rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.gate-text {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+}
+
+.gate-native {
+  font-size: 1rem;
+  font-weight: 800;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.gate-code {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #9CA3AF;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+
+.gate-arrow {
+  font-size: 1rem;
+  font-weight: 900;
+  color: var(--nuls-yellow);
+  transition: transform 0.2s ease;
+  flex-shrink: 0;
+}
+
+.lang-gateway-footer {
+  font-size: 0.85rem;
+  color: #9CA3AF;
+  border-top: 1px solid #333338;
+  padding-top: 1rem;
+}
+
+@media (max-width: 640px) {
+  .lang-gateway-container {
+    padding: 1.5rem 1rem;
+  }
+  .lang-gateway-title {
+    font-size: 1.5rem;
+  }
+  .lang-gateway-sub-ar {
+    font-size: 1.15rem;
+  }
+  .lang-gateway-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+  }
+  .lang-gate-card {
+    padding: 0.6rem 0.75rem;
+    gap: 0.5rem;
+  }
+  .gate-flag {
+    font-size: 1.25rem;
+  }
+  .gate-native {
+    font-size: 0.88rem;
+  }
+  .gate-code {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .lang-gateway-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
