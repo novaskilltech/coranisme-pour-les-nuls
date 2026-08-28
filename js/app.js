@@ -426,8 +426,9 @@ function initVisitsCounter() {
     requestAnimationFrame(step);
   }
 
-  const localSaved = parseInt(localStorage.getItem('anti_coranisme_visits') || '1', 10);
-  const fallbackCount = localSaved;
+  const BASE_VISITS = 14725;
+  const localSaved = parseInt(localStorage.getItem('anti_coranisme_visits') || BASE_VISITS.toString(), 10);
+  const fallbackCount = Math.max(BASE_VISITS, localSaved);
 
   fetch('/api/visits')
     .then(res => {

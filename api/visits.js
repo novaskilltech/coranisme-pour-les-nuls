@@ -1,12 +1,14 @@
 /**
- * Vercel Serverless Function - Visites Anonymisées 100% Réelles
+ * Vercel Serverless Function - Visites Anonymisées
  * Point de terminaison : /api/visits
- * Conforme RGPD : Zéro cookie, zéro IP stockée, comptage 100% authentique en direct.
+ * Base de départ définie par l'auteur : 14 725 visites + visites en temps réel.
+ * Conforme RGPD : Zéro cookie, zéro IP stockée, 100% anonyme.
  */
 
 const https = require('https');
 
-let cachedCount = 1;
+const BASE_VISITS = 14725;
+let cachedCount = BASE_VISITS;
 let lastFetchTime = 0;
 
 function fetchVisitorBadgeCount() {
@@ -25,8 +27,8 @@ function fetchVisitorBadgeCount() {
                 const raw = matches[matches.length - 1][1].replace(/,/g, '').trim();
                 const parsed = parseInt(raw, 10);
                 if (!isNaN(parsed) && parsed > 0) {
-                  // Chiffre 100% authentique et réel enregistré par le service
-                  return resolve(parsed);
+                  // Base auteur (14 725) + visites réelles enregistrées
+                  return resolve(BASE_VISITS + parsed);
                 }
               }
               resolve(null);
@@ -60,11 +62,13 @@ module.exports = async function handler(req, res) {
   }
 
   const now = Date.now();
-  // Rafraîchissement direct du compteur réel
   if (now - lastFetchTime > 3000) {
     const live = await fetchVisitorBadgeCount();
     if (live && live >= cachedCount) {
       cachedCount = live;
+      lastFetchTime = now;
+    } else if (cachedCount < BASE_VISITS) {
+      cachedCount = BASE_VISITS;
       lastFetchTime = now;
     }
   }
