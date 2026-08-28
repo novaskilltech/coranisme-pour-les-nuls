@@ -23,7 +23,7 @@ window.I18N_DATA['de'] = {
     "heroTag2": "Freie Pädagogische Ressource",
     "heroTitleMain": "Widerlegung",
     "heroTitleSpan": "des Koranismus",
-    "heroAuthor": "Von Salah Eddine Ahmed — Die Sekte der Koranisten entlarven und widerlegen: 10 Kernargumente methodisch geprüft",
+    "heroAuthor": "Von Salah Eddine Ahmed (Abou Soulaymane) — Die Sekte der Koranisten entlarven und widerlegen: 10 Kernargumente methodisch geprüft",
     "heroDesc": "Schrittweise Dekonstruktion koranistischer Trugschlüsse mit logischer Strenge, pädagogischen Analogien, vokalisierten arabischen Versen und prägnanten 30-Sekunden-Antworten.",
     "btnStartArg1": "Mit Argument 1 beginnen",
     "btnSearchModal": "Thema / Vers suchen",
@@ -55,14 +55,14 @@ window.I18N_DATA['de'] = {
     "legalPrivacyText": "Die Website erfordert keine Konten und sammelt keine persönlichen Daten.",
     "footerQuote": "« Wenn du hörst, dass ein Mann einen Athar (Überlieferung) ablehnt und sagt: Lass das und bring uns den Koran, so zweifle nicht daran, dass er von Häresie ergriffen ist. »",
     "footerAuthorRef": "— Imam Al-Barbahari (Scharh As-Sunnah, Pkt. 135)",
-    "footerNotice": "Methodisches Handbuch — Basierend auf dem Referenzwerk von Salah Eddine Ahmed.",
+    "footerNotice": "Methodisches Handbuch — Basierend auf dem Referenzwerk von Salah Eddine Ahmed (Abou Soulaymane).",
     "footerNotice2": "Freier Inhalt zur persönlichen und pädagogischen Nutzung mit Quellenangabe.",
     "portalWarningBadge": "WARNUNG DER FRÜHEN GELEHRTEN VOR DER ABLEHNUNG DER ÜBERLIEFERUNG",
     "portalTitle": "Wort von Imam Al-Barbahari (möge Allah ihm barmherzig sein)",
     "portalEnterBtn": "ZUM WIDERLEGUNGSHANDBUCH",
     "portalAuthorBadge": "✍️ Imam Al-Barbahari (gest. 329 n.H.)",
     "portalSourceRef": "📖 Quelle: Scharh As-Sunnah (Punkt 135)",
-    "portalDisclaimer": "Die Sekte der Koranisten entlarven und widerlegen • Von Salah Eddine Ahmed",
+    "portalDisclaimer": "Die Sekte der Koranisten entlarven und widerlegen • Von Salah Eddine Ahmed (Abou Soulaymane)",
     "argBadgeGiant": "ARGUMENT",
     "btnDownloadOriginalPdf": "Original-PDF herunterladen",
     "btnPrintPage": "Drucken / PDF exportieren",
@@ -133,7 +133,7 @@ window.I18N_DATA['de'] = {
     "sidebarSadaqaHeader": "PÄDAGOGISCHE VERBREITUNG",
     "sidebarSadaqaText": "Dieser Inhalt kann für persönliche und pädagogische Zwecke unter Nennung des Autors kostenlos geteilt und vervielfältigt werden.",
     "labelAuthor": "Autor:",
-    "authorName": "Salah Eddine Ahmed",
+    "authorName": "Salah Eddine Ahmed (Abou Soulaymane)",
     "btnSidebarHome": "Inhaltsverzeichnis",
     "btnSidebarContact": "Kontakt",
     "sidebarPreface": "Preface",
@@ -1310,7 +1310,7 @@ window.I18N_DATA['de'] = {
           "I ask Allah to accept this work as a Sadaqah Jariyah for myself and my parents, and to benefit every seeker of truth.",
           "Truth has nothing to fear from rigorous examination."
         ],
-        "signature": "Salah Eddine Ahmed\nAbu Sulayman\nAugust 23, 2026"
+        "signature": "Salah Eddine Ahmed (Abou Soulaymane)\nAbu Sulayman\nAugust 23, 2026"
       }
     ]
   },

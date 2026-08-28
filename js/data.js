@@ -3,7 +3,7 @@
  * Tirée des 10 fascicules originaux : "Comment démasquer et réfuter la secte des coranistes"
  * Titre de référence : "Comment démasquer et réfuter la secte des coranistes — Méthode, arguments, objections et réponses"
  * Manuel pratique : Réfutation du coranisme (10 arguments majeurs examinés et réfutés méthodiquement)
- * Par Salah Eddine Ahmed
+ * Par Salah Eddine Ahmed (Abou Soulaymane)
  * 
  * Règles éditoriales et doctrinales appliquées :
  * 1. Noms des 10 arguments conformes à l'ordre officiel

@@ -23,7 +23,7 @@ window.I18N_DATA['en'] = {
     "heroTag2": "Open Educational Resource",
     "heroTitleMain": "Refutation",
     "heroTitleSpan": "of Quranism",
-    "heroAuthor": "By Salah Eddine Ahmed",
+    "heroAuthor": "By Salah Eddine Ahmed (Abou Soulaymane)",
     "heroDesc": "Deconstruct the fallacies of Quranism step by step with rigorous logic, pedagogical analogies, Quranic verses, and 30-second ready responses.",
     "btnStartArg1": "Start with Argument 1",
     "btnSearchModal": "Search topic / verse",
@@ -54,15 +54,15 @@ window.I18N_DATA['en'] = {
     "legalPrivacySubtitle": "Privacy Policy aligned with actual website capabilities",
     "legalPrivacyText": "The website requires no account creation and voluntarily collects no personal data via forms.",
     "footerQuote": "« Rejecting the authority designated by the text in the name of the text's completeness is turning completeness into a principle the text never stated. »",
-    "footerAuthorRef": "— Salah Eddine Ahmed",
-    "footerNotice": "Methodical refutation manual — Based on the reference work by Salah Eddine Ahmed.",
+    "footerAuthorRef": "— Salah Eddine Ahmed (Abou Soulaymane)",
+    "footerNotice": "Methodical refutation manual — Based on the reference work by Salah Eddine Ahmed (Abou Soulaymane).",
     "footerNotice2": "This content can be freely shared for personal and educational purposes with source attribution.",
     "portalWarningBadge": "EARLY SCHOLARS' WARNING AGAINST DETRACTORS OF TRANSMISSION",
     "portalTitle": "Words of Imam Al-Barbahârî (رحمه الله)",
     "portalEnterBtn": "ACCESS THE REFUTATION MANUAL",
     "portalAuthorBadge": "✍️ Imam Al-Barbahârî (d. 329 AH)",
     "portalSourceRef": "📖 Source: Sharḥ As-Sunnah (Point 135)",
-    "portalDisclaimer": "How to Expose and Refute the Quranist Sect • By Salah Eddine Ahmed • Free educational usage with source attribution",
+    "portalDisclaimer": "How to Expose and Refute the Quranist Sect • By Salah Eddine Ahmed (Abou Soulaymane) • Free educational usage with source attribution",
     "argBadgeGiant": "ARGUMENT",
     "btnDownloadOriginalPdf": "Download original PDF",
     "btnPrintPage": "Print / Export PDF",
@@ -133,7 +133,7 @@ window.I18N_DATA['en'] = {
     "sidebarSadaqaHeader": "Open Educational Resource",
     "sidebarSadaqaText": "This manual is freely provided for the study and defense of the prophetic Sunnah.",
     "labelAuthor": "Author:",
-    "authorName": "Salah Eddine Ahmed",
+    "authorName": "Salah Eddine Ahmed (Abou Soulaymane)",
     "btnSidebarHome": "Manual Home",
     "btnSidebarContact": "Contact Author",
     "sidebarPreface": "Preface",
@@ -1294,7 +1294,7 @@ window.I18N_DATA['en'] = {
           "I ask Allah to accept this work as a Sadaqah Jariyah for myself and my parents, and to benefit every seeker of truth.",
           "Truth has nothing to fear from rigorous examination."
         ],
-        "signature": "Salah Eddine Ahmed\nAbu Sulayman\nAugust 23, 2026"
+        "signature": "Salah Eddine Ahmed (Abou Soulaymane)\nAbu Sulayman\nAugust 23, 2026"
       }
     ]
   },

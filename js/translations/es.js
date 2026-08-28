@@ -23,7 +23,7 @@ window.I18N_DATA['es'] = {
     "heroTag2": "Difusión Educativa Abierta",
     "heroTitleMain": "Refutación",
     "heroTitleSpan": "del Coranismo",
-    "heroAuthor": "Por Salah Eddine Ahmed — Cómo desenmascarar y refutar la secta coranista: 10 argumentos examinados y refutados metódicamente",
+    "heroAuthor": "Por Salah Eddine Ahmed (Abou Soulaymane) — Cómo desenmascarar y refutar la secta coranista: 10 argumentos examinados y refutados metódicamente",
     "heroDesc": "Deconstruye paso a paso los sofismas del coranismo con rigor lógico, analogías pedagógicas, versículos árabes vocalizados y respuestas sintéticas en 30 segundos.",
     "btnStartArg1": "Comenzar con el Argumento 1",
     "btnSearchModal": "Buscar tema / versículo",
@@ -55,14 +55,14 @@ window.I18N_DATA['es'] = {
     "legalPrivacyText": "El sitio no requiere cuentas ni recopila datos personales por formularios.",
     "footerQuote": "« Si escuchas a un hombre que al citarle una tradición la rechaza diciendo: Déjanos esto y tráenos el Corán, no dudes de que está sumido en la herejía. »",
     "footerAuthorRef": "— Imam Al-Barbahari (Sharh As-Sunnah, p. 135)",
-    "footerNotice": "Manual metódico basado en la obra de Salah Eddine Ahmed.",
+    "footerNotice": "Manual metódico basado en la obra de Salah Eddine Ahmed (Abou Soulaymane).",
     "footerNotice2": "Contenido gratuito disponible para estudio con mención de la fuente.",
     "portalWarningBadge": "ADVERTENCIA DE LOS PREDECESORES SOBRE QUIENES RECHAZAN LA TRANSMISIÓN",
     "portalTitle": "Palabra del Imam Al-Barbahari (que Allah se apiade de él)",
     "portalEnterBtn": "ACCEDER AL MANUAL DE REFUTACIÓN",
     "portalAuthorBadge": "✍️ Imam Al-Barbahari (m. 329 H)",
     "portalSourceRef": "📖 Fuente: Sharh As-Sunnah (Punto 135)",
-    "portalDisclaimer": "Cómo desenmascarar y refutar la secta coranista • Por Salah Eddine Ahmed",
+    "portalDisclaimer": "Cómo desenmascarar y refutar la secta coranista • Por Salah Eddine Ahmed (Abou Soulaymane)",
     "argBadgeGiant": "ARGUMENTO",
     "btnDownloadOriginalPdf": "Descargar PDF original",
     "btnPrintPage": "Imprimir / Exportar PDF",
@@ -133,7 +133,7 @@ window.I18N_DATA['es'] = {
     "sidebarSadaqaHeader": "DIFUSIÓN PEDAGÓGICA",
     "sidebarSadaqaText": "Este contenido puede ser compartido gratuitamente y reproducido para fines personales y pedagógicos mencionando al autor.",
     "labelAuthor": "Autor:",
-    "authorName": "Salah Eddine Ahmed",
+    "authorName": "Salah Eddine Ahmed (Abou Soulaymane)",
     "btnSidebarHome": "Sumario",
     "btnSidebarContact": "Contacto",
     "sidebarPreface": "Preface",
@@ -1294,7 +1294,7 @@ window.I18N_DATA['es'] = {
           "I ask Allah to accept this work as a Sadaqah Jariyah for myself and my parents, and to benefit every seeker of truth.",
           "Truth has nothing to fear from rigorous examination."
         ],
-        "signature": "Salah Eddine Ahmed\nAbu Sulayman\nAugust 23, 2026"
+        "signature": "Salah Eddine Ahmed (Abou Soulaymane)\nAbu Sulayman\nAugust 23, 2026"
       }
     ]
   },

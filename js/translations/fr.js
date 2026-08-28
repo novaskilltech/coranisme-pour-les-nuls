@@ -23,7 +23,7 @@ window.I18N_DATA['fr'] = {
     "heroTag2": "Diffusion Pédagogique Ouverte",
     "heroTitleMain": "Réfutation",
     "heroTitleSpan": "du Coranisme",
-    "heroAuthor": "Par Salah Eddine Ahmed",
+    "heroAuthor": "Par Salah Eddine Ahmed (Abou Soulaymane)",
     "heroDesc": "Déconstruisez pas à pas les sophismes du coranisme avec rigueur logique, analogies pédagogiques, versets coraniques et réponses prêtes en 30 secondes.",
     "btnStartArg1": "Débuter par l'Argument 1",
     "btnSearchModal": "Rechercher un sujet / verset",
@@ -54,15 +54,15 @@ window.I18N_DATA['fr'] = {
     "legalPrivacySubtitle": "Politique de Confidentialité Conforme aux Fonctionnalités Réelles",
     "legalPrivacyText": "Le site ne demande aucune création de compte et ne collecte volontairement aucune donnée personnelle via un formulaire. Les données techniques éventuellement traitées par l'hébergeur restent soumises à sa propre infrastructure.",
     "footerQuote": "« Refuser l’autorité que le texte lui-même désigne au nom de la complétude du texte, c’est transformer la complétude en un principe que le texte n’a jamais énoncé. »",
-    "footerAuthorRef": "— Salah Eddine Ahmed",
-    "footerNotice": "Manuel de réfutation méthodique — Basé sur l'ouvrage de référence de Salah Eddine Ahmed.",
+    "footerAuthorRef": "— Salah Eddine Ahmed (Abou Soulaymane)",
+    "footerNotice": "Manuel de réfutation méthodique — Basé sur l'ouvrage de référence de Salah Eddine Ahmed (Abou Soulaymane).",
     "footerNotice2": "Ce contenu peut être partagé gratuitement à des fins personnelles et pédagogiques avec mention de la source.",
     "portalWarningBadge": "MISE EN GARDE DES ANCIENS SUR LES DÉTRACTEURS DE LA TRANSMISSION",
     "portalTitle": "Parole de l'Imam Al-Barbahârî (رحمه الله)",
     "portalEnterBtn": "ACCÉDER AU MANUEL DE RÉFUTATION",
     "portalAuthorBadge": "✍️ Imam Al-Barbahârî (mort en 329 H)",
     "portalSourceRef": "📖 Source : Sharḥ As-Sunnah (Point 135)",
-    "portalDisclaimer": "Comment démasquer et réfuter la secte des coranistes • Par Salah Eddine Ahmed • Usage pédagogique libre avec mention de la source",
+    "portalDisclaimer": "Comment démasquer et réfuter la secte des coranistes • Par Salah Eddine Ahmed (Abou Soulaymane) • Usage pédagogique libre avec mention de la source",
     "argBadgeGiant": "ARGUMENT",
     "btnDownloadOriginalPdf": "Télécharger le PDF original",
     "btnPrintPage": "Imprimer / Exporter PDF",
@@ -133,7 +133,7 @@ window.I18N_DATA['fr'] = {
     "sidebarSadaqaHeader": "Diffusion Pédagogique",
     "sidebarSadaqaText": "Ce manuel est mis à disposition librement pour l'étude et la défense de la Sunna.",
     "labelAuthor": "Auteur :",
-    "authorName": "Salah Eddine Ahmed",
+    "authorName": "Salah Eddine Ahmed (Abou Soulaymane)",
     "btnSidebarHome": "Accueil du Manuel",
     "btnSidebarContact": "Contacter l'auteur",
     "sidebarPreface": "Préface",
@@ -1493,7 +1493,7 @@ window.I18N_DATA['fr'] = {
           "Je demande à Allah عز وجل d'en faire une ṣadaqah jâriyah, une aumône continue dont les effets utiles puissent me parvenir après ma mort. Je la destine également à mes parents.",
           "Qu'Allah عز وجل nous accorde la sincérité, la science utile, la compréhension de Son Livre et l'amour de la Sunna de Son Messager ﷺ."
         ],
-        "signature": "Salah Eddine Ahmed\nAbou Soulaymane\n23 août 2026"
+        "signature": "Salah Eddine Ahmed (Abou Soulaymane)\nAbou Soulaymane\n23 août 2026"
       }
     ]
   },

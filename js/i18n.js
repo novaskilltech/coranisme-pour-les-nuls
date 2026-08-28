@@ -224,7 +224,7 @@ function updateStaticDOM(ui) {
 
   const authorTag = document.querySelector('.sidebar-sadaqa-box .author-tag');
   if (authorTag && ui.labelAuthor) {
-    authorTag.innerHTML = `${ui.labelAuthor} <strong>${ui.authorName || 'Salah Eddine Ahmed'}</strong>`;
+    authorTag.innerHTML = `${ui.labelAuthor} <strong>${ui.authorName || 'Salah Eddine Ahmed (Abou Soulaymane)'}</strong>`;
   }
 
   const btnSidebarHome = document.querySelector('.btn-sidebar-home');
@@ -280,7 +280,7 @@ function updateStaticDOM(ui) {
           <span>✍️</span> ${ui.contactAuthorHeader || "Auteur de l'Ouvrage"}
         </div>
         <p style="font-weight: 800; font-size: 1.15rem; color: var(--nuls-black); margin-bottom: 0.35rem;">
-          ${ui.authorName || "Salah Eddine Ahmed"}
+          ${ui.authorName || "Salah Eddine Ahmed (Abou Soulaymane)"}
         </p>
         <p style="font-size: 0.95rem; color: #374151; line-height: 1.5;">
           ${ui.contactAuthorBio}
@@ -348,7 +348,7 @@ function updateStaticDOM(ui) {
 
       <div style="background: #FAF9F5; border: var(--border-medium); border-radius: var(--radius-sm); padding: 1rem; font-size: 0.85rem; color: var(--text-muted);">
         <strong>${ui.legalCreditsHeader || "Ouvrage :"}</strong> ${ui.legalCreditsBookTitle || "Comment démasquer et réfuter la secte des coranistes"}<br>
-        <strong>${ui.labelAuthor || "Auteur :"}</strong> ${ui.authorName || "Salah Eddine Ahmed"}<br>
+        <strong>${ui.labelAuthor || "Auteur :"}</strong> ${ui.authorName || "Salah Eddine Ahmed (Abou Soulaymane)"}<br>
         <strong>${ui.footerContactLabel || "Contact :"}</strong> ideoise@gmail.com
       </div>
     `;
@@ -360,7 +360,7 @@ function updateStaticDOM(ui) {
 
   const footerTagline = document.querySelector('.footer-top p');
   if (footerTagline && (ui.heroAuthor || ui.footerSubtitle)) {
-    footerTagline.innerHTML = `${ui.heroAuthor || "Par Salah Eddine Ahmed"} • <strong>${ui.footerSubtitle || "10 arguments majeurs examinés et réfutés méthodiquement"}</strong>`;
+    footerTagline.innerHTML = `${ui.heroAuthor || "Par Salah Eddine Ahmed (Abou Soulaymane)"} • <strong>${ui.footerSubtitle || "10 arguments majeurs examinés et réfutés méthodiquement"}</strong>`;
   }
 
   const footerQuote = document.querySelector('.footer-quote-text') || document.querySelector('.footer-quote');

@@ -133,7 +133,7 @@ window.I18N_DATA['ku'] = {
     "sidebarSadaqaHeader": "BELAVKIRINA PERWERDEYÎ",
     "sidebarSadaqaText": "Ev naverok dikare ji bo armancên kesane û perwerdeyî bi nîşandana nivîskar bêpere were parvekirin.",
     "labelAuthor": "Nivîskar:",
-    "authorName": "Salah Eddine Ahmed",
+    "authorName": "Salah Eddine Ahmed (Abou Soulaymane)",
     "btnSidebarHome": "Naverok",
     "btnSidebarContact": "Têkilî",
     "sidebarPreface": "Preface",
