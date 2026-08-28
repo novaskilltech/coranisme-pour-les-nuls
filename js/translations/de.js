@@ -1,6 +1,6 @@
 /**
  * Pack de Langue : Allemand (DE) - Deutsch
- * Traduction Complète et Exhaustive (UI, Préface, Intro, 10 Arguments, Modales)
+ * Traduction Complète et Exhaustive 100% Allemande (UI, Préface, Intro, 10 Arguments, Modales)
  */
 window.I18N_DATA = window.I18N_DATA || {};
 window.I18N_DATA['de'] = {
@@ -139,473 +139,558 @@ window.I18N_DATA['de'] = {
   },
   "arguments": [
     {
-      "theme": "Vollkommenheit und Klarstellung",
+      "id": 1,
+      "number": "01",
+      "slug": "1-coran-complet",
+      "theme": "Vollkommenheit und prophetische Klarstellung",
       "title": "Der Koran ist vollkommen: Warum bräuchte man die Sunna?",
       "shortTitle": "Vollkommenheit des Korans",
-      "tagline": "The Quran is foundational and complete, and part of its completeness is commanding obedience to the Prophet ﷺ.",
-      "formula": "The Quran's legislative completeness includes the mandate of Prophetic Bayan; rejecting the Sunnah rejects the Quran!",
+      "tagline": "Der Koran ist in seinen Grundlagen vollkommen, und Teil seiner Vollkommenheit ist das Gebot, dem Propheten ﷺ zu gehorchen.",
+      "formula": "Die gesetzgeberische Vollkommenheit des Korans beinhaltet den Auftrag zur prophetischen Erläuterung (Bayan); die Sunna abzulehnen bedeutet, den Koran abzulehnen!",
+      "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_1.pdf",
       "theirArgument": {
-        "thesis": "The Quran is complete, fully detailed, and leaves nothing out. Everything we need is explicitly in the Book, so claiming a need for Hadith contradicts the perfection of the Quran.",
+        "thesis": "Der Koran ist vollkommen, vollständig detailliert und lässt nichts aus. Alles, was wir brauchen, steht ausdrücklich im Buch. Zu behaupten, man brauche Hadithe, widerspricht der Vollkommenheit des Korans.",
         "verses": [
           {
             "ref": "Al-An'am: 38",
             "ar": "مَّا فَرَّطْنَا فِي الْكِتَابِ مِن شَيْءٍ",
-            "translation": "We have not neglected in the Register a thing."
+            "translation": "Wir haben im Buch nichts unberücksichtigt gelassen."
           },
           {
             "ref": "An-Nahl: 89",
             "ar": "وَنَزَّلْنَا عَلَيْكَ الْكِتَابَ تِبْيَانًا لِّكُلِّ شَيْءٍ",
-            "translation": "And We have sent down to you the Book as clarification for all things."
+            "translation": "Und Wir haben dir das Buch herabgesandt als Klarstellung für alles."
           }
         ],
-        "realQuestion": "Does the structural completeness of the Quran as a foundational framework mean it eliminates the need for the Prophetic explanation it explicitly mandates?"
+        "realQuestion": "Bedeutet die strukturelle Vollkommenheit des Korans als grundlegender Rahmen, dass er die prophetische Erklärung überflüssig macht, die er selbst ausdrücklich anordnet?"
       },
       "logicalNode": {
-        "title": "Confusion Between Systemic Completeness and Interpretive Self-Sufficiency",
+        "title": "Verwechslung zwischen systemischer Vollkommenheit und interpretatorischer Selbstgenügsamkeit",
         "distinctions": [
           {
-            "term": "SYSTEMIC LEGISLATIVE COMPLETENESS",
-            "desc": "The Quran is complete because it establishes all foundational principles and institutes the Prophet's legal authority."
+            "term": "GESETZGEBERISCHE SYSTEMVOLLKOMMENHEIT",
+            "desc": "Der Koran ist vollkommen, weil er alle Grundprinzipien festlegt und die rechtliche Autorität des Propheten begründet."
           },
           {
-            "term": "LITERAL EXHAUSTIVENESS",
-            "desc": "A false assumption: the Quran commands prayer, zakah, and fasting without specifying the operational details, delegating them to the Prophet ﷺ."
+            "term": "LITERALE DETAIL-ERSCHÖPFUNG",
+            "desc": "Eine falsche Annahme: Der Koran befiehlt das Gebet, die Zakah und das Fasten, ohne die praktischen Details zu nennen, und delegiert diese an den Propheten ﷺ."
           }
         ],
-        "generalRule": "A foundational text that delegates authoritative explanation to a designated messenger is not deficient; its completeness includes that delegated authority.",
-        "errorToAvoid": "Confusing foundational legislative completeness with practical operational details."
+        "generalRule": "Ein Grundlagentext, der die verbindliche Auslegung an einen beauftragten Gesandten delegiert, ist nicht mangelhaft; seine Vollkommenheit schließt diese Vollmacht ein.",
+        "errorToAvoid": "Grundlegende gesetzgeberische Vollkommenheit mit praktischen Ausführungsdetails zu verwechseln."
       },
       "centralPrinciple": {
-        "title": "The Quran's Completeness Includes the Mandate of Prophetic Authority",
-        "formalScheme": "1. The Quran is complete in establishing the framework of divine guidance.\n2. Part of this completeness is the explicit command to obey the Prophet ﷺ and follow his Bayan (clarification).\n3. Therefore, obeying the Sunnah is a direct execution of the Quran's completeness.",
-        "explanation": "The Quran itself establishes the authority of the Sunnah. Rejecting the Sunnah is rejecting the very Quranic verses that command obedience to the Messenger ﷺ.",
-        "logicalTest": "If the Quran was meant to be an operational manual without Hadith, derive solely from the Quranic text the number of daily prayers, units (rak'at), and exact zakah percentages!"
+        "title": "Die Vollkommenheit des Korans schließt das Gebot der prophetischen Autorität ein",
+        "formalScheme": "1. Der Koran ist vollkommen in der Grundlegung der göttlichen Rechtleitung.\n2. Teil dieser Vollkommenheit ist das ausdrückliche Gebot, dem Propheten ﷺ zu gehorchen und seiner Erläuterung (Bayan) zu folgen.\n3. Daher ist das Befolgen der Sunna die direkte Umsetzung der Vollkommenheit des Korans.",
+        "explanation": "Der Koran selbst begründet die Autorität der Sunna. Wer die Sunna ablehnt, verstößt gegen dieselben Verse des Korans, die den Gehorsam gegenüber dem Gesandten ﷺ vorschreiben.",
+        "logicalTest": "Wenn der Koran als praktisches Handbuch ohne Hadithe gedacht wäre, leite allein aus dem Korantext die Anzahl der täglichen Gebete, Gebetseinheiten (Raka'at) und genauen Zakah-Prozentsätze ab!"
       },
       "quranicArchitecture": {
-        "title": "Decisive Quranic Verses on the Prophetic Mission of Clarification (Bayan)",
+        "title": "Entscheidende Koranverse über den Auftrag der prophetischen Erläuterung (Bayan)",
         "verses": [
           {
             "ref": "An-Nahl: 44",
             "ar": "وَأَنزَلْنَا إِلَيْكَ الذِّكْرَ لِتُبَيِّنَ لِلنَّاسِ مَا نُزِّلَ إِلَيْهِمْ",
-            "translation": "And We revealed to you the message that you may make clear to the people what was sent down to them."
+            "translation": "Und Wir haben zu dir die Ermahnung herabgesandt, damit du den Menschen erklärst, was zu ihnen herabgesandt worden ist."
           }
         ],
-        "consequence": "The Quran establishes the Prophet ﷺ as an authoritative teacher and clarifier, not merely a passive delivery person."
+        "consequence": "Der Koran setzt den Propheten ﷺ als verbindlichen Lehrer und Ausleger ein, nicht als reinen passiven Briefträger."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "The Constitution and Executive Regulations",
-          "scenario": "A state constitution lays down rights and creates a Supreme Court authorized to interpret and apply laws.",
-          "logic": "The constitution is complete by instituting executive bodies; it does not need to list every local traffic sign!",
-          "lesson": "Completeness of a foundational text includes the regulatory bodies it establishes.",
-          "application": "The Quran is the foundational constitution requiring adherence to the Prophetic Sunnah as its authoritative application."
+          "title": "Die Verfassung und die Ausführungsgesetze",
+          "scenario": "Eine Verfassung legt Grundrechte fest und setzt ein Oberstes Gericht ein, das Gesetze auslegt und anwendet.",
+          "logic": "Die Verfassung ist vollkommen, indem sie Ausführungsorgane schafft; sie muss nicht jedes örtliche Verkehrsschild auflisten!",
+          "lesson": "Die Vollkommenheit eines Grundlagentextes schließt die von ihm geschaffenen Ausführungsinstanzen ein.",
+          "application": "Der Koran ist die göttliche Verfassung, die das Befolgen der prophetischen Sunna als ihre verbindliche Anwendung vorschreibt."
+        },
+        {
+          "num": 2,
+          "title": "Der Bauplan des Architekten und der Bauleiter",
+          "scenario": "Ein Architekt entwirft den Masterplan eines Gebäudes und beauftragt einen Bauleiter mit der praktischen Umsetzung.",
+          "logic": "Wenn die Arbeiter die Anweisungen des Bauleiters ablehnen, weil der Plan bereits vorliegt, stürzt das Gebäude ein.",
+          "lesson": "Der theoretische Entwurf wird durch die fachliche Ausführung vervollständigt.",
+          "application": "Der Koran legte die Grundlagen des Gottesdienstes fest und beauftragte den Propheten ﷺ mit der praktischen Ausführung."
+        },
+        {
+          "num": 3,
+          "title": "Das Rezept des Arztes und der Apotheker",
+          "scenario": "Ein Arzt verordnet ein Medikament und weist den Patienten an, die genaue Dosierungsanweisung des Apothekers zu befolgen.",
+          "logic": "Die Anweisungen des Apothekers abzulehnen, führt zur Gefährdung der Gesundheit.",
+          "lesson": "Der Verweis vom Ursprung auf die Erläuterung ist Teil des Gesamtkonzepts.",
+          "application": "Allah befahl das Gebet und übertrug dessen praktische Modalitäten Seinem Gesandten ﷺ."
         }
       ],
       "readyResponses": {
-        "quick30s": "The Quran's completeness means it lays down every fundamental principle of faith, and among its supreme commands is: {And We sent down to you the Message so that you may clarify to mankind what was revealed to them} (16:44). Rejecting the Sunnah violates the Quran itself!",
-        "developed": "When the Quran states {We have not neglected in the Register a thing} (6:38), it refers to the Preserved Tablet or the completeness of religion's core principles. The greatest of these principles is the total obedience to the Messenger ﷺ. Rejecting his Sunnah invalidates the Quranic mandate."
+        "quick30s": "Die Vollkommenheit des Korans bedeutet, dass er alle Grundprinzipien des Glaubens festlegt. Zu seinen höchsten Geboten gehört: {Und Wir haben zu dir die Ermahnung herabgesandt, damit du den Menschen erklärst, was zu ihnen herabgesandt worden ist} (16:44). Die Sunna abzulehnen, verletzt den Koran selbst!",
+        "developed": "Wenn der Koran feststellt: {Wir haben im Buch nichts unberücksichtigt gelassen} (6:38), bezieht sich dies auf die Vollständigkeit der Rechtleitung. Eines der größten Prinzipien ist der Gehorsam gegenüber dem Gesandten ﷺ. Wer seine Sunna ablehnt, setzt die koranischen Gebote außer Kraft."
       },
       "objections": [
         {
-          "obj": "The Quran says 'clarification for all things', so is the Sunnah something outside the Quran?",
-          "ans": "The Sunnah is the internal clarification mandated by the Quran itself, not an external addition. Clarification is an essential part of the message."
+          "obj": "Der Koran sagt 'Klarstellung für alle Dinge', ist die Sunna also etwas außerhalb des Korans?",
+          "ans": "Die Sunna ist die im Koran selbst angeordnete Erläuterung und kein fremder Zusatz. Die Auslegung ist wesentlicher Bestandteil der übermittelten Botschaft."
+        },
+        {
+          "obj": "Reicht es nicht, den Koran mit dem eigenen Verstand direkt zu verstehen?",
+          "ans": "Der Verstand ist ein Werkzeug zum Verstehen, keine Offenbarungsquelle. Ohne prophetische Erklärung führt individuelle Willkür zur Spaltung in unzählige widersprüchliche Sekten."
         }
       ],
       "framingQuestions": [
-        "Where in the Quran alone can you find the exact number of units (rak'at) for the five daily prayers?"
+        "Wo im Koran allein findet man die genaue Anzahl der Gebetseinheiten (Raka'at) für die fünf täglichen Pflichtgebete?"
       ],
       "quiz": [
         {
-          "q": "What does the completeness of the Quran mean in Islamic jurisprudence?",
+          "q": "Was bedeutet die Vollkommenheit des Korans in der islamischen Rechtslehre?",
           "options": [
-            "It lists every single physical detail and makes the Prophet's role obsolete.",
-            "It establishes the complete framework of religion and mandates adherence to the Prophetic Sunnah.",
-            "It is merely a poetic text.",
-            "It cancels all previous practical worship."
+            "Er listet jedes praktische Detail auf und macht den Propheten überflüssig.",
+            "Er legt den vollständigen Rahmen des Glaubens fest und gebietet die Befolgung der prophetischen Sunna.",
+            "Er ist lediglich ein poetischer Text ohne gesetzliche Bindung.",
+            "Er hebt alle früheren gottesdienstlichen Handlungen ersatzlos auf."
           ],
           "answer": 1,
-          "explanation": "The Quran's perfection lies in establishing foundational laws and commanding obedience to the Prophet's clarification."
+          "explanation": "Die Vollkommenheit des Korans liegt in der Begründung der göttlichen Gesetze und dem Gebot, der prophetischen Erläuterung zu folgen."
         }
       ],
       "conclusion": {
         "steps": [
-          "The Quran is a complete foundational scripture establishing divine law.",
-          "The Quran explicitly commands obedience to the Prophet's clarification.",
-          "There is zero contradiction between the Quran's completeness and following the Sunnah."
+          "Der Koran ist die vollkommene göttliche Schrift, die das Fundament der Religion legt.",
+          "Der Koran befiehlt ausdrücklich den Gehorsam gegenüber der prophetischen Erklärung.",
+          "Es gibt keinerlei Widerspruch zwischen der Vollkommenheit des Korans und der Befolgung der Sunna."
         ],
-        "finalText": "The perfection of the Quran is realized through the living embodiment of the Prophetic Sunnah.",
-        "punchline": "To reject the Sunnah in the name of Quranic completeness is to reject the Quran that instituted the Sunnah!"
-      },
-      "id": 1,
-      "number": "01",
-      "slug": "1-coran-complet",
-      "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_1.pdf"
+        "finalText": "Die Vollkommenheit des Korans verwirklicht sich in der lebendigen Praxis der prophetischen Sunna.",
+        "punchline": "Im Namen der Vollkommenheit des Korans die Sunna abzulehnen, bedeutet den Koran abzulehnen, der die Sunna anordnet!"
+      }
     },
     {
-      "theme": "Dauerhafte Autorität",
+      "id": 2,
+      "number": "02",
+      "slug": "2-obeissance-messager",
+      "theme": "Dauerhafte Autorität des Gesandten ﷺ",
       "title": "Der Gehorsam gegenüber dem Gesandten: Nur zu seinen Lebzeiten?",
       "shortTitle": "Gehorsam gegenüber dem Gesandten",
-      "tagline": "The Quranic command to obey the Messenger is timeless and universal until the Day of Judgment.",
-      "formula": "Obeying the Prophet is a permanent obligation; his Sunnah is the living manifestation of that obedience!",
+      "tagline": "Das koranische Gebot, dem Gesandten zu gehorchen, ist zeitlos und universell bis zum Tag des Gerichts.",
+      "formula": "Dem Propheten zu gehorchen ist eine dauerhafte Pflicht; seine Sunna ist die lebendige Verkörperung dieses Gehorsams!",
+      "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_2.PDF",
       "theirArgument": {
-        "thesis": "Obedience to the Messenger was only required during his earthly lifetime as a community leader; after his death, only the written Quran binds us.",
+        "thesis": "Der Gehorsam gegenüber dem Gesandten galt nur zu seinen irdischen Lebzeiten als Führer der Gemeinschaft; nach seinem Tod bindet uns ausschließlich der geschriebene Koran.",
         "verses": [
           {
             "ref": "An-Nisa: 59",
             "ar": "يَا أَيُّهَا الَّذِينَ آمَنُوا أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ",
-            "translation": "O you who have believed, obey Allah and obey the Messenger."
+            "translation": "O die ihr glaubt, gehorcht Allah und gehorcht dem Gesandten."
           }
         ],
-        "realQuestion": "Is the Quranic command to obey the Messenger a temporary historical instruction or an enduring pillar of faith?"
+        "realQuestion": "Ist das koranische Gebot, dem Gesandten zu gehorchen, eine vorübergehende historische Anweisung oder eine ewige Säule des Glaubens?"
       },
       "logicalNode": {
-        "title": "Confusion Between the Mortal Person and the Enduring Legislative Authority",
+        "title": "Verwechslung zwischen sterblicher Person und dauerhafter gesetzgeberischer Autorität",
         "distinctions": [
           {
-            "term": "EARTHLY LIFETIME",
-            "desc": "The historical period of initial revelation and community founding."
+            "term": "IRDISCHE LEBENSZEIT",
+            "desc": "Die historische Epoche der ursprünglichen Offenbarung und Gemeindegründung."
           },
           {
-            "term": "PROPHETIC LEGISLATIVE STATUS",
-            "desc": "Binding legal rulings and divine guidance valid for all generations until the Last Day."
+            "term": "DAUERHAFTE GESETZGEBERISCHE AUTORITÄT",
+            "desc": "Verbindliche Urteile und göttliche Rechtleitung für alle Generationen bis zum Jüngsten Tag."
           }
         ],
-        "generalRule": "General legislative injunctions in scripture are not invalidated by the passing of the original recipient or messenger.",
-        "errorToAvoid": "Confining prophetic authority to historical antiquity."
+        "generalRule": "Allgemeine gesetzgeberische Gebote der Offenbarung erlöschen nicht mit dem Heimgang des übermittelnden Gesandten.",
+        "errorToAvoid": "Die prophetische Vollmacht auf ein historisches Zeitalter zu beschränken."
       },
       "centralPrinciple": {
-        "title": "Obeying the Messenger is Directly Linked to Obeying Allah",
-        "formalScheme": "1. The Quran addresses all believers until the Last Day: {Obey Allah and obey the Messenger}.\n2. If obedience died with the Prophet, half of the Quran's commands would be obsolete.\n3. Therefore, obeying the Messenger today is fulfilled by adhering to his verified Sunnah.",
-        "explanation": "Allah paired obedience to His Messenger with obedience to Himself in over 30 verses without temporal restriction.",
-        "logicalTest": "If obedience died with the Prophet ﷺ, why do we recite the verses commanding his obedience in our daily prayers today?"
+        "title": "Der Gehorsam gegenüber dem Gesandten ist untrennbar mit dem Gehorsam gegenüber Allah verknüpft",
+        "formalScheme": "1. Der Koran wendet sich an alle Gläubigen bis zum Jüngsten Tag: {Gehorcht Allah und gehorcht dem Gesandten}.\n2. Wäre der Gehorsam mit dem Tod des Propheten erloschen, wäre die Hälfte der Koranverse heute hinfällig.\n3. Daher wird der Gehorsam heute durch das Befolgen seiner authentischen Sunna erfüllt.",
+        "explanation": "Allah verknüpfte in über 30 Versen den Gehorsam gegenüber Seinem Gesandten mit dem Gehorsam gegenüber Sich Selbst ohne zeitliche Einschränkung.",
+        "logicalTest": "Wenn der Gehorsam mit dem Propheten ﷺ endete, warum rezitieren wir die Verse, die seinen Gehorsam gebieten, noch heute in unseren Gebeten?"
       },
       "quranicArchitecture": {
-        "title": "Decisive Verses on Judging by the Messenger's Authority",
+        "title": "Entscheidende Verse über das Richten nach der Autorität des Propheten",
         "verses": [
           {
             "ref": "An-Nisa: 65",
             "ar": "فَلَا وَرَبِّكَ لَا يُؤْمِنُونَ حَتَّىٰ يُحَكِّمُوكَ فِيمَا شَجَرَ بَيْنَهُمْ",
-            "translation": "But no, by your Lord, they will not believe until they make you judge in what arises between them."
+            "translation": "Aber nein, bei deinem Herrn! Sie glauben nicht eher, bis sie dich zum Richter machen über das, was zwischen ihnen umstritten ist."
           }
         ],
-        "consequence": "True faith requires submitting unconditionally to the Prophet's rulings and Sunnah."
+        "consequence": "Wahrer Glaube erfordert die bedingungslose Unterwerfung unter die Urteile und die Sunna des Propheten ﷺ."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "The Legal Will and Testament",
-          "scenario": "A founder leaves a legal charter instructing future generations to adhere to his appointed deputy's codified rulings.",
-          "logic": "The founder's passing does not invalidate the authenticated legal codes left behind.",
-          "lesson": "Authenticated legislative transmission outlives the biological lifespan of the author.",
-          "application": "The Prophet's Sunnah is his preserved body of teachings transmitted through verified chains."
+          "title": "Das rechtliche Vermächtnis und Testament",
+          "scenario": "Ein Staatsgründer hinterlässt eine Urkunde, die künftige Generationen verpflichtet, den authentifizierten Urteilen seines Stellvertreters zu folgen.",
+          "logic": "Das Ableben des Gründers setzt die hinterlassenen rechtskräftigen Kodizes keineswegs außer Kraft.",
+          "lesson": "Authentifizierte gesetzliche Überlieferung überdauert die biologische Lebensspanne des Verfassers.",
+          "application": "Die Sunna ist das bewahrte Lehrgut des Propheten ﷺ, überliefert durch lückenlose und geprüfte Ketten."
+        },
+        {
+          "num": 2,
+          "title": "Der Botschafter eines Königs im fernen Land",
+          "scenario": "Ein König entsendet einen Bevollmächtigten. Auch nach dessen Abreise bleiben die von ihm im Namen des Königs geschlossenen Verträge bindend.",
+          "logic": "Die Gültigkeit von Vereinbarungen beruht auf der erteilten Vollmacht, nicht auf der physischen Anwesenheit.",
+          "lesson": "Verbindliche Erlasse gelten über die unmittelbare Begegnung hinaus.",
+          "application": "Die Lehren des Propheten ﷺ bleiben für alle Muslime zu allen Zeiten verbindlich."
+        },
+        {
+          "num": 3,
+          "title": "Wissenschaftliche Lehrbücher von Pionieren",
+          "scenario": "Ein bahnbrechender Wissenschaftler stirbt, aber seine mathematischen Gesetze und Erläuterungen bleiben Standard an Universitäten.",
+          "logic": "Wahrheit und bewiesene Methoden verlieren mit dem Tod des Forschers nicht ihre Gültigkeit.",
+          "lesson": "Echtes Wissen bleibt als Richtschnur für Folgegenerationen bestehen.",
+          "application": "Die authentische Sunna ist das methodische Fundament des islamischen Glaubens."
         }
       ],
       "readyResponses": {
-        "quick30s": "The Quran declares: {He who obeys the Messenger has obeyed Allah} (4:80). If his obedience expired at his death, half the Quran would be void today! Obeying him today means following his verified authentic Sunnah.",
-        "developed": "The Quran establishes universal and timeless laws. Limiting obedience to the Prophet's lifetime strips the message of its universality. Muslims in every era fulfill this divine command through the authentic Prophetic teachings."
+        "quick30s": "Der Koran verkündet: {Wer dem Gesandten gehorcht, der gehorcht Allah} (4:80). Wäre der Gehorsam mit seinem Tod erloschen, wäre der halbe Koran heute ungültig! Ihm heute zu gehorchen bedeutet, seiner authentischen Sunna zu folgen.",
+        "developed": "Der Koran enthält zeitlose Gesetze für die gesamte Menschheit. Den Gehorsam auf das 7. Jahrhundert zu beschränken, beraubt den Islam seiner Universalität. Muslime aller Epochen erfüllen diesen göttlichen Befehl durch die authentische prophetische Überlieferung."
       },
       "objections": [
         {
-          "obj": "The Companions could ask the Prophet directly, but we cannot!",
-          "ans": "Companions in distant provinces like Yemen followed what reliable emissaries transmitted, exactly as we follow what reliable narrators transmitted through unbroken chains."
+          "obj": "Die Gefährten konnten den Propheten direkt fragen, wir aber können das nicht!",
+          "ans": "Gefährten in fernen Provinzen wie dem Jemen handelten nach dem, was vertrauenswürdige Boten überbrachten – genau wie wir vertrauenswürdigen Überlieferungsketten folgen."
+        },
+        {
+          "obj": "Bedeutet Gehorsam gegenüber dem Gesandten nicht einfach, dem Koran zu folgen, den er brachte?",
+          "ans": "Nein, denn der Koran sagt ausdrücklich: {Gehorcht Allah UND gehorcht dem Gesandten}. Die sprachliche Wiederholung beweist eine eigenständige Autorität der prophetischen Weisung."
         }
       ],
       "framingQuestions": [
-        "If obedience to the Prophet ended at his death, did his universal message to mankind end as well?"
+        "Wenn der Gehorsam gegenüber dem Propheten endete, endete dann auch seine universelle Botschaft an die Menschheit?"
       ],
       "quiz": [
         {
-          "q": "How is obedience to the Prophet ﷺ fulfilled after his passing?",
+          "q": "Wie wird der Gehorsam gegenüber dem Propheten ﷺ nach seinem Heimgang verwirklicht?",
           "options": [
-            "By discarding all historical narrations.",
-            "By following his authenticated Sunnah and verified legal traditions.",
-            "By reinterpreting the Quran based on personal whims.",
-            "By limiting religion to private meditation."
+            "Indem man alle historischen Überlieferungen verwirft.",
+            "Indem man seiner authentischen Sunna und geprüften Lehre folgt.",
+            "Indem jeder den Koran nach persönlicher Laune neu auslegt.",
+            "Indem man den Islam auf ein rein privates Gefühl reduziert."
           ],
           "answer": 1,
-          "explanation": "Obedience to the Prophet ﷺ after his passing is realized by adhering to his verified Sunnah."
+          "explanation": "Der Gehorsam gegenüber dem Propheten ﷺ nach seinem Tod wird durch das Festhalten an seiner authentischen Sunna verwirklicht."
         }
       ],
       "conclusion": {
         "steps": [
-          "The Quran is a universal message for all humanity.",
-          "The command to obey the Messenger is absolute and unconstrained by time.",
-          "Obeying the Messenger today is realized through his preserved Sunnah."
+          "Der Koran ist eine zeitlose Botschaft für die gesamte Menschheit.",
+          "Das Gebot, dem Gesandten zu gehorchen, ist absolut und zeitlich unbegrenzt.",
+          "Der Gehorsam gegenüber dem Gesandten wird heute durch seine bewahrte Sunna gelebt."
         ],
-        "finalText": "The authority of the Prophet ﷺ endures as long as the Quran endures.",
-        "punchline": "The Quran never said 'Obey the Messenger only while he lives'—it made his obedience an eternal covenant of faith!"
-      },
-      "id": 2,
-      "number": "02",
-      "slug": "2-obeissance-messager",
-      "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_2.PDF"
+        "finalText": "Die Autorität des Propheten ﷺ währt so lange, wie der Koran währt.",
+        "punchline": "Der Koran hat nie gesagt 'Gehorcht dem Gesandten nur zu seinen Lebzeiten' – er machte seinen Gehorsam zum ewigen Glaubensbund!"
+      }
     },
     {
-      "theme": "Göttliche Souveränität",
-      "title": "«Das Urteil gebührt allein Allah»: Hat der Prophet Gesetze erlassen?",
-      "shortTitle": "Souveränität und Gesetzgebung",
-      "tagline": "The Prophet's legal rulings derive directly from Allah's revelation and divine authorization.",
-      "formula": "Allah's absolute sovereignty includes delegating authoritative legislation to His Messenger by revelation!",
-      "theirArgument": {
-        "thesis": "Legislation belongs exclusively to Allah in the Quran; the Prophet has zero authority to declare anything halal or haram not explicitly stated in the Quran.",
-        "verses": [
-          {
-            "ref": "Al-An'am: 57",
-            "ar": "إِنِ الْحُكْمُ إِلَّا لِلَّهِ",
-            "translation": "The judgment is not but for Allah."
-          }
-        ],
-        "realQuestion": "Does Allah's absolute sovereignty preclude Him from delegating legislative authority to His Messenger via non-recited revelation?"
-      },
-      "logicalNode": {
-        "title": "Confusion Between Absolute Originating Sovereignty and Delegated Authority",
-        "distinctions": [
-          {
-            "term": "ABSOLUTE ORIGINATING SOVEREIGNTY",
-            "desc": "Belongs to Allah alone as Creator, Sovereign, and Supreme Lawgiver."
-          },
-          {
-            "term": "DELEGATED PROPHETIC LEGISLATION",
-            "desc": "Authority granted by Allah to His Prophet to make lawful the wholesome and prohibit the harmful."
-          }
-        ],
-        "generalRule": "Obeying a designated, authorized ambassador is the very essence of obeying the sovereign king.",
-        "errorToAvoid": "Reviving the ancient Kharijite slogan 'No judgment but Allah's' to discard the Prophet's rulings."
-      },
-      "centralPrinciple": {
-        "title": "The Quran Explicitly Grants the Prophet Legislative Power",
-        "formalScheme": "1. Allah is the Supreme Sovereign.\n2. Allah explicitly decrees in the Quran: {He makes lawful for them the good things and prohibits for them the evil} (7:157).\n3. Therefore, the Prophet's prohibitions are enacted by divine command.",
-        "explanation": "The Prophet ﷺ does not legislate from personal whims; his prohibitions stem from divine revelation.",
-        "logicalTest": "Is eating the meat of domestic donkeys or predatory animals lawful to you because they are absent from the Quran, or unlawful by the Prophet's prohibition?"
-      },
-      "quranicArchitecture": {
-        "title": "Decisive Quranic Verses on the Prophet's Lawgiving Authority",
-        "verses": [
-          {
-            "ref": "Al-A'raf: 157",
-            "ar": "وَيُحِلُّ لَهُمُ الطَّيِّبَاتِ وَيُحَرِّمُ عَلَيْهِمُ الْخَبَائِثَ",
-            "translation": "He makes lawful for them the good things and prohibits for them the evil."
-          }
-        ],
-        "consequence": "The Quran explicitly confirms the Prophet's authority to permit and prohibit."
-      },
-      "analogies": [
-        {
-          "num": 1,
-          "title": "The King's Royal Decree and the Ambassador",
-          "scenario": "A monarch issues a decree granting his ambassador power to sign binding regional treaties.",
-          "logic": "The ambassador's treaties derive from the monarch's sovereignty, not from rebellion against him.",
-          "lesson": "Delegated authority represents the principal sovereign.",
-          "application": "The Prophet's prohibitions are an expression of Allah's divine legislation."
-        }
-      ],
-      "readyResponses": {
-        "quick30s": "Sovereignty belongs to Allah alone, and by His sovereign decree He commanded us: {and what the Messenger has given you - take; and what he has forbidden you - refrain from} (59:7). His prohibitions are binding by divine decree!",
-        "developed": "The slogan 'No judgment but Allah's' was famously refuted by 'Ali ibn Abi Talib as 'A word of truth misused for falsehood'. The Quran itself establishes that what the Messenger forbids is what Allah forbids."
-      },
-      "objections": [
-        {
-          "obj": "Does not the Quran say: 'Do not say about what your tongues assert of untruth: This is lawful and this is unlawful'?",
-          "ans": "That verse condemns pagans who invent taboos without revelation. The Prophet ﷺ legislates strictly through divine revelation {Nor does he speak from his own desire}."
-        }
-      ],
-      "framingQuestions": [
-        "If the Prophet cannot prohibit anything, what is the meaning of: {those who do not consider unlawful what Allah and His Messenger have made unlawful} (9:29)?"
-      ],
-      "quiz": [
-        {
-          "q": "What is the source of the Prophet's legislative authority?",
-          "options": [
-            "Personal arbitrary desire.",
-            "Divine revelation and explicit Quranic authorization.",
-            "Pre-Islamic pagan customs.",
-            "He has no authority whatsoever."
-          ],
-          "answer": 1,
-          "explanation": "The Prophet ﷺ legislates solely through divine revelation and explicit Quranic delegation."
-        }
-      ],
-      "conclusion": {
-        "steps": [
-          "Absolute sovereignty belongs to Allah alone.",
-          "Allah delegated legislative authority to His Prophet through revelation.",
-          "Obeying the Prophet's prohibitions is direct obedience to Allah."
-        ],
-        "finalText": "The Prophet's prohibitions are an integral part of Allah's divine law.",
-        "punchline": "To claim following the Prophet's rulings is shirk is to deny the Quran: {what Allah AND His Messenger have made unlawful}!"
-      },
       "id": 3,
       "number": "03",
       "slug": "3-allah-seul-legifere",
-      "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_3.PDF"
-    },
-    {
-      "theme": "Verkündigung und Lehre",
-      "title": "«Dem Gesandten obliegt nur die Verkündigung»: War er nur ein Bote?",
-      "shortTitle": "Die prophetische Botschaft",
-      "tagline": "The 'clear delivery' (Balagh Mubin) includes authoritative teaching, explanation, and practical implementation.",
-      "formula": "Prophetic delivery is not a passive courier delivery; it is active teaching, purification, and authoritative explanation!",
+      "theme": "Législation & Souveraineté Divine",
+      "title": "Allah seul légifère / le jugement n’appartient qu’à Allah.",
+      "shortTitle": "Allah seul légifère / Le jugement à Allah",
+      "tagline": "Souveraineté divine absolue et délégation de compétences normatives",
+      "formula": "SOUVERAINETÉ LÉGISLATIVE EXCLUSIVE ≠ EXCLUSION D'UNE AUTORITÉ NORMATIVE DÉLÉGUÉE",
+      "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_3.PDF",
       "theirArgument": {
-        "thesis": "The Prophet's role was strictly limited to delivering the Quran like a postman, with no authority to explain or mandate any normative practice.",
+        "thesis": "Les coranistes invoquent les versets proclamant que « le jugement n'appartient qu'à Allah » (Sourate Yûsuf, verset 40 ; Sourate Al-Anʿâm, verset 57) pour affirmer qu'aucune parole humaine ne peut rendre une chose obligatoire, interdite ou licite, sous peine d'attribuer au Prophète une part de la souveraineté divine.",
         "verses": [
           {
-            "ref": "Al-Ma'idah: 99",
-            "ar": "مَّا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ",
-            "translation": "Not upon the Messenger is [responsibility] except notification."
-          }
-        ],
-        "realQuestion": "Does defining the Prophet's mission as 'notification' reduce him to a passive courier or encompass clear teaching and living application?"
-      },
-      "logicalNode": {
-        "title": "Fallacy of Reductionism: Isolating 'Delivery' from the Multi-Faceted Prophetic Roles",
-        "distinctions": [
-          {
-            "term": "CLEAR NOTIFICATION (BALAGH MUBIN)",
-            "desc": "Delivering the message while explaining its intricacies, resolving ambiguities, and demonstrating its practice."
+            "ref": "Sourate Yûsuf, verset 40",
+            "ar": "إِنِ الْحُكْمُ إِلَّا لِلَّهِ",
+            "translation": "« Le jugement n'appartient qu'à Allah. »"
           },
           {
-            "term": "MECHANICAL TRANSMISSION",
-            "desc": "A flawed notion reducing an infallible prophet to an automated document courier."
+            "ref": "Sourate Al-Anʿâm, verset 57",
+            "ar": "إِنِ الْحُكْمُ إِلَّا لِلَّهِ ۖ يَقُصُّ الْحَقَّ ۖ وَهُوَ خَيْرُ الْفَاصِلِينَ",
+            "translation": "« Le jugement n'appartient qu'à Allah : Il tranche en toute vérité et Il est le meilleur des juges. »"
+          },
+          {
+            "ref": "Sourate Al-Kahf, verset 26",
+            "ar": "وَلَا يُشْرِكُ فِي حُكْمِهِ أَحَدًا",
+            "translation": "« Et Il n'associe personne à Son jugement. »"
           }
         ],
-        "generalRule": "Entrusting a messenger with clear delivery inherently necessitates granting him the authority to clarify and elucidate.",
-        "errorToAvoid": "Isolating the word 'Balagh' while ignoring verses of 'He teaches them the Book and Wisdom'."
+        "realQuestion": "Le fait qu'Allah soit l'unique Souverain L'empêche-t-il d'investir Son Messager ﷺ d'un pouvoir d'interdiction, de permission et de jugement délégué ?"
+      },
+      "logicalNode": {
+        "title": "Souveraineté suprême vs Compétence déléguée",
+        "distinctions": [
+          {
+            "term": "SOUVERAINETÉ ABSOLUE",
+            "desc": "Appartient exclusivement à Allah عز وجل par essence et sans dépendance."
+          },
+          {
+            "term": "COMPÉTENCE NORMATIVE DÉLÉGUÉE",
+            "desc": "Attribuée par Allah à Son Prophète ﷺ pour guider et légiférer sous Son contrôle."
+          }
+        ],
+        "generalRule": "Une compétence déléguée ne s'oppose pas à la souveraineté absolue : elle en constitue l'application voulue par le Souverain.",
+        "errorToAvoid": "Conclure à tort que la souveraineté divine interdirait à Dieu de donner une autorité de commandement à Ses créatures."
       },
       "centralPrinciple": {
-        "title": "The Quran Explicitly Details the Diverse Functions of Prophethood",
-        "formalScheme": "1. The Quran describes the delivery as 'Balagh Mubin' (Clear Notification).\n2. The Quran lists distinct prophetic duties: Recitation, Purification, Teaching the Book and Hikmah, and Judging.\n3. Therefore, Prophetic delivery encompasses the living Sunnah.",
-        "explanation": "If the Prophet were merely a passive courier, a written tablet descending from the sky would have sufficed without sending an infallible role model.",
-        "logicalTest": "Why did Allah not send a written book directly from the heavens instead of sending a human Messenger to be emulated?"
+        "title": "Le Coran attribue au Messager le pouvoir de rendre licite et d'interdire",
+        "formalScheme": "Sourate Al-Aʿrâf, verset 157 : « Il leur rend licites les bonnes choses et leur interdit les mauvaises » (يُحِلُّ لَهُمُ الطَّيِّبَاتِ وَيُحَرِّمُ عَلَيْهِمُ الْخَبَائِثَ).\nLes verbes actifs sont attribués au Messager sous mandat divin.",
+        "explanation": "Le Coran répond sans équivoque : le Prophète ﷺ exerce une autorité sur le licite et l'illicite parce qu'Allah la lui a conférée. De surcroît, le Coran ordonne d'obéir aux détenteurs de l'autorité (Sourate An-Nisâʾ, verset 59), ce qui prouve que l'existence d'autorités humaines subordonnées ne contredit pas la souveraineté divine.",
+        "logicalTest": "Si aucune créature ne pouvait exercer d'autorité contraignante sous mandat divin, aucun tribunal, aucun juge et aucun arbitrage humain ne seraient légitimes."
       },
       "quranicArchitecture": {
-        "title": "Comprehensive Quranic Verses on the Missions of Prophethood",
+        "title": "Les niveaux d'autorité institués dans le Coran",
         "verses": [
           {
-            "ref": "Al-Baqarah: 129",
-            "ar": "يَتْلُو عَلَيْهِمْ آيَاتِكَ وَيُعَلِّمُهُمُ الْكِتَابَ وَالْحِكْمَةَ وَيُزَكِّيهِمْ",
-            "translation": "reciting to them Your verses and teaching them the Book and wisdom and purifying them."
+            "ref": "Sourate Al-Aʿrâf, verset 157",
+            "ar": "وَيُحِلُّ لَهُمُ الطَّيِّبَاتِ وَيُحَرِّمُ عَلَيْهِمُ الْخَبَائِثَ",
+            "translation": "« Il leur rend licites les bonnes choses et leur interdit les mauvaises. »"
+          },
+          {
+            "ref": "Sourate An-Nisâʾ, verset 59",
+            "ar": "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ وَأُولِي الْأَمْرِ مِنكُمْ",
+            "translation": "« Obéissez à Allah, obéissez au Messager et à ceux d'entre vous qui détiennent l'autorité. »"
           }
         ],
-        "consequence": "Teaching and purification are distinct active roles beyond mere reading of letters."
+        "consequence": "Allah عز وجل institue l'ordre hiérarchique : Allah → Messager → Détenteurs de l'autorité. Cette autorité déléguée ne fait de personne un associé à Dieu."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "The University Professor and the Textbook",
-          "scenario": "A professor delivers the syllabus to students and conducts clinical workshops explaining complex theories.",
-          "logic": "The professor is not a mailman handing out paper; he is the designated teacher and examiner.",
-          "lesson": "The instructor is vital to understanding the text.",
-          "application": "The Prophet ﷺ is the authoritative teacher and living exemplar of the Quran."
+          "title": "La loi suprême et le magistrat au tribunal",
+          "scenario": "La loi sanctionne le crime, mais confie au juge le devoir d'instruire, de qualifier et de rendre une sentence obligatoire.",
+          "logic": "Le jugement du magistrat n'est pas une loi concurrente : c'est l'exercice d'un mandat confié par la loi.",
+          "lesson": "Sans autorité déléguée, aucune justice pratique n'est possible.",
+          "application": "L'arbitrage du Prophète ﷺ est l'application concrète mandatée par Allah."
+        },
+        {
+          "num": 2,
+          "title": "L'autorité du code et de l'agent sur la route",
+          "scenario": "Un agent de police somme un automobiliste de s'arrêter. Le conducteur réplique : « Je ne reconnais que le texte du Code de la route, pas les agents. »",
+          "logic": "C'est précisément le Code de la route qui accorde à l'agent son autorité opérationnelle.",
+          "lesson": "L'autorité de l'agent procède du texte même.",
+          "application": "L'autorité du Messager ﷺ procède de la révélation divine."
         }
       ],
       "readyResponses": {
-        "quick30s": "The Quran calls it 'The Clear Notification' (Al-Balagh Al-Mubin). The Quran itself outlines the Prophet's duties: teaching, purifying, judging, and explaining. Reducing him to a courier contradicts the Quran!",
-        "developed": "If prophethood were mere courier work, sending a human role model would be meaningless. Allah sent a Messenger who embodied the Quran in his speech, actions, and approvals as an exemplar for all believers."
+        "quick30s": "Le fait qu'Allah عز وجل soit l'unique Législateur souverain ne signifie pas qu'Il ne peut pas déléguer une compétence normative. Le Coran déclare expressément dans la Sourate Al-Aʿrâf, verset 157 que le Prophète ﷺ « leur rend licites les bonnes choses et leur interdit les mauvaises », et ordonne dans la Sourate An-Nisâʾ, verset 59 d'obéir au Messager et aux détenteurs de l'autorité. Une autorité déléguée ne concurrence pas la souveraineté divine : elle en est l'exercice voulu par Allah.",
+        "developed": "L'argument coraniste repose sur une confusion entre souveraineté absolue et compétence déléguée. Dans tout ordre juridique, la loi fondamentale est suprême mais mandate des magistrats pour prononcer des décisions obligatoires. De même, le Prophète ﷺ n'est pas un souverain indépendant : son autorité normative découle d'Allah et s'exerce sous Sa surveillance constante."
       },
       "objections": [
         {
-          "obj": "The verse uses the restrictive word 'only' (illa): 'Not upon the Messenger EXCEPT delivery'!",
-          "ans": "The restriction is in contrast to coercing belief or forcing hearts; his duty is not to force people, but to clearly communicate, teach, and explain."
+          "obj": "« Le Prophète ﷺ ne faisait que répéter les interdictions déjà écrites dans le Coran. »",
+          "ans": "La Sourate Al-Aʿrâf, verset 157 lui attribue personnellement les verbes « rendre licite » et « interdire ». Le Coran lui reconnaît une compétence normative active."
         }
       ],
       "framingQuestions": [
-        "What is the 'Wisdom' (Hikmah) paired with the Book across numerous verses if the Prophet taught nothing outside the text of the Quran?"
-      ],
-      "quiz": [
-        {
-          "q": "What does 'Al-Balagh Al-Mubin' mean in the Quran?",
-          "options": [
-            "Delivering a book without saying a single explanatory word.",
-            "Complete communication accompanied by practical demonstration, teaching, and explanation.",
-            "Leaving everyone to interpret religion according to personal logic.",
-            "Abolishing all prior religious laws without explanation."
-          ],
-          "answer": 1,
-          "explanation": "Clear delivery encompasses comprehensive explanation through prophetic words and actions."
-        }
+        "La souveraineté d'Allah L'empêche-t-elle de déléguer une autorité normative à Son Prophète ﷺ ?",
+        "Pourquoi la Sourate Al-Aʿrâf, verset 157 dit-elle qu'il « leur rend licites les bonnes choses et leur interdit les mauvaises » ?",
+        "Si toute autorité humaine est interdite, comment justifiez-vous l'obéissance aux gouvernants dans la Sourate An-Nisâʾ, verset 59 ?"
       ],
       "conclusion": {
         "steps": [
-          "The Prophet's mission is clear notification, teaching, and purification.",
-          "The Prophet is the living role model and practical embodiment of the Quran.",
-          "The Sunnah is the tangible translation of this comprehensive delivery."
+          "Souveraineté exclusive et autorité déléguée sont deux concepts complémentaires.",
+          "Le Coran attribue au Messager ﷺ des compétences normatives explicites.",
+          "Rejeter cette autorité déléguée vide le texte coranique de ses prescriptions concrètes."
         ],
-        "finalText": "Prophetic delivery is intrinsically bound to authoritative explanation and the Sunnah.",
-        "punchline": "The Prophet ﷺ was not a courier; he was an authoritative teacher, judge, and exemplar by divine decree!"
-      },
+        "finalText": "Le Prophète ﷺ n'est pas une seconde source concurrente : il est l'autorité normative instituée par Allah.",
+        "punchline": "L'autorité déléguée ne diminue pas la souveraineté divine : elle en est la manifestation."
+      }
+    },
+    {
       "id": 4,
       "number": "04",
       "slug": "4-mission-messager-transmettre",
-      "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_4.pdf"
-    },
-    {
-      "theme": "Bewahrung der Offenbarung",
-      "title": "«Wir haben die Ermahnung (Dhikr) herabgesandt und bewahren sie»: Nur der Koran?",
-      "shortTitle": "Bewahrung des Dhikr",
-      "tagline": "Preserving the concise text of the Quran logically and divinely necessitates preserving its authoritative explanation.",
-      "formula": "Dhikr in the Quran encompasses all divine revelation; preserving the foundational text requires preserving its explanatory key!",
+      "theme": "Vocabulaire Coranique & Fonctions Prophétiques",
+      "title": "Le Messager n’a pour mission que de transmettre le Coran.",
+      "shortTitle": "Transmission = Récitation ?",
+      "tagline": "Explication, enseignement, jugement, exemplarité : l'étendue réelle de la mission prophétique",
+      "formula": "TRANSMISSION CLAIRE (BALĀGH) ≠ RÉCITATION MÉCANIQUE D'UN TEXTE BRUT",
+      "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_4.pdf",
       "theirArgument": {
-        "thesis": "Allah promised to preserve only the Quran in {We will preserve it}, with no guarantee for Hadith; therefore, everything outside the Quran is corrupted, unpreserved, and unreliable.",
+        "thesis": "Les coranistes invoquent les versets affirmant : « Il n'incombe au Messager que la transmission claire » (Sourate Al-Māʾidah, verset 99 ; Sourate An-Nûr, verset 54 ; Sourate An-Naḥl, verset 35) pour soutenir que son rôle se limiterait exclusivement à la récitation matérielle du Coran, sans autorité explicative ni normative.",
         "verses": [
           {
-            "ref": "Al-Hijr: 9",
-            "ar": "إِنَّا نَحْنُ نَزَّلْنَا الذِّكْرَ وَإِنَّا لَهُ لَحَافِظُونَ",
-            "translation": "Indeed, it is We who sent down the message and indeed, We will be its guardian."
-          }
-        ],
-        "realQuestion": "Is 'Dhikr' strictly confined to the Quranic wording, and can the text be preserved if its mandatory explanation is lost?"
-      },
-      "logicalNode": {
-        "title": "The Logical Inseparability Between Preserving the Law and Preserving its Application",
-        "distinctions": [
-          {
-            "term": "DHIKR AS REVELATION",
-            "desc": "A comprehensive Quranic term encompassing the Quran and the non-recited Prophetic revelation."
+            "ref": "Sourate Al-Māʾidah, verset 99",
+            "ar": "مَّا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ",
+            "translation": "« Il n'incombe au Messager que la transmission. »"
           },
           {
-            "term": "IMPOSSIBILITY OF PRESERVING CONCISE COMMANDS WITHOUT DETAILS",
-            "desc": "If the Sunnah were lost, Quranic commands for prayer, zakah, and legal rulings would become impossible to execute."
+            "ref": "Sourate An-Nûr, verset 54",
+            "ar": "وَإِن تُطِيعُوهُ تَهْتَدُوا ۚ وَمَا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ الْمُبِينُ",
+            "translation": "« Et si vous lui obéissez, vous serez bien guidés. Et il n'incombe au Messager que la transmission claire. »"
           }
         ],
-        "generalRule": "Preserving a divine objective necessitates preserving the indispensable means to fulfill it.",
-        "errorToAvoid": "Restricting 'Dhikr' to the physical pages of the Mushaf while ignoring {We revealed to you the Dhikr that you may clarify}."
+        "realQuestion": "La formule du balâgh exprime-t-elle une interdiction d'expliquer et d'enseigner, ou souligne-t-elle la non-responsabilité du Prophète face au refus des incrédules de croire ?"
+      },
+      "logicalNode": {
+        "title": "Fonction générale vs Fonctions complémentaires",
+        "distinctions": [
+          {
+            "term": "MISSION PRINCIPALE",
+            "desc": "La transmission fidèle et claire (al-balâgh) du message divin à l'humanité."
+          },
+          {
+            "term": "FONCTIONS OPÉRATIONNELLES",
+            "desc": "Réciter (Tilâwah), Exposer clairement (Bayân), Enseigner la Sagesse (Ta'lîm), Juger (Hukm), Être un modèle (Uswah)."
+          }
+        ],
+        "generalRule": "Dire « la mission de l'ambassadeur est de représenter son pays » ne signifie pas qu'il ne doit ni parler, ni négocier, ni expliquer les positions de son gouvernement.",
+        "errorToAvoid": "Transformer un rappel de non-responsabilité envers les mécréants en une interdiction d'enseigner adressée aux croyants."
       },
       "centralPrinciple": {
-        "title": "The Sunnah is Preserved Revelation Under the Divine Guarantee",
-        "formalScheme": "1. Allah guaranteed to preserve the Dhikr as an enduring proof until the Last Day.\n2. The Quran commands prayer and zakah, delegating their details to the Sunnah.\n3. If the Sunnah were lost, Quranic commands would be unfulfilled and divine proof compromised.\n4. Therefore, Allah preserved the Sunnah through rigorous Hadith methodology to safeguard the Quran.",
-        "explanation": "Allah raised generations of master Hadith scholars who sifted narrations and preserved prophetic traditions with unmatched historical rigor.",
-        "logicalTest": "If the Sunnah is unpreserved, how can you fulfill the Quranic command to establish prayer today without guessing or inventing rituals?"
+        "title": "Les six notions coraniques caractérisant la mission prophétique",
+        "formalScheme": "1. البلاغ (al-balâgh) : Transmission du message\n2. تلاوة (tilâwah) : Récitation des versets\n3. بيان (bayân) : Explication claire (Sourate An-Naḥl, verset 44)\n4. تعليم (ta'lîm) : Enseignement du Livre et de la Sagesse (Sourate Al-Baqarah, versets 129 et 151)\n5. حكم (hukm) : Jugement des litiges (Sourate An-Nisâʾ, verset 65)\n6. أسوة (uswah) : Modèle pratique exemplaire (Sourate Al-Aḥzâb, verset 21)",
+        "explanation": "Le Coran distingue explicitement la récitation textuelle (يَتْلُو) de l'enseignement explicatif (يُعَلِّمُ). Si la transmission se limitait à une récitation brute, cette distinction lexicale répétée n'aurait aucun sens.",
+        "logicalTest": "Un livre qui ordonne d'écouter les explications de l'enseignant n'est pas respecté si l'on refuse l'enseignant au nom de ce livre."
       },
       "quranicArchitecture": {
-        "title": "The Quranic Use of 'Dhikr' for the Prophetic Sunnah",
+        "title": "L'explication et l'enseignement dans le Coran",
         "verses": [
           {
-            "ref": "An-Nahl: 44",
-            "ar": "وَأَنزَلْنَا إِلَيْكَ الذِّكْرَ لِتُبَيِّنَ لِلنَّاسِ مَا نُزِّلَ إِلَيْهِمْ",
-            "translation": "And We revealed to you the message (Dhikr) that you may make clear to the people what was sent down to them."
+            "ref": "Sourate An-Naḥl, verset 44",
+            "ar": "وَأَنزَلْنَا إِلَيْكَ الذِّكْرَ لِتُبَيِّنَ لِلنَّاسِ مَا نُزِّلَ إِلَيْهِمْ",
+            "translation": "« Et vers toi, Nous avons fait descendre le Rappel, afin que tu exposes clairement aux gens ce qui a été révélé pour eux. »"
+          },
+          {
+            "ref": "Sourate Al-Baqarah, verset 151",
+            "ar": "يَتْلُو عَلَيْكُمْ آيَاتِنَا وَيُزَكِّيكُمْ وَيُعَلِّمُكُمُ الْكِتَابَ وَالْحِكْمَةَ",
+            "translation": "« Il vous récite Nos versets, vous purifie, et vous enseigne le Livre et la Sagesse. »"
+          },
+          {
+            "ref": "Sourate Al-Aḥzâb, verset 21",
+            "ar": "لَّقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ",
+            "translation": "« Vous avez certes dans le Messager d'Allah un excellent modèle. »"
           }
         ],
-        "consequence": "The Quran explicitly names the Prophetic clarification 'Dhikr', which Allah promised to preserve."
+        "consequence": "La chaîne logique révélée est : Révélation → Transmission → Explication (Bayân) → Enseignement (Ta'lîm) → Incarnation exemplaire (Uswah)."
       },
       "analogies": [
         {
           "num": 1,
-          "title": "The Encrypted Vault and the Master Key",
-          "scenario": "A company places its founding charter in an encrypted vault and secures the decryption key in a safe deposit.",
-          "logic": "Preserving the vault while destroying the key renders the contents entirely useless.",
-          "lesson": "Preserving the text requires preserving its key of understanding.",
-          "application": "The Sunnah is the indispensable key to understanding and executing the Quran."
+          "title": "L'enseignant et le manuel scolaire",
+          "scenario": "La mission de l'enseignant est de transmettre le programme officiel. Cela n'implique pas qu'il doive uniquement faire la lecture du manuel à voix haute.",
+          "logic": "Il commente, résout les difficultés, donne des exemples et corrige les copies.",
+          "lesson": "Transmettre un savoir exige son explicitation.",
+          "application": "La mission prophétique comprend la transmission du Coran et son enseignement concret."
+        },
+        {
+          "num": 2,
+          "title": "Le guide de haute montagne",
+          "scenario": "Le guide reçoit pour mission de mener les randonneurs au sommet. Il ne se borne pas à leur tendre une carte papier.",
+          "logic": "Il marche devant, montre les passages sûrs et évite les crevasses.",
+          "lesson": "Le modèle en mouvement complète la carte écrite.",
+          "application": "Le Prophète ﷺ est le modèle pratique (uswah hasanah) qui montre comment vivre le Coran."
         }
       ],
       "readyResponses": {
-        "quick30s": "Allah called the Prophetic explanation 'Dhikr': {And We revealed to you the Dhikr that you may make clear to the people} (16:44). The divine promise to preserve the Dhikr covers both the Quran and its authentic Sunnah!",
-        "developed": "The Quran commands us to establish prayer, pay zakah, and perform Hajj. All operational details come from the Sunnah. If the Sunnah were not preserved, Allah would be commanding the impossible! Preserving the Quran inherently requires preserving its authentic Sunnah."
+        "quick30s": "Affirmer que transmettre se résume à réciter est en contradiction directe avec le Coran. Le Coran distingue la récitation (tilâwah), l'explication (bayân dans la Sourate An-Naḥl, verset 44), l'enseignement du Livre et de la Sagesse (ta'lîm dans la Sourate Al-Baqarah, verset 151), le jugement (hukm dans la Sourate An-Nisâʾ, verset 65) et l'exemplarité vivante (uswah dans la Sourate Al-Aḥzâb, verset 21). La formule du balâgh rappelle que le Prophète ﷺ n'est pas responsable du refus des incrédules, et non qu'il lui serait interdit d'enseigner.",
+        "developed": "La transmission d'une doctrine ne se limite jamais à la remise d'un document brut. Tout comme un professeur transmet un programme en l'expliquant et en montrant des applications, le Messager d'Allah ﷺ a transmis le message divin par ses paroles, ses explications et son comportement exemplaire. Les versets de restriction rappellent qu'il ne peut contraindre les gens à la foi, sans annuler ses devoirs d'enseignement et d'explication."
       },
       "objections": [
         {
-          "obj": "Fabricated hadiths exist, so how can you say the Sunnah is preserved?",
-          "ans": "The existence of counterfeit money does not abolish genuine currency; the fact that Hadith scholars identified and cataloged fabrications by name and chain is the ultimate proof of preservation!"
+          "obj": "« Le verset de la Sourate Al-Māʾidah, verset 99 utilise le terme exclusif 'illâ' (que la transmission). »",
+          "ans": "Cette restriction délimite la responsabilité du Prophète ﷺ face aux choix des mécréants : il ne peut forcer les cœurs. Elle n'annule nullement les versets qui lui confient l'explication (Sourate An-Naḥl, verset 44) et l'enseignement (Sourate Al-Baqarah, verset 151)."
+        }
+      ],
+      "framingQuestions": [
+        "Pourquoi le Coran utilise-t-il les verbes 'réciter' ET 'enseigner' s'ils désignaient exactement la même chose ?",
+        "Que signifie « afin que tu exposes clairement aux gens » dans la Sourate An-Naḥl, verset 44 si le texte ne nécessitait aucune explication ?",
+        "Un modèle vivant exemplaire (uswah) peut-il être réduit à une boîte aux lettres passive ?"
+      ],
+      "conclusion": {
+        "steps": [
+          "Transmettre n'exclut ni l'explication, ni l'enseignement, ni l'exemplarité.",
+          "Le Coran emploie une diversité de termes pour qualifier la mission prophétique.",
+          "La formule générale de transmission ne supprime pas les missions spécifiques confiées au Prophète ﷺ."
+        ],
+        "finalText": "La mission du Messager ﷺ englobe la transmission de la lettre, l'explication du sens et la démonstration pratique.",
+        "punchline": "Explication pratique et enseignement ne sont pas des ajouts au texte : ils sont l'exécution du mandat coranique."
+      }
+    },
+    {
+      "id": 5,
+      "number": "05",
+      "slug": "5-preservation-coran-hadiths",
+      "theme": "Authenticité & Transmission Historique",
+      "title": "Allah a garanti la préservation du Coran, pas celle des hadiths.",
+      "shortTitle": "Préservation Coran vs Hadiths",
+      "tagline": "Garantie particulière du texte coranique et fiabilité méthodologique de la transmission de la Sunna",
+      "formula": "LE CORAN POSSÈDE UNE GARANTIE PARTICULIÈRE ET UN DEGRÉ DE TRANSMISSION INCOMPARABLE ; CELA NE SIGNIFIE PAS QU'AUCUNE AUTRE TRANSMISSION FIABLE NE PUISSE EXISTER",
+      "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_5.pdf",
+      "theirArgument": {
+        "thesis": "Les coranistes s'appuient sur la Sourate Al-Ḥijr, verset 9 (« C'est Nous qui avons fait descendre le Rappel et c'est Nous qui en sommes gardien ») pour soutenir que seul le texte coranique bénéficie d'une préservation divine, et que tout le corpus des hadiths, ayant été transmis par des hommes faillibles, doit être rejeté.",
+        "verses": [
+          {
+            "ref": "Sourate Al-Ḥijr, verset 9",
+            "ar": "إِنَّا نَحْنُ نَزَّلْنَا الذِّكْرَ وَإِنَّا لَهُ لَحَافِظُونَ",
+            "translation": "« En vérité, c'est Nous qui avons fait descendre le Rappel, et c'est Nous qui en sommes gardien. »"
+          }
+        ],
+        "realQuestion": "Le fait que le Coran bénéficie d'une promesse divine unique et d'un mode de transmission incomparable entraîne-t-il automatiquement la fausseté ou l'inutilisabilité de toute transmission historique de la Sunna ?"
+      },
+      "logicalNode": {
+        "title": "Les erreurs d'analyse sur la préservation",
+        "distinctions": [
+          {
+            "term": "PRÉSERVATION MIRACULEUSE DU CORAN",
+            "desc": "Garantie divine textuelle, mot à mot, transmise par tawâtur absolu à chaque génération."
+          },
+          {
+            "term": "TRANSMISSION HISTORIQUE CRITIQUE",
+            "desc": "Recoupement rigoureux des chaînes, critique des transmetteurs et analyse des variantes (science du hadith)."
+          },
+          {
+            "term": "SOPHISME DU TOUT OU RIEN",
+            "desc": "Prétendre faussement que ce qui n'a pas la promesse textuelle directe de la Sourate Al-Ḥijr, verset 9 serait 100% falsifié."
+          }
+        ],
+        "generalRule": "Une garantie particulière accordée à un texte suprême n'implique pas la destruction de tout autre témoignage historique fiable.",
+        "errorToAvoid": "Prétendre que les sunnites affirment que chaque hadith isolé posséderait exactement le même statut textuel que le Coran."
+      },
+      "centralPrinciple": {
+        "title": "Le Coran possède une garantie particulière, sans exclure la fiabilité de la Sunna",
+        "formalScheme": "Principe : Le Coran possède une garantie particulière et un degré de transmission incomparable ; cela ne signifie pas qu'aucune autre transmission fiable ne puisse exister.\nTest de cohérence : Toute la compréhension du Coran (vocabulaire arabe ancien, contexte, règles de grammaire) repose également sur la transmission humaine transmise par les générations.",
+        "explanation": "Allah عز وجل préserve Sa religion à travers les efforts critiques des savants qui ont distingué le vrai du faux. Si toute transmission historique humaine était nulle, le coraniste ne pourrait même pas attester de la signification des mots rares du Coran ni de la vocalisation du texte.",
+        "logicalTest": "Comment le coraniste sait-il prononcer et lire le Coran sans faire confiance à la chaîne de transmission humaine des maîtres de lecture ?"
+      },
+      "quranicArchitecture": {
+        "title": "L'obligation permanente de suivre le modèle prophétique",
+        "verses": [
+          {
+            "ref": "Sourate An-Nisâʾ, verset 59",
+            "ar": "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ",
+            "translation": "« Obéissez à Allah et obéissez au Messager. »"
+          },
+          {
+            "ref": "Sourate Al-Aḥzâb, verset 21",
+            "ar": "لَّقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ",
+            "translation": "« Vous avez certes dans le Messager d'Allah un excellent modèle. »"
+          }
+        ],
+        "consequence": "Si aucun enseignement prophétique ne pouvait subsister de manière fiable, l'ordre coranique perpétuel de suivre le Prophète ﷺ comme modèle deviendrait inapplicable pour les générations postérieures."
+      },
+      "analogies": [
+        {
+          "num": 1,
+          "title": "Le document original et les pièces du dossier",
+          "scenario": "Dans un tribunal, un acte notarié original est conservé dans un coffre ignifugé.",
+          "logic": "Cela ne rend pas tous les autres témoignages et pièces versés au dossier nuls ou falsifiés.",
+          "lesson": "Protection spéciale d'un document ≠ Invalidation de tous les autres éléments de preuve.",
+          "application": "La préservation unique du Coran ne rend pas caduque la science critique du hadith."
+        },
+        {
+          "num": 2,
+          "title": "La fausse monnaie et le contrôle bancaire",
+          "scenario": "L'existence de faux billets n'entraîne pas la destruction de la monnaie légitime.",
+          "logic": "Elle incite à mettre en place des détecteurs et des critères d'authentification infaillibles.",
+          "lesson": "La contrefaçon appelle la vérification, pas le rejet global.",
+          "application": "La fabrication de faux récits a suscité l'élaboration de la science de l'Isnâd et du Jarh wa Ta'dîl."
+        }
+      ],
+      "readyResponses": {
+        "quick30s": "Le Coran possède une garantie particulière et un degré de transmission incomparable dans la Sourate Al-Ḥijr, verset 9 ; mais cela ne signifie aucunement qu'aucune autre transmission fiable ne puisse exister. Le même Coran ordonne d'obéir au Messager ﷺ (Sourate An-Nisâʾ, verset 59) et de le prendre pour modèle (Sourate Al-Aḥzâb, verset 21). La question n'est donc pas de prétendre que chaque hadith est identique au Coran, mais d'appliquer les méthodes critiques de l'histoire pour identifier fidèlement les enseignements du Prophète ﷺ.",
+        "developed": "L'argument coraniste repose sur le sophisme du tout ou rien : si une source ne bénéficie pas de la promesse surnaturelle de la Sourate Al-Ḥijr, verset 9, elle serait à rejeter. Or, toute la connaissance humaine, la justice et même la langue arabe reposent sur la transmission historique méthodique. L'existence de faux hadiths n'annule pas les récits authentiques, de même que la fausse monnaie n'abolit pas la véritable monnaie : elle a suscité la mise en place de la science critique du hadith pour distinguer avec rigueur le recevable du rejeté."
+      },
+      "objections": [
+        {
+          "obj": "« Mais les recueils de hadiths ont été rédigés par des êtres humains faillibles ! »",
+          "ans": "Le sunnisme ne prétend pas que les compilateurs sont des prophètes. La valeur probante repose sur la convergence des chaînes de transmission, la mémoire collective et le recoupement critique des variantes."
         },
         {
           "obj": "Were there not weak narrations and human errors in transmission?",
@@ -613,41 +698,30 @@ window.I18N_DATA['de'] = {
         }
       ],
       "framingQuestions": [
-        "If Allah did not preserve the Sunnah, did He command us to obey a Messenger whose teachings were lost to history?"
-      ],
-      "quiz": [
-        {
-          "q": "What is meant by 'Dhikr' in verse 15:9?",
-          "options": [
-            "Physical paper only without any practical meaning.",
-            "Divine revelation encompassing the Quran and the Prophetic guidance necessary for its implementation.",
-            "Books of ancient religions.",
-            "Weak and fabricated folklore."
-          ],
-          "answer": 1,
-          "explanation": "Dhikr encompasses all divine guidance revealed to the Prophet to elucidate the Quran."
-        }
+        "Où la Sourate Al-Ḥijr, verset 9 affirme-t-elle qu'aucune autre information historique ne pourra être transmise fidèlement ?",
+        "Reconnaissez-vous une différence entre certitude absolue (qat'î) et fiabilité historique probante (zannî râjih) ?",
+        "Comment comprenez-vous le vocabulaire coranique sans vous appuyer sur la transmission des dictionnaires arabes ?"
       ],
       "conclusion": {
         "steps": [
-          "The Quran and Prophetic clarification are both divine revelation.",
-          "Preserving the Quranic text necessitates preserving its practical details.",
-          "The science of Hadith is the divine instrument for preserving the Sunnah."
+          "La Sourate Al-Ḥijr, verset 9 établit la protection singulière du Coran.",
+          "Elle n'affirme nulle part que la Sunna sera anéantie.",
+          "La transmission de la Sunna repose sur une discipline critique d'authentification."
         ],
-        "finalText": "Allah's preservation of the Dhikr encompasses the Noble Quran and its clarifying Sunnah.",
-        "punchline": "If the Sunnah were lost, the Quran's commands would be paralyzed—preserving the Quran necessitates preserving its Sunnah!"
-      },
-      "id": 5,
-      "number": "05",
-      "slug": "5-preservation-coran-hadiths",
-      "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_5.pdf"
+        "finalText": "Le Coran possède un statut unique, et la Sunna authentique fournit l'explication et la mise en pratique voulues par Allah.",
+        "punchline": "Garantie particulière du Coran ≠ Disparition de la transmission fiable de la Sunna."
+      }
     },
     {
-      "theme": "Historische Dokumentation",
-      "title": "«Hadithe wurden 200 Jahre später geschrieben»: Die historische Wahrheit",
-      "shortTitle": "Geschichte der Niederschrift",
+      "id": 6,
+      "number": "06",
+      "slug": "6-compilation-tardive-hadiths",
+      "theme": "Histoire & Méthodologie de l'Isnâd",
+      "title": "Les hadiths ont été compilés trop tard et ont subi des fabrications.",
+      "shortTitle": "Compilation tardive des hadiths ?",
       "tagline": "Distinguer la date d'une compilation écrite de la genèse historique de son contenu",
       "formula": "COMPILATION D'UN RECUEIL ≠ NAISSANCE DU MATÉRIAU HISTORIQUE (Transmission continue)",
+      "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_6.pdf",
       "theirArgument": {
         "thesis": "Les coranistes avancent que les recueils majeurs comme ceux d'Al-Bukhârî (m. 256 H) et de Muslim (m. 261 H) ayant été achevés plus de deux siècles après la mort du Prophète ﷺ, tout le corpus aurait été altéré par des fabrications et devrait être rejeté.",
         "verses": [],
@@ -720,18 +794,18 @@ window.I18N_DATA['de'] = {
         ],
         "finalText": "La démarche rationnelle consiste à évaluer chaque récit selon ses chaînes et critères d'authenticité, sans céder au rejet simpliste.",
         "punchline": "Compilation tardive ≠ Origine tardive. Riwâyat Ḥafṣ ʿan ʿĀṣim démontre la validité de la transmission."
-      },
-      "id": 6,
-      "number": "06",
-      "slug": "6-compilation-tardive-hadiths",
-      "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_6.pdf"
+      }
     },
     {
-      "theme": "Kontext der Überlieferungen",
-      "title": "«Schreibt nichts von mir auf»: Hat der Prophet das Niederschreiben verboten?",
-      "shortTitle": "Verbot der Niederschrift",
+      "id": 7,
+      "number": "07",
+      "slug": "7-interdiction-ecrire-paroles",
+      "theme": "Droit des Sources & Récits sur l'Écriture",
+      "title": "Le Prophète ﷺ a lui-même interdit d’écrire ses paroles.",
+      "shortTitle": "Interdiction d'écrire les paroles prophétiques ?",
       "tagline": "Réglementation temporaire du support écrit et ordres positifs d'écriture de la Sunna",
       "formula": "RÉGLEMENTER LE SUPPORT ÉCRIT INITIALEMENT ≠ ABOLIR LA TRANSMISSION DE LA SUNNA",
+      "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_7.pdf",
       "theirArgument": {
         "thesis": "Les coranistes citent le hadith consigné dans Sahîh Muslim (3004) où le Prophète ﷺ déclare : « N'écrivez rien de moi... », pour prétendre que toute mise par écrit de ses enseignements constituerait une infraction directe à son ordre.",
         "verses": [],
@@ -823,18 +897,18 @@ window.I18N_DATA['de'] = {
         ],
         "finalText": "Les quatre éléments du dossier rétablissent la cohérence historique et doctrinale de la transmission de la Sunna.",
         "punchline": "Quatre données à harmoniser : interdiction initiale, permission de rapporter, autorisation d'écrire et ordre pour Abû Shâh."
-      },
-      "id": 7,
-      "number": "07",
-      "slug": "7-interdiction-ecrire-paroles",
-      "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_7.pdf"
+      }
     },
     {
-      "theme": "Koranische Semantik",
-      "title": "«An welches Hadith nach diesem wollen sie glauben?»: Verurteilt der Koran den Begriff?",
-      "shortTitle": "Der Begriff 'Hadith'",
+      "id": 8,
+      "number": "08",
+      "slug": "8-coran-condamne-hadiths",
+      "theme": "Sémantique & Déconstruction de l'Anachronisme",
+      "title": "Le Coran condamne les “hadiths” autres que le Coran.",
+      "shortTitle": "Le Coran condamne les Hadiths ?",
       "tagline": "Le sens lexical arabe de 'hadīth' (discours, parole, récit) vs anachronisme terminologique",
       "formula": "ḤADĪTH = PAROLE / DISCOURS / RÉCIT DANS LA LANGUE ARABE ≠ TERME TECHNIQUE DU CORPUS DE LA SUNNA",
+      "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_8.pdf",
       "theirArgument": {
         "thesis": "Les coranistes prétendent que le Coran condamne explicitement les hadiths dans des versets tels que : « En quel hadith après Allah et Ses versets croiront-ils ? » (Sourate Al-Jâthiyah, verset 6 ; Sourate Al-Mursalât, verset 50) ou en fustigeant « lahw al-hadīth » (Sourate Luqmân, verset 6).",
         "verses": [
@@ -929,18 +1003,18 @@ window.I18N_DATA['de'] = {
         ],
         "finalText": "Le Coran condamne les discours mensongers des négateurs, et non les explications du Prophète ﷺ.",
         "punchline": "Ḥadīth = discours / récit dans la langue arabe ; non le terme technique du corpus sunnite."
-      },
-      "id": 8,
-      "number": "08",
-      "slug": "8-coran-condamne-hadiths",
-      "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_8.pdf"
+      }
     },
     {
-      "theme": "Unfehlbarkeit der Übermittlung",
-      "title": "«Er runzelte die Stirn und wandte sich ab»: Mindern Zurechtweisungen seine Autorität?",
-      "shortTitle": "Göttliche Zurechtweisung",
+      "id": 9,
+      "number": "09",
+      "slug": "9-corrections-divines",
+      "theme": "Statut du Prophète & Encadrement Révélé",
+      "title": "Puisque le Coran rapporte des corrections divines adressées au Prophète ﷺ, ses paroles et décisions ne pourraient pas constituer une autorité religieuse.",
+      "shortTitle": "Corrections divines & Encadrement de la mission",
       "tagline": "Les corrections qu'Allah عز وجل adresse au Prophète ﷺ démontrent l'encadrement divin actif de sa mission",
       "formula": "LES CORRECTIONS QU'ALLAH عز وجل ADRESSE AU PROPHÈTE ﷺ NE SUPPRIMENT PAS SON AUTORITÉ. ELLES MONTRENT AU CONTRAIRE QUE SA MISSION EST DIRECTEMENT ENCADRÉE PAR ALLAH ET QUE TOUTE ORIENTATION NÉCESSAIRE INTERVIENT DURANT SA VIE.",
+      "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_9.pdf",
       "theirArgument": {
         "thesis": "Les coranistes relèvent que le Coran rapporte des versets où Allah عز وجل a adressé une correction, une orientation ou une précision au Prophète ﷺ (Sourate ʿAbasa, versets 1-2 ; Sourate At-Tawbah, verset 43 ; Sourate At-Taḥrîm, verset 1). Ils en déduisent à tort que ses décisions ne sauraient constituer une autorité religieuse contraignante.",
         "verses": [
@@ -1044,18 +1118,18 @@ window.I18N_DATA['de'] = {
         ],
         "finalText": "Les corrections divines attestent de l'encadrement divin de la mission prophétique et garantissent la pureté de la Sunna transmise.",
         "punchline": "Les corrections divines n'annulent pas l'autorité du Prophète ﷺ : elles en prouvent l'encadrement permanent par Allah عز وجل."
-      },
-      "id": 9,
-      "number": "09",
-      "slug": "9-corrections-divines",
-      "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_9.pdf"
+      }
     },
     {
-      "theme": "Überlieferung des Gottesdienstes",
-      "title": "«Die gelebte Praxis (Tawâtur) genügt»: Braucht man Hadith-Sammlungen?",
-      "shortTitle": "Gelebte Praxis und Hadithe",
+      "id": 10,
+      "number": "10",
+      "slug": "10-priere-pratique-communautaire",
+      "theme": "Pratique Cultuelle & Tawâtur 'Amalî",
+      "title": "La prière et les rites se transmettent par la pratique communautaire, pas par les hadiths.",
+      "shortTitle": "La prière sans les hadiths ?",
       "tagline": "Pratique prophétique transmise de génération en génération = définition exacte de la Sunna vivante (Tawâtur 'Amalî)",
       "formula": "PRATIQUE RITUELLE TRANSMISE PAR LA COMMUNAUTÉ DEPUIS LE PROPHÈTE = SUNNA VIVANTE (TAWÂTUR PRATIQUE)",
+      "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_10.pdf",
       "theirArgument": {
         "thesis": "Certains coranistes reconnaissent que le Coran ne détaille pas le nombre de prières quotidiennes ni le nombre de génuflexions (rak'ât), mais affirment : « Nous n'avons pas besoin de Bukhârî : la prière nous a été transmise de génération en génération par la pratique vivante collective de la communauté musulmane, et non par des textes de hadiths. »",
         "verses": [],
@@ -1139,11 +1213,7 @@ window.I18N_DATA['de'] = {
         ],
         "finalText": "La transmission ininterrompue de la prière est la preuve vivante de la nécessité de la Sunna.",
         "punchline": "Pratique rituelle transmise = Sunna vivante (Tawâtur pratique)."
-      },
-      "id": 10,
-      "number": "10",
-      "slug": "10-priere-pratique-communautaire",
-      "pdfFile": "Comment_demasquer_et_refuter_la_secte_des_coranistes_Argument_10.pdf"
+      }
     }
   ],
   "preface": {
