@@ -1,23 +1,102 @@
 /**
  * Module d'Internationalisation (i18n) - Réfutation du Coranisme
  * Support exhaustif de 13 langues : FR, AR, ARY, EN, ES, DE, IT, PT, UR, TA, PS, KU, CE
- * Gestion du sens de lecture LTR / RTL, persistance et mise à jour DOM dynamique complète.
+ * Drapeaux vectoriels SVG haute fidélité pour un rendu parfait sur TOUS les systèmes (Windows, Mac, Linux, iOS, Android).
+ * Gestion LTR / RTL, persistance et mise à jour DOM dynamique complète.
  */
 
 const I18N_LANGUAGES = [
-  { code: 'fr', name: 'Français', native: 'Français', flag: '🇫🇷', dir: 'ltr' },
-  { code: 'ar', name: 'Arabe', native: 'العربية', flag: '🇸🇦', dir: 'rtl' },
-  { code: 'ary', name: 'Darija', native: 'الدارجة المغربية', flag: '🇲🇦', dir: 'rtl' },
-  { code: 'en', name: 'English', native: 'English', flag: '🇬🇧', dir: 'ltr' },
-  { code: 'es', name: 'Espagnol', native: 'Español', flag: '🇪🇸', dir: 'ltr' },
-  { code: 'de', name: 'Allemand', native: 'Deutsch', flag: '🇩🇪', dir: 'ltr' },
-  { code: 'it', name: 'Italien', native: 'Italiano', flag: '🇮🇹', dir: 'ltr' },
-  { code: 'pt', name: 'Portugais', native: 'Português', flag: '🇵🇹', dir: 'ltr' },
-  { code: 'ur', name: 'Ourdou', native: 'اردو', flag: '🇵🇰', dir: 'rtl' },
-  { code: 'ta', name: 'Tamoul', native: 'தமிழ்', flag: '🇮🇳', dir: 'ltr' },
-  { code: 'ps', name: 'Pachto', native: 'پښتو', flag: '🇦🇫', dir: 'rtl' },
-  { code: 'ku', name: 'Kurde', native: 'Kurdî', flag: '☀️', dir: 'ltr' },
-  { code: 'ce', name: 'Tchétchène', native: 'Нохчийн', flag: '🟢', dir: 'ltr' }
+  { 
+    code: 'fr', 
+    name: 'Français', 
+    native: 'Français', 
+    flagSvg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" class="flag-icon"><g fill-rule="evenodd" stroke-width="1pt"><path fill="#fff" d="M0 0h640v480H0z"/><path fill="#00267f" d="M0 0h213.3v480H0z"/><path fill="#f31830" d="M426.7 0H640v480H426.7z"/></g></svg>`,
+    dir: 'ltr' 
+  },
+  { 
+    code: 'ar', 
+    name: 'Arabe', 
+    native: 'العربية', 
+    flagSvg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" class="flag-icon"><path fill="#006c35" d="M0 0h640v480H0z"/><path fill="#fff" d="M140 280h360v20H140zm220-40c-25 0-45-18-45-40s20-40 45-40 45 18 45 40-20 40-45 40z"/><path fill="#fff" d="M220 310l200-5-20 20-180-15z"/></svg>`,
+    dir: 'rtl' 
+  },
+  { 
+    code: 'ary', 
+    name: 'Darija', 
+    native: 'الدارجة المغربية', 
+    flagSvg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" class="flag-icon"><path fill="#c1272d" d="M0 0h640v480H0z"/><path fill="none" stroke="#006233" stroke-width="22" stroke-linejoin="round" d="m320 150 40 120-100-75h120l-100 75z"/></svg>`,
+    dir: 'rtl' 
+  },
+  { 
+    code: 'en', 
+    name: 'English', 
+    native: 'English', 
+    flagSvg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" class="flag-icon"><path fill="#012169" d="M0 0h640v480H0z"/><path fill="#fff" d="m75 0 245 180L565 0h75v50L440 200l200 150v50h-75L320 220 75 400H0v-50l200-150L0 50V0h75z"/><path fill="#c8102e" d="m424 280 216 160v40L370 280h54zM640 0v10L420 175h-50L640 0zM0 480v-10l220-165h50L0 480zm0-480 270 200h-54L0 40V0z"/><path fill="#fff" d="M240 0h160v480H240zM0 160h640v160H0z"/><path fill="#c8102e" d="M267 0h106v480H267zM0 187h640v106H0z"/></svg>`,
+    dir: 'ltr' 
+  },
+  { 
+    code: 'es', 
+    name: 'Espagnol', 
+    native: 'Español', 
+    flagSvg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" class="flag-icon"><path fill="#aa151b" d="M0 0h640v480H0z"/><path fill="#f1bf00" d="M0 120h640v240H0z"/><rect x="150" y="190" width="40" height="55" rx="10" fill="#aa151b"/><circle cx="170" cy="180" r="12" fill="#aa151b"/></svg>`,
+    dir: 'ltr' 
+  },
+  { 
+    code: 'de', 
+    name: 'Allemand', 
+    native: 'Deutsch', 
+    flagSvg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" class="flag-icon"><path fill="#ffce00" d="M0 320h640v160H0z"/><path fill="#000" d="M0 0h640v160H0z"/><path fill="#d00" d="M0 160h640v160H0z"/></svg>`,
+    dir: 'ltr' 
+  },
+  { 
+    code: 'it', 
+    name: 'Italien', 
+    native: 'Italiano', 
+    flagSvg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" class="flag-icon"><path fill="#009246" d="M0 0h213.3v480H0z"/><path fill="#fff" d="M213.3 0h213.4v480H213.3z"/><path fill="#ce2b37" d="M426.7 0H640v480H426.7z"/></svg>`,
+    dir: 'ltr' 
+  },
+  { 
+    code: 'pt', 
+    name: 'Portugais', 
+    native: 'Português', 
+    flagSvg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" class="flag-icon"><path fill="#ff0000" d="M240 0h400v480H240z"/><path fill="#006600" d="M0 0h240v480H0z"/><circle cx="240" cy="240" r="60" fill="#ffff00"/><circle cx="240" cy="240" r="45" fill="#ffffff"/><rect x="230" y="210" width="20" height="30" fill="#00267f"/></svg>`,
+    dir: 'ltr' 
+  },
+  { 
+    code: 'ur', 
+    name: 'Ourdou', 
+    native: 'اردو', 
+    flagSvg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" class="flag-icon"><path fill="#01411c" d="M160 0h480v480H160z"/><path fill="#fff" d="M0 0h160v480H0z"/><path fill="#fff" d="M410 160a90 90 0 1 0 70 145 75 75 0 1 1-70-145zm55 35 15 45 45-15-30 35 30 35-45-15-15 45-15-45-45 15 30-35-30-35 45 15z"/></svg>`,
+    dir: 'rtl' 
+  },
+  { 
+    code: 'ta', 
+    name: 'Tamoul', 
+    native: 'தமிழ்', 
+    flagSvg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" class="flag-icon"><path fill="#f93" d="M0 0h640v160H0z"/><path fill="#fff" d="M0 160h640v160H0z"/><path fill="#128807" d="M0 320h640v160H0z"/><circle cx="320" cy="240" r="45" fill="none" stroke="#000080" stroke-width="8"/><circle cx="320" cy="240" r="10" fill="#000080"/></svg>`,
+    dir: 'ltr' 
+  },
+  { 
+    code: 'ps', 
+    name: 'Pachto', 
+    native: 'پښتو', 
+    flagSvg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" class="flag-icon"><path fill="#000" d="M0 0h213.3v480H0z"/><path fill="#d32011" d="M213.3 0h213.4v480H213.3z"/><path fill="#007a3d" d="M426.7 0H640v480H426.7z"/><circle cx="320" cy="240" r="50" fill="none" stroke="#fff" stroke-width="10"/><path fill="#fff" d="M300 220h40v40h-40z"/></svg>`,
+    dir: 'rtl' 
+  },
+  { 
+    code: 'ku', 
+    name: 'Kurde', 
+    native: 'Kurdî', 
+    flagSvg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" class="flag-icon"><path fill="#e4312b" d="M0 0h640v160H0z"/><path fill="#fff" d="M0 160h640v160H0z"/><path fill="#149e49" d="M0 320h640v160H0z"/><circle cx="320" cy="240" r="55" fill="#fec10d"/><g stroke="#fec10d" stroke-width="8"><line x1="320" y1="155" x2="320" y2="325"/><line x1="235" y1="240" x2="405" y2="240"/><line x1="260" y1="180" x2="380" y2="300"/><line x1="260" y1="300" x2="380" y2="180"/></g></svg>`,
+    dir: 'ltr' 
+  },
+  { 
+    code: 'ce', 
+    name: 'Tchétchène', 
+    native: 'Нохчийн', 
+    flagSvg: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" class="flag-icon"><path fill="#169b43" d="M0 0h640v280H0z"/><path fill="#fff" d="M0 280h640v40H0z"/><path fill="#d9241b" d="M0 320h640v160H0z"/><path fill="#fff" d="M0 0h100v480H0z"/><circle cx="50" cy="240" r="30" fill="#d4af37"/></svg>`,
+    dir: 'ltr' 
+  }
 ];
 
 window.CURRENT_LANG = 'fr';
@@ -47,7 +126,7 @@ function renderLanguageSwitchers() {
   if (topbarMenu) {
     topbarMenu.innerHTML = I18N_LANGUAGES.map(l => `
       <button class="lang-dropdown-item ${l.code === window.CURRENT_LANG ? 'active' : ''}" data-lang="${l.code}">
-        <span class="lang-flag">${l.flag}</span>
+        <span class="lang-flag">${l.flagSvg}</span>
         <span class="lang-name">${l.native}</span>
         <span class="lang-code-badge">${l.code.toUpperCase()}</span>
       </button>
@@ -140,10 +219,10 @@ function applyLanguage(langConfig, notify) {
   document.documentElement.lang = code;
   document.documentElement.dir = langConfig.dir;
 
-  // Mise à jour du libellé du bouton trigger dans la topbar
+  // Mise à jour du drapeau SVG et du libellé dans le bouton de la topbar
   const currentFlag = document.querySelector('.lang-flag-current');
   const currentName = document.querySelector('.lang-name-current');
-  if (currentFlag) currentFlag.textContent = langConfig.flag;
+  if (currentFlag) currentFlag.innerHTML = langConfig.flagSvg;
   if (currentName) currentName.textContent = langConfig.native;
 
   // Mise à jour de l'état actif dans les sélecteurs
@@ -172,7 +251,7 @@ function applyLanguage(langConfig, notify) {
 
   // Notification Toast facultative
   if (notify && typeof showToast === 'function') {
-    showToast(`${langConfig.flag} ${langConfig.native}`);
+    showToast(`${langConfig.native}`);
   }
 }
 
