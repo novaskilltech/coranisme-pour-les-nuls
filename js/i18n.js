@@ -689,6 +689,138 @@ function updateStaticDOM(ui) {
       dlVal.textContent = window.LAST_DOWNLOAD_COUNT.toLocaleString(activeLocale);
     } catch (e) {}
   }
+
+  // ==========================================
+  // LANDING PAGE SHOWCASE & CARTES 3D
+  // ==========================================
+  const landingTagManual = document.getElementById('landing-tag-manual');
+  if (landingTagManual && (ui.landingTagManual || ui.heroTag1)) {
+    landingTagManual.textContent = ui.landingTagManual || ui.heroTag1;
+  }
+
+  const landingTagSadaqa = document.getElementById('landing-tag-sadaqa');
+  if (landingTagSadaqa && (ui.landingTagSadaqa || ui.heroTag2 || ui.sidebarSadaqaHeader)) {
+    landingTagSadaqa.textContent = ui.landingTagSadaqa || ui.heroTag2 || ui.sidebarSadaqaHeader;
+  }
+
+  const landingTitleMain = document.getElementById('landing-title-main');
+  if (landingTitleMain && (ui.landingTitleMain || ui.brandTitle)) {
+    landingTitleMain.textContent = ui.landingTitleMain || ui.brandTitle;
+  }
+
+  const landingTitleSub = document.getElementById('landing-title-sub');
+  if (landingTitleSub && (ui.landingTitleSub || ui.brandSubtitle)) {
+    landingTitleSub.textContent = ui.landingTitleSub || ui.brandSubtitle;
+  }
+
+  const landingAuthorLabel = document.querySelector('.landing-author-badge .author-badge-label');
+  if (landingAuthorLabel && (ui.landingAuthorBadgeLabel || ui.labelAuthor)) {
+    landingAuthorLabel.textContent = ui.landingAuthorBadgeLabel || ui.labelAuthor;
+  }
+
+  const landingAuthorName = document.querySelector('.landing-author-badge .author-badge-name');
+  if (landingAuthorName && (ui.landingAuthorName || ui.authorName)) {
+    landingAuthorName.textContent = ui.landingAuthorName || ui.authorName;
+  }
+
+  const landingHeroDesc = document.getElementById('landing-hero-desc');
+  if (landingHeroDesc && (ui.landingHeroDesc || ui.heroDesc)) {
+    landingHeroDesc.textContent = ui.landingHeroDesc || ui.heroDesc;
+  }
+
+  const btnStartReading = document.getElementById('btn-start-reading');
+  if (btnStartReading && (ui.btnStartReading || ui.heroBtnArg1)) {
+    btnStartReading.textContent = ui.btnStartReading || ui.heroBtnArg1;
+  }
+
+  const btnDlLanding = document.getElementById('btn-dl-landing');
+  if (btnDlLanding && (ui.btnDlLanding || ui.modalBookDownloadBtn || ui.sidebarBookDl)) {
+    btnDlLanding.textContent = ui.btnDlLanding || ui.modalBookDownloadBtn || ui.sidebarBookDl;
+  }
+
+  const btnPreview3D = document.getElementById('btn-preview-3d');
+  if (btnPreview3D && (ui.btnPreview3D || ui.sidebarBook3D)) {
+    btnPreview3D.textContent = ui.btnPreview3D || ui.sidebarBook3D;
+  }
+
+  const btnSearchLanding = document.getElementById('btn-search-landing');
+  if (btnSearchLanding && (ui.btnSearchLanding || ui.searchBtn)) {
+    btnSearchLanding.textContent = ui.btnSearchLanding || ui.searchBtn;
+  }
+
+  const landingRibbon = document.querySelector('.landing-book-badge-ribbon');
+  if (landingRibbon && (ui.landingBookRibbon || ui.sidebarBookPromoBadge)) {
+    landingRibbon.textContent = ui.landingBookRibbon || ui.sidebarBookPromoBadge;
+  }
+
+  const btnRotate3D = document.querySelector('.btn-book-quick-action');
+  if (btnRotate3D && ui.btnRotate3D) {
+    btnRotate3D.innerHTML = `<span>🔄</span> ${ui.btnRotate3D}`;
+  }
+
+  const btnDlPdfQuick = document.querySelector('.btn-book-quick-dl');
+  if (btnDlPdfQuick && (ui.btnDlPdf || ui.sidebarBookDl)) {
+    btnDlPdfQuick.innerHTML = `<span>📥</span> ${ui.btnDlPdf || ui.sidebarBookDl}`;
+  }
+
+  // Stats Labels
+  const statLabels = document.querySelectorAll('.landing-stat-item .stat-label');
+  if (statLabels && statLabels.length >= 4) {
+    if (ui.landingStatArgsLabel) statLabels[0].textContent = ui.landingStatArgsLabel;
+    if (ui.landingStatSophismsLabel) statLabels[1].textContent = ui.landingStatSophismsLabel;
+    if (ui.landingStatDlLabel) statLabels[2].textContent = ui.landingStatDlLabel;
+    if (ui.landingStatLangsLabel) statLabels[3].textContent = ui.landingStatLangsLabel;
+  }
+
+  // Section 4 Piliers
+  const featTitle = document.querySelector('.landing-features-title');
+  if (featTitle && ui.landingFeaturesTitle) featTitle.textContent = ui.landingFeaturesTitle;
+
+  const featSubtitle = document.querySelector('.landing-features-subtitle');
+  if (featSubtitle && ui.landingFeaturesSubtitle) featSubtitle.textContent = ui.landingFeaturesSubtitle;
+
+  const card3dList = document.querySelectorAll('.landing-card-3d');
+  if (card3dList && card3dList.length >= 4) {
+    // Carte 1
+    const c1Title = card3dList[0].querySelector('.card-3d-title');
+    const c1Desc = card3dList[0].querySelector('.card-3d-desc');
+    const c1Act = card3dList[0].querySelector('.card-3d-action');
+    const c1Tag = card3dList[0].querySelector('.card-3d-tag');
+    if (c1Title && ui.card1Title) c1Title.textContent = ui.card1Title;
+    if (c1Desc && ui.card1Desc) c1Desc.textContent = ui.card1Desc;
+    if (c1Act && ui.card1Action) c1Act.textContent = ui.card1Action;
+    if (c1Tag && ui.card1Tag) c1Tag.textContent = ui.card1Tag;
+
+    // Carte 2
+    const c2Title = card3dList[1].querySelector('.card-3d-title');
+    const c2Desc = card3dList[1].querySelector('.card-3d-desc');
+    const c2Act = card3dList[1].querySelector('.card-3d-action');
+    const c2Tag = card3dList[1].querySelector('.card-3d-tag');
+    if (c2Title && ui.card2Title) c2Title.textContent = ui.card2Title;
+    if (c2Desc && ui.card2Desc) c2Desc.textContent = ui.card2Desc;
+    if (c2Act && ui.card2Action) c2Act.textContent = ui.card2Action;
+    if (c2Tag && ui.card2Tag) c2Tag.textContent = ui.card2Tag;
+
+    // Carte 3
+    const c3Title = card3dList[2].querySelector('.card-3d-title');
+    const c3Desc = card3dList[2].querySelector('.card-3d-desc');
+    const c3Act = card3dList[2].querySelector('.card-3d-action');
+    const c3Tag = card3dList[2].querySelector('.card-3d-tag');
+    if (c3Title && ui.card3Title) c3Title.textContent = ui.card3Title;
+    if (c3Desc && ui.card3Desc) c3Desc.textContent = ui.card3Desc;
+    if (c3Act && ui.card3Action) c3Act.textContent = ui.card3Action;
+    if (c3Tag && ui.card3Tag) c3Tag.textContent = ui.card3Tag;
+
+    // Carte 4
+    const c4Title = card3dList[3].querySelector('.card-3d-title');
+    const c4Desc = card3dList[3].querySelector('.card-3d-desc');
+    const c4Act = card3dList[3].querySelector('.card-3d-action');
+    const c4Tag = card3dList[3].querySelector('.card-3d-tag');
+    if (c4Title && ui.card4Title) c4Title.textContent = ui.card4Title;
+    if (c4Desc && ui.card4Desc) c4Desc.textContent = ui.card4Desc;
+    if (c4Act && ui.card4Action) c4Act.textContent = ui.card4Action;
+    if (c4Tag && ui.card4Tag) c4Tag.textContent = ui.card4Tag;
+  }
 }
 
 // Initialisation dès que le DOM est prêt

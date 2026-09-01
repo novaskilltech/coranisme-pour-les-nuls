@@ -104,7 +104,23 @@ LANG_CODES.forEach(code => {
   // 7. Canonical & Hreflang
   localizedHtml = localizedHtml.replace(/<link rel="canonical" href=".*?">/i, `<link rel="canonical" href="${canonicalUrl}">\n${hreflangTags}`);
 
-  // 8. Injection du script de démarrage spécifique à la langue
+  // 8. Pré-rendu statique des éléments de la Landing Page
+  if (ui.landingTagManual) localizedHtml = localizedHtml.replace(/<span id="landing-tag-manual">.*?<\/span>/, `<span id="landing-tag-manual">${ui.landingTagManual}</span>`);
+  if (ui.landingTagSadaqa) localizedHtml = localizedHtml.replace(/<span id="landing-tag-sadaqa">.*?<\/span>/, `<span id="landing-tag-sadaqa">${ui.landingTagSadaqa}</span>`);
+  if (ui.landingTitleMain) localizedHtml = localizedHtml.replace(/<span class="landing-title-main" id="landing-title-main">.*?<\/span>/, `<span class="landing-title-main" id="landing-title-main">${ui.landingTitleMain}</span>`);
+  if (ui.landingTitleSub) localizedHtml = localizedHtml.replace(/<span class="landing-title-highlight" id="landing-title-sub">.*?<\/span>/, `<span class="landing-title-highlight" id="landing-title-sub">${ui.landingTitleSub}</span>`);
+  if (ui.landingAuthorBadgeLabel) localizedHtml = localizedHtml.replace(/<div class="author-badge-label">.*?<\/div>/, `<div class="author-badge-label">${ui.landingAuthorBadgeLabel}</div>`);
+  if (ui.landingAuthorName) localizedHtml = localizedHtml.replace(/<div class="author-badge-name">.*?<\/div>/, `<div class="author-badge-name">${ui.landingAuthorName}</div>`);
+  if (ui.landingHeroDesc) localizedHtml = localizedHtml.replace(/<p class="landing-description" id="landing-hero-desc">[\s\S]*?<\/p>/, `<p class="landing-description" id="landing-hero-desc">${ui.landingHeroDesc}</p>`);
+  if (ui.btnStartReading) localizedHtml = localizedHtml.replace(/<span id="btn-start-reading">.*?<\/span>/, `<span id="btn-start-reading">${ui.btnStartReading}</span>`);
+  if (ui.btnDlLanding) localizedHtml = localizedHtml.replace(/<span id="btn-dl-landing">.*?<\/span>/, `<span id="btn-dl-landing">${ui.btnDlLanding}</span>`);
+  if (ui.btnPreview3D) localizedHtml = localizedHtml.replace(/<span id="btn-preview-3d">.*?<\/span>/, `<span id="btn-preview-3d">${ui.btnPreview3D}</span>`);
+  if (ui.btnSearchLanding) localizedHtml = localizedHtml.replace(/<span id="btn-search-landing">.*?<\/span>/, `<span id="btn-search-landing">${ui.btnSearchLanding}</span>`);
+  if (ui.landingBookRibbon) localizedHtml = localizedHtml.replace(/<div class="landing-book-badge-ribbon">.*?<\/div>/, `<div class="landing-book-badge-ribbon">${ui.landingBookRibbon}</div>`);
+  if (ui.landingFeaturesTitle) localizedHtml = localizedHtml.replace(/<h2 class="landing-features-title">.*?<\/h2>/, `<h2 class="landing-features-title">${ui.landingFeaturesTitle}</h2>`);
+  if (ui.landingFeaturesSubtitle) localizedHtml = localizedHtml.replace(/<p class="landing-features-subtitle">.*?<\/p>/, `<p class="landing-features-subtitle">${ui.landingFeaturesSubtitle}</p>`);
+
+  // 9. Injection du script de démarrage spécifique à la langue
   const initScript = `
   <!-- Initialisation directe dans la langue ${code.toUpperCase()} -->
   <script>
