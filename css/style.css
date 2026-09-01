@@ -167,9 +167,23 @@ img, svg {
   display: inline;
 }
 
-@media (max-width: 720px) {
+.mobile-only-text {
+  display: none;
+}
+
+.desktop-only-btn {
+  display: flex !important;
+}
+
+@media (max-width: 768px) {
   .desktop-only-text {
-    display: none;
+    display: none !important;
+  }
+  .mobile-only-text {
+    display: inline !important;
+  }
+  .desktop-only-btn {
+    display: none !important;
   }
 }
 
@@ -368,6 +382,94 @@ img, svg {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+/* Encart Promo Livre dans la Sidebar / Drawer Mobile */
+.sidebar-book-promo-box {
+  background: linear-gradient(135deg, #1e293b, #0f172a);
+  border: 2px solid #fed100;
+  margin: 0.75rem 0.75rem 0.5rem;
+  padding: 0.85rem;
+  border-radius: var(--radius-md);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  color: #f8fafc;
+}
+
+.sidebar-book-promo-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.35rem;
+}
+
+.sidebar-book-promo-badge {
+  background: #065f46;
+  color: #34d399;
+  font-size: 0.7rem;
+  font-weight: 800;
+  padding: 0.15rem 0.5rem;
+  border-radius: 9999px;
+  letter-spacing: 0.5px;
+}
+
+.sidebar-book-promo-title {
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  font-weight: 900;
+  color: #fed100;
+  margin-bottom: 0.15rem;
+}
+
+.sidebar-book-promo-author {
+  font-size: 0.75rem;
+  color: #94a3b8;
+  margin-bottom: 0.65rem;
+}
+
+.sidebar-book-promo-actions {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.btn-sidebar-book-dl {
+  flex: 1.2;
+  background: #fed100;
+  color: #0f172a !important;
+  font-weight: 800;
+  font-size: 0.78rem;
+  padding: 0.45rem 0.5rem;
+  border-radius: var(--radius-sm);
+  text-align: center;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  transition: all 0.15s ease;
+  box-shadow: 0 2px 6px rgba(254, 209, 0, 0.3);
+}
+
+.btn-sidebar-book-dl:hover {
+  background: #ffe04d;
+  transform: translateY(-1px);
+}
+
+.btn-sidebar-book-3d {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fed100;
+  border: 1px solid rgba(254, 209, 0, 0.4);
+  font-weight: 700;
+  font-size: 0.75rem;
+  padding: 0.45rem 0.5rem;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.btn-sidebar-book-3d:hover {
+  background: rgba(254, 209, 0, 0.2);
+  border-color: #fed100;
 }
 
 .sidebar-sadaqa-box {
@@ -3488,22 +3590,29 @@ html[dir="rtl"] .callout-retenir {
 .book-promo-modal-card {
   max-width: 920px !important;
   width: 95% !important;
+  max-height: 90vh !important;
   background: radial-gradient(circle at top, #1e293b 0%, #0b0f19 100%) !important;
   color: #f8fafc !important;
   border: 2px solid #fed100 !important;
   border-radius: var(--radius-lg);
   box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.8), 0 0 40px rgba(254, 209, 0, 0.15) !important;
   padding: 0;
-  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto !important;
+  -webkit-overflow-scrolling: touch;
 }
 
 .book-promo-header {
-  background: rgba(15, 23, 42, 0.85);
+  background: rgba(15, 23, 42, 0.95);
   border-bottom: 1px solid rgba(254, 209, 0, 0.25);
   padding: 1rem 1.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 .book-promo-header h3 {
@@ -3767,24 +3876,74 @@ html[dir="rtl"] .callout-retenir {
 }
 
 @media (max-width: 768px) {
+  .book-promo-modal-card {
+    max-height: 92vh !important;
+    width: 96% !important;
+    border-radius: 12px;
+  }
+  .book-promo-header {
+    padding: 0.75rem 1rem;
+  }
+  .book-promo-header h3 {
+    font-size: 0.95rem;
+  }
   .book-promo-grid {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    padding: 1rem 1rem 1.5rem;
+  }
+  .book-3d-stage {
+    padding: 0.25rem 0;
   }
   .book-3d-wrapper {
-    width: 180px;
-    height: 265px;
+    width: 140px;
+    height: 205px;
+  }
+  .book-3d-controls {
+    margin-top: 0.65rem;
+  }
+  .btn-book-flip {
+    font-size: 0.75rem;
+    padding: 0.35rem 0.75rem;
+  }
+  .book-promo-details {
+    gap: 0.75rem;
   }
   .book-promo-title {
-    font-size: 1.45rem;
+    font-size: 1.35rem;
+  }
+  .book-promo-title span {
+    font-size: 0.9rem;
+    line-height: 1.35;
+  }
+  .book-promo-desc {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    padding: 0.6rem 0.75rem;
+  }
+  .book-promo-meta {
+    gap: 0.4rem;
+    font-size: 0.78rem;
+  }
+  .book-promo-meta span {
+    padding: 0.2rem 0.5rem;
+  }
+  .book-promo-actions {
+    flex-direction: column;
+    gap: 0.65rem;
+    margin-top: 0.5rem;
+    width: 100%;
   }
   .btn-book-download {
     width: 100%;
     justify-content: center;
+    padding: 0.85rem 1.25rem;
+    font-size: 1rem;
   }
   .btn-book-dismiss {
     width: 100%;
     text-align: center;
+    padding: 0.75rem 1rem;
   }
 }

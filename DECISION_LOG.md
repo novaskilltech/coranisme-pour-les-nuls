@@ -134,6 +134,27 @@ Ce projet constitue la plateforme interactive officielle du manuel de réfutatio
 
 ---
 
+### 📱 Décision 10 : Optimisation Mobile du Téléchargement du Livre & Affichage Header / Drawer
+- **Diagnostic** :
+  1. *Modale / Pop-up Promo sur Mobile* : Sur petits écrans, le composant 3D et le texte dépassaient la hauteur de vue (`max-height: 85vh` avec `overflow: hidden`), masquant ainsi le bouton CTA doré de téléchargement PDF sans possibilité de défilement tactile.
+  2. *Header & Barre de navigation sur Mobile* : Le libellé textuel du bouton dans le header était masqué par `.desktop-only-text` et les multiples icônes encombraient l'en-tête mobile. De plus, le menu latéral (Drawer hamburger ☰) ne comportait pas d'accès direct au livre.
+- **Actions correctives appliquées** :
+  - **Défilement & Responsive Modale 3D** :
+    - Activation du défilement tactile fluide sur la carte (`overflow-y: auto !important`, `-webkit-overflow-scrolling: touch`, `max-height: 90vh`).
+    - Adaptation responsive des dimensions du livre 3D (140x205px sur mobile) et réorganisation en colonne avec boutons d'action pleine largeur et sticky header.
+    - Ajout des attributs `target="_blank" rel="noopener"` et `download` pour compatibilité native tout navigateur mobile (iOS Safari, Android Chrome, etc.).
+  - **Bouton Topbar & Header Mobile** :
+    - Introduction de la classe `.mobile-only-text` affichant explicitement *"Livre PDF"* sur mobile à côté de l'icône 📖.
+    - Masquage automatique des actions secondaires non critiques en mobile (`.desktop-only-btn`) pour garder une topbar aérée et focalisée.
+  - **Encart Dédié dans le Menu Drawer Mobile** :
+    - Intégration d'un bloc promo permanent en haut du sommaire mobile avec deux boutons : *« 📥 Télécharger PDF »* (téléchargement direct) et *« ✨ Aperçu 3D »* (réouverture du livre 3D).
+- **Fichiers impactés** :
+  - [`index.html`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/index.html)
+  - [`css/style.css`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/css/style.css)
+  - [`DECISION_LOG.md`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/DECISION_LOG.md)
+
+---
+
 ## 3. INVENTAIRE DES FICHIERS DU PROJET
 
 | Répertoire / Fichier | Rôle & Contenu |

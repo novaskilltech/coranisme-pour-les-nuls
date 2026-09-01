@@ -283,23 +283,24 @@
         <button class="btn-action-topbar btn-book-promo-topbar" data-action="open-modal" data-modal-id="book-promo-modal" title="Découvrir le livre 'Le Coraniste Repenti'">
           <span>📖</span>
           <span class="desktop-only-text">Livre Offert (PDF)</span>
+          <span class="mobile-only-text">Livre PDF</span>
         </button>
         <button class="btn-search-trigger" data-action="open-search" title="Rechercher (Ctrl+K)">
           <span>🔍</span>
           <span class="desktop-only-text">Rechercher</span>
         </button>
 
-        <button class="btn-action-topbar" data-action="open-portal" title="Relire l'avertissement d'Al-Barbahari">
+        <button class="btn-action-topbar desktop-only-btn" data-action="open-portal" title="Relire l'avertissement d'Al-Barbahari">
           <span>📜</span>
           <span class="desktop-only-text">Al-Barbahârî</span>
         </button>
 
-        <button class="btn-action-topbar" data-action="open-modal" data-modal-id="contact-modal" title="Contacter l'auteur">
+        <button class="btn-action-topbar desktop-only-btn" data-action="open-modal" data-modal-id="contact-modal" title="Contacter l'auteur">
           <span>✉️</span>
           <span class="desktop-only-text">Contact</span>
         </button>
 
-        <button class="btn-action-topbar sadaqa-pill-btn" data-action="open-modal" data-modal-id="legal-modal" title="Conditions de diffusion et partage">
+        <button class="btn-action-topbar sadaqa-pill-btn desktop-only-btn" data-action="open-modal" data-modal-id="legal-modal" title="Conditions de diffusion et partage">
           <span>🌿</span>
           <span class="desktop-only-text">Partage & Licence</span>
         </button>
@@ -324,6 +325,23 @@
         <div style="display: flex; align-items: center; gap: 0.5rem;">
           <span class="sidebar-count">12 rubriques</span>
           <button class="btn-close-drawer-mobile" data-action="toggle-drawer" data-drawer-state="false" aria-label="Fermer le menu">✕</button>
+        </div>
+      </div>
+
+      <!-- ENCART PROMO LIVRE MOBILE / SIDEBAR -->
+      <div class="sidebar-book-promo-box">
+        <div class="sidebar-book-promo-header">
+          <span class="sidebar-book-promo-badge">✨ LIVRE OFFERT (PDF)</span>
+        </div>
+        <div class="sidebar-book-promo-title">Le Coraniste Repenti</div>
+        <div class="sidebar-book-promo-author">Par Salah Eddine Ahmed</div>
+        <div class="sidebar-book-promo-actions">
+          <a href="LE_CORANISTE_REPENTI_EDITION_FINALE.pdf" download="LE_CORANISTE_REPENTI_EDITION_FINALE.pdf" class="btn-sidebar-book-dl" target="_blank" rel="noopener">
+            📥 Télécharger PDF
+          </a>
+          <button class="btn-sidebar-book-3d" data-action="open-modal" data-modal-id="book-promo-modal">
+            ✨ Aperçu 3D
+          </button>
         </div>
       </div>
 
@@ -1580,7 +1598,7 @@
             <span>🎁 Accès 100% Libre & Gratuit</span>
           </div>
           <div class="book-promo-actions">
-            <a href="LE_CORANISTE_REPENTI_EDITION_FINALE.pdf" download="LE_CORANISTE_REPENTI_EDITION_FINALE.pdf" class="btn-book-download" id="btn-download-book">
+            <a href="LE_CORANISTE_REPENTI_EDITION_FINALE.pdf" download="LE_CORANISTE_REPENTI_EDITION_FINALE.pdf" class="btn-book-download" id="btn-download-book" target="_blank" rel="noopener">
               📥 Télécharger le livre (PDF)
             </a>
             <button class="btn-book-dismiss" data-action="close-modal" data-modal-id="book-promo-modal">
