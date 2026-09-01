@@ -83,16 +83,23 @@ LANG_CODES.forEach(code => {
   // 4. Mise à jour des balises Meta Description
   localizedHtml = localizedHtml.replace(/<meta name="description" content=".*?">/i, `<meta name="description" content="${desc.replace(/"/g, '&quot;')}">`);
 
+  const ogImageUrl = `https://anti-coranisme.novaskill.tech/assets/og-image-${code}.jpg`;
+
   // 5. Mise à jour des balises Open Graph
   localizedHtml = localizedHtml.replace(/<meta property="og:site_name" content=".*?">/i, `<meta property="og:site_name" content="${siteName.replace(/"/g, '&quot;')}">`);
   localizedHtml = localizedHtml.replace(/<meta property="og:title" content=".*?">/i, `<meta property="og:title" content="${title.replace(/"/g, '&quot;')}">`);
   localizedHtml = localizedHtml.replace(/<meta property="og:description" content=".*?">/i, `<meta property="og:description" content="${desc.replace(/"/g, '&quot;')}">`);
   localizedHtml = localizedHtml.replace(/<meta property="og:url" content=".*?">/i, `<meta property="og:url" content="${canonicalUrl}">`);
   localizedHtml = localizedHtml.replace(/<meta property="og:locale" content=".*?">/i, `<meta property="og:locale" content="${locale}">`);
+  localizedHtml = localizedHtml.replace(/<meta property="og:image" content=".*?">/i, `<meta property="og:image" content="${ogImageUrl}">`);
+  localizedHtml = localizedHtml.replace(/<meta property="og:image:secure_url" content=".*?">/i, `<meta property="og:image:secure_url" content="${ogImageUrl}">`);
   
-  // 6. Mise à jour des balises Twitter
+  // 6. Mise à jour des balises Twitter & Microdata
   localizedHtml = localizedHtml.replace(/<meta name="twitter:title" content=".*?">/i, `<meta name="twitter:title" content="${title.replace(/"/g, '&quot;')}">`);
   localizedHtml = localizedHtml.replace(/<meta name="twitter:description" content=".*?">/i, `<meta name="twitter:description" content="${desc.replace(/"/g, '&quot;')}">`);
+  localizedHtml = localizedHtml.replace(/<meta name="twitter:image" content=".*?">/i, `<meta name="twitter:image" content="${ogImageUrl}">`);
+  localizedHtml = localizedHtml.replace(/<meta itemprop="image" content=".*?">/i, `<meta itemprop="image" content="${ogImageUrl}">`);
+  localizedHtml = localizedHtml.replace(/<link rel="image_src" href=".*?">/i, `<link rel="image_src" href="${ogImageUrl}">`);
 
   // 7. Canonical & Hreflang
   localizedHtml = localizedHtml.replace(/<link rel="canonical" href=".*?">/i, `<link rel="canonical" href="${canonicalUrl}">\n${hreflangTags}`);

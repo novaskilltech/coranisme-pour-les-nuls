@@ -194,6 +194,33 @@ Ce projet constitue la plateforme interactive officielle du manuel de réfutatio
   - [`js/i18n.js`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/js/i18n.js)
   - [`js/app.js`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/js/app.js)
   - [`sitemap.xml`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/sitemap.xml)
+---
+
+### 🎨 Décision 13 : Génération des Vignettes Graphiques Open Graph Dédiées par Langue (1200×675 HD)
+- **Besoin** : L'image d'aperçu social partagée sur WhatsApp, Telegram, Twitter, Facebook et LinkedIn s'affichait avec le visuel français universel. Le besoin est d'avoir une **bannière visuelle traduite** dans la langue ciblée (arabe, allemand, anglais, etc.) affichant le titre, le sous-titre, les badges et le drapeau dans la langue du destinataire.
+- **Actions appliquées** :
+  - **Génération Haute Fidélité via Headless Chrome** ([`scripts/generate_all_og_images.cjs`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/scripts/generate_all_og_images.cjs)) :
+    - Création de 13 bannières au ratio 16:9 standard (1200×675 px) au format JPEG optimisé dans [`assets/`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/assets/) :
+      - `assets/og-image-fr.jpg` (Français)
+      - `assets/og-image-ar.jpg` (Arabe)
+      - `assets/og-image-ary.jpg` (Darija)
+      - `assets/og-image-en.jpg` (Anglais)
+      - `assets/og-image-es.jpg` (Espagnol)
+      - `assets/og-image-de.jpg` (Allemand)
+      - `assets/og-image-it.jpg` (Italien)
+      - `assets/og-image-pt.jpg` (Portugais)
+      - `assets/og-image-ur.jpg` (Ourdou)
+      - `assets/og-image-ta.jpg` (Tamoul)
+      - `assets/og-image-ps.jpg` (Pachto)
+      - `assets/og-image-ku.jpg` (Kurde)
+      - `assets/og-image-ce.jpg` (Tchétchène)
+    - Typographie native adaptée (Noto Naskh Arabic, Noto Nastaliq Urdu, Noto Sans Tamil, Cinzel & Outfit), livre 3D avec perspective, drapeau national et badges traduits.
+  - **Liaison dans les balises d'en-tête** ([`scripts/build_localized_index_pages.cjs`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/scripts/build_localized_index_pages.cjs)) :
+    - Chaque page `/lang/index.html` pointe précisément vers son image dédiée `https://anti-coranisme.novaskill.tech/assets/og-image-${code}.jpg` via `og:image`, `og:image:secure_url`, `twitter:image` et `itemprop="image"`.
+- **Fichiers impactés** :
+  - `assets/og-image-*.jpg` (13 images générées)
+  - `fr/index.html`, `ar/index.html`, `de/index.html`, `en/index.html`, etc.
+  - [`scripts/generate_all_og_images.cjs`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/scripts/generate_all_og_images.cjs)
   - [`scripts/build_localized_index_pages.cjs`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/scripts/build_localized_index_pages.cjs)
   - [`DECISION_LOG.md`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/DECISION_LOG.md)
 
