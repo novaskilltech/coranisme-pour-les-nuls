@@ -109,18 +109,45 @@ Ce projet constitue la plateforme interactive officielle du manuel de réfutatio
 
 ---
 
+### 📖 Décision 9 : Intégration du Livre 3D « Le Coraniste Repenti » & Téléchargement Direct (PDF)
+- **Besoin** : Mettre en valeur l'ouvrage de témoignage spirituel et pédagogique *« Le Coraniste Repenti »* par Salah Eddine Ahmed avec une vitrine immersive 3D, accessible à l'ouverture après le choix de langue et via la navigation permanente.
+- **Modifications techniques & architecturales** :
+  - **Composant Modal 3D Interactif** (`#book-promo-modal`) :
+    - Rendu 3D avec perspective matérielle accélérée (`perspective: 1200px`, `transform-style: preserve-3d`).
+    - Animation d'avancement, de recul et de lévitation fluide (`@keyframes bookFloat`).
+    - Parallax Tilt dynamique au survol de la souris (`mousemove` / `mouseleave`).
+    - Fonctionnalité de retournement interactif Recto / Verso (`data-action="flip-book"`) pour consulter la 4e de couverture et le résumé.
+  - **Téléchargement direct du PDF** :
+    - Lien et bouton CTA dorés pointant vers [`LE_CORANISTE_REPENTI_EDITION_FINALE.pdf`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/LE_CORANISTE_REPENTI_EDITION_FINALE.pdf) (Haute définition, 6.8 Mo).
+  - **Points d'accès permanents** :
+    - Bouton doré dans la Topbar (`.btn-book-promo-topbar`) : *"📖 Livre Offert (PDF)"*.
+    - Bouton d'action dans la section d'accueil Héros (`#home-hero`).
+  - **Déclenchement intelligent & respect UX** :
+    - Affichage temporisé (450ms) après validation du portail de langue (`closeLangGateway`) ou au chargement direct si la langue est déjà mémorisée.
+    - Mémorisation de consultation (`sessionStorage.getItem('has_seen_book_promo_v1')`) pour éviter les réaffichages intempestifs.
+  - **Conformité de sécurité & CSP** : Zéro code inline non autorisé, utilisation stricte de la délégation d'événements existante.
+- **Fichiers impactés** :
+  - [`index.html`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/index.html)
+  - [`css/style.css`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/css/style.css)
+  - [`js/app.js`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/js/app.js)
+  - Assets : [`couverture livre.png`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/couverture%20livre.png), [`arriere livre.png`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/arriere%20livre.png), [`LE_CORANISTE_REPENTI_EDITION_FINALE.pdf`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/LE_CORANISTE_REPENTI_EDITION_FINALE.pdf).
+
+---
+
 ## 3. INVENTAIRE DES FICHIERS DU PROJET
 
 | Répertoire / Fichier | Rôle & Contenu |
 | :--- | :--- |
-| [`index.html`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/index.html) | Structure principale, Passerelle de langue (`#lang-gateway`), Modales de recherche, contact, mentions légales, partage et Al-Barbahârî. |
-| [`css/style.css`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/css/style.css) | Système de design complet (charte « Pour les Nuls » jaune/noir, composants modulaires, responsive mobile, support RTL, animations). |
-| [`js/app.js`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/js/app.js) | Logique applicative : routeur SPA hash (`#arg-1`, `#boite-a-outils`, etc.), rendu dynamique des fiches, quiz interactifs, recherche plein texte, gestion des modales. |
+| [`index.html`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/index.html) | Structure principale, Passerelle de langue (`#lang-gateway`), Modale 3D Promo du livre (`#book-promo-modal`), Modales de recherche, contact, mentions légales, partage et Al-Barbahârî. |
+| [`css/style.css`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/css/style.css) | Système de design complet (charte « Pour les Nuls » jaune/noir, composants modulaires, rendu 3D du livre avec perspective et rotation, responsive mobile, support RTL, animations). |
+| [`js/app.js`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/js/app.js) | Logique applicative : routeur SPA hash, contrôleur 3D parallax tilt du livre, gestion de session promo, rendu dynamique des fiches, quiz interactifs, recherche plein texte, gestion des modales. |
 | [`js/i18n.js`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/js/i18n.js) | Moteur d'internationalisation : sélecteur de langue, bascule dynamique LTR/RTL, mise à jour en temps réel du DOM statique (`updateStaticDOM`). |
 | [`js/translations/*.js`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/js/translations/) | 13 packs de dictionnaires complets (`fr.js`, `ar.js`, `en.js`, `es.js`, `it.js`, `pt.js`, `de.js`, `ur.js`, `ta.js`, `ary.js`, `ps.js`, `ku.js`, `ce.js`). |
+| [`LE_CORANISTE_REPENTI_EDITION_FINALE.pdf`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/LE_CORANISTE_REPENTI_EDITION_FINALE.pdf) | Édition finale complète et téléchargeable du livre *Le Coraniste Repenti*. |
+| [`couverture livre.png`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/couverture%20livre.png) / [`arriere livre.png`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/arriere%20livre.png) | Visuels graphiques HD pour le composant interactif 3D Recto / Verso. |
 | [`api/counter.js`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/api/counter.js) | API Serverless Vercel de comptage anonyme des visites avec protection anti-spam. |
 | [`vercel.json`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/vercel.json) | Configuration de déploiement Vercel, règles de réécriture SPA et en-têtes HTTP de sécurité. |
-| [`scripts/`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/scripts/) | Scripts d'automatisation, compilateurs de langues et outils d'audit linguistique (`check_zero_english_leakage.cjs`, `enrich_all_ui_keys.cjs`). |
+| [`scripts/`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/scripts/) | Scripts d'automatisation, compilateurs de langues et outils d'audit linguistique (`check_zero_english_leakage.cjs`, `integrate_book_promo.mjs`). |
 | [`pdf/`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/pdf/) | 10 fascicules PDF originaux des arguments + PDF de la boîte à outils des sophismes. |
 
 ---
@@ -129,13 +156,15 @@ Ce projet constitue la plateforme interactive officielle du manuel de réfutatio
 
 | Composant / Exigence | Statut | Commentaire de validation |
 | :--- | :---: | :--- |
+| **Livre 3D « Le Coraniste Repenti »** | ✅ OK | Rendu 3D avec perspective CSS, flip Recto/Verso, tilt dynamique souris/tactile, téléchargement direct du PDF HD. |
 | **10 Arguments Réfutés** | ✅ OK | Contenu doctrinal complet, citations coraniques arabes vérifiées, analogies et réfutations. |
 | **Boîte à Outils Sophismes** | ✅ OK | 10 sophismes interactifs, 4 réflexes, quiz pratique et badges interconnectés. |
 | **Pureté Linguistique (13 langues)** | ✅ OK | Zéro fuite d'anglais ou de français détectée sur l'ensemble des 13 langues (Audit 100%). |
 | **Affichage Drapeaux (Windows/Mac/Mobile)** | ✅ OK | Drapeaux vectoriels SVG intégrés, résolution complète des glyphes manquants. |
 | **Support RTL (Arabe, Ourdou, Darija, Pachto)** | ✅ OK | Inversion automatique des directions, polices adaptées (Noto Naskh, Noto Nastaliq). |
-| **Sécurité & Confidentialité RGPD** | ✅ OK | Zéro cookie publicitaire, hachage IP anonymisé, en-têtes CSP stricts. |
-| **Déploiement Production** | ✅ OK | En ligne sur `https://anti-coranisme.novaskill.tech` (Vercel Production). |
+| **Sécurité & Confidentialité RGPD** | ✅ OK | Zéro cookie publicitaire, hachage IP anonymisé, en-têtes CSP stricts sans inline vulns. |
+| **Déploiement Production** | ✅ OK | En ligne sur `https://anti-coranisme.novaskill.tech` (Synchronisé GitHub & Vercel). |
 
 ---
 *Document généré et maintenu par NOVA SQUAD pour l'ouvrage de Salah Eddine Ahmed (Abou Soulaymane).*
+
