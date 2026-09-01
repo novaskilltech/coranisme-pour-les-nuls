@@ -1,10 +1,9 @@
 /**
- * TRADUCTION OFFICIELLE (FRANÇAIS - Français)
- * Manuel de réfutation méthodique du coranisme — Par Salah Eddine Ahmed (Abou Soulaymane)
+ * Pack de Langue : Français (FR) - Français
+ * Traduction Exhaustive et Intégrale (UI, Préface, Intro, 10 Arguments, Boîte à Outils des Sophismes, Modales)
  */
-
 window.I18N_DATA = window.I18N_DATA || {};
-window.I18N_DATA["fr"] = {
+window.I18N_DATA['fr'] = {
   "code": "fr",
   "name": "Français",
   "native": "Français",
@@ -180,7 +179,10 @@ window.I18N_DATA["fr"] = {
     "footerVisitsPrivacy": "100% Anonyme • RGPD",
     "footerVisitsTooltip": "Compteur de visites anonymisé et respectueux de la vie privée (RGPD - 0 cookie)",
     "navPreface": "Préface de l'Auteur",
-    "navIntro": "Qui sont les coranistes ?"
+    "navIntro": "Qui sont les coranistes ?",
+    "footerDownloadsLabel": "Téléchargements du livre :",
+    "footerDownloadsBookTag": "Livre Offert (PDF)",
+    "footerDownloadsTooltip": "Compteur de téléchargements du livre 'Le Coraniste Repenti' (Édition PDF HD)"
   },
   "arguments": [
     {

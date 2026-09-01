@@ -1,10 +1,9 @@
 /**
- * TRADUCTION OFFICIELLE (OURDOU - اردو)
- * Manuel de réfutation méthodique du coranisme — Par Salah Eddine Ahmed (Abou Soulaymane)
+ * Pack de Langue : Ourdou (UR) - اردو
+ * Traduction Exhaustive et Intégrale (UI, Préface, Intro, 10 Arguments, Boîte à Outils des Sophismes, Modales)
  */
-
 window.I18N_DATA = window.I18N_DATA || {};
-window.I18N_DATA["ur"] = {
+window.I18N_DATA['ur'] = {
   "code": "ur",
   "name": "Ourdou",
   "native": "اردو",
@@ -180,7 +179,10 @@ window.I18N_DATA["ur"] = {
     "footerVisitsPrivacy": "١٠٠٪ گمنام • محفوظ",
     "footerVisitsTooltip": "پرائیویسی دوست گمنام وزیٹر کاؤنٹر (بغیر کوکیز)",
     "navPreface": "مصنف کا دیباچہ",
-    "navIntro": "قرآنی کون ہیں؟"
+    "navIntro": "قرآنی کون ہیں؟",
+    "footerDownloadsLabel": "کتاب کی ڈاؤن لوڈز :",
+    "footerDownloadsBookTag": "مفت کتاب (PDF)",
+    "footerDownloadsTooltip": "کتاب «تائب قرآنی» کے کل پی ڈی ایف ڈاؤن لوڈز"
   },
   "arguments": [
     {

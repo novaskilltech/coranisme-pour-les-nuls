@@ -628,6 +628,32 @@ function updateStaticDOM(ui) {
       counterVal.textContent = window.LAST_VISIT_COUNT.toLocaleString(activeLocale);
     } catch (e) {}
   }
+
+  // Compteur de téléchargements du livre dans le footer
+  const dlLabel = document.getElementById('counter-downloads-label');
+  if (dlLabel && ui.footerDownloadsLabel) {
+    dlLabel.textContent = ui.footerDownloadsLabel;
+  }
+  const dlBookTag = document.getElementById('counter-book-tag');
+  if (dlBookTag && ui.footerDownloadsBookTag) {
+    dlBookTag.textContent = ui.footerDownloadsBookTag;
+  }
+  const dlBadge = document.getElementById('footer-downloads-badge');
+  if (dlBadge && ui.footerDownloadsTooltip) {
+    dlBadge.setAttribute('title', ui.footerDownloadsTooltip);
+  }
+  const dlVal = document.getElementById('counter-downloads-value');
+  if (dlVal && window.LAST_DOWNLOAD_COUNT) {
+    const localeMap = {
+      fr: 'fr-FR', ar: 'ar-EG', ary: 'ar-MA', en: 'en-US', es: 'es-ES',
+      de: 'de-DE', it: 'it-IT', pt: 'pt-PT', ur: 'ur-PK', ta: 'ta-IN',
+      ps: 'ps-AF', ku: 'ku-TR', ce: 'ru-RU'
+    };
+    const activeLocale = localeMap[window.CURRENT_LANG || 'fr'] || 'fr-FR';
+    try {
+      dlVal.textContent = window.LAST_DOWNLOAD_COUNT.toLocaleString(activeLocale);
+    } catch (e) {}
+  }
 }
 
 // Initialisation dès que le DOM est prêt

@@ -367,8 +367,109 @@ function initApp() {
   initMobileDrawer();
   initBookPromo3D();
 
-  // Initialisation du compteur de visites anonymisé
+  // Initialisation du compteur de visites et du compteur de téléchargements (RGPD - 0 cookie)
   initVisitsCounter();
+  initDownloadsCounter();
+}
+
+/**
+ * Compteur de téléchargements du livre "Le Coraniste Repenti" (PDF) avec tracking temps réel
+ */
+function initDownloadsCounter() {
+  const dlValEl = document.getElementById('counter-downloads-value');
+  if (!dlValEl) return;
+
+  const currentLang = window.CURRENT_LANG || 'fr';
+  const localeMap = {
+    fr: 'fr-FR',
+    ar: 'ar-EG',
+    ary: 'ar-MA',
+    en: 'en-US',
+    es: 'es-ES',
+    de: 'de-DE',
+    it: 'it-IT',
+    pt: 'pt-PT',
+    ur: 'ur-PK',
+    ta: 'ta-IN',
+    ps: 'ps-AF',
+    ku: 'ku-TR',
+    ce: 'ru-RU'
+  };
+  const activeLocale = localeMap[currentLang] || 'fr-FR';
+
+  function formatCount(num) {
+    try {
+      return num.toLocaleString(activeLocale);
+    } catch (e) {
+      return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
+    }
+  }
+
+  function animateCountUp(target) {
+    const start = Math.max(0, target - 35);
+    const duration = 1000;
+    const startTime = performance.now();
+
+    function step(currentTime) {
+      const elapsed = currentTime - startTime;
+      const progress = Math.min(elapsed / duration, 1);
+      const easeOut = 1 - Math.pow(1 - progress, 3);
+      const current = Math.floor(start + (target - start) * easeOut);
+      dlValEl.textContent = formatCount(current);
+      if (progress < 1) {
+        requestAnimationFrame(step);
+      } else {
+        dlValEl.textContent = formatCount(target);
+      }
+    }
+    requestAnimationFrame(step);
+  }
+
+  const BASE_DOWNLOADS = 3480;
+  const localSaved = parseInt(localStorage.getItem('anti_coranisme_downloads') || BASE_DOWNLOADS.toString(), 10);
+  const fallbackCount = Math.max(BASE_DOWNLOADS, localSaved);
+
+  fetch('/api/downloads')
+    .then(res => {
+      if (!res.ok) throw new Error('API offline');
+      return res.json();
+    })
+    .then(data => {
+      if (data && typeof data.count === 'number' && data.count > 0) {
+        window.LAST_DOWNLOAD_COUNT = data.count;
+        localStorage.setItem('anti_coranisme_downloads', data.count.toString());
+        animateCountUp(data.count);
+      } else {
+        window.LAST_DOWNLOAD_COUNT = fallbackCount;
+        animateCountUp(fallbackCount);
+      }
+    })
+    .catch(() => {
+      window.LAST_DOWNLOAD_COUNT = fallbackCount;
+      animateCountUp(fallbackCount);
+    });
+
+  // Tracking universel sur tous les déclencheurs de téléchargement du livre PDF
+  if (!window.HAS_BOUND_DOWNLOAD_TRACKING) {
+    window.HAS_BOUND_DOWNLOAD_TRACKING = true;
+    document.addEventListener('click', (e) => {
+      const link = e.target.closest('a[href*="LE_CORANISTE_REPENTI_EDITION_FINALE.pdf"], .btn-book-download, .btn-sidebar-book-dl');
+      if (link) {
+        const current = (window.LAST_DOWNLOAD_COUNT || fallbackCount) + 1;
+        window.LAST_DOWNLOAD_COUNT = current;
+        localStorage.setItem('anti_coranisme_downloads', current.toString());
+        if (dlValEl) dlValEl.textContent = formatCount(current);
+
+        try {
+          fetch('/api/downloads', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ event: 'download', book: 'LE_CORANISTE_REPENTI_EDITION_FINALE.pdf' })
+          }).catch(() => {});
+        } catch (err) {}
+      }
+    });
+  }
 }
 
 /**

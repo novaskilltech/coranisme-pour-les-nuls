@@ -1,10 +1,9 @@
 /**
- * TRADUCTION OFFICIELLE (TAMOUL - தமிழ்)
- * Manuel de réfutation méthodique du coranisme — Par Salah Eddine Ahmed (Abou Soulaymane)
+ * Pack de Langue : Tamoul (TA) - தமிழ்
+ * Traduction Exhaustive et Intégrale (UI, Préface, Intro, 10 Arguments, Boîte à Outils des Sophismes, Modales)
  */
-
 window.I18N_DATA = window.I18N_DATA || {};
-window.I18N_DATA["ta"] = {
+window.I18N_DATA['ta'] = {
   "code": "ta",
   "name": "Tamoul",
   "native": "தமிழ்",
@@ -180,7 +179,10 @@ window.I18N_DATA["ta"] = {
     "footerVisitsPrivacy": "100% அநாமதேய • GDPR",
     "footerVisitsTooltip": "தனியுரிமைக்கு மதிப்பளிக்கும் பார்வையாளர் எண்ணிக்கை",
     "navPreface": "ஆசிரியரின் முன்னுரை",
-    "navIntro": "குர்ஆனிஸ்ட்டுகள் யார்?"
+    "navIntro": "குர்ஆனிஸ்ட்டுகள் யார்?",
+    "footerDownloadsLabel": "நூல் பதிவிறக்கங்கள்:",
+    "footerDownloadsBookTag": "இலவச நூல் (PDF)",
+    "footerDownloadsTooltip": "'மனந்திரும்பிய குர்ஆனிஸ்ட்' நூல் பதிவிறக்கங்களின் எண்ணிக்கை"
   },
   "arguments": [
     {

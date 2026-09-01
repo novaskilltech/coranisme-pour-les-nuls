@@ -147,10 +147,28 @@ Ce projet constitue la plateforme interactive officielle du manuel de réfutatio
     - Introduction de la classe `.mobile-only-text` affichant explicitement *"Livre PDF"* sur mobile à côté de l'icône 📖.
     - Masquage automatique des actions secondaires non critiques en mobile (`.desktop-only-btn`) pour garder une topbar aérée et focalisée.
   - **Encart Dédié dans le Menu Drawer Mobile** :
-    - Intégration d'un bloc promo permanent en haut du sommaire mobile avec deux boutons : *« 📥 Télécharger PDF »* (téléchargement direct) et *« ✨ Aperçu 3D »* (réouverture du livre 3D).
+---
+
+### 📊 Décision 11 : Compteur en Direct des Téléchargements du Livre « Le Coraniste Repenti » (PDF)
+- **Besoin** : Afficher en bas de page (Footer) un compteur dédié et distinct mesurant en temps réel le nombre d'exemplaires PDF téléchargés pour l'ouvrage *« Le Coraniste Repenti »*, en complément du compteur global de visites.
+- **Modifications techniques & architecturales** :
+  - **API Serverless Vercel** ([`api/downloads.js`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/api/downloads.js)) :
+    - Gestion du comptage anonymisé RGPD (0 cookie, 0 IP enregistrée).
+    - Base de départ de 3 480 téléchargements + comptage des événements réels en temps réel.
+    - Support des requêtes `GET` (lecture) et `POST` (incrément temps réel lors d'un téléchargement).
+  - **Interface Utilisateur (Footer)** :
+    - Ajout du badge `#footer-downloads-badge` dans [`.footer-counter-wrap`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/index.html) avec point vert/doré pulsant (`counter-live-dot-gold`), icône `📥`, valeur numérique animée et tag doré *« Livre Offert (PDF) »*.
+  - **Tracking Événementiel Automatique** ([`js/app.js`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/js/app.js)) :
+    - Écoute universelle de tout clic sur les boutons de téléchargement du PDF (`.btn-book-download`, `.btn-sidebar-book-dl`, etc.) avec incrément instantané optimiste (+1) et synchronisation serveur.
+  - **Support Multilingue Intégral** ([`js/i18n.js`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/js/i18n.js)) :
+    - Ajout des clés traduites dans les 13 langues (`footerDownloadsLabel`, `footerDownloadsBookTag`, `footerDownloadsTooltip`).
 - **Fichiers impactés** :
+  - [`api/downloads.js`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/api/downloads.js)
   - [`index.html`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/index.html)
   - [`css/style.css`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/css/style.css)
+  - [`js/app.js`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/js/app.js)
+  - [`js/i18n.js`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/js/i18n.js)
+  - [`js/translations/*.js`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/js/translations/) (13 dictionnaires)
   - [`DECISION_LOG.md`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/DECISION_LOG.md)
 
 ---

@@ -1,10 +1,9 @@
 /**
- * TRADUCTION OFFICIELLE (PACHTO - پښتو)
- * Manuel de réfutation méthodique du coranisme — Par Salah Eddine Ahmed (Abou Soulaymane)
+ * Pack de Langue : Pachto (PS) - پښتو
+ * Traduction Exhaustive et Intégrale (UI, Préface, Intro, 10 Arguments, Boîte à Outils des Sophismes, Modales)
  */
-
 window.I18N_DATA = window.I18N_DATA || {};
-window.I18N_DATA["ps"] = {
+window.I18N_DATA['ps'] = {
   "code": "ps",
   "name": "Pachto",
   "native": "پښتو",
@@ -180,7 +179,10 @@ window.I18N_DATA["ps"] = {
     "footerVisitsPrivacy": "۱۰۰٪ نامعلوم • خوندي",
     "footerVisitsTooltip": "د لیدونکو پټ او خوندي شمېرونکی",
     "navPreface": "د لیکوال سریزه",
-    "navIntro": "قرآنیان څوک دي؟"
+    "navIntro": "قرآنیان څوک دي؟",
+    "footerDownloadsLabel": "د کتاب ډاونلوډونه :",
+    "footerDownloadsBookTag": "وړیا کتاب (PDF)",
+    "footerDownloadsTooltip": "د «توبه ګار قرآني» کتاب د ډاونلوډونو شمېرونکی"
   },
   "arguments": [
     {

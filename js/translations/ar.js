@@ -1,10 +1,9 @@
 /**
- * TRADUCTION OFFICIELLE (ARABE - العربية)
- * Manuel de réfutation méthodique du coranisme — Par Salah Eddine Ahmed (Abou Soulaymane)
+ * Pack de Langue : Arabe (AR) - العربية
+ * Traduction Exhaustive et Intégrale (UI, Préface, Intro, 10 Arguments, Boîte à Outils des Sophismes, Modales)
  */
-
 window.I18N_DATA = window.I18N_DATA || {};
-window.I18N_DATA["ar"] = {
+window.I18N_DATA['ar'] = {
   "code": "ar",
   "name": "Arabe",
   "native": "العربية",
@@ -180,7 +179,10 @@ window.I18N_DATA["ar"] = {
     "footerVisitsPrivacy": "مجهول ١٠٠٪ • آمن",
     "footerVisitsTooltip": "عداد زيارات مجهول الهوية يحترم الخصوصية تماماً (صفر كوكيز)",
     "navPreface": "مقدمة المؤلف",
-    "navIntro": "من هم القرآنيون ؟"
+    "navIntro": "من هم القرآنيون ؟",
+    "footerDownloadsLabel": "تحميلات الكتاب :",
+    "footerDownloadsBookTag": "كتاب مجاني (PDF)",
+    "footerDownloadsTooltip": "إجمالي مرات تحميل كتاب «القرآني التائب» بصيغة PDF"
   },
   "arguments": [
     {

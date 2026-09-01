@@ -1,10 +1,9 @@
 /**
- * TRADUCTION OFFICIELLE (DARIJA - الدارجة المغربية)
- * Manuel de réfutation méthodique du coranisme — Par Salah Eddine Ahmed (Abou Soulaymane)
+ * Pack de Langue : Darija (ARY) - الدارجة المغربية
+ * Traduction Exhaustive et Intégrale (UI, Préface, Intro, 10 Arguments, Boîte à Outils des Sophismes, Modales)
  */
-
 window.I18N_DATA = window.I18N_DATA || {};
-window.I18N_DATA["ary"] = {
+window.I18N_DATA['ary'] = {
   "code": "ary",
   "name": "Darija",
   "native": "الدارجة المغربية",
@@ -180,7 +179,10 @@ window.I18N_DATA["ary"] = {
     "footerVisitsPrivacy": "مجهول 100% • خصوصية",
     "footerVisitsTooltip": "عداد زيارات كيحترم الخصوصية 100% بلا كوكيز",
     "navPreface": "مقدمة د الكاتب",
-    "navIntro": "شكون هوما القرآنيين ؟"
+    "navIntro": "شكون هوما القرآنيين ؟",
+    "footerDownloadsLabel": "تيليشارجومون د الكتاب :",
+    "footerDownloadsBookTag": "كتاب مجاني (PDF)",
+    "footerDownloadsTooltip": "عدد مرات تحميل كتاب «القرآني التائب» PDF"
   },
   "arguments": [
     {

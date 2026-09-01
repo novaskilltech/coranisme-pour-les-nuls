@@ -1,10 +1,9 @@
 /**
- * TRADUCTION OFFICIELLE (ENGLISH - English)
- * Manuel de réfutation méthodique du coranisme — Par Salah Eddine Ahmed (Abou Soulaymane)
+ * Pack de Langue : English (EN) - English
+ * Traduction Exhaustive et Intégrale (UI, Préface, Intro, 10 Arguments, Boîte à Outils des Sophismes, Modales)
  */
-
 window.I18N_DATA = window.I18N_DATA || {};
-window.I18N_DATA["en"] = {
+window.I18N_DATA['en'] = {
   "code": "en",
   "name": "English",
   "native": "English",
@@ -180,7 +179,10 @@ window.I18N_DATA["en"] = {
     "footerVisitsPrivacy": "100% Anonymous • GDPR",
     "footerVisitsTooltip": "Privacy-friendly anonymous visit counter (GDPR compliant - 0 cookies)",
     "navPreface": "Author's Preface",
-    "navIntro": "Who are the Quranists?"
+    "navIntro": "Who are the Quranists?",
+    "footerDownloadsLabel": "Book Downloads:",
+    "footerDownloadsBookTag": "Free Book (PDF)",
+    "footerDownloadsTooltip": "Total downloads of the book 'The Repentant Quranist' (HD PDF Edition)"
   },
   "arguments": [
     {
