@@ -143,7 +143,7 @@
       </div>
 
       <div class="lang-gateway-grid">
-        <!-- 13 Cartes de langues interactives avec vrais drapeaux SVG -->
+        <!-- 11 cartes de langues publiées ; KU/CE restent en revue native. -->
         <button class="lang-gate-card" data-gate-lang="fr">
           <span class="gate-flag"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" class="flag-icon"><g fill-rule="evenodd" stroke-width="1pt"><path fill="#fff" d="M0 0h640v480H0z"/><path fill="#00267f" d="M0 0h213.3v480H0z"/><path fill="#f31830" d="M426.7 0H640v480H426.7z"/></g></svg></span>
           <div class="gate-text">
@@ -243,23 +243,6 @@
           <span class="gate-arrow">➔</span>
         </button>
 
-        <button class="lang-gate-card" data-gate-lang="ku">
-          <span class="gate-flag"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" class="flag-icon"><path fill="#e4312b" d="M0 0h640v160H0z"/><path fill="#fff" d="M0 160h640v160H0z"/><path fill="#149e49" d="M0 320h640v160H0z"/><circle cx="320" cy="240" r="55" fill="#fec10d"/><g stroke="#fec10d" stroke-width="8"><line x1="320" y1="155" x2="320" y2="325"/><line x1="235" y1="240" x2="405" y2="240"/><line x1="260" y1="180" x2="380" y2="300"/><line x1="260" y1="300" x2="380" y2="180"/></g></svg></span>
-          <div class="gate-text">
-            <span class="gate-native">Kurdî</span>
-            <span class="gate-code">KU • Kurdish</span>
-          </div>
-          <span class="gate-arrow">➔</span>
-        </button>
-
-        <button class="lang-gate-card" data-gate-lang="ce">
-          <span class="gate-flag"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" class="flag-icon"><path fill="#169b43" d="M0 0h640v280H0z"/><path fill="#fff" d="M0 280h640v40H0z"/><path fill="#d9241b" d="M0 320h640v160H0z"/><path fill="#fff" d="M0 0h100v480H0z"/><circle cx="50" cy="240" r="30" fill="#d4af37"/></svg></span>
-          <div class="gate-text">
-            <span class="gate-native">Нохчийн</span>
-            <span class="gate-code">CE • Chechen</span>
-          </div>
-          <span class="gate-arrow">➔</span>
-        </button>
       </div>
 
       <div class="lang-gateway-footer">
@@ -296,6 +279,11 @@
           </div>
         </div>
 
+        
+        <button class="btn-action-topbar btn-book-promo-topbar" data-action="open-modal" data-modal-id="book-promo-modal" title="Découvrir le livre 'Le Coraniste Repenti'">
+          <span>📖</span>
+          <span class="desktop-only-text">Livre Offert (PDF)</span>
+        </button>
         <button class="btn-search-trigger" data-action="open-search" title="Rechercher (Ctrl+K)">
           <span>🔍</span>
           <span class="desktop-only-text">Rechercher</span>
@@ -363,70 +351,70 @@
         </li>
 
         <li>
-          <a href="arguments/1-coran-complet.html" class="sidebar-nav-item" id="nav-item-1" data-id="1">
+          <a href="#arg-1" class="sidebar-nav-item" id="nav-item-1" data-id="1">
             <span class="sidebar-nav-num">01</span>
             <span class="sidebar-nav-title" title="Le Coran est complet et détaillé : pourquoi faudrait-il la Sunna ?">Le Coran est complet et détaillé</span>
           </a>
         </li>
 
         <li>
-          <a href="arguments/2-obeissance-messager.html" class="sidebar-nav-item" id="nav-item-2" data-id="2">
+          <a href="#arg-2" class="sidebar-nav-item" id="nav-item-2" data-id="2">
             <span class="sidebar-nav-num">02</span>
             <span class="sidebar-nav-title" title="Obéir au Messager signifie simplement obéir au Coran.">Obéir au Messager = Message ?</span>
           </a>
         </li>
 
         <li>
-          <a href="arguments/3-allah-seul-legifere.html" class="sidebar-nav-item" id="nav-item-3" data-id="3">
+          <a href="#arg-3" class="sidebar-nav-item" id="nav-item-3" data-id="3">
             <span class="sidebar-nav-num">03</span>
             <span class="sidebar-nav-title" title="Allah seul légifère / le jugement n’appartient qu’à Allah.">Allah seul légifère / Le jugement à Allah</span>
           </a>
         </li>
 
         <li>
-          <a href="arguments/4-mission-messager-transmettre.html" class="sidebar-nav-item" id="nav-item-4" data-id="4">
+          <a href="#arg-4" class="sidebar-nav-item" id="nav-item-4" data-id="4">
             <span class="sidebar-nav-num">04</span>
             <span class="sidebar-nav-title" title="Le Messager n’a pour mission que de transmettre le Coran.">Transmission = Récitation ?</span>
           </a>
         </li>
 
         <li>
-          <a href="arguments/5-preservation-coran-hadiths.html" class="sidebar-nav-item" id="nav-item-5" data-id="5">
+          <a href="#arg-5" class="sidebar-nav-item" id="nav-item-5" data-id="5">
             <span class="sidebar-nav-num">05</span>
             <span class="sidebar-nav-title" title="Allah a garanti la préservation du Coran, pas celle des hadiths.">Préservation Coran vs Hadiths</span>
           </a>
         </li>
 
         <li>
-          <a href="arguments/6-compilation-tardive-hadiths.html" class="sidebar-nav-item" id="nav-item-6" data-id="6">
+          <a href="#arg-6" class="sidebar-nav-item" id="nav-item-6" data-id="6">
             <span class="sidebar-nav-num">06</span>
             <span class="sidebar-nav-title" title="Les hadiths ont été compilés trop tard et ont subi des fabrications.">Compilation tardive des hadiths ?</span>
           </a>
         </li>
 
         <li>
-          <a href="arguments/7-interdiction-ecrire-paroles.html" class="sidebar-nav-item" id="nav-item-7" data-id="7">
+          <a href="#arg-7" class="sidebar-nav-item" id="nav-item-7" data-id="7">
             <span class="sidebar-nav-num">07</span>
             <span class="sidebar-nav-title" title="Le Prophète ﷺ a lui-même interdit d’écrire ses paroles.">Interdiction d'écrire les paroles prophétiques ?</span>
           </a>
         </li>
 
         <li>
-          <a href="arguments/8-coran-condamne-hadiths.html" class="sidebar-nav-item" id="nav-item-8" data-id="8">
+          <a href="#arg-8" class="sidebar-nav-item" id="nav-item-8" data-id="8">
             <span class="sidebar-nav-num">08</span>
             <span class="sidebar-nav-title" title="Le Coran condamne les “hadiths” autres que le Coran.">Le Coran condamne les Hadiths ?</span>
           </a>
         </li>
 
         <li>
-          <a href="arguments/9-corrections-divines.html" class="sidebar-nav-item" id="nav-item-9" data-id="9">
+          <a href="#arg-9" class="sidebar-nav-item" id="nav-item-9" data-id="9">
             <span class="sidebar-nav-num">09</span>
             <span class="sidebar-nav-title" title="Puisque le Coran rapporte des corrections divines adressées au Prophète ﷺ, ses paroles et décisions ne pourraient pas constituer une autorité religieuse.">Corrections divines & Encadrement de la mission</span>
           </a>
         </li>
 
         <li>
-          <a href="arguments/10-priere-pratique-communautaire.html" class="sidebar-nav-item" id="nav-item-10" data-id="10">
+          <a href="#arg-10" class="sidebar-nav-item" id="nav-item-10" data-id="10">
             <span class="sidebar-nav-num">10</span>
             <span class="sidebar-nav-title" title="La prière et les rites se transmettent par la pratique communautaire, pas par les hadiths.">La prière sans les hadiths ?</span>
           </a>
@@ -475,11 +463,15 @@
         Déconstruisez pas à pas les sophismes du coranisme avec rigueur logique, analogies pédagogiques, versets arabes vocalisés et réponses synthétiques en 30 secondes. Partage et diffusion libres à des fins d'étude et de défense de la vérité.
       </p>
       <div class="hero-actions">
-        <a href="arguments/1-coran-complet.html" class="btn-hero-primary">
+        <a href="#arg-1" class="btn-hero-primary">
           <span>🚀</span> Débuter par l'Argument 1
         </a>
         <button class="btn-hero-secondary" data-action="open-search">
           <span>🔍</span> Rechercher un sujet / verset
+        </button>
+        
+        <button class="btn-hero-secondary" data-action="open-modal" data-modal-id="book-promo-modal" style="background: linear-gradient(135deg, #1e293b, #0f172a); color: #fed100; border-color: #fed100;">
+          <span>📖</span> Télécharger le livre (PDF)
         </button>
         <button class="btn-hero-secondary" data-action="open-modal" data-modal-id="contact-modal">
           <span>✉️</span> Contacter l'auteur
@@ -1058,7 +1050,7 @@
             </div>
           </div>
           <div class="card-footer-actions">
-            <a href="arguments/1-coran-complet.html" class="btn-read-arg">
+            <a href="#arg-1" class="btn-read-arg">
               <span>Consulter la fiche</span> ➔
             </a>
             <div style="display: flex; gap: 0.35rem;">
@@ -1085,7 +1077,7 @@
             </div>
           </div>
           <div class="card-footer-actions">
-            <a href="arguments/2-obeissance-messager.html" class="btn-read-arg">
+            <a href="#arg-2" class="btn-read-arg">
               <span>Consulter la fiche</span> ➔
             </a>
             <div style="display: flex; gap: 0.35rem;">
@@ -1112,7 +1104,7 @@
             </div>
           </div>
           <div class="card-footer-actions">
-            <a href="arguments/3-allah-seul-legifere.html" class="btn-read-arg">
+            <a href="#arg-3" class="btn-read-arg">
               <span>Consulter la fiche</span> ➔
             </a>
             <div style="display: flex; gap: 0.35rem;">
@@ -1139,7 +1131,7 @@
             </div>
           </div>
           <div class="card-footer-actions">
-            <a href="arguments/4-mission-messager-transmettre.html" class="btn-read-arg">
+            <a href="#arg-4" class="btn-read-arg">
               <span>Consulter la fiche</span> ➔
             </a>
             <div style="display: flex; gap: 0.35rem;">
@@ -1166,7 +1158,7 @@
             </div>
           </div>
           <div class="card-footer-actions">
-            <a href="arguments/5-preservation-coran-hadiths.html" class="btn-read-arg">
+            <a href="#arg-5" class="btn-read-arg">
               <span>Consulter la fiche</span> ➔
             </a>
             <div style="display: flex; gap: 0.35rem;">
@@ -1193,7 +1185,7 @@
             </div>
           </div>
           <div class="card-footer-actions">
-            <a href="arguments/6-compilation-tardive-hadiths.html" class="btn-read-arg">
+            <a href="#arg-6" class="btn-read-arg">
               <span>Consulter la fiche</span> ➔
             </a>
             <div style="display: flex; gap: 0.35rem;">
@@ -1220,7 +1212,7 @@
             </div>
           </div>
           <div class="card-footer-actions">
-            <a href="arguments/7-interdiction-ecrire-paroles.html" class="btn-read-arg">
+            <a href="#arg-7" class="btn-read-arg">
               <span>Consulter la fiche</span> ➔
             </a>
             <div style="display: flex; gap: 0.35rem;">
@@ -1247,7 +1239,7 @@
             </div>
           </div>
           <div class="card-footer-actions">
-            <a href="arguments/8-coran-condamne-hadiths.html" class="btn-read-arg">
+            <a href="#arg-8" class="btn-read-arg">
               <span>Consulter la fiche</span> ➔
             </a>
             <div style="display: flex; gap: 0.35rem;">
@@ -1274,7 +1266,7 @@
             </div>
           </div>
           <div class="card-footer-actions">
-            <a href="arguments/9-corrections-divines.html" class="btn-read-arg">
+            <a href="#arg-9" class="btn-read-arg">
               <span>Consulter la fiche</span> ➔
             </a>
             <div style="display: flex; gap: 0.35rem;">
@@ -1301,7 +1293,7 @@
             </div>
           </div>
           <div class="card-footer-actions">
-            <a href="arguments/10-priere-pratique-communautaire.html" class="btn-read-arg">
+            <a href="#arg-10" class="btn-read-arg">
               <span>Consulter la fiche</span> ➔
             </a>
             <div style="display: flex; gap: 0.35rem;">
@@ -1545,6 +1537,61 @@
     </div>
   </div>
 
+
+  <!-- MODAL PROMO 3D : LE CORANISTE REPENTI -->
+  <div class="modal-backdrop" id="book-promo-modal" role="dialog" aria-modal="true" aria-labelledby="book-promo-title">
+    <div class="modal-card book-promo-modal-card">
+      <div class="book-promo-header">
+        <h3 id="book-promo-title">✨ NOUVEAU LIVRE — ÉDITION OFFICIELLE</h3>
+        <button class="btn-close-modal" data-action="close-modal" data-modal-id="book-promo-modal" aria-label="Fermer">✕</button>
+      </div>
+      <div class="book-promo-grid">
+        <!-- 3D INTERACTIVE BOOK -->
+        <div class="book-3d-stage">
+          <div class="book-3d-wrapper" id="book-3d-interactive" data-action="flip-book" title="Cliquer pour retourner le livre (Recto / Verso)">
+            <div class="book-3d-face book-3d-front">
+              <img src="couverture livre.png" alt="Couverture - Le Coraniste Repenti" loading="lazy" decoding="async">
+            </div>
+            <div class="book-3d-face book-3d-back">
+              <img src="arriere livre.png" alt="4ème de couverture - Le Coraniste Repenti" loading="lazy" decoding="async">
+            </div>
+          </div>
+          <div class="book-3d-controls">
+            <button class="btn-book-flip" data-action="flip-book">
+              🔄 Retourner le livre (4e de couverture)
+            </button>
+          </div>
+        </div>
+
+        <!-- DETAILS & ACTIONS -->
+        <div class="book-promo-details">
+          <div class="book-promo-badge">Témoignage Spirituel & Pédagogique</div>
+          <h2 class="book-promo-title">
+            LE CORANISTE REPENTI
+            <span>Comment un adepte du « Coran seul » a redécouvert la Sunna, le Messager ﷺ et le chemin du retour</span>
+          </h2>
+          <p class="book-promo-author">Par <strong>Salah Eddine Ahmed</strong></p>
+          <p class="book-promo-desc">
+            Ce livre suit le cheminement d’un ancien coraniste fictif qui raconte, étape après étape, comment il a redécouvert la place du Messager d’Allah ﷺ, la fonction de la Sunna et la nécessité d’une recherche sincère, humble et méthodique. Un récit sur l’égarement, la remise en question, le retour et la miséricorde.
+          </p>
+          <div class="book-promo-meta">
+            <span>📄 Format PDF Complet</span>
+            <span>⚡ Haute Résolution</span>
+            <span>🎁 Accès 100% Libre & Gratuit</span>
+          </div>
+          <div class="book-promo-actions">
+            <a href="LE_CORANISTE_REPENTI_EDITION_FINALE.pdf" download="LE_CORANISTE_REPENTI_EDITION_FINALE.pdf" class="btn-book-download" id="btn-download-book">
+              📥 Télécharger le livre (PDF)
+            </a>
+            <button class="btn-book-dismiss" data-action="close-modal" data-modal-id="book-promo-modal">
+              Continuer vers le site
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- TOAST NOTIFICATION -->
   <div class="toast-notification" id="app-toast"></div>
 
@@ -1608,7 +1655,8 @@
   <!-- SCRIPTS -->
   <script src="js/data.js?v=2.5"></script>
   <script src="js/translations/fr.js?v=2.5"></script>
-  <script src="js/i18n.js?v=2.5"></script>
+  <script src="js/locale-config.js?v=1"></script>
+  <script src="js/i18n.js?v=2.6"></script>
   <script src="js/app.js?v=2.5"></script>
 </body>
 </html>

@@ -1,6 +1,6 @@
 /**
  * Module d'Internationalisation (i18n) - Réfutation du Coranisme
- * Support exhaustif de 13 langues : FR, AR, ARY, EN, ES, DE, IT, PT, UR, TA, PS, KU, CE
+ * 11 langues sont publiées ; KU et CE restent en attente de relecture native.
  * Drapeaux vectoriels SVG haute fidélité pour un rendu parfait sur TOUS les systèmes (Windows, Mac, Linux, iOS, Android).
  * Gestion LTR / RTL, persistance et mise à jour DOM dynamique complète.
  */
@@ -99,8 +99,16 @@ const I18N_LANGUAGES = [
   }
 ];
 
-window.CURRENT_LANG = 'fr';
+const LOCALE_POLICY = window.I18N_LOCALE_POLICY || {
+  defaultLocale: 'fr',
+  enabledLocales: ['fr', 'ar', 'ary', 'en', 'es', 'de', 'it', 'pt', 'ur', 'ta', 'ps'],
+  pendingLocales: ['ku', 'ce']
+};
+const ENABLED_I18N_LANGUAGES = I18N_LANGUAGES.filter(language => LOCALE_POLICY.enabledLocales.includes(language.code));
+
+window.CURRENT_LANG = LOCALE_POLICY.defaultLocale;
 window.I18N_DATA = window.I18N_DATA || {};
+let languageRequestId = 0;
 
 /**
  * Initialisation du module i18n
@@ -113,7 +121,7 @@ function initI18n() {
   const savedLang = localStorage.getItem('refutation_lang');
   const browserLang = (navigator.language || navigator.userLanguage || 'fr').split('-')[0].toLowerCase();
   
-  const initialLang = savedLang || (I18N_LANGUAGES.some(l => l.code === browserLang) ? browserLang : 'fr');
+  const initialLang = savedLang || (LOCALE_POLICY.enabledLocales.includes(browserLang) ? browserLang : LOCALE_POLICY.defaultLocale);
   
   setLanguage(initialLang, false);
 
@@ -141,7 +149,7 @@ function initI18n() {
 function renderLanguageSwitchers() {
   const topbarMenu = document.getElementById('lang-dropdown-menu');
   if (topbarMenu) {
-    topbarMenu.innerHTML = I18N_LANGUAGES.map(l => `
+    topbarMenu.innerHTML = ENABLED_I18N_LANGUAGES.map(l => `
       <button class="lang-dropdown-item ${l.code === window.CURRENT_LANG ? 'active' : ''}" data-lang="${l.code}">
         <span class="lang-flag">${l.flagSvg}</span>
         <span class="lang-name">${l.native}</span>
@@ -208,13 +216,18 @@ function bindLangEvents() {
  * Changement de langue avec chargement dynamique et mise à jour du DOM
  */
 function setLanguage(langCode, notify = true) {
-  const langConfig = I18N_LANGUAGES.find(l => l.code === langCode) || I18N_LANGUAGES[0];
+  // A stale URL, localStorage value or programmatic request for KU/CE resolves
+  // to the default published locale and never loads a pending pack.
+  const langConfig = ENABLED_I18N_LANGUAGES.find(l => l.code === langCode)
+    || ENABLED_I18N_LANGUAGES.find(l => l.code === LOCALE_POLICY.defaultLocale)
+    || ENABLED_I18N_LANGUAGES[0];
   const actualCode = langConfig.code;
+  const requestId = ++languageRequestId;
 
   // Charger le fichier de traduction s'il n'est pas encore en mémoire
   if (!window.I18N_DATA[actualCode]) {
     loadLangScript(actualCode, () => {
-      applyLanguage(langConfig, notify);
+      if (requestId === languageRequestId) applyLanguage(langConfig, notify);
     });
   } else {
     applyLanguage(langConfig, notify);
@@ -232,7 +245,8 @@ function loadLangScript(code, callback) {
   };
   script.onerror = () => {
     console.error(`Erreur de chargement de la langue : ${code}`);
-    if (code !== 'fr') setLanguage('fr', false);
+    // Keep the currently rendered locale: a failed request must not reveal
+    // French content after the user selected another language.
   };
   document.body.appendChild(script);
 }
@@ -270,6 +284,7 @@ function applyLanguage(langConfig, notify) {
 
   // Mettre à jour les textes d'interface statiques
   updateStaticDOM(langPack.ui);
+  updateLocalizedMetadata(langPack.ui, langConfig);
 
   // Réactualiser la navigation latérale et la vue courante
   if (typeof renderSidebarNav === 'function') {
@@ -289,6 +304,37 @@ function applyLanguage(langConfig, notify) {
   if (notify && typeof showToast === 'function') {
     showToast(`${langConfig.native}`);
   }
+}
+
+function updateLocalizedMetadata(ui, langConfig) {
+  const localeMap = { fr: 'fr_FR', ar: 'ar_AR', ary: 'ar_MA', en: 'en_US', es: 'es_ES', de: 'de_DE', it: 'it_IT', pt: 'pt_PT', ur: 'ur_PK', ta: 'ta_IN', ps: 'ps_AF', ku: 'ku_TR', ce: 'ce_RU' };
+  const title = [ui.brandTitle, ui.brandSubtitle].filter(Boolean).join(' — ');
+  const description = ui.metaDescription || ui.heroDesc || ui.brandSubtitle || '';
+  const setMeta = (selector, value) => {
+    const element = document.querySelector(selector);
+    if (element && value) element.setAttribute('content', value);
+  };
+  if (title) document.title = title;
+  setMeta('meta[name="description"]', description);
+  setMeta('meta[property="og:site_name"]', ui.brandTitle);
+  setMeta('meta[property="og:title"]', title);
+  setMeta('meta[property="og:description"]', description);
+  setMeta('meta[property="og:locale"]', localeMap[langConfig.code]);
+  setMeta('meta[name="twitter:title"]', title);
+  setMeta('meta[name="twitter:description"]', description);
+  setMeta('meta[itemprop="name"]', ui.brandTitle);
+  setMeta('meta[itemprop="description"]', description);
+  document.querySelectorAll('script[type="application/ld+json"]').forEach(node => {
+    try {
+      const data = JSON.parse(node.textContent);
+      (data['@graph'] || [data]).forEach(entry => {
+        if (ui.brandTitle) entry.name = ui.brandTitle;
+        if (description) entry.description = description;
+        entry.inLanguage = langConfig.code;
+      });
+      node.textContent = JSON.stringify(data);
+    } catch (_) { /* Preserve any authored JSON-LD that cannot be parsed. */ }
+  });
 }
 
 /**

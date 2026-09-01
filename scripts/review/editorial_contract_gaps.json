@@ -1,0 +1,4872 @@
+{
+  "ar": {
+    "missingIds": {
+      "argumentIds": [],
+      "fallacyIds": []
+    },
+    "missingSections": [
+      "arguments[0]",
+      "arguments[1]",
+      "arguments[2]",
+      "arguments[3]",
+      "arguments[4]",
+      "arguments[5]",
+      "arguments[6]",
+      "arguments[7]",
+      "arguments[8]",
+      "arguments[9]",
+      "preface"
+    ],
+    "missingPaths": [
+      "arguments[0].theirArgument.verses[2].ref",
+      "arguments[0].theirArgument.verses[2].ar",
+      "arguments[0].theirArgument.verses[2].translation",
+      "arguments[0].logicalNode.distinctions[2].term",
+      "arguments[0].logicalNode.distinctions[2].desc",
+      "arguments[0].quranicArchitecture.verses[1].ref",
+      "arguments[0].quranicArchitecture.verses[1].ar",
+      "arguments[0].quranicArchitecture.verses[1].translation",
+      "arguments[0].quranicArchitecture.verses[2].ref",
+      "arguments[0].quranicArchitecture.verses[2].ar",
+      "arguments[0].quranicArchitecture.verses[2].translation",
+      "arguments[0].quranicArchitecture.verses[3].ref",
+      "arguments[0].quranicArchitecture.verses[3].ar",
+      "arguments[0].quranicArchitecture.verses[3].translation",
+      "arguments[0].objections[1].obj",
+      "arguments[0].objections[1].ans",
+      "arguments[0].framingQuestions[1]",
+      "arguments[0].framingQuestions[2]",
+      "arguments[1].theirArgument.verses[1].ref",
+      "arguments[1].theirArgument.verses[1].ar",
+      "arguments[1].theirArgument.verses[1].translation",
+      "arguments[1].logicalNode.distinctions[2].term",
+      "arguments[1].logicalNode.distinctions[2].desc",
+      "arguments[1].quranicArchitecture.verses[1].ref",
+      "arguments[1].quranicArchitecture.verses[1].ar",
+      "arguments[1].quranicArchitecture.verses[1].translation",
+      "arguments[1].quranicArchitecture.verses[2].ref",
+      "arguments[1].quranicArchitecture.verses[2].ar",
+      "arguments[1].quranicArchitecture.verses[2].translation",
+      "arguments[1].analogies[1].num",
+      "arguments[1].analogies[1].title",
+      "arguments[1].analogies[1].scenario",
+      "arguments[1].analogies[1].logic",
+      "arguments[1].analogies[1].lesson",
+      "arguments[1].analogies[1].application",
+      "arguments[1].framingQuestions[1]",
+      "arguments[1].framingQuestions[2]",
+      "arguments[2].theirArgument.verses[1].ref",
+      "arguments[2].theirArgument.verses[1].ar",
+      "arguments[2].theirArgument.verses[1].translation",
+      "arguments[2].theirArgument.verses[2].ref",
+      "arguments[2].theirArgument.verses[2].ar",
+      "arguments[2].theirArgument.verses[2].translation",
+      "arguments[2].quranicArchitecture.verses[1].ref",
+      "arguments[2].quranicArchitecture.verses[1].ar",
+      "arguments[2].quranicArchitecture.verses[1].translation",
+      "arguments[2].analogies[1].num",
+      "arguments[2].analogies[1].title",
+      "arguments[2].analogies[1].scenario",
+      "arguments[2].analogies[1].logic",
+      "arguments[2].analogies[1].lesson",
+      "arguments[2].analogies[1].application",
+      "arguments[2].framingQuestions[1]",
+      "arguments[2].framingQuestions[2]",
+      "arguments[3].theirArgument.verses[1].ref",
+      "arguments[3].theirArgument.verses[1].ar",
+      "arguments[3].theirArgument.verses[1].translation",
+      "arguments[3].quranicArchitecture.verses[1].ref",
+      "arguments[3].quranicArchitecture.verses[1].ar",
+      "arguments[3].quranicArchitecture.verses[1].translation",
+      "arguments[3].quranicArchitecture.verses[2].ref",
+      "arguments[3].quranicArchitecture.verses[2].ar",
+      "arguments[3].quranicArchitecture.verses[2].translation",
+      "arguments[3].analogies[1].num",
+      "arguments[3].analogies[1].title",
+      "arguments[3].analogies[1].scenario",
+      "arguments[3].analogies[1].logic",
+      "arguments[3].analogies[1].lesson",
+      "arguments[3].analogies[1].application",
+      "arguments[3].framingQuestions[1]",
+      "arguments[3].framingQuestions[2]",
+      "arguments[4].logicalNode.distinctions[2].term",
+      "arguments[4].logicalNode.distinctions[2].desc",
+      "arguments[4].quranicArchitecture.verses[1].ref",
+      "arguments[4].quranicArchitecture.verses[1].ar",
+      "arguments[4].quranicArchitecture.verses[1].translation",
+      "arguments[4].framingQuestions[2]",
+      "arguments[5].analogies[1].num",
+      "arguments[5].analogies[1].title",
+      "arguments[5].analogies[1].scenario",
+      "arguments[5].analogies[1].logic",
+      "arguments[5].analogies[1].lesson",
+      "arguments[5].analogies[1].application",
+      "arguments[5].framingQuestions[1]",
+      "arguments[5].framingQuestions[2]",
+      "arguments[6].logicalNode.distinctions[2].term",
+      "arguments[6].logicalNode.distinctions[2].desc",
+      "arguments[6].logicalNode.distinctions[3].term",
+      "arguments[6].logicalNode.distinctions[3].desc",
+      "arguments[6].quranicArchitecture.verses[1].ref",
+      "arguments[6].quranicArchitecture.verses[1].ar",
+      "arguments[6].quranicArchitecture.verses[1].translation",
+      "arguments[6].analogies[1].num",
+      "arguments[6].analogies[1].title",
+      "arguments[6].analogies[1].scenario",
+      "arguments[6].analogies[1].logic",
+      "arguments[6].analogies[1].lesson",
+      "arguments[6].analogies[1].application",
+      "arguments[6].framingQuestions[1]",
+      "arguments[6].framingQuestions[2]",
+      "arguments[7].theirArgument.verses[1].ref",
+      "arguments[7].theirArgument.verses[1].ar",
+      "arguments[7].theirArgument.verses[1].translation",
+      "arguments[7].theirArgument.verses[2].ref",
+      "arguments[7].theirArgument.verses[2].ar",
+      "arguments[7].theirArgument.verses[2].translation",
+      "arguments[7].analogies[1].num",
+      "arguments[7].analogies[1].title",
+      "arguments[7].analogies[1].scenario",
+      "arguments[7].analogies[1].logic",
+      "arguments[7].analogies[1].lesson",
+      "arguments[7].analogies[1].application",
+      "arguments[7].framingQuestions[1]",
+      "arguments[7].framingQuestions[2]",
+      "arguments[8].theirArgument.verses[2].ref",
+      "arguments[8].theirArgument.verses[2].ar",
+      "arguments[8].theirArgument.verses[2].translation",
+      "arguments[8].logicalNode.distinctions[2].term",
+      "arguments[8].logicalNode.distinctions[2].desc",
+      "arguments[8].quranicArchitecture.verses[1].ref",
+      "arguments[8].quranicArchitecture.verses[1].ar",
+      "arguments[8].quranicArchitecture.verses[1].translation",
+      "arguments[8].analogies[1].num",
+      "arguments[8].analogies[1].title",
+      "arguments[8].analogies[1].scenario",
+      "arguments[8].analogies[1].logic",
+      "arguments[8].analogies[1].lesson",
+      "arguments[8].analogies[1].application",
+      "arguments[8].framingQuestions[1]",
+      "arguments[8].framingQuestions[2]",
+      "arguments[9].quranicArchitecture.verses[1].ref",
+      "arguments[9].quranicArchitecture.verses[1].ar",
+      "arguments[9].quranicArchitecture.verses[1].translation",
+      "arguments[9].analogies[1].num",
+      "arguments[9].analogies[1].title",
+      "arguments[9].analogies[1].scenario",
+      "arguments[9].analogies[1].logic",
+      "arguments[9].analogies[1].lesson",
+      "arguments[9].analogies[1].application",
+      "arguments[9].framingQuestions[1]",
+      "arguments[9].framingQuestions[2]",
+      "preface.sections[5].signature"
+    ],
+    "extraPaths": [
+      "arguments[4].analogies[2].num",
+      "arguments[4].analogies[2].title",
+      "arguments[4].analogies[2].scenario",
+      "arguments[4].analogies[2].logic",
+      "arguments[4].analogies[2].lesson",
+      "arguments[4].analogies[2].application",
+      "arguments[5].quranicArchitecture.verses[0].ref",
+      "arguments[5].quranicArchitecture.verses[0].ar",
+      "arguments[5].quranicArchitecture.verses[0].translation",
+      "arguments[7].quranicArchitecture.verses[1].ref",
+      "arguments[7].quranicArchitecture.verses[1].ar",
+      "arguments[7].quranicArchitecture.verses[1].translation",
+      "preface.sections[6].type",
+      "preface.sections[6].header",
+      "preface.sections[6].title",
+      "preface.sections[6].paragraphs[0]",
+      "preface.sections[6].paragraphs[1]",
+      "preface.sections[6].signature"
+    ],
+    "arrayLengthDifferences": [
+      {
+        "path": "arguments[0].theirArgument.verses",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[0].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[0].quranicArchitecture.verses",
+        "referenceLength": 4,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[0].objections",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[0].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[1].theirArgument.verses",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[1].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[1].quranicArchitecture.verses",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[1].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[1].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[2].theirArgument.verses",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[2].quranicArchitecture.verses",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[2].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[2].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[3].theirArgument.verses",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[3].quranicArchitecture.verses",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[3].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[3].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[4].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[4].quranicArchitecture.verses",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[4].analogies",
+        "referenceLength": 2,
+        "localeLength": 3
+      },
+      {
+        "path": "arguments[4].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[5].quranicArchitecture.verses",
+        "referenceLength": 0,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[5].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[5].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[6].logicalNode.distinctions",
+        "referenceLength": 4,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[6].quranicArchitecture.verses",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[6].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[6].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[7].theirArgument.verses",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[7].quranicArchitecture.verses",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[7].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[7].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[8].theirArgument.verses",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[8].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[8].quranicArchitecture.verses",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[8].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[8].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[9].quranicArchitecture.verses",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[9].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[9].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "preface.sections",
+        "referenceLength": 6,
+        "localeLength": 7
+      }
+    ],
+    "typeMismatches": []
+  },
+  "ary": {
+    "missingIds": {
+      "argumentIds": [],
+      "fallacyIds": []
+    },
+    "missingSections": [
+      "arguments[0]",
+      "arguments[1]",
+      "arguments[2]",
+      "arguments[3]",
+      "arguments[4]",
+      "arguments[5]",
+      "arguments[6]",
+      "arguments[7]",
+      "arguments[8]",
+      "arguments[9]",
+      "intro"
+    ],
+    "missingPaths": [
+      "arguments[0].theirArgument.verses[2].ref",
+      "arguments[0].theirArgument.verses[2].ar",
+      "arguments[0].theirArgument.verses[2].translation",
+      "arguments[0].logicalNode.distinctions[2].term",
+      "arguments[0].logicalNode.distinctions[2].desc",
+      "arguments[0].quranicArchitecture.verses[1].ref",
+      "arguments[0].quranicArchitecture.verses[1].ar",
+      "arguments[0].quranicArchitecture.verses[1].translation",
+      "arguments[0].quranicArchitecture.verses[2].ref",
+      "arguments[0].quranicArchitecture.verses[2].ar",
+      "arguments[0].quranicArchitecture.verses[2].translation",
+      "arguments[0].quranicArchitecture.verses[3].ref",
+      "arguments[0].quranicArchitecture.verses[3].ar",
+      "arguments[0].quranicArchitecture.verses[3].translation",
+      "arguments[0].objections[1].obj",
+      "arguments[0].objections[1].ans",
+      "arguments[0].framingQuestions[1]",
+      "arguments[0].framingQuestions[2]",
+      "arguments[1].theirArgument.verses[1].ref",
+      "arguments[1].theirArgument.verses[1].ar",
+      "arguments[1].theirArgument.verses[1].translation",
+      "arguments[1].logicalNode.distinctions[2].term",
+      "arguments[1].logicalNode.distinctions[2].desc",
+      "arguments[1].quranicArchitecture.verses[1].ref",
+      "arguments[1].quranicArchitecture.verses[1].ar",
+      "arguments[1].quranicArchitecture.verses[1].translation",
+      "arguments[1].quranicArchitecture.verses[2].ref",
+      "arguments[1].quranicArchitecture.verses[2].ar",
+      "arguments[1].quranicArchitecture.verses[2].translation",
+      "arguments[1].analogies[1].num",
+      "arguments[1].analogies[1].title",
+      "arguments[1].analogies[1].scenario",
+      "arguments[1].analogies[1].logic",
+      "arguments[1].analogies[1].lesson",
+      "arguments[1].analogies[1].application",
+      "arguments[1].framingQuestions[1]",
+      "arguments[1].framingQuestions[2]",
+      "arguments[2].theirArgument.verses[1].ref",
+      "arguments[2].theirArgument.verses[1].ar",
+      "arguments[2].theirArgument.verses[1].translation",
+      "arguments[2].theirArgument.verses[2].ref",
+      "arguments[2].theirArgument.verses[2].ar",
+      "arguments[2].theirArgument.verses[2].translation",
+      "arguments[2].quranicArchitecture.verses[1].ref",
+      "arguments[2].quranicArchitecture.verses[1].ar",
+      "arguments[2].quranicArchitecture.verses[1].translation",
+      "arguments[2].analogies[1].num",
+      "arguments[2].analogies[1].title",
+      "arguments[2].analogies[1].scenario",
+      "arguments[2].analogies[1].logic",
+      "arguments[2].analogies[1].lesson",
+      "arguments[2].analogies[1].application",
+      "arguments[2].framingQuestions[1]",
+      "arguments[2].framingQuestions[2]",
+      "arguments[3].theirArgument.verses[1].ref",
+      "arguments[3].theirArgument.verses[1].ar",
+      "arguments[3].theirArgument.verses[1].translation",
+      "arguments[3].quranicArchitecture.verses[1].ref",
+      "arguments[3].quranicArchitecture.verses[1].ar",
+      "arguments[3].quranicArchitecture.verses[1].translation",
+      "arguments[3].quranicArchitecture.verses[2].ref",
+      "arguments[3].quranicArchitecture.verses[2].ar",
+      "arguments[3].quranicArchitecture.verses[2].translation",
+      "arguments[3].analogies[1].num",
+      "arguments[3].analogies[1].title",
+      "arguments[3].analogies[1].scenario",
+      "arguments[3].analogies[1].logic",
+      "arguments[3].analogies[1].lesson",
+      "arguments[3].analogies[1].application",
+      "arguments[3].framingQuestions[1]",
+      "arguments[3].framingQuestions[2]",
+      "arguments[4].logicalNode.distinctions[2].term",
+      "arguments[4].logicalNode.distinctions[2].desc",
+      "arguments[4].quranicArchitecture.verses[1].ref",
+      "arguments[4].quranicArchitecture.verses[1].ar",
+      "arguments[4].quranicArchitecture.verses[1].translation",
+      "arguments[4].framingQuestions[2]",
+      "arguments[5].analogies[1].num",
+      "arguments[5].analogies[1].title",
+      "arguments[5].analogies[1].scenario",
+      "arguments[5].analogies[1].logic",
+      "arguments[5].analogies[1].lesson",
+      "arguments[5].analogies[1].application",
+      "arguments[5].framingQuestions[1]",
+      "arguments[5].framingQuestions[2]",
+      "arguments[6].logicalNode.distinctions[2].term",
+      "arguments[6].logicalNode.distinctions[2].desc",
+      "arguments[6].logicalNode.distinctions[3].term",
+      "arguments[6].logicalNode.distinctions[3].desc",
+      "arguments[6].quranicArchitecture.verses[1].ref",
+      "arguments[6].quranicArchitecture.verses[1].ar",
+      "arguments[6].quranicArchitecture.verses[1].translation",
+      "arguments[6].analogies[1].num",
+      "arguments[6].analogies[1].title",
+      "arguments[6].analogies[1].scenario",
+      "arguments[6].analogies[1].logic",
+      "arguments[6].analogies[1].lesson",
+      "arguments[6].analogies[1].application",
+      "arguments[6].framingQuestions[1]",
+      "arguments[6].framingQuestions[2]",
+      "arguments[7].theirArgument.verses[1].ref",
+      "arguments[7].theirArgument.verses[1].ar",
+      "arguments[7].theirArgument.verses[1].translation",
+      "arguments[7].theirArgument.verses[2].ref",
+      "arguments[7].theirArgument.verses[2].ar",
+      "arguments[7].theirArgument.verses[2].translation",
+      "arguments[7].analogies[1].num",
+      "arguments[7].analogies[1].title",
+      "arguments[7].analogies[1].scenario",
+      "arguments[7].analogies[1].logic",
+      "arguments[7].analogies[1].lesson",
+      "arguments[7].analogies[1].application",
+      "arguments[7].framingQuestions[1]",
+      "arguments[7].framingQuestions[2]",
+      "arguments[8].theirArgument.verses[2].ref",
+      "arguments[8].theirArgument.verses[2].ar",
+      "arguments[8].theirArgument.verses[2].translation",
+      "arguments[8].logicalNode.distinctions[2].term",
+      "arguments[8].logicalNode.distinctions[2].desc",
+      "arguments[8].quranicArchitecture.verses[1].ref",
+      "arguments[8].quranicArchitecture.verses[1].ar",
+      "arguments[8].quranicArchitecture.verses[1].translation",
+      "arguments[8].analogies[1].num",
+      "arguments[8].analogies[1].title",
+      "arguments[8].analogies[1].scenario",
+      "arguments[8].analogies[1].logic",
+      "arguments[8].analogies[1].lesson",
+      "arguments[8].analogies[1].application",
+      "arguments[8].framingQuestions[1]",
+      "arguments[8].framingQuestions[2]",
+      "arguments[9].quranicArchitecture.verses[1].ref",
+      "arguments[9].quranicArchitecture.verses[1].ar",
+      "arguments[9].quranicArchitecture.verses[1].translation",
+      "arguments[9].analogies[1].num",
+      "arguments[9].analogies[1].title",
+      "arguments[9].analogies[1].scenario",
+      "arguments[9].analogies[1].logic",
+      "arguments[9].analogies[1].lesson",
+      "arguments[9].analogies[1].application",
+      "arguments[9].framingQuestions[1]",
+      "arguments[9].framingQuestions[2]",
+      "intro.sections[2].type",
+      "intro.sections[2].header",
+      "intro.sections[2].title",
+      "intro.sections[2].distinctions[0].term",
+      "intro.sections[2].distinctions[0].desc",
+      "intro.sections[2].distinctions[1].term",
+      "intro.sections[2].distinctions[1].desc",
+      "intro.sections[2].distinctions[2].term",
+      "intro.sections[2].distinctions[2].desc",
+      "intro.sections[2].distinctions[3].term",
+      "intro.sections[2].distinctions[3].desc",
+      "intro.sections[2].distinctions[4].term",
+      "intro.sections[2].distinctions[4].desc",
+      "intro.sections[2].distinctions[5].term",
+      "intro.sections[2].distinctions[5].desc"
+    ],
+    "extraPaths": [
+      "arguments[4].analogies[2].num",
+      "arguments[4].analogies[2].title",
+      "arguments[4].analogies[2].scenario",
+      "arguments[4].analogies[2].logic",
+      "arguments[4].analogies[2].lesson",
+      "arguments[4].analogies[2].application",
+      "arguments[5].quranicArchitecture.verses[0].ref",
+      "arguments[5].quranicArchitecture.verses[0].ar",
+      "arguments[5].quranicArchitecture.verses[0].translation",
+      "arguments[7].quranicArchitecture.verses[1].ref",
+      "arguments[7].quranicArchitecture.verses[1].ar",
+      "arguments[7].quranicArchitecture.verses[1].translation"
+    ],
+    "arrayLengthDifferences": [
+      {
+        "path": "arguments[0].theirArgument.verses",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[0].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[0].quranicArchitecture.verses",
+        "referenceLength": 4,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[0].objections",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[0].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[1].theirArgument.verses",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[1].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[1].quranicArchitecture.verses",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[1].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[1].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[2].theirArgument.verses",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[2].quranicArchitecture.verses",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[2].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[2].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[3].theirArgument.verses",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[3].quranicArchitecture.verses",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[3].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[3].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[4].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[4].quranicArchitecture.verses",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[4].analogies",
+        "referenceLength": 2,
+        "localeLength": 3
+      },
+      {
+        "path": "arguments[4].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[5].quranicArchitecture.verses",
+        "referenceLength": 0,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[5].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[5].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[6].logicalNode.distinctions",
+        "referenceLength": 4,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[6].quranicArchitecture.verses",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[6].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[6].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[7].theirArgument.verses",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[7].quranicArchitecture.verses",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[7].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[7].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[8].theirArgument.verses",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[8].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[8].quranicArchitecture.verses",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[8].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[8].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[9].quranicArchitecture.verses",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[9].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[9].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "intro.sections",
+        "referenceLength": 3,
+        "localeLength": 2
+      }
+    ],
+    "typeMismatches": []
+  },
+  "en": {
+    "missingIds": {
+      "argumentIds": [],
+      "fallacyIds": []
+    },
+    "missingSections": [
+      "arguments[0]",
+      "arguments[1]",
+      "arguments[2]",
+      "arguments[3]",
+      "arguments[4]",
+      "arguments[5]",
+      "arguments[6]",
+      "arguments[7]",
+      "arguments[8]",
+      "arguments[9]",
+      "intro"
+    ],
+    "missingPaths": [
+      "arguments[0].theirArgument.verses[2].ref",
+      "arguments[0].theirArgument.verses[2].ar",
+      "arguments[0].theirArgument.verses[2].translation",
+      "arguments[0].logicalNode.distinctions[2].term",
+      "arguments[0].logicalNode.distinctions[2].desc",
+      "arguments[0].quranicArchitecture.verses[2].ref",
+      "arguments[0].quranicArchitecture.verses[2].ar",
+      "arguments[0].quranicArchitecture.verses[2].translation",
+      "arguments[0].quranicArchitecture.verses[3].ref",
+      "arguments[0].quranicArchitecture.verses[3].ar",
+      "arguments[0].quranicArchitecture.verses[3].translation",
+      "arguments[0].analogies[1].num",
+      "arguments[0].analogies[1].title",
+      "arguments[0].analogies[1].scenario",
+      "arguments[0].analogies[1].logic",
+      "arguments[0].analogies[1].lesson",
+      "arguments[0].analogies[1].application",
+      "arguments[0].analogies[2].num",
+      "arguments[0].analogies[2].title",
+      "arguments[0].analogies[2].scenario",
+      "arguments[0].analogies[2].logic",
+      "arguments[0].analogies[2].lesson",
+      "arguments[0].analogies[2].application",
+      "arguments[0].objections[1].obj",
+      "arguments[0].objections[1].ans",
+      "arguments[0].framingQuestions[2]",
+      "arguments[1].theirArgument.verses[1].ref",
+      "arguments[1].theirArgument.verses[1].ar",
+      "arguments[1].theirArgument.verses[1].translation",
+      "arguments[1].logicalNode.distinctions[2].term",
+      "arguments[1].logicalNode.distinctions[2].desc",
+      "arguments[1].quranicArchitecture.verses[2].ref",
+      "arguments[1].quranicArchitecture.verses[2].ar",
+      "arguments[1].quranicArchitecture.verses[2].translation",
+      "arguments[1].analogies[1].num",
+      "arguments[1].analogies[1].title",
+      "arguments[1].analogies[1].scenario",
+      "arguments[1].analogies[1].logic",
+      "arguments[1].analogies[1].lesson",
+      "arguments[1].analogies[1].application",
+      "arguments[1].framingQuestions[2]",
+      "arguments[2].theirArgument.verses[2].ref",
+      "arguments[2].theirArgument.verses[2].ar",
+      "arguments[2].theirArgument.verses[2].translation",
+      "arguments[2].analogies[1].num",
+      "arguments[2].analogies[1].title",
+      "arguments[2].analogies[1].scenario",
+      "arguments[2].analogies[1].logic",
+      "arguments[2].analogies[1].lesson",
+      "arguments[2].analogies[1].application",
+      "arguments[2].framingQuestions[2]",
+      "arguments[3].quranicArchitecture.verses[2].ref",
+      "arguments[3].quranicArchitecture.verses[2].ar",
+      "arguments[3].quranicArchitecture.verses[2].translation",
+      "arguments[3].analogies[1].num",
+      "arguments[3].analogies[1].title",
+      "arguments[3].analogies[1].scenario",
+      "arguments[3].analogies[1].logic",
+      "arguments[3].analogies[1].lesson",
+      "arguments[3].analogies[1].application",
+      "arguments[3].framingQuestions[2]",
+      "arguments[4].logicalNode.distinctions[2].term",
+      "arguments[4].logicalNode.distinctions[2].desc",
+      "arguments[4].quranicArchitecture.verses[1].ref",
+      "arguments[4].quranicArchitecture.verses[1].ar",
+      "arguments[4].quranicArchitecture.verses[1].translation",
+      "arguments[4].analogies[1].num",
+      "arguments[4].analogies[1].title",
+      "arguments[4].analogies[1].scenario",
+      "arguments[4].analogies[1].logic",
+      "arguments[4].analogies[1].lesson",
+      "arguments[4].analogies[1].application",
+      "arguments[4].objections[1].obj",
+      "arguments[4].objections[1].ans",
+      "arguments[4].framingQuestions[2]",
+      "arguments[5].analogies[1].num",
+      "arguments[5].analogies[1].title",
+      "arguments[5].analogies[1].scenario",
+      "arguments[5].analogies[1].logic",
+      "arguments[5].analogies[1].lesson",
+      "arguments[5].analogies[1].application",
+      "arguments[5].framingQuestions[2]",
+      "arguments[6].logicalNode.distinctions[2].term",
+      "arguments[6].logicalNode.distinctions[2].desc",
+      "arguments[6].logicalNode.distinctions[3].term",
+      "arguments[6].logicalNode.distinctions[3].desc",
+      "arguments[6].quranicArchitecture.verses[1].ref",
+      "arguments[6].quranicArchitecture.verses[1].ar",
+      "arguments[6].quranicArchitecture.verses[1].translation",
+      "arguments[6].analogies[1].num",
+      "arguments[6].analogies[1].title",
+      "arguments[6].analogies[1].scenario",
+      "arguments[6].analogies[1].logic",
+      "arguments[6].analogies[1].lesson",
+      "arguments[6].analogies[1].application",
+      "arguments[6].framingQuestions[2]",
+      "arguments[7].theirArgument.verses[2].ref",
+      "arguments[7].theirArgument.verses[2].ar",
+      "arguments[7].theirArgument.verses[2].translation",
+      "arguments[7].analogies[1].num",
+      "arguments[7].analogies[1].title",
+      "arguments[7].analogies[1].scenario",
+      "arguments[7].analogies[1].logic",
+      "arguments[7].analogies[1].lesson",
+      "arguments[7].analogies[1].application",
+      "arguments[7].framingQuestions[2]",
+      "arguments[8].theirArgument.verses[2].ref",
+      "arguments[8].theirArgument.verses[2].ar",
+      "arguments[8].theirArgument.verses[2].translation",
+      "arguments[8].logicalNode.distinctions[2].term",
+      "arguments[8].logicalNode.distinctions[2].desc",
+      "arguments[8].analogies[1].num",
+      "arguments[8].analogies[1].title",
+      "arguments[8].analogies[1].scenario",
+      "arguments[8].analogies[1].logic",
+      "arguments[8].analogies[1].lesson",
+      "arguments[8].analogies[1].application",
+      "arguments[8].framingQuestions[2]",
+      "arguments[9].quranicArchitecture.verses[1].ref",
+      "arguments[9].quranicArchitecture.verses[1].ar",
+      "arguments[9].quranicArchitecture.verses[1].translation",
+      "arguments[9].analogies[1].num",
+      "arguments[9].analogies[1].title",
+      "arguments[9].analogies[1].scenario",
+      "arguments[9].analogies[1].logic",
+      "arguments[9].analogies[1].lesson",
+      "arguments[9].analogies[1].application",
+      "arguments[9].framingQuestions[2]",
+      "intro.sections[2].type",
+      "intro.sections[2].header",
+      "intro.sections[2].title",
+      "intro.sections[2].distinctions[0].term",
+      "intro.sections[2].distinctions[0].desc",
+      "intro.sections[2].distinctions[1].term",
+      "intro.sections[2].distinctions[1].desc",
+      "intro.sections[2].distinctions[2].term",
+      "intro.sections[2].distinctions[2].desc",
+      "intro.sections[2].distinctions[3].term",
+      "intro.sections[2].distinctions[3].desc",
+      "intro.sections[2].distinctions[4].term",
+      "intro.sections[2].distinctions[4].desc",
+      "intro.sections[2].distinctions[5].term",
+      "intro.sections[2].distinctions[5].desc"
+    ],
+    "extraPaths": [
+      "arguments[5].theirArgument.verses[0].ref",
+      "arguments[5].theirArgument.verses[0].ar",
+      "arguments[5].theirArgument.verses[0].translation",
+      "arguments[5].quranicArchitecture.verses[0].ref",
+      "arguments[5].quranicArchitecture.verses[0].ar",
+      "arguments[5].quranicArchitecture.verses[0].translation",
+      "arguments[6].theirArgument.verses[0].ref",
+      "arguments[6].theirArgument.verses[0].ar",
+      "arguments[6].theirArgument.verses[0].translation",
+      "arguments[7].quranicArchitecture.verses[1].ref",
+      "arguments[7].quranicArchitecture.verses[1].ar",
+      "arguments[7].quranicArchitecture.verses[1].translation",
+      "arguments[9].theirArgument.verses[0].ref",
+      "arguments[9].theirArgument.verses[0].ar",
+      "arguments[9].theirArgument.verses[0].translation"
+    ],
+    "arrayLengthDifferences": [
+      {
+        "path": "arguments[0].theirArgument.verses",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[0].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[0].quranicArchitecture.verses",
+        "referenceLength": 4,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[0].analogies",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[0].objections",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[0].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[1].theirArgument.verses",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[1].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[1].quranicArchitecture.verses",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[1].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[1].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[2].theirArgument.verses",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[2].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[2].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[3].quranicArchitecture.verses",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[3].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[3].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[4].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[4].quranicArchitecture.verses",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[4].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[4].objections",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[4].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[5].theirArgument.verses",
+        "referenceLength": 0,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[5].quranicArchitecture.verses",
+        "referenceLength": 0,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[5].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[5].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[6].theirArgument.verses",
+        "referenceLength": 0,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[6].logicalNode.distinctions",
+        "referenceLength": 4,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[6].quranicArchitecture.verses",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[6].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[6].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[7].theirArgument.verses",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[7].quranicArchitecture.verses",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[7].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[7].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[8].theirArgument.verses",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[8].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[8].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[8].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[9].theirArgument.verses",
+        "referenceLength": 0,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[9].quranicArchitecture.verses",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[9].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[9].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "intro.sections",
+        "referenceLength": 3,
+        "localeLength": 2
+      }
+    ],
+    "typeMismatches": []
+  },
+  "es": {
+    "missingIds": {
+      "argumentIds": [],
+      "fallacyIds": []
+    },
+    "missingSections": [
+      "flag",
+      "arguments[0]",
+      "arguments[1]",
+      "arguments[2]",
+      "arguments[3]",
+      "arguments[4]",
+      "arguments[5]",
+      "arguments[6]",
+      "arguments[7]",
+      "arguments[8]",
+      "arguments[9]",
+      "preface",
+      "intro",
+      "fallaciesToolbox"
+    ],
+    "missingPaths": [
+      "flag",
+      "arguments[0].theirArgument.verses[2].ref",
+      "arguments[0].theirArgument.verses[2].ar",
+      "arguments[0].theirArgument.verses[2].translation",
+      "arguments[0].logicalNode.distinctions[2].term",
+      "arguments[0].logicalNode.distinctions[2].desc",
+      "arguments[0].quranicArchitecture.verses[2].ref",
+      "arguments[0].quranicArchitecture.verses[2].ar",
+      "arguments[0].quranicArchitecture.verses[2].translation",
+      "arguments[0].quranicArchitecture.verses[3].ref",
+      "arguments[0].quranicArchitecture.verses[3].ar",
+      "arguments[0].quranicArchitecture.verses[3].translation",
+      "arguments[0].analogies[0].logic",
+      "arguments[0].analogies[0].application",
+      "arguments[0].analogies[1].logic",
+      "arguments[0].analogies[1].application",
+      "arguments[0].analogies[2].num",
+      "arguments[0].analogies[2].title",
+      "arguments[0].analogies[2].scenario",
+      "arguments[0].analogies[2].logic",
+      "arguments[0].analogies[2].lesson",
+      "arguments[0].analogies[2].application",
+      "arguments[0].framingQuestions[2]",
+      "arguments[1].theirArgument.verses[1].ref",
+      "arguments[1].theirArgument.verses[1].ar",
+      "arguments[1].theirArgument.verses[1].translation",
+      "arguments[1].logicalNode.distinctions[2].term",
+      "arguments[1].logicalNode.distinctions[2].desc",
+      "arguments[1].quranicArchitecture.verses[2].ref",
+      "arguments[1].quranicArchitecture.verses[2].ar",
+      "arguments[1].quranicArchitecture.verses[2].translation",
+      "arguments[1].analogies[0].logic",
+      "arguments[1].analogies[0].application",
+      "arguments[1].analogies[1].logic",
+      "arguments[1].analogies[1].application",
+      "arguments[1].framingQuestions[2]",
+      "arguments[2].theirArgument.verses[2].ref",
+      "arguments[2].theirArgument.verses[2].ar",
+      "arguments[2].theirArgument.verses[2].translation",
+      "arguments[2].analogies[0].logic",
+      "arguments[2].analogies[0].application",
+      "arguments[2].analogies[1].logic",
+      "arguments[2].analogies[1].application",
+      "arguments[2].framingQuestions[2]",
+      "arguments[3].quranicArchitecture.verses[2].ref",
+      "arguments[3].quranicArchitecture.verses[2].ar",
+      "arguments[3].quranicArchitecture.verses[2].translation",
+      "arguments[3].analogies[0].logic",
+      "arguments[3].analogies[0].application",
+      "arguments[3].analogies[1].logic",
+      "arguments[3].analogies[1].application",
+      "arguments[3].framingQuestions[2]",
+      "arguments[4].logicalNode.distinctions[2].term",
+      "arguments[4].logicalNode.distinctions[2].desc",
+      "arguments[4].analogies[0].logic",
+      "arguments[4].analogies[0].application",
+      "arguments[4].analogies[1].logic",
+      "arguments[4].analogies[1].application",
+      "arguments[4].framingQuestions[2]",
+      "arguments[5].analogies[0].logic",
+      "arguments[5].analogies[0].application",
+      "arguments[5].analogies[1].logic",
+      "arguments[5].analogies[1].application",
+      "arguments[5].framingQuestions[2]",
+      "arguments[6].logicalNode.distinctions[2].term",
+      "arguments[6].logicalNode.distinctions[2].desc",
+      "arguments[6].logicalNode.distinctions[3].term",
+      "arguments[6].logicalNode.distinctions[3].desc",
+      "arguments[6].quranicArchitecture.verses[1].ref",
+      "arguments[6].quranicArchitecture.verses[1].ar",
+      "arguments[6].quranicArchitecture.verses[1].translation",
+      "arguments[6].analogies[0].logic",
+      "arguments[6].analogies[0].application",
+      "arguments[6].analogies[1].logic",
+      "arguments[6].analogies[1].application",
+      "arguments[6].framingQuestions[2]",
+      "arguments[7].theirArgument.verses[1].ref",
+      "arguments[7].theirArgument.verses[1].ar",
+      "arguments[7].theirArgument.verses[1].translation",
+      "arguments[7].theirArgument.verses[2].ref",
+      "arguments[7].theirArgument.verses[2].ar",
+      "arguments[7].theirArgument.verses[2].translation",
+      "arguments[7].analogies[0].logic",
+      "arguments[7].analogies[0].application",
+      "arguments[7].analogies[1].logic",
+      "arguments[7].analogies[1].application",
+      "arguments[7].framingQuestions[2]",
+      "arguments[8].theirArgument.verses[2].ref",
+      "arguments[8].theirArgument.verses[2].ar",
+      "arguments[8].theirArgument.verses[2].translation",
+      "arguments[8].logicalNode.distinctions[2].term",
+      "arguments[8].logicalNode.distinctions[2].desc",
+      "arguments[8].analogies[0].logic",
+      "arguments[8].analogies[0].application",
+      "arguments[8].analogies[1].logic",
+      "arguments[8].analogies[1].application",
+      "arguments[8].framingQuestions[2]",
+      "arguments[9].quranicArchitecture.verses[1].ref",
+      "arguments[9].quranicArchitecture.verses[1].ar",
+      "arguments[9].quranicArchitecture.verses[1].translation",
+      "arguments[9].analogies[0].logic",
+      "arguments[9].analogies[0].application",
+      "arguments[9].analogies[1].logic",
+      "arguments[9].analogies[1].application",
+      "arguments[9].framingQuestions[2]",
+      "preface.sections[5].type",
+      "preface.sections[5].header",
+      "preface.sections[5].title",
+      "preface.sections[5].paragraphs[0]",
+      "preface.sections[5].paragraphs[1]",
+      "preface.sections[5].signature",
+      "intro.header",
+      "intro.sections[1].hadiths[0].ref",
+      "intro.sections[1].hadiths[0].ar",
+      "intro.sections[1].hadiths[0].translation",
+      "intro.sections[2].distinctions[0].term",
+      "intro.sections[2].distinctions[0].desc",
+      "intro.sections[2].distinctions[1].term",
+      "intro.sections[2].distinctions[1].desc",
+      "intro.sections[2].distinctions[2].term",
+      "intro.sections[2].distinctions[2].desc",
+      "intro.sections[2].distinctions[3].term",
+      "intro.sections[2].distinctions[3].desc",
+      "intro.sections[2].distinctions[4].term",
+      "intro.sections[2].distinctions[4].desc",
+      "intro.sections[2].distinctions[5].term",
+      "intro.sections[2].distinctions[5].desc",
+      "fallaciesToolbox.introTitle",
+      "fallaciesToolbox.definitionTitle",
+      "fallaciesToolbox.definitionText",
+      "fallaciesToolbox.reflexQuestionTitle",
+      "fallaciesToolbox.reflexQuestionText",
+      "fallaciesToolbox.reflexPurpose",
+      "fallaciesToolbox.pdfDownloadBtn",
+      "fallaciesToolbox.pdfFileName",
+      "fallaciesToolbox.goldenRuleExample",
+      "fallaciesToolbox.goldenRuleGoal",
+      "fallaciesToolbox.sectionTitle10Cards",
+      "fallaciesToolbox.btnDetails",
+      "fallaciesToolbox.btnHide",
+      "fallaciesToolbox.conclusion.finalNote"
+    ],
+    "extraPaths": [
+      "flagSvg",
+      "fontFamily",
+      "ui.searchShortcutHint",
+      "ui.topbarContact",
+      "ui.topbarLegal",
+      "ui.topbarBarbahari",
+      "ui.sidebarTitle",
+      "ui.sidebarCount",
+      "ui.sidebarHome",
+      "ui.sidebarContact",
+      "ui.cardAdverseThesisPrefix",
+      "ui.methodTag",
+      "ui.methodTitle",
+      "ui.methodStep1Title",
+      "ui.methodStep1Desc",
+      "ui.methodStep2Title",
+      "ui.methodStep2Desc",
+      "ui.methodStep3Title",
+      "ui.methodStep3Desc",
+      "ui.quoteBoxText",
+      "ui.quoteBoxAuthor",
+      "ui.sec2ThesisLabel",
+      "ui.sec2VersesLabel",
+      "ui.sec2RealQuestionLabel",
+      "ui.sec3GeneralRuleLabel",
+      "ui.sec3ErrorLabel",
+      "ui.sec4FormalSchemeLabel",
+      "ui.sec4ExplanationLabel",
+      "ui.sec4TestLabel",
+      "ui.sec5ConsequenceLabel",
+      "ui.sec6ScenarioLabel",
+      "ui.sec6LogicBoxLabel",
+      "ui.sec6LessonLabel",
+      "ui.sec7QuickResponseLabel",
+      "ui.sec7DevelopedResponseLabel",
+      "ui.sec8DirectQuestionsLabel",
+      "ui.quizTitle",
+      "ui.quizBadge",
+      "ui.btnCheckAnswer",
+      "ui.btnNextQuestion",
+      "ui.btnRestartQuiz",
+      "ui.quizFeedbackCorrect",
+      "ui.quizFeedbackIncorrect",
+      "ui.btnDownloadFascicule",
+      "ui.btnOpenPrint",
+      "ui.tocSummary",
+      "ui.tocCadrage",
+      "ui.tocAdverse",
+      "ui.tocNoeud",
+      "ui.tocPrincipe",
+      "ui.tocArchi",
+      "ui.tocReponses",
+      "ui.contactBookTitleLabel",
+      "ui.contactBookTitleValue",
+      "ui.contactEmailNotice",
+      "ui.legalSharingMain",
+      "ui.legalSharingP1",
+      "ui.legalAllowedTitle",
+      "ui.legalAllowedBullet1",
+      "ui.legalAllowedBullet2",
+      "ui.legalAllowedBullet3",
+      "ui.legalPrivacyMain",
+      "ui.legalPrivacyP1",
+      "ui.shareCopyLink",
+      "intro.introTag",
+      "intro.sections[0].paragraphs[2]",
+      "intro.sections[1].paragraphs[1]",
+      "intro.sections[1].paragraphs[2]",
+      "intro.sections[1].paragraphs[3]",
+      "intro.sections[1].paragraphs[4]",
+      "intro.sections[2].paragraphs[0]",
+      "intro.sections[2].paragraphs[1]",
+      "intro.sections[2].paragraphs[2]",
+      "intro.sections[2].paragraphs[3]",
+      "intro.sections[3].type",
+      "intro.sections[3].header",
+      "intro.sections[3].title",
+      "intro.sections[3].paragraphs[0]",
+      "intro.sections[3].paragraphs[1]",
+      "intro.sections[3].paragraphs[2]",
+      "fallaciesToolbox.goldenRuleText",
+      "arguments[0].analogies[0].logicBox",
+      "arguments[0].analogies[1].logicBox",
+      "arguments[0].fallacies[2]",
+      "arguments[1].analogies[0].logicBox",
+      "arguments[1].analogies[1].logicBox",
+      "arguments[1].objections[1].obj",
+      "arguments[1].objections[1].ans",
+      "arguments[2].analogies[0].logicBox",
+      "arguments[2].analogies[1].logicBox",
+      "arguments[2].objections[1].obj",
+      "arguments[2].objections[1].ans",
+      "arguments[2].fallacies[2]",
+      "arguments[3].analogies[0].logicBox",
+      "arguments[3].analogies[1].logicBox",
+      "arguments[3].objections[1].obj",
+      "arguments[3].objections[1].ans",
+      "arguments[4].analogies[0].logicBox",
+      "arguments[4].analogies[1].logicBox",
+      "arguments[5].quranicArchitecture.verses[0].ref",
+      "arguments[5].quranicArchitecture.verses[0].ar",
+      "arguments[5].quranicArchitecture.verses[0].translation",
+      "arguments[5].analogies[0].logicBox",
+      "arguments[5].analogies[1].logicBox",
+      "arguments[5].objections[1].obj",
+      "arguments[5].objections[1].ans",
+      "arguments[6].analogies[0].logicBox",
+      "arguments[6].analogies[1].logicBox",
+      "arguments[6].objections[1].obj",
+      "arguments[6].objections[1].ans",
+      "arguments[6].fallacies[2]",
+      "arguments[7].analogies[0].logicBox",
+      "arguments[7].analogies[1].logicBox",
+      "arguments[7].objections[1].obj",
+      "arguments[7].objections[1].ans",
+      "arguments[8].analogies[0].logicBox",
+      "arguments[8].analogies[1].logicBox",
+      "arguments[8].objections[1].obj",
+      "arguments[8].objections[1].ans",
+      "arguments[9].theirArgument.verses[0].ref",
+      "arguments[9].theirArgument.verses[0].ar",
+      "arguments[9].theirArgument.verses[0].translation",
+      "arguments[9].analogies[0].logicBox",
+      "arguments[9].analogies[1].logicBox",
+      "arguments[9].objections[1].obj",
+      "arguments[9].objections[1].ans"
+    ],
+    "arrayLengthDifferences": [
+      {
+        "path": "arguments[0].theirArgument.verses",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[0].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[0].quranicArchitecture.verses",
+        "referenceLength": 4,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[0].analogies",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[0].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[0].fallacies",
+        "referenceLength": 2,
+        "localeLength": 3
+      },
+      {
+        "path": "arguments[1].theirArgument.verses",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[1].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[1].quranicArchitecture.verses",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[1].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[1].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[2].theirArgument.verses",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[2].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[2].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[2].fallacies",
+        "referenceLength": 2,
+        "localeLength": 3
+      },
+      {
+        "path": "arguments[3].quranicArchitecture.verses",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[3].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[3].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[4].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[4].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[5].quranicArchitecture.verses",
+        "referenceLength": 0,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[5].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[5].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[6].logicalNode.distinctions",
+        "referenceLength": 4,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[6].quranicArchitecture.verses",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[6].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[6].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[6].fallacies",
+        "referenceLength": 2,
+        "localeLength": 3
+      },
+      {
+        "path": "arguments[7].theirArgument.verses",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[7].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[7].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[8].theirArgument.verses",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[8].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[8].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[8].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[9].theirArgument.verses",
+        "referenceLength": 0,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[9].quranicArchitecture.verses",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[9].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[9].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "preface.sections",
+        "referenceLength": 6,
+        "localeLength": 5
+      },
+      {
+        "path": "intro.sections",
+        "referenceLength": 3,
+        "localeLength": 4
+      },
+      {
+        "path": "intro.sections[0].paragraphs",
+        "referenceLength": 2,
+        "localeLength": 3
+      },
+      {
+        "path": "intro.sections[1].paragraphs",
+        "referenceLength": 1,
+        "localeLength": 5
+      }
+    ],
+    "typeMismatches": []
+  },
+  "de": {
+    "missingIds": {
+      "argumentIds": [],
+      "fallacyIds": []
+    },
+    "missingSections": [
+      "flag",
+      "arguments[0]",
+      "arguments[1]",
+      "arguments[2]",
+      "arguments[3]",
+      "arguments[4]",
+      "arguments[5]",
+      "arguments[6]",
+      "arguments[7]",
+      "arguments[8]",
+      "arguments[9]",
+      "preface",
+      "intro",
+      "fallaciesToolbox"
+    ],
+    "missingPaths": [
+      "flag",
+      "arguments[0].logicalNode.distinctions[2].term",
+      "arguments[0].logicalNode.distinctions[2].desc",
+      "arguments[0].analogies[0].logic",
+      "arguments[0].analogies[0].application",
+      "arguments[0].analogies[1].logic",
+      "arguments[0].analogies[1].application",
+      "arguments[0].analogies[2].num",
+      "arguments[0].analogies[2].title",
+      "arguments[0].analogies[2].scenario",
+      "arguments[0].analogies[2].logic",
+      "arguments[0].analogies[2].lesson",
+      "arguments[0].analogies[2].application",
+      "arguments[0].framingQuestions[2]",
+      "arguments[1].logicalNode.distinctions[2].term",
+      "arguments[1].logicalNode.distinctions[2].desc",
+      "arguments[1].analogies[0].logic",
+      "arguments[1].analogies[0].application",
+      "arguments[1].analogies[1].logic",
+      "arguments[1].analogies[1].application",
+      "arguments[1].framingQuestions[2]",
+      "arguments[2].analogies[0].logic",
+      "arguments[2].analogies[0].application",
+      "arguments[2].analogies[1].logic",
+      "arguments[2].analogies[1].application",
+      "arguments[2].framingQuestions[2]",
+      "arguments[3].analogies[0].logic",
+      "arguments[3].analogies[0].application",
+      "arguments[3].analogies[1].logic",
+      "arguments[3].analogies[1].application",
+      "arguments[3].framingQuestions[2]",
+      "arguments[4].logicalNode.distinctions[2].term",
+      "arguments[4].logicalNode.distinctions[2].desc",
+      "arguments[4].analogies[0].logic",
+      "arguments[4].analogies[0].application",
+      "arguments[4].analogies[1].logic",
+      "arguments[4].analogies[1].application",
+      "arguments[4].framingQuestions[2]",
+      "arguments[5].analogies[0].logic",
+      "arguments[5].analogies[0].application",
+      "arguments[5].analogies[1].logic",
+      "arguments[5].analogies[1].application",
+      "arguments[5].framingQuestions[2]",
+      "arguments[6].logicalNode.distinctions[2].term",
+      "arguments[6].logicalNode.distinctions[2].desc",
+      "arguments[6].logicalNode.distinctions[3].term",
+      "arguments[6].logicalNode.distinctions[3].desc",
+      "arguments[6].analogies[0].logic",
+      "arguments[6].analogies[0].application",
+      "arguments[6].analogies[1].logic",
+      "arguments[6].analogies[1].application",
+      "arguments[6].framingQuestions[2]",
+      "arguments[7].analogies[0].logic",
+      "arguments[7].analogies[0].application",
+      "arguments[7].analogies[1].logic",
+      "arguments[7].analogies[1].application",
+      "arguments[7].framingQuestions[2]",
+      "arguments[8].logicalNode.distinctions[2].term",
+      "arguments[8].logicalNode.distinctions[2].desc",
+      "arguments[8].analogies[0].logic",
+      "arguments[8].analogies[0].application",
+      "arguments[8].analogies[1].logic",
+      "arguments[8].analogies[1].application",
+      "arguments[8].framingQuestions[2]",
+      "arguments[9].analogies[0].logic",
+      "arguments[9].analogies[0].application",
+      "arguments[9].analogies[1].logic",
+      "arguments[9].analogies[1].application",
+      "arguments[9].framingQuestions[2]",
+      "preface.sections[5].type",
+      "preface.sections[5].header",
+      "preface.sections[5].title",
+      "preface.sections[5].paragraphs[0]",
+      "preface.sections[5].paragraphs[1]",
+      "preface.sections[5].signature",
+      "intro.header",
+      "intro.sections[1].hadiths[0].ref",
+      "intro.sections[1].hadiths[0].ar",
+      "intro.sections[1].hadiths[0].translation",
+      "intro.sections[2].distinctions[0].term",
+      "intro.sections[2].distinctions[0].desc",
+      "intro.sections[2].distinctions[1].term",
+      "intro.sections[2].distinctions[1].desc",
+      "intro.sections[2].distinctions[2].term",
+      "intro.sections[2].distinctions[2].desc",
+      "intro.sections[2].distinctions[3].term",
+      "intro.sections[2].distinctions[3].desc",
+      "intro.sections[2].distinctions[4].term",
+      "intro.sections[2].distinctions[4].desc",
+      "intro.sections[2].distinctions[5].term",
+      "intro.sections[2].distinctions[5].desc",
+      "fallaciesToolbox.introTitle",
+      "fallaciesToolbox.definitionTitle",
+      "fallaciesToolbox.definitionText",
+      "fallaciesToolbox.reflexQuestionTitle",
+      "fallaciesToolbox.reflexQuestionText",
+      "fallaciesToolbox.reflexPurpose",
+      "fallaciesToolbox.pdfDownloadBtn",
+      "fallaciesToolbox.pdfFileName",
+      "fallaciesToolbox.goldenRuleExample",
+      "fallaciesToolbox.goldenRuleGoal",
+      "fallaciesToolbox.sectionTitle10Cards",
+      "fallaciesToolbox.btnDetails",
+      "fallaciesToolbox.btnHide",
+      "fallaciesToolbox.conclusion.finalNote"
+    ],
+    "extraPaths": [
+      "flagSvg",
+      "fontFamily",
+      "ui.searchShortcutHint",
+      "ui.topbarContact",
+      "ui.topbarLegal",
+      "ui.topbarBarbahari",
+      "ui.sidebarTitle",
+      "ui.sidebarCount",
+      "ui.sidebarHome",
+      "ui.sidebarContact",
+      "ui.cardAdverseThesisPrefix",
+      "ui.methodTag",
+      "ui.methodTitle",
+      "ui.methodStep1Title",
+      "ui.methodStep1Desc",
+      "ui.methodStep2Title",
+      "ui.methodStep2Desc",
+      "ui.methodStep3Title",
+      "ui.methodStep3Desc",
+      "ui.quoteBoxText",
+      "ui.quoteBoxAuthor",
+      "ui.sec2ThesisLabel",
+      "ui.sec2VersesLabel",
+      "ui.sec2RealQuestionLabel",
+      "ui.sec3GeneralRuleLabel",
+      "ui.sec3ErrorLabel",
+      "ui.sec4FormalSchemeLabel",
+      "ui.sec4ExplanationLabel",
+      "ui.sec4TestLabel",
+      "ui.sec5ConsequenceLabel",
+      "ui.sec6ScenarioLabel",
+      "ui.sec6LogicBoxLabel",
+      "ui.sec6LessonLabel",
+      "ui.sec7QuickResponseLabel",
+      "ui.sec7DevelopedResponseLabel",
+      "ui.sec8DirectQuestionsLabel",
+      "ui.quizTitle",
+      "ui.quizBadge",
+      "ui.btnCheckAnswer",
+      "ui.btnNextQuestion",
+      "ui.btnRestartQuiz",
+      "ui.quizFeedbackCorrect",
+      "ui.quizFeedbackIncorrect",
+      "ui.btnDownloadFascicule",
+      "ui.btnOpenPrint",
+      "ui.tocSummary",
+      "ui.tocCadrage",
+      "ui.tocAdverse",
+      "ui.tocNoeud",
+      "ui.tocPrincipe",
+      "ui.tocArchi",
+      "ui.tocReponses",
+      "ui.contactBookTitleLabel",
+      "ui.contactBookTitleValue",
+      "ui.contactEmailNotice",
+      "ui.legalSharingMain",
+      "ui.legalSharingP1",
+      "ui.legalAllowedTitle",
+      "ui.legalAllowedBullet1",
+      "ui.legalAllowedBullet2",
+      "ui.legalAllowedBullet3",
+      "ui.legalPrivacyMain",
+      "ui.legalPrivacyP1",
+      "ui.shareCopyLink",
+      "intro.introTag",
+      "intro.sections[0].paragraphs[2]",
+      "intro.sections[1].paragraphs[1]",
+      "intro.sections[1].paragraphs[2]",
+      "intro.sections[1].paragraphs[3]",
+      "intro.sections[1].paragraphs[4]",
+      "intro.sections[2].paragraphs[0]",
+      "intro.sections[2].paragraphs[1]",
+      "intro.sections[2].paragraphs[2]",
+      "intro.sections[2].paragraphs[3]",
+      "intro.sections[3].type",
+      "intro.sections[3].header",
+      "intro.sections[3].title",
+      "intro.sections[3].paragraphs[0]",
+      "intro.sections[3].paragraphs[1]",
+      "intro.sections[3].paragraphs[2]",
+      "fallaciesToolbox.goldenRuleText",
+      "arguments[0].analogies[0].logicBox",
+      "arguments[0].analogies[1].logicBox",
+      "arguments[1].analogies[0].logicBox",
+      "arguments[1].analogies[1].logicBox",
+      "arguments[1].objections[1].obj",
+      "arguments[1].objections[1].ans",
+      "arguments[2].analogies[0].logicBox",
+      "arguments[2].analogies[1].logicBox",
+      "arguments[2].objections[1].obj",
+      "arguments[2].objections[1].ans",
+      "arguments[3].analogies[0].logicBox",
+      "arguments[3].analogies[1].logicBox",
+      "arguments[3].objections[1].obj",
+      "arguments[3].objections[1].ans",
+      "arguments[4].analogies[0].logicBox",
+      "arguments[4].analogies[1].logicBox",
+      "arguments[5].analogies[0].logicBox",
+      "arguments[5].analogies[1].logicBox",
+      "arguments[5].objections[1].obj",
+      "arguments[5].objections[1].ans",
+      "arguments[6].analogies[0].logicBox",
+      "arguments[6].analogies[1].logicBox",
+      "arguments[6].objections[1].obj",
+      "arguments[6].objections[1].ans",
+      "arguments[7].analogies[0].logicBox",
+      "arguments[7].analogies[1].logicBox",
+      "arguments[7].objections[1].obj",
+      "arguments[7].objections[1].ans",
+      "arguments[8].analogies[0].logicBox",
+      "arguments[8].analogies[1].logicBox",
+      "arguments[8].objections[1].obj",
+      "arguments[8].objections[1].ans",
+      "arguments[9].analogies[0].logicBox",
+      "arguments[9].analogies[1].logicBox",
+      "arguments[9].objections[1].obj",
+      "arguments[9].objections[1].ans"
+    ],
+    "arrayLengthDifferences": [
+      {
+        "path": "arguments[0].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[0].analogies",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[0].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[1].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[1].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[1].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[2].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[2].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[3].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[3].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[4].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[4].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[5].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[5].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[6].logicalNode.distinctions",
+        "referenceLength": 4,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[6].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[6].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[7].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[7].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[8].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[8].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[8].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[9].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[9].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "preface.sections",
+        "referenceLength": 6,
+        "localeLength": 5
+      },
+      {
+        "path": "intro.sections",
+        "referenceLength": 3,
+        "localeLength": 4
+      },
+      {
+        "path": "intro.sections[0].paragraphs",
+        "referenceLength": 2,
+        "localeLength": 3
+      },
+      {
+        "path": "intro.sections[1].paragraphs",
+        "referenceLength": 1,
+        "localeLength": 5
+      }
+    ],
+    "typeMismatches": []
+  },
+  "it": {
+    "missingIds": {
+      "argumentIds": [],
+      "fallacyIds": []
+    },
+    "missingSections": [
+      "flag",
+      "arguments[0]",
+      "arguments[1]",
+      "arguments[2]",
+      "arguments[3]",
+      "arguments[4]",
+      "arguments[5]",
+      "arguments[6]",
+      "arguments[7]",
+      "arguments[8]",
+      "arguments[9]",
+      "preface",
+      "intro",
+      "fallaciesToolbox"
+    ],
+    "missingPaths": [
+      "flag",
+      "arguments[0].logicalNode.distinctions[2].term",
+      "arguments[0].logicalNode.distinctions[2].desc",
+      "arguments[0].analogies[0].logic",
+      "arguments[0].analogies[0].application",
+      "arguments[0].analogies[1].logic",
+      "arguments[0].analogies[1].application",
+      "arguments[0].analogies[2].num",
+      "arguments[0].analogies[2].title",
+      "arguments[0].analogies[2].scenario",
+      "arguments[0].analogies[2].logic",
+      "arguments[0].analogies[2].lesson",
+      "arguments[0].analogies[2].application",
+      "arguments[0].framingQuestions[2]",
+      "arguments[1].logicalNode.distinctions[2].term",
+      "arguments[1].logicalNode.distinctions[2].desc",
+      "arguments[1].analogies[0].logic",
+      "arguments[1].analogies[0].application",
+      "arguments[1].analogies[1].logic",
+      "arguments[1].analogies[1].application",
+      "arguments[1].framingQuestions[2]",
+      "arguments[2].analogies[0].logic",
+      "arguments[2].analogies[0].application",
+      "arguments[2].analogies[1].logic",
+      "arguments[2].analogies[1].application",
+      "arguments[2].framingQuestions[2]",
+      "arguments[3].analogies[0].logic",
+      "arguments[3].analogies[0].application",
+      "arguments[3].analogies[1].logic",
+      "arguments[3].analogies[1].application",
+      "arguments[3].framingQuestions[2]",
+      "arguments[4].logicalNode.distinctions[2].term",
+      "arguments[4].logicalNode.distinctions[2].desc",
+      "arguments[4].analogies[0].logic",
+      "arguments[4].analogies[0].application",
+      "arguments[4].analogies[1].logic",
+      "arguments[4].analogies[1].application",
+      "arguments[4].framingQuestions[2]",
+      "arguments[5].analogies[0].logic",
+      "arguments[5].analogies[0].application",
+      "arguments[5].analogies[1].logic",
+      "arguments[5].analogies[1].application",
+      "arguments[5].framingQuestions[2]",
+      "arguments[6].logicalNode.distinctions[2].term",
+      "arguments[6].logicalNode.distinctions[2].desc",
+      "arguments[6].logicalNode.distinctions[3].term",
+      "arguments[6].logicalNode.distinctions[3].desc",
+      "arguments[6].analogies[0].logic",
+      "arguments[6].analogies[0].application",
+      "arguments[6].analogies[1].logic",
+      "arguments[6].analogies[1].application",
+      "arguments[6].framingQuestions[2]",
+      "arguments[7].analogies[0].logic",
+      "arguments[7].analogies[0].application",
+      "arguments[7].analogies[1].logic",
+      "arguments[7].analogies[1].application",
+      "arguments[7].framingQuestions[2]",
+      "arguments[8].logicalNode.distinctions[2].term",
+      "arguments[8].logicalNode.distinctions[2].desc",
+      "arguments[8].analogies[0].logic",
+      "arguments[8].analogies[0].application",
+      "arguments[8].analogies[1].logic",
+      "arguments[8].analogies[1].application",
+      "arguments[8].framingQuestions[2]",
+      "arguments[9].analogies[0].logic",
+      "arguments[9].analogies[0].application",
+      "arguments[9].analogies[1].logic",
+      "arguments[9].analogies[1].application",
+      "arguments[9].framingQuestions[2]",
+      "preface.sections[5].type",
+      "preface.sections[5].header",
+      "preface.sections[5].title",
+      "preface.sections[5].paragraphs[0]",
+      "preface.sections[5].paragraphs[1]",
+      "preface.sections[5].signature",
+      "intro.header",
+      "intro.sections[1].hadiths[0].ref",
+      "intro.sections[1].hadiths[0].ar",
+      "intro.sections[1].hadiths[0].translation",
+      "intro.sections[2].distinctions[0].term",
+      "intro.sections[2].distinctions[0].desc",
+      "intro.sections[2].distinctions[1].term",
+      "intro.sections[2].distinctions[1].desc",
+      "intro.sections[2].distinctions[2].term",
+      "intro.sections[2].distinctions[2].desc",
+      "intro.sections[2].distinctions[3].term",
+      "intro.sections[2].distinctions[3].desc",
+      "intro.sections[2].distinctions[4].term",
+      "intro.sections[2].distinctions[4].desc",
+      "intro.sections[2].distinctions[5].term",
+      "intro.sections[2].distinctions[5].desc",
+      "fallaciesToolbox.introTitle",
+      "fallaciesToolbox.definitionTitle",
+      "fallaciesToolbox.definitionText",
+      "fallaciesToolbox.reflexQuestionTitle",
+      "fallaciesToolbox.reflexQuestionText",
+      "fallaciesToolbox.reflexPurpose",
+      "fallaciesToolbox.pdfDownloadBtn",
+      "fallaciesToolbox.pdfFileName",
+      "fallaciesToolbox.goldenRuleExample",
+      "fallaciesToolbox.goldenRuleGoal",
+      "fallaciesToolbox.sectionTitle10Cards",
+      "fallaciesToolbox.btnDetails",
+      "fallaciesToolbox.btnHide",
+      "fallaciesToolbox.conclusion.finalNote"
+    ],
+    "extraPaths": [
+      "flagSvg",
+      "fontFamily",
+      "ui.searchShortcutHint",
+      "ui.topbarContact",
+      "ui.topbarLegal",
+      "ui.topbarBarbahari",
+      "ui.sidebarTitle",
+      "ui.sidebarCount",
+      "ui.sidebarHome",
+      "ui.sidebarContact",
+      "ui.cardAdverseThesisPrefix",
+      "ui.methodTag",
+      "ui.methodTitle",
+      "ui.methodStep1Title",
+      "ui.methodStep1Desc",
+      "ui.methodStep2Title",
+      "ui.methodStep2Desc",
+      "ui.methodStep3Title",
+      "ui.methodStep3Desc",
+      "ui.quoteBoxText",
+      "ui.quoteBoxAuthor",
+      "ui.sec2ThesisLabel",
+      "ui.sec2VersesLabel",
+      "ui.sec2RealQuestionLabel",
+      "ui.sec3GeneralRuleLabel",
+      "ui.sec3ErrorLabel",
+      "ui.sec4FormalSchemeLabel",
+      "ui.sec4ExplanationLabel",
+      "ui.sec4TestLabel",
+      "ui.sec5ConsequenceLabel",
+      "ui.sec6ScenarioLabel",
+      "ui.sec6LogicBoxLabel",
+      "ui.sec6LessonLabel",
+      "ui.sec7QuickResponseLabel",
+      "ui.sec7DevelopedResponseLabel",
+      "ui.sec8DirectQuestionsLabel",
+      "ui.quizTitle",
+      "ui.quizBadge",
+      "ui.btnCheckAnswer",
+      "ui.btnNextQuestion",
+      "ui.btnRestartQuiz",
+      "ui.quizFeedbackCorrect",
+      "ui.quizFeedbackIncorrect",
+      "ui.btnDownloadFascicule",
+      "ui.btnOpenPrint",
+      "ui.tocSummary",
+      "ui.tocCadrage",
+      "ui.tocAdverse",
+      "ui.tocNoeud",
+      "ui.tocPrincipe",
+      "ui.tocArchi",
+      "ui.tocReponses",
+      "ui.contactBookTitleLabel",
+      "ui.contactBookTitleValue",
+      "ui.contactEmailNotice",
+      "ui.legalSharingMain",
+      "ui.legalSharingP1",
+      "ui.legalAllowedTitle",
+      "ui.legalAllowedBullet1",
+      "ui.legalAllowedBullet2",
+      "ui.legalAllowedBullet3",
+      "ui.legalPrivacyMain",
+      "ui.legalPrivacyP1",
+      "ui.shareCopyLink",
+      "intro.introTag",
+      "intro.sections[0].paragraphs[2]",
+      "intro.sections[1].paragraphs[1]",
+      "intro.sections[1].paragraphs[2]",
+      "intro.sections[1].paragraphs[3]",
+      "intro.sections[1].paragraphs[4]",
+      "intro.sections[2].paragraphs[0]",
+      "intro.sections[2].paragraphs[1]",
+      "intro.sections[2].paragraphs[2]",
+      "intro.sections[2].paragraphs[3]",
+      "intro.sections[3].type",
+      "intro.sections[3].header",
+      "intro.sections[3].title",
+      "intro.sections[3].paragraphs[0]",
+      "intro.sections[3].paragraphs[1]",
+      "intro.sections[3].paragraphs[2]",
+      "fallaciesToolbox.goldenRuleText",
+      "arguments[0].analogies[0].logicBox",
+      "arguments[0].analogies[1].logicBox",
+      "arguments[1].analogies[0].logicBox",
+      "arguments[1].analogies[1].logicBox",
+      "arguments[1].objections[1].obj",
+      "arguments[1].objections[1].ans",
+      "arguments[2].analogies[0].logicBox",
+      "arguments[2].analogies[1].logicBox",
+      "arguments[2].objections[1].obj",
+      "arguments[2].objections[1].ans",
+      "arguments[3].analogies[0].logicBox",
+      "arguments[3].analogies[1].logicBox",
+      "arguments[3].objections[1].obj",
+      "arguments[3].objections[1].ans",
+      "arguments[4].analogies[0].logicBox",
+      "arguments[4].analogies[1].logicBox",
+      "arguments[5].analogies[0].logicBox",
+      "arguments[5].analogies[1].logicBox",
+      "arguments[5].objections[1].obj",
+      "arguments[5].objections[1].ans",
+      "arguments[6].analogies[0].logicBox",
+      "arguments[6].analogies[1].logicBox",
+      "arguments[6].objections[1].obj",
+      "arguments[6].objections[1].ans",
+      "arguments[7].analogies[0].logicBox",
+      "arguments[7].analogies[1].logicBox",
+      "arguments[7].objections[1].obj",
+      "arguments[7].objections[1].ans",
+      "arguments[8].analogies[0].logicBox",
+      "arguments[8].analogies[1].logicBox",
+      "arguments[8].objections[1].obj",
+      "arguments[8].objections[1].ans",
+      "arguments[9].analogies[0].logicBox",
+      "arguments[9].analogies[1].logicBox",
+      "arguments[9].objections[1].obj",
+      "arguments[9].objections[1].ans"
+    ],
+    "arrayLengthDifferences": [
+      {
+        "path": "arguments[0].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[0].analogies",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[0].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[1].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[1].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[1].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[2].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[2].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[3].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[3].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[4].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[4].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[5].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[5].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[6].logicalNode.distinctions",
+        "referenceLength": 4,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[6].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[6].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[7].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[7].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[8].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[8].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[8].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[9].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[9].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "preface.sections",
+        "referenceLength": 6,
+        "localeLength": 5
+      },
+      {
+        "path": "intro.sections",
+        "referenceLength": 3,
+        "localeLength": 4
+      },
+      {
+        "path": "intro.sections[0].paragraphs",
+        "referenceLength": 2,
+        "localeLength": 3
+      },
+      {
+        "path": "intro.sections[1].paragraphs",
+        "referenceLength": 1,
+        "localeLength": 5
+      }
+    ],
+    "typeMismatches": []
+  },
+  "pt": {
+    "missingIds": {
+      "argumentIds": [],
+      "fallacyIds": []
+    },
+    "missingSections": [
+      "flag",
+      "arguments[0]",
+      "arguments[1]",
+      "arguments[2]",
+      "arguments[3]",
+      "arguments[4]",
+      "arguments[5]",
+      "arguments[6]",
+      "arguments[7]",
+      "arguments[8]",
+      "arguments[9]",
+      "preface",
+      "intro",
+      "fallaciesToolbox"
+    ],
+    "missingPaths": [
+      "flag",
+      "arguments[0].logicalNode.distinctions[2].term",
+      "arguments[0].logicalNode.distinctions[2].desc",
+      "arguments[0].analogies[0].logic",
+      "arguments[0].analogies[0].application",
+      "arguments[0].analogies[1].logic",
+      "arguments[0].analogies[1].application",
+      "arguments[0].analogies[2].num",
+      "arguments[0].analogies[2].title",
+      "arguments[0].analogies[2].scenario",
+      "arguments[0].analogies[2].logic",
+      "arguments[0].analogies[2].lesson",
+      "arguments[0].analogies[2].application",
+      "arguments[0].framingQuestions[2]",
+      "arguments[1].logicalNode.distinctions[2].term",
+      "arguments[1].logicalNode.distinctions[2].desc",
+      "arguments[1].analogies[0].logic",
+      "arguments[1].analogies[0].application",
+      "arguments[1].analogies[1].logic",
+      "arguments[1].analogies[1].application",
+      "arguments[1].framingQuestions[2]",
+      "arguments[2].analogies[0].logic",
+      "arguments[2].analogies[0].application",
+      "arguments[2].analogies[1].logic",
+      "arguments[2].analogies[1].application",
+      "arguments[2].framingQuestions[2]",
+      "arguments[3].analogies[0].logic",
+      "arguments[3].analogies[0].application",
+      "arguments[3].analogies[1].logic",
+      "arguments[3].analogies[1].application",
+      "arguments[3].framingQuestions[2]",
+      "arguments[4].logicalNode.distinctions[2].term",
+      "arguments[4].logicalNode.distinctions[2].desc",
+      "arguments[4].analogies[0].logic",
+      "arguments[4].analogies[0].application",
+      "arguments[4].analogies[1].logic",
+      "arguments[4].analogies[1].application",
+      "arguments[4].framingQuestions[2]",
+      "arguments[5].analogies[0].logic",
+      "arguments[5].analogies[0].application",
+      "arguments[5].analogies[1].logic",
+      "arguments[5].analogies[1].application",
+      "arguments[5].framingQuestions[2]",
+      "arguments[6].logicalNode.distinctions[2].term",
+      "arguments[6].logicalNode.distinctions[2].desc",
+      "arguments[6].logicalNode.distinctions[3].term",
+      "arguments[6].logicalNode.distinctions[3].desc",
+      "arguments[6].analogies[0].logic",
+      "arguments[6].analogies[0].application",
+      "arguments[6].analogies[1].logic",
+      "arguments[6].analogies[1].application",
+      "arguments[6].framingQuestions[2]",
+      "arguments[7].analogies[0].logic",
+      "arguments[7].analogies[0].application",
+      "arguments[7].analogies[1].logic",
+      "arguments[7].analogies[1].application",
+      "arguments[7].framingQuestions[2]",
+      "arguments[8].logicalNode.distinctions[2].term",
+      "arguments[8].logicalNode.distinctions[2].desc",
+      "arguments[8].analogies[0].logic",
+      "arguments[8].analogies[0].application",
+      "arguments[8].analogies[1].logic",
+      "arguments[8].analogies[1].application",
+      "arguments[8].framingQuestions[2]",
+      "arguments[9].analogies[0].logic",
+      "arguments[9].analogies[0].application",
+      "arguments[9].analogies[1].logic",
+      "arguments[9].analogies[1].application",
+      "arguments[9].framingQuestions[2]",
+      "preface.sections[5].type",
+      "preface.sections[5].header",
+      "preface.sections[5].title",
+      "preface.sections[5].paragraphs[0]",
+      "preface.sections[5].paragraphs[1]",
+      "preface.sections[5].signature",
+      "intro.header",
+      "intro.sections[1].hadiths[0].ref",
+      "intro.sections[1].hadiths[0].ar",
+      "intro.sections[1].hadiths[0].translation",
+      "intro.sections[2].distinctions[0].term",
+      "intro.sections[2].distinctions[0].desc",
+      "intro.sections[2].distinctions[1].term",
+      "intro.sections[2].distinctions[1].desc",
+      "intro.sections[2].distinctions[2].term",
+      "intro.sections[2].distinctions[2].desc",
+      "intro.sections[2].distinctions[3].term",
+      "intro.sections[2].distinctions[3].desc",
+      "intro.sections[2].distinctions[4].term",
+      "intro.sections[2].distinctions[4].desc",
+      "intro.sections[2].distinctions[5].term",
+      "intro.sections[2].distinctions[5].desc",
+      "fallaciesToolbox.introTitle",
+      "fallaciesToolbox.definitionTitle",
+      "fallaciesToolbox.definitionText",
+      "fallaciesToolbox.reflexQuestionTitle",
+      "fallaciesToolbox.reflexQuestionText",
+      "fallaciesToolbox.reflexPurpose",
+      "fallaciesToolbox.pdfDownloadBtn",
+      "fallaciesToolbox.pdfFileName",
+      "fallaciesToolbox.goldenRuleExample",
+      "fallaciesToolbox.goldenRuleGoal",
+      "fallaciesToolbox.sectionTitle10Cards",
+      "fallaciesToolbox.btnDetails",
+      "fallaciesToolbox.btnHide",
+      "fallaciesToolbox.conclusion.finalNote"
+    ],
+    "extraPaths": [
+      "flagSvg",
+      "fontFamily",
+      "ui.searchShortcutHint",
+      "ui.topbarContact",
+      "ui.topbarLegal",
+      "ui.topbarBarbahari",
+      "ui.sidebarTitle",
+      "ui.sidebarCount",
+      "ui.sidebarHome",
+      "ui.sidebarContact",
+      "ui.cardAdverseThesisPrefix",
+      "ui.methodTag",
+      "ui.methodTitle",
+      "ui.methodStep1Title",
+      "ui.methodStep1Desc",
+      "ui.methodStep2Title",
+      "ui.methodStep2Desc",
+      "ui.methodStep3Title",
+      "ui.methodStep3Desc",
+      "ui.quoteBoxText",
+      "ui.quoteBoxAuthor",
+      "ui.sec2ThesisLabel",
+      "ui.sec2VersesLabel",
+      "ui.sec2RealQuestionLabel",
+      "ui.sec3GeneralRuleLabel",
+      "ui.sec3ErrorLabel",
+      "ui.sec4FormalSchemeLabel",
+      "ui.sec4ExplanationLabel",
+      "ui.sec4TestLabel",
+      "ui.sec5ConsequenceLabel",
+      "ui.sec6ScenarioLabel",
+      "ui.sec6LogicBoxLabel",
+      "ui.sec6LessonLabel",
+      "ui.sec7QuickResponseLabel",
+      "ui.sec7DevelopedResponseLabel",
+      "ui.sec8DirectQuestionsLabel",
+      "ui.quizTitle",
+      "ui.quizBadge",
+      "ui.btnCheckAnswer",
+      "ui.btnNextQuestion",
+      "ui.btnRestartQuiz",
+      "ui.quizFeedbackCorrect",
+      "ui.quizFeedbackIncorrect",
+      "ui.btnDownloadFascicule",
+      "ui.btnOpenPrint",
+      "ui.tocSummary",
+      "ui.tocCadrage",
+      "ui.tocAdverse",
+      "ui.tocNoeud",
+      "ui.tocPrincipe",
+      "ui.tocArchi",
+      "ui.tocReponses",
+      "ui.contactBookTitleLabel",
+      "ui.contactBookTitleValue",
+      "ui.contactEmailNotice",
+      "ui.legalSharingMain",
+      "ui.legalSharingP1",
+      "ui.legalAllowedTitle",
+      "ui.legalAllowedBullet1",
+      "ui.legalAllowedBullet2",
+      "ui.legalAllowedBullet3",
+      "ui.legalPrivacyMain",
+      "ui.legalPrivacyP1",
+      "ui.shareCopyLink",
+      "intro.introTag",
+      "intro.sections[0].paragraphs[2]",
+      "intro.sections[1].paragraphs[1]",
+      "intro.sections[1].paragraphs[2]",
+      "intro.sections[1].paragraphs[3]",
+      "intro.sections[1].paragraphs[4]",
+      "intro.sections[2].paragraphs[0]",
+      "intro.sections[2].paragraphs[1]",
+      "intro.sections[2].paragraphs[2]",
+      "intro.sections[2].paragraphs[3]",
+      "intro.sections[3].type",
+      "intro.sections[3].header",
+      "intro.sections[3].title",
+      "intro.sections[3].paragraphs[0]",
+      "intro.sections[3].paragraphs[1]",
+      "intro.sections[3].paragraphs[2]",
+      "fallaciesToolbox.goldenRuleText",
+      "arguments[0].analogies[0].logicBox",
+      "arguments[0].analogies[1].logicBox",
+      "arguments[1].analogies[0].logicBox",
+      "arguments[1].analogies[1].logicBox",
+      "arguments[1].objections[1].obj",
+      "arguments[1].objections[1].ans",
+      "arguments[2].analogies[0].logicBox",
+      "arguments[2].analogies[1].logicBox",
+      "arguments[2].objections[1].obj",
+      "arguments[2].objections[1].ans",
+      "arguments[3].analogies[0].logicBox",
+      "arguments[3].analogies[1].logicBox",
+      "arguments[3].objections[1].obj",
+      "arguments[3].objections[1].ans",
+      "arguments[4].analogies[0].logicBox",
+      "arguments[4].analogies[1].logicBox",
+      "arguments[5].analogies[0].logicBox",
+      "arguments[5].analogies[1].logicBox",
+      "arguments[5].objections[1].obj",
+      "arguments[5].objections[1].ans",
+      "arguments[6].analogies[0].logicBox",
+      "arguments[6].analogies[1].logicBox",
+      "arguments[6].objections[1].obj",
+      "arguments[6].objections[1].ans",
+      "arguments[7].analogies[0].logicBox",
+      "arguments[7].analogies[1].logicBox",
+      "arguments[7].objections[1].obj",
+      "arguments[7].objections[1].ans",
+      "arguments[8].analogies[0].logicBox",
+      "arguments[8].analogies[1].logicBox",
+      "arguments[8].objections[1].obj",
+      "arguments[8].objections[1].ans",
+      "arguments[9].analogies[0].logicBox",
+      "arguments[9].analogies[1].logicBox",
+      "arguments[9].objections[1].obj",
+      "arguments[9].objections[1].ans"
+    ],
+    "arrayLengthDifferences": [
+      {
+        "path": "arguments[0].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[0].analogies",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[0].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[1].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[1].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[1].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[2].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[2].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[3].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[3].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[4].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[4].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[5].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[5].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[6].logicalNode.distinctions",
+        "referenceLength": 4,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[6].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[6].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[7].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[7].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[8].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[8].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[8].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[9].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[9].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "preface.sections",
+        "referenceLength": 6,
+        "localeLength": 5
+      },
+      {
+        "path": "intro.sections",
+        "referenceLength": 3,
+        "localeLength": 4
+      },
+      {
+        "path": "intro.sections[0].paragraphs",
+        "referenceLength": 2,
+        "localeLength": 3
+      },
+      {
+        "path": "intro.sections[1].paragraphs",
+        "referenceLength": 1,
+        "localeLength": 5
+      }
+    ],
+    "typeMismatches": []
+  },
+  "ur": {
+    "missingIds": {
+      "argumentIds": [],
+      "fallacyIds": []
+    },
+    "missingSections": [
+      "arguments[0]",
+      "arguments[1]",
+      "arguments[2]",
+      "arguments[3]",
+      "arguments[4]",
+      "arguments[5]",
+      "arguments[6]",
+      "arguments[7]",
+      "arguments[8]",
+      "arguments[9]",
+      "preface"
+    ],
+    "missingPaths": [
+      "arguments[0].theirArgument.verses[2].ref",
+      "arguments[0].theirArgument.verses[2].ar",
+      "arguments[0].theirArgument.verses[2].translation",
+      "arguments[0].logicalNode.distinctions[2].term",
+      "arguments[0].logicalNode.distinctions[2].desc",
+      "arguments[0].quranicArchitecture.verses[1].ref",
+      "arguments[0].quranicArchitecture.verses[1].ar",
+      "arguments[0].quranicArchitecture.verses[1].translation",
+      "arguments[0].quranicArchitecture.verses[2].ref",
+      "arguments[0].quranicArchitecture.verses[2].ar",
+      "arguments[0].quranicArchitecture.verses[2].translation",
+      "arguments[0].quranicArchitecture.verses[3].ref",
+      "arguments[0].quranicArchitecture.verses[3].ar",
+      "arguments[0].quranicArchitecture.verses[3].translation",
+      "arguments[0].objections[1].obj",
+      "arguments[0].objections[1].ans",
+      "arguments[0].framingQuestions[1]",
+      "arguments[0].framingQuestions[2]",
+      "arguments[1].theirArgument.verses[1].ref",
+      "arguments[1].theirArgument.verses[1].ar",
+      "arguments[1].theirArgument.verses[1].translation",
+      "arguments[1].logicalNode.distinctions[2].term",
+      "arguments[1].logicalNode.distinctions[2].desc",
+      "arguments[1].quranicArchitecture.verses[1].ref",
+      "arguments[1].quranicArchitecture.verses[1].ar",
+      "arguments[1].quranicArchitecture.verses[1].translation",
+      "arguments[1].quranicArchitecture.verses[2].ref",
+      "arguments[1].quranicArchitecture.verses[2].ar",
+      "arguments[1].quranicArchitecture.verses[2].translation",
+      "arguments[1].analogies[1].num",
+      "arguments[1].analogies[1].title",
+      "arguments[1].analogies[1].scenario",
+      "arguments[1].analogies[1].logic",
+      "arguments[1].analogies[1].lesson",
+      "arguments[1].analogies[1].application",
+      "arguments[1].framingQuestions[1]",
+      "arguments[1].framingQuestions[2]",
+      "arguments[2].theirArgument.verses[1].ref",
+      "arguments[2].theirArgument.verses[1].ar",
+      "arguments[2].theirArgument.verses[1].translation",
+      "arguments[2].theirArgument.verses[2].ref",
+      "arguments[2].theirArgument.verses[2].ar",
+      "arguments[2].theirArgument.verses[2].translation",
+      "arguments[2].quranicArchitecture.verses[1].ref",
+      "arguments[2].quranicArchitecture.verses[1].ar",
+      "arguments[2].quranicArchitecture.verses[1].translation",
+      "arguments[2].analogies[1].num",
+      "arguments[2].analogies[1].title",
+      "arguments[2].analogies[1].scenario",
+      "arguments[2].analogies[1].logic",
+      "arguments[2].analogies[1].lesson",
+      "arguments[2].analogies[1].application",
+      "arguments[2].framingQuestions[1]",
+      "arguments[2].framingQuestions[2]",
+      "arguments[3].theirArgument.verses[1].ref",
+      "arguments[3].theirArgument.verses[1].ar",
+      "arguments[3].theirArgument.verses[1].translation",
+      "arguments[3].quranicArchitecture.verses[1].ref",
+      "arguments[3].quranicArchitecture.verses[1].ar",
+      "arguments[3].quranicArchitecture.verses[1].translation",
+      "arguments[3].quranicArchitecture.verses[2].ref",
+      "arguments[3].quranicArchitecture.verses[2].ar",
+      "arguments[3].quranicArchitecture.verses[2].translation",
+      "arguments[3].analogies[1].num",
+      "arguments[3].analogies[1].title",
+      "arguments[3].analogies[1].scenario",
+      "arguments[3].analogies[1].logic",
+      "arguments[3].analogies[1].lesson",
+      "arguments[3].analogies[1].application",
+      "arguments[3].framingQuestions[1]",
+      "arguments[3].framingQuestions[2]",
+      "arguments[4].logicalNode.distinctions[2].term",
+      "arguments[4].logicalNode.distinctions[2].desc",
+      "arguments[4].quranicArchitecture.verses[1].ref",
+      "arguments[4].quranicArchitecture.verses[1].ar",
+      "arguments[4].quranicArchitecture.verses[1].translation",
+      "arguments[4].framingQuestions[2]",
+      "arguments[5].analogies[1].num",
+      "arguments[5].analogies[1].title",
+      "arguments[5].analogies[1].scenario",
+      "arguments[5].analogies[1].logic",
+      "arguments[5].analogies[1].lesson",
+      "arguments[5].analogies[1].application",
+      "arguments[5].framingQuestions[1]",
+      "arguments[5].framingQuestions[2]",
+      "arguments[6].logicalNode.distinctions[2].term",
+      "arguments[6].logicalNode.distinctions[2].desc",
+      "arguments[6].logicalNode.distinctions[3].term",
+      "arguments[6].logicalNode.distinctions[3].desc",
+      "arguments[6].quranicArchitecture.verses[1].ref",
+      "arguments[6].quranicArchitecture.verses[1].ar",
+      "arguments[6].quranicArchitecture.verses[1].translation",
+      "arguments[6].analogies[1].num",
+      "arguments[6].analogies[1].title",
+      "arguments[6].analogies[1].scenario",
+      "arguments[6].analogies[1].logic",
+      "arguments[6].analogies[1].lesson",
+      "arguments[6].analogies[1].application",
+      "arguments[6].framingQuestions[1]",
+      "arguments[6].framingQuestions[2]",
+      "arguments[7].theirArgument.verses[1].ref",
+      "arguments[7].theirArgument.verses[1].ar",
+      "arguments[7].theirArgument.verses[1].translation",
+      "arguments[7].theirArgument.verses[2].ref",
+      "arguments[7].theirArgument.verses[2].ar",
+      "arguments[7].theirArgument.verses[2].translation",
+      "arguments[7].analogies[1].num",
+      "arguments[7].analogies[1].title",
+      "arguments[7].analogies[1].scenario",
+      "arguments[7].analogies[1].logic",
+      "arguments[7].analogies[1].lesson",
+      "arguments[7].analogies[1].application",
+      "arguments[7].framingQuestions[1]",
+      "arguments[7].framingQuestions[2]",
+      "arguments[8].theirArgument.verses[2].ref",
+      "arguments[8].theirArgument.verses[2].ar",
+      "arguments[8].theirArgument.verses[2].translation",
+      "arguments[8].logicalNode.distinctions[2].term",
+      "arguments[8].logicalNode.distinctions[2].desc",
+      "arguments[8].quranicArchitecture.verses[1].ref",
+      "arguments[8].quranicArchitecture.verses[1].ar",
+      "arguments[8].quranicArchitecture.verses[1].translation",
+      "arguments[8].analogies[1].num",
+      "arguments[8].analogies[1].title",
+      "arguments[8].analogies[1].scenario",
+      "arguments[8].analogies[1].logic",
+      "arguments[8].analogies[1].lesson",
+      "arguments[8].analogies[1].application",
+      "arguments[8].framingQuestions[1]",
+      "arguments[8].framingQuestions[2]",
+      "arguments[9].quranicArchitecture.verses[1].ref",
+      "arguments[9].quranicArchitecture.verses[1].ar",
+      "arguments[9].quranicArchitecture.verses[1].translation",
+      "arguments[9].analogies[1].num",
+      "arguments[9].analogies[1].title",
+      "arguments[9].analogies[1].scenario",
+      "arguments[9].analogies[1].logic",
+      "arguments[9].analogies[1].lesson",
+      "arguments[9].analogies[1].application",
+      "arguments[9].framingQuestions[1]",
+      "arguments[9].framingQuestions[2]",
+      "preface.sections[5].signature"
+    ],
+    "extraPaths": [
+      "arguments[4].analogies[2].num",
+      "arguments[4].analogies[2].title",
+      "arguments[4].analogies[2].scenario",
+      "arguments[4].analogies[2].logic",
+      "arguments[4].analogies[2].lesson",
+      "arguments[4].analogies[2].application",
+      "arguments[5].quranicArchitecture.verses[0].ref",
+      "arguments[5].quranicArchitecture.verses[0].ar",
+      "arguments[5].quranicArchitecture.verses[0].translation",
+      "arguments[7].quranicArchitecture.verses[1].ref",
+      "arguments[7].quranicArchitecture.verses[1].ar",
+      "arguments[7].quranicArchitecture.verses[1].translation",
+      "preface.sections[6].type",
+      "preface.sections[6].header",
+      "preface.sections[6].title",
+      "preface.sections[6].paragraphs[0]",
+      "preface.sections[6].paragraphs[1]",
+      "preface.sections[6].signature"
+    ],
+    "arrayLengthDifferences": [
+      {
+        "path": "arguments[0].theirArgument.verses",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[0].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[0].quranicArchitecture.verses",
+        "referenceLength": 4,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[0].objections",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[0].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[1].theirArgument.verses",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[1].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[1].quranicArchitecture.verses",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[1].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[1].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[2].theirArgument.verses",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[2].quranicArchitecture.verses",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[2].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[2].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[3].theirArgument.verses",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[3].quranicArchitecture.verses",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[3].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[3].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[4].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[4].quranicArchitecture.verses",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[4].analogies",
+        "referenceLength": 2,
+        "localeLength": 3
+      },
+      {
+        "path": "arguments[4].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[5].quranicArchitecture.verses",
+        "referenceLength": 0,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[5].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[5].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[6].logicalNode.distinctions",
+        "referenceLength": 4,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[6].quranicArchitecture.verses",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[6].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[6].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[7].theirArgument.verses",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[7].quranicArchitecture.verses",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[7].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[7].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[8].theirArgument.verses",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[8].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[8].quranicArchitecture.verses",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[8].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[8].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[9].quranicArchitecture.verses",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[9].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[9].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "preface.sections",
+        "referenceLength": 6,
+        "localeLength": 7
+      }
+    ],
+    "typeMismatches": []
+  },
+  "ta": {
+    "missingIds": {
+      "argumentIds": [],
+      "fallacyIds": []
+    },
+    "missingSections": [
+      "arguments[0]",
+      "arguments[1]",
+      "arguments[2]",
+      "arguments[3]",
+      "arguments[4]",
+      "arguments[5]",
+      "arguments[6]",
+      "arguments[7]",
+      "arguments[8]",
+      "arguments[9]",
+      "preface",
+      "fallaciesToolbox"
+    ],
+    "missingPaths": [
+      "arguments[0].theirArgument.verses[2].ref",
+      "arguments[0].theirArgument.verses[2].ar",
+      "arguments[0].theirArgument.verses[2].translation",
+      "arguments[0].logicalNode.distinctions[2].term",
+      "arguments[0].logicalNode.distinctions[2].desc",
+      "arguments[0].quranicArchitecture.verses[1].ref",
+      "arguments[0].quranicArchitecture.verses[1].ar",
+      "arguments[0].quranicArchitecture.verses[1].translation",
+      "arguments[0].quranicArchitecture.verses[2].ref",
+      "arguments[0].quranicArchitecture.verses[2].ar",
+      "arguments[0].quranicArchitecture.verses[2].translation",
+      "arguments[0].quranicArchitecture.verses[3].ref",
+      "arguments[0].quranicArchitecture.verses[3].ar",
+      "arguments[0].quranicArchitecture.verses[3].translation",
+      "arguments[0].objections[1].obj",
+      "arguments[0].objections[1].ans",
+      "arguments[0].framingQuestions[1]",
+      "arguments[0].framingQuestions[2]",
+      "arguments[1].theirArgument.verses[1].ref",
+      "arguments[1].theirArgument.verses[1].ar",
+      "arguments[1].theirArgument.verses[1].translation",
+      "arguments[1].logicalNode.distinctions[2].term",
+      "arguments[1].logicalNode.distinctions[2].desc",
+      "arguments[1].quranicArchitecture.verses[1].ref",
+      "arguments[1].quranicArchitecture.verses[1].ar",
+      "arguments[1].quranicArchitecture.verses[1].translation",
+      "arguments[1].quranicArchitecture.verses[2].ref",
+      "arguments[1].quranicArchitecture.verses[2].ar",
+      "arguments[1].quranicArchitecture.verses[2].translation",
+      "arguments[1].analogies[1].num",
+      "arguments[1].analogies[1].title",
+      "arguments[1].analogies[1].scenario",
+      "arguments[1].analogies[1].logic",
+      "arguments[1].analogies[1].lesson",
+      "arguments[1].analogies[1].application",
+      "arguments[1].framingQuestions[1]",
+      "arguments[1].framingQuestions[2]",
+      "arguments[2].theirArgument.verses[1].ref",
+      "arguments[2].theirArgument.verses[1].ar",
+      "arguments[2].theirArgument.verses[1].translation",
+      "arguments[2].theirArgument.verses[2].ref",
+      "arguments[2].theirArgument.verses[2].ar",
+      "arguments[2].theirArgument.verses[2].translation",
+      "arguments[2].quranicArchitecture.verses[1].ref",
+      "arguments[2].quranicArchitecture.verses[1].ar",
+      "arguments[2].quranicArchitecture.verses[1].translation",
+      "arguments[2].analogies[1].num",
+      "arguments[2].analogies[1].title",
+      "arguments[2].analogies[1].scenario",
+      "arguments[2].analogies[1].logic",
+      "arguments[2].analogies[1].lesson",
+      "arguments[2].analogies[1].application",
+      "arguments[2].framingQuestions[1]",
+      "arguments[2].framingQuestions[2]",
+      "arguments[3].theirArgument.verses[1].ref",
+      "arguments[3].theirArgument.verses[1].ar",
+      "arguments[3].theirArgument.verses[1].translation",
+      "arguments[3].quranicArchitecture.verses[1].ref",
+      "arguments[3].quranicArchitecture.verses[1].ar",
+      "arguments[3].quranicArchitecture.verses[1].translation",
+      "arguments[3].quranicArchitecture.verses[2].ref",
+      "arguments[3].quranicArchitecture.verses[2].ar",
+      "arguments[3].quranicArchitecture.verses[2].translation",
+      "arguments[3].analogies[1].num",
+      "arguments[3].analogies[1].title",
+      "arguments[3].analogies[1].scenario",
+      "arguments[3].analogies[1].logic",
+      "arguments[3].analogies[1].lesson",
+      "arguments[3].analogies[1].application",
+      "arguments[3].framingQuestions[1]",
+      "arguments[3].framingQuestions[2]",
+      "arguments[4].logicalNode.distinctions[2].term",
+      "arguments[4].logicalNode.distinctions[2].desc",
+      "arguments[4].quranicArchitecture.verses[1].ref",
+      "arguments[4].quranicArchitecture.verses[1].ar",
+      "arguments[4].quranicArchitecture.verses[1].translation",
+      "arguments[4].framingQuestions[2]",
+      "arguments[5].analogies[1].num",
+      "arguments[5].analogies[1].title",
+      "arguments[5].analogies[1].scenario",
+      "arguments[5].analogies[1].logic",
+      "arguments[5].analogies[1].lesson",
+      "arguments[5].analogies[1].application",
+      "arguments[5].framingQuestions[1]",
+      "arguments[5].framingQuestions[2]",
+      "arguments[6].logicalNode.distinctions[2].term",
+      "arguments[6].logicalNode.distinctions[2].desc",
+      "arguments[6].logicalNode.distinctions[3].term",
+      "arguments[6].logicalNode.distinctions[3].desc",
+      "arguments[6].quranicArchitecture.verses[1].ref",
+      "arguments[6].quranicArchitecture.verses[1].ar",
+      "arguments[6].quranicArchitecture.verses[1].translation",
+      "arguments[6].analogies[1].num",
+      "arguments[6].analogies[1].title",
+      "arguments[6].analogies[1].scenario",
+      "arguments[6].analogies[1].logic",
+      "arguments[6].analogies[1].lesson",
+      "arguments[6].analogies[1].application",
+      "arguments[6].framingQuestions[1]",
+      "arguments[6].framingQuestions[2]",
+      "arguments[7].theirArgument.verses[1].ref",
+      "arguments[7].theirArgument.verses[1].ar",
+      "arguments[7].theirArgument.verses[1].translation",
+      "arguments[7].theirArgument.verses[2].ref",
+      "arguments[7].theirArgument.verses[2].ar",
+      "arguments[7].theirArgument.verses[2].translation",
+      "arguments[7].analogies[1].num",
+      "arguments[7].analogies[1].title",
+      "arguments[7].analogies[1].scenario",
+      "arguments[7].analogies[1].logic",
+      "arguments[7].analogies[1].lesson",
+      "arguments[7].analogies[1].application",
+      "arguments[7].framingQuestions[1]",
+      "arguments[7].framingQuestions[2]",
+      "arguments[8].theirArgument.verses[2].ref",
+      "arguments[8].theirArgument.verses[2].ar",
+      "arguments[8].theirArgument.verses[2].translation",
+      "arguments[8].logicalNode.distinctions[2].term",
+      "arguments[8].logicalNode.distinctions[2].desc",
+      "arguments[8].quranicArchitecture.verses[1].ref",
+      "arguments[8].quranicArchitecture.verses[1].ar",
+      "arguments[8].quranicArchitecture.verses[1].translation",
+      "arguments[8].analogies[1].num",
+      "arguments[8].analogies[1].title",
+      "arguments[8].analogies[1].scenario",
+      "arguments[8].analogies[1].logic",
+      "arguments[8].analogies[1].lesson",
+      "arguments[8].analogies[1].application",
+      "arguments[8].framingQuestions[1]",
+      "arguments[8].framingQuestions[2]",
+      "arguments[9].quranicArchitecture.verses[1].ref",
+      "arguments[9].quranicArchitecture.verses[1].ar",
+      "arguments[9].quranicArchitecture.verses[1].translation",
+      "arguments[9].analogies[1].num",
+      "arguments[9].analogies[1].title",
+      "arguments[9].analogies[1].scenario",
+      "arguments[9].analogies[1].logic",
+      "arguments[9].analogies[1].lesson",
+      "arguments[9].analogies[1].application",
+      "arguments[9].framingQuestions[1]",
+      "arguments[9].framingQuestions[2]",
+      "preface.sections[5].signature",
+      "fallaciesToolbox.conclusion.finalNote"
+    ],
+    "extraPaths": [
+      "arguments[4].analogies[2].num",
+      "arguments[4].analogies[2].title",
+      "arguments[4].analogies[2].scenario",
+      "arguments[4].analogies[2].logic",
+      "arguments[4].analogies[2].lesson",
+      "arguments[4].analogies[2].application",
+      "arguments[5].quranicArchitecture.verses[0].ref",
+      "arguments[5].quranicArchitecture.verses[0].ar",
+      "arguments[5].quranicArchitecture.verses[0].translation",
+      "arguments[7].quranicArchitecture.verses[1].ref",
+      "arguments[7].quranicArchitecture.verses[1].ar",
+      "arguments[7].quranicArchitecture.verses[1].translation",
+      "preface.sections[6].type",
+      "preface.sections[6].header",
+      "preface.sections[6].title",
+      "preface.sections[6].paragraphs[0]",
+      "preface.sections[6].paragraphs[1]",
+      "preface.sections[6].signature"
+    ],
+    "arrayLengthDifferences": [
+      {
+        "path": "arguments[0].theirArgument.verses",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[0].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[0].quranicArchitecture.verses",
+        "referenceLength": 4,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[0].objections",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[0].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[1].theirArgument.verses",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[1].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[1].quranicArchitecture.verses",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[1].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[1].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[2].theirArgument.verses",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[2].quranicArchitecture.verses",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[2].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[2].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[3].theirArgument.verses",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[3].quranicArchitecture.verses",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[3].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[3].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[4].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[4].quranicArchitecture.verses",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[4].analogies",
+        "referenceLength": 2,
+        "localeLength": 3
+      },
+      {
+        "path": "arguments[4].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[5].quranicArchitecture.verses",
+        "referenceLength": 0,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[5].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[5].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[6].logicalNode.distinctions",
+        "referenceLength": 4,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[6].quranicArchitecture.verses",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[6].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[6].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[7].theirArgument.verses",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[7].quranicArchitecture.verses",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[7].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[7].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[8].theirArgument.verses",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[8].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[8].quranicArchitecture.verses",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[8].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[8].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[9].quranicArchitecture.verses",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[9].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[9].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "preface.sections",
+        "referenceLength": 6,
+        "localeLength": 7
+      }
+    ],
+    "typeMismatches": []
+  },
+  "ps": {
+    "missingIds": {
+      "argumentIds": [],
+      "fallacyIds": []
+    },
+    "missingSections": [
+      "arguments[0]",
+      "arguments[1]",
+      "arguments[2]",
+      "arguments[3]",
+      "arguments[4]",
+      "arguments[5]",
+      "arguments[6]",
+      "arguments[7]",
+      "arguments[8]",
+      "arguments[9]",
+      "preface"
+    ],
+    "missingPaths": [
+      "arguments[0].theirArgument.verses[2].ref",
+      "arguments[0].theirArgument.verses[2].ar",
+      "arguments[0].theirArgument.verses[2].translation",
+      "arguments[0].logicalNode.distinctions[2].term",
+      "arguments[0].logicalNode.distinctions[2].desc",
+      "arguments[0].quranicArchitecture.verses[1].ref",
+      "arguments[0].quranicArchitecture.verses[1].ar",
+      "arguments[0].quranicArchitecture.verses[1].translation",
+      "arguments[0].quranicArchitecture.verses[2].ref",
+      "arguments[0].quranicArchitecture.verses[2].ar",
+      "arguments[0].quranicArchitecture.verses[2].translation",
+      "arguments[0].quranicArchitecture.verses[3].ref",
+      "arguments[0].quranicArchitecture.verses[3].ar",
+      "arguments[0].quranicArchitecture.verses[3].translation",
+      "arguments[0].objections[1].obj",
+      "arguments[0].objections[1].ans",
+      "arguments[0].framingQuestions[1]",
+      "arguments[0].framingQuestions[2]",
+      "arguments[1].theirArgument.verses[1].ref",
+      "arguments[1].theirArgument.verses[1].ar",
+      "arguments[1].theirArgument.verses[1].translation",
+      "arguments[1].logicalNode.distinctions[2].term",
+      "arguments[1].logicalNode.distinctions[2].desc",
+      "arguments[1].quranicArchitecture.verses[1].ref",
+      "arguments[1].quranicArchitecture.verses[1].ar",
+      "arguments[1].quranicArchitecture.verses[1].translation",
+      "arguments[1].quranicArchitecture.verses[2].ref",
+      "arguments[1].quranicArchitecture.verses[2].ar",
+      "arguments[1].quranicArchitecture.verses[2].translation",
+      "arguments[1].analogies[1].num",
+      "arguments[1].analogies[1].title",
+      "arguments[1].analogies[1].scenario",
+      "arguments[1].analogies[1].logic",
+      "arguments[1].analogies[1].lesson",
+      "arguments[1].analogies[1].application",
+      "arguments[1].framingQuestions[1]",
+      "arguments[1].framingQuestions[2]",
+      "arguments[2].theirArgument.verses[1].ref",
+      "arguments[2].theirArgument.verses[1].ar",
+      "arguments[2].theirArgument.verses[1].translation",
+      "arguments[2].theirArgument.verses[2].ref",
+      "arguments[2].theirArgument.verses[2].ar",
+      "arguments[2].theirArgument.verses[2].translation",
+      "arguments[2].quranicArchitecture.verses[1].ref",
+      "arguments[2].quranicArchitecture.verses[1].ar",
+      "arguments[2].quranicArchitecture.verses[1].translation",
+      "arguments[2].analogies[1].num",
+      "arguments[2].analogies[1].title",
+      "arguments[2].analogies[1].scenario",
+      "arguments[2].analogies[1].logic",
+      "arguments[2].analogies[1].lesson",
+      "arguments[2].analogies[1].application",
+      "arguments[2].framingQuestions[1]",
+      "arguments[2].framingQuestions[2]",
+      "arguments[3].theirArgument.verses[1].ref",
+      "arguments[3].theirArgument.verses[1].ar",
+      "arguments[3].theirArgument.verses[1].translation",
+      "arguments[3].quranicArchitecture.verses[1].ref",
+      "arguments[3].quranicArchitecture.verses[1].ar",
+      "arguments[3].quranicArchitecture.verses[1].translation",
+      "arguments[3].quranicArchitecture.verses[2].ref",
+      "arguments[3].quranicArchitecture.verses[2].ar",
+      "arguments[3].quranicArchitecture.verses[2].translation",
+      "arguments[3].analogies[1].num",
+      "arguments[3].analogies[1].title",
+      "arguments[3].analogies[1].scenario",
+      "arguments[3].analogies[1].logic",
+      "arguments[3].analogies[1].lesson",
+      "arguments[3].analogies[1].application",
+      "arguments[3].framingQuestions[1]",
+      "arguments[3].framingQuestions[2]",
+      "arguments[4].logicalNode.distinctions[2].term",
+      "arguments[4].logicalNode.distinctions[2].desc",
+      "arguments[4].quranicArchitecture.verses[1].ref",
+      "arguments[4].quranicArchitecture.verses[1].ar",
+      "arguments[4].quranicArchitecture.verses[1].translation",
+      "arguments[4].framingQuestions[2]",
+      "arguments[5].analogies[1].num",
+      "arguments[5].analogies[1].title",
+      "arguments[5].analogies[1].scenario",
+      "arguments[5].analogies[1].logic",
+      "arguments[5].analogies[1].lesson",
+      "arguments[5].analogies[1].application",
+      "arguments[5].framingQuestions[1]",
+      "arguments[5].framingQuestions[2]",
+      "arguments[6].logicalNode.distinctions[2].term",
+      "arguments[6].logicalNode.distinctions[2].desc",
+      "arguments[6].logicalNode.distinctions[3].term",
+      "arguments[6].logicalNode.distinctions[3].desc",
+      "arguments[6].quranicArchitecture.verses[1].ref",
+      "arguments[6].quranicArchitecture.verses[1].ar",
+      "arguments[6].quranicArchitecture.verses[1].translation",
+      "arguments[6].analogies[1].num",
+      "arguments[6].analogies[1].title",
+      "arguments[6].analogies[1].scenario",
+      "arguments[6].analogies[1].logic",
+      "arguments[6].analogies[1].lesson",
+      "arguments[6].analogies[1].application",
+      "arguments[6].framingQuestions[1]",
+      "arguments[6].framingQuestions[2]",
+      "arguments[7].theirArgument.verses[1].ref",
+      "arguments[7].theirArgument.verses[1].ar",
+      "arguments[7].theirArgument.verses[1].translation",
+      "arguments[7].theirArgument.verses[2].ref",
+      "arguments[7].theirArgument.verses[2].ar",
+      "arguments[7].theirArgument.verses[2].translation",
+      "arguments[7].analogies[1].num",
+      "arguments[7].analogies[1].title",
+      "arguments[7].analogies[1].scenario",
+      "arguments[7].analogies[1].logic",
+      "arguments[7].analogies[1].lesson",
+      "arguments[7].analogies[1].application",
+      "arguments[7].framingQuestions[1]",
+      "arguments[7].framingQuestions[2]",
+      "arguments[8].theirArgument.verses[2].ref",
+      "arguments[8].theirArgument.verses[2].ar",
+      "arguments[8].theirArgument.verses[2].translation",
+      "arguments[8].logicalNode.distinctions[2].term",
+      "arguments[8].logicalNode.distinctions[2].desc",
+      "arguments[8].quranicArchitecture.verses[1].ref",
+      "arguments[8].quranicArchitecture.verses[1].ar",
+      "arguments[8].quranicArchitecture.verses[1].translation",
+      "arguments[8].analogies[1].num",
+      "arguments[8].analogies[1].title",
+      "arguments[8].analogies[1].scenario",
+      "arguments[8].analogies[1].logic",
+      "arguments[8].analogies[1].lesson",
+      "arguments[8].analogies[1].application",
+      "arguments[8].framingQuestions[1]",
+      "arguments[8].framingQuestions[2]",
+      "arguments[9].quranicArchitecture.verses[1].ref",
+      "arguments[9].quranicArchitecture.verses[1].ar",
+      "arguments[9].quranicArchitecture.verses[1].translation",
+      "arguments[9].analogies[1].num",
+      "arguments[9].analogies[1].title",
+      "arguments[9].analogies[1].scenario",
+      "arguments[9].analogies[1].logic",
+      "arguments[9].analogies[1].lesson",
+      "arguments[9].analogies[1].application",
+      "arguments[9].framingQuestions[1]",
+      "arguments[9].framingQuestions[2]",
+      "preface.sections[5].signature"
+    ],
+    "extraPaths": [
+      "arguments[4].analogies[2].num",
+      "arguments[4].analogies[2].title",
+      "arguments[4].analogies[2].scenario",
+      "arguments[4].analogies[2].logic",
+      "arguments[4].analogies[2].lesson",
+      "arguments[4].analogies[2].application",
+      "arguments[5].quranicArchitecture.verses[0].ref",
+      "arguments[5].quranicArchitecture.verses[0].ar",
+      "arguments[5].quranicArchitecture.verses[0].translation",
+      "arguments[7].quranicArchitecture.verses[1].ref",
+      "arguments[7].quranicArchitecture.verses[1].ar",
+      "arguments[7].quranicArchitecture.verses[1].translation",
+      "preface.sections[6].type",
+      "preface.sections[6].header",
+      "preface.sections[6].title",
+      "preface.sections[6].paragraphs[0]",
+      "preface.sections[6].paragraphs[1]",
+      "preface.sections[6].signature"
+    ],
+    "arrayLengthDifferences": [
+      {
+        "path": "arguments[0].theirArgument.verses",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[0].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[0].quranicArchitecture.verses",
+        "referenceLength": 4,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[0].objections",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[0].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[1].theirArgument.verses",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[1].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[1].quranicArchitecture.verses",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[1].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[1].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[2].theirArgument.verses",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[2].quranicArchitecture.verses",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[2].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[2].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[3].theirArgument.verses",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[3].quranicArchitecture.verses",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[3].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[3].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[4].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[4].quranicArchitecture.verses",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[4].analogies",
+        "referenceLength": 2,
+        "localeLength": 3
+      },
+      {
+        "path": "arguments[4].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[5].quranicArchitecture.verses",
+        "referenceLength": 0,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[5].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[5].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[6].logicalNode.distinctions",
+        "referenceLength": 4,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[6].quranicArchitecture.verses",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[6].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[6].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[7].theirArgument.verses",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[7].quranicArchitecture.verses",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[7].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[7].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[8].theirArgument.verses",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[8].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[8].quranicArchitecture.verses",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[8].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[8].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[9].quranicArchitecture.verses",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[9].analogies",
+        "referenceLength": 2,
+        "localeLength": 1
+      },
+      {
+        "path": "arguments[9].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 1
+      },
+      {
+        "path": "preface.sections",
+        "referenceLength": 6,
+        "localeLength": 7
+      }
+    ],
+    "typeMismatches": []
+  },
+  "ku": {
+    "missingIds": {
+      "argumentIds": [],
+      "fallacyIds": []
+    },
+    "missingSections": [
+      "flag",
+      "arguments[0]",
+      "arguments[1]",
+      "arguments[2]",
+      "arguments[3]",
+      "arguments[4]",
+      "arguments[5]",
+      "arguments[6]",
+      "arguments[7]",
+      "arguments[8]",
+      "arguments[9]",
+      "preface",
+      "intro",
+      "fallaciesToolbox"
+    ],
+    "missingPaths": [
+      "flag",
+      "arguments[0].logicalNode.distinctions[2].term",
+      "arguments[0].logicalNode.distinctions[2].desc",
+      "arguments[0].analogies[0].logic",
+      "arguments[0].analogies[0].application",
+      "arguments[0].analogies[1].logic",
+      "arguments[0].analogies[1].application",
+      "arguments[0].analogies[2].num",
+      "arguments[0].analogies[2].title",
+      "arguments[0].analogies[2].scenario",
+      "arguments[0].analogies[2].logic",
+      "arguments[0].analogies[2].lesson",
+      "arguments[0].analogies[2].application",
+      "arguments[0].framingQuestions[2]",
+      "arguments[1].logicalNode.distinctions[2].term",
+      "arguments[1].logicalNode.distinctions[2].desc",
+      "arguments[1].analogies[0].logic",
+      "arguments[1].analogies[0].application",
+      "arguments[1].analogies[1].logic",
+      "arguments[1].analogies[1].application",
+      "arguments[1].framingQuestions[2]",
+      "arguments[2].analogies[0].logic",
+      "arguments[2].analogies[0].application",
+      "arguments[2].analogies[1].logic",
+      "arguments[2].analogies[1].application",
+      "arguments[2].framingQuestions[2]",
+      "arguments[3].analogies[0].logic",
+      "arguments[3].analogies[0].application",
+      "arguments[3].analogies[1].logic",
+      "arguments[3].analogies[1].application",
+      "arguments[3].framingQuestions[2]",
+      "arguments[4].logicalNode.distinctions[2].term",
+      "arguments[4].logicalNode.distinctions[2].desc",
+      "arguments[4].analogies[0].logic",
+      "arguments[4].analogies[0].application",
+      "arguments[4].analogies[1].logic",
+      "arguments[4].analogies[1].application",
+      "arguments[4].framingQuestions[2]",
+      "arguments[5].analogies[0].logic",
+      "arguments[5].analogies[0].application",
+      "arguments[5].analogies[1].logic",
+      "arguments[5].analogies[1].application",
+      "arguments[5].framingQuestions[2]",
+      "arguments[6].logicalNode.distinctions[2].term",
+      "arguments[6].logicalNode.distinctions[2].desc",
+      "arguments[6].logicalNode.distinctions[3].term",
+      "arguments[6].logicalNode.distinctions[3].desc",
+      "arguments[6].analogies[0].logic",
+      "arguments[6].analogies[0].application",
+      "arguments[6].analogies[1].logic",
+      "arguments[6].analogies[1].application",
+      "arguments[6].framingQuestions[2]",
+      "arguments[7].analogies[0].logic",
+      "arguments[7].analogies[0].application",
+      "arguments[7].analogies[1].logic",
+      "arguments[7].analogies[1].application",
+      "arguments[7].framingQuestions[2]",
+      "arguments[8].logicalNode.distinctions[2].term",
+      "arguments[8].logicalNode.distinctions[2].desc",
+      "arguments[8].analogies[0].logic",
+      "arguments[8].analogies[0].application",
+      "arguments[8].analogies[1].logic",
+      "arguments[8].analogies[1].application",
+      "arguments[8].framingQuestions[2]",
+      "arguments[9].analogies[0].logic",
+      "arguments[9].analogies[0].application",
+      "arguments[9].analogies[1].logic",
+      "arguments[9].analogies[1].application",
+      "arguments[9].framingQuestions[2]",
+      "preface.sections[1].paragraphs[4]",
+      "preface.sections[5].type",
+      "preface.sections[5].header",
+      "preface.sections[5].title",
+      "preface.sections[5].paragraphs[0]",
+      "preface.sections[5].paragraphs[1]",
+      "preface.sections[5].signature",
+      "intro.header",
+      "intro.sections[1].hadiths[0].ref",
+      "intro.sections[1].hadiths[0].ar",
+      "intro.sections[1].hadiths[0].translation",
+      "intro.sections[2].distinctions[0].term",
+      "intro.sections[2].distinctions[0].desc",
+      "intro.sections[2].distinctions[1].term",
+      "intro.sections[2].distinctions[1].desc",
+      "intro.sections[2].distinctions[2].term",
+      "intro.sections[2].distinctions[2].desc",
+      "intro.sections[2].distinctions[3].term",
+      "intro.sections[2].distinctions[3].desc",
+      "intro.sections[2].distinctions[4].term",
+      "intro.sections[2].distinctions[4].desc",
+      "intro.sections[2].distinctions[5].term",
+      "intro.sections[2].distinctions[5].desc",
+      "fallaciesToolbox.introTitle",
+      "fallaciesToolbox.definitionTitle",
+      "fallaciesToolbox.definitionText",
+      "fallaciesToolbox.reflexQuestionTitle",
+      "fallaciesToolbox.reflexQuestionText",
+      "fallaciesToolbox.reflexPurpose",
+      "fallaciesToolbox.pdfDownloadBtn",
+      "fallaciesToolbox.pdfFileName",
+      "fallaciesToolbox.goldenRuleExample",
+      "fallaciesToolbox.goldenRuleGoal",
+      "fallaciesToolbox.sectionTitle10Cards",
+      "fallaciesToolbox.btnDetails",
+      "fallaciesToolbox.btnHide",
+      "fallaciesToolbox.conclusion.finalNote"
+    ],
+    "extraPaths": [
+      "flagSvg",
+      "fontFamily",
+      "ui.searchShortcutHint",
+      "ui.topbarContact",
+      "ui.topbarLegal",
+      "ui.topbarBarbahari",
+      "ui.sidebarTitle",
+      "ui.sidebarCount",
+      "ui.sidebarHome",
+      "ui.sidebarContact",
+      "ui.cardAdverseThesisPrefix",
+      "ui.methodTag",
+      "ui.methodTitle",
+      "ui.methodStep1Title",
+      "ui.methodStep1Desc",
+      "ui.methodStep2Title",
+      "ui.methodStep2Desc",
+      "ui.methodStep3Title",
+      "ui.methodStep3Desc",
+      "ui.quoteBoxText",
+      "ui.quoteBoxAuthor",
+      "ui.sec2ThesisLabel",
+      "ui.sec2VersesLabel",
+      "ui.sec2RealQuestionLabel",
+      "ui.sec3GeneralRuleLabel",
+      "ui.sec3ErrorLabel",
+      "ui.sec4FormalSchemeLabel",
+      "ui.sec4ExplanationLabel",
+      "ui.sec4TestLabel",
+      "ui.sec5ConsequenceLabel",
+      "ui.sec6ScenarioLabel",
+      "ui.sec6LogicBoxLabel",
+      "ui.sec6LessonLabel",
+      "ui.sec7QuickResponseLabel",
+      "ui.sec7DevelopedResponseLabel",
+      "ui.sec8DirectQuestionsLabel",
+      "ui.quizTitle",
+      "ui.quizBadge",
+      "ui.btnCheckAnswer",
+      "ui.btnNextQuestion",
+      "ui.btnRestartQuiz",
+      "ui.quizFeedbackCorrect",
+      "ui.quizFeedbackIncorrect",
+      "ui.btnDownloadFascicule",
+      "ui.btnOpenPrint",
+      "ui.tocSummary",
+      "ui.tocCadrage",
+      "ui.tocAdverse",
+      "ui.tocNoeud",
+      "ui.tocPrincipe",
+      "ui.tocArchi",
+      "ui.tocReponses",
+      "ui.contactBookTitleLabel",
+      "ui.contactBookTitleValue",
+      "ui.contactEmailNotice",
+      "ui.legalSharingMain",
+      "ui.legalSharingP1",
+      "ui.legalAllowedTitle",
+      "ui.legalAllowedBullet1",
+      "ui.legalAllowedBullet2",
+      "ui.legalAllowedBullet3",
+      "ui.legalPrivacyMain",
+      "ui.legalPrivacyP1",
+      "ui.shareCopyLink",
+      "intro.introTag",
+      "intro.sections[0].paragraphs[2]",
+      "intro.sections[1].paragraphs[1]",
+      "intro.sections[1].paragraphs[2]",
+      "intro.sections[1].paragraphs[3]",
+      "intro.sections[1].paragraphs[4]",
+      "intro.sections[2].paragraphs[0]",
+      "intro.sections[2].paragraphs[1]",
+      "intro.sections[2].paragraphs[2]",
+      "intro.sections[2].paragraphs[3]",
+      "intro.sections[3].type",
+      "intro.sections[3].header",
+      "intro.sections[3].title",
+      "intro.sections[3].paragraphs[0]",
+      "intro.sections[3].paragraphs[1]",
+      "fallaciesToolbox.goldenRuleText",
+      "arguments[0].analogies[0].logicBox",
+      "arguments[0].analogies[1].logicBox",
+      "arguments[1].analogies[0].logicBox",
+      "arguments[1].analogies[1].logicBox",
+      "arguments[1].objections[1].obj",
+      "arguments[1].objections[1].ans",
+      "arguments[2].analogies[0].logicBox",
+      "arguments[2].analogies[1].logicBox",
+      "arguments[2].objections[1].obj",
+      "arguments[2].objections[1].ans",
+      "arguments[3].analogies[0].logicBox",
+      "arguments[3].analogies[1].logicBox",
+      "arguments[3].objections[1].obj",
+      "arguments[3].objections[1].ans",
+      "arguments[4].analogies[0].logicBox",
+      "arguments[4].analogies[1].logicBox",
+      "arguments[5].analogies[0].logicBox",
+      "arguments[5].analogies[1].logicBox",
+      "arguments[5].objections[1].obj",
+      "arguments[5].objections[1].ans",
+      "arguments[6].analogies[0].logicBox",
+      "arguments[6].analogies[1].logicBox",
+      "arguments[6].objections[1].obj",
+      "arguments[6].objections[1].ans",
+      "arguments[7].analogies[0].logicBox",
+      "arguments[7].analogies[1].logicBox",
+      "arguments[7].objections[1].obj",
+      "arguments[7].objections[1].ans",
+      "arguments[8].analogies[0].logicBox",
+      "arguments[8].analogies[1].logicBox",
+      "arguments[8].objections[1].obj",
+      "arguments[8].objections[1].ans",
+      "arguments[9].analogies[0].logicBox",
+      "arguments[9].analogies[1].logicBox",
+      "arguments[9].objections[1].obj",
+      "arguments[9].objections[1].ans"
+    ],
+    "arrayLengthDifferences": [
+      {
+        "path": "arguments[0].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[0].analogies",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[0].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[1].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[1].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[1].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[2].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[2].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[3].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[3].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[4].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[4].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[5].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[5].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[6].logicalNode.distinctions",
+        "referenceLength": 4,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[6].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[6].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[7].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[7].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[8].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[8].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[8].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[9].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[9].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "preface.sections",
+        "referenceLength": 6,
+        "localeLength": 5
+      },
+      {
+        "path": "preface.sections[1].paragraphs",
+        "referenceLength": 5,
+        "localeLength": 4
+      },
+      {
+        "path": "intro.sections",
+        "referenceLength": 3,
+        "localeLength": 4
+      },
+      {
+        "path": "intro.sections[0].paragraphs",
+        "referenceLength": 2,
+        "localeLength": 3
+      },
+      {
+        "path": "intro.sections[1].paragraphs",
+        "referenceLength": 1,
+        "localeLength": 5
+      }
+    ],
+    "typeMismatches": []
+  },
+  "ce": {
+    "missingIds": {
+      "argumentIds": [],
+      "fallacyIds": []
+    },
+    "missingSections": [
+      "flag",
+      "arguments[0]",
+      "arguments[1]",
+      "arguments[2]",
+      "arguments[3]",
+      "arguments[4]",
+      "arguments[5]",
+      "arguments[6]",
+      "arguments[7]",
+      "arguments[8]",
+      "arguments[9]",
+      "preface",
+      "intro",
+      "fallaciesToolbox"
+    ],
+    "missingPaths": [
+      "flag",
+      "arguments[0].logicalNode.distinctions[2].term",
+      "arguments[0].logicalNode.distinctions[2].desc",
+      "arguments[0].analogies[0].logic",
+      "arguments[0].analogies[0].application",
+      "arguments[0].analogies[1].logic",
+      "arguments[0].analogies[1].application",
+      "arguments[0].analogies[2].num",
+      "arguments[0].analogies[2].title",
+      "arguments[0].analogies[2].scenario",
+      "arguments[0].analogies[2].logic",
+      "arguments[0].analogies[2].lesson",
+      "arguments[0].analogies[2].application",
+      "arguments[0].framingQuestions[2]",
+      "arguments[1].logicalNode.distinctions[2].term",
+      "arguments[1].logicalNode.distinctions[2].desc",
+      "arguments[1].analogies[0].logic",
+      "arguments[1].analogies[0].application",
+      "arguments[1].analogies[1].logic",
+      "arguments[1].analogies[1].application",
+      "arguments[1].framingQuestions[2]",
+      "arguments[2].analogies[0].logic",
+      "arguments[2].analogies[0].application",
+      "arguments[2].analogies[1].logic",
+      "arguments[2].analogies[1].application",
+      "arguments[2].framingQuestions[2]",
+      "arguments[3].analogies[0].logic",
+      "arguments[3].analogies[0].application",
+      "arguments[3].analogies[1].logic",
+      "arguments[3].analogies[1].application",
+      "arguments[3].framingQuestions[2]",
+      "arguments[4].logicalNode.distinctions[2].term",
+      "arguments[4].logicalNode.distinctions[2].desc",
+      "arguments[4].analogies[0].logic",
+      "arguments[4].analogies[0].application",
+      "arguments[4].analogies[1].logic",
+      "arguments[4].analogies[1].application",
+      "arguments[4].framingQuestions[2]",
+      "arguments[5].analogies[0].logic",
+      "arguments[5].analogies[0].application",
+      "arguments[5].analogies[1].logic",
+      "arguments[5].analogies[1].application",
+      "arguments[5].framingQuestions[2]",
+      "arguments[6].logicalNode.distinctions[2].term",
+      "arguments[6].logicalNode.distinctions[2].desc",
+      "arguments[6].logicalNode.distinctions[3].term",
+      "arguments[6].logicalNode.distinctions[3].desc",
+      "arguments[6].analogies[0].logic",
+      "arguments[6].analogies[0].application",
+      "arguments[6].analogies[1].logic",
+      "arguments[6].analogies[1].application",
+      "arguments[6].framingQuestions[2]",
+      "arguments[7].analogies[0].logic",
+      "arguments[7].analogies[0].application",
+      "arguments[7].analogies[1].logic",
+      "arguments[7].analogies[1].application",
+      "arguments[7].framingQuestions[2]",
+      "arguments[8].logicalNode.distinctions[2].term",
+      "arguments[8].logicalNode.distinctions[2].desc",
+      "arguments[8].analogies[0].logic",
+      "arguments[8].analogies[0].application",
+      "arguments[8].analogies[1].logic",
+      "arguments[8].analogies[1].application",
+      "arguments[8].framingQuestions[2]",
+      "arguments[9].analogies[0].logic",
+      "arguments[9].analogies[0].application",
+      "arguments[9].analogies[1].logic",
+      "arguments[9].analogies[1].application",
+      "arguments[9].framingQuestions[2]",
+      "preface.sections[1].paragraphs[4]",
+      "preface.sections[5].type",
+      "preface.sections[5].header",
+      "preface.sections[5].title",
+      "preface.sections[5].paragraphs[0]",
+      "preface.sections[5].paragraphs[1]",
+      "preface.sections[5].signature",
+      "intro.header",
+      "intro.sections[1].hadiths[0].ref",
+      "intro.sections[1].hadiths[0].ar",
+      "intro.sections[1].hadiths[0].translation",
+      "intro.sections[2].distinctions[0].term",
+      "intro.sections[2].distinctions[0].desc",
+      "intro.sections[2].distinctions[1].term",
+      "intro.sections[2].distinctions[1].desc",
+      "intro.sections[2].distinctions[2].term",
+      "intro.sections[2].distinctions[2].desc",
+      "intro.sections[2].distinctions[3].term",
+      "intro.sections[2].distinctions[3].desc",
+      "intro.sections[2].distinctions[4].term",
+      "intro.sections[2].distinctions[4].desc",
+      "intro.sections[2].distinctions[5].term",
+      "intro.sections[2].distinctions[5].desc",
+      "fallaciesToolbox.introTitle",
+      "fallaciesToolbox.definitionTitle",
+      "fallaciesToolbox.definitionText",
+      "fallaciesToolbox.reflexQuestionTitle",
+      "fallaciesToolbox.reflexQuestionText",
+      "fallaciesToolbox.reflexPurpose",
+      "fallaciesToolbox.pdfDownloadBtn",
+      "fallaciesToolbox.pdfFileName",
+      "fallaciesToolbox.goldenRuleExample",
+      "fallaciesToolbox.goldenRuleGoal",
+      "fallaciesToolbox.sectionTitle10Cards",
+      "fallaciesToolbox.btnDetails",
+      "fallaciesToolbox.btnHide",
+      "fallaciesToolbox.conclusion.finalNote"
+    ],
+    "extraPaths": [
+      "flagSvg",
+      "fontFamily",
+      "ui.tocPrincipe",
+      "ui.searchShortcutHint",
+      "ui.topbarContact",
+      "ui.topbarLegal",
+      "ui.topbarBarbahari",
+      "ui.sidebarTitle",
+      "ui.sidebarCount",
+      "ui.sidebarHome",
+      "ui.sidebarContact",
+      "ui.cardAdverseThesisPrefix",
+      "ui.methodTag",
+      "ui.methodTitle",
+      "ui.methodStep1Title",
+      "ui.methodStep1Desc",
+      "ui.methodStep2Title",
+      "ui.methodStep2Desc",
+      "ui.methodStep3Title",
+      "ui.methodStep3Desc",
+      "ui.quoteBoxText",
+      "ui.quoteBoxAuthor",
+      "ui.sec2ThesisLabel",
+      "ui.sec2VersesLabel",
+      "ui.sec2RealQuestionLabel",
+      "ui.sec3GeneralRuleLabel",
+      "ui.sec3ErrorLabel",
+      "ui.sec4FormalSchemeLabel",
+      "ui.sec4ExplanationLabel",
+      "ui.sec4TestLabel",
+      "ui.sec5ConsequenceLabel",
+      "ui.sec6ScenarioLabel",
+      "ui.sec6LogicBoxLabel",
+      "ui.sec6LessonLabel",
+      "ui.sec7QuickResponseLabel",
+      "ui.sec7DevelopedResponseLabel",
+      "ui.sec8DirectQuestionsLabel",
+      "ui.quizTitle",
+      "ui.quizBadge",
+      "ui.btnCheckAnswer",
+      "ui.btnNextQuestion",
+      "ui.btnRestartQuiz",
+      "ui.quizFeedbackCorrect",
+      "ui.quizFeedbackIncorrect",
+      "ui.btnDownloadFascicule",
+      "ui.btnOpenPrint",
+      "ui.tocSummary",
+      "ui.tocCadrage",
+      "ui.tocAdverse",
+      "ui.tocNoeud",
+      "ui.tocArchi",
+      "ui.tocReponses",
+      "ui.contactBookTitleLabel",
+      "ui.contactBookTitleValue",
+      "ui.contactEmailNotice",
+      "ui.legalSharingMain",
+      "ui.legalSharingP1",
+      "ui.legalAllowedTitle",
+      "ui.legalAllowedBullet1",
+      "ui.legalAllowedBullet2",
+      "ui.legalAllowedBullet3",
+      "ui.legalPrivacyMain",
+      "ui.legalPrivacyP1",
+      "ui.shareCopyLink",
+      "intro.introTag",
+      "intro.sections[0].paragraphs[2]",
+      "intro.sections[1].paragraphs[1]",
+      "intro.sections[1].paragraphs[2]",
+      "intro.sections[1].paragraphs[3]",
+      "intro.sections[1].paragraphs[4]",
+      "intro.sections[2].paragraphs[0]",
+      "intro.sections[2].paragraphs[1]",
+      "intro.sections[2].paragraphs[2]",
+      "intro.sections[2].paragraphs[3]",
+      "intro.sections[3].type",
+      "intro.sections[3].header",
+      "intro.sections[3].title",
+      "intro.sections[3].paragraphs[0]",
+      "intro.sections[3].paragraphs[1]",
+      "fallaciesToolbox.goldenRuleText",
+      "arguments[0].analogies[0].logicBox",
+      "arguments[0].analogies[1].logicBox",
+      "arguments[1].analogies[0].logicBox",
+      "arguments[1].analogies[1].logicBox",
+      "arguments[1].objections[1].obj",
+      "arguments[1].objections[1].ans",
+      "arguments[2].analogies[0].logicBox",
+      "arguments[2].analogies[1].logicBox",
+      "arguments[2].objections[1].obj",
+      "arguments[2].objections[1].ans",
+      "arguments[3].analogies[0].logicBox",
+      "arguments[3].analogies[1].logicBox",
+      "arguments[3].objections[1].obj",
+      "arguments[3].objections[1].ans",
+      "arguments[4].analogies[0].logicBox",
+      "arguments[4].analogies[1].logicBox",
+      "arguments[5].analogies[0].logicBox",
+      "arguments[5].analogies[1].logicBox",
+      "arguments[5].objections[1].obj",
+      "arguments[5].objections[1].ans",
+      "arguments[6].analogies[0].logicBox",
+      "arguments[6].analogies[1].logicBox",
+      "arguments[6].objections[1].obj",
+      "arguments[6].objections[1].ans",
+      "arguments[7].analogies[0].logicBox",
+      "arguments[7].analogies[1].logicBox",
+      "arguments[7].objections[1].obj",
+      "arguments[7].objections[1].ans",
+      "arguments[8].analogies[0].logicBox",
+      "arguments[8].analogies[1].logicBox",
+      "arguments[8].objections[1].obj",
+      "arguments[8].objections[1].ans",
+      "arguments[9].analogies[0].logicBox",
+      "arguments[9].analogies[1].logicBox",
+      "arguments[9].objections[1].obj",
+      "arguments[9].objections[1].ans"
+    ],
+    "arrayLengthDifferences": [
+      {
+        "path": "arguments[0].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[0].analogies",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[0].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[1].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[1].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[1].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[2].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[2].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[3].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[3].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[4].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[4].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[5].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[5].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[6].logicalNode.distinctions",
+        "referenceLength": 4,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[6].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[6].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[7].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[7].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[8].logicalNode.distinctions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[8].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[8].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[9].objections",
+        "referenceLength": 1,
+        "localeLength": 2
+      },
+      {
+        "path": "arguments[9].framingQuestions",
+        "referenceLength": 3,
+        "localeLength": 2
+      },
+      {
+        "path": "preface.sections",
+        "referenceLength": 6,
+        "localeLength": 5
+      },
+      {
+        "path": "preface.sections[1].paragraphs",
+        "referenceLength": 5,
+        "localeLength": 4
+      },
+      {
+        "path": "intro.sections",
+        "referenceLength": 3,
+        "localeLength": 4
+      },
+      {
+        "path": "intro.sections[0].paragraphs",
+        "referenceLength": 2,
+        "localeLength": 3
+      },
+      {
+        "path": "intro.sections[1].paragraphs",
+        "referenceLength": 1,
+        "localeLength": 5
+      }
+    ],
+    "typeMismatches": []
+  }
+}

@@ -1,13 +1,16 @@
 /**
  * VALIDATION 100% EXHAUSTIVE DE L'APPLICATION (NOVA-GENIUS)
- * Contrôle rigoureux de conformité pour les 13 langues avec le schéma réel de l'application.
+ * Contrôle rigoureux de conformité pour les langues publiées avec le schéma réel de l'application.
  */
 
 const fs = require('fs');
 const path = require('path');
 
 const TRANSLATIONS_DIR = path.join(__dirname, '..', 'js', 'translations');
-const LANG_CODES = ['fr', 'ar', 'ary', 'en', 'es', 'de', 'it', 'pt', 'ur', 'ta', 'ps', 'ku', 'ce'];
+const localeConfigSandbox = {};
+new Function('window', 'sandbox', `${fs.readFileSync(path.join(__dirname, '..', 'js', 'locale-config.js'), 'utf8')}\nsandbox.policy = window.I18N_LOCALE_POLICY;`)({}, localeConfigSandbox);
+const LANG_CODES = localeConfigSandbox.policy.enabledLocales;
+const PENDING_LANG_CODES = localeConfigSandbox.policy.pendingLocales;
 
 const packs = {};
 LANG_CODES.forEach(code => {
@@ -22,7 +25,7 @@ const fr = packs['fr'];
 const requiredUiKeys = Object.keys(fr.ui);
 
 console.log('======================================================================');
-console.log('🔍 NOVA-GENIUS : AUDIT CRITIQUE COMPLET DE TOUTES LES 13 LANGUES');
+console.log(`🔍 NOVA-GENIUS : AUDIT CRITIQUE DES ${LANG_CODES.length} LANGUES PUBLIÉES`);
 console.log('======================================================================\n');
 
 let totalAnomalies = 0;
@@ -88,6 +91,22 @@ LANG_CODES.forEach(code => {
     });
   }
 
+  // Presence alone is not completeness: a target verse must not silently be
+  // the French reference. Each occurrence matters, even when its wording is
+  // repeated elsewhere.
+  if (code !== 'fr' && Array.isArray(p.arguments)) {
+    let frenchVerseLeaks = 0;
+    p.arguments.forEach((arg, argumentIndex) => {
+      for (const sectionId of ['theirArgument', 'quranicArchitecture']) {
+        (arg[sectionId]?.verses || []).forEach((verse, verseIndex) => {
+          const reference = fr.arguments[argumentIndex]?.[sectionId]?.verses?.[verseIndex];
+          if (verse.translation && verse.translation === reference?.translation) frenchVerseLeaks++;
+        });
+      }
+    });
+    if (frenchVerseLeaks) issues.push(`French verse leaks = ${frenchVerseLeaks}`);
+  }
+
   if (issues.length === 0) {
     console.log(`✅ [${code.toUpperCase()}] ${p.name} (${p.native}) : 100% COMPLET & CONFORME`);
   } else {
@@ -99,8 +118,10 @@ LANG_CODES.forEach(code => {
 
 console.log('\n======================================================================');
 if (totalAnomalies === 0) {
-  console.log('🎉 RÉSULTAT GLOBAL : AUCUN MANQUE DÉTECTÉ (0 anomalie sur 13 langues).');
+  console.log(`🎉 RÉSULTAT GLOBAL : AUCUN MANQUE DÉTECTÉ (0 anomalie sur ${LANG_CODES.length} langues publiées).`);
 } else {
   console.log(`⚠️ RÉSULTAT GLOBAL : ${totalAnomalies} anomalie(s) à corriger.`);
+  process.exitCode = 1;
 }
 console.log('======================================================================');
+console.log(`⏳ Langues en attente de validation native : ${PENDING_LANG_CODES.map(code => code.toUpperCase()).join(', ')}.`);

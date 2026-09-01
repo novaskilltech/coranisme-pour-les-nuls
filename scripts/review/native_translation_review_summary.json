@@ -1,0 +1,72 @@
+{
+  "ku": {
+    "totalEntries": 35,
+    "surahs": [
+      "Sureya Al-Anʿâm",
+      "Sureya An-Naḥl",
+      "Sureya An-Nisâʾ",
+      "Sureya Al-Aḥzâb",
+      "Sureya An-Nûr",
+      "Sureya Yûsuf",
+      "Sureya Al-Kahf",
+      "Sureya Al-Aʿrâf",
+      "Sureya Al-Māʾidah",
+      "Sureya Al-Baqarah",
+      "Sureya Al-Ḥijr",
+      "Sureya Al-Jâthiyah",
+      "Sureya Al-Mursalât",
+      "Sureya Luqmân",
+      "Sureya ʿAbasa",
+      "Sureya At-Tawbah",
+      "Sureya At-Taḥrîm",
+      "Sureya An-Najm",
+      "Sureya Al-Ḥâqqah"
+    ],
+    "arguments": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  "ce": {
+    "totalEntries": 35,
+    "surahs": [
+      "Сурат Al-Anʿâm",
+      "Сурат An-Naḥl",
+      "Сурат An-Nisâʾ",
+      "Сурат Al-Aḥzâb",
+      "Сурат An-Nûr",
+      "Сурат Yûsuf",
+      "Сурат Al-Kahf",
+      "Сурат Al-Aʿrâf",
+      "Сурат Al-Māʾidah",
+      "Сурат Al-Baqarah",
+      "Сурат Al-Ḥijr",
+      "Сурат Al-Jâthiyah",
+      "Сурат Al-Mursalât",
+      "Сурат Luqmân",
+      "Сурат ʿAbasa",
+      "Сурат At-Tawbah",
+      "Сурат At-Taḥrîm",
+      "Сурат An-Najm",
+      "Сурат Al-Ḥâqqah"
+    ],
+    "arguments": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      9,
+      10
+    ]
+  }
+}

@@ -1,0 +1,648 @@
+{
+  "ar": {
+    "verseLeaks": [],
+    "structural": {
+      "missingLeaves": 180,
+      "typeMismatches": 0
+    }
+  },
+  "ary": {
+    "verseLeaks": [],
+    "structural": {
+      "missingLeaves": 194,
+      "typeMismatches": 0
+    }
+  },
+  "en": {
+    "verseLeaks": [],
+    "structural": {
+      "missingLeaves": 181,
+      "typeMismatches": 0
+    }
+  },
+  "es": {
+    "verseLeaks": [],
+    "structural": {
+      "missingLeaves": 179,
+      "typeMismatches": 0
+    }
+  },
+  "de": {
+    "verseLeaks": [],
+    "structural": {
+      "missingLeaves": 143,
+      "typeMismatches": 0
+    }
+  },
+  "it": {
+    "verseLeaks": [],
+    "structural": {
+      "missingLeaves": 143,
+      "typeMismatches": 0
+    }
+  },
+  "pt": {
+    "verseLeaks": [],
+    "structural": {
+      "missingLeaves": 143,
+      "typeMismatches": 0
+    }
+  },
+  "ur": {
+    "verseLeaks": [],
+    "structural": {
+      "missingLeaves": 180,
+      "typeMismatches": 0
+    }
+  },
+  "ta": {
+    "verseLeaks": [],
+    "structural": {
+      "missingLeaves": 181,
+      "typeMismatches": 0
+    }
+  },
+  "ps": {
+    "verseLeaks": [],
+    "structural": {
+      "missingLeaves": 180,
+      "typeMismatches": 0
+    }
+  },
+  "ku": {
+    "verseLeaks": [
+      {
+        "path": "arguments[0].theirArgument.verses[0].translation",
+        "argument": 1,
+        "section": "theirArgument",
+        "ref": "Sureya Al-Anʿâm, ayeta 38",
+        "arabic": "مَّا فَرَّطْنَا فِي الْكِتَابِ مِن شَيْءٍ",
+        "currentFrench": "« Nous n'avons rien omis dans le Livre. »"
+      },
+      {
+        "path": "arguments[0].theirArgument.verses[1].translation",
+        "argument": 1,
+        "section": "theirArgument",
+        "ref": "Sureya Al-Anʿâm, ayeta 114",
+        "arabic": "كِتَابًا مُّفَصَّلًا",
+        "currentFrench": "« Un Livre exposé en détail. »"
+      },
+      {
+        "path": "arguments[0].theirArgument.verses[2].translation",
+        "argument": 1,
+        "section": "theirArgument",
+        "ref": "Sureya An-Naḥl, ayeta 89",
+        "arabic": "وَنَزَّلْنَا عَلَيْكَ الْكِتَابَ تِبْيَانًا لِّكُلِّ شَيْءٍ",
+        "currentFrench": "« Nous avons fait descendre sur toi le Livre comme clarification de toute chose. »"
+      },
+      {
+        "path": "arguments[0].quranicArchitecture.verses[0].translation",
+        "argument": 1,
+        "section": "quranicArchitecture",
+        "ref": "Sureya An-Nisâʾ, ayeta 59",
+        "arabic": "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ",
+        "currentFrench": "« Obéissez à Allah et obéissez au Messager. »"
+      },
+      {
+        "path": "arguments[0].quranicArchitecture.verses[1].translation",
+        "argument": 1,
+        "section": "quranicArchitecture",
+        "ref": "Sureya An-Nisâʾ, ayeta 65",
+        "arabic": "حَتَّىٰ يُحَكِّمُوكَ فِيمَا شَجَرَ بَيْنَهُمْ",
+        "currentFrench": "« Jusqu'à ce qu'ils te prennent pour juge dans leurs différends. »"
+      },
+      {
+        "path": "arguments[0].quranicArchitecture.verses[3].translation",
+        "argument": 1,
+        "section": "quranicArchitecture",
+        "ref": "Sureya Al-Aḥzâb, ayeta 21",
+        "arabic": "لَّقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ",
+        "currentFrench": "« Vous avez certes dans le Messager d'Allah un excellent modèle. »"
+      },
+      {
+        "path": "arguments[1].theirArgument.verses[0].translation",
+        "argument": 2,
+        "section": "theirArgument",
+        "ref": "Sureya An-Nisâʾ, ayeta 59",
+        "arabic": "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ",
+        "currentFrench": "« Obéissez à Allah et obéissez au Messager. »"
+      },
+      {
+        "path": "arguments[1].theirArgument.verses[1].translation",
+        "argument": 2,
+        "section": "theirArgument",
+        "ref": "Sureya An-Nisâʾ, ayeta 80",
+        "arabic": "مَّن يُطِعِ الرَّسُولَ فَقَدْ أَطَاعَ اللَّهَ",
+        "currentFrench": "« Celui qui obéit au Messager a certes obéi à Allah. »"
+      },
+      {
+        "path": "arguments[1].quranicArchitecture.verses[0].translation",
+        "argument": 2,
+        "section": "quranicArchitecture",
+        "ref": "Sureya An-Nisâʾ, ayeta 65",
+        "arabic": "فَلَا وَرَبِّكَ لَا يُؤْمِنُونَ حَتَّىٰ يُحَكِّمُوكَ فِيمَا شَجَرَ بَيْنَهُمْ ثُمَّ لَا يَجِدُوا فِي أَنفُسِهِمْ حَرَجًا مِّمَّا قَضَيْتَ وَيُسَلِّمُوا تَسْلِيمًا",
+        "currentFrench": "« Non ! Par ton Seigneur ! Ils ne seront pas croyants tant qu'ils ne t'auront pas pris pour juge dans leurs litiges, et qu'ils n'éprouvent nulle gêne envers ce que tu as tranché, et qu'ils s'y soumettent totalement. »"
+      },
+      {
+        "path": "arguments[1].quranicArchitecture.verses[1].translation",
+        "argument": 2,
+        "section": "quranicArchitecture",
+        "ref": "Sureya An-Nûr, ayeta 63",
+        "arabic": "فَلْيَحْذَرِ الَّذِينَ يُخَالِفُونَ عَنْ أَمْرِهِ",
+        "currentFrench": "« Que ceux qui s'opposent à son ordre prennent garde... »"
+      },
+      {
+        "path": "arguments[1].quranicArchitecture.verses[2].translation",
+        "argument": 2,
+        "section": "quranicArchitecture",
+        "ref": "Sureya Al-Aḥzâb, ayeta 36",
+        "arabic": "وَمَا كَانَ لِمُؤْمِنٍ وَلَا مُؤْمِنَةٍ إِذَا قَضَى اللَّهُ وَرَسُولُهُ أَمْرًا أَن يَكُونَ لَهُمُ الْخِيَرَةُ مِنْ أَمْرِهِمْ",
+        "currentFrench": "« Il n'appartient pas à un croyant ni à une croyante, lorsqu'Allah et Son Messager ont décidé d'une affaire, d'avoir encore le choix... »"
+      },
+      {
+        "path": "arguments[2].theirArgument.verses[0].translation",
+        "argument": 3,
+        "section": "theirArgument",
+        "ref": "Sureya Yûsuf, ayeta 40",
+        "arabic": "إِنِ الْحُكْمُ إِلَّا لِلَّهِ",
+        "currentFrench": "« Le jugement n'appartient qu'à Allah. »"
+      },
+      {
+        "path": "arguments[2].theirArgument.verses[1].translation",
+        "argument": 3,
+        "section": "theirArgument",
+        "ref": "Sureya Al-Anʿâm, ayeta 57",
+        "arabic": "إِنِ الْحُكْمُ إِلَّا لِلَّهِ ۖ يَقُصُّ الْحَقَّ ۖ وَهُوَ خَيْرُ الْفَاصِلِينَ",
+        "currentFrench": "« Le jugement n'appartient qu'à Allah : Il tranche en toute vérité et Il est le meilleur des juges. »"
+      },
+      {
+        "path": "arguments[2].theirArgument.verses[2].translation",
+        "argument": 3,
+        "section": "theirArgument",
+        "ref": "Sureya Al-Kahf, ayeta 26",
+        "arabic": "وَلَا يُشْرِكُ فِي حُكْمِهِ أَحَدًا",
+        "currentFrench": "« Et Il n'associe personne à Son jugement. »"
+      },
+      {
+        "path": "arguments[2].quranicArchitecture.verses[0].translation",
+        "argument": 3,
+        "section": "quranicArchitecture",
+        "ref": "Sureya Al-Aʿrâf, ayeta 157",
+        "arabic": "وَيُحِلُّ لَهُمُ الطَّيِّبَاتِ وَيُحَرِّمُ عَلَيْهِمُ الْخَبَائِثَ",
+        "currentFrench": "« Il leur rend licites les bonnes choses et leur interdit les mauvaises. »"
+      },
+      {
+        "path": "arguments[2].quranicArchitecture.verses[1].translation",
+        "argument": 3,
+        "section": "quranicArchitecture",
+        "ref": "Sureya An-Nisâʾ, ayeta 59",
+        "arabic": "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ وَأُولِي الْأَمْرِ مِنكُمْ",
+        "currentFrench": "« Obéissez à Allah, obéissez au Messager et à ceux d'entre vous qui détiennent l'autorité. »"
+      },
+      {
+        "path": "arguments[3].theirArgument.verses[0].translation",
+        "argument": 4,
+        "section": "theirArgument",
+        "ref": "Sureya Al-Māʾidah, ayeta 99",
+        "arabic": "مَّا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ",
+        "currentFrench": "« Il n'incombe au Messager que la transmission. »"
+      },
+      {
+        "path": "arguments[3].theirArgument.verses[1].translation",
+        "argument": 4,
+        "section": "theirArgument",
+        "ref": "Sureya An-Nûr, ayeta 54",
+        "arabic": "وَإِن تُطِيعُوهُ تَهْتَدُوا ۚ وَمَا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ الْمُبِينُ",
+        "currentFrench": "« Et si vous lui obéissez, vous serez bien guidés. Et il n'incombe au Messager que la transmission claire. »"
+      },
+      {
+        "path": "arguments[3].quranicArchitecture.verses[1].translation",
+        "argument": 4,
+        "section": "quranicArchitecture",
+        "ref": "Sureya Al-Baqarah, ayeta 151",
+        "arabic": "يَتْلُو عَلَيْكُمْ آيَاتِنَا وَيُزَكِّيكُمْ وَيُعَلِّمُكُمُ الْكِتَابَ وَالْحِكْمَةَ",
+        "currentFrench": "« Il vous récite Nos versets, vous purifie, et vous enseigne le Livre et la Sagesse. »"
+      },
+      {
+        "path": "arguments[3].quranicArchitecture.verses[2].translation",
+        "argument": 4,
+        "section": "quranicArchitecture",
+        "ref": "Sureya Al-Aḥzâb, ayeta 21",
+        "arabic": "لَّقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ",
+        "currentFrench": "« Vous avez certes dans le Messager d'Allah un excellent modèle. »"
+      },
+      {
+        "path": "arguments[4].theirArgument.verses[0].translation",
+        "argument": 5,
+        "section": "theirArgument",
+        "ref": "Sureya Al-Ḥijr, ayeta 9",
+        "arabic": "إِنَّا نَحْنُ نَزَّلْنَا الذِّكْرَ وَإِنَّا لَهُ لَحَافِظُونَ",
+        "currentFrench": "« En vérité, c'est Nous qui avons fait descendre le Rappel, et c'est Nous qui en sommes gardien. »"
+      },
+      {
+        "path": "arguments[4].quranicArchitecture.verses[0].translation",
+        "argument": 5,
+        "section": "quranicArchitecture",
+        "ref": "Sureya An-Nisâʾ, ayeta 59",
+        "arabic": "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ",
+        "currentFrench": "« Obéissez à Allah et obéissez au Messager. »"
+      },
+      {
+        "path": "arguments[4].quranicArchitecture.verses[1].translation",
+        "argument": 5,
+        "section": "quranicArchitecture",
+        "ref": "Sureya Al-Aḥzâb, ayeta 21",
+        "arabic": "لَّقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ",
+        "currentFrench": "« Vous avez certes dans le Messager d'Allah un excellent modèle. »"
+      },
+      {
+        "path": "arguments[6].quranicArchitecture.verses[0].translation",
+        "argument": 7,
+        "section": "quranicArchitecture",
+        "ref": "Sureya An-Nisâʾ, ayeta 59",
+        "arabic": "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ",
+        "currentFrench": "« Obéissez à Allah et obéissez au Messager. »"
+      },
+      {
+        "path": "arguments[6].quranicArchitecture.verses[1].translation",
+        "argument": 7,
+        "section": "quranicArchitecture",
+        "ref": "Sureya An-Nisâʾ, ayeta 65",
+        "arabic": "حَتَّىٰ يُحَكِّمُوكَ فِيمَا شَجَرَ بَيْنَهُمْ",
+        "currentFrench": "« Jusqu'à ce qu'ils te prennent pour juge dans leurs différends. »"
+      },
+      {
+        "path": "arguments[7].theirArgument.verses[0].translation",
+        "argument": 8,
+        "section": "theirArgument",
+        "ref": "Sureya Al-Jâthiyah, ayeta 6",
+        "arabic": "تِلْكَ آيَاتُ اللَّهِ نَتْلُوهَا عَلَيْكَ بِالْحَقِّ ۖ فَبِأَيِّ حَدِيثٍ بَعْدَ اللَّهِ وَآيَاتِهِ يُؤْمِنُونَ",
+        "currentFrench": "« Voilà les versets d'Allah que Nous te récitons en toute vérité. En quel discours (hadīth), après Allah et Ses versets, croiront-ils donc ? »"
+      },
+      {
+        "path": "arguments[7].theirArgument.verses[1].translation",
+        "argument": 8,
+        "section": "theirArgument",
+        "ref": "Sureya Al-Mursalât, ayeta 50",
+        "arabic": "فَبِأَيِّ حَدِيثٍ بَعْدَهُ يُؤْمِنُونَ",
+        "currentFrench": "« En quel discours (hadīth) après cela croiront-ils donc ? »"
+      },
+      {
+        "path": "arguments[7].theirArgument.verses[2].translation",
+        "argument": 8,
+        "section": "theirArgument",
+        "ref": "Sureya Luqmân, ayeta 6",
+        "arabic": "وَمِنَ النَّاسِ مَن يَشْتَرِي لَهْوَ الْحَدِيثِ",
+        "currentFrench": "« Et parmi les hommes, il en est qui achètent des discours futiles (lahw al-hadīth)... »"
+      },
+      {
+        "path": "arguments[7].quranicArchitecture.verses[0].translation",
+        "argument": 8,
+        "section": "quranicArchitecture",
+        "ref": "Sureya Al-Jâthiyah, ayeta 6",
+        "arabic": "فَبِأَيِّ حَدِيثٍ بَعْدَ اللَّهِ وَآيَاتِهِ يُؤْمِنُونَ",
+        "currentFrench": "« En quel discours, après Allah et Ses versets, croiront-ils donc ? »"
+      },
+      {
+        "path": "arguments[8].theirArgument.verses[0].translation",
+        "argument": 9,
+        "section": "theirArgument",
+        "ref": "Sureya ʿAbasa, ayetas 1-2",
+        "arabic": "عَبَسَ وَتَوَلَّىٰ أَن جَاءَهُ الْأَعْمَىٰ",
+        "currentFrench": "« Il s'est renfrogné et s'est détourné parce que l'aveugle est venu à lui. »"
+      },
+      {
+        "path": "arguments[8].theirArgument.verses[1].translation",
+        "argument": 9,
+        "section": "theirArgument",
+        "ref": "Sureya At-Tawbah, ayeta 43",
+        "arabic": "عَفَا اللَّهُ عَنكَ لِمَ أَذِنتَ لَهُمْ",
+        "currentFrench": "« Qu'Allah te pardonne ! Pourquoi leur as-tu donné permission ? »"
+      },
+      {
+        "path": "arguments[8].theirArgument.verses[2].translation",
+        "argument": 9,
+        "section": "theirArgument",
+        "ref": "Sureya At-Taḥrîm, ayeta 1",
+        "arabic": "يَا أَيُّهَا النَّبِيُّ لِمَ تُحَرِّمُ مَا أَحَلَّ اللَّهُ لَكَ",
+        "currentFrench": "« Ô Prophète ! Pourquoi t'interdis-tu ce qu'Allah t'a rendu licite ? »"
+      },
+      {
+        "path": "arguments[8].quranicArchitecture.verses[0].translation",
+        "argument": 9,
+        "section": "quranicArchitecture",
+        "ref": "Sureya An-Najm, ayetas 3-4",
+        "arabic": "وَمَا يَنطِقُ عَنِ الْهَوَىٰ إِنْ هُوَ إِلَّا وَحْيٌ يُوحَىٰ",
+        "currentFrench": "« Et il ne prononce rien sous l'effet de la passion ; ce n'est rien d'autre qu'une révélation inspirée. »"
+      },
+      {
+        "path": "arguments[8].quranicArchitecture.verses[1].translation",
+        "argument": 9,
+        "section": "quranicArchitecture",
+        "ref": "Sureya Al-Ḥâqqah, ayetas 44-46",
+        "arabic": "وَلَوْ تَقَوَّلَ عَلَيْنَا بَعْضَ الْأَقَاوِيلِ لَأَخَذْنَا مِنْهُ بِالْيَمِينِ ثُمَّ لَقَطَعْنَا مِنْهُ الْوَتِينَ",
+        "currentFrench": "« Et s'il avait forgé contre Nous quelques paroles, Nous l'aurions saisi de la main droite, puis Nous lui aurions tranché l'aorte. »"
+      },
+      {
+        "path": "arguments[9].quranicArchitecture.verses[0].translation",
+        "argument": 10,
+        "section": "quranicArchitecture",
+        "ref": "Sureya Al-Aḥzâb, ayeta 21",
+        "arabic": "لَّقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ",
+        "currentFrench": "« Vous avez certes dans le Messager d'Allah un excellent modèle. »"
+      }
+    ],
+    "structural": {
+      "missingLeaves": 144,
+      "typeMismatches": 0
+    }
+  },
+  "ce": {
+    "verseLeaks": [
+      {
+        "path": "arguments[0].theirArgument.verses[0].translation",
+        "argument": 1,
+        "section": "theirArgument",
+        "ref": "Сурат Al-Anʿâm, аят 38",
+        "arabic": "مَّا فَرَّطْنَا فِي الْكِتَابِ مِن شَيْءٍ",
+        "currentFrench": "« Nous n'avons rien omis dans le Livre. »"
+      },
+      {
+        "path": "arguments[0].theirArgument.verses[1].translation",
+        "argument": 1,
+        "section": "theirArgument",
+        "ref": "Сурат Al-Anʿâm, аят 114",
+        "arabic": "كِتَابًا مُّفَصَّلًا",
+        "currentFrench": "« Un Livre exposé en détail. »"
+      },
+      {
+        "path": "arguments[0].theirArgument.verses[2].translation",
+        "argument": 1,
+        "section": "theirArgument",
+        "ref": "Сурат An-Naḥl, аят 89",
+        "arabic": "وَنَزَّلْنَا عَلَيْكَ الْكِتَابَ تِبْيَانًا لِّكُلِّ شَيْءٍ",
+        "currentFrench": "« Nous avons fait descendre sur toi le Livre comme clarification de toute chose. »"
+      },
+      {
+        "path": "arguments[0].quranicArchitecture.verses[0].translation",
+        "argument": 1,
+        "section": "quranicArchitecture",
+        "ref": "Сурат An-Nisâʾ, аят 59",
+        "arabic": "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ",
+        "currentFrench": "« Obéissez à Allah et obéissez au Messager. »"
+      },
+      {
+        "path": "arguments[0].quranicArchitecture.verses[1].translation",
+        "argument": 1,
+        "section": "quranicArchitecture",
+        "ref": "Сурат An-Nisâʾ, аят 65",
+        "arabic": "حَتَّىٰ يُحَكِّمُوكَ فِيمَا شَجَرَ بَيْنَهُمْ",
+        "currentFrench": "« Jusqu'à ce qu'ils te prennent pour juge dans leurs différends. »"
+      },
+      {
+        "path": "arguments[0].quranicArchitecture.verses[3].translation",
+        "argument": 1,
+        "section": "quranicArchitecture",
+        "ref": "Сурат Al-Aḥzâb, аят 21",
+        "arabic": "لَّقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ",
+        "currentFrench": "« Vous avez certes dans le Messager d'Allah un excellent modèle. »"
+      },
+      {
+        "path": "arguments[1].theirArgument.verses[0].translation",
+        "argument": 2,
+        "section": "theirArgument",
+        "ref": "Сурат An-Nisâʾ, аят 59",
+        "arabic": "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ",
+        "currentFrench": "« Obéissez à Allah et obéissez au Messager. »"
+      },
+      {
+        "path": "arguments[1].theirArgument.verses[1].translation",
+        "argument": 2,
+        "section": "theirArgument",
+        "ref": "Сурат An-Nisâʾ, аят 80",
+        "arabic": "مَّن يُطِعِ الرَّسُولَ فَقَدْ أَطَاعَ اللَّهَ",
+        "currentFrench": "« Celui qui obéit au Messager a certes obéi à Allah. »"
+      },
+      {
+        "path": "arguments[1].quranicArchitecture.verses[0].translation",
+        "argument": 2,
+        "section": "quranicArchitecture",
+        "ref": "Сурат An-Nisâʾ, аят 65",
+        "arabic": "فَلَا وَرَبِّكَ لَا يُؤْمِنُونَ حَتَّىٰ يُحَكِّمُوكَ فِيمَا شَجَرَ بَيْنَهُمْ ثُمَّ لَا يَجِدُوا فِي أَنفُسِهِمْ حَرَجًا مِّمَّا قَضَيْتَ وَيُسَلِّمُوا تَسْلِيمًا",
+        "currentFrench": "« Non ! Par ton Seigneur ! Ils ne seront pas croyants tant qu'ils ne t'auront pas pris pour juge dans leurs litiges, et qu'ils n'éprouvent nulle gêne envers ce que tu as tranché, et qu'ils s'y soumettent totalement. »"
+      },
+      {
+        "path": "arguments[1].quranicArchitecture.verses[1].translation",
+        "argument": 2,
+        "section": "quranicArchitecture",
+        "ref": "Сурат An-Nûr, аят 63",
+        "arabic": "فَلْيَحْذَرِ الَّذِينَ يُخَالِفُونَ عَنْ أَمْرِهِ",
+        "currentFrench": "« Que ceux qui s'opposent à son ordre prennent garde... »"
+      },
+      {
+        "path": "arguments[1].quranicArchitecture.verses[2].translation",
+        "argument": 2,
+        "section": "quranicArchitecture",
+        "ref": "Сурат Al-Aḥzâb, аят 36",
+        "arabic": "وَمَا كَانَ لِمُؤْمِنٍ وَلَا مُؤْمِنَةٍ إِذَا قَضَى اللَّهُ وَرَسُولُهُ أَمْرًا أَن يَكُونَ لَهُمُ الْخِيَرَةُ مِنْ أَمْرِهِمْ",
+        "currentFrench": "« Il n'appartient pas à un croyant ni à une croyante, lorsqu'Allah et Son Messager ont décidé d'une affaire, d'avoir encore le choix... »"
+      },
+      {
+        "path": "arguments[2].theirArgument.verses[0].translation",
+        "argument": 3,
+        "section": "theirArgument",
+        "ref": "Сурат Yûsuf, аят 40",
+        "arabic": "إِنِ الْحُكْمُ إِلَّا لِلَّهِ",
+        "currentFrench": "« Le jugement n'appartient qu'à Allah. »"
+      },
+      {
+        "path": "arguments[2].theirArgument.verses[1].translation",
+        "argument": 3,
+        "section": "theirArgument",
+        "ref": "Сурат Al-Anʿâm, аят 57",
+        "arabic": "إِنِ الْحُكْمُ إِلَّا لِلَّهِ ۖ يَقُصُّ الْحَقَّ ۖ وَهُوَ خَيْرُ الْفَاصِلِينَ",
+        "currentFrench": "« Le jugement n'appartient qu'à Allah : Il tranche en toute vérité et Il est le meilleur des juges. »"
+      },
+      {
+        "path": "arguments[2].theirArgument.verses[2].translation",
+        "argument": 3,
+        "section": "theirArgument",
+        "ref": "Сурат Al-Kahf, аят 26",
+        "arabic": "وَلَا يُشْرِكُ فِي حُكْمِهِ أَحَدًا",
+        "currentFrench": "« Et Il n'associe personne à Son jugement. »"
+      },
+      {
+        "path": "arguments[2].quranicArchitecture.verses[0].translation",
+        "argument": 3,
+        "section": "quranicArchitecture",
+        "ref": "Сурат Al-Aʿrâf, аят 157",
+        "arabic": "وَيُحِلُّ لَهُمُ الطَّيِّبَاتِ وَيُحَرِّمُ عَلَيْهِمُ الْخَبَائِثَ",
+        "currentFrench": "« Il leur rend licites les bonnes choses et leur interdit les mauvaises. »"
+      },
+      {
+        "path": "arguments[2].quranicArchitecture.verses[1].translation",
+        "argument": 3,
+        "section": "quranicArchitecture",
+        "ref": "Сурат An-Nisâʾ, аят 59",
+        "arabic": "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ وَأُولِي الْأَمْرِ مِنكُمْ",
+        "currentFrench": "« Obéissez à Allah, obéissez au Messager et à ceux d'entre vous qui détiennent l'autorité. »"
+      },
+      {
+        "path": "arguments[3].theirArgument.verses[0].translation",
+        "argument": 4,
+        "section": "theirArgument",
+        "ref": "Сурат Al-Māʾidah, аят 99",
+        "arabic": "مَّا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ",
+        "currentFrench": "« Il n'incombe au Messager que la transmission. »"
+      },
+      {
+        "path": "arguments[3].theirArgument.verses[1].translation",
+        "argument": 4,
+        "section": "theirArgument",
+        "ref": "Сурат An-Nûr, аят 54",
+        "arabic": "وَإِن تُطِيعُوهُ تَهْتَدُوا ۚ وَمَا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ الْمُبِينُ",
+        "currentFrench": "« Et si vous lui obéissez, vous serez bien guidés. Et il n'incombe au Messager que la transmission claire. »"
+      },
+      {
+        "path": "arguments[3].quranicArchitecture.verses[1].translation",
+        "argument": 4,
+        "section": "quranicArchitecture",
+        "ref": "Сурат Al-Baqarah, аят 151",
+        "arabic": "يَتْلُو عَلَيْكُمْ آيَاتِنَا وَيُزَكِّيكُمْ وَيُعَلِّمُكُمُ الْكِتَابَ وَالْحِكْمَةَ",
+        "currentFrench": "« Il vous récite Nos versets, vous purifie, et vous enseigne le Livre et la Sagesse. »"
+      },
+      {
+        "path": "arguments[3].quranicArchitecture.verses[2].translation",
+        "argument": 4,
+        "section": "quranicArchitecture",
+        "ref": "Сурат Al-Aḥzâb, аят 21",
+        "arabic": "لَّقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ",
+        "currentFrench": "« Vous avez certes dans le Messager d'Allah un excellent modèle. »"
+      },
+      {
+        "path": "arguments[4].theirArgument.verses[0].translation",
+        "argument": 5,
+        "section": "theirArgument",
+        "ref": "Сурат Al-Ḥijr, аят 9",
+        "arabic": "إِنَّا نَحْنُ نَزَّلْنَا الذِّكْرَ وَإِنَّا لَهُ لَحَافِظُونَ",
+        "currentFrench": "« En vérité, c'est Nous qui avons fait descendre le Rappel, et c'est Nous qui en sommes gardien. »"
+      },
+      {
+        "path": "arguments[4].quranicArchitecture.verses[0].translation",
+        "argument": 5,
+        "section": "quranicArchitecture",
+        "ref": "Сурат An-Nisâʾ, аят 59",
+        "arabic": "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ",
+        "currentFrench": "« Obéissez à Allah et obéissez au Messager. »"
+      },
+      {
+        "path": "arguments[4].quranicArchitecture.verses[1].translation",
+        "argument": 5,
+        "section": "quranicArchitecture",
+        "ref": "Сурат Al-Aḥzâb, аят 21",
+        "arabic": "لَّقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ",
+        "currentFrench": "« Vous avez certes dans le Messager d'Allah un excellent modèle. »"
+      },
+      {
+        "path": "arguments[6].quranicArchitecture.verses[0].translation",
+        "argument": 7,
+        "section": "quranicArchitecture",
+        "ref": "Сурат An-Nisâʾ, аят 59",
+        "arabic": "أَطِيعُوا اللَّهَ وَأَطِيعُوا الرَّسُولَ",
+        "currentFrench": "« Obéissez à Allah et obéissez au Messager. »"
+      },
+      {
+        "path": "arguments[6].quranicArchitecture.verses[1].translation",
+        "argument": 7,
+        "section": "quranicArchitecture",
+        "ref": "Сурат An-Nisâʾ, аят 65",
+        "arabic": "حَتَّىٰ يُحَكِّمُوكَ فِيمَا شَجَرَ بَيْنَهُمْ",
+        "currentFrench": "« Jusqu'à ce qu'ils te prennent pour juge dans leurs différends. »"
+      },
+      {
+        "path": "arguments[7].theirArgument.verses[0].translation",
+        "argument": 8,
+        "section": "theirArgument",
+        "ref": "Сурат Al-Jâthiyah, аят 6",
+        "arabic": "تِلْكَ آيَاتُ اللَّهِ نَتْلُوهَا عَلَيْكَ بِالْحَقِّ ۖ فَبِأَيِّ حَدِيثٍ بَعْدَ اللَّهِ وَآيَاتِهِ يُؤْمِنُونَ",
+        "currentFrench": "« Voilà les versets d'Allah que Nous te récitons en toute vérité. En quel discours (hadīth), après Allah et Ses versets, croiront-ils donc ? »"
+      },
+      {
+        "path": "arguments[7].theirArgument.verses[1].translation",
+        "argument": 8,
+        "section": "theirArgument",
+        "ref": "Сурат Al-Mursalât, аят 50",
+        "arabic": "فَبِأَيِّ حَدِيثٍ بَعْدَهُ يُؤْمِنُونَ",
+        "currentFrench": "« En quel discours (hadīth) après cela croiront-ils donc ? »"
+      },
+      {
+        "path": "arguments[7].theirArgument.verses[2].translation",
+        "argument": 8,
+        "section": "theirArgument",
+        "ref": "Сурат Luqmân, аят 6",
+        "arabic": "وَمِنَ النَّاسِ مَن يَشْتَرِي لَهْوَ الْحَدِيثِ",
+        "currentFrench": "« Et parmi les hommes, il en est qui achètent des discours futiles (lahw al-hadīth)... »"
+      },
+      {
+        "path": "arguments[7].quranicArchitecture.verses[0].translation",
+        "argument": 8,
+        "section": "quranicArchitecture",
+        "ref": "Сурат Al-Jâthiyah, аят 6",
+        "arabic": "فَبِأَيِّ حَدِيثٍ بَعْدَ اللَّهِ وَآيَاتِهِ يُؤْمِنُونَ",
+        "currentFrench": "« En quel discours, après Allah et Ses versets, croiront-ils donc ? »"
+      },
+      {
+        "path": "arguments[8].theirArgument.verses[0].translation",
+        "argument": 9,
+        "section": "theirArgument",
+        "ref": "Сурат ʿAbasa, аятs 1-2",
+        "arabic": "عَبَسَ وَتَوَلَّىٰ أَن جَاءَهُ الْأَعْمَىٰ",
+        "currentFrench": "« Il s'est renfrogné et s'est détourné parce que l'aveugle est venu à lui. »"
+      },
+      {
+        "path": "arguments[8].theirArgument.verses[1].translation",
+        "argument": 9,
+        "section": "theirArgument",
+        "ref": "Сурат At-Tawbah, аят 43",
+        "arabic": "عَفَا اللَّهُ عَنكَ لِمَ أَذِنتَ لَهُمْ",
+        "currentFrench": "« Qu'Allah te pardonne ! Pourquoi leur as-tu donné permission ? »"
+      },
+      {
+        "path": "arguments[8].theirArgument.verses[2].translation",
+        "argument": 9,
+        "section": "theirArgument",
+        "ref": "Сурат At-Taḥrîm, аят 1",
+        "arabic": "يَا أَيُّهَا النَّبِيُّ لِمَ تُحَرِّمُ مَا أَحَلَّ اللَّهُ لَكَ",
+        "currentFrench": "« Ô Prophète ! Pourquoi t'interdis-tu ce qu'Allah t'a rendu licite ? »"
+      },
+      {
+        "path": "arguments[8].quranicArchitecture.verses[0].translation",
+        "argument": 9,
+        "section": "quranicArchitecture",
+        "ref": "Сурат An-Najm, аятs 3-4",
+        "arabic": "وَمَا يَنطِقُ عَنِ الْهَوَىٰ إِنْ هُوَ إِلَّا وَحْيٌ يُوحَىٰ",
+        "currentFrench": "« Et il ne prononce rien sous l'effet de la passion ; ce n'est rien d'autre qu'une révélation inspirée. »"
+      },
+      {
+        "path": "arguments[8].quranicArchitecture.verses[1].translation",
+        "argument": 9,
+        "section": "quranicArchitecture",
+        "ref": "Сурат Al-Ḥâqqah, аятs 44-46",
+        "arabic": "وَلَوْ تَقَوَّلَ عَلَيْنَا بَعْضَ الْأَقَاوِيلِ لَأَخَذْنَا مِنْهُ بِالْيَمِينِ ثُمَّ لَقَطَعْنَا مِنْهُ الْوَتِينَ",
+        "currentFrench": "« Et s'il avait forgé contre Nous quelques paroles, Nous l'aurions saisi de la main droite, puis Nous lui aurions tranché l'aorte. »"
+      },
+      {
+        "path": "arguments[9].quranicArchitecture.verses[0].translation",
+        "argument": 10,
+        "section": "quranicArchitecture",
+        "ref": "Сурат Al-Aḥzâb, аят 21",
+        "arabic": "لَّقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ",
+        "currentFrench": "« Vous avez certes dans le Messager d'Allah un excellent modèle. »"
+      }
+    ],
+    "structural": {
+      "missingLeaves": 144,
+      "typeMismatches": 0
+    }
+  }
+}

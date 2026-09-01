@@ -7,7 +7,9 @@ const path = require('path');
 
 // Charger tous les fichiers de traduction
 const I18N_DATA = {};
-const LANG_CODES = ['fr', 'ar', 'ary', 'en', 'es', 'de', 'it', 'pt', 'ur', 'ta', 'ps', 'ku', 'ce'];
+const localeConfigSandbox = {};
+new Function('window', 'sandbox', `${fs.readFileSync(path.join(__dirname, '..', 'js', 'locale-config.js'), 'utf8')}\nsandbox.policy = window.I18N_LOCALE_POLICY;`)({}, localeConfigSandbox);
+const LANG_CODES = localeConfigSandbox.policy.enabledLocales;
 
 LANG_CODES.forEach(code => {
   const filePath = path.join(__dirname, '..', 'js', 'translations', `${code}.js`);
@@ -20,7 +22,7 @@ LANG_CODES.forEach(code => {
 // Charger app.js dans un environnement de test
 const appJs = fs.readFileSync(path.join(__dirname, '..', 'js', 'app.js'), 'utf8');
 
-console.log('🧪 Début des tests de rendu pour les 13 langues...\n');
+console.log(`🧪 Début des tests de rendu pour les ${LANG_CODES.length} langues publiées...\n`);
 
 let passCount = 0;
 let failCount = 0;

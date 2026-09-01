@@ -17,9 +17,6 @@ function getActiveUI() {
   if (window.I18N_DATA && window.I18N_DATA[currentLang] && window.I18N_DATA[currentLang].ui) {
     return window.I18N_DATA[currentLang].ui;
   }
-  if (window.I18N_DATA && window.I18N_DATA['fr'] && window.I18N_DATA['fr'].ui) {
-    return window.I18N_DATA['fr'].ui;
-  }
   return {};
 }
 
@@ -368,6 +365,7 @@ function initApp() {
 
   // Gestion du menu drawer mobile
   initMobileDrawer();
+  initBookPromo3D();
 
   // Initialisation du compteur de visites anonymisé
   initVisitsCounter();
@@ -745,7 +743,7 @@ function renderArgumentView(arg, container) {
                     <span class="verse-ref-badge">${escapeHTML(v.ref)}</span>
                   </div>
                   <div class="verse-arabic" lang="ar" dir="rtl">${v.ar}</div>
-                  <div class="verse-translation">${v.translation || v.fr || ''}</div>
+                  <div class="verse-translation">${v.translation || ''}</div>
                 </div>
               `).join('')}
             </div>
@@ -852,7 +850,7 @@ function renderArgumentView(arg, container) {
                     <span class="verse-ref-badge">${escapeHTML(v.ref)}</span>
                   </div>
                   <div class="verse-arabic" lang="ar" dir="rtl">${v.ar}</div>
-                  <div class="verse-translation">${v.translation || v.fr || ''}</div>
+                  <div class="verse-translation">${v.translation || ''}</div>
                 </div>
               `).join('')}
             </div>
@@ -1559,6 +1557,17 @@ document.addEventListener('click', (e) => {
       break;
     }
 
+    case 'flip-book': {
+      const bookEl = document.getElementById('book-3d-interactive');
+      if (bookEl) {
+        bookEl.classList.toggle('is-flipped');
+        if (!bookEl.classList.contains('is-flipped')) {
+          bookEl.style.transform = '';
+        }
+      }
+      break;
+    }
+
     case 'close-modal': {
       const modalId = target.getAttribute('data-modal-id');
       if (modalId && typeof window.closeModal === 'function') window.closeModal(modalId);
@@ -1653,3 +1662,63 @@ document.addEventListener('click', (e) => {
       break;
   }
 });
+
+
+/**
+ * Initialisation et logique du livre 3D "Le Coraniste Repenti"
+ */
+function initBookPromo3D() {
+  const bookCard = document.getElementById('book-3d-interactive');
+  if (bookCard) {
+    // 3D Parallax Tilt sur Desktop
+    const stage = bookCard.closest('.book-3d-stage');
+    if (stage) {
+      stage.addEventListener('mousemove', (e) => {
+        if (bookCard.classList.contains('is-flipped')) return;
+        const rect = stage.getBoundingClientRect();
+        const x = e.clientX - rect.left - rect.width / 2;
+        const y = e.clientY - rect.top - rect.height / 2;
+        const rotY = (x / (rect.width / 2)) * 18;
+        const rotX = -(y / (rect.height / 2)) * 18;
+        bookCard.style.transform = `scale(1.05) rotateY(${rotY}deg) rotateX(${rotX}deg) translateZ(30px)`;
+      });
+
+      stage.addEventListener('mouseleave', () => {
+        if (!bookCard.classList.contains('is-flipped')) {
+          bookCard.style.transform = '';
+        }
+      });
+    }
+  }
+
+  // Ouverture automatique intelligente après le choix de langue ou premier chargement
+  const hasSeenBookPromo = sessionStorage.getItem('has_seen_book_promo_v1');
+  const hasDirectArgHash = window.location.hash && window.location.hash.startsWith('#arg-');
+  const hasGateway = document.getElementById('lang-gateway');
+  const isGatewayVisible = hasGateway && (hasGateway.style.display === 'flex' || (!sessionStorage.getItem('has_closed_gateway') && !hasDirectArgHash));
+
+  if (!hasSeenBookPromo && !hasDirectArgHash) {
+    if (!isGatewayVisible) {
+      setTimeout(() => {
+        if (typeof window.openModal === 'function') {
+          window.openModal('book-promo-modal');
+          sessionStorage.setItem('has_seen_book_promo_v1', 'true');
+        }
+      }, 700);
+    }
+  }
+}
+
+// Extension du trigger de fermeture de gateway pour déclencher la promo
+const origCloseGateway = window.closeLangGateway;
+window.closeLangGateway = function() {
+  if (typeof origCloseGateway === 'function') origCloseGateway();
+  if (!sessionStorage.getItem('has_seen_book_promo_v1') && !(window.location.hash && window.location.hash.startsWith('#arg-'))) {
+    setTimeout(() => {
+      if (typeof window.openModal === 'function') {
+        window.openModal('book-promo-modal');
+        sessionStorage.setItem('has_seen_book_promo_v1', 'true');
+      }
+    }, 450);
+  }
+};
