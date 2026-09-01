@@ -168,7 +168,33 @@ Ce projet constitue la plateforme interactive officielle du manuel de réfutatio
   - [`css/style.css`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/css/style.css)
   - [`js/app.js`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/js/app.js)
   - [`js/i18n.js`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/js/i18n.js)
-  - [`js/translations/*.js`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/js/translations/) (13 dictionnaires)
+---
+
+### 🌐 Décision 12 : Routage Multi-URL par Langue (`/fr`, `/ar`, `/de`, etc.) & Vignettes Open Graph Dédiées
+- **Besoin** :
+  1. Permettre le partage direct du site dans la langue de l'interlocuteur via des URLs propres : `https://anti-coranisme.novaskill.tech/de` (Allemand), `/ar` (Arabe), `/en` (Anglais), etc.
+  2. Fournir aux robots de prévisualisation (WhatsApp, Telegram, Facebook, Twitter/X, Discord, LinkedIn) des balises Open Graph (`og:title`, `og:description`, `og:locale`, `twitter:title`, etc.) traduites intégralement dans la langue ciblée.
+  3. Mettre à jour l'URL du navigateur dynamiquement lors d'un changement de langue sans recharger la page (`history.pushState`).
+  4. Adapter le module de partage (Modal & Web Share) pour copier l'URL localisée avec les textes de partage dans la langue active.
+- **Modifications appliquées** :
+  - **Génération Statique Dédiée** ([`scripts/build_localized_index_pages.cjs`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/scripts/build_localized_index_pages.cjs)) :
+    - Création des dossiers racine et pages `index.html` pour les 13 langues : `/fr`, `/ar`, `/ary`, `/en`, `/es`, `/de`, `/it`, `/pt`, `/ur`, `/ta`, `/ps`, `/ku`, `/ce`.
+    - Injection de `<base href="/">` pour la résolution instantanée de tous les assets, styles et scripts.
+    - Balises Open Graph, Meta Description, Twitter Cards et Hreflang complètes et conformes pour chaque langue.
+  - **Détection & Synchronisation de l'URL** ([`js/i18n.js`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/js/i18n.js)) :
+    - Détection automatique de la langue depuis le chemin de l'URL (`/de`, `/ar`, etc.) ou `window.INITIAL_PAGE_LANG`.
+    - Bypass direct du Language Gateway lorsque l'URL cible explicitement une langue.
+    - Mise à jour fluide de l'URL dans la barre d'adresse lors du changement de langue via le menu déroulant.
+  - **Module de Partage Localisé** ([`js/app.js`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/js/app.js)) :
+    - URLs de partage générées sous la forme `https://anti-coranisme.novaskill.tech/${lang}#arg-${id}`.
+  - **Sitemap Multilingue** ([`sitemap.xml`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/sitemap.xml)) :
+    - Indexation déclarée des 13 URLs de langue et des arguments.
+- **Fichiers impactés** :
+  - `fr/index.html`, `ar/index.html`, `ary/index.html`, `en/index.html`, `es/index.html`, `de/index.html`, `it/index.html`, `pt/index.html`, `ur/index.html`, `ta/index.html`, `ps/index.html`, `ku/index.html`, `ce/index.html`
+  - [`js/i18n.js`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/js/i18n.js)
+  - [`js/app.js`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/js/app.js)
+  - [`sitemap.xml`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/sitemap.xml)
+  - [`scripts/build_localized_index_pages.cjs`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/scripts/build_localized_index_pages.cjs)
   - [`DECISION_LOG.md`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/DECISION_LOG.md)
 
 ---

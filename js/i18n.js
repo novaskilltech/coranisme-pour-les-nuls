@@ -117,16 +117,35 @@ function initI18n() {
   renderLanguageSwitchers();
   bindLangEvents();
 
-  // Détecter la langue enregistrée ou la langue du navigateur
+  // Détecter la langue depuis l'URL path (/ar, /de, /en, etc.) ou window.INITIAL_PAGE_LANG
+  const pathParts = window.location.pathname.split('/').filter(Boolean);
+  const pathLang = pathParts[0] ? pathParts[0].toLowerCase() : null;
+  const isPathValidLang = pathLang && LOCALE_POLICY.enabledLocales.includes(pathLang);
+  const explicitLang = window.INITIAL_PAGE_LANG || (isPathValidLang ? pathLang : null);
+
   const savedLang = localStorage.getItem('refutation_lang');
   const browserLang = (navigator.language || navigator.userLanguage || 'fr').split('-')[0].toLowerCase();
   
-  const initialLang = savedLang || (LOCALE_POLICY.enabledLocales.includes(browserLang) ? browserLang : LOCALE_POLICY.defaultLocale);
+  const initialLang = explicitLang || savedLang || (LOCALE_POLICY.enabledLocales.includes(browserLang) ? browserLang : LOCALE_POLICY.defaultLocale);
   
+  // Si l'utilisateur accède directement via un lien de langue (/ar, /de, etc.), fermer le portail gateway
+  if (explicitLang) {
+    try { sessionStorage.setItem('has_closed_gateway', 'true'); } catch(e) {}
+  }
+
   setLanguage(initialLang, false);
 
+  // Écoute de l'historique navigateur (boutons Précédent / Suivant)
+  window.addEventListener('popstate', (e) => {
+    const pParts = window.location.pathname.split('/').filter(Boolean);
+    const pLang = pParts[0] ? pParts[0].toLowerCase() : null;
+    if (pLang && LOCALE_POLICY.enabledLocales.includes(pLang) && pLang !== window.CURRENT_LANG) {
+      setLanguage(pLang, false);
+    }
+  });
+
   // Gestion de l'affichage du portail d'accueil (Language Gateway)
-  const hasClosedGateway = sessionStorage.getItem('has_closed_gateway') === 'true';
+  const hasClosedGateway = sessionStorage.getItem('has_closed_gateway') === 'true' || Boolean(explicitLang);
   const hasDirectArgHash = window.location.hash && window.location.hash.startsWith('#arg-');
 
   const gatewayEl = document.getElementById('lang-gateway');
@@ -262,6 +281,22 @@ function applyLanguage(langConfig, notify) {
   // Mise à jour de la direction et de la langue dans <html>
   document.documentElement.lang = code;
   document.documentElement.dir = langConfig.dir;
+
+  // Synchronisation de l'URL avec le préfixe de langue (/fr, /ar, /de, etc.)
+  try {
+    const currentPath = window.location.pathname;
+    const currentHash = window.location.hash || '';
+    const cleanPath = currentPath.replace(/\/+$/, '');
+    const expectedPath = `/${code}`;
+
+    if (cleanPath !== expectedPath && !cleanPath.startsWith(expectedPath + '/')) {
+      if (notify) {
+        window.history.pushState({ lang: code }, '', expectedPath + currentHash);
+      } else {
+        window.history.replaceState({ lang: code }, '', expectedPath + currentHash);
+      }
+    }
+  } catch (e) {}
 
   // Mise à jour du drapeau SVG et du libellé dans le bouton de la topbar
   const currentFlag = document.querySelector('.lang-flag-current');

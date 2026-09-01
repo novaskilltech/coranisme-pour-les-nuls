@@ -1328,7 +1328,8 @@ function shareArgument(argId) {
   const shareText = arg 
     ? `« ${arg.title} »\n⚡ ${arg.formula}\n\n📖 Manuel de Réfutation du Coranisme — Par Salah Eddine Ahmed (Abou Soulaymane)`
     : `Manuel de Réfutation du Coranisme — Par Salah Eddine Ahmed (Abou Soulaymane)`;
-  const shareUrl = arg ? `https://anti-coranisme.novaskill.tech/#arg-${arg.id}` : `https://anti-coranisme.novaskill.tech/`;
+  const lang = window.CURRENT_LANG || 'fr';
+  const shareUrl = arg ? `https://anti-coranisme.novaskill.tech/${lang}#arg-${arg.id}` : `https://anti-coranisme.novaskill.tech/${lang}`;
 
   if (navigator.share) {
     navigator.share({
