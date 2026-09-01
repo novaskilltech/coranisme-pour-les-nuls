@@ -462,38 +462,189 @@
     <!-- MAIN DYNAMIC CONTENT AREA -->
     <main class="app-main" id="app-main-content">
 
-    <section class="hero-section" id="home-hero">
-      <div class="hero-tags-row">
-        <div class="hero-tag">
-          <span>📖</span> Manuel Pratique de Réfutation
+    <!-- LANDING PAGE SHOWCASE 3D IMMERSIVE -->
+    <section class="landing-showcase" id="home-hero">
+      <div class="landing-hero-container">
+        <!-- COLONNE GAUCHE : ACCROCHE, AUTEUR, CTAS, STATS -->
+        <div class="landing-hero-content">
+          <div class="hero-tags-row">
+            <div class="hero-tag landing-badge-gold">
+              <span>✨</span> <span id="landing-tag-manual">Manuel Pratique de Réfutation</span>
+            </div>
+            <div class="hero-tag landing-badge-green">
+              <span>🌿</span> <span id="landing-tag-sadaqa">Diffusion Pédagogique Ouverte</span>
+            </div>
+          </div>
+
+          <h1 class="landing-title">
+            <span class="landing-title-main" id="landing-title-main">RÉFUTATION</span>
+            <span class="landing-title-highlight" id="landing-title-sub">DU CORANISME</span>
+          </h1>
+
+          <div class="landing-author-badge">
+            <div class="author-avatar-circle">✍️</div>
+            <div>
+              <div class="author-badge-label">Ouvrage de référence par</div>
+              <div class="author-badge-name">Salah Eddine Ahmed (Abou Soulaymane)</div>
+            </div>
+          </div>
+
+          <p class="landing-description" id="landing-hero-desc">
+            Déconstruisez pas à pas les sophismes du coranisme avec rigueur logique, analogies pédagogiques percutantes, versets coraniques authentiques et réponses synthétiques prêtes à l'emploi en 30 secondes.
+          </p>
+
+          <div class="landing-actions-row">
+            <a href="#arg-1" class="btn-landing-primary">
+              <span>🚀</span> <span id="btn-start-reading">Débuter par l'Argument 1</span>
+            </a>
+            <a href="LE_CORANISTE_REPENTI_EDITION_FINALE.pdf" download="LE_CORANISTE_REPENTI_EDITION_FINALE.pdf" class="btn-landing-gold" target="_blank" rel="noopener">
+              <span>📥</span> <span id="btn-dl-landing">Télécharger le Livre (PDF)</span>
+            </a>
+            <button class="btn-landing-secondary" data-action="open-modal" data-modal-id="book-promo-modal">
+              <span>✨</span> <span id="btn-preview-3d">Feuilleter en 3D</span>
+            </button>
+            <button class="btn-landing-outline" data-action="open-search">
+              <span>🔍</span> <span id="btn-search-landing">Rechercher</span>
+            </button>
+          </div>
+
+          <div class="landing-stats-bar">
+            <div class="landing-stat-item">
+              <span class="stat-icon">🛡️</span>
+              <div>
+                <strong class="stat-num">10</strong>
+                <span class="stat-label">Arguments Réfutés</span>
+              </div>
+            </div>
+            <div class="landing-stat-item">
+              <span class="stat-icon">🧠</span>
+              <div>
+                <strong class="stat-num">10+</strong>
+                <span class="stat-label">Sophismes Décryptés</span>
+              </div>
+            </div>
+            <div class="landing-stat-item">
+              <span class="stat-icon">📥</span>
+              <div>
+                <strong class="stat-num" id="landing-stat-dl">3 480+</strong>
+                <span class="stat-label">Livres PDF Téléchargés</span>
+              </div>
+            </div>
+            <div class="landing-stat-item">
+              <span class="stat-icon">🌐</span>
+              <div>
+                <strong class="stat-num">13</strong>
+                <span class="stat-label">Langues Disponibles</span>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="hero-tag" style="background-color: #065F46; color: #ECFDF5; border: 2px solid #047857;">
-          <span>🌿</span> Diffusion Pédagogique Ouverte
+
+        <!-- COLONNE DROITE : LE LIVRE 3D INTERACTIF AVEC OSCILLATION DE PROFONDEUR CONTINU (AVANCE / RECULE) -->
+        <div class="landing-hero-visual">
+          <div class="landing-book-stage" id="landing-book-stage">
+            <div class="landing-book-halo"></div>
+            
+            <div class="landing-book-3d-wrapper" id="landing-book-3d-wrapper" title="Cliquez pour ouvrir le visualiseur 3D interactif" data-action="open-modal" data-modal-id="book-promo-modal">
+              <div class="landing-book-cube">
+                <!-- FACE AVANT -->
+                <div class="landing-book-face landing-book-front">
+                  <img src="couverture livre.png" alt="Couverture Livre Le Coraniste Repenti" class="landing-cover-img" loading="eager">
+                  <div class="landing-book-shine"></div>
+                  <div class="landing-book-badge-ribbon">LIVRE OFFERT</div>
+                </div>
+                <!-- TRANCHE (SPINE) -->
+                <div class="landing-book-face landing-book-spine">
+                  <span class="spine-text">LE CORANISTE REPENTI • SALAH EDDINE AHMED</span>
+                </div>
+                <!-- ARRIÈRE (BACK) -->
+                <div class="landing-book-face landing-book-back">
+                  <img src="arriere livre.png" alt="Quatrième de couverture" class="landing-back-img">
+                </div>
+              </div>
+            </div>
+
+            <!-- Boutons sous le livre 3D -->
+            <div class="landing-book-quick-controls">
+              <button class="btn-book-quick-action" data-action="open-modal" data-modal-id="book-promo-modal">
+                <span>🔄</span> Tourner en 3D
+              </button>
+              <a href="LE_CORANISTE_REPENTI_EDITION_FINALE.pdf" download="LE_CORANISTE_REPENTI_EDITION_FINALE.pdf" class="btn-book-quick-dl" target="_blank" rel="noopener">
+                <span>📥</span> Télécharger PDF
+              </a>
+            </div>
+          </div>
         </div>
       </div>
-      <h1 class="hero-title">
-        Réfutation <span>du Coranisme</span>
-      </h1>
-      <p style="font-size: 1.05rem; font-weight: 800; color: var(--nuls-black); margin-bottom: 0.5rem;">
-        Par <strong>Salah Eddine Ahmed (Abou Soulaymane)</strong> — <em>Comment démasquer et réfuter la secte des coranistes : 10 arguments majeurs examinés et réfutés méthodiquement</em>
-      </p>
-      <p class="hero-description">
-        Déconstruisez pas à pas les sophismes du coranisme avec rigueur logique, analogies pédagogiques, versets arabes vocalisés et réponses synthétiques en 30 secondes. Partage et diffusion libres à des fins d'étude et de défense de la vérité.
-      </p>
-      <div class="hero-actions">
-        <a href="#arg-1" class="btn-hero-primary">
-          <span>🚀</span> Débuter par l'Argument 1
-        </a>
-        <button class="btn-hero-secondary" data-action="open-search">
-          <span>🔍</span> Rechercher un sujet / verset
-        </button>
-        
-        <button class="btn-hero-secondary" data-action="open-modal" data-modal-id="book-promo-modal" style="background: linear-gradient(135deg, #1e293b, #0f172a); color: #fed100; border-color: #fed100;">
-          <span>📖</span> Télécharger le livre (PDF)
-        </button>
-        <button class="btn-hero-secondary" data-action="open-modal" data-modal-id="contact-modal">
-          <span>✉️</span> Contacter l'auteur
-        </button>
+
+      <!-- SECTION 4 CARTES 3D INTERACTIVES (TILT & DEPTH) -->
+      <div class="landing-features-container">
+        <div class="landing-features-title-wrap">
+          <h2 class="landing-features-title">✨ LES 4 PILIERS DU MANUEL</h2>
+          <p class="landing-features-subtitle">Une méthode complète et rigoureuse pour déconstruire les ambiguïtés et défendre la Sunna prophétique.</p>
+        </div>
+
+        <div class="landing-cards-3d-grid" id="landing-cards-3d-grid">
+          <!-- CARTE 1: LES 10 ARGUMENTS -->
+          <a href="#arg-1" class="landing-card-3d">
+            <div class="card-3d-inner">
+              <div class="card-3d-icon-wrap icon-gold">
+                <span>📚</span>
+              </div>
+              <h3 class="card-3d-title">10 Arguments Réfutés</h3>
+              <p class="card-3d-desc">Complétude du Coran, Obéissance, Législation, Compilation, Écriture, Prière : les 10 thèses majeures démontées point par point.</p>
+              <div class="card-3d-footer">
+                <span class="card-3d-action">Explorer les fiches →</span>
+                <span class="card-3d-tag">10 Fiches</span>
+              </div>
+            </div>
+          </a>
+
+          <!-- CARTE 2: BOÎTE À OUTILS SOPHISMES -->
+          <a href="#boite-a-outils" class="landing-card-3d">
+            <div class="card-3d-inner">
+              <div class="card-3d-icon-wrap icon-purple">
+                <span>🧠</span>
+              </div>
+              <h3 class="card-3d-title">Boîte à Outils des Sophismes</h3>
+              <p class="card-3d-desc">Démantèlement des confusions conceptuelles, 4 réflexes de cadrage immédiats et quiz interactif d'entraînement.</p>
+              <div class="card-3d-footer">
+                <span class="card-3d-action">Ouvrir la boîte à outils →</span>
+                <span class="card-3d-tag">Interactif</span>
+              </div>
+            </div>
+          </a>
+
+          <!-- CARTE 3: LE LIVRE COMPLET PDF -->
+          <div class="landing-card-3d" data-action="open-modal" data-modal-id="book-promo-modal" style="cursor: pointer;">
+            <div class="card-3d-inner">
+              <div class="card-3d-icon-wrap icon-emerald">
+                <span>📖</span>
+              </div>
+              <h3 class="card-3d-title">L'Ouvrage Intégral (PDF)</h3>
+              <p class="card-3d-desc">Le livre complet « Le Coraniste Repenti » par Salah Eddine Ahmed disponible gratuitement en téléchargement direct.</p>
+              <div class="card-3d-footer">
+                <span class="card-3d-action">Télécharger gratuitement →</span>
+                <span class="card-3d-tag">PDF HD</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARTE 4: ÉCOSYSTÈME 13 LANGUES -->
+          <div class="landing-card-3d" id="card-lang-trigger" style="cursor: pointer;">
+            <div class="card-3d-inner">
+              <div class="card-3d-icon-wrap icon-blue">
+                <span>🌐</span>
+              </div>
+              <h3 class="card-3d-title">Écosystème en 13 Langues</h3>
+              <p class="card-3d-desc">Arabe, Ourdou, Tamoul, Pachto, Anglais, Espagnol, Allemand, Italien, Portugais, Darija... Diffusion mondiale en libre accès.</p>
+              <div class="card-3d-footer">
+                <span class="card-3d-action">Changer de langue →</span>
+                <span class="card-3d-tag">13 Langues</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 

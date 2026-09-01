@@ -370,6 +370,41 @@ function initApp() {
   // Initialisation du compteur de visites et du compteur de téléchargements (RGPD - 0 cookie)
   initVisitsCounter();
   initDownloadsCounter();
+  initLanding3D();
+}
+
+/**
+ * Initialisation des effets 3D et interactions de la Landing Page
+ */
+function initLanding3D() {
+  const langCard = document.getElementById('card-lang-trigger');
+  const triggerBtn = document.getElementById('btn-lang-trigger');
+  if (langCard && triggerBtn) {
+    langCard.addEventListener('click', (e) => {
+      e.stopPropagation();
+      triggerBtn.click();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
+
+  const cards = document.querySelectorAll('.landing-card-3d');
+  cards.forEach(card => {
+    card.addEventListener('mousemove', (e) => {
+      const rect = card.getBoundingClientRect();
+      const x = e.clientX - rect.left;
+      const y = e.clientY - rect.top;
+      const centerX = rect.width / 2;
+      const centerY = rect.height / 2;
+      const rotateX = ((y - centerY) / centerY) * -8;
+      const rotateY = ((x - centerX) / centerX) * 8;
+
+      card.style.transform = `perspective(1000px) translateY(-8px) rotateX(${rotateX.toFixed(2)}deg) rotateY(${rotateY.toFixed(2)}deg) scale(1.02)`;
+    });
+
+    card.addEventListener('mouseleave', () => {
+      card.style.transform = '';
+    });
+  });
 }
 
 /**

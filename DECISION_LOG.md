@@ -217,11 +217,29 @@ Ce projet constitue la plateforme interactive officielle du manuel de réfutatio
     - Typographie native adaptée (Noto Naskh Arabic, Noto Nastaliq Urdu, Noto Sans Tamil, Cinzel & Outfit), livre 3D avec perspective, drapeau national et badges traduits.
   - **Liaison dans les balises d'en-tête** ([`scripts/build_localized_index_pages.cjs`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/scripts/build_localized_index_pages.cjs)) :
     - Chaque page `/lang/index.html` pointe précisément vers son image dédiée `https://anti-coranisme.novaskill.tech/assets/og-image-${code}.jpg` via `og:image`, `og:image:secure_url`, `twitter:image` et `itemprop="image"`.
+---
+
+### 🌟 Décision 14 : Landing Page Showcase avec Livre 3D « Living Depth » & 4 Cartes Piliers Interactives
+- **Besoin** : Transformer la page d'accueil en une véritable **Landing Page de Présentation Ultra-Professionnelle** avec :
+  1. Un composant 3D interactif du livre *« Le Coraniste Repenti »* animé par une oscillation continue de profondeur (`translateZ` et perspective avec va-et-vient fluide d'avant en arrière toutes les secondes) et ombre portée dynamique.
+  2. 4 cartes 3D interactives inclinables au survol (Parallax Tilt) représentant les piliers du projet : 10 Arguments Réfutés, Boîte à Outils des Sophismes, Livre Complet PDF, Écosystème Multilingue.
+  3. Des boutons d'action instantanés (Débuter la lecture, Téléchargement direct PDF HD, Aperçu 3D, Recherche).
+  4. La mise à disposition de cette Landing Page pour les 13 langues du site.
+- **Actions appliquées** :
+  - **Structure HTML & Composants** ([`index.html`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/index.html)) :
+    - Remplacement de l'ancien hero par `.landing-showcase` avec conteneur flex 2 colonnes et grille de cartes 3D.
+  - **CSS 3D Hardware-Accelerated** ([`css/style.css`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/css/style.css)) :
+    - Animation `@keyframes landing-book-depth-float` (cycle de respiration 2s fluide) avec perspective 1200px et lueur dorée radiale.
+    - Styles de cartes 3D interactives `.landing-card-3d` avec bordure dorée réactive.
+  - **Logique JavaScript** ([`js/app.js`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/js/app.js)) :
+    - `initLanding3D()` : gestion des micro-angles de rotation tilt à la souris et au tactile.
+  - **Génération Statique Multilingue** ([`scripts/build_localized_index_pages.cjs`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/scripts/build_localized_index_pages.cjs)) :
+    - Propagation de la nouvelle Landing Page et des 13 bannières Open Graph sur tous les points d'entrée `/fr`, `/ar`, `/de`, etc.
 - **Fichiers impactés** :
-  - `assets/og-image-*.jpg` (13 images générées)
-  - `fr/index.html`, `ar/index.html`, `de/index.html`, `en/index.html`, etc.
-  - [`scripts/generate_all_og_images.cjs`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/scripts/generate_all_og_images.cjs)
-  - [`scripts/build_localized_index_pages.cjs`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/scripts/build_localized_index_pages.cjs)
+  - [`index.html`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/index.html)
+  - [`css/style.css`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/css/style.css)
+  - [`js/app.js`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/js/app.js)
+  - `fr/index.html`, `ar/index.html`, `de/index.html`, `en/index.html`, etc. (13 pages)
   - [`DECISION_LOG.md`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/DECISION_LOG.md)
 
 ---
