@@ -692,47 +692,209 @@ function handleRouting() {
 }
 
 /**
- * Rendu de la vue d'accueil (Hub des 10 arguments)
+ * Rendu du Hero Showcase 3D Immersif de la Landing Page
+ */
+function renderLandingShowcaseHTML(ui) {
+  const downloadCount = window.LAST_DOWNLOAD_COUNT ? window.LAST_DOWNLOAD_COUNT.toLocaleString() : '3 480+';
+
+  return `
+    <!-- LANDING PAGE SHOWCASE 3D IMMERSIVE -->
+    <section class="landing-showcase" id="home-hero">
+      <div class="landing-hero-container">
+        <!-- COLONNE GAUCHE : ACCROCHE, AUTEUR, CTAS, STATS -->
+        <div class="landing-hero-content">
+          <div class="hero-tags-row">
+            <div class="hero-tag landing-badge-gold">
+              <span>✨</span> <span id="landing-tag-manual">${ui.landingTagManual || ui.heroTag1 || "Manuel Pratique de Réfutation"}</span>
+            </div>
+            <div class="hero-tag landing-badge-green">
+              <span>🌿</span> <span id="landing-tag-sadaqa">${ui.landingTagSadaqa || ui.heroTag2 || "Diffusion Pédagogique Ouverte"}</span>
+            </div>
+          </div>
+
+          <h1 class="landing-title">
+            <span class="landing-title-main" id="landing-title-main">${ui.landingTitleMain || ui.brandTitle || "RÉFUTATION"}</span>
+            <span class="landing-title-highlight" id="landing-title-sub">${ui.landingTitleSub || ui.brandSubtitle || "DU CORANISME"}</span>
+          </h1>
+
+          <div class="landing-author-badge">
+            <div class="author-avatar-circle">✍️</div>
+            <div>
+              <div class="author-badge-label">${ui.landingAuthorBadgeLabel || ui.labelAuthor || "Ouvrage de référence par"}</div>
+              <div class="author-badge-name">${ui.landingAuthorName || ui.authorName || "Salah Eddine Ahmed (Abou Soulaymane)"}</div>
+            </div>
+          </div>
+
+          <p class="landing-description" id="landing-hero-desc">
+            ${ui.landingHeroDesc || ui.heroDesc || "Déconstruisez pas à pas les sophismes du coranisme avec rigueur logique, analogies pédagogiques percutantes, versets coraniques authentiques et réponses synthétiques prêtes à l'emploi en 30 secondes."}
+          </p>
+
+          <div class="landing-actions-row">
+            <a href="#arg-1" class="btn-landing-primary">
+              <span>🚀</span> <span id="btn-start-reading">${ui.btnStartReading || ui.btnStartArg1 || "Débuter par l'Argument 1"}</span>
+            </a>
+            <a href="LE_CORANISTE_REPENTI_EDITION_FINALE.pdf" download="LE_CORANISTE_REPENTI_EDITION_FINALE.pdf" class="btn-landing-gold" target="_blank" rel="noopener">
+              <span>📥</span> <span id="btn-dl-landing">${ui.btnDlLanding || ui.modalBookDownloadBtn || "Télécharger le Livre (PDF)"}</span>
+            </a>
+            <button class="btn-landing-secondary" data-action="open-modal" data-modal-id="book-promo-modal">
+              <span>✨</span> <span id="btn-preview-3d">${ui.btnPreview3D || ui.sidebarBook3D || "Feuilleter en 3D"}</span>
+            </button>
+            <button class="btn-landing-outline" data-action="open-search">
+              <span>🔍</span> <span id="btn-search-landing">${ui.btnSearchLanding || ui.searchBtn || "Rechercher"}</span>
+            </button>
+          </div>
+
+          <div class="landing-stats-bar">
+            <div class="landing-stat-item">
+              <span class="stat-icon">🛡️</span>
+              <div>
+                <strong class="stat-num">10</strong>
+                <span class="stat-label">${ui.landingStatArgsLabel || "Arguments Réfutés"}</span>
+              </div>
+            </div>
+            <div class="landing-stat-item">
+              <span class="stat-icon">🧠</span>
+              <div>
+                <strong class="stat-num">10+</strong>
+                <span class="stat-label">${ui.landingStatSophismsLabel || "Sophismes Décryptés"}</span>
+              </div>
+            </div>
+            <div class="landing-stat-item">
+              <span class="stat-icon">📥</span>
+              <div>
+                <strong class="stat-num" id="landing-stat-dl">${downloadCount}</strong>
+                <span class="stat-label">${ui.landingStatDlLabel || "Livres PDF Téléchargés"}</span>
+              </div>
+            </div>
+            <div class="landing-stat-item">
+              <span class="stat-icon">🌐</span>
+              <div>
+                <strong class="stat-num">13</strong>
+                <span class="stat-label">${ui.landingStatLangsLabel || "Langues Disponibles"}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- COLONNE DROITE : LE LIVRE 3D INTERACTIF AVEC OSCILLATION DE PROFONDEUR CONTINU (AVANCE / RECULE) -->
+        <div class="landing-hero-visual">
+          <div class="landing-book-stage" id="landing-book-stage">
+            <div class="landing-book-halo"></div>
+            
+            <div class="landing-book-3d-wrapper" id="landing-book-3d-wrapper" title="Cliquez pour ouvrir le visualiseur 3D interactif" data-action="open-modal" data-modal-id="book-promo-modal">
+              <div class="landing-book-cube">
+                <!-- FACE AVANT -->
+                <div class="landing-book-face landing-book-front">
+                  <img src="couverture livre.png" alt="Couverture Livre Le Coraniste Repenti" class="landing-cover-img" loading="eager">
+                  <div class="landing-book-shine"></div>
+                  <div class="landing-book-badge-ribbon">${ui.landingBookRibbon || "LIVRE OFFERT"}</div>
+                </div>
+                <!-- TRANCHE (SPINE) -->
+                <div class="landing-book-face landing-book-spine">
+                  <span class="spine-text">LE CORANISTE REPENTI • SALAH EDDINE AHMED</span>
+                </div>
+                <!-- ARRIÈRE (BACK) -->
+                <div class="landing-book-face landing-book-back">
+                  <img src="arriere livre.png" alt="Quatrième de couverture" class="landing-back-img">
+                </div>
+              </div>
+            </div>
+
+            <!-- Boutons sous le livre 3D -->
+            <div class="landing-book-quick-controls">
+              <button class="btn-book-quick-action" data-action="open-modal" data-modal-id="book-promo-modal">
+                <span>🔄</span> ${ui.btnRotate3D || "Tourner en 3D"}
+              </button>
+              <a href="LE_CORANISTE_REPENTI_EDITION_FINALE.pdf" download="LE_CORANISTE_REPENTI_EDITION_FINALE.pdf" class="btn-book-quick-dl" target="_blank" rel="noopener">
+                <span>📥</span> ${ui.btnDlPdf || "Télécharger PDF"}
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SECTION 4 CARTES 3D INTERACTIVES (TILT & DEPTH) -->
+      <div class="landing-features-container">
+        <div class="landing-features-title-wrap">
+          <h2 class="landing-features-title">${ui.landingFeaturesTitle || "✨ LES 4 PILIERS DU MANUEL"}</h2>
+          <p class="landing-features-subtitle">${ui.landingFeaturesSubtitle || "Une méthode complète et rigoureuse pour déconstruire les ambiguïtés et défendre la Sunna prophétique."}</p>
+        </div>
+
+        <div class="landing-cards-3d-grid" id="landing-cards-3d-grid">
+          <!-- CARTE 1: LES 10 ARGUMENTS -->
+          <a href="#arg-1" class="landing-card-3d">
+            <div class="card-3d-inner">
+              <div class="card-3d-icon-wrap icon-gold">
+                <span>📚</span>
+              </div>
+              <h3 class="card-3d-title">${ui.card1Title || "10 Arguments Réfutés"}</h3>
+              <p class="card-3d-desc">${ui.card1Desc || "Complétude du Coran, Obéissance, Législation, Compilation, Écriture, Prière : les 10 thèses majeures démontées point par point."}</p>
+              <div class="card-3d-footer">
+                <span class="card-3d-action">${ui.card1Action || "Explorer les fiches →"}</span>
+                <span class="card-3d-tag">${ui.card1Tag || "10 Fiches"}</span>
+              </div>
+            </div>
+          </a>
+
+          <!-- CARTE 2: BOÎTE À OUTILS SOPHISMES -->
+          <a href="#boite-a-outils" class="landing-card-3d">
+            <div class="card-3d-inner">
+              <div class="card-3d-icon-wrap icon-purple">
+                <span>🧠</span>
+              </div>
+              <h3 class="card-3d-title">${ui.card2Title || "Boîte à Outils des Sophismes"}</h3>
+              <p class="card-3d-desc">${ui.card2Desc || "Démantèlement des confusions conceptuelles, 4 réflexes de cadrage immédiats et quiz interactif d'entraînement."}</p>
+              <div class="card-3d-footer">
+                <span class="card-3d-action">${ui.card2Action || "Ouvrir la boîte à outils →"}</span>
+                <span class="card-3d-tag">${ui.card2Tag || "Interactif"}</span>
+              </div>
+            </div>
+          </a>
+
+          <!-- CARTE 3: LE LIVRE COMPLET PDF -->
+          <div class="landing-card-3d" data-action="open-modal" data-modal-id="book-promo-modal" style="cursor: pointer;">
+            <div class="card-3d-inner">
+              <div class="card-3d-icon-wrap icon-emerald">
+                <span>📖</span>
+              </div>
+              <h3 class="card-3d-title">${ui.card3Title || "L'Ouvrage Intégral (PDF)"}</h3>
+              <p class="card-3d-desc">${ui.card3Desc || "Le livre complet « Le Coraniste Repenti » par Salah Eddine Ahmed disponible gratuitement en téléchargement direct."}</p>
+              <div class="card-3d-footer">
+                <span class="card-3d-action">${ui.card3Action || "Télécharger gratuitement →"}</span>
+                <span class="card-3d-tag">${ui.card3Tag || "PDF HD"}</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARTE 4: ÉCOSYSTÈME 13 LANGUES -->
+          <div class="landing-card-3d" id="card-lang-trigger" style="cursor: pointer;">
+            <div class="card-3d-inner">
+              <div class="card-3d-icon-wrap icon-blue">
+                <span>🌐</span>
+              </div>
+              <h3 class="card-3d-title">${ui.card4Title || "Écosystème en 13 Langues"}</h3>
+              <p class="card-3d-desc">${ui.card4Desc || "Arabe, Ourdou, Tamoul, Pachto, Anglais, Espagnol, Allemand, Italien, Portugais, Darija... Diffusion mondiale en libre accès."}</p>
+              <div class="card-3d-footer">
+                <span class="card-3d-action">${ui.card4Action || "Changer de langue →"}</span>
+                <span class="card-3d-tag">${ui.card4Tag || "13 Langues"}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  `;
+}
+
+/**
+ * Rendu de la vue d'accueil (Hub des 10 arguments avec Landing Showcase 3D)
  */
 function renderHomeView(container) {
   const currentArgs = getActiveArgumentsData();
   const ui = getActiveUI();
 
   container.innerHTML = `
-    <!-- HERO PRINCIPAL -->
-    <section class="hero-nuls">
-      <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem;">
-        <div class="hero-tag">
-          <span>📖</span> ${ui.heroTag1 || "Manuel Pratique de Réfutation"}
-        </div>
-        <div class="hero-tag" style="background-color: #065F46; color: #ECFDF5; border: 2px solid #047857;">
-          <span>🌿</span> ${ui.heroTag2 || "Diffusion Pédagogique Ouverte"}
-        </div>
-      </div>
-      <h1 class="hero-title">
-        ${ui.heroTitleMain || "Réfutation"} <span>${ui.heroTitleSpan || "du Coranisme"}</span>
-      </h1>
-      <p style="font-size: 1.05rem; font-weight: 800; color: var(--nuls-black); margin-bottom: 0.5rem;">
-        ${ui.heroAuthor || "Par Salah Eddine Ahmed (Abou Soulaymane)"}
-      </p>
-      <p class="hero-description">
-        ${ui.heroDesc || "Déconstruisez pas à pas les sophismes du coranisme avec rigueur logique."}
-      </p>
-      <div class="hero-actions">
-        <a href="#arg-1" class="btn-hero-primary">
-          <span>🚀</span> ${ui.btnStartArg1 || "Débuter par l'Argument 1"}
-        </a>
-        <a href="#boite-a-outils" class="btn-hero-secondary">
-          <span>🧠</span> ${ui.navFallacies || "Boîte à outils — Reconnaître les sophismes avant de débattre"}
-        </a>
-        <button class="btn-hero-secondary" data-action="open-search">
-          <span>🔍</span> ${ui.btnSearchModal || "Rechercher"}
-        </button>
-        <button class="btn-hero-secondary" data-action="share-arg" data-arg-id="1">
-          <span>📤</span> ${ui.btnShare || "Partager"}
-        </button>
-      </div>
-    </section>
+    ${renderLandingShowcaseHTML(ui)}
 
     ${renderPrefaceHTML()}
 
@@ -799,6 +961,9 @@ function renderHomeView(container) {
       </div>
     </div>
   `;
+
+  // Initialisation des effets 3D Tilt et interactions de la Landing Page
+  initLanding3D();
 }
 
 /**

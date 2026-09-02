@@ -144,21 +144,12 @@ function initI18n() {
     }
   });
 
-  // Gestion de l'affichage du portail d'accueil (Language Gateway)
-  const hasClosedGateway = sessionStorage.getItem('has_closed_gateway') === 'true' || Boolean(explicitLang);
-  const hasDirectArgHash = window.location.hash && window.location.hash.startsWith('#arg-');
-
+  // Le portail plein écran est désactivé par défaut pour afficher directement la Landing Page 3D
   const gatewayEl = document.getElementById('lang-gateway');
   if (gatewayEl) {
-    if (hasClosedGateway || hasDirectArgHash) {
-      gatewayEl.style.display = 'none';
-      gatewayEl.style.opacity = '0';
-      gatewayEl.style.pointerEvents = 'none';
-    } else {
-      gatewayEl.style.display = 'flex';
-      gatewayEl.style.opacity = '1';
-      gatewayEl.style.pointerEvents = 'auto';
-    }
+    gatewayEl.style.display = 'none';
+    gatewayEl.style.opacity = '0';
+    gatewayEl.style.pointerEvents = 'none';
   }
 }
 
