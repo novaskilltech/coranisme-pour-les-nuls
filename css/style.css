@@ -1589,6 +1589,8 @@ section[id^="section-"] {
   letter-spacing: 0.5px;
   border: 2px solid var(--nuls-black);
   box-shadow: var(--shadow-hard-sm);
+  max-width: calc(100% - 130px);
+  z-index: 4;
 }
 
 .btn-copy-callout {
@@ -1633,6 +1635,52 @@ html[dir="rtl"] .btn-copy-callout {
 html[dir="rtl"] .callout-header {
   left: auto;
   right: 1.25rem;
+}
+
+/* Positionnement adaptatif sur mobile : le bouton copier se place sous le titre pour ne jamais le cacher */
+@media (max-width: 768px) {
+  .nuls-callout {
+    padding-top: 1.65rem;
+    position: relative;
+  }
+
+  .callout-header {
+    position: relative;
+    top: auto;
+    left: auto;
+    right: auto;
+    display: inline-flex;
+    margin-top: -2.15rem;
+    margin-bottom: 0.65rem;
+    max-width: 100%;
+    white-space: normal;
+    word-break: break-word;
+    box-sizing: border-box;
+    line-height: 1.35;
+  }
+
+  .btn-copy-callout {
+    position: relative;
+    top: auto;
+    right: auto;
+    left: auto;
+    display: inline-flex;
+    align-self: flex-start;
+    margin-top: 0;
+    margin-bottom: 0.85rem;
+    width: fit-content;
+  }
+
+  html[dir="rtl"] .callout-header {
+    right: auto;
+    left: auto;
+  }
+
+  html[dir="rtl"] .btn-copy-callout {
+    right: auto;
+    left: auto;
+    align-self: flex-start;
+  }
 }
 
 .arg-share-badge {
