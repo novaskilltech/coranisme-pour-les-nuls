@@ -235,12 +235,46 @@ Ce projet constitue la plateforme interactive officielle du manuel de réfutatio
     - `initLanding3D()` : gestion des micro-angles de rotation tilt à la souris et au tactile.
   - **Génération Statique Multilingue** ([`scripts/build_localized_index_pages.cjs`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/scripts/build_localized_index_pages.cjs)) :
     - Propagation de la nouvelle Landing Page et des 13 bannières Open Graph sur tous les points d'entrée `/fr`, `/ar`, `/de`, etc.
+---
+
+### 🌐 Décision 15 : Traduction Exhaustive de la Landing Page en 13 Langues & Détection Automatique
+- **Besoin** :
+  1. Offrir une expérience native complète sur la Landing Page (titres, accroches, boutons, badges, description des 4 piliers) pour les 13 langues.
+  2. Activer la détection automatique de la langue via les préférences du navigateur (`navigator.language`) et l'URL path, sans latence et 100% conforme RGPD (0 cookie tiers, 0 stockage d'IP).
+- **Actions appliquées** :
+  - **Dictionnaires i18n enrichis** ([`js/translations/*.js`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/js/translations/)) :
+    - Injection des clés (`landingTagManual`, `landingTitleMain`, `landingTitleSub`, `landingHeroDesc`, `btnStartReading`, `btnDlLanding`, `btnPreview3D`, `card1Title`..`card4Tag`, etc.) via [`scripts/update_landing_translations.cjs`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/scripts/update_landing_translations.cjs).
+  - **Moteur dynamique & DOM Statique** ([`js/i18n.js`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/js/i18n.js) & [`scripts/build_localized_index_pages.cjs`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/scripts/build_localized_index_pages.cjs)) :
+    - Pré-rendu HTML natif sur `/ar`, `/de`, `/en`, `/es`, etc., et mise à jour dynamique instantanée lors d'un changement de langue.
 - **Fichiers impactés** :
-  - [`index.html`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/index.html)
-  - [`css/style.css`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/css/style.css)
+  - `js/translations/*.js` (13 fichiers)
+  - `fr/index.html`, `ar/index.html`, `de/index.html`, `en/index.html`, etc.
+  - [`js/i18n.js`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/js/i18n.js)
+  - [`scripts/update_landing_translations.cjs`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/scripts/update_landing_translations.cjs)
+  - [`scripts/build_localized_index_pages.cjs`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/scripts/build_localized_index_pages.cjs)
+
+---
+
+### 🚀 Décision 16 : Résolution de l'Affichage Direct de la Landing Page Showcase
+- **Besoin** : Garantir que la Landing Page s'affiche immédiatement dès l'arrivée sur le site sans être masquée par un écran intermédiaire.
+- **Actions appliquées** :
+  - **Désactivation du Gateway Bloquant** ([`js/i18n.js`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/js/i18n.js)) : Le modal overlay plein écran `#lang-gateway` est masqué par défaut au profit de la détection automatique et des sélecteurs intégrés.
+  - **Intégration dans le Routeur SPA** ([`js/app.js`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/js/app.js)) : `renderHomeView()` génère désormais la Landing Page Showcase 3D (`renderLandingShowcaseHTML`) avec réinitialisation automatique des effets 3D Tilt (`initLanding3D()`).
+- **Fichiers impactés** :
   - [`js/app.js`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/js/app.js)
-  - `fr/index.html`, `ar/index.html`, `de/index.html`, `en/index.html`, etc. (13 pages)
-  - [`DECISION_LOG.md`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/DECISION_LOG.md)
+  - [`js/i18n.js`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/js/i18n.js)
+
+---
+
+### 📱 Décision 17 : Ajustement Responsive Mobile du Bouton « Copier » des Sections
+- **Besoin** : Sur mobile, le bouton « Copier » placé en haut à droite des sections callout chevauchait et masquait les titres longs (ex: en arabe, allemand, français).
+- **Actions appliquées** :
+  - **CSS Responsive Adaptatif** ([`css/style.css`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/css/style.css)) :
+    - Sur mobile ($\le$ 768px) : le badge de titre (`.callout-header`) dispose de 100% de la largeur, et le bouton `.btn-copy-callout` se positionne automatiquement juste en dessous du titre.
+    - Sur grand écran (> 768px) : le titre et le bouton restent alignés côte à côte avec marge de sécurité anti-collision (`max-width: calc(100% - 130px)`).
+    - Prise en charge native LTR et RTL.
+- **Fichiers impactés** :
+  - [`css/style.css`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/css/style.css)
 
 ---
 
