@@ -320,6 +320,9 @@ function applyLanguage(langConfig, notify) {
     handleRouting();
   }
 
+  // Re-synchroniser le DOM statique pour tous les composants (y compris réinjectés par le routeur)
+  updateStaticDOM(langPack.ui);
+
   // Si la modale des sophismes est ouverte, rafraîchir son contenu avec la nouvelle langue
   const fallacyModal = document.getElementById('fallacy-modal');
   if (fallacyModal && fallacyModal.classList.contains('open') && window.LAST_OPENED_FALLACY_ID && typeof window.openFallacyModal === 'function') {
@@ -812,7 +815,132 @@ function updateStaticDOM(ui) {
     if (c4Act && ui.card4Action) c4Act.textContent = ui.card4Action;
     if (c4Tag && ui.card4Tag) c4Tag.textContent = ui.card4Tag;
   }
+
+  // ==========================================
+  // MISE À JOUR DYNAMIQUE DU LIVRE (ARABE vs FRANÇAIS) & MODALE 3D
+  // ==========================================
+  const activeLang = window.CURRENT_LANG || 'fr';
+  const isArabicEdition = (activeLang === 'ar' || activeLang === 'ary');
+  const bookPdf = (ui && ui.bookPdfFile) || (isArabicEdition ? 'MUNKIR_AL_SUNNA_AL_TAIB_EDITION_ARABE_FINALE.pdf' : 'LE_CORANISTE_REPENTI_EDITION_FINALE.pdf');
+  const coverFront = (ui && ui.bookCoverFront) || (isArabicEdition ? 'couverture_arabe.png' : 'couverture livre.png');
+  const coverBack = (ui && ui.bookCoverBack) || (isArabicEdition ? 'arriere_arabe.png' : 'arriere livre.png');
+  const spineTextVal = (ui && ui.bookSpineText) || (isArabicEdition ? 'مُنكِرُ السُّنَّةِ التَّائِب • صَلَاحُ الدِّين أَحْمَد' : 'LE CORANISTE REPENTI • SALAH EDDINE AHMED');
+  const coverAlt = isArabicEdition ? 'غلاف كتاب منكر السنة التائب' : 'Couverture Livre Le Coraniste Repenti';
+  const backAlt = isArabicEdition ? 'الغلاف الخلفي لكتاب منكر السنة التائب' : 'Quatrième de couverture';
+  const ribbonText = (ui && ui.landingBookRibbon) || (isArabicEdition ? 'كتاب مجاني' : 'LIVRE OFFERT');
+
+  // 1. Topbar bouton livre
+  const topbarBookBtn = document.querySelector('.btn-book-promo-topbar');
+  if (topbarBookBtn) {
+    if (ui && ui.sidebarBookTitle) topbarBookBtn.setAttribute('title', isArabicEdition ? `كتاب «${ui.sidebarBookTitle}» (PDF)` : `Découvrir le livre '${ui.sidebarBookTitle}'`);
+    const deskText = topbarBookBtn.querySelector('.desktop-only-text');
+    if (deskText && ui && (ui.topbarBookBadge || ui.sidebarBookPromoBadge)) deskText.textContent = ui.topbarBookBadge || ui.sidebarBookPromoBadge;
+    const mobText = topbarBookBtn.querySelector('.mobile-only-text');
+    if (mobText && ui && (ui.topbarBookBadge || ui.sidebarBookDl)) mobText.textContent = isArabicEdition ? 'كتاب PDF' : 'Livre PDF';
+  }
+
+  // 2. Sidebar encart promo
+  const sbPromoBadge = document.querySelector('.sidebar-book-promo-badge');
+  if (sbPromoBadge && ui && ui.sidebarBookPromoBadge) sbPromoBadge.textContent = ui.sidebarBookPromoBadge;
+
+  const sbPromoTitle = document.querySelector('.sidebar-book-promo-title');
+  if (sbPromoTitle && ui && ui.sidebarBookTitle) sbPromoTitle.textContent = ui.sidebarBookTitle;
+
+  const sbPromoAuthor = document.querySelector('.sidebar-book-promo-author');
+  if (sbPromoAuthor && ui && ui.sidebarBookAuthor) sbPromoAuthor.textContent = ui.sidebarBookAuthor;
+
+  document.querySelectorAll('.btn-sidebar-book-dl').forEach(sbPromoDl => {
+    sbPromoDl.setAttribute('href', bookPdf);
+    sbPromoDl.setAttribute('download', bookPdf);
+    if (ui && ui.sidebarBookDl) sbPromoDl.innerHTML = `📥 ${ui.sidebarBookDl.replace('📥', '').trim()}`;
+  });
+
+  const sbPromo3D = document.querySelector('.btn-sidebar-book-3d');
+  if (sbPromo3D && ui && ui.sidebarBook3D) sbPromo3D.innerHTML = `✨ ${ui.sidebarBook3D.replace('✨', '').trim()}`;
+
+  // 3. Hero section livre 3D et boutons
+  document.querySelectorAll('.btn-landing-gold').forEach(heroDlGold => {
+    heroDlGold.setAttribute('href', bookPdf);
+    heroDlGold.setAttribute('download', bookPdf);
+    const span = heroDlGold.querySelector('#btn-dl-landing');
+    if (span && ui && (ui.btnDlLanding || ui.modalBookDownloadBtn)) {
+      span.textContent = (ui.btnDlLanding || ui.modalBookDownloadBtn).replace('📥', '').trim();
+    }
+  });
+
+  document.querySelectorAll('.landing-cover-img').forEach(heroCoverImg => {
+    heroCoverImg.setAttribute('src', coverFront);
+    heroCoverImg.setAttribute('alt', coverAlt);
+  });
+
+  document.querySelectorAll('.landing-back-img').forEach(heroBackImg => {
+    heroBackImg.setAttribute('src', coverBack);
+    heroBackImg.setAttribute('alt', backAlt);
+  });
+
+  document.querySelectorAll('.landing-book-spine .spine-text').forEach(heroSpineText => {
+    heroSpineText.textContent = spineTextVal;
+  });
+
+  document.querySelectorAll('.landing-book-badge-ribbon').forEach(ribbon => {
+    ribbon.textContent = ribbonText;
+  });
+
+  document.querySelectorAll('.btn-book-quick-dl').forEach(heroDlQuick => {
+    heroDlQuick.setAttribute('href', bookPdf);
+    heroDlQuick.setAttribute('download', bookPdf);
+    if (ui && ui.btnDlPdf) heroDlQuick.innerHTML = `📥 ${ui.btnDlPdf.replace('📥', '').trim()}`;
+  });
+
+  // 4. Modale 3D promo
+  document.querySelectorAll('.book-3d-front img').forEach(modalFrontImg => {
+    modalFrontImg.setAttribute('src', coverFront);
+    modalFrontImg.setAttribute('alt', coverAlt);
+  });
+
+  document.querySelectorAll('.book-3d-back img').forEach(modalBackImg => {
+    modalBackImg.setAttribute('src', coverBack);
+    modalBackImg.setAttribute('alt', backAlt);
+  });
+
+  const modalFlipBtn = document.querySelector('.btn-book-flip');
+  if (modalFlipBtn && ui && ui.modalBookFlipBtn) modalFlipBtn.innerHTML = `🔄 ${ui.modalBookFlipBtn.replace('🔄', '').trim()}`;
+
+  const modalHeaderH3 = document.querySelector('#book-promo-title');
+  if (modalHeaderH3 && ui && ui.modalBookHeader) modalHeaderH3.textContent = ui.modalBookHeader;
+
+  const modalBadge = document.querySelector('.book-promo-badge');
+  if (modalBadge && ui && ui.modalBookBadge) modalBadge.textContent = ui.modalBookBadge;
+
+  const modalMainTitle = document.querySelector('.book-promo-details .book-promo-title');
+  if (modalMainTitle && ui && ui.modalBookTitle) {
+    modalMainTitle.innerHTML = `${ui.modalBookTitle}<span>${ui.modalBookSubtitle || ''}</span>`;
+  }
+
+  const modalAuthor = document.querySelector('.book-promo-author');
+  if (modalAuthor && ui && ui.modalBookAuthor) modalAuthor.innerHTML = ui.modalBookAuthor;
+
+  const modalDesc = document.querySelector('.book-promo-desc');
+  if (modalDesc && ui && ui.modalBookDesc) modalDesc.textContent = ui.modalBookDesc;
+
+  const modalMetaSpans = document.querySelectorAll('.book-promo-meta span');
+  if (modalMetaSpans && modalMetaSpans.length >= 3 && ui) {
+    if (ui.modalBookMetaPdf) modalMetaSpans[0].innerHTML = `📄 ${ui.modalBookMetaPdf.replace('📄', '').trim()}`;
+    if (ui.modalBookMetaHd) modalMetaSpans[1].innerHTML = `⚡ ${ui.modalBookMetaHd.replace('⚡', '').trim()}`;
+    if (ui.modalBookMetaFree) modalMetaSpans[2].innerHTML = `🎁 ${ui.modalBookMetaFree.replace('🎁', '').trim()}`;
+  }
+
+  document.querySelectorAll('.btn-book-download').forEach(modalDlBtn => {
+    modalDlBtn.setAttribute('href', bookPdf);
+    modalDlBtn.setAttribute('download', bookPdf);
+    if (ui && ui.modalBookDownloadBtn) modalDlBtn.innerHTML = `📥 ${ui.modalBookDownloadBtn.replace('📥', '').trim()}`;
+  });
+
+  const modalDismissBtn = document.querySelector('.btn-book-dismiss');
+  if (modalDismissBtn && ui && ui.modalBookContinueBtn) modalDismissBtn.textContent = ui.modalBookContinueBtn;
 }
+
+window.updateStaticDOM = updateStaticDOM;
 
 // Initialisation dès que le DOM est prêt
 if (document.readyState === 'loading') {

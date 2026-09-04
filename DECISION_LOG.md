@@ -278,18 +278,43 @@ Ce projet constitue la plateforme interactive officielle du manuel de réfutatio
 
 ---
 
+### 📚 Décision 13 : Dynamisation Intégrale des Visuels et du PDF du Livre Arabe (منكر السنة التائب)
+- **Constat & Problème rapporté** :
+  - Lors du basculement en langue arabe (via le bouton de langue ou accès direct), la couverture 3D restait la version française (*Le Coraniste Repenti*) et le bouton de téléchargement renvoyait vers le PDF français au lieu de l'édition arabe (*Munkir Al-Sunna Al-Ta'ib*).
+  - *Cause identifiée* : Dans `js/app.js`, la fonction `renderLandingShowcaseHTML` contenait des chaînes codées en dur pour `couverture livre.png`, `arriere livre.png` et `LE_CORANISTE_REPENTI_EDITION_FINALE.pdf`. Lors de l'initialisation ou de chaque réactualisation de la page d'accueil par le routeur SPA (`handleRouting`), ces valeurs écrasaient les attributs dynamiques positionnés par `i18n.js`.
+- **Actions correctives appliquées** :
+  - **Dynamisation dans `js/app.js` (`renderLandingShowcaseHTML`)** :
+    - Détection automatique de la langue active (`window.CURRENT_LANG`).
+    - Injection dynamique de `bookCoverFront` (`couverture_arabe.png` pour `ar`/`ary`), `bookCoverBack` (`arriere_arabe.png`), `bookPdfFile` (`MUNKIR_AL_SUNNA_AL_TAIB_EDITION_ARABE_FINALE.pdf`), `bookSpineText` et textes alternatifs.
+    - Mise à jour de tous les liens de téléchargement (bouton d'action doré `.btn-landing-gold` et bouton rapide `.btn-book-quick-dl`).
+  - **Synchronisation Post-Routage dans `js/i18n.js`** :
+    - Appel systématique de `updateStaticDOM(langPack.ui)` après `handleRouting()` pour garantir la cohérence des éléments injectés.
+    - Utilisation de `querySelectorAll` sur tous les sélecteurs de couverture et de téléchargement pour couvrir simultanément la landing page, la barre latérale et la modale 3D promo (`#book-promo-modal`).
+  - **Rafraîchissement automatique à l'ouverture de la Modale (`window.openModal`)** :
+    - Réactualisation des visuels recto/verso et du lien PDF arabe lors de chaque ouverture de la modale promo.
+- **Fichiers impactés** :
+  - [`js/app.js`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/js/app.js)
+  - [`js/i18n.js`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/js/i18n.js)
+  - [`DECISION_LOG.md`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/DECISION_LOG.md)
+
+---
+
 ## 3. INVENTAIRE DES FICHIERS DU PROJET
 
 | Répertoire / Fichier | Rôle & Contenu |
 | :--- | :--- |
 | [`index.html`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/index.html) | Structure principale, Passerelle de langue (`#lang-gateway`), Modale 3D Promo du livre (`#book-promo-modal`), Modales de recherche, contact, mentions légales, partage et Al-Barbahârî. |
+| [`ar/index.html`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/ar/index.html) | Version pré-rendue en arabe avec métadonnées SEO, typographie RTL et édition arabe du livre. |
 | [`css/style.css`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/css/style.css) | Système de design complet (charte « Pour les Nuls » jaune/noir, composants modulaires, rendu 3D du livre avec perspective et rotation, responsive mobile, support RTL, animations). |
 | [`js/app.js`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/js/app.js) | Logique applicative : routeur SPA hash, contrôleur 3D parallax tilt du livre, gestion de session promo, rendu dynamique des fiches, quiz interactifs, recherche plein texte, gestion des modales. |
 | [`js/i18n.js`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/js/i18n.js) | Moteur d'internationalisation : sélecteur de langue, bascule dynamique LTR/RTL, mise à jour en temps réel du DOM statique (`updateStaticDOM`). |
 | [`js/translations/*.js`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/js/translations/) | 13 packs de dictionnaires complets (`fr.js`, `ar.js`, `en.js`, `es.js`, `it.js`, `pt.js`, `de.js`, `ur.js`, `ta.js`, `ary.js`, `ps.js`, `ku.js`, `ce.js`). |
-| [`LE_CORANISTE_REPENTI_EDITION_FINALE.pdf`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/LE_CORANISTE_REPENTI_EDITION_FINALE.pdf) | Édition finale complète et téléchargeable du livre *Le Coraniste Repenti*. |
-| [`couverture livre.png`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/couverture%20livre.png) / [`arriere livre.png`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/arriere%20livre.png) | Visuels graphiques HD pour le composant interactif 3D Recto / Verso. |
+| [`LE_CORANISTE_REPENTI_EDITION_FINALE.pdf`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/LE_CORANISTE_REPENTI_EDITION_FINALE.pdf) | Édition finale française complète et téléchargeable du livre *Le Coraniste Repenti*. |
+| [`MUNKIR_AL_SUNNA_AL_TAIB_EDITION_ARABE_FINALE.pdf`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/MUNKIR_AL_SUNNA_AL_TAIB_EDITION_ARABE_FINALE.pdf) | Édition finale arabe officielle complète et téléchargeable du livre *منكر السنة التائب*. |
+| [`couverture livre.png`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/couverture%20livre.png) / [`arriere livre.png`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/arriere%20livre.png) | Visuels graphiques HD français pour le composant interactif 3D Recto / Verso. |
+| [`couverture_arabe.png`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/couverture_arabe.png) / [`arriere_arabe.png`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/arriere_arabe.png) | Visuels graphiques HD arabes pour le composant interactif 3D Recto / Verso (1ère et 4ème de couverture). |
 | [`api/counter.js`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/api/counter.js) | API Serverless Vercel de comptage anonyme des visites avec protection anti-spam. |
+| [`api/downloads.js`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/api/downloads.js) | API Serverless Vercel de comptage anonyme des téléchargements du livre (FR et AR). |
 | [`vercel.json`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/vercel.json) | Configuration de déploiement Vercel, règles de réécriture SPA et en-têtes HTTP de sécurité. |
 | [`scripts/`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/scripts/) | Scripts d'automatisation, compilateurs de langues et outils d'audit linguistique (`check_zero_english_leakage.cjs`, `integrate_book_promo.mjs`). |
 | [`pdf/`](file:///c:/Users/P%20C/Documents/Mes%20ouvrages/MANUEL%20DE%20REFUTATION%20DU%20CORANISME/pdf/) | 10 fascicules PDF originaux des arguments + PDF de la boîte à outils des sophismes. |

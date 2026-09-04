@@ -488,18 +488,21 @@ function initDownloadsCounter() {
   if (!window.HAS_BOUND_DOWNLOAD_TRACKING) {
     window.HAS_BOUND_DOWNLOAD_TRACKING = true;
     document.addEventListener('click', (e) => {
-      const link = e.target.closest('a[href*="LE_CORANISTE_REPENTI_EDITION_FINALE.pdf"], .btn-book-download, .btn-sidebar-book-dl');
+      const link = e.target.closest('a[href*="LE_CORANISTE_REPENTI_EDITION_FINALE.pdf"], a[href*="MUNKIR_AL_SUNNA_AL_TAIB_EDITION_ARABE_FINALE.pdf"], .btn-book-download, .btn-sidebar-book-dl, .btn-book-quick-dl');
       if (link) {
         const current = (window.LAST_DOWNLOAD_COUNT || fallbackCount) + 1;
         window.LAST_DOWNLOAD_COUNT = current;
         localStorage.setItem('anti_coranisme_downloads', current.toString());
         if (dlValEl) dlValEl.textContent = formatCount(current);
 
+        const href = link.getAttribute('href') || '';
+        const downloadedBook = href.includes('MUNKIR_AL_SUNNA_AL_TAIB_EDITION_ARABE_FINALE') ? 'MUNKIR_AL_SUNNA_AL_TAIB_EDITION_ARABE_FINALE.pdf' : 'LE_CORANISTE_REPENTI_EDITION_FINALE.pdf';
+
         try {
           fetch('/api/downloads', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ event: 'download', book: 'LE_CORANISTE_REPENTI_EDITION_FINALE.pdf' })
+            body: JSON.stringify({ event: 'download', book: downloadedBook, lang: window.CURRENT_LANG || 'fr' })
           }).catch(() => {});
         } catch (err) {}
       }
@@ -696,6 +699,15 @@ function handleRouting() {
  */
 function renderLandingShowcaseHTML(ui) {
   const downloadCount = window.LAST_DOWNLOAD_COUNT ? window.LAST_DOWNLOAD_COUNT.toLocaleString() : '3 480+';
+  const activeLang = window.CURRENT_LANG || 'fr';
+  const isArabicEdition = (activeLang === 'ar' || activeLang === 'ary');
+  const bookPdf = (ui && ui.bookPdfFile) || (isArabicEdition ? 'MUNKIR_AL_SUNNA_AL_TAIB_EDITION_ARABE_FINALE.pdf' : 'LE_CORANISTE_REPENTI_EDITION_FINALE.pdf');
+  const coverFront = (ui && ui.bookCoverFront) || (isArabicEdition ? 'couverture_arabe.png' : 'couverture livre.png');
+  const coverBack = (ui && ui.bookCoverBack) || (isArabicEdition ? 'arriere_arabe.png' : 'arriere livre.png');
+  const spineTextVal = (ui && ui.bookSpineText) || (isArabicEdition ? 'مُنكِرُ السُّنَّةِ التَّائِب • صَلَاحُ الدِّين أَحْمَد' : 'LE CORANISTE REPENTI • SALAH EDDINE AHMED');
+  const coverAlt = isArabicEdition ? 'غلاف كتاب منكر السنة التائب' : 'Couverture Livre Le Coraniste Repenti';
+  const backAlt = isArabicEdition ? 'الغلاف الخلفي لكتاب منكر السنة التائب' : 'Quatrième de couverture';
+  const ribbonText = (ui && ui.landingBookRibbon) || (isArabicEdition ? 'كتاب مجاني' : 'LIVRE OFFERT');
 
   return `
     <!-- LANDING PAGE SHOWCASE 3D IMMERSIVE -->
@@ -733,11 +745,11 @@ function renderLandingShowcaseHTML(ui) {
             <a href="#arg-1" class="btn-landing-primary">
               <span>🚀</span> <span id="btn-start-reading">${ui.btnStartReading || ui.btnStartArg1 || "Débuter par l'Argument 1"}</span>
             </a>
-            <a href="LE_CORANISTE_REPENTI_EDITION_FINALE.pdf" download="LE_CORANISTE_REPENTI_EDITION_FINALE.pdf" class="btn-landing-gold" target="_blank" rel="noopener">
-              <span>📥</span> <span id="btn-dl-landing">${ui.btnDlLanding || ui.modalBookDownloadBtn || "Télécharger le Livre (PDF)"}</span>
+            <a href="${bookPdf}" download="${bookPdf}" class="btn-landing-gold" target="_blank" rel="noopener">
+              <span>📥</span> <span id="btn-dl-landing">${ui.btnDlLanding || ui.modalBookDownloadBtn || (isArabicEdition ? "تحميل الكتاب (PDF)" : "Télécharger le Livre (PDF)")}</span>
             </a>
             <button class="btn-landing-secondary" data-action="open-modal" data-modal-id="book-promo-modal">
-              <span>✨</span> <span id="btn-preview-3d">${ui.btnPreview3D || ui.sidebarBook3D || "Feuilleter en 3D"}</span>
+              <span>✨</span> <span id="btn-preview-3d">${ui.btnPreview3D || ui.sidebarBook3D || (isArabicEdition ? "تصفح الكتاب ثلاثي الأبعاد" : "Feuilleter en 3D")}</span>
             </button>
             <button class="btn-landing-outline" data-action="open-search">
               <span>🔍</span> <span id="btn-search-landing">${ui.btnSearchLanding || ui.searchBtn || "Rechercher"}</span>
@@ -785,17 +797,17 @@ function renderLandingShowcaseHTML(ui) {
               <div class="landing-book-cube">
                 <!-- FACE AVANT -->
                 <div class="landing-book-face landing-book-front">
-                  <img src="couverture livre.png" alt="Couverture Livre Le Coraniste Repenti" class="landing-cover-img" loading="eager">
+                  <img src="${coverFront}" alt="${coverAlt}" class="landing-cover-img" loading="eager">
                   <div class="landing-book-shine"></div>
-                  <div class="landing-book-badge-ribbon">${ui.landingBookRibbon || "LIVRE OFFERT"}</div>
+                  <div class="landing-book-badge-ribbon">${ribbonText}</div>
                 </div>
                 <!-- TRANCHE (SPINE) -->
                 <div class="landing-book-face landing-book-spine">
-                  <span class="spine-text">LE CORANISTE REPENTI • SALAH EDDINE AHMED</span>
+                  <span class="spine-text">${spineTextVal}</span>
                 </div>
                 <!-- ARRIÈRE (BACK) -->
                 <div class="landing-book-face landing-book-back">
-                  <img src="arriere livre.png" alt="Quatrième de couverture" class="landing-back-img">
+                  <img src="${coverBack}" alt="${backAlt}" class="landing-back-img">
                 </div>
               </div>
             </div>
@@ -803,10 +815,10 @@ function renderLandingShowcaseHTML(ui) {
             <!-- Boutons sous le livre 3D -->
             <div class="landing-book-quick-controls">
               <button class="btn-book-quick-action" data-action="open-modal" data-modal-id="book-promo-modal">
-                <span>🔄</span> ${ui.btnRotate3D || "Tourner en 3D"}
+                <span>🔄</span> ${ui.btnRotate3D || (isArabicEdition ? "تدوير ثلاثي الأبعاد" : "Tourner en 3D")}
               </button>
-              <a href="LE_CORANISTE_REPENTI_EDITION_FINALE.pdf" download="LE_CORANISTE_REPENTI_EDITION_FINALE.pdf" class="btn-book-quick-dl" target="_blank" rel="noopener">
-                <span>📥</span> ${ui.btnDlPdf || "Télécharger PDF"}
+              <a href="${bookPdf}" download="${bookPdf}" class="btn-book-quick-dl" target="_blank" rel="noopener">
+                <span>📥</span> ${ui.btnDlPdf || (isArabicEdition ? "تحميل PDF" : "Télécharger PDF")}
               </a>
             </div>
           </div>
@@ -1785,7 +1797,14 @@ function initMobileDrawer() {
  */
 window.openModal = function(modalId) {
   const modal = document.getElementById(modalId);
-  if (modal) modal.classList.add('open');
+  if (modal) {
+    if (modalId === 'book-promo-modal' && typeof window.updateStaticDOM === 'function') {
+      const currentLang = window.CURRENT_LANG || 'fr';
+      const ui = (window.I18N_DATA && window.I18N_DATA[currentLang] && window.I18N_DATA[currentLang].ui) ? window.I18N_DATA[currentLang].ui : {};
+      window.updateStaticDOM(ui);
+    }
+    modal.classList.add('open');
+  }
 };
 
 window.closeModal = function(modalId) {

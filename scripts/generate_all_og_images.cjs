@@ -16,10 +16,14 @@ if (!fs.existsSync(ASSETS_DIR)) {
   fs.mkdirSync(ASSETS_DIR, { recursive: true });
 }
 
-// Convertir la couverture en base64
-const coverBase64 = fs.existsSync(COVER_PATH) 
+// Convertir les couvertures en base64
+const ARABIC_COVER_PATH = path.join(ROOT_DIR, 'couverture_arabe.png');
+const defaultCoverBase64 = fs.existsSync(COVER_PATH) 
   ? `data:image/png;base64,${fs.readFileSync(COVER_PATH).toString('base64')}` 
   : '';
+const arabicCoverBase64 = fs.existsSync(ARABIC_COVER_PATH)
+  ? `data:image/png;base64,${fs.readFileSync(ARABIC_COVER_PATH).toString('base64')}`
+  : defaultCoverBase64;
 
 const CHROME_PATH = "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe";
 if (!fs.existsSync(CHROME_PATH)) {
@@ -83,6 +87,8 @@ LANG_CONFIGS.forEach(item => {
 
   const tempHtmlPath = path.join(__dirname, `temp_og_${code}.html`);
   const outputPngPath = path.join(ASSETS_DIR, `og-image-${code}.jpg`);
+
+  const currentCoverBase64 = (code === 'ar' || code === 'ary') ? arabicCoverBase64 : defaultCoverBase64;
 
   const htmlContent = `<!DOCTYPE html>
 <html lang="${code}" dir="${dir}">
@@ -316,8 +322,8 @@ LANG_CONFIGS.forEach(item => {
 
   <div class="visual-side">
     <div class="book-3d-wrap">
-      <img class="book-cover-img" src="${coverBase64}" alt="Livre">
-      <div class="book-free-badge">PDF Gratuit</div>
+      <img class="book-cover-img" src="${currentCoverBase64}" alt="Livre">
+      <div class="book-free-badge">${(code === 'ar' || code === 'ary') ? 'كتاب مجاني' : 'PDF Gratuit'}</div>
     </div>
   </div>
 </body>
